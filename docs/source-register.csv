@@ -1,0 +1,5 @@
+company,careers_url,ats_platform,terms_url,robots_txt_url,review_date,terms_review_status,robots_review_status,permission_status,approved_method,evidence_notes,reviewer,next_review_date
+Google,,Google Careers,,https://www.google.com/robots.txt,,not reviewed,reviewed,restricted/unresolved,,,,
+OpenAI,,Ashby,,https://openai.com/robots.txt,,not reviewed,reviewed,unresolved,,,,
+NVIDIA,,Workday,,https://www.nvidia.com/robots.txt,,reviewed,reviewed,prohibited unless written permission,,,,
+Anthropic,,Greenhouse,,https://www.anthropic.com/robots.txt,,not reviewed,reviewed,unresolved,,,,
