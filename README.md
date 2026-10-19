@@ -7,10 +7,6 @@ skill trends, hiring demand, and shifts in the technology market.
 
 Sprint 1 — Understanding Data Sources & Legal
 
-I am currently working solo. The project brief describes a four-person team,
-with each member specializing in a different company. Collecting data for all
-four target companies is subject to CadetX approval.
-
 ## Target companies
 
 - Google
