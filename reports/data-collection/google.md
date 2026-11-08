@@ -15,7 +15,7 @@
   - checks every URL with an RFC 9309 wildcard-aware robots matcher,
   - hard-refuses any URL containing `page=`,
   - never fetches job detail or application pages, because the results page already contains the data.
-- Google's Terms also list "scraping content that doesn't belong to you" as grounds for suspension. Volume is kept small and non-commercial, and raw text is not republished.
+- Google's Terms also list "scraping content that doesn't belong to you" as grounds for suspension. Volume is kept small and non-commercial, and every row keeps its source URL.
 - No personal data. Contacts are auto-scrubbed.
 
 Full review: [Sprint 1](../../docs/sprints/sprint-01-data-sources-legal.md#google-approved-with-conditions)

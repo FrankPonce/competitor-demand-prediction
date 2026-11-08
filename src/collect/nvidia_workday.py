@@ -1,9 +1,9 @@
 """NVIDIA via job pages listed in the Workday board's published sitemap.
 
-Conditions (see docs/sprint-01-data-sources-legal.md):
+Conditions (see docs/sprints/sprint-01-data-sources-legal.md):
 - only sitemap-listed URLs under /NVIDIAExternalCareerSite/, checked against the board's robots.txt
 - slow (default 1 request / 3 s), weekly
-- raw description text stays local (data/raw is gitignored)
+- every row keeps its source job URL
 """
 
 from __future__ import annotations

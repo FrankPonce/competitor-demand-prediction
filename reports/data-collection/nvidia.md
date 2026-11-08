@@ -12,7 +12,7 @@
 
 - The board's robots.txt `Allow`s `/NVIDIAExternalCareerSite/` for all agents and advertises the sitemap. Every URL is checked against it before fetching.
 - nvidia.com Terms of Service §3.2 prohibit scrapers on "the Site": nvidia.com, rapids.ai, nventures.ai, jetson-ai-lab.com, and NVIDIA-operated sites *where the Terms are linked*. The Workday-hosted board does **not** link them (browser check 2026-11-08: the only legal link is the Applicant Privacy Policy). No nvidia.com pages are fetched.
-- Conditions: sitemap-listed job pages only, slow rate, no application flow, raw text kept local, and stop if the board starts linking the nvidia.com Terms.
+- Conditions: sitemap-listed job pages only, slow rate, no application flow, source URL kept on every row, and stop if the board starts linking the nvidia.com Terms.
 - No personal data. Contacts are auto-scrubbed.
 
 Full review: [Sprint 1](../../docs/sprints/sprint-01-data-sources-legal.md#nvidia-approved-with-conditions)

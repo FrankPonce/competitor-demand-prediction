@@ -6,7 +6,7 @@ Usage:
     python -m src.collect.epoch_history
 
 Writes data/external/epoch/<YYYY-MM-DD>/ (the zip's CSVs + README) and
-data/processed/epoch_history.csv mapped to the project schema (gitignored).
+data/processed/epoch_history.csv mapped to the project schema.
 """
 
 from __future__ import annotations

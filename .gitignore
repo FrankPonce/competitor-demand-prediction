@@ -2,8 +2,8 @@
 __pycache__/
 .ipynb_checkpoints/
 .env
-data/raw/*
-data/processed/*
-data/external/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+
+# Raw API dumps duplicate the snapshot CSVs and are large; keep local
+data/raw/**/*.json
+# Epoch texts are already merged into data/processed/epoch_history.csv
+data/external/epoch/*/frontier_lab_hiring_posting_texts.csv

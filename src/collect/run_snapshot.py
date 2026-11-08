@@ -6,10 +6,10 @@ Usage (from the repo root):
     python -m src.collect.run_snapshot nvidia --limit 5    # quick test
 
 Writes:
-    data/raw/<company>/<YYYY-MM-DD>.json   raw source response        (gitignored)
-    data/raw/<company>/<YYYY-MM-DD>.csv    normalized snapshot        (gitignored)
+    data/raw/<company>/<YYYY-MM-DD>.json   raw source response        (kept local)
+    data/raw/<company>/<YYYY-MM-DD>.csv    normalized snapshot        (committed)
     data/processed/<company>.csv           all snapshots merged with
-                                           first/last seen + status   (gitignored)
+                                           first/last seen + status   (committed)
     reports/collection-log.csv             counts per run, no text    (committed)
 """
 

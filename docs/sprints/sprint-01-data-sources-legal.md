@@ -58,7 +58,7 @@ Reviewed 2026-11-08. Evidence is recorded in [`source-register.csv`](../source-r
   employment type, and compensation. robots.txt on openai.com only disallows
   `/microsoft-for-startups/`.
 - **Caveat:** openai.com/policies/terms-of-use returned HTTP 403 to automated
-  fetch on 2026-11-08. Read it manually in a browser and note anything relevant.
+  fetch on 2026-11-08, so Frank read it manually in a browser the same day. No blockers found.
 - **History:** Epoch AI Frontier Lab Hiring archive (CC BY).
 
 ### NVIDIA: approved with conditions
@@ -82,8 +82,8 @@ Reviewed 2026-11-08. Evidence is recorded in [`source-register.csv`](../source-r
      Never fetch disallowed paths, nvidia.com pages, or the application flow.
   2. Be gentle: at most 1 request every 2–3 seconds, once a week, with an
      identifying User-Agent.
-  3. Do not republish full NVIDIA description text in the public repo. Commit
-     derived fields (skills, categories, counts) only, and keep raw text local.
+  3. Full posting text is committed with its source URL (see the data-sharing
+     decision under Legal requirements); remove on request.
   4. Re-check before each run that the board still doesn't link the nvidia.com
      Terms. If it starts linking them, stop automated collection and switch to
      the fallback.
@@ -113,7 +113,7 @@ Reviewed 2026-11-08. Evidence is recorded in [`source-register.csv`](../source-r
   3. Same politeness and raw-text rules as NVIDIA.
 - **Caveat:** Google's terms also list "scraping content that doesn't belong to
   you" as grounds for suspension. Keep the volume small, keep it
-  non-commercial, and don't republish raw text.
+  non-commercial, and keep the source URL on every row.
 - **Limit:** Coverage will be a filtered sample (e.g. AI/ML and engineering
   roles), not all of Google's postings. Document this in the Sprint 2 Data
   Collection Report.
@@ -131,10 +131,14 @@ Rules followed for every source:
    contact details found inside descriptions during preprocessing.
 4. **Low impact.** Weekly cadence, rate-limited, identifying User-Agent, and no
    bypassing of logins, CAPTCHAs, or blocks.
-5. **Copyright and redistribution.** Job descriptions are copyrighted text.
-   Raw text stays out of the public repo (`data/raw/` is gitignored), and only
-   derived features and aggregates are committed. Epoch AI data is CC BY, so it
-   is redistributable with attribution.
+5. **Data sharing (decision 2026-11-08).** The collected datasets, including
+   full posting text, are committed to the repo so reviewers can inspect and
+   reproduce the work. Rationale: these are job adverts the companies publish
+   openly to the general public; the project is non-commercial and academic;
+   no personal data or confidential information is included; and every row
+   keeps its source `job_url` for attribution. Any company or source owner who
+   asks for removal gets their data taken out of the repo promptly. Epoch AI
+   data is CC BY and is credited wherever it is used.
 6. **Re-check before each collection run.** Terms and robots.txt change. Update
    `source-register.csv` when they do.
 
@@ -146,7 +150,7 @@ This is a documented good-faith review for an academic project, not legal advice
 | ---- | ---- |
 | Tooling | Python `requests` with small per-source collectors in `src/collect/`. `ats-scrapers` is optional for Greenhouse/Ashby, but the raw APIs are simple enough to call directly. Google and NVIDIA pages may need `playwright` because they render with JavaScript |
 | Cadence | First snapshot in Sprint 2, then weekly (every Monday) through Sprint 12. NVIDIA also runs every Thursday (decided in Sprint 2) |
-| Storage | `data/raw/<company>/<YYYY-MM-DD>.json`, gitignored |
+| Storage | `data/raw/<company>/<YYYY-MM-DD>.csv` snapshots and `data/processed/<company>.csv`, committed; raw API JSON dumps kept local for size |
 | Schema | Map every source to [`docs/data-dictionary.md`](../data-dictionary.md) and write `data/processed/<company>.csv` |
 | Dedup key | `job_id` = `<company>-<source id>` (Greenhouse id, Ashby id, Workday `JR…` requisition, Google job id) |
 | Dates | Use the source's publish date where one exists (Greenhouse `updated_at`/`first_published`, Ashby `publishedAt`). Otherwise use `first_seen_date` from snapshots |
@@ -163,7 +167,7 @@ This is a documented good-faith review for an academic project, not legal advice
 - [x] Legal requirements and data-handling rules written
 - [x] Collection plan for Sprint 2 written
 - [x] Source register filled in
-- [ ] Read OpenAI's terms of use manually (automated fetch was blocked)
+- [x] Read OpenAI's terms of use manually (2026-11-08, no blockers)
 - [ ] Optional: email NVIDIA recruiting for confirmation
 - [x] Write the Sprint 1 weekly note (`docs/weekly-notes/week-01.md`)
 - [ ] Push to GitHub and submit the repo link in the CadetX portal
@@ -177,7 +181,7 @@ This is a documented good-faith review for an academic project, not legal advice
 - [NVIDIA Workday robots.txt](https://nvidia.wd5.myworkdayjobs.com/robots.txt) · [sitemap](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/siteMap.xml)
 - [Google Terms of Service](https://policies.google.com/terms) · [google.com/robots.txt](https://www.google.com/robots.txt)
 - [Anthropic Consumer Terms](https://www.anthropic.com/legal/consumer-terms)
-- [OpenAI Terms of Use](https://openai.com/policies/terms-of-use/) (manual review pending)
+- [OpenAI Terms of Use](https://openai.com/policies/terms-of-use/) (reviewed manually 2026-11-08)
 
 ---
 

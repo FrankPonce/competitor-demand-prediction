@@ -13,9 +13,9 @@
 
 - Ashby documents the posting API as public, with no authentication.
 - openai.com/robots.txt disallows only `/microsoft-for-startups/`. We don't fetch openai.com pages at all.
-- OpenAI's terms of use page blocked automated fetching (HTTP 403). **A manual read is still pending.**
+- OpenAI's terms of use page blocked automated fetching (HTTP 403). Frank read it manually in a browser on 2026-11-08 and found nothing that blocks using the public Ashby posting API.
 - Postings with `isListed: false` (direct-link only) are skipped to respect the board's intent.
-- No personal data. Contacts are auto-scrubbed and raw text stays local.
+- No personal data. Contacts are auto-scrubbed. Data is committed with full text and source URLs.
 
 Full review: [Sprint 1](../../docs/sprints/sprint-01-data-sources-legal.md#openai-approved)
 
@@ -50,4 +50,4 @@ History: shared Epoch AI archive (see the [Anthropic report](anthropic.md)).
 
 - `publishedAt` is the *last* publish time, so reposts reset it. Use first-seen dates for velocity.
 - Unlisted postings are excluded by design.
-- The manual OpenAI terms read is still outstanding.
+- OpenAI terms reviewed manually on 2026-11-08 (no blockers).

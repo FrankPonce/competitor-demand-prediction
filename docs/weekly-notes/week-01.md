@@ -15,7 +15,7 @@
 
 - Scope: all four original companies.
 - Prefer documented public APIs over HTML scraping.
-- Raw description text stays local; only derived features are committed.
+- Datasets, including full posting text, are committed to the repo (remove on request).
 - Weekly snapshots start in Sprint 2 so a time series exists for NVIDIA and Google.
 
 ## Blockers / open questions
@@ -33,7 +33,7 @@
 
 ## Next steps
 
-- [ ] Read OpenAI terms manually
+- [x] Read OpenAI terms manually (no blockers)
 - [ ] Push repo and submit Task 1 link in CadetX portal
 - [ ] Sprint 2: build collectors in `src/collect/`, take the first snapshot, write the Data Collection Reports
 

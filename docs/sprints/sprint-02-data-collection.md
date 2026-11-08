@@ -1,6 +1,6 @@
 # Sprint 2 — Data Collection
 
-**Week of:** 2026-11-16 (started early, 2026-11-08) · **CadetX task 2** · **Status:** 🟡 In progress (first snapshot taken; weekly runs continue)
+**Week of:** 2026-11-16 (started early, 2026-11-08) · **CadetX task 2** · **Status:** ✅ Done (snapshots continue on schedule)
 
 ## Goal
 
@@ -12,7 +12,10 @@ that later sprints use as a time series.
 
 - [x] Data Collection Report per company (sources, legal checks, fields, limitations)
   - [Anthropic](../../reports/data-collection/anthropic.md) · [OpenAI](../../reports/data-collection/openai.md) · [NVIDIA](../../reports/data-collection/nvidia.md) · [Google](../../reports/data-collection/google.md)
-- [x] Raw collected dataset, stored locally in `data/raw/` and **not committed** because posting text is copyrighted. Anyone can rebuild it with the collectors (see the [README quickstart](../../README.md#-quickstart))
+- [x] Raw collected dataset, committed with full text:
+  - weekly snapshots: [`data/raw/<company>/`](../../data/raw/)
+  - merged per-company datasets: [`data/processed/`](../../data/processed/)
+  - Epoch AI history: [`data/processed/epoch_history.csv`](../../data/processed/epoch_history.csv)
 
 ## What was built
 
@@ -50,7 +53,7 @@ Run log (text-free, committed): [`reports/collection-log.csv`](../../reports/col
 - **APIs over scraping** for Anthropic and OpenAI. Each takes one request per snapshot.
 - **NVIDIA uses the JSON-LD** embedded in each job page. That is the structured data the page publishes for search engines, so no JavaScript rendering is needed.
 - **Google uses newest-first slices.** Pagination is disallowed, so each query is a narrow keyword × location × seniority slice sorted by date. Run weekly, this catches most *new* AI/ML postings in each slice. It is a deliberate sample, not a census.
-- **Raw text stays local.** Only code, docs and aggregate logs are committed.
+- **Datasets are committed with full text** so reviewers can inspect them (see the [Sprint 1 data-sharing decision](sprint-01-data-sources-legal.md#legal-requirements)). Raw API JSON dumps stay local because they duplicate the CSVs and are large.
 - **Test runs (`--limit`) never write snapshot CSVs**, so they can't pollute the time series.
 
 ## Collection routine (until Sprint 12)
@@ -63,7 +66,7 @@ Run log (text-free, committed): [`reports/collection-log.csv`](../../reports/col
 
 ## Open items
 
-- [ ] Read OpenAI's terms of use manually (the automated fetch got a 403)
+- [x] Read OpenAI's terms of use manually (done 2026-11-08, no blockers)
 - [ ] Second snapshot on 2026-11-16 to confirm the merge (first/last seen, closed status) works across weeks
 
 ---

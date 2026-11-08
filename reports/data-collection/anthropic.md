@@ -14,7 +14,7 @@
 - Greenhouse documents the Job Board API as public ("authentication is not required for any GET endpoints").
 - anthropic.com/robots.txt allows all paths. Anthropic's consumer terms prohibit scraping their *Services*. We don't touch anthropic.com; the API is Greenhouse infrastructure intended for exactly this.
 - Epoch AI data is CC BY. Attribution is in the README and here.
-- No personal data. Emails and phone numbers in descriptions are auto-scrubbed. Raw text stays local (gitignored).
+- No personal data. Emails and phone numbers in descriptions are auto-scrubbed. Data is committed with full text and source URLs.
 
 Full review: [Sprint 1](../../docs/sprints/sprint-01-data-sources-legal.md#anthropic-approved)
 

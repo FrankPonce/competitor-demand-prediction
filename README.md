@@ -7,8 +7,8 @@
 
 <br>
 
-![Status](https://img.shields.io/badge/status-Sprint%202%20·%20Data%20Collection-2e6f8e?style=flat-square)
-![Progress](https://img.shields.io/badge/sprints-1%20%2F%2012%20done-e07b2f?style=flat-square)
+![Status](https://img.shields.io/badge/status-Sprint%203%20·%20NLP%20Preprocessing-2e6f8e?style=flat-square)
+![Progress](https://img.shields.io/badge/sprints-2%20%2F%2012%20done-e07b2f?style=flat-square)
 ![Python](https://img.shields.io/badge/python-3.12-10243b?style=flat-square&logo=python&logoColor=white)
 ![Program](https://img.shields.io/badge/CadetX-Virtual%20Work%20Experience-0D4ABC?style=flat-square)
 
@@ -53,8 +53,8 @@ Click a sprint to see its goal, deliverables, and results.
 | # | Sprint | Week of | Summary | Status |
 |:-:|---|:-:|---|:-:|
 | 01 | [**Data Sources & Legal**](docs/sprints/sprint-01-data-sources-legal.md) | Nov 9 | Reviewed terms + robots.txt for all four companies, found a compliant route for each, plus CC BY history for two | ✅ |
-| 02 | [**Data Collection**](docs/sprints/sprint-02-data-collection.md) | Nov 16 | 4 collectors built; first snapshot of 2,170 postings + 4,111 historical; [Data Collection Reports](reports/data-collection/) | 🟡 |
-| 03 | [**NLP Preprocessing**](docs/sprints/sprint-03-nlp-preprocessing.md) | Nov 23 | Strip boilerplate, normalize, section-split, and lemmatize descriptions | ⬜ |
+| 02 | [**Data Collection**](docs/sprints/sprint-02-data-collection.md) | Nov 16 | 4 collectors built; first snapshot of 2,170 postings + 4,111 historical; [Data Collection Reports](reports/data-collection/) | ✅ |
+| 03 | [**NLP Preprocessing**](docs/sprints/sprint-03-nlp-preprocessing.md) | Nov 23 | Strip boilerplate, normalize, section-split, and lemmatize descriptions | 🟡 |
 | 04 | [**Skill Extraction**](docs/sprints/sprint-04-skill-extraction.md) | Nov 30 | Shared skill taxonomy; skills, categories, tech-stack and seniority features | ⬜ |
 | 05 | [**Hiring Trends**](docs/sprints/sprint-05-hiring-trends.md) | Dec 7 | Weekly time series of new / active / closed postings; hiring velocity | ⬜ |
 | 06 | [**Competitor Comparison**](docs/sprints/sprint-06-competitor-comparison.md) | Dec 14 | Role mix, distinctive skills, seniority and location side by side | ⬜ |
@@ -125,9 +125,9 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 │   └── source-register.csv   legal / access review evidence
 ├── src/collect/              collectors · validation · snapshot runner
 ├── data/
-│   ├── raw/                  snapshots (gitignored: posting text is copyrighted)
-│   ├── external/             Epoch AI download (gitignored, re-downloadable)
-│   └── processed/            merged datasets (gitignored)
+│   ├── raw/                  weekly snapshot CSVs per company (full text)
+│   ├── external/             Epoch AI download (CC BY)
+│   └── processed/            merged per-company datasets + Epoch history
 ├── notebooks/                exploration & analysis
 ├── reports/                  run logs, collection reports, insight reports
 └── presentations/            final deck
@@ -140,7 +140,7 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 - **Documented routes only.** Terms and robots.txt are reviewed per source and re-checked before runs. Public APIs are preferred over scraping.
 - **Gentle.** Weekly cadence, rate-limited, with an identifying User-Agent. Never paginate where robots.txt forbids it.
 - **No personal data.** Posting content only. Emails and phone numbers are scrubbed automatically.
-- **No republishing.** Raw job descriptions stay local. Only derived features and aggregates are committed.
+- **Open data, with attribution.** Datasets are committed so the work can be inspected and reproduced. Every row keeps its source URL, and data is removed promptly if a source owner asks.
 - **Attribution.** History for Anthropic and OpenAI comes from Epoch AI, "Data on Frontier Lab Hiring", [epoch.ai](https://epoch.ai/data/frontier-lab-hiring) (CC BY).
 
 <div align="center">

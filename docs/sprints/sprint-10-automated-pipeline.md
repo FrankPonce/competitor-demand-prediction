@@ -15,7 +15,7 @@ Connect collection → preprocessing → skills → trends → forecast into one
 
 - Single entry point (`python -m src.pipeline`)
 - Weekly schedule (GitHub Actions cron or local Task Scheduler)
-- Keep raw text out of the public repo even when automated
+- Auto-commit new snapshot CSVs; keep raw JSON dumps out of git
 - Run log + failure alerts
 
 ## Outputs
