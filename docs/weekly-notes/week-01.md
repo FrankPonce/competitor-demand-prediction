@@ -36,3 +36,10 @@
 - [ ] Read OpenAI terms manually
 - [ ] Push repo and submit Task 1 link in CadetX portal
 - [ ] Sprint 2: build collectors in `src/collect/`, take the first snapshot, write the Data Collection Reports
+
+## Update — Sprint 2 started early (2026-11-08)
+
+- Built collectors for all four sources plus the Epoch AI history import (`src/collect/`).
+- First snapshot: Anthropic 675 · OpenAI 816 · NVIDIA 100 · Google 579 · Epoch history 4,111. Zero validation issues.
+- Decision: NVIDIA runs every 3 days because its sitemap only holds about 5 days of postings.
+- Data Collection Reports written for all four companies (`reports/data-collection/`).

@@ -2,7 +2,7 @@
 
 **Project:** Competitor Demand Prediction Using Job Postings  
 **CadetX task:** 1 (Sprint 1 of 12)  
-**Status:** Source review done 2026-11-08; no job-posting data collected yet  
+**Status:** ✅ Done (source review 2026-11-08)  
 **Prepared by:** Frank Mediavilla (solo; holds all four rotating roles)  
 **Scope:** Google, OpenAI, NVIDIA, Anthropic
 
@@ -31,7 +31,7 @@ The brief names five source types:
 
 ## Approved source list
 
-Reviewed 2026-11-08. Evidence is recorded in [`source-register.csv`](source-register.csv).
+Reviewed 2026-11-08. Evidence is recorded in [`source-register.csv`](../source-register.csv).
 
 ### Anthropic: approved
 
@@ -145,9 +145,9 @@ This is a documented good-faith review for an academic project, not legal advice
 | Item | Plan |
 | ---- | ---- |
 | Tooling | Python `requests` with small per-source collectors in `src/collect/`. `ats-scrapers` is optional for Greenhouse/Ashby, but the raw APIs are simple enough to call directly. Google and NVIDIA pages may need `playwright` because they render with JavaScript |
-| Cadence | First snapshot in Sprint 2, then weekly (e.g. every Monday) through Sprint 12 |
+| Cadence | First snapshot in Sprint 2, then weekly (every Monday) through Sprint 12. NVIDIA also runs every Thursday (decided in Sprint 2) |
 | Storage | `data/raw/<company>/<YYYY-MM-DD>.json`, gitignored |
-| Schema | Map every source to `docs/data-dictionary.md` and write `data/processed/<company>.csv` |
+| Schema | Map every source to [`docs/data-dictionary.md`](../data-dictionary.md) and write `data/processed/<company>.csv` |
 | Dedup key | `job_id` = `<company>-<source id>` (Greenhouse id, Ashby id, Workday `JR…` requisition, Google job id) |
 | Dates | Use the source's publish date where one exists (Greenhouse `updated_at`/`first_published`, Ashby `publishedAt`). Otherwise use `first_seen_date` from snapshots |
 | History | Download the Epoch AI CSVs for Anthropic and OpenAI and keep the attribution |
@@ -178,3 +178,7 @@ This is a documented good-faith review for an academic project, not legal advice
 - [Google Terms of Service](https://policies.google.com/terms) · [google.com/robots.txt](https://www.google.com/robots.txt)
 - [Anthropic Consumer Terms](https://www.anthropic.com/legal/consumer-terms)
 - [OpenAI Terms of Use](https://openai.com/policies/terms-of-use/) (manual review pending)
+
+---
+
+[← Back to README](../../README.md)

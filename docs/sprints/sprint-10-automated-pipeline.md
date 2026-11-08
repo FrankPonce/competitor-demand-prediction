@@ -1,0 +1,31 @@
+# Sprint 10 — Automated Pipeline (optional task)
+
+**Week of:** 2027-01-11 · **CadetX optional task** · **Status:** ⬜ Not started
+
+## Goal
+
+Connect collection → preprocessing → skills → trends → forecast into one scheduled pipeline.
+
+## CadetX deliverables
+
+- [ ] Documented pipeline design & automation steps
+- [ ] Final workflow in GitHub
+
+## Planned approach
+
+- Single entry point (`python -m src.pipeline`)
+- Weekly schedule (GitHub Actions cron or local Task Scheduler)
+- Keep raw text out of the public repo even when automated
+- Run log + failure alerts
+
+## Outputs
+
+_To be filled in when the sprint runs._
+
+## Notes & decisions
+
+_To be filled in when the sprint runs._
+
+---
+
+[← Back to README](../../README.md)

@@ -1,85 +1,149 @@
-# Competitor Demand Prediction Using Job Postings
+<div align="center">
 
-A CadetX Virtual Work Experience project exploring job-posting data to identify
-skill trends, hiring demand, and shifts in the technology market.
+# 📈 Competitor Demand Prediction
+### Using Job Postings · NLP + Forecasting
 
-## Status
+*Turning public job postings from Google, OpenAI, NVIDIA and Anthropic into signals about<br>where each company is heading: skills, teams, and hiring demand.*
 
-Task 1 — Understanding Data Sources & Legal (in progress)
+<br>
 
-## Team arrangement
+![Status](https://img.shields.io/badge/status-Sprint%202%20·%20Data%20Collection-2e6f8e?style=flat-square)
+![Progress](https://img.shields.io/badge/sprints-1%20%2F%2012%20done-e07b2f?style=flat-square)
+![Python](https://img.shields.io/badge/python-3.12-10243b?style=flat-square&logo=python&logoColor=white)
+![Program](https://img.shields.io/badge/CadetX-Virtual%20Work%20Experience-0D4ABC?style=flat-square)
 
-The CadetX brief is designed for a team of four, one company specialist each,
-with four weekly rotating roles. This project is being carried out **solo** by
-Frank Mediavilla, who holds all four roles (Scrum Leader, Data Quality Lead,
-Documentation Lead, Technical Lead) and covers all four companies. Work is
-asynchronous; weekly notes in `docs/weekly-notes/` stand in for the team meeting
-minutes.
+[**Roadmap**](#-sprint-roadmap) · [**Data sources**](#-data-sources) · [**Quickstart**](#-quickstart) · [**Repo map**](#-repository-map) · [**Ethics**](#-data-ethics)
 
-## Target companies
+</div>
 
-- Google
-- OpenAI
-- NVIDIA
-- Anthropic
+---
 
-## Data collection
+## 🎯 Overview
 
-No job-posting data has been collected yet. Sources and access routes were
-reviewed on 2026-11-08 (details in `docs/sprint-01-data-sources-legal.md` and
-`docs/source-register.csv`):
+Job postings show what a company plans to do before it shows up in
+earnings reports or product launches. This project builds an end-to-end
+hiring-intelligence pipeline:
 
-| Company | Current postings route | Historical route |
-| ------- | ---------------------- | ---------------- |
-| Anthropic | Greenhouse public Job Board API | Epoch AI Frontier Lab Hiring archive (CC BY) |
-| OpenAI | Ashby public Job Posting API | Epoch AI Frontier Lab Hiring archive (CC BY) |
-| NVIDIA | Workday board sitemap (robots.txt allows the path) | Own weekly snapshots |
-| Google | Google Careers results pages without pagination + job pages | Own weekly snapshots |
+```mermaid
+flowchart LR
+    A[🔎 Collect<br/>weekly snapshots] --> B[🧹 Preprocess<br/>NLP cleaning]
+    B --> C[🧩 Extract skills<br/>shared taxonomy]
+    C --> D[📊 Trends<br/>hiring velocity]
+    D --> E[🔮 Forecast<br/>demand]
+    C --> F[🤝 Compare &<br/>similarity]
+    E --> G[💡 Insights &<br/>presentation]
+    F --> G
+```
 
-## Repository structure
+| | |
+|---|---|
+| **Problem** | Companies lack a systematic, data-driven way to read competitor hiring and anticipate demand. |
+| **Goal** | Use external job-posting data to forecast competitor demand, skill trends, and market direction. |
+| **Who it's for** | Strategy, HR & talent, product managers, CTOs, investors. |
+| **Team** | Solo: [Frank Mediavilla](https://github.com/FrankPonce), rotating through Scrum Lead, Data Quality, Docs and Tech Lead roles. |
+| **Timeline** | 12 weekly sprints · Nov 2026 → Jan 2027 |
 
-- `docs/` — task documents, weekly notes, source register, and data dictionary
-- `data/raw/` — approved source data; excluded from Git until reuse rights are confirmed
-- `data/processed/` — cleaned or derived data; excluded from Git by default
-- `notebooks/` — exploratory analysis
-- `src/` — reusable processing and modelling code
-- `reports/` — findings and written deliverables
-- `presentations/` — final presentation materials
+---
 
-## Data handling
+## 🗺️ Sprint roadmap
 
-Do not collect personal or sensitive information. Preserve source URLs and
-collection dates in project documentation. Do not publish job-description text
-or datasets unless the relevant permissions allow it.
+All **10 CadetX tasks + both optional tasks** run as one sprint per week.
+Click a sprint to see its goal, deliverables, and results.
 
-## Project plan
+| # | Sprint | Week of | Summary | Status |
+|:-:|---|:-:|---|:-:|
+| 01 | [**Data Sources & Legal**](docs/sprints/sprint-01-data-sources-legal.md) | Nov 9 | Reviewed terms + robots.txt for all four companies, found a compliant route for each, plus CC BY history for two | ✅ |
+| 02 | [**Data Collection**](docs/sprints/sprint-02-data-collection.md) | Nov 16 | 4 collectors built; first snapshot of 2,170 postings + 4,111 historical; [Data Collection Reports](reports/data-collection/) | 🟡 |
+| 03 | [**NLP Preprocessing**](docs/sprints/sprint-03-nlp-preprocessing.md) | Nov 23 | Strip boilerplate, normalize, section-split, and lemmatize descriptions | ⬜ |
+| 04 | [**Skill Extraction**](docs/sprints/sprint-04-skill-extraction.md) | Nov 30 | Shared skill taxonomy; skills, categories, tech-stack and seniority features | ⬜ |
+| 05 | [**Hiring Trends**](docs/sprints/sprint-05-hiring-trends.md) | Dec 7 | Weekly time series of new / active / closed postings; hiring velocity | ⬜ |
+| 06 | [**Competitor Comparison**](docs/sprints/sprint-06-competitor-comparison.md) | Dec 14 | Role mix, distinctive skills, seniority and location side by side | ⬜ |
+| 07 | [**Demand Forecasting**](docs/sprints/sprint-07-demand-forecasting.md) | Dec 21 | Baselines → ARIMA / Prophet with backtesting and honest intervals | ⬜ |
+| 08 | [**Similarity Scoring**](docs/sprints/sprint-08-similarity-scoring.md) | Dec 28 | TF-IDF + Sentence-BERT similarity, role clusters, heatmaps | ⬜ |
+| 09 | [**Insights & Reporting**](docs/sprints/sprint-09-insights-reporting.md) | Jan 4 | Decision-ready findings per company and across the landscape | ⬜ |
+| 10 | [**Automated Pipeline**](docs/sprints/sprint-10-automated-pipeline.md) <sub>optional</sub> | Jan 11 | One scheduled end-to-end pipeline | ⬜ |
+| 11 | [**Fine-Tuned Skill Model**](docs/sprints/sprint-11-fine-tuning.md) <sub>optional</sub> | Jan 18 | BERT/RoBERTa token classifier vs. rule-based baseline | ⬜ |
+| 12 | [**Final Presentation**](docs/sprints/sprint-12-final-presentation.md) | Jan 25 | Mentor review, final deck, polished repo | ⬜ |
 
-All 12 CadetX tasks (the 10 core tasks plus both optional ones) are planned
-as 12 weekly sprints. The two optional tasks come before the final
-presentation so it can include them. Each sprint ends with work pushed to this
-repository and the repo link submitted in the CadetX portal.
+<sub>✅ done · 🟡 in progress · ⬜ not started · Weekly notes live in <a href="docs/weekly-notes/">docs/weekly-notes/</a></sub>
 
-| Sprint | Week of | CadetX task | Deliverables | Status |
-| ------ | ------- | ----------- | ------------ | ------ |
-| 1  | 2026-11-09 | 1 · Understanding Data Sources & Legal | Approved source list; legal requirements; collection plan | In progress |
-| 2  | 2026-11-16 | 2 · Data Collection | Data Collection Report per company; raw dataset; **weekly snapshots start** | Not started |
-| 3  | 2026-11-23 | 3 · NLP Preprocessing & Method Selection | Cleaned text; documented preprocessing workflow + code | Not started |
-| 4  | 2026-11-30 | 4 · Skill Extraction & Feature Engineering | Extracted-skills dataset, feature tables, shared skill taxonomy | Not started |
-| 5  | 2026-12-07 | 5 · Hiring Trend Analysis | Weekly/monthly trend tables and visuals; hiring-pattern note | Not started |
-| 6  | 2026-12-14 | 6 · Competitor Comparison | Comparison tables and visuals; per-company explanation | Not started |
-| 7  | 2026-12-21 | 7 · Demand Forecasting | Forecast outputs and plots; model choice rationale | Not started |
-| 8  | 2026-12-28 | 8 · Company Similarity Scoring | Similarity tables, heatmaps/network graphs; drivers explanation | Not started |
-| 9  | 2027-01-04 | 9 · Insight Generation & Reporting | Insight report and visuals; hiring-strategy explanation | Not started |
-| 10 | 2027-01-11 | Optional · Automated Pipeline | Scheduled end-to-end pipeline (GitHub Actions/cron) + docs | Not started |
-| 11 | 2027-01-18 | Optional · Fine-tune Skill Extraction Model | Fine-tuned BERT/RoBERTa/spaCy model + evaluation metrics | Not started |
-| 12 | 2027-01-25 | 10 · Final Presentation & Mentor Review | Final presentation; clean, complete repository | Not started |
+---
 
-Sprint documents live in `docs/` (for example `docs/sprint-01-data-sources-legal.md`).
-Weekly notes live in `docs/weekly-notes/`.
+## 🏢 Data sources
 
-**Forecasting caveat:** Sprints 5 and 7 need data over time. A one-off
-snapshot is not a time series. Two things cover this. For Anthropic and
-OpenAI, the Epoch AI archive supplies history. For NVIDIA and Google, weekly
-snapshots start in Sprint 2, which gives roughly 5 points by Sprint 7 and 10
-by the end. Forecasts for those two will be short-horizon and clearly labelled
-as limited.
+Each company has a documented, compliant route. Full evidence is in
+[`source-register.csv`](docs/source-register.csv) and the
+[Sprint 1 review](docs/sprints/sprint-01-data-sources-legal.md).
+
+| Company | ATS | Current postings | History |
+|---|---|---|---|
+| **Anthropic** | Greenhouse | [Job Board API](https://docs.greenhouse.io/job-board.html) (public, documented) | [Epoch AI](https://epoch.ai/data/frontier-lab-hiring) archive since Mar 2026 · CC BY |
+| **OpenAI** | Ashby | [Posting API](https://developers.ashbyhq.com/docs/public-job-posting-api) (public, documented) | [Epoch AI](https://epoch.ai/data/frontier-lab-hiring) archive since Mar 2026 · CC BY |
+| **NVIDIA** | Workday | Sitemap-listed job pages (path allowed by robots.txt) | Own weekly snapshots |
+| **Google** | Google Careers | Unpaginated results pages, newest-first slices | Own weekly snapshots |
+
+> [!NOTE]
+> A single snapshot isn't a time series. Snapshots began on 2026-11-08: all
+> companies every Monday, and NVIDIA again every Thursday. Forecasts for NVIDIA
+> and Google rely on that short history and are labelled accordingly.
+
+**First snapshot · 2026-11-08**
+
+| Anthropic | OpenAI | NVIDIA | Google | Epoch history |
+|:-:|:-:|:-:|:-:|:-:|
+| **675** | **816** | **100** | **579** | **4,111** |
+| full board | full board | newest ~5 days | AI/ML sample | Mar → Oct 2026 |
+
+---
+
+## ⚡ Quickstart
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+
+python -m src.collect.epoch_history          # Anthropic + OpenAI history (CC BY)
+python -m src.collect.run_snapshot           # weekly snapshot, all four companies
+python -m src.collect.run_snapshot nvidia --limit 3   # quick test, saves nothing
+```
+
+Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
+(with `first_seen_date`, `last_seen_date`, `job_status`) go to
+`data/processed/<company>.csv`. A text-free run log is committed to
+[`reports/collection-log.csv`](reports/collection-log.csv).
+
+---
+
+## 📁 Repository map
+
+```text
+├── docs/
+│   ├── sprints/              one page per sprint (goal · deliverables · results)
+│   ├── weekly-notes/         weekly progress notes
+│   ├── data-dictionary.md    shared schema for all four companies
+│   └── source-register.csv   legal / access review evidence
+├── src/collect/              collectors · validation · snapshot runner
+├── data/
+│   ├── raw/                  snapshots (gitignored: posting text is copyrighted)
+│   ├── external/             Epoch AI download (gitignored, re-downloadable)
+│   └── processed/            merged datasets (gitignored)
+├── notebooks/                exploration & analysis
+├── reports/                  run logs, collection reports, insight reports
+└── presentations/            final deck
+```
+
+---
+
+## 🛡️ Data ethics
+
+- **Documented routes only.** Terms and robots.txt are reviewed per source and re-checked before runs. Public APIs are preferred over scraping.
+- **Gentle.** Weekly cadence, rate-limited, with an identifying User-Agent. Never paginate where robots.txt forbids it.
+- **No personal data.** Posting content only. Emails and phone numbers are scrubbed automatically.
+- **No republishing.** Raw job descriptions stay local. Only derived features and aggregates are committed.
+- **Attribution.** History for Anthropic and OpenAI comes from Epoch AI, "Data on Frontier Lab Hiring", [epoch.ai](https://epoch.ai/data/frontier-lab-hiring) (CC BY).
+
+<div align="center">
+<br>
+<sub>Built for the CadetX Virtual Work Experience · Competitor Demand Prediction Using Job Postings</sub>
+</div>

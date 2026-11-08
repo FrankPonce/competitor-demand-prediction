@@ -1,0 +1,5 @@
+run_started_utc,company,source,requests,postings_in_snapshot,postings_total_merged,active,validation_issues,test_run,notes
+2026-11-08T18:39:59+00:00,Anthropic,greenhouse_job_board_api,1,675,675,675,0,False,
+2026-11-08T18:40:02+00:00,OpenAI,ashby_posting_api,1,816,816,816,0,False,
+2026-11-08T18:40:04+00:00,NVIDIA,nvidia_workday_sitemap,102,100,100,100,0,False,sitemap urls=100; fetch errors=0
+2026-11-08T18:45:08+00:00,Google,google_careers_results_unpaginated,257,579,579,579,0,False,256 queries; 113 had more results than the first page
