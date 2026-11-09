@@ -32,3 +32,10 @@
 
 - [ ] Thursday: NVIDIA snapshot. Monday: full snapshot.
 - [ ] Sprint 4: skill taxonomy + extraction.
+
+## Update — Sprint 4 done (2026-11-09)
+
+- Built a shared 211-skill / 19-category taxonomy and section-aware extractor (`src/features/`).
+- 45,482 skill mentions across 4,909 postings; role family, seniority, years and education features added.
+- Precision spot-check: 89/100 random matches correct; two error types fixed afterwards.
+- Early signal: Anthropic and OpenAI are about 30% sales/GTM hiring; NVIDIA postings are 86% hardware/accelerator skills; Google's AI sample mentions a PhD 44% of the time.

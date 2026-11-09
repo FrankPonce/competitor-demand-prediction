@@ -83,3 +83,26 @@ all core fields above plus:
 | `n_chars_raw` / `n_chars_clean` / `n_tokens` | int | Size before/after cleaning |
 | `has_responsibilities` / `has_requirements` | bool | Section detected |
 | `job_description` | string | Original raw text, kept for reproducibility |
+
+## Sprint 4 features (`data/features/`)
+
+**`posting_features.parquet` / `.csv`**: one row per posting, no description text. Core metadata plus:
+
+| Field | Type | Description |
+| ----- | ---- | ----------- |
+| `role_family` | string | One of 15 shared families (Sales & Go-to-Market, Software Engineering, Research, …) |
+| `seniority_level` | string | Intern, Junior, Mid, Senior, Lead, Principal, Manager, Director+, Unspecified |
+| `is_people_manager` | bool | Manager/Director+ title that manages people (not product/program/account managers) |
+| `min_years_experience` | float | Smallest years-of-experience figure in the requirements |
+| `min_degree` | string | Lowest degree named in requirements (Bachelor's / Master's / PhD) |
+| `mentions_phd` / `phd_in_requirements` | bool | PhD mentioned anywhere / as a requirement |
+| `degree_equivalent_ok` | bool | "or equivalent experience" accepted |
+| `law_degree` | bool | JD / bar admission mentioned |
+| `n_skills` / `n_tech_skills` / `n_required_skills` | int | Distinct skills found; tech subset; those found in the requirements section |
+| `extracted_skills` | string | `; `-separated skill names |
+| `skill_categories` | string | `; `-separated categories |
+| `tech_stack_tags` | string | `; `-separated skills from technical categories |
+
+**`skills_long.csv`**: `job_id, company_name, skill, category, tech, in_requirements, in_preferred, in_responsibilities, in_context`
+
+**`skill_matrix.parquet`**: index `job_id`, one int8 column per skill (1 = mentioned)

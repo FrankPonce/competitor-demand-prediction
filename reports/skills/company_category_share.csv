@@ -1,0 +1,20 @@
+category,Anthropic,Google,NVIDIA,OpenAI
+AI Safety & Evaluation,0.2958,0.2435,0.05,0.1916
+AI/ML Methods,0.4274,0.62,0.52,0.307
+Cloud Platforms,0.1272,0.2832,0.08,0.0489
+Data Center & Facilities,0.0767,0.0708,0.06,0.0682
+Data Engineering & Analytics,0.2518,0.3178,0.28,0.2338
+Databases,0.0082,0.0501,0.03,0.0176
+"Finance, Legal & Operations",0.5846,0.2936,0.2,0.5002
+Go-to-Market & Sales,0.5601,0.2746,0.23,0.5345
+HPC & Distributed Systems,0.1397,0.2591,0.65,0.1635
+Hardware & Accelerators,0.0935,0.1934,0.86,0.1071
+Infrastructure & DevOps,0.23,0.247,0.67,0.2263
+LLM & Generative AI,0.4285,0.5596,0.36,0.366
+Leadership & Collaboration,0.87,0.7496,0.64,0.8959
+ML Frameworks & Libraries,0.0169,0.1209,0.15,0.0146
+Product & Design,0.2529,0.3454,0.16,0.2852
+Programming Languages,0.3089,0.4732,0.7,0.2681
+Security & Compliance,0.2159,0.1261,0.16,0.1455
+Spoken Languages,0.0799,0.0432,0.06,0.0485
+"Web, Mobile & APIs",0.2855,0.2971,0.24,0.3254

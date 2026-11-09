@@ -1,0 +1,16 @@
+role_family,Anthropic,Google,NVIDIA,OpenAI
+Data & Analytics,0.0234,0.0397,0.03,0.0297
+Data Center & Facilities,0.0484,0.0276,0.07,0.0309
+"Finance, Legal & People",0.1191,0.019,0.0,0.1087
+Hardware & Silicon,0.0071,0.0725,0.16,0.0301
+Infrastructure & SRE,0.0658,0.1434,0.18,0.0556
+ML / AI Engineering,0.0408,0.1295,0.1,0.0464
+Marketing & Communications,0.0566,0.0173,0.02,0.0824
+Other,0.0016,0.0294,0.07,0.01
+Product & Design,0.0353,0.0864,0.02,0.0368
+Program Management,0.0245,0.0259,0.02,0.0255
+Research,0.0484,0.0622,0.02,0.0402
+"Safety, Policy & Trust",0.075,0.0345,0.01,0.0514
+Sales & Go-to-Market,0.3235,0.1589,0.04,0.2673
+Security & Privacy,0.0479,0.0363,0.03,0.0402
+Software Engineering,0.0827,0.1174,0.23,0.1447

@@ -1,6 +1,6 @@
 # Sprint 5 — Hiring Trend Analysis
 
-**Week of:** 2026-12-07 · **CadetX task 5** · **Status:** ⬜ Not started
+**Week of:** 2026-12-07 · **CadetX task 5** · **Status:** 🟡 Next up
 
 ## Goal
 
