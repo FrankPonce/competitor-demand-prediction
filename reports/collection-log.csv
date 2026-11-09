@@ -3,3 +3,7 @@ run_started_utc,company,source,requests,postings_in_snapshot,postings_total_merg
 2026-11-08T18:40:02+00:00,OpenAI,ashby_posting_api,1,816,816,816,0,False,
 2026-11-08T18:40:04+00:00,NVIDIA,nvidia_workday_sitemap,102,100,100,100,0,False,sitemap urls=100; fetch errors=0
 2026-11-08T18:45:08+00:00,Google,google_careers_results_unpaginated,257,579,579,579,0,False,256 queries; 113 had more results than the first page
+2026-11-09T16:54:28+00:00,Anthropic,greenhouse_job_board_api,1,675,681,675,0,False,
+2026-11-09T16:54:31+00:00,OpenAI,ashby_posting_api,1,813,821,813,0,False,
+2026-11-09T17:07:41+00:00,NVIDIA,nvidia_workday_sitemap,102,99,129,99,0,False,sitemap urls=100; fetch errors=0
+2026-11-09T17:13:48+00:00,Google,google_careers_results_unpaginated,257,582,588,582,0,False,256 queries; 113 had more results than the first page

@@ -39,3 +39,10 @@
 - 45,482 skill mentions across 4,909 postings; role family, seniority, years and education features added.
 - Precision spot-check: 89/100 random matches correct; two error types fixed afterwards.
 - Early signal: Anthropic and OpenAI are about 30% sales/GTM hiring; NVIDIA postings are 86% hardware/accelerator skills; Google's AI sample mentions a PhD 44% of the time.
+
+## Update — Sprint 5 done (2026-11-09)
+
+- Snapshot #2 taken. A DNS outage forced a rerun; the collector now retries and refuses to save incomplete snapshots.
+- Trend pipeline (`src/trends/`) built: shared weekly structure, Epoch daily open roles, role-mix shift, emerging skills, posting lifetime.
+- Key patterns: Anthropic open roles +52% and OpenAI +29% since March; Anthropic paused GTM hiring in summer and then surged; emerging skills point to data-center build-out and the public sector.
+- Data quality: Epoch scrape gaps make single weeks lumpy, so 4-week averages are the headline.

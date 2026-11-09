@@ -6074,6 +6074,10 @@ anthropic-5459098008,Anthropic,Machine Learning,AI/ML Methods,True,False,True,Fa
 anthropic-5459098008,Anthropic,Physical Design,Hardware & Accelerators,True,True,False,False,True
 anthropic-5459098008,Anthropic,RTL & Verification,Hardware & Accelerators,True,True,False,False,True
 anthropic-5459098008,Anthropic,Reinforcement Learning,AI/ML Methods,True,False,True,False,True
+anthropic-5459191008,Anthropic,Large Language Models,LLM & Generative AI,True,False,True,False,True
+anthropic-5459191008,Anthropic,Machine Learning,AI/ML Methods,True,True,False,False,False
+anthropic-5459191008,Anthropic,Reinforcement Learning,AI/ML Methods,True,False,True,False,True
+anthropic-5459191008,Anthropic,Security Engineering,Security & Compliance,True,False,True,False,True
 anthropic-5459272008,Anthropic,Mentorship,Leadership & Collaboration,False,False,True,True,False
 anthropic-5459272008,Anthropic,People Management,Leadership & Collaboration,False,False,False,False,True
 anthropic-5459272008,Anthropic,Pipeline & Forecasting,Go-to-Market & Sales,False,False,True,False,False
@@ -6545,6 +6549,17 @@ anthropic-5468901008,Anthropic,Product Management,Product & Design,False,False,F
 anthropic-5468901008,Anthropic,Startup / Ambiguity,Leadership & Collaboration,False,True,False,False,False
 anthropic-5468901008,Anthropic,Technical Leadership,Leadership & Collaboration,False,True,True,False,False
 anthropic-5468901008,Anthropic,UX / Product Design,Product & Design,False,True,False,False,False
+anthropic-5468930008,Anthropic,Data Pipelines / ETL,Data Engineering & Analytics,True,False,True,False,False
+anthropic-5468930008,Anthropic,Inference & Serving,LLM & Generative AI,True,False,True,False,False
+anthropic-5468930008,Anthropic,JAX,ML Frameworks & Libraries,True,True,False,False,False
+anthropic-5468930008,Anthropic,Large Language Models,LLM & Generative AI,True,False,True,False,True
+anthropic-5468930008,Anthropic,Machine Learning,AI/ML Methods,True,True,False,False,True
+anthropic-5468930008,Anthropic,Model Evaluation,AI Safety & Evaluation,True,False,False,True,False
+anthropic-5468930008,Anthropic,Multimodal,AI/ML Methods,True,False,True,False,False
+anthropic-5468930008,Anthropic,Pretraining,LLM & Generative AI,True,False,True,False,False
+anthropic-5468930008,Anthropic,PyTorch,ML Frameworks & Libraries,True,True,False,False,False
+anthropic-5468930008,Anthropic,Python,Programming Languages,True,True,False,False,False
+anthropic-5468930008,Anthropic,Reinforcement Learning,AI/ML Methods,True,False,True,True,False
 anthropic-5468937008,Anthropic,Data Pipelines / ETL,Data Engineering & Analytics,True,False,True,False,False
 anthropic-5468937008,Anthropic,Inference & Serving,LLM & Generative AI,True,False,True,False,False
 anthropic-5468937008,Anthropic,JAX,ML Frameworks & Libraries,True,True,False,False,False
@@ -6746,6 +6761,26 @@ anthropic-5474559008,Anthropic,Program & Project Management,"Finance, Legal & Op
 anthropic-5474559008,Anthropic,Regulatory & Compliance,"Finance, Legal & Operations",False,False,False,True,True
 anthropic-5474559008,Anthropic,Strategy & Operations,"Finance, Legal & Operations",False,True,False,False,False
 anthropic-5474559008,Anthropic,Trust & Safety,AI Safety & Evaluation,True,False,False,True,False
+anthropic-5475099008,Anthropic,Communication Skills,Leadership & Collaboration,False,True,False,False,False
+anthropic-5475099008,Anthropic,Cross-functional Collaboration,Leadership & Collaboration,False,True,False,False,False
+anthropic-5475099008,Anthropic,Cryptography,Security & Compliance,True,True,False,False,False
+anthropic-5475099008,Anthropic,Go-to-Market Strategy,Go-to-Market & Sales,False,True,False,False,False
+anthropic-5475099008,Anthropic,Government & Public Sector,"Finance, Legal & Operations",False,True,False,True,True
+anthropic-5475099008,Anthropic,Large Language Models,LLM & Generative AI,True,False,False,True,False
+anthropic-5475099008,Anthropic,"Legal (contracts, commercial law)","Finance, Legal & Operations",False,True,False,False,False
+anthropic-5475099008,Anthropic,Negotiation,Leadership & Collaboration,False,True,False,False,False
+anthropic-5475099008,Anthropic,Trust & Safety,AI Safety & Evaluation,True,True,False,False,False
+anthropic-5475156008,Anthropic,BI & Dashboards,Data Engineering & Analytics,True,True,False,False,False
+anthropic-5475156008,Anthropic,Business Development & Partnerships,Go-to-Market & Sales,False,False,False,True,False
+anthropic-5475156008,Anthropic,"CRM (Salesforce, HubSpot)",Go-to-Market & Sales,False,True,False,True,False
+anthropic-5475156008,Anthropic,Enterprise Sales,Go-to-Market & Sales,False,True,False,False,False
+anthropic-5475156008,Anthropic,Go-to-Market Strategy,Go-to-Market & Sales,False,True,True,True,False
+anthropic-5475156008,Anthropic,Government & Public Sector,"Finance, Legal & Operations",False,False,True,True,False
+anthropic-5475156008,Anthropic,Pipeline & Forecasting,Go-to-Market & Sales,False,True,False,False,False
+anthropic-5475156008,Anthropic,SaaS / B2B,Go-to-Market & Sales,False,True,True,False,False
+anthropic-5475156008,Anthropic,Stakeholder Management,Leadership & Collaboration,False,True,False,False,False
+anthropic-5475156008,Anthropic,Startup / Ambiguity,Leadership & Collaboration,False,True,False,True,True
+anthropic-5475156008,Anthropic,Strategy & Operations,"Finance, Legal & Operations",False,False,True,False,False
 anthropic-5475240008,Anthropic,APIs,"Web, Mobile & APIs",True,True,False,False,False
 anthropic-5475240008,Anthropic,Communication Skills,Leadership & Collaboration,False,True,False,False,False
 anthropic-5475240008,Anthropic,Cross-functional Collaboration,Leadership & Collaboration,False,False,False,True,False
@@ -6779,6 +6814,21 @@ anthropic-5475830008,Anthropic,Networking,Infrastructure & DevOps,True,False,Fal
 anthropic-5475830008,Anthropic,Pipeline & Forecasting,Go-to-Market & Sales,False,False,False,True,True
 anthropic-5475830008,Anthropic,Product Management,Product & Design,False,True,False,False,False
 anthropic-5475830008,Anthropic,Startup / Ambiguity,Leadership & Collaboration,False,False,False,False,True
+anthropic-5476577008,Anthropic,APIs,"Web, Mobile & APIs",True,False,False,True,False
+anthropic-5476577008,Anthropic,Account Management,Go-to-Market & Sales,False,False,False,True,False
+anthropic-5476577008,Anthropic,Communication Skills,Leadership & Collaboration,False,True,False,False,False
+anthropic-5476577008,Anthropic,Customer Success,Go-to-Market & Sales,False,False,False,True,False
+anthropic-5476577008,Anthropic,English,Spoken Languages,False,True,False,False,False
+anthropic-5476577008,Anthropic,Korean,Spoken Languages,False,True,False,False,False
+anthropic-5476577008,Anthropic,LLM APIs,LLM & Generative AI,True,False,False,True,False
+anthropic-5476577008,Anthropic,Large Language Models,LLM & Generative AI,True,False,True,True,True
+anthropic-5476577008,Anthropic,Machine Learning,AI/ML Methods,True,False,True,False,False
+anthropic-5476577008,Anthropic,Model Evaluation,AI Safety & Evaluation,True,False,False,True,True
+anthropic-5476577008,Anthropic,Python,Programming Languages,True,False,True,False,False
+anthropic-5476577008,Anthropic,Solutions Architecture / Pre-sales,Go-to-Market & Sales,False,True,False,False,True
+anthropic-5476577008,Anthropic,Stakeholder Management,Leadership & Collaboration,False,True,False,False,False
+anthropic-5476704008,Anthropic,Recruiting & People Ops,"Finance, Legal & Operations",False,False,True,False,False
+anthropic-5476704008,Anthropic,Startup / Ambiguity,Leadership & Collaboration,False,False,False,True,False
 openai-00207abc-49b7-465c-a219-f7c1140f8047,OpenAI,APIs,"Web, Mobile & APIs",True,False,False,False,True
 openai-00207abc-49b7-465c-a219-f7c1140f8047,OpenAI,Customer Success,Go-to-Market & Sales,False,False,False,False,True
 openai-00207abc-49b7-465c-a219-f7c1140f8047,OpenAI,Full-stack Development,"Web, Mobile & APIs",True,True,False,True,False
@@ -7087,6 +7137,18 @@ openai-0ca02747-5c97-432b-95c5-4b9099bce992,OpenAI,Statistics,AI/ML Methods,True
 openai-0ca02747-5c97-432b-95c5-4b9099bce992,OpenAI,TensorFlow,ML Frameworks & Libraries,True,True,False,False,False
 openai-0ca02747-5c97-432b-95c5-4b9099bce992,OpenAI,Time Series & Forecasting,AI/ML Methods,True,True,False,False,False
 openai-0ca02747-5c97-432b-95c5-4b9099bce992,OpenAI,scikit-learn,ML Frameworks & Libraries,True,True,False,False,False
+openai-0cbc002e-bd6e-4aa3-9dbc-ed7fe59511ea,OpenAI,AI Agents,LLM & Generative AI,True,False,False,True,False
+openai-0cbc002e-bd6e-4aa3-9dbc-ed7fe59511ea,OpenAI,English,Spoken Languages,False,True,False,False,False
+openai-0cbc002e-bd6e-4aa3-9dbc-ed7fe59511ea,OpenAI,German,Spoken Languages,False,True,False,False,False
+openai-0cbc002e-bd6e-4aa3-9dbc-ed7fe59511ea,OpenAI,Go-to-Market Strategy,Go-to-Market & Sales,False,False,False,True,False
+openai-0cbc002e-bd6e-4aa3-9dbc-ed7fe59511ea,OpenAI,JavaScript,Programming Languages,True,True,False,False,False
+openai-0cbc002e-bd6e-4aa3-9dbc-ed7fe59511ea,OpenAI,Machine Learning,AI/ML Methods,True,True,False,False,False
+openai-0cbc002e-bd6e-4aa3-9dbc-ed7fe59511ea,OpenAI,Observability,Infrastructure & DevOps,True,True,False,True,False
+openai-0cbc002e-bd6e-4aa3-9dbc-ed7fe59511ea,OpenAI,Python,Programming Languages,True,True,False,False,False
+openai-0cbc002e-bd6e-4aa3-9dbc-ed7fe59511ea,OpenAI,Solutions Architecture / Pre-sales,Go-to-Market & Sales,False,True,False,False,False
+openai-0cbc002e-bd6e-4aa3-9dbc-ed7fe59511ea,OpenAI,Stakeholder Management,Leadership & Collaboration,False,True,False,False,False
+openai-0cbc002e-bd6e-4aa3-9dbc-ed7fe59511ea,OpenAI,Startup / Ambiguity,Leadership & Collaboration,False,True,False,False,False
+openai-0cbc002e-bd6e-4aa3-9dbc-ed7fe59511ea,OpenAI,TypeScript,Programming Languages,True,True,False,False,False
 openai-0cebbcd0-7ff4-4492-8638-a7d7df1c0d22,OpenAI,"Accounting (GAAP, close)","Finance, Legal & Operations",False,True,False,True,False
 openai-0cebbcd0-7ff4-4492-8638-a7d7df1c0d22,OpenAI,Audit & SOX,"Finance, Legal & Operations",False,False,False,True,False
 openai-0cebbcd0-7ff4-4492-8638-a7d7df1c0d22,OpenAI,Communication Skills,Leadership & Collaboration,False,True,False,False,False
@@ -7222,6 +7284,15 @@ openai-1098311d-3a07-40ad-8107-6245a492a0b3,OpenAI,Startup / Ambiguity,Leadershi
 openai-1098311d-3a07-40ad-8107-6245a492a0b3,OpenAI,Technical Leadership,Leadership & Collaboration,False,True,False,False,False
 openai-1098311d-3a07-40ad-8107-6245a492a0b3,OpenAI,TypeScript,Programming Languages,True,True,False,False,False
 openai-1098311d-3a07-40ad-8107-6245a492a0b3,OpenAI,UX / Product Design,Product & Design,False,False,True,True,True
+openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Account Management,Go-to-Market & Sales,False,False,False,False,True
+openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Customer Success,Go-to-Market & Sales,False,True,False,False,False
+openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Developer Relations,Go-to-Market & Sales,False,False,False,False,True
+openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Enterprise Sales,Go-to-Market & Sales,False,True,False,False,False
+openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Go-to-Market Strategy,Go-to-Market & Sales,False,True,False,False,True
+openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Mentorship,Leadership & Collaboration,False,False,False,False,True
+openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Product Management,Product & Design,False,False,False,True,False
+openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Recruiting & People Ops,"Finance, Legal & Operations",False,False,False,False,True
+openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Solutions Architecture / Pre-sales,Go-to-Market & Sales,False,False,False,False,True
 openai-112e34f2-45da-4a08-adf4-cc29398938df,OpenAI,AI Agents,LLM & Generative AI,True,False,False,True,False
 openai-112e34f2-45da-4a08-adf4-cc29398938df,OpenAI,English,Spoken Languages,False,True,False,False,False
 openai-112e34f2-45da-4a08-adf4-cc29398938df,OpenAI,French,Spoken Languages,False,True,False,False,False
@@ -9459,6 +9530,15 @@ openai-5d5a4116-b409-4676-b357-7094ad87d15d,OpenAI,Communications & PR,Go-to-Mar
 openai-5d5a4116-b409-4676-b357-7094ad87d15d,OpenAI,People Management,Leadership & Collaboration,False,True,False,False,False
 openai-5d5a4116-b409-4676-b357-7094ad87d15d,OpenAI,SaaS / B2B,Go-to-Market & Sales,False,False,False,False,True
 openai-5d5a4116-b409-4676-b357-7094ad87d15d,OpenAI,Startup / Ambiguity,Leadership & Collaboration,False,True,False,False,False
+openai-5d5b2256-ee0f-4ba6-a983-d62d0d70515d,OpenAI,Backend Development,"Web, Mobile & APIs",True,True,False,False,False
+openai-5d5b2256-ee0f-4ba6-a983-d62d0d70515d,OpenAI,Developer Relations,Go-to-Market & Sales,False,False,False,True,False
+openai-5d5b2256-ee0f-4ba6-a983-d62d0d70515d,OpenAI,Frontend Development,"Web, Mobile & APIs",True,True,False,False,False
+openai-5d5b2256-ee0f-4ba6-a983-d62d0d70515d,OpenAI,Go-to-Market Strategy,Go-to-Market & Sales,False,False,False,False,True
+openai-5d5b2256-ee0f-4ba6-a983-d62d0d70515d,OpenAI,JavaScript,Programming Languages,True,True,False,False,False
+openai-5d5b2256-ee0f-4ba6-a983-d62d0d70515d,OpenAI,Large Language Models,LLM & Generative AI,True,False,False,True,False
+openai-5d5b2256-ee0f-4ba6-a983-d62d0d70515d,OpenAI,Python,Programming Languages,True,True,False,False,False
+openai-5d5b2256-ee0f-4ba6-a983-d62d0d70515d,OpenAI,Solutions Architecture / Pre-sales,Go-to-Market & Sales,False,False,False,False,True
+openai-5d5b2256-ee0f-4ba6-a983-d62d0d70515d,OpenAI,Startup / Ambiguity,Leadership & Collaboration,False,True,False,False,True
 openai-5d66a54f-ad89-4155-ac37-9dcd7d52db34,OpenAI,Causal Inference & Experimentation,AI/ML Methods,True,False,False,False,True
 openai-5d66a54f-ad89-4155-ac37-9dcd7d52db34,OpenAI,Communication Skills,Leadership & Collaboration,False,True,False,False,False
 openai-5d66a54f-ad89-4155-ac37-9dcd7d52db34,OpenAI,Stakeholder Management,Leadership & Collaboration,False,True,False,False,False
@@ -13503,6 +13583,15 @@ openai-e99105f1-0a15-4f25-9538-60312568f835,OpenAI,Operating Systems,HPC & Distr
 openai-e99105f1-0a15-4f25-9538-60312568f835,OpenAI,Privacy & Data Protection,Security & Compliance,True,False,False,False,True
 openai-e99105f1-0a15-4f25-9538-60312568f835,OpenAI,Site Reliability Engineering,Infrastructure & DevOps,True,False,False,True,False
 openai-e99105f1-0a15-4f25-9538-60312568f835,OpenAI,Startup / Ambiguity,Leadership & Collaboration,False,True,False,False,True
+openai-e99a7881-e30a-40b4-849d-b039004d11ed,OpenAI,Communication Skills,Leadership & Collaboration,False,True,False,False,False
+openai-e99a7881-e30a-40b4-849d-b039004d11ed,OpenAI,Cross-functional Collaboration,Leadership & Collaboration,False,False,False,False,True
+openai-e99a7881-e30a-40b4-849d-b039004d11ed,OpenAI,Data Center Design & Construction,Data Center & Facilities,False,True,True,False,False
+openai-e99a7881-e30a-40b4-849d-b039004d11ed,OpenAI,Electrical Engineering,Data Center & Facilities,False,False,True,False,False
+openai-e99a7881-e30a-40b4-849d-b039004d11ed,OpenAI,Financial Planning & Analysis,"Finance, Legal & Operations",False,True,False,False,False
+openai-e99a7881-e30a-40b4-849d-b039004d11ed,OpenAI,Negotiation,Leadership & Collaboration,False,True,False,True,True
+openai-e99a7881-e30a-40b4-849d-b039004d11ed,OpenAI,Observability,Infrastructure & DevOps,True,False,True,False,False
+openai-e99a7881-e30a-40b4-849d-b039004d11ed,OpenAI,Procurement & Vendor Management,"Finance, Legal & Operations",False,True,False,False,True
+openai-e99a7881-e30a-40b4-849d-b039004d11ed,OpenAI,Thermal & Power,Hardware & Accelerators,True,False,True,False,False
 openai-e9bea775-7eb6-438a-ab96-27d5f941e69d,OpenAI,AI Agents,LLM & Generative AI,True,False,False,True,True
 openai-e9bea775-7eb6-438a-ab96-27d5f941e69d,OpenAI,AWS,Cloud Platforms,True,True,False,False,False
 openai-e9bea775-7eb6-438a-ab96-27d5f941e69d,OpenAI,Azure,Cloud Platforms,True,True,False,False,False
@@ -13551,6 +13640,18 @@ openai-eb112d35-cd7e-45a4-8633-5d7ade298a39,OpenAI,Linux,Infrastructure & DevOps
 openai-eb112d35-cd7e-45a4-8633-5d7ade298a39,OpenAI,"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,True,True,False,True,False
 openai-eb112d35-cd7e-45a4-8633-5d7ade298a39,OpenAI,Robotics,AI/ML Methods,True,False,False,False,True
 openai-eb112d35-cd7e-45a4-8633-5d7ade298a39,OpenAI,Startup / Ambiguity,Leadership & Collaboration,False,True,False,False,False
+openai-eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb,OpenAI,APIs,"Web, Mobile & APIs",True,True,False,True,False
+openai-eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb,OpenAI,Account Management,Go-to-Market & Sales,False,True,False,False,False
+openai-eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb,OpenAI,"CRM (Salesforce, HubSpot)",Go-to-Market & Sales,False,True,False,False,False
+openai-eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb,OpenAI,Customer Success,Go-to-Market & Sales,False,False,False,False,True
+openai-eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb,OpenAI,Data Analysis,Data Engineering & Analytics,True,True,False,False,False
+openai-eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb,OpenAI,Data Warehousing,Data Engineering & Analytics,True,True,False,False,False
+openai-eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb,OpenAI,SQL,Programming Languages,True,True,False,False,False
+openai-eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb,OpenAI,Solutions Architecture / Pre-sales,Go-to-Market & Sales,False,False,False,False,True
+openai-eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb,OpenAI,Stakeholder Management,Leadership & Collaboration,False,True,False,False,False
+openai-eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb,OpenAI,Startup / Ambiguity,Leadership & Collaboration,False,True,False,False,False
+openai-eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb,OpenAI,Technical Writing & Documentation,Product & Design,False,False,False,True,False
+openai-eb3b695e-6c60-4875-b8bc-8f4d5d8a9bbb,OpenAI,Trust & Safety,AI Safety & Evaluation,True,False,False,False,True
 openai-eb4e4757-94b6-4c7d-a3ba-35fad40c0859,OpenAI,Go-to-Market Strategy,Go-to-Market & Sales,False,True,False,False,False
 openai-eb4e4757-94b6-4c7d-a3ba-35fad40c0859,OpenAI,Pipeline & Forecasting,Go-to-Market & Sales,False,False,False,False,True
 openai-eb4e4757-94b6-4c7d-a3ba-35fad40c0859,OpenAI,Product Management,Product & Design,False,False,False,True,False
@@ -14071,6 +14172,26 @@ nvidia-JR1997186,NVIDIA,PyTorch,ML Frameworks & Libraries,True,False,True,True,F
 nvidia-JR1997186,NVIDIA,Solutions Architecture / Pre-sales,Go-to-Market & Sales,False,False,False,True,False
 nvidia-JR1997186,NVIDIA,Startup / Ambiguity,Leadership & Collaboration,False,False,False,False,True
 nvidia-JR1997186,NVIDIA,TensorFlow,ML Frameworks & Libraries,True,False,True,True,False
+nvidia-JR1997214,NVIDIA,C++,Programming Languages,True,True,False,False,False
+nvidia-JR1997214,NVIDIA,CUDA,Programming Languages,True,False,True,False,False
+nvidia-JR1997214,NVIDIA,Deep Learning,AI/ML Methods,True,False,True,False,True
+nvidia-JR1997214,NVIDIA,Docker / Containers,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR1997214,NVIDIA,GPU,Hardware & Accelerators,True,False,True,True,True
+nvidia-JR1997214,NVIDIA,HPC,HPC & Distributed Systems,True,True,False,False,True
+nvidia-JR1997214,NVIDIA,"Interconnects (NVLink, PCIe, CXL)",Hardware & Accelerators,True,False,False,False,True
+nvidia-JR1997214,NVIDIA,Kubernetes,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR1997214,NVIDIA,MPI / NCCL,HPC & Distributed Systems,True,True,False,False,True
+nvidia-JR1997214,NVIDIA,Networking,Infrastructure & DevOps,True,False,False,True,True
+nvidia-JR1997214,NVIDIA,"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,True,False,True,False,True
+nvidia-JR1997214,NVIDIA,Operating Systems,HPC & Distributed Systems,True,True,False,False,False
+nvidia-JR1997214,NVIDIA,Parallel Programming,HPC & Distributed Systems,True,True,False,False,False
+nvidia-JR1997214,NVIDIA,Performance Optimization,HPC & Distributed Systems,True,True,False,False,False
+nvidia-JR1997214,NVIDIA,PyTorch,ML Frameworks & Libraries,True,False,True,False,False
+nvidia-JR1997214,NVIDIA,Python,Programming Languages,True,True,False,False,False
+nvidia-JR1997214,NVIDIA,Slurm,HPC & Distributed Systems,True,True,False,False,False
+nvidia-JR1997214,NVIDIA,Solutions Architecture / Pre-sales,Go-to-Market & Sales,False,False,False,True,False
+nvidia-JR1997214,NVIDIA,TensorFlow,ML Frameworks & Libraries,True,False,True,False,False
+nvidia-JR1997214,NVIDIA,Terraform / IaC,Infrastructure & DevOps,True,True,False,False,False
 nvidia-JR1999599,NVIDIA,C++,Programming Languages,True,True,False,False,False
 nvidia-JR1999599,NVIDIA,CUDA,Programming Languages,True,False,True,False,False
 nvidia-JR1999599,NVIDIA,Deep Learning,AI/ML Methods,True,False,True,False,False
@@ -14123,6 +14244,47 @@ nvidia-JR2001987,NVIDIA,Observability,Infrastructure & DevOps,True,False,False,T
 nvidia-JR2001987,NVIDIA,Parallel Programming,HPC & Distributed Systems,True,False,True,False,False
 nvidia-JR2001987,NVIDIA,Product Management,Product & Design,False,False,False,True,False
 nvidia-JR2001987,NVIDIA,Program & Project Management,"Finance, Legal & Operations",False,True,False,True,True
+nvidia-JR2007944,NVIDIA,APIs,"Web, Mobile & APIs",True,False,False,True,False
+nvidia-JR2007944,NVIDIA,Bash / Shell,Programming Languages,True,True,True,False,False
+nvidia-JR2007944,NVIDIA,Deep Learning,AI/ML Methods,True,False,True,False,False
+nvidia-JR2007944,NVIDIA,Docker / Containers,Infrastructure & DevOps,True,False,False,True,False
+nvidia-JR2007944,NVIDIA,GPU,Hardware & Accelerators,True,False,True,False,False
+nvidia-JR2007944,NVIDIA,Git,Infrastructure & DevOps,True,False,True,False,False
+nvidia-JR2007944,NVIDIA,JavaScript,Programming Languages,True,False,True,False,False
+nvidia-JR2007944,NVIDIA,Kafka / Streaming,Data Engineering & Analytics,True,False,True,False,False
+nvidia-JR2007944,NVIDIA,Kubernetes,Infrastructure & DevOps,True,True,True,True,False
+nvidia-JR2007944,NVIDIA,Linux,Infrastructure & DevOps,True,True,True,False,False
+nvidia-JR2007944,NVIDIA,MongoDB,Databases,True,False,True,False,False
+nvidia-JR2007944,NVIDIA,Node.js,"Web, Mobile & APIs",True,True,True,False,False
+nvidia-JR2007944,NVIDIA,Python,Programming Languages,True,True,True,False,False
+nvidia-JR2007944,NVIDIA,React,"Web, Mobile & APIs",True,False,True,False,False
+nvidia-JR2007944,NVIDIA,Storage Systems,HPC & Distributed Systems,True,False,False,True,True
+nvidia-JR2011908,NVIDIA,C++,Programming Languages,True,True,False,False,False
+nvidia-JR2011908,NVIDIA,CUDA,Programming Languages,True,True,True,False,False
+nvidia-JR2011908,NVIDIA,Compilers,HPC & Distributed Systems,True,True,True,True,False
+nvidia-JR2011908,NVIDIA,Deep Learning,AI/ML Methods,True,True,False,False,True
+nvidia-JR2011908,NVIDIA,GPU,Hardware & Accelerators,True,False,False,False,True
+nvidia-JR2011908,NVIDIA,HPC,HPC & Distributed Systems,True,True,False,False,True
+nvidia-JR2011908,NVIDIA,Inference & Serving,LLM & Generative AI,True,True,True,False,True
+nvidia-JR2011908,NVIDIA,JAX,ML Frameworks & Libraries,True,True,False,False,True
+nvidia-JR2011908,NVIDIA,MPI / NCCL,HPC & Distributed Systems,True,False,True,True,True
+nvidia-JR2011908,NVIDIA,Operating Systems,HPC & Distributed Systems,True,False,True,False,False
+nvidia-JR2011908,NVIDIA,Parallel Programming,HPC & Distributed Systems,True,False,True,False,False
+nvidia-JR2011908,NVIDIA,PyTorch,ML Frameworks & Libraries,True,True,False,False,True
+nvidia-JR2011908,NVIDIA,Python,Programming Languages,True,True,False,False,False
+nvidia-JR2011908,NVIDIA,Reinforcement Learning,AI/ML Methods,True,False,True,False,False
+nvidia-JR2011908,NVIDIA,Triton,ML Frameworks & Libraries,True,True,True,False,False
+nvidia-JR2011908,NVIDIA,vLLM / SGLang,ML Frameworks & Libraries,True,True,False,False,True
+nvidia-JR2012538,NVIDIA,AI Agents,LLM & Generative AI,True,True,False,True,True
+nvidia-JR2012538,NVIDIA,CI/CD,Infrastructure & DevOps,True,False,True,False,False
+nvidia-JR2012538,NVIDIA,Deep Learning,AI/ML Methods,True,False,False,True,True
+nvidia-JR2012538,NVIDIA,Git,Infrastructure & DevOps,True,False,True,False,False
+nvidia-JR2012538,NVIDIA,Large Language Models,LLM & Generative AI,True,False,True,False,False
+nvidia-JR2012538,NVIDIA,Machine Learning,AI/ML Methods,True,True,False,True,True
+nvidia-JR2012538,NVIDIA,PyTorch,ML Frameworks & Libraries,True,True,False,False,False
+nvidia-JR2012538,NVIDIA,Python,Programming Languages,True,True,False,False,False
+nvidia-JR2012538,NVIDIA,Reinforcement Learning,AI/ML Methods,True,True,False,False,False
+nvidia-JR2012538,NVIDIA,TensorFlow,ML Frameworks & Libraries,True,True,False,False,False
 nvidia-JR2013271,NVIDIA,APIs,"Web, Mobile & APIs",True,True,True,True,False
 nvidia-JR2013271,NVIDIA,ASIC / SoC Design,Hardware & Accelerators,True,False,True,False,True
 nvidia-JR2013271,NVIDIA,CI/CD,Infrastructure & DevOps,True,True,False,False,False
@@ -14249,7 +14411,6 @@ nvidia-JR2019986,NVIDIA,GPU,Hardware & Accelerators,True,False,False,False,True
 nvidia-JR2019986,NVIDIA,Git,Infrastructure & DevOps,True,False,True,False,False
 nvidia-JR2019986,NVIDIA,Linux,Infrastructure & DevOps,True,False,True,False,False
 nvidia-JR2019986,NVIDIA,Mentorship,Leadership & Collaboration,False,False,False,True,False
-nvidia-JR2019986,NVIDIA,Parallel Programming,HPC & Distributed Systems,True,False,False,False,True
 nvidia-JR2019986,NVIDIA,Python,Programming Languages,True,False,True,False,False
 nvidia-JR2019986,NVIDIA,Stakeholder Management,Leadership & Collaboration,False,False,False,True,False
 nvidia-JR2019986,NVIDIA,Technical Leadership,Leadership & Collaboration,False,True,False,True,False
@@ -14267,6 +14428,14 @@ nvidia-JR2020101,NVIDIA,Networking,Infrastructure & DevOps,True,True,False,True,
 nvidia-JR2020101,NVIDIA,"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,True,True,False,True,True
 nvidia-JR2020101,NVIDIA,Operating Systems,HPC & Distributed Systems,True,True,False,False,False
 nvidia-JR2020101,NVIDIA,Python,Programming Languages,True,True,False,False,False
+nvidia-JR2020319,NVIDIA,Computer Architecture,Hardware & Accelerators,True,True,False,False,False
+nvidia-JR2020319,NVIDIA,Firmware & Embedded,Hardware & Accelerators,True,True,True,True,True
+nvidia-JR2020319,NVIDIA,GPU,Hardware & Accelerators,True,True,True,True,True
+nvidia-JR2020319,NVIDIA,HPC,HPC & Distributed Systems,True,False,True,False,False
+nvidia-JR2020319,NVIDIA,Identity & Access,Security & Compliance,True,False,True,False,False
+nvidia-JR2020319,NVIDIA,"Interconnects (NVLink, PCIe, CXL)",Hardware & Accelerators,True,True,True,False,False
+nvidia-JR2020319,NVIDIA,Observability,Infrastructure & DevOps,True,False,False,True,False
+nvidia-JR2020319,NVIDIA,Thermal & Power,Hardware & Accelerators,True,False,True,True,False
 nvidia-JR2020321,NVIDIA,BI & Dashboards,Data Engineering & Analytics,True,True,False,False,False
 nvidia-JR2020321,NVIDIA,CUDA,Programming Languages,True,False,False,True,False
 nvidia-JR2020321,NVIDIA,Computer Architecture,Hardware & Accelerators,True,False,False,True,False
@@ -14286,6 +14455,15 @@ nvidia-JR2020321,NVIDIA,Python,Programming Languages,True,True,False,False,False
 nvidia-JR2020321,NVIDIA,Statistics,AI/ML Methods,True,True,False,False,False
 nvidia-JR2020321,NVIDIA,Thermal & Power,Hardware & Accelerators,True,True,False,False,False
 nvidia-JR2020321,NVIDIA,vLLM / SGLang,ML Frameworks & Libraries,True,False,True,False,False
+nvidia-JR2020974,NVIDIA,CI/CD,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2020974,NVIDIA,Communication Skills,Leadership & Collaboration,False,True,False,False,False
+nvidia-JR2020974,NVIDIA,English,Spoken Languages,False,True,False,False,False
+nvidia-JR2020974,NVIDIA,Git,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2020974,NVIDIA,Linux,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2020974,NVIDIA,Networking,Infrastructure & DevOps,True,False,True,True,True
+nvidia-JR2020974,NVIDIA,"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,True,False,True,False,True
+nvidia-JR2020974,NVIDIA,Python,Programming Languages,True,True,False,True,False
+nvidia-JR2020974,NVIDIA,RTL & Verification,Hardware & Accelerators,True,False,False,True,False
 nvidia-JR2021069,NVIDIA,APIs,"Web, Mobile & APIs",True,True,False,False,False
 nvidia-JR2021069,NVIDIA,Business Development & Partnerships,Go-to-Market & Sales,False,False,False,True,False
 nvidia-JR2021069,NVIDIA,CUDA,Programming Languages,True,True,False,False,False
@@ -14317,6 +14495,15 @@ nvidia-JR2021335,NVIDIA,Site Reliability Engineering,Infrastructure & DevOps,Tru
 nvidia-JR2021335,NVIDIA,Storage Systems,HPC & Distributed Systems,True,True,True,True,False
 nvidia-JR2021335,NVIDIA,Strategy & Operations,"Finance, Legal & Operations",False,False,False,True,False
 nvidia-JR2021335,NVIDIA,Terraform / IaC,Infrastructure & DevOps,True,True,False,True,False
+nvidia-JR2021408,NVIDIA,Backend Development,"Web, Mobile & APIs",True,True,False,False,False
+nvidia-JR2021408,NVIDIA,C++,Programming Languages,True,True,False,False,False
+nvidia-JR2021408,NVIDIA,Distributed Systems,HPC & Distributed Systems,True,True,True,False,False
+nvidia-JR2021408,NVIDIA,Go,Programming Languages,True,True,False,False,False
+nvidia-JR2021408,NVIDIA,Java,Programming Languages,True,True,False,False,False
+nvidia-JR2021408,NVIDIA,Oracle Cloud,Cloud Platforms,True,True,False,False,False
+nvidia-JR2021408,NVIDIA,Procurement & Vendor Management,"Finance, Legal & Operations",False,False,True,False,False
+nvidia-JR2021408,NVIDIA,Strategy & Operations,"Finance, Legal & Operations",False,False,False,True,True
+nvidia-JR2021408,NVIDIA,Technical Leadership,Leadership & Collaboration,False,True,False,True,False
 nvidia-JR2021792,NVIDIA,ASIC / SoC Design,Hardware & Accelerators,True,False,False,False,True
 nvidia-JR2021792,NVIDIA,BI & Dashboards,Data Engineering & Analytics,True,True,False,True,False
 nvidia-JR2021792,NVIDIA,Communication Skills,Leadership & Collaboration,False,True,False,False,False
@@ -14325,6 +14512,16 @@ nvidia-JR2021792,NVIDIA,Networking,Infrastructure & DevOps,True,False,False,True
 nvidia-JR2021792,NVIDIA,Program & Project Management,"Finance, Legal & Operations",False,True,False,False,False
 nvidia-JR2021792,NVIDIA,Stakeholder Management,Leadership & Collaboration,False,True,False,False,False
 nvidia-JR2021792,NVIDIA,Startup / Ambiguity,Leadership & Collaboration,False,True,False,False,False
+nvidia-JR2022093,NVIDIA,AI Agents,LLM & Generative AI,True,False,True,False,False
+nvidia-JR2022093,NVIDIA,Developer Relations,Go-to-Market & Sales,False,True,False,False,True
+nvidia-JR2022093,NVIDIA,GPU,Hardware & Accelerators,True,False,True,False,False
+nvidia-JR2022093,NVIDIA,Go-to-Market Strategy,Go-to-Market & Sales,False,False,False,False,True
+nvidia-JR2022093,NVIDIA,HPC,HPC & Distributed Systems,True,True,False,False,False
+nvidia-JR2022093,NVIDIA,Machine Learning,AI/ML Methods,True,True,False,False,False
+nvidia-JR2022093,NVIDIA,Negotiation,Leadership & Collaboration,False,True,False,False,False
+nvidia-JR2022093,NVIDIA,Performance Optimization,HPC & Distributed Systems,True,False,True,False,False
+nvidia-JR2022093,NVIDIA,Product Management,Product & Design,False,False,False,True,False
+nvidia-JR2022093,NVIDIA,Startup / Ambiguity,Leadership & Collaboration,False,False,False,True,False
 nvidia-JR2022438,NVIDIA,AI Agents,LLM & Generative AI,True,False,True,False,False
 nvidia-JR2022438,NVIDIA,Bash / Shell,Programming Languages,True,True,False,False,False
 nvidia-JR2022438,NVIDIA,C,Programming Languages,True,True,False,True,False
@@ -14368,6 +14565,22 @@ nvidia-JR2022552,NVIDIA,Redis,Databases,True,True,False,False,False
 nvidia-JR2022552,NVIDIA,Site Reliability Engineering,Infrastructure & DevOps,True,False,False,True,False
 nvidia-JR2022552,NVIDIA,Strategy & Operations,"Finance, Legal & Operations",False,False,False,True,False
 nvidia-JR2022552,NVIDIA,Terraform / IaC,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2023143,NVIDIA,APIs,"Web, Mobile & APIs",True,True,False,True,False
+nvidia-JR2023143,NVIDIA,CI/CD,Infrastructure & DevOps,True,False,False,True,False
+nvidia-JR2023143,NVIDIA,Cryptography,Security & Compliance,True,False,True,False,False
+nvidia-JR2023143,NVIDIA,Distributed Systems,HPC & Distributed Systems,True,True,False,True,False
+nvidia-JR2023143,NVIDIA,Docker / Containers,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2023143,NVIDIA,GPU,Hardware & Accelerators,True,False,False,False,True
+nvidia-JR2023143,NVIDIA,HPC,HPC & Distributed Systems,True,False,True,False,False
+nvidia-JR2023143,NVIDIA,Infrastructure & Cloud Security,Security & Compliance,True,True,False,True,True
+nvidia-JR2023143,NVIDIA,Kubernetes,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2023143,NVIDIA,Linux,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2023143,NVIDIA,Performance Optimization,HPC & Distributed Systems,True,True,False,False,False
+nvidia-JR2023143,NVIDIA,Program & Project Management,"Finance, Legal & Operations",False,False,True,False,False
+nvidia-JR2023143,NVIDIA,Security Engineering,Security & Compliance,True,False,False,True,True
+nvidia-JR2023143,NVIDIA,Site Reliability Engineering,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2023143,NVIDIA,Terraform / IaC,Infrastructure & DevOps,True,False,False,True,False
+nvidia-JR2023143,NVIDIA,Threat Modeling,Security & Compliance,True,False,False,True,False
 nvidia-JR2023413,NVIDIA,Account Management,Go-to-Market & Sales,False,False,False,True,False
 nvidia-JR2023413,NVIDIA,Communication Skills,Leadership & Collaboration,False,True,True,False,False
 nvidia-JR2023413,NVIDIA,Developer Relations,Go-to-Market & Sales,False,False,False,False,True
@@ -14424,6 +14637,14 @@ nvidia-JR2023977,NVIDIA,HPC,HPC & Distributed Systems,True,False,True,False,True
 nvidia-JR2023977,NVIDIA,Parallel Programming,HPC & Distributed Systems,True,False,True,False,False
 nvidia-JR2023977,NVIDIA,Performance Optimization,HPC & Distributed Systems,True,True,False,False,True
 nvidia-JR2023977,NVIDIA,Python,Programming Languages,True,True,False,False,False
+nvidia-JR2024073,NVIDIA,Business Development & Partnerships,Go-to-Market & Sales,False,True,True,False,False
+nvidia-JR2024073,NVIDIA,Communication Skills,Leadership & Collaboration,False,True,False,False,False
+nvidia-JR2024073,NVIDIA,Customer Success,Go-to-Market & Sales,False,False,False,True,False
+nvidia-JR2024073,NVIDIA,Deep Learning,AI/ML Methods,True,True,False,False,False
+nvidia-JR2024073,NVIDIA,HPC,HPC & Distributed Systems,True,True,True,True,False
+nvidia-JR2024073,NVIDIA,Negotiation,Leadership & Collaboration,False,True,False,False,False
+nvidia-JR2024073,NVIDIA,Robotics,AI/ML Methods,True,False,True,False,False
+nvidia-JR2024073,NVIDIA,Solutions Architecture / Pre-sales,Go-to-Market & Sales,False,False,False,True,False
 nvidia-JR2024816,NVIDIA,AI Agents,LLM & Generative AI,True,False,True,False,False
 nvidia-JR2024816,NVIDIA,BI & Dashboards,Data Engineering & Analytics,True,False,False,True,False
 nvidia-JR2024816,NVIDIA,Cross-functional Collaboration,Leadership & Collaboration,False,True,False,False,False
@@ -14569,6 +14790,16 @@ nvidia-JR2026132,NVIDIA,Security Engineering,Security & Compliance,True,True,Fal
 nvidia-JR2026132,NVIDIA,Site Reliability Engineering,Infrastructure & DevOps,True,True,False,False,False
 nvidia-JR2026132,NVIDIA,Threat Detection & Response,Security & Compliance,True,True,False,False,False
 nvidia-JR2026132,NVIDIA,Threat Modeling,Security & Compliance,True,True,False,False,False
+nvidia-JR2026431,NVIDIA,ASIC / SoC Design,Hardware & Accelerators,True,False,False,True,False
+nvidia-JR2026431,NVIDIA,Board & Signal Integrity,Hardware & Accelerators,True,False,False,False,True
+nvidia-JR2026431,NVIDIA,Computer Architecture,Hardware & Accelerators,True,False,True,False,False
+nvidia-JR2026431,NVIDIA,Cross-functional Collaboration,Leadership & Collaboration,False,True,False,True,False
+nvidia-JR2026431,NVIDIA,Deep Learning,AI/ML Methods,True,False,False,False,True
+nvidia-JR2026431,NVIDIA,"ERP Systems (NetSuite, Oracle, Workday)","Finance, Legal & Operations",False,False,True,False,False
+nvidia-JR2026431,NVIDIA,Networking,Infrastructure & DevOps,True,False,False,False,True
+nvidia-JR2026431,NVIDIA,People Management,Leadership & Collaboration,False,False,True,False,False
+nvidia-JR2026431,NVIDIA,Procurement & Vendor Management,"Finance, Legal & Operations",False,True,False,False,True
+nvidia-JR2026431,NVIDIA,Program & Project Management,"Finance, Legal & Operations",False,True,False,False,False
 nvidia-JR2026556,NVIDIA,C++,Programming Languages,True,True,False,False,False
 nvidia-JR2026556,NVIDIA,Firmware & Embedded,Hardware & Accelerators,True,False,False,True,True
 nvidia-JR2026556,NVIDIA,HPC,HPC & Distributed Systems,True,False,False,False,True
@@ -14613,6 +14844,42 @@ nvidia-JR2027398,NVIDIA,HPC,HPC & Distributed Systems,True,True,True,False,False
 nvidia-JR2027398,NVIDIA,Networking,Infrastructure & DevOps,True,True,False,False,False
 nvidia-JR2027398,NVIDIA,Product Management,Product & Design,False,False,False,True,False
 nvidia-JR2027398,NVIDIA,Solutions Architecture / Pre-sales,Go-to-Market & Sales,False,True,False,True,True
+nvidia-JR2027412,NVIDIA,AI Agents,LLM & Generative AI,True,True,False,True,True
+nvidia-JR2027412,NVIDIA,APIs,"Web, Mobile & APIs",True,True,True,False,False
+nvidia-JR2027412,NVIDIA,ASIC / SoC Design,Hardware & Accelerators,True,False,True,False,True
+nvidia-JR2027412,NVIDIA,BI & Dashboards,Data Engineering & Analytics,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,Backend Development,"Web, Mobile & APIs",True,True,False,False,False
+nvidia-JR2027412,NVIDIA,Bash / Shell,Programming Languages,True,True,False,False,False
+nvidia-JR2027412,NVIDIA,Bazel,Infrastructure & DevOps,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,C++,Programming Languages,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,CI/CD,Infrastructure & DevOps,True,False,True,True,False
+nvidia-JR2027412,NVIDIA,Data Analysis,Data Engineering & Analytics,True,False,False,True,False
+nvidia-JR2027412,NVIDIA,Data Modeling,Data Engineering & Analytics,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,Data Pipelines / ETL,Data Engineering & Analytics,True,False,False,True,False
+nvidia-JR2027412,NVIDIA,Docker / Containers,Infrastructure & DevOps,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,EDA Tools,Hardware & Accelerators,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,Git,Infrastructure & DevOps,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,HPC,HPC & Distributed Systems,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,Kubernetes,Infrastructure & DevOps,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,LLM APIs,LLM & Generative AI,True,True,False,False,False
+nvidia-JR2027412,NVIDIA,Large Language Models,LLM & Generative AI,True,True,False,False,False
+nvidia-JR2027412,NVIDIA,Linux,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2027412,NVIDIA,Mentorship,Leadership & Collaboration,False,False,False,True,False
+nvidia-JR2027412,NVIDIA,Model Context Protocol,LLM & Generative AI,True,True,False,False,False
+nvidia-JR2027412,NVIDIA,Observability,Infrastructure & DevOps,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,Physical Design,Hardware & Accelerators,True,False,True,True,False
+nvidia-JR2027412,NVIDIA,Python,Programming Languages,True,True,False,False,False
+nvidia-JR2027412,NVIDIA,SQL,Programming Languages,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,Slurm,HPC & Distributed Systems,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,Storage Systems,HPC & Distributed Systems,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,Terraform / IaC,Infrastructure & DevOps,True,False,True,False,False
+nvidia-JR2027412,NVIDIA,UX / Product Design,Product & Design,False,False,False,True,False
+nvidia-JR2027527,NVIDIA,Communication Skills,Leadership & Collaboration,False,True,False,False,False
+nvidia-JR2027527,NVIDIA,English,Spoken Languages,False,True,False,False,False
+nvidia-JR2027527,NVIDIA,HPC,HPC & Distributed Systems,True,False,False,False,True
+nvidia-JR2027527,NVIDIA,Networking,Infrastructure & DevOps,True,False,False,False,True
+nvidia-JR2027527,NVIDIA,"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,True,False,False,False,True
+nvidia-JR2027527,NVIDIA,Program & Project Management,"Finance, Legal & Operations",False,False,False,True,False
 nvidia-JR2027530,NVIDIA,ASIC / SoC Design,Hardware & Accelerators,True,False,False,True,False
 nvidia-JR2027530,NVIDIA,Communication Skills,Leadership & Collaboration,False,True,False,False,False
 nvidia-JR2027530,NVIDIA,English,Spoken Languages,False,True,False,False,False
@@ -14626,6 +14893,10 @@ nvidia-JR2027533,NVIDIA,Java,Programming Languages,True,True,False,False,False
 nvidia-JR2027533,NVIDIA,Networking,Infrastructure & DevOps,True,False,False,False,True
 nvidia-JR2027533,NVIDIA,"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,True,False,False,False,True
 nvidia-JR2027533,NVIDIA,Python,Programming Languages,True,True,False,False,False
+nvidia-JR2027804,NVIDIA,EDA Tools,Hardware & Accelerators,True,True,False,False,False
+nvidia-JR2027804,NVIDIA,Networking,Infrastructure & DevOps,True,False,False,False,True
+nvidia-JR2027804,NVIDIA,Physical Design,Hardware & Accelerators,True,True,False,True,True
+nvidia-JR2027804,NVIDIA,RTL & Verification,Hardware & Accelerators,True,True,False,False,False
 nvidia-JR2027872,NVIDIA,Causal Inference & Experimentation,AI/ML Methods,True,False,False,True,False
 nvidia-JR2027872,NVIDIA,Deep Learning,AI/ML Methods,True,True,False,True,True
 nvidia-JR2027872,NVIDIA,Distributed Systems,HPC & Distributed Systems,True,True,False,False,False
@@ -14775,6 +15046,25 @@ nvidia-JR2028412,NVIDIA,"Interconnects (NVLink, PCIe, CXL)",Hardware & Accelerat
 nvidia-JR2028412,NVIDIA,Linux,Infrastructure & DevOps,True,False,True,False,False
 nvidia-JR2028412,NVIDIA,Operating Systems,HPC & Distributed Systems,True,True,False,True,False
 nvidia-JR2028412,NVIDIA,Python,Programming Languages,True,True,False,False,False
+nvidia-JR2028417,NVIDIA,Communication Skills,Leadership & Collaboration,False,True,False,False,False
+nvidia-JR2028417,NVIDIA,Deep Learning,AI/ML Methods,True,False,False,False,True
+nvidia-JR2028417,NVIDIA,Firmware & Embedded,Hardware & Accelerators,True,True,False,False,False
+nvidia-JR2028417,NVIDIA,GPU,Hardware & Accelerators,True,False,False,False,True
+nvidia-JR2028417,NVIDIA,Offensive Security,Security & Compliance,True,False,True,False,False
+nvidia-JR2028417,NVIDIA,Python,Programming Languages,True,True,False,False,False
+nvidia-JR2028417,NVIDIA,Robotics,AI/ML Methods,True,False,False,False,True
+nvidia-JR2028417,NVIDIA,Security Engineering,Security & Compliance,True,True,True,False,False
+nvidia-JR2028417,NVIDIA,Startup / Ambiguity,Leadership & Collaboration,False,True,False,False,False
+nvidia-JR2028417,NVIDIA,Threat Modeling,Security & Compliance,True,False,False,True,False
+nvidia-JR2028433,NVIDIA,Android,"Web, Mobile & APIs",True,False,True,False,False
+nvidia-JR2028433,NVIDIA,C,Programming Languages,True,True,False,False,False
+nvidia-JR2028433,NVIDIA,CUDA,Programming Languages,True,False,True,False,True
+nvidia-JR2028433,NVIDIA,Computer Architecture,Hardware & Accelerators,True,False,False,True,False
+nvidia-JR2028433,NVIDIA,GPU,Hardware & Accelerators,True,False,False,True,False
+nvidia-JR2028433,NVIDIA,Linux,Infrastructure & DevOps,True,False,True,False,False
+nvidia-JR2028433,NVIDIA,Operating Systems,HPC & Distributed Systems,True,True,False,False,True
+nvidia-JR2028433,NVIDIA,Parallel Programming,HPC & Distributed Systems,True,True,False,False,False
+nvidia-JR2028433,NVIDIA,Threat Detection & Response,Security & Compliance,True,False,False,False,True
 nvidia-JR2028470,NVIDIA,AI Agents,LLM & Generative AI,True,False,True,False,False
 nvidia-JR2028470,NVIDIA,Backend Development,"Web, Mobile & APIs",True,True,False,False,True
 nvidia-JR2028470,NVIDIA,Django / Flask / FastAPI,"Web, Mobile & APIs",True,False,True,True,False
@@ -14801,6 +15091,16 @@ nvidia-JR2028588,NVIDIA,Observability,Infrastructure & DevOps,True,False,False,F
 nvidia-JR2028588,NVIDIA,Python,Programming Languages,True,False,False,False,True
 nvidia-JR2028588,NVIDIA,Robotics,AI/ML Methods,True,False,False,False,True
 nvidia-JR2028588,NVIDIA,Technical Leadership,Leadership & Collaboration,False,False,False,False,True
+nvidia-JR2028599,NVIDIA,Board & Signal Integrity,Hardware & Accelerators,True,False,True,False,False
+nvidia-JR2028599,NVIDIA,C++,Programming Languages,True,False,True,False,False
+nvidia-JR2028599,NVIDIA,Communication Skills,Leadership & Collaboration,False,True,False,False,False
+nvidia-JR2028599,NVIDIA,English,Spoken Languages,False,True,False,False,False
+nvidia-JR2028599,NVIDIA,Firmware & Embedded,Hardware & Accelerators,True,True,True,False,True
+nvidia-JR2028599,NVIDIA,"Interconnects (NVLink, PCIe, CXL)",Hardware & Accelerators,True,False,True,False,False
+nvidia-JR2028599,NVIDIA,Networking,Infrastructure & DevOps,True,False,False,True,True
+nvidia-JR2028599,NVIDIA,"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,True,False,False,True,False
+nvidia-JR2028599,NVIDIA,Python,Programming Languages,True,True,True,False,False
+nvidia-JR2028599,NVIDIA,Startup / Ambiguity,Leadership & Collaboration,False,False,False,False,True
 nvidia-JR2028623,NVIDIA,Business Development & Partnerships,Go-to-Market & Sales,False,True,False,True,True
 nvidia-JR2028623,NVIDIA,"CRM (Salesforce, HubSpot)",Go-to-Market & Sales,False,True,False,True,False
 nvidia-JR2028623,NVIDIA,Developer Relations,Go-to-Market & Sales,False,False,False,True,True
@@ -14873,6 +15173,12 @@ nvidia-JR2028861,NVIDIA,Networking,Infrastructure & DevOps,True,False,True,True,
 nvidia-JR2028861,NVIDIA,"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,True,False,False,True,False
 nvidia-JR2028861,NVIDIA,Product Management,Product & Design,False,True,False,True,False
 nvidia-JR2028861,NVIDIA,Thermal & Power,Hardware & Accelerators,True,True,True,True,False
+nvidia-JR2028877,NVIDIA,Communication Skills,Leadership & Collaboration,False,True,False,False,False
+nvidia-JR2028877,NVIDIA,Firmware & Embedded,Hardware & Accelerators,True,False,True,False,False
+nvidia-JR2028877,NVIDIA,Marketing,Go-to-Market & Sales,False,False,False,True,False
+nvidia-JR2028877,NVIDIA,Operating Systems,HPC & Distributed Systems,True,False,True,False,False
+nvidia-JR2028877,NVIDIA,Program & Project Management,"Finance, Legal & Operations",False,False,True,True,False
+nvidia-JR2028877,NVIDIA,Startup / Ambiguity,Leadership & Collaboration,False,False,False,False,True
 nvidia-JR2028878,NVIDIA,APIs,"Web, Mobile & APIs",True,True,False,True,False
 nvidia-JR2028878,NVIDIA,Airflow / Orchestration,Data Engineering & Analytics,True,False,True,False,False
 nvidia-JR2028878,NVIDIA,Audit & SOX,"Finance, Legal & Operations",False,False,True,True,False
@@ -14945,6 +15251,22 @@ nvidia-JR2029007,NVIDIA,Observability,Infrastructure & DevOps,True,False,False,T
 nvidia-JR2029007,NVIDIA,Python,Programming Languages,True,True,False,False,False
 nvidia-JR2029007,NVIDIA,SQL,Programming Languages,True,False,True,False,False
 nvidia-JR2029007,NVIDIA,Startup / Ambiguity,Leadership & Collaboration,False,False,False,False,True
+nvidia-JR2029040,NVIDIA,APIs,"Web, Mobile & APIs",True,False,True,False,False
+nvidia-JR2029040,NVIDIA,BI & Dashboards,Data Engineering & Analytics,True,False,False,True,False
+nvidia-JR2029040,NVIDIA,Business Development & Partnerships,Go-to-Market & Sales,False,False,True,False,False
+nvidia-JR2029040,NVIDIA,CUDA,Programming Languages,True,False,True,True,True
+nvidia-JR2029040,NVIDIA,Communication Skills,Leadership & Collaboration,False,True,False,False,False
+nvidia-JR2029040,NVIDIA,Developer Relations,Go-to-Market & Sales,False,False,False,False,True
+nvidia-JR2029040,NVIDIA,GPU,Hardware & Accelerators,True,False,True,True,False
+nvidia-JR2029040,NVIDIA,Inference & Serving,LLM & Generative AI,True,False,True,True,False
+nvidia-JR2029040,NVIDIA,Machine Learning,AI/ML Methods,True,False,True,False,False
+nvidia-JR2029040,NVIDIA,Marketing,Go-to-Market & Sales,False,False,False,True,False
+nvidia-JR2029040,NVIDIA,Multimodal,AI/ML Methods,True,False,True,False,False
+nvidia-JR2029040,NVIDIA,Networking,Infrastructure & DevOps,True,True,True,False,False
+nvidia-JR2029040,NVIDIA,Product Management,Product & Design,False,False,False,False,True
+nvidia-JR2029040,NVIDIA,Program & Project Management,"Finance, Legal & Operations",False,True,True,True,True
+nvidia-JR2029040,NVIDIA,Robotics,AI/ML Methods,True,False,False,False,True
+nvidia-JR2029040,NVIDIA,Solutions Architecture / Pre-sales,Go-to-Market & Sales,False,False,True,False,False
 nvidia-JR2029067,NVIDIA,AI Agents,LLM & Generative AI,True,False,True,False,False
 nvidia-JR2029067,NVIDIA,ASIC / SoC Design,Hardware & Accelerators,True,True,True,False,True
 nvidia-JR2029067,NVIDIA,BI & Dashboards,Data Engineering & Analytics,True,True,True,False,False
@@ -14985,7 +15307,6 @@ nvidia-JR2029153,NVIDIA,Firmware & Embedded,Hardware & Accelerators,True,True,Fa
 nvidia-JR2029153,NVIDIA,GPU,Hardware & Accelerators,True,False,False,False,True
 nvidia-JR2029153,NVIDIA,Linux,Infrastructure & DevOps,True,True,True,True,False
 nvidia-JR2029153,NVIDIA,Operating Systems,HPC & Distributed Systems,True,True,False,True,False
-nvidia-JR2029153,NVIDIA,Parallel Programming,HPC & Distributed Systems,True,False,False,False,True
 nvidia-JR2029153,NVIDIA,Performance Optimization,HPC & Distributed Systems,True,False,False,True,False
 nvidia-JR2029153,NVIDIA,Thermal & Power,Hardware & Accelerators,True,False,True,True,False
 nvidia-JR2029158,NVIDIA,ASIC / SoC Design,Hardware & Accelerators,True,False,False,True,False
@@ -15072,6 +15393,25 @@ nvidia-JR2029276,NVIDIA,Computer Architecture,Hardware & Accelerators,True,False
 nvidia-JR2029276,NVIDIA,Energy & Power Procurement,Data Center & Facilities,False,False,False,False,True
 nvidia-JR2029276,NVIDIA,GPU,Hardware & Accelerators,True,False,False,False,True
 nvidia-JR2029276,NVIDIA,RTL & Verification,Hardware & Accelerators,True,False,False,False,True
+nvidia-JR2029288,NVIDIA,Business Development & Partnerships,Go-to-Market & Sales,False,False,False,True,False
+nvidia-JR2029288,NVIDIA,Cross-functional Collaboration,Leadership & Collaboration,False,True,False,False,False
+nvidia-JR2029288,NVIDIA,Customer Success,Go-to-Market & Sales,False,False,False,True,False
+nvidia-JR2029288,NVIDIA,Data Center Design & Construction,Data Center & Facilities,False,False,True,False,False
+nvidia-JR2029288,NVIDIA,Firmware & Embedded,Hardware & Accelerators,True,True,False,True,False
+nvidia-JR2029288,NVIDIA,GPU,Hardware & Accelerators,True,False,True,True,False
+nvidia-JR2029288,NVIDIA,Go-to-Market Strategy,Go-to-Market & Sales,False,False,False,True,False
+nvidia-JR2029288,NVIDIA,Infrastructure & Cloud Security,Security & Compliance,True,False,True,False,False
+nvidia-JR2029288,NVIDIA,Kubernetes,Infrastructure & DevOps,True,False,False,False,True
+nvidia-JR2029288,NVIDIA,Linux,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2029288,NVIDIA,Marketing,Go-to-Market & Sales,False,True,True,False,True
+nvidia-JR2029288,NVIDIA,Mechanical / HVAC,Data Center & Facilities,False,False,True,False,False
+nvidia-JR2029288,NVIDIA,Mentorship,Leadership & Collaboration,False,False,False,True,False
+nvidia-JR2029288,NVIDIA,Networking,Infrastructure & DevOps,True,True,True,True,True
+nvidia-JR2029288,NVIDIA,Operating Systems,HPC & Distributed Systems,True,False,False,True,False
+nvidia-JR2029288,NVIDIA,People Management,Leadership & Collaboration,False,True,False,True,False
+nvidia-JR2029288,NVIDIA,Product Management,Product & Design,False,True,True,False,False
+nvidia-JR2029288,NVIDIA,SaaS / B2B,Go-to-Market & Sales,False,True,False,False,False
+nvidia-JR2029288,NVIDIA,Thermal & Power,Hardware & Accelerators,True,True,True,True,True
 nvidia-JR2029291,NVIDIA,C++,Programming Languages,True,False,False,False,True
 nvidia-JR2029291,NVIDIA,CUDA,Programming Languages,True,False,False,False,True
 nvidia-JR2029291,NVIDIA,Computer Architecture,Hardware & Accelerators,True,False,False,False,True
@@ -15104,6 +15444,49 @@ nvidia-JR2029299,NVIDIA,Deep Learning,AI/ML Methods,True,False,True,False,False
 nvidia-JR2029299,NVIDIA,Developer Relations,Go-to-Market & Sales,False,False,False,False,True
 nvidia-JR2029299,NVIDIA,Full-stack Development,"Web, Mobile & APIs",True,True,False,False,False
 nvidia-JR2029299,NVIDIA,Machine Learning,AI/ML Methods,True,False,True,False,False
+nvidia-JR2029338,NVIDIA,Bash / Shell,Programming Languages,True,True,False,False,False
+nvidia-JR2029338,NVIDIA,C,Programming Languages,True,True,False,False,False
+nvidia-JR2029338,NVIDIA,Causal Inference & Experimentation,AI/ML Methods,True,False,False,False,True
+nvidia-JR2029338,NVIDIA,Commissioning,Data Center & Facilities,False,False,False,True,False
+nvidia-JR2029338,NVIDIA,Cryptography,Security & Compliance,True,False,True,False,False
+nvidia-JR2029338,NVIDIA,Distributed Systems,HPC & Distributed Systems,True,True,False,False,False
+nvidia-JR2029338,NVIDIA,GPU,Hardware & Accelerators,True,False,True,False,False
+nvidia-JR2029338,NVIDIA,HPC,HPC & Distributed Systems,True,False,False,True,False
+nvidia-JR2029338,NVIDIA,Identity & Access,Security & Compliance,True,False,True,False,False
+nvidia-JR2029338,NVIDIA,Linux,Infrastructure & DevOps,True,True,True,True,False
+nvidia-JR2029338,NVIDIA,"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,True,False,True,False,False
+nvidia-JR2029338,NVIDIA,Operating Systems,HPC & Distributed Systems,True,False,False,True,False
+nvidia-JR2029338,NVIDIA,Parallel Programming,HPC & Distributed Systems,True,True,False,False,False
+nvidia-JR2029338,NVIDIA,Python,Programming Languages,True,True,False,False,False
+nvidia-JR2029338,NVIDIA,Storage Systems,HPC & Distributed Systems,True,True,True,True,False
+nvidia-JR2029342,NVIDIA,C,Programming Languages,True,True,False,False,False
+nvidia-JR2029342,NVIDIA,C++,Programming Languages,True,True,False,False,False
+nvidia-JR2029342,NVIDIA,CUDA,Programming Languages,True,True,False,False,False
+nvidia-JR2029342,NVIDIA,Causal Inference & Experimentation,AI/ML Methods,True,False,False,False,True
+nvidia-JR2029342,NVIDIA,Distributed Training,HPC & Distributed Systems,True,False,True,False,False
+nvidia-JR2029342,NVIDIA,Docker / Containers,Infrastructure & DevOps,True,False,True,False,False
+nvidia-JR2029342,NVIDIA,Firmware & Embedded,Hardware & Accelerators,True,False,False,True,False
+nvidia-JR2029342,NVIDIA,GPU,Hardware & Accelerators,True,True,True,True,False
+nvidia-JR2029342,NVIDIA,HPC,HPC & Distributed Systems,True,True,False,False,True
+nvidia-JR2029342,NVIDIA,Inference & Serving,LLM & Generative AI,True,False,True,False,False
+nvidia-JR2029342,NVIDIA,"Interconnects (NVLink, PCIe, CXL)",Hardware & Accelerators,True,False,True,False,False
+nvidia-JR2029342,NVIDIA,Linux,Infrastructure & DevOps,True,True,True,True,False
+nvidia-JR2029342,NVIDIA,MPI / NCCL,HPC & Distributed Systems,True,True,True,True,False
+nvidia-JR2029342,NVIDIA,Networking,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2029342,NVIDIA,"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,True,False,True,True,False
+nvidia-JR2029342,NVIDIA,Performance Optimization,HPC & Distributed Systems,True,True,True,False,False
+nvidia-JR2029342,NVIDIA,Python,Programming Languages,True,True,False,True,False
+nvidia-JR2029342,NVIDIA,Slurm,HPC & Distributed Systems,True,False,True,False,False
+nvidia-JR2029364,NVIDIA,C++,Programming Languages,True,True,False,True,True
+nvidia-JR2029364,NVIDIA,CUDA,Programming Languages,True,False,True,False,False
+nvidia-JR2029364,NVIDIA,Communication Skills,Leadership & Collaboration,False,True,False,False,False
+nvidia-JR2029364,NVIDIA,Computer Vision,AI/ML Methods,True,True,False,False,False
+nvidia-JR2029364,NVIDIA,Deep Learning,AI/ML Methods,True,True,False,False,False
+nvidia-JR2029364,NVIDIA,GPU,Hardware & Accelerators,True,False,True,False,False
+nvidia-JR2029364,NVIDIA,PyTorch,ML Frameworks & Libraries,True,True,False,True,False
+nvidia-JR2029364,NVIDIA,Robotics,AI/ML Methods,True,True,False,False,False
+nvidia-JR2029364,NVIDIA,Technical Leadership,Leadership & Collaboration,False,True,False,True,False
+nvidia-JR2029364,NVIDIA,TensorRT,ML Frameworks & Libraries,True,False,True,False,False
 nvidia-JR2029365,NVIDIA,AI Agents,LLM & Generative AI,True,False,False,False,True
 nvidia-JR2029365,NVIDIA,APIs,"Web, Mobile & APIs",True,True,False,False,False
 nvidia-JR2029365,NVIDIA,CI/CD,Infrastructure & DevOps,True,False,False,True,False
@@ -15120,6 +15503,13 @@ nvidia-JR2029365,NVIDIA,PyTorch,ML Frameworks & Libraries,True,False,True,False,
 nvidia-JR2029365,NVIDIA,Spark,Data Engineering & Analytics,True,False,False,False,True
 nvidia-JR2029365,NVIDIA,Stakeholder Management,Leadership & Collaboration,False,True,False,False,False
 nvidia-JR2029365,NVIDIA,vLLM / SGLang,ML Frameworks & Libraries,True,False,True,False,False
+nvidia-JR2029371,NVIDIA,Business Development & Partnerships,Go-to-Market & Sales,False,False,True,False,False
+nvidia-JR2029371,NVIDIA,"ERP Systems (NetSuite, Oracle, Workday)","Finance, Legal & Operations",False,True,False,False,False
+nvidia-JR2029371,NVIDIA,English,Spoken Languages,False,True,False,False,False
+nvidia-JR2029371,NVIDIA,French,Spoken Languages,False,False,True,False,False
+nvidia-JR2029371,NVIDIA,German,Spoken Languages,False,True,False,False,False
+nvidia-JR2029371,NVIDIA,Program & Project Management,"Finance, Legal & Operations",False,False,False,True,False
+nvidia-JR2029371,NVIDIA,Recruiting & People Ops,"Finance, Legal & Operations",False,True,False,False,False
 nvidia-JR2029384,NVIDIA,Board & Signal Integrity,Hardware & Accelerators,True,True,False,True,False
 nvidia-JR2029384,NVIDIA,Communication Skills,Leadership & Collaboration,False,True,False,False,False
 nvidia-JR2029384,NVIDIA,Electrical Engineering,Data Center & Facilities,False,True,False,False,False
@@ -15156,7 +15546,6 @@ nvidia-JR2029414,NVIDIA,GPU,Hardware & Accelerators,True,False,True,False,True
 nvidia-JR2029414,NVIDIA,"Interconnects (NVLink, PCIe, CXL)",Hardware & Accelerators,True,True,True,False,False
 nvidia-JR2029414,NVIDIA,Linux,Infrastructure & DevOps,True,True,False,False,False
 nvidia-JR2029414,NVIDIA,"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,True,False,False,True,False
-nvidia-JR2029414,NVIDIA,Parallel Programming,HPC & Distributed Systems,True,False,False,False,True
 nvidia-JR2029414,NVIDIA,Python,Programming Languages,True,True,False,False,False
 nvidia-JR2029414,NVIDIA,Startup / Ambiguity,Leadership & Collaboration,False,True,False,False,False
 nvidia-JR2029424,NVIDIA,C,Programming Languages,True,True,False,False,False
@@ -15209,6 +15598,22 @@ nvidia-JR2029468,NVIDIA,Python,Programming Languages,True,True,False,False,False
 nvidia-JR2029468,NVIDIA,RLHF / Post-training,LLM & Generative AI,True,False,False,True,True
 nvidia-JR2029468,NVIDIA,Reinforcement Learning,AI/ML Methods,True,True,True,True,False
 nvidia-JR2029468,NVIDIA,Robotics,AI/ML Methods,True,True,False,False,False
+nvidia-JR2029482,NVIDIA,AI Agents,LLM & Generative AI,True,True,False,True,True
+nvidia-JR2029482,NVIDIA,APIs,"Web, Mobile & APIs",True,True,False,True,False
+nvidia-JR2029482,NVIDIA,Audit & SOX,"Finance, Legal & Operations",False,True,False,True,False
+nvidia-JR2029482,NVIDIA,Bash / Shell,Programming Languages,True,True,False,False,False
+nvidia-JR2029482,NVIDIA,CI/CD,Infrastructure & DevOps,True,True,False,True,False
+nvidia-JR2029482,NVIDIA,Distributed Systems,HPC & Distributed Systems,True,True,False,False,True
+nvidia-JR2029482,NVIDIA,Docker / Containers,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2029482,NVIDIA,English,Spoken Languages,False,True,False,False,False
+nvidia-JR2029482,NVIDIA,GPU,Hardware & Accelerators,True,False,True,False,True
+nvidia-JR2029482,NVIDIA,Inference & Serving,LLM & Generative AI,True,False,True,False,False
+nvidia-JR2029482,NVIDIA,Kubernetes,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2029482,NVIDIA,Linux,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2029482,NVIDIA,Networking,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2029482,NVIDIA,Parallel Programming,HPC & Distributed Systems,True,True,False,False,False
+nvidia-JR2029482,NVIDIA,Python,Programming Languages,True,True,False,False,False
+nvidia-JR2029482,NVIDIA,Site Reliability Engineering,Infrastructure & DevOps,True,False,False,True,True
 nvidia-JR2029543,NVIDIA,Computer Architecture,Hardware & Accelerators,True,False,True,False,False
 nvidia-JR2029543,NVIDIA,Deep Learning,AI/ML Methods,True,False,True,False,False
 nvidia-JR2029543,NVIDIA,GPU,Hardware & Accelerators,True,False,True,False,False
@@ -15222,7 +15627,6 @@ nvidia-JR2029570,NVIDIA,Cryptography,Security & Compliance,True,False,True,False
 nvidia-JR2029570,NVIDIA,Deep Learning,AI/ML Methods,True,False,False,False,True
 nvidia-JR2029570,NVIDIA,Firmware & Embedded,Hardware & Accelerators,True,True,True,True,True
 nvidia-JR2029570,NVIDIA,GPU,Hardware & Accelerators,True,False,False,False,True
-nvidia-JR2029570,NVIDIA,Parallel Programming,HPC & Distributed Systems,True,False,False,False,True
 nvidia-JR2029570,NVIDIA,Python,Programming Languages,True,True,False,False,False
 nvidia-JR2029570,NVIDIA,Robotics,AI/ML Methods,True,False,False,False,True
 nvidia-JR2029570,NVIDIA,Rust,Programming Languages,True,False,True,False,False
@@ -15239,6 +15643,31 @@ nvidia-JR2029577,NVIDIA,GPU,Hardware & Accelerators,True,True,True,True,True
 nvidia-JR2029577,NVIDIA,Parallel Programming,HPC & Distributed Systems,True,True,False,False,False
 nvidia-JR2029577,NVIDIA,Performance Optimization,HPC & Distributed Systems,True,True,False,False,False
 nvidia-JR2029577,NVIDIA,Rust,Programming Languages,True,True,True,True,True
+nvidia-JR2029580,NVIDIA,C++,Programming Languages,True,True,False,False,False
+nvidia-JR2029580,NVIDIA,CI/CD,Infrastructure & DevOps,True,False,True,False,False
+nvidia-JR2029580,NVIDIA,Computer Architecture,Hardware & Accelerators,True,True,False,False,False
+nvidia-JR2029580,NVIDIA,Data Analysis,Data Engineering & Analytics,True,True,False,False,False
+nvidia-JR2029580,NVIDIA,Firmware & Embedded,Hardware & Accelerators,True,True,True,True,True
+nvidia-JR2029580,NVIDIA,HPC,HPC & Distributed Systems,True,False,False,False,True
+nvidia-JR2029580,NVIDIA,Linux,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2029580,NVIDIA,Networking,Infrastructure & DevOps,True,False,False,False,True
+nvidia-JR2029580,NVIDIA,"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,True,False,False,True,False
+nvidia-JR2029580,NVIDIA,Python,Programming Languages,True,True,False,False,False
+nvidia-JR2029580,NVIDIA,Startup / Ambiguity,Leadership & Collaboration,False,False,False,False,True
+nvidia-JR2029586,NVIDIA,"ERP Systems (NetSuite, Oracle, Workday)","Finance, Legal & Operations",False,True,True,True,True
+nvidia-JR2029586,NVIDIA,Procurement & Vendor Management,"Finance, Legal & Operations",False,False,True,False,False
+nvidia-JR2029621,NVIDIA,C++,Programming Languages,True,True,False,False,False
+nvidia-JR2029621,NVIDIA,CI/CD,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2029621,NVIDIA,Git,Infrastructure & DevOps,True,True,False,False,False
+nvidia-JR2029621,NVIDIA,Optimization,AI/ML Methods,True,True,False,False,False
+nvidia-JR2029621,NVIDIA,Performance Optimization,HPC & Distributed Systems,True,False,True,False,False
+nvidia-JR2029621,NVIDIA,UX / Product Design,Product & Design,False,False,False,True,False
+nvidia-JR2029628,NVIDIA,Business Development & Partnerships,Go-to-Market & Sales,False,False,False,True,True
+nvidia-JR2029628,NVIDIA,Communication Skills,Leadership & Collaboration,False,False,False,False,True
+nvidia-JR2029628,NVIDIA,Financial Planning & Analysis,"Finance, Legal & Operations",False,True,False,False,False
+nvidia-JR2029628,NVIDIA,Go-to-Market Strategy,Go-to-Market & Sales,False,False,False,True,True
+nvidia-JR2029628,NVIDIA,Inference & Serving,LLM & Generative AI,True,False,False,True,True
+nvidia-JR2029628,NVIDIA,Product Management,Product & Design,False,False,False,False,True
 nvidia-JR2029693,NVIDIA,CUDA,Programming Languages,True,False,True,False,False
 nvidia-JR2029693,NVIDIA,Cross-functional Collaboration,Leadership & Collaboration,False,False,False,True,False
 nvidia-JR2029693,NVIDIA,Developer Relations,Go-to-Market & Sales,False,True,False,False,True
@@ -15463,6 +15892,10 @@ google-102063824223249094,Google,Energy & Power Procurement,Data Center & Facili
 google-102063824223249094,Google,Physical Design,Hardware & Accelerators,True,True,True,True,True
 google-102063824223249094,Google,Python,Programming Languages,True,True,False,False,False
 google-102063824223249094,Google,RTL & Verification,Hardware & Accelerators,True,True,False,True,True
+google-102118038253249222,Google,ASIC / SoC Design,Hardware & Accelerators,True,True,True,True,True
+google-102118038253249222,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,True,True,False
+google-102118038253249222,Google,"Interconnects (NVLink, PCIe, CXL)",Hardware & Accelerators,True,False,False,True,False
+google-102118038253249222,Google,Thermal & Power,Hardware & Accelerators,True,False,False,True,False
 google-102325069903995590,Google,Computer Architecture,Hardware & Accelerators,True,False,False,True,False
 google-102325069903995590,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,True,False,False
 google-102325069903995590,Google,Fine-tuning,LLM & Generative AI,True,True,False,False,False
@@ -15590,6 +16023,19 @@ google-103683616109667014,Google,Cross-functional Collaboration,Leadership & Col
 google-103683616109667014,Google,Program & Project Management,"Finance, Legal & Operations",False,True,False,True,False
 google-103683616109667014,Google,Site Reliability Engineering,Infrastructure & DevOps,True,False,False,True,False
 google-103683616109667014,Google,Trust & Safety,AI Safety & Evaluation,True,False,False,False,True
+google-103901308674548422,Google,AI Agents,LLM & Generative AI,True,False,False,True,False
+google-103901308674548422,Google,C++,Programming Languages,True,True,False,False,False
+google-103901308674548422,Google,CUDA,Programming Languages,True,False,True,False,False
+google-103901308674548422,Google,Compilers,HPC & Distributed Systems,True,False,True,True,False
+google-103901308674548422,Google,Data Analysis,Data Engineering & Analytics,True,True,False,False,False
+google-103901308674548422,Google,JAX,ML Frameworks & Libraries,True,False,True,True,False
+google-103901308674548422,Google,Machine Learning,AI/ML Methods,True,False,True,False,True
+google-103901308674548422,Google,Performance Optimization,HPC & Distributed Systems,True,False,False,True,False
+google-103901308674548422,Google,PyTorch,ML Frameworks & Libraries,True,False,True,True,False
+google-103901308674548422,Google,Python,Programming Languages,True,True,False,False,False
+google-103901308674548422,Google,TPU,Hardware & Accelerators,True,False,False,True,True
+google-103901308674548422,Google,Technical Leadership,Leadership & Collaboration,False,False,False,True,False
+google-103901308674548422,Google,Triton,ML Frameworks & Libraries,True,False,True,False,False
 google-103975807029781190,Google,GPU,Hardware & Accelerators,True,False,True,False,False
 google-103975807029781190,Google,Go-to-Market Strategy,Go-to-Market & Sales,False,False,False,False,True
 google-103975807029781190,Google,Inference & Serving,LLM & Generative AI,True,True,True,False,True
@@ -15704,7 +16150,6 @@ google-105107110005482182,Google,Startup / Ambiguity,Leadership & Collaboration,
 google-105107110005482182,Google,Technical Leadership,Leadership & Collaboration,False,False,True,False,False
 google-105109659337007814,Google,AI Agents,LLM & Generative AI,True,True,True,False,True
 google-105109659337007814,Google,English,Spoken Languages,False,True,False,False,False
-google-105109659337007814,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-105109659337007814,Google,Generative AI,LLM & Generative AI,True,True,True,False,False
 google-105109659337007814,Google,Google Cloud,Cloud Platforms,True,False,False,False,True
 google-105109659337007814,Google,LangChain / LlamaIndex,ML Frameworks & Libraries,True,False,True,False,False
@@ -16067,6 +16512,15 @@ google-109465591277855430,Google,SQL,Programming Languages,True,True,True,False,
 google-109465591277855430,Google,Startup / Ambiguity,Leadership & Collaboration,False,False,False,False,True
 google-109465591277855430,Google,Statistics,AI/ML Methods,True,True,True,False,False
 google-109465591277855430,Google,Strategy & Operations,"Finance, Legal & Operations",False,False,False,False,True
+google-109481605063418566,Google,Causal Inference & Experimentation,AI/ML Methods,True,False,False,False,True
+google-109481605063418566,Google,Data Analysis,Data Engineering & Analytics,True,True,True,False,True
+google-109481605063418566,Google,Mentorship,Leadership & Collaboration,False,False,False,True,False
+google-109481605063418566,Google,Optimization,AI/ML Methods,True,True,False,False,False
+google-109481605063418566,Google,Python,Programming Languages,True,True,True,False,False
+google-109481605063418566,Google,R,Programming Languages,True,True,True,False,False
+google-109481605063418566,Google,SQL,Programming Languages,True,True,True,False,False
+google-109481605063418566,Google,Stakeholder Management,Leadership & Collaboration,False,False,False,True,False
+google-109481605063418566,Google,Statistics,AI/ML Methods,True,True,True,False,False
 google-109612285885850310,Google,AI Safety,AI Safety & Evaluation,True,False,False,True,False
 google-109612285885850310,Google,Large Language Models,LLM & Generative AI,True,False,False,True,False
 google-109612285885850310,Google,Machine Learning,AI/ML Methods,True,True,True,True,False
@@ -16570,7 +17024,6 @@ google-115535518233436870,Google,TPU,Hardware & Accelerators,True,False,False,Tr
 google-115807151561024198,Google,AI Agents,LLM & Generative AI,True,True,True,True,True
 google-115807151561024198,Google,Data Pipelines / ETL,Data Engineering & Analytics,True,True,False,False,False
 google-115807151561024198,Google,Data Warehousing,Data Engineering & Analytics,True,True,False,False,False
-google-115807151561024198,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-115807151561024198,Google,Generative AI,LLM & Generative AI,True,True,True,False,False
 google-115807151561024198,Google,Google Cloud,Cloud Platforms,True,False,False,True,True
 google-115807151561024198,Google,Intellectual Property,"Finance, Legal & Operations",False,False,True,False,False
@@ -16635,9 +17088,8 @@ google-116663453149471430,Google,AI Agents,LLM & Generative AI,True,True,False,T
 google-116663453149471430,Google,Business Development & Partnerships,Go-to-Market & Sales,False,False,True,False,False
 google-116663453149471430,Google,Communication Skills,Leadership & Collaboration,False,False,True,False,False
 google-116663453149471430,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,True,False,False
-google-116663453149471430,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-116663453149471430,Google,Generative AI,LLM & Generative AI,True,True,False,False,False
-google-116663453149471430,Google,Google Cloud,Cloud Platforms,True,False,True,True,True
+google-116663453149471430,Google,Google Cloud,Cloud Platforms,True,False,True,True,False
 google-116663453149471430,Google,Large Language Models,LLM & Generative AI,True,True,False,False,False
 google-116663453149471430,Google,Program & Project Management,"Finance, Legal & Operations",False,True,True,False,False
 google-116663453149471430,Google,RAG & Retrieval,LLM & Generative AI,True,False,False,True,False
@@ -16665,7 +17117,6 @@ google-117061726272135878,Google,Stakeholder Management,Leadership & Collaborati
 google-117117492127507142,Google,AI Agents,LLM & Generative AI,True,True,True,False,False
 google-117117492127507142,Google,APIs,"Web, Mobile & APIs",True,False,True,False,False
 google-117117492127507142,Google,Audit & SOX,"Finance, Legal & Operations",False,False,True,False,False
-google-117117492127507142,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-117117492127507142,Google,Go,Programming Languages,True,True,False,False,False
 google-117117492127507142,Google,Go-to-Market Strategy,Go-to-Market & Sales,False,False,False,True,True
 google-117117492127507142,Google,Google Cloud,Cloud Platforms,True,False,False,True,True
@@ -16743,7 +17194,6 @@ google-118649579976434374,Google,APIs,"Web, Mobile & APIs",True,False,True,False
 google-118649579976434374,Google,Deep Learning,AI/ML Methods,True,False,True,False,False
 google-118649579976434374,Google,Distributed Systems,HPC & Distributed Systems,True,False,True,False,False
 google-118649579976434374,Google,Docker / Containers,Infrastructure & DevOps,True,True,False,False,False
-google-118649579976434374,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-118649579976434374,Google,Go-to-Market Strategy,Go-to-Market & Sales,False,False,False,True,False
 google-118649579976434374,Google,Google Cloud,Cloud Platforms,True,False,False,False,True
 google-118649579976434374,Google,Machine Learning,AI/ML Methods,True,False,True,False,False
@@ -16975,9 +17425,8 @@ google-121545164517712582,Google,Stakeholder Management,Leadership & Collaborati
 google-121545164517712582,Google,Trust & Safety,AI Safety & Evaluation,True,True,False,True,True
 google-121694948012499654,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,False,True,False
 google-121694948012499654,Google,Frontend Development,"Web, Mobile & APIs",True,True,False,False,False
-google-121694948012499654,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-121694948012499654,Google,Generative AI,LLM & Generative AI,True,True,False,False,False
-google-121694948012499654,Google,Google Cloud,Cloud Platforms,True,True,False,False,True
+google-121694948012499654,Google,Google Cloud,Cloud Platforms,True,True,False,False,False
 google-121694948012499654,Google,Machine Learning,AI/ML Methods,True,False,True,True,False
 google-121694948012499654,Google,Networking,Infrastructure & DevOps,True,True,False,False,False
 google-121694948012499654,Google,Program & Project Management,"Finance, Legal & Operations",False,True,False,False,False
@@ -17057,7 +17506,6 @@ google-122683098922918598,Google,Business Development & Partnerships,Go-to-Marke
 google-122683098922918598,Google,Data Analysis,Data Engineering & Analytics,True,True,True,False,False
 google-122683098922918598,Google,Data Warehousing,Data Engineering & Analytics,True,False,False,True,True
 google-122683098922918598,Google,Enterprise Sales,Go-to-Market & Sales,False,True,False,False,False
-google-122683098922918598,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-122683098922918598,Google,Google Cloud,Cloud Platforms,True,False,False,False,True
 google-122683098922918598,Google,Machine Learning,AI/ML Methods,True,True,False,False,False
 google-122683098922918598,Google,Performance Optimization,HPC & Distributed Systems,True,False,True,False,False
@@ -17325,6 +17773,14 @@ google-125634472405017286,Google,Trust & Safety,AI Safety & Evaluation,True,True
 google-125657003803452102,Google,ASIC / SoC Design,Hardware & Accelerators,True,False,False,False,True
 google-125657003803452102,Google,Networking,Infrastructure & DevOps,True,False,False,True,False
 google-125657003803452102,Google,TPU,Hardware & Accelerators,True,False,False,True,False
+google-125715619369624262,Google,AI Agents,LLM & Generative AI,True,False,False,False,True
+google-125715619369624262,Google,Communication Skills,Leadership & Collaboration,False,False,True,False,False
+google-125715619369624262,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,False,True,True
+google-125715619369624262,Google,Negotiation,Leadership & Collaboration,False,False,False,True,False
+google-125715619369624262,Google,Product Management,Product & Design,False,False,False,False,True
+google-125715619369624262,Google,Program & Project Management,"Finance, Legal & Operations",False,False,False,False,True
+google-125715619369624262,Google,SaaS / B2B,Go-to-Market & Sales,False,False,True,False,False
+google-125715619369624262,Google,UX / Product Design,Product & Design,False,True,True,True,True
 google-125813288268112582,Google,AI Agents,LLM & Generative AI,True,False,True,True,False
 google-125813288268112582,Google,Identity & Access,Security & Compliance,True,False,True,True,False
 google-125813288268112582,Google,Infrastructure & Cloud Security,Security & Compliance,True,True,False,False,False
@@ -17468,6 +17924,14 @@ google-127182202524836550,Google,Python,Programming Languages,True,True,False,Fa
 google-127182202524836550,Google,SQL,Programming Languages,True,True,True,True,False
 google-127182202524836550,Google,TPU,Hardware & Accelerators,True,False,True,True,True
 google-127182202524836550,Google,Technical Leadership,Leadership & Collaboration,False,True,False,False,True
+google-127209492747035334,Google,Account Management,Go-to-Market & Sales,False,False,False,True,False
+google-127209492747035334,Google,Data Analysis,Data Engineering & Analytics,True,False,True,False,False
+google-127209492747035334,Google,Google Cloud,Cloud Platforms,True,False,True,False,True
+google-127209492747035334,Google,Java,Programming Languages,True,False,True,False,False
+google-127209492747035334,Google,Networking,Infrastructure & DevOps,True,False,True,False,False
+google-127209492747035334,Google,Program & Project Management,"Finance, Legal & Operations",False,False,False,False,True
+google-127209492747035334,Google,Python,Programming Languages,True,False,True,False,False
+google-127209492747035334,Google,Technical Leadership,Leadership & Collaboration,False,False,False,False,True
 google-127233703477682886,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,True,False,False
 google-127233703477682886,Google,Fine-tuning,LLM & Generative AI,True,True,False,False,False
 google-127233703477682886,Google,Machine Learning,AI/ML Methods,True,True,False,True,True
@@ -17655,6 +18119,17 @@ google-129529453691708102,Google,Product Management,Product & Design,False,False
 google-129529453691708102,Google,Startup / Ambiguity,Leadership & Collaboration,False,False,False,True,True
 google-129529453691708102,Google,UX / Product Design,Product & Design,False,True,True,True,True
 google-129529453691708102,Google,User Research,Product & Design,False,False,False,True,False
+google-129579034794173126,Google,C++,Programming Languages,True,False,True,False,False
+google-129579034794173126,Google,Go,Programming Languages,True,False,True,False,False
+google-129579034794173126,Google,Google Cloud,Cloud Platforms,True,False,False,False,True
+google-129579034794173126,Google,Infrastructure & Cloud Security,Security & Compliance,True,True,False,False,False
+google-129579034794173126,Google,Operating Systems,HPC & Distributed Systems,True,False,True,False,False
+google-129579034794173126,Google,Python,Programming Languages,True,False,True,False,False
+google-129579034794173126,Google,Rust,Programming Languages,True,False,True,False,False
+google-129579034794173126,Google,Security Engineering,Security & Compliance,True,True,False,False,False
+google-129579034794173126,Google,Site Reliability Engineering,Infrastructure & DevOps,True,False,False,False,True
+google-129579034794173126,Google,Threat Detection & Response,Security & Compliance,True,False,False,True,True
+google-129579034794173126,Google,Threat Modeling,Security & Compliance,True,True,False,False,False
 google-129988979490464454,Google,AI Agents,LLM & Generative AI,True,False,False,True,True
 google-129988979490464454,Google,APIs,"Web, Mobile & APIs",True,False,False,True,False
 google-129988979490464454,Google,Generative AI,LLM & Generative AI,True,False,False,False,True
@@ -17984,7 +18459,6 @@ google-134007360824713926,Google,Startup / Ambiguity,Leadership & Collaboration,
 google-134071891903029958,Google,Communication Skills,Leadership & Collaboration,False,False,False,False,True
 google-134071891903029958,Google,Data Analysis,Data Engineering & Analytics,True,False,False,False,True
 google-134071891903029958,Google,English,Spoken Languages,False,True,False,False,False
-google-134071891903029958,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-134071891903029958,Google,Go-to-Market Strategy,Go-to-Market & Sales,False,False,False,True,False
 google-134071891903029958,Google,Google Cloud,Cloud Platforms,True,False,False,True,True
 google-134071891903029958,Google,Japanese,Spoken Languages,False,True,False,False,False
@@ -18291,6 +18765,16 @@ google-138067513668707014,Google,Mentorship,Leadership & Collaboration,False,Fal
 google-138067513668707014,Google,People Management,Leadership & Collaboration,False,False,False,False,True
 google-138067513668707014,Google,Product Management,Product & Design,False,False,False,False,True
 google-138067513668707014,Google,UX / Product Design,Product & Design,False,True,False,True,True
+google-138146835272213190,Google,BI & Dashboards,Data Engineering & Analytics,True,False,True,False,False
+google-138146835272213190,Google,Communication Skills,Leadership & Collaboration,False,False,True,False,False
+google-138146835272213190,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,True,False,True
+google-138146835272213190,Google,Energy & Power Procurement,Data Center & Facilities,False,True,False,True,False
+google-138146835272213190,Google,Financial Planning & Analysis,"Finance, Legal & Operations",False,False,False,True,False
+google-138146835272213190,Google,Large Language Models,LLM & Generative AI,True,False,True,False,False
+google-138146835272213190,Google,Program & Project Management,"Finance, Legal & Operations",False,True,True,False,False
+google-138146835272213190,Google,Regulatory & Compliance,"Finance, Legal & Operations",False,False,False,True,False
+google-138146835272213190,Google,SQL,Programming Languages,True,False,True,False,False
+google-138146835272213190,Google,Tax,"Finance, Legal & Operations",False,False,True,False,False
 google-138325319080649414,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,True,False,False
 google-138325319080649414,Google,Deep Learning,AI/ML Methods,True,False,False,False,True
 google-138325319080649414,Google,Fine-tuning,LLM & Generative AI,True,True,False,False,False
@@ -18443,6 +18927,15 @@ google-139911522712199878,Google,Networking,Infrastructure & DevOps,True,True,Tr
 google-139911522712199878,Google,Python,Programming Languages,True,True,False,False,False
 google-139911522712199878,Google,Site Reliability Engineering,Infrastructure & DevOps,True,False,False,False,True
 google-139911522712199878,Google,Terraform / IaC,Infrastructure & DevOps,True,False,True,True,False
+google-139930105693512390,Google,Business Development & Partnerships,Go-to-Market & Sales,False,False,False,False,True
+google-139930105693512390,Google,"CRM (Salesforce, HubSpot)",Go-to-Market & Sales,False,False,False,True,False
+google-139930105693512390,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,False,False,True
+google-139930105693512390,Google,Data Analysis,Data Engineering & Analytics,True,True,False,True,False
+google-139930105693512390,Google,Product Management,Product & Design,False,False,False,True,False
+google-139930105693512390,Google,Program & Project Management,"Finance, Legal & Operations",False,True,False,False,False
+google-139930105693512390,Google,SaaS / B2B,Go-to-Market & Sales,False,False,True,False,False
+google-139930105693512390,Google,Stakeholder Management,Leadership & Collaboration,False,True,False,False,False
+google-139930105693512390,Google,Startup / Ambiguity,Leadership & Collaboration,False,False,True,False,True
 google-140056500138582726,Google,ASIC / SoC Design,Hardware & Accelerators,True,False,True,False,True
 google-140056500138582726,Google,Computer Architecture,Hardware & Accelerators,True,True,True,True,True
 google-140056500138582726,Google,Linux,Infrastructure & DevOps,True,False,True,False,False
@@ -18553,7 +19046,6 @@ google-141731430009840326,Google,Business Development & Partnerships,Go-to-Marke
 google-141731430009840326,Google,Data Analysis,Data Engineering & Analytics,True,True,True,False,False
 google-141731430009840326,Google,Data Warehousing,Data Engineering & Analytics,True,False,False,True,True
 google-141731430009840326,Google,Enterprise Sales,Go-to-Market & Sales,False,True,False,False,False
-google-141731430009840326,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-141731430009840326,Google,Generative AI,LLM & Generative AI,True,False,True,False,False
 google-141731430009840326,Google,Google Cloud,Cloud Platforms,True,False,False,False,True
 google-141731430009840326,Google,Machine Learning,AI/ML Methods,True,True,False,False,False
@@ -18562,7 +19054,6 @@ google-141731430009840326,Google,Spanner,Databases,True,False,False,True,True
 google-141731430009840326,Google,Spark,Data Engineering & Analytics,True,False,False,True,False
 google-141756959295447750,Google,Communication Skills,Leadership & Collaboration,False,False,True,False,False
 google-141756959295447750,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,False,True,False
-google-141756959295447750,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-141756959295447750,Google,Generative AI,LLM & Generative AI,True,True,False,False,False
 google-141756959295447750,Google,Go-to-Market Strategy,Go-to-Market & Sales,False,True,False,True,True
 google-141756959295447750,Google,Google Cloud,Cloud Platforms,True,False,False,False,True
@@ -18605,6 +19096,16 @@ google-142205095377806022,Google,Python,Programming Languages,True,True,False,Fa
 google-142205095377806022,Google,SQL,Programming Languages,True,False,True,False,False
 google-142205095377806022,Google,Statistics,AI/ML Methods,True,False,True,False,False
 google-142205095377806022,Google,Strategy & Operations,"Finance, Legal & Operations",False,False,True,False,True
+google-142255847664165574,Google,ASIC / SoC Design,Hardware & Accelerators,True,True,True,True,True
+google-142255847664165574,Google,Computer Architecture,Hardware & Accelerators,True,True,True,False,False
+google-142255847664165574,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,False,False,True
+google-142255847664165574,Google,Data Analysis,Data Engineering & Analytics,True,True,False,False,False
+google-142255847664165574,Google,EDA Tools,Hardware & Accelerators,True,True,False,False,False
+google-142255847664165574,Google,Physical Design,Hardware & Accelerators,True,False,False,True,False
+google-142255847664165574,Google,Python,Programming Languages,True,True,True,False,False
+google-142255847664165574,Google,RTL & Verification,Hardware & Accelerators,True,True,False,True,True
+google-142255847664165574,Google,Threat Detection & Response,Security & Compliance,True,False,False,False,True
+google-142255847664165574,Google,Verilog / SystemVerilog,Programming Languages,True,True,False,True,False
 google-142274063962645190,Google,AI Agents,LLM & Generative AI,True,True,False,True,True
 google-142274063962645190,Google,AI Policy & Governance,AI Safety & Evaluation,True,False,True,False,False
 google-142274063962645190,Google,Data Analysis,Data Engineering & Analytics,True,False,False,False,True
@@ -19398,7 +19899,6 @@ google-79137469185827526,Google,Robotics,AI/ML Methods,True,True,False,False,Tru
 google-79193913646031558,Google,AI Agents,LLM & Generative AI,True,True,True,True,True
 google-79193913646031558,Google,Data Pipelines / ETL,Data Engineering & Analytics,True,True,False,False,False
 google-79193913646031558,Google,Data Warehousing,Data Engineering & Analytics,True,True,False,False,False
-google-79193913646031558,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-79193913646031558,Google,Generative AI,LLM & Generative AI,True,True,True,False,False
 google-79193913646031558,Google,Google Cloud,Cloud Platforms,True,False,False,True,True
 google-79193913646031558,Google,Intellectual Property,"Finance, Legal & Operations",False,False,True,False,False
@@ -19682,7 +20182,6 @@ google-83471336805933766,Google,Generative AI,LLM & Generative AI,True,False,Tru
 google-83471336805933766,Google,Go-to-Market Strategy,Go-to-Market & Sales,False,False,True,False,False
 google-83471336805933766,Google,Program & Project Management,"Finance, Legal & Operations",False,True,False,False,False
 google-83860581102035654,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,False,False,True
-google-83860581102035654,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-83860581102035654,Google,Go-to-Market Strategy,Go-to-Market & Sales,False,False,False,True,False
 google-83860581102035654,Google,Google Cloud,Cloud Platforms,True,False,False,True,True
 google-83860581102035654,Google,Multi-cloud,Cloud Platforms,True,False,True,False,False
@@ -19709,7 +20208,7 @@ google-83909998995743430,Google,Large Language Models,LLM & Generative AI,True,T
 google-83909998995743430,Google,Model Evaluation,AI Safety & Evaluation,True,False,True,True,True
 google-83909998995743430,Google,Multimodal,AI/ML Methods,True,True,False,False,True
 google-83909998995743430,Google,Operating Systems,HPC & Distributed Systems,True,False,True,False,False
-google-83909998995743430,Google,Pretraining,LLM & Generative AI,True,False,False,False,True
+google-83909998995743430,Google,Pretraining,LLM & Generative AI,True,False,False,True,True
 google-83909998995743430,Google,Product Management,Product & Design,False,True,False,True,True
 google-83909998995743430,Google,RLHF / Post-training,LLM & Generative AI,True,False,True,True,True
 google-83909998995743430,Google,SaaS / B2B,Go-to-Market & Sales,False,False,False,False,True
@@ -20065,7 +20564,6 @@ google-87457161382109894,Google,Reinforcement Learning,AI/ML Methods,True,True,F
 google-87574451402482374,Google,Business Development & Partnerships,Go-to-Market & Sales,False,False,True,False,True
 google-87574451402482374,Google,Communication Skills,Leadership & Collaboration,False,False,True,False,False
 google-87574451402482374,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,False,False,True
-google-87574451402482374,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-87574451402482374,Google,Go-to-Market Strategy,Go-to-Market & Sales,False,True,True,False,True
 google-87574451402482374,Google,Google Cloud,Cloud Platforms,True,False,True,False,True
 google-87574451402482374,Google,Infrastructure & Cloud Security,Security & Compliance,True,False,False,False,True
@@ -20225,9 +20723,8 @@ google-89081117339984582,Google,Technical Writing & Documentation,Product & Desi
 google-89123273249301190,Google,C++,Programming Languages,True,True,False,False,False
 google-89123273249301190,Google,Communication Skills,Leadership & Collaboration,False,False,True,False,False
 google-89123273249301190,Google,Cross-functional Collaboration,Leadership & Collaboration,False,True,False,True,False
-google-89123273249301190,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-89123273249301190,Google,Go,Programming Languages,True,True,False,False,False
-google-89123273249301190,Google,Google Cloud,Cloud Platforms,True,False,True,False,True
+google-89123273249301190,Google,Google Cloud,Cloud Platforms,True,False,True,False,False
 google-89123273249301190,Google,Java,Programming Languages,True,True,False,False,False
 google-89123273249301190,Google,Python,Programming Languages,True,True,False,False,False
 google-89123273249301190,Google,SaaS / B2B,Go-to-Market & Sales,False,True,False,False,False
@@ -20625,8 +21122,7 @@ google-94048685104472774,Google,AI Agents,LLM & Generative AI,True,False,True,Tr
 google-94048685104472774,Google,APIs,"Web, Mobile & APIs",True,False,False,True,False
 google-94048685104472774,Google,Data Analysis,Data Engineering & Analytics,True,True,False,False,False
 google-94048685104472774,Google,Fine-tuning,LLM & Generative AI,True,False,True,False,False
-google-94048685104472774,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
-google-94048685104472774,Google,Google Cloud,Cloud Platforms,True,False,False,True,True
+google-94048685104472774,Google,Google Cloud,Cloud Platforms,True,False,False,True,False
 google-94048685104472774,Google,Inference & Serving,LLM & Generative AI,True,False,True,True,False
 google-94048685104472774,Google,Large Language Models,LLM & Generative AI,True,False,True,False,False
 google-94048685104472774,Google,Machine Learning,AI/ML Methods,True,True,False,True,False
@@ -20769,7 +21265,6 @@ google-96135164647613126,Google,Technical Leadership,Leadership & Collaboration,
 google-96613266716795590,Google,Business Development & Partnerships,Go-to-Market & Sales,False,False,False,True,False
 google-96613266716795590,Google,Cross-functional Collaboration,Leadership & Collaboration,False,False,True,True,False
 google-96613266716795590,Google,Customer Success,Go-to-Market & Sales,False,False,False,True,False
-google-96613266716795590,Google,Full-stack Development,"Web, Mobile & APIs",True,False,False,False,True
 google-96613266716795590,Google,Generative AI,LLM & Generative AI,True,False,True,False,False
 google-96613266716795590,Google,Go-to-Market Strategy,Go-to-Market & Sales,False,False,False,True,True
 google-96613266716795590,Google,Google Cloud,Cloud Platforms,True,False,False,True,True
@@ -33209,15 +33704,6 @@ openai-10c7fcdc-1f07-41e3-8e37-4d930898a648,OpenAI,Go-to-Market Strategy,Go-to-M
 openai-10c7fcdc-1f07-41e3-8e37-4d930898a648,OpenAI,Marketing,Go-to-Market & Sales,False,True,False,True,True
 openai-10c7fcdc-1f07-41e3-8e37-4d930898a648,OpenAI,Product Management,Product & Design,False,False,False,True,False
 openai-10c7fcdc-1f07-41e3-8e37-4d930898a648,OpenAI,Startup / Ambiguity,Leadership & Collaboration,False,True,False,False,False
-openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Account Management,Go-to-Market & Sales,False,False,False,False,True
-openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Customer Success,Go-to-Market & Sales,False,True,False,False,False
-openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Developer Relations,Go-to-Market & Sales,False,False,False,False,True
-openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Enterprise Sales,Go-to-Market & Sales,False,True,False,False,False
-openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Go-to-Market Strategy,Go-to-Market & Sales,False,True,False,False,True
-openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Mentorship,Leadership & Collaboration,False,False,False,False,True
-openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Product Management,Product & Design,False,False,False,True,False
-openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Recruiting & People Ops,"Finance, Legal & Operations",False,False,False,False,True
-openai-110d820b-fcbe-4f02-9203-5b6145132e60,OpenAI,Solutions Architecture / Pre-sales,Go-to-Market & Sales,False,False,False,False,True
 openai-1146a3e6-aed1-40b0-a2ea-e2f4a19372ef,OpenAI,APIs,"Web, Mobile & APIs",True,True,False,False,False
 openai-1146a3e6-aed1-40b0-a2ea-e2f4a19372ef,OpenAI,Cross-functional Collaboration,Leadership & Collaboration,False,False,False,False,True
 openai-1146a3e6-aed1-40b0-a2ea-e2f4a19372ef,OpenAI,Go-to-Market Strategy,Go-to-Market & Sales,False,False,False,True,True
@@ -37110,6 +37596,10 @@ openai-5d37e9c8-f9f0-46b6-ba6d-ee6e6ead8d17,OpenAI,Communication Skills,Leadersh
 openai-5d37e9c8-f9f0-46b6-ba6d-ee6e6ead8d17,OpenAI,Site Reliability Engineering,Infrastructure & DevOps,True,False,False,False,True
 openai-5d37e9c8-f9f0-46b6-ba6d-ee6e6ead8d17,OpenAI,Startup / Ambiguity,Leadership & Collaboration,False,False,False,False,True
 openai-5d37e9c8-f9f0-46b6-ba6d-ee6e6ead8d17,OpenAI,Threat Detection & Response,Security & Compliance,True,False,False,False,True
+openai-5d40f698-176e-455f-a4fd-de2d8cfec044,OpenAI,Commissioning,Data Center & Facilities,False,False,False,True,True
+openai-5d40f698-176e-455f-a4fd-de2d8cfec044,OpenAI,Data Center Design & Construction,Data Center & Facilities,False,False,False,False,True
+openai-5d40f698-176e-455f-a4fd-de2d8cfec044,OpenAI,"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,True,False,True,False,False
+openai-5d40f698-176e-455f-a4fd-de2d8cfec044,OpenAI,Procurement & Vendor Management,"Finance, Legal & Operations",False,False,False,False,True
 openai-5d618f84-fcce-496c-bfe9-995bd9ff9065,OpenAI,Government & Public Sector,"Finance, Legal & Operations",False,False,False,True,False
 openai-5d618f84-fcce-496c-bfe9-995bd9ff9065,OpenAI,Large Language Models,LLM & Generative AI,True,True,False,False,False
 openai-5d618f84-fcce-496c-bfe9-995bd9ff9065,OpenAI,Python,Programming Languages,True,True,False,False,False

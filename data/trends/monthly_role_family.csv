@@ -1,0 +1,253 @@
+company_name,posting_month,role_family,new_postings,share
+Anthropic,2026-03,Data & Analytics,2,0.027
+Anthropic,2026-03,Data Center & Facilities,3,0.0405
+Anthropic,2026-03,"Finance, Legal & People",12,0.1622
+Anthropic,2026-03,Infrastructure & SRE,4,0.0541
+Anthropic,2026-03,ML / AI Engineering,1,0.0135
+Anthropic,2026-03,Marketing & Communications,4,0.0541
+Anthropic,2026-03,Product & Design,3,0.0405
+Anthropic,2026-03,Program Management,1,0.0135
+Anthropic,2026-03,Research,3,0.0405
+Anthropic,2026-03,"Safety, Policy & Trust",4,0.0541
+Anthropic,2026-03,Sales & Go-to-Market,32,0.4324
+Anthropic,2026-03,Security & Privacy,3,0.0405
+Anthropic,2026-03,Software Engineering,2,0.027
+Anthropic,2026-04,Data & Analytics,5,0.0301
+Anthropic,2026-04,Data Center & Facilities,7,0.0422
+Anthropic,2026-04,"Finance, Legal & People",23,0.1386
+Anthropic,2026-04,Infrastructure & SRE,9,0.0542
+Anthropic,2026-04,ML / AI Engineering,3,0.0181
+Anthropic,2026-04,Marketing & Communications,12,0.0723
+Anthropic,2026-04,Product & Design,7,0.0422
+Anthropic,2026-04,Program Management,2,0.012
+Anthropic,2026-04,Research,6,0.0361
+Anthropic,2026-04,"Safety, Policy & Trust",14,0.0843
+Anthropic,2026-04,Sales & Go-to-Market,59,0.3554
+Anthropic,2026-04,Security & Privacy,4,0.0241
+Anthropic,2026-04,Software Engineering,15,0.0904
+Anthropic,2026-05,Data & Analytics,6,0.0496
+Anthropic,2026-05,Data Center & Facilities,12,0.0992
+Anthropic,2026-05,"Finance, Legal & People",12,0.0992
+Anthropic,2026-05,Infrastructure & SRE,5,0.0413
+Anthropic,2026-05,ML / AI Engineering,2,0.0165
+Anthropic,2026-05,Marketing & Communications,4,0.0331
+Anthropic,2026-05,Other,1,0.0083
+Anthropic,2026-05,Product & Design,7,0.0579
+Anthropic,2026-05,Program Management,4,0.0331
+Anthropic,2026-05,Research,3,0.0248
+Anthropic,2026-05,"Safety, Policy & Trust",5,0.0413
+Anthropic,2026-05,Sales & Go-to-Market,41,0.3388
+Anthropic,2026-05,Security & Privacy,7,0.0579
+Anthropic,2026-05,Software Engineering,12,0.0992
+Anthropic,2026-06,Data Center & Facilities,4,0.0292
+Anthropic,2026-06,"Finance, Legal & People",22,0.1606
+Anthropic,2026-06,Hardware & Silicon,1,0.0073
+Anthropic,2026-06,Infrastructure & SRE,10,0.073
+Anthropic,2026-06,ML / AI Engineering,11,0.0803
+Anthropic,2026-06,Marketing & Communications,12,0.0876
+Anthropic,2026-06,Product & Design,2,0.0146
+Anthropic,2026-06,Program Management,8,0.0584
+Anthropic,2026-06,Research,7,0.0511
+Anthropic,2026-06,"Safety, Policy & Trust",13,0.0949
+Anthropic,2026-06,Sales & Go-to-Market,35,0.2555
+Anthropic,2026-06,Security & Privacy,5,0.0365
+Anthropic,2026-06,Software Engineering,7,0.0511
+Anthropic,2026-07,Data & Analytics,2,0.0149
+Anthropic,2026-07,Data Center & Facilities,3,0.0224
+Anthropic,2026-07,"Finance, Legal & People",9,0.0672
+Anthropic,2026-07,Hardware & Silicon,2,0.0149
+Anthropic,2026-07,Infrastructure & SRE,9,0.0672
+Anthropic,2026-07,ML / AI Engineering,3,0.0224
+Anthropic,2026-07,Marketing & Communications,9,0.0672
+Anthropic,2026-07,Product & Design,1,0.0075
+Anthropic,2026-07,Program Management,2,0.0149
+Anthropic,2026-07,Research,7,0.0522
+Anthropic,2026-07,"Safety, Policy & Trust",29,0.2164
+Anthropic,2026-07,Sales & Go-to-Market,33,0.2463
+Anthropic,2026-07,Security & Privacy,5,0.0373
+Anthropic,2026-07,Software Engineering,20,0.1493
+Anthropic,2026-08,Data & Analytics,7,0.0253
+Anthropic,2026-08,Data Center & Facilities,23,0.083
+Anthropic,2026-08,"Finance, Legal & People",29,0.1047
+Anthropic,2026-08,Hardware & Silicon,7,0.0253
+Anthropic,2026-08,Infrastructure & SRE,25,0.0903
+Anthropic,2026-08,ML / AI Engineering,8,0.0289
+Anthropic,2026-08,Marketing & Communications,13,0.0469
+Anthropic,2026-08,Other,1,0.0036
+Anthropic,2026-08,Product & Design,13,0.0469
+Anthropic,2026-08,Program Management,6,0.0217
+Anthropic,2026-08,Research,5,0.0181
+Anthropic,2026-08,"Safety, Policy & Trust",18,0.065
+Anthropic,2026-08,Sales & Go-to-Market,91,0.3285
+Anthropic,2026-08,Security & Privacy,17,0.0614
+Anthropic,2026-08,Software Engineering,14,0.0505
+Anthropic,2026-09,Data & Analytics,5,0.023
+Anthropic,2026-09,Data Center & Facilities,4,0.0184
+Anthropic,2026-09,"Finance, Legal & People",36,0.1659
+Anthropic,2026-09,Hardware & Silicon,1,0.0046
+Anthropic,2026-09,Infrastructure & SRE,16,0.0737
+Anthropic,2026-09,ML / AI Engineering,13,0.0599
+Anthropic,2026-09,Marketing & Communications,10,0.0461
+Anthropic,2026-09,Product & Design,7,0.0323
+Anthropic,2026-09,Program Management,3,0.0138
+Anthropic,2026-09,Research,7,0.0323
+Anthropic,2026-09,"Safety, Policy & Trust",16,0.0737
+Anthropic,2026-09,Sales & Go-to-Market,71,0.3272
+Anthropic,2026-09,Security & Privacy,10,0.0461
+Anthropic,2026-09,Software Engineering,18,0.0829
+Anthropic,2026-10,Data & Analytics,5,0.0233
+Anthropic,2026-10,Data Center & Facilities,15,0.0698
+Anthropic,2026-10,"Finance, Legal & People",28,0.1302
+Anthropic,2026-10,Hardware & Silicon,1,0.0047
+Anthropic,2026-10,Infrastructure & SRE,15,0.0698
+Anthropic,2026-10,ML / AI Engineering,7,0.0326
+Anthropic,2026-10,Marketing & Communications,10,0.0465
+Anthropic,2026-10,Other,1,0.0047
+Anthropic,2026-10,Product & Design,7,0.0326
+Anthropic,2026-10,Program Management,9,0.0419
+Anthropic,2026-10,Research,6,0.0279
+Anthropic,2026-10,"Safety, Policy & Trust",16,0.0744
+Anthropic,2026-10,Sales & Go-to-Market,69,0.3209
+Anthropic,2026-10,Security & Privacy,12,0.0558
+Anthropic,2026-10,Software Engineering,14,0.0651
+Anthropic,2026-11,Data Center & Facilities,7,0.1129
+Anthropic,2026-11,"Finance, Legal & People",8,0.129
+Anthropic,2026-11,Infrastructure & SRE,1,0.0161
+Anthropic,2026-11,Marketing & Communications,4,0.0645
+Anthropic,2026-11,Product & Design,2,0.0323
+Anthropic,2026-11,Program Management,1,0.0161
+Anthropic,2026-11,Research,6,0.0968
+Anthropic,2026-11,"Safety, Policy & Trust",2,0.0323
+Anthropic,2026-11,Sales & Go-to-Market,28,0.4516
+Anthropic,2026-11,Security & Privacy,1,0.0161
+Anthropic,2026-11,Software Engineering,2,0.0323
+OpenAI,2026-03,Data & Analytics,2,0.0202
+OpenAI,2026-03,Data Center & Facilities,4,0.0404
+OpenAI,2026-03,"Finance, Legal & People",14,0.1414
+OpenAI,2026-03,Infrastructure & SRE,8,0.0808
+OpenAI,2026-03,ML / AI Engineering,5,0.0505
+OpenAI,2026-03,Marketing & Communications,11,0.1111
+OpenAI,2026-03,Product & Design,2,0.0202
+OpenAI,2026-03,Program Management,2,0.0202
+OpenAI,2026-03,Research,1,0.0101
+OpenAI,2026-03,Sales & Go-to-Market,31,0.3131
+OpenAI,2026-03,Security & Privacy,5,0.0505
+OpenAI,2026-03,Software Engineering,14,0.1414
+OpenAI,2026-04,Data & Analytics,4,0.0214
+OpenAI,2026-04,Data Center & Facilities,5,0.0267
+OpenAI,2026-04,"Finance, Legal & People",20,0.107
+OpenAI,2026-04,Hardware & Silicon,9,0.0481
+OpenAI,2026-04,Infrastructure & SRE,17,0.0909
+OpenAI,2026-04,ML / AI Engineering,7,0.0374
+OpenAI,2026-04,Marketing & Communications,8,0.0428
+OpenAI,2026-04,Other,2,0.0107
+OpenAI,2026-04,Product & Design,6,0.0321
+OpenAI,2026-04,Program Management,5,0.0267
+OpenAI,2026-04,Research,4,0.0214
+OpenAI,2026-04,"Safety, Policy & Trust",11,0.0588
+OpenAI,2026-04,Sales & Go-to-Market,60,0.3209
+OpenAI,2026-04,Security & Privacy,4,0.0214
+OpenAI,2026-04,Software Engineering,25,0.1337
+OpenAI,2026-05,Data & Analytics,11,0.047
+OpenAI,2026-05,Data Center & Facilities,5,0.0214
+OpenAI,2026-05,"Finance, Legal & People",34,0.1453
+OpenAI,2026-05,Hardware & Silicon,6,0.0256
+OpenAI,2026-05,Infrastructure & SRE,13,0.0556
+OpenAI,2026-05,ML / AI Engineering,6,0.0256
+OpenAI,2026-05,Marketing & Communications,20,0.0855
+OpenAI,2026-05,Other,4,0.0171
+OpenAI,2026-05,Product & Design,11,0.047
+OpenAI,2026-05,Program Management,6,0.0256
+OpenAI,2026-05,Research,9,0.0385
+OpenAI,2026-05,"Safety, Policy & Trust",12,0.0513
+OpenAI,2026-05,Sales & Go-to-Market,61,0.2607
+OpenAI,2026-05,Security & Privacy,6,0.0256
+OpenAI,2026-05,Software Engineering,30,0.1282
+OpenAI,2026-06,Data & Analytics,3,0.0142
+OpenAI,2026-06,Data Center & Facilities,5,0.0237
+OpenAI,2026-06,"Finance, Legal & People",16,0.0758
+OpenAI,2026-06,Hardware & Silicon,6,0.0284
+OpenAI,2026-06,Infrastructure & SRE,5,0.0237
+OpenAI,2026-06,ML / AI Engineering,13,0.0616
+OpenAI,2026-06,Marketing & Communications,23,0.109
+OpenAI,2026-06,Other,2,0.0095
+OpenAI,2026-06,Product & Design,6,0.0284
+OpenAI,2026-06,Program Management,10,0.0474
+OpenAI,2026-06,Research,7,0.0332
+OpenAI,2026-06,"Safety, Policy & Trust",16,0.0758
+OpenAI,2026-06,Sales & Go-to-Market,63,0.2986
+OpenAI,2026-06,Security & Privacy,10,0.0474
+OpenAI,2026-06,Software Engineering,26,0.1232
+OpenAI,2026-07,Data & Analytics,6,0.0267
+OpenAI,2026-07,Data Center & Facilities,6,0.0267
+OpenAI,2026-07,"Finance, Legal & People",31,0.1378
+OpenAI,2026-07,Hardware & Silicon,5,0.0222
+OpenAI,2026-07,Infrastructure & SRE,11,0.0489
+OpenAI,2026-07,ML / AI Engineering,14,0.0622
+OpenAI,2026-07,Marketing & Communications,26,0.1156
+OpenAI,2026-07,Other,4,0.0178
+OpenAI,2026-07,Product & Design,6,0.0267
+OpenAI,2026-07,Program Management,4,0.0178
+OpenAI,2026-07,Research,4,0.0178
+OpenAI,2026-07,"Safety, Policy & Trust",4,0.0178
+OpenAI,2026-07,Sales & Go-to-Market,68,0.3022
+OpenAI,2026-07,Security & Privacy,11,0.0489
+OpenAI,2026-07,Software Engineering,25,0.1111
+OpenAI,2026-08,Data & Analytics,1,0.004
+OpenAI,2026-08,Data Center & Facilities,18,0.0717
+OpenAI,2026-08,"Finance, Legal & People",27,0.1076
+OpenAI,2026-08,Hardware & Silicon,8,0.0319
+OpenAI,2026-08,Infrastructure & SRE,12,0.0478
+OpenAI,2026-08,ML / AI Engineering,7,0.0279
+OpenAI,2026-08,Marketing & Communications,24,0.0956
+OpenAI,2026-08,Other,8,0.0319
+OpenAI,2026-08,Product & Design,10,0.0398
+OpenAI,2026-08,Program Management,11,0.0438
+OpenAI,2026-08,Research,12,0.0478
+OpenAI,2026-08,"Safety, Policy & Trust",16,0.0637
+OpenAI,2026-08,Sales & Go-to-Market,73,0.2908
+OpenAI,2026-08,Security & Privacy,5,0.0199
+OpenAI,2026-08,Software Engineering,19,0.0757
+OpenAI,2026-09,Data & Analytics,5,0.0186
+OpenAI,2026-09,Data Center & Facilities,7,0.026
+OpenAI,2026-09,"Finance, Legal & People",26,0.0967
+OpenAI,2026-09,Hardware & Silicon,8,0.0297
+OpenAI,2026-09,Infrastructure & SRE,18,0.0669
+OpenAI,2026-09,ML / AI Engineering,20,0.0743
+OpenAI,2026-09,Marketing & Communications,33,0.1227
+OpenAI,2026-09,Other,1,0.0037
+OpenAI,2026-09,Product & Design,13,0.0483
+OpenAI,2026-09,Program Management,9,0.0335
+OpenAI,2026-09,Research,9,0.0335
+OpenAI,2026-09,"Safety, Policy & Trust",13,0.0483
+OpenAI,2026-09,Sales & Go-to-Market,61,0.2268
+OpenAI,2026-09,Security & Privacy,4,0.0149
+OpenAI,2026-09,Software Engineering,42,0.1561
+OpenAI,2026-10,Data & Analytics,6,0.027
+OpenAI,2026-10,Data Center & Facilities,11,0.0495
+OpenAI,2026-10,"Finance, Legal & People",32,0.1441
+OpenAI,2026-10,Hardware & Silicon,5,0.0225
+OpenAI,2026-10,Infrastructure & SRE,17,0.0766
+OpenAI,2026-10,ML / AI Engineering,12,0.0541
+OpenAI,2026-10,Marketing & Communications,18,0.0811
+OpenAI,2026-10,Other,1,0.0045
+OpenAI,2026-10,Product & Design,16,0.0721
+OpenAI,2026-10,Program Management,7,0.0315
+OpenAI,2026-10,Research,9,0.0405
+OpenAI,2026-10,"Safety, Policy & Trust",7,0.0315
+OpenAI,2026-10,Sales & Go-to-Market,47,0.2117
+OpenAI,2026-10,Security & Privacy,6,0.027
+OpenAI,2026-10,Software Engineering,28,0.1261
+OpenAI,2026-11,Data & Analytics,2,0.0294
+OpenAI,2026-11,Data Center & Facilities,3,0.0441
+OpenAI,2026-11,"Finance, Legal & People",3,0.0441
+OpenAI,2026-11,Hardware & Silicon,3,0.0441
+OpenAI,2026-11,Infrastructure & SRE,3,0.0441
+OpenAI,2026-11,ML / AI Engineering,3,0.0441
+OpenAI,2026-11,Marketing & Communications,8,0.1176
+OpenAI,2026-11,Product & Design,2,0.0294
+OpenAI,2026-11,Program Management,2,0.0294
+OpenAI,2026-11,"Safety, Policy & Trust",2,0.0294
+OpenAI,2026-11,Sales & Go-to-Market,27,0.3971
+OpenAI,2026-11,Security & Privacy,1,0.0147
+OpenAI,2026-11,Software Engineering,9,0.1324

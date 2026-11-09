@@ -1,6 +1,6 @@
 # Sprint 6 — Competitor Comparison
 
-**Week of:** 2026-12-14 · **CadetX task 6** · **Status:** ⬜ Not started
+**Week of:** 2026-12-14 · **CadetX task 6** · **Status:** 🟡 Next up
 
 ## Goal
 

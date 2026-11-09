@@ -5,7 +5,7 @@ Attribution: Epoch AI, "Data on Frontier Lab Hiring", epoch.ai — https://epoch
 Usage:
     python -m src.collect.epoch_history
 
-Writes data/external/epoch/<YYYY-MM-DD>/ (the zip's CSVs + README) and
+Writes data/external/epoch/latest/ (the zip's CSVs + README + DOWNLOADED.txt) and
 data/processed/epoch_history.csv mapped to the project schema.
 """
 
@@ -32,9 +32,10 @@ csv.field_size_limit(2**31 - 1)
 def main() -> None:
     s = PoliteSession(delay_seconds=1.0, timeout=120)
     data = s.get(ZIP_URL).content
-    dest = OUT / today()
+    dest = OUT / "latest"  # overwritten each refresh; git history keeps old versions
     dest.mkdir(parents=True, exist_ok=True)
     zipfile.ZipFile(io.BytesIO(data)).extractall(dest)
+    (dest / "DOWNLOADED.txt").write_text(f"Downloaded {today()} from {ZIP_URL}\n", encoding="utf-8")
 
     texts: dict[str, dict] = {}  # one row per posting: advert text as last observed
     tpath = dest / "frontier_lab_hiring_posting_texts.csv"

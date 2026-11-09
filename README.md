@@ -7,8 +7,8 @@
 
 <br>
 
-![Status](https://img.shields.io/badge/status-Sprint%205%20·%20Hiring%20Trends-2e6f8e?style=flat-square)
-![Progress](https://img.shields.io/badge/sprints-4%20%2F%2012%20done-e07b2f?style=flat-square)
+![Status](https://img.shields.io/badge/status-Sprint%206%20·%20Competitor%20Comparison-2e6f8e?style=flat-square)
+![Progress](https://img.shields.io/badge/sprints-5%20%2F%2012%20done-e07b2f?style=flat-square)
 ![Python](https://img.shields.io/badge/python-3.12-10243b?style=flat-square&logo=python&logoColor=white)
 ![Program](https://img.shields.io/badge/CadetX-Virtual%20Work%20Experience-0D4ABC?style=flat-square)
 
@@ -43,6 +43,10 @@ flowchart LR
 | **Team** | Solo: [Frank Mediavilla](https://github.com/FrankPonce), rotating through Scrum Lead, Data Quality, Docs and Tech Lead roles. |
 | **Timeline** | 12 weekly sprints · Nov 2026 → Jan 2027 |
 
+**Latest signal:** open roles grew **+52% at Anthropic** and **+29% at OpenAI** between March and November 2026 ([Sprint 5](docs/sprints/sprint-05-hiring-trends.md)).
+
+![Open roles](reports/trends/figures/open_roles.png)
+
 ---
 
 ## 🗺️ Sprint roadmap
@@ -56,8 +60,8 @@ Click a sprint to see its goal, deliverables, and results.
 | 02 | [**Data Collection**](docs/sprints/sprint-02-data-collection.md) | Nov 16 | 4 collectors built; first snapshot of 2,170 postings + 4,111 historical; [Data Collection Reports](reports/data-collection/) | ✅ |
 | 03 | [**NLP Preprocessing**](docs/sprints/sprint-03-nlp-preprocessing.md) | Nov 23 | Unified 4,909-posting corpus; 23–54% boilerplate removed; sections, salary, spaCy lemmas; [summary](reports/preprocessing/summary.md) | ✅ |
 | 04 | [**Skill Extraction**](docs/sprints/sprint-04-skill-extraction.md) | Nov 30 | 211-skill shared taxonomy; 45k skill mentions; role family, seniority, education features; 89% precision; [summary](reports/skills/summary.md) | ✅ |
-| 05 | [**Hiring Trends**](docs/sprints/sprint-05-hiring-trends.md) | Dec 7 | Weekly time series of new / active / closed postings; hiring velocity | 🟡 |
-| 06 | [**Competitor Comparison**](docs/sprints/sprint-06-competitor-comparison.md) | Dec 14 | Role mix, distinctive skills, seniority and location side by side | ⬜ |
+| 05 | [**Hiring Trends**](docs/sprints/sprint-05-hiring-trends.md) | Dec 7 | Open roles +52% Anthropic / +29% OpenAI since March; weekly velocity, role-mix shifts, emerging skills; [summary](reports/trends/summary.md) | ✅ |
+| 06 | [**Competitor Comparison**](docs/sprints/sprint-06-competitor-comparison.md) | Dec 14 | Role mix, distinctive skills, seniority and location side by side | 🟡 |
 | 07 | [**Demand Forecasting**](docs/sprints/sprint-07-demand-forecasting.md) | Dec 21 | Baselines → ARIMA / Prophet with backtesting and honest intervals | ⬜ |
 | 08 | [**Similarity Scoring**](docs/sprints/sprint-08-similarity-scoring.md) | Dec 28 | TF-IDF + Sentence-BERT similarity, role clusters, heatmaps | ⬜ |
 | 09 | [**Insights & Reporting**](docs/sprints/sprint-09-insights-reporting.md) | Jan 4 | Decision-ready findings per company and across the landscape | ⬜ |
@@ -109,6 +113,7 @@ python -m src.collect.run_snapshot           # weekly snapshot, all four compani
 python -m src.collect.run_snapshot nvidia --limit 3   # quick test, saves nothing
 python -m src.preprocess.build_corpus        # cleaned corpus -> data/processed/corpus.parquet
 python -m src.features.build_features       # skills + features -> data/features/
+python -m src.trends.build_trends           # weekly trends + charts -> data/trends/, reports/trends/
 ```
 
 Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
@@ -129,12 +134,14 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 ├── src/
 │   ├── collect/              collectors · validation · snapshot runner
 │   ├── preprocess/           sections · boilerplate removal · spaCy · corpus builder
-│   └── features/             skill taxonomy · extractors · feature tables
+│   ├── features/             skill taxonomy · extractors · feature tables
+│   └── trends/               weekly flows · emerging skills · charts
 ├── data/
 │   ├── raw/                  weekly snapshot CSVs per company (full text)
 │   ├── external/             Epoch AI download (CC BY)
 │   ├── processed/            per-company datasets · Epoch history · corpus.parquet
-│   └── features/             posting features · skills (long) · skill matrix
+│   ├── features/             posting features · skills (long) · skill matrix
+│   └── trends/               weekly / monthly trend tables
 ├── notebooks/                exploration & analysis
 ├── reports/                  run logs, collection reports, insight reports
 └── presentations/            final deck

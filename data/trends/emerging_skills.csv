@@ -1,0 +1,299 @@
+skill,early_share,recent_share,recent_postings,change_pp,ratio,scope,emerging_skill_flag,category
+Large Language Models,0.2261640798226164,0.28225806451612906,210.0,5.6,1.25,Anthropic,False,LLM & Generative AI
+Solutions Architecture / Pre-sales,0.09312638580931264,0.14650537634408603,109.0,5.3,1.57,Anthropic,True,Go-to-Market & Sales
+Government & Public Sector,0.082039911308204,0.125,93.0,4.3,1.52,Anthropic,True,"Finance, Legal & Operations"
+AI Agents,0.11086474501108648,0.15053763440860216,112.0,4.0,1.36,Anthropic,False,LLM & Generative AI
+Data Center Design & Construction,0.0598669623059867,0.09274193548387097,69.0,3.3,1.55,Anthropic,True,Data Center & Facilities
+Model Evaluation,0.09312638580931264,0.11693548387096774,87.0,2.4,1.26,Anthropic,False,AI Safety & Evaluation
+CPA / CFA,0.03325942350332594,0.05510752688172043,41.0,2.2,1.66,Anthropic,True,"Finance, Legal & Operations"
+Stakeholder Management,0.22394678492239467,0.24596774193548387,183.0,2.2,1.1,Anthropic,False,Leadership & Collaboration
+LLM APIs,0.03325942350332594,0.05241935483870968,39.0,1.9,1.58,Anthropic,False,LLM & Generative AI
+Security Engineering,0.022172949002217297,0.04032258064516129,30.0,1.8,1.82,Anthropic,False,Security & Compliance
+Git,0.013303769401330377,0.02956989247311828,22.0,1.6,2.22,Anthropic,False,Infrastructure & DevOps
+Account Management,0.1973392461197339,0.21236559139784947,158.0,1.5,1.08,Anthropic,False,Go-to-Market & Sales
+Commissioning,0.031042128603104215,0.04435483870967742,33.0,1.3,1.43,Anthropic,False,Data Center & Facilities
+Model Context Protocol,0.031042128603104215,0.043010752688172046,32.0,1.2,1.39,Anthropic,False,LLM & Generative AI
+Red Teaming,0.013303769401330377,0.025537634408602152,19.0,1.2,1.92,Anthropic,False,AI Safety & Evaluation
+Cryptography,0.015521064301552107,0.024193548387096774,18.0,0.9,1.56,Anthropic,False,Security & Compliance
+TypeScript,0.024390243902439025,0.033602150537634407,25.0,0.9,1.38,Anthropic,False,Programming Languages
+English,0.07095343680709534,0.0793010752688172,59.0,0.8,1.12,Anthropic,False,Spoken Languages
+Identity & Access,0.03325942350332594,0.041666666666666664,31.0,0.8,1.25,Anthropic,False,Security & Compliance
+Intellectual Property,0.015521064301552107,0.0228494623655914,17.0,0.7,1.47,Anthropic,False,"Finance, Legal & Operations"
+Negotiation,0.13303769401330376,0.13978494623655913,104.0,0.7,1.05,Anthropic,False,Leadership & Collaboration
+Observability,0.050997782705099776,0.05779569892473118,43.0,0.7,1.13,Anthropic,False,Infrastructure & DevOps
+Threat Detection & Response,0.07317073170731707,0.08064516129032258,60.0,0.7,1.1,Anthropic,False,Security & Compliance
+Backend Development,0.03547671840354767,0.041666666666666664,31.0,0.6,1.17,Anthropic,False,"Web, Mobile & APIs"
+GPU,0.03547671840354767,0.041666666666666664,31.0,0.6,1.17,Anthropic,False,Hardware & Accelerators
+Threat Modeling,0.05543237250554324,0.06048387096774194,45.0,0.5,1.09,Anthropic,False,Security & Compliance
+German,0.024390243902439025,0.028225806451612902,21.0,0.4,1.16,Anthropic,False,Spoken Languages
+Procurement & Vendor Management,0.10643015521064302,0.11021505376344086,82.0,0.4,1.04,Anthropic,False,"Finance, Legal & Operations"
+Financial Planning & Analysis,0.07095343680709534,0.0739247311827957,55.0,0.3,1.04,Anthropic,False,"Finance, Legal & Operations"
+APIs,0.2261640798226164,0.22849462365591397,170.0,0.2,1.01,Anthropic,False,"Web, Mobile & APIs"
+Infrastructure & Cloud Security,0.022172949002217297,0.024193548387096774,18.0,0.2,1.09,Anthropic,False,Security & Compliance
+"Security Compliance (SOC 2, ISO, FedRAMP)",0.04878048780487805,0.04973118279569892,37.0,0.1,1.02,Anthropic,False,Security & Compliance
+Python,0.1973392461197339,0.1975806451612903,147.0,0.0,1.0,Anthropic,False,Programming Languages
+"ERP Systems (NetSuite, Oracle, Workday)",0.07095343680709534,0.06989247311827956,52.0,-0.1,0.99,Anthropic,False,"Finance, Legal & Operations"
+"Legal (contracts, commercial law)",0.0598669623059867,0.05913978494623656,44.0,-0.1,0.99,Anthropic,False,"Finance, Legal & Operations"
+Multi-cloud,0.022172949002217297,0.021505376344086023,16.0,-0.1,0.97,Anthropic,False,Cloud Platforms
+Frontend Development,0.028824833702882482,0.026881720430107527,20.0,-0.2,0.93,Anthropic,False,"Web, Mobile & APIs"
+Kubernetes,0.03991130820399113,0.03763440860215054,28.0,-0.2,0.94,Anthropic,False,Infrastructure & DevOps
+Mentorship,0.13082039911308205,0.12903225806451613,96.0,-0.2,0.99,Anthropic,False,Leadership & Collaboration
+Prompt Engineering,0.04212860310421286,0.04032258064516129,30.0,-0.2,0.96,Anthropic,False,LLM & Generative AI
+Reinforcement Learning,0.03991130820399113,0.03763440860215054,28.0,-0.2,0.94,Anthropic,False,AI/ML Methods
+Trust & Safety,0.05543237250554324,0.053763440860215055,40.0,-0.2,0.97,Anthropic,False,AI Safety & Evaluation
+Customer Success,0.13303769401330376,0.1303763440860215,97.0,-0.3,0.98,Anthropic,False,Go-to-Market & Sales
+Full-stack Development,0.028824833702882482,0.025537634408602152,19.0,-0.3,0.89,Anthropic,False,"Web, Mobile & APIs"
+Recruiting & People Ops,0.06430155210643015,0.06048387096774194,45.0,-0.4,0.94,Anthropic,False,"Finance, Legal & Operations"
+Thermal & Power,0.037694013303769404,0.033602150537634407,25.0,-0.4,0.89,Anthropic,False,Hardware & Accelerators
+Generative AI,0.03325942350332594,0.028225806451612902,21.0,-0.5,0.85,Anthropic,False,LLM & Generative AI
+Marketing,0.057649667405764965,0.05241935483870968,39.0,-0.5,0.91,Anthropic,False,Go-to-Market & Sales
+Rust,0.050997782705099776,0.0456989247311828,34.0,-0.5,0.9,Anthropic,False,Programming Languages
+Technical Leadership,0.07095343680709534,0.06586021505376344,49.0,-0.5,0.93,Anthropic,False,Leadership & Collaboration
+Treasury,0.026607538802660754,0.021505376344086023,16.0,-0.5,0.81,Anthropic,False,"Finance, Legal & Operations"
+Tax,0.05543237250554324,0.04838709677419355,36.0,-0.7,0.87,Anthropic,False,"Finance, Legal & Operations"
+Data Warehousing,0.03991130820399113,0.03225806451612903,24.0,-0.8,0.81,Anthropic,False,Data Engineering & Analytics
+UX / Product Design,0.05321507760532151,0.0456989247311828,34.0,-0.8,0.86,Anthropic,False,Product & Design
+Terraform / IaC,0.03547671840354767,0.026881720430107527,20.0,-0.9,0.76,Anthropic,False,Infrastructure & DevOps
+AI Safety,0.13747228381374724,0.12634408602150538,94.0,-1.1,0.92,Anthropic,False,AI Safety & Evaluation
+Metrics & KPIs,0.057649667405764965,0.04704301075268817,35.0,-1.1,0.82,Anthropic,False,Product & Design
+Operating Systems,0.03325942350332594,0.021505376344086023,16.0,-1.2,0.65,Anthropic,False,HPC & Distributed Systems
+AI Policy & Governance,0.057649667405764965,0.04435483870967742,33.0,-1.3,0.77,Anthropic,False,AI Safety & Evaluation
+Inference & Serving,0.07760532150776053,0.06451612903225806,48.0,-1.3,0.83,Anthropic,False,LLM & Generative AI
+"Accounting (GAAP, close)",0.10421286031042129,0.09005376344086022,67.0,-1.4,0.86,Anthropic,False,"Finance, Legal & Operations"
+Business Development & Partnerships,0.22838137472283815,0.21236559139784947,158.0,-1.6,0.93,Anthropic,False,Go-to-Market & Sales
+Data Pipelines / ETL,0.06651884700665188,0.04973118279569892,37.0,-1.7,0.75,Anthropic,False,Data Engineering & Analytics
+Site Reliability Engineering,0.10421286031042129,0.08602150537634409,64.0,-1.8,0.83,Anthropic,False,Infrastructure & DevOps
+Causal Inference & Experimentation,0.04878048780487805,0.02956989247311828,22.0,-1.9,0.61,Anthropic,False,AI/ML Methods
+Excel / Spreadsheets,0.0598669623059867,0.038978494623655914,29.0,-2.1,0.65,Anthropic,False,Data Engineering & Analytics
+French,0.04212860310421286,0.021505376344086023,16.0,-2.1,0.51,Anthropic,False,Spoken Languages
+Go,0.05321507760532151,0.03225806451612903,24.0,-2.1,0.61,Anthropic,False,Programming Languages
+SQL,0.12638580931263857,0.10483870967741936,78.0,-2.2,0.83,Anthropic,False,Programming Languages
+Azure,0.07095343680709534,0.04838709677419355,36.0,-2.3,0.68,Anthropic,False,Cloud Platforms
+"CRM (Salesforce, HubSpot)",0.11086474501108648,0.08736559139784947,65.0,-2.3,0.79,Anthropic,False,Go-to-Market & Sales
+Product Management,0.18625277161862527,0.15994623655913978,119.0,-2.6,0.86,Anthropic,False,Product & Design
+CI/CD,0.04878048780487805,0.021505376344086023,16.0,-2.7,0.44,Anthropic,False,Infrastructure & DevOps
+Audit & SOX,0.13968957871396895,0.11155913978494623,83.0,-2.8,0.8,Anthropic,False,"Finance, Legal & Operations"
+Pipeline & Forecasting,0.10643015521064302,0.07795698924731183,58.0,-2.8,0.73,Anthropic,False,Go-to-Market & Sales
+Regulatory & Compliance,0.19955654101995565,0.17204301075268819,128.0,-2.8,0.86,Anthropic,False,"Finance, Legal & Operations"
+Networking,0.09090909090909091,0.06182795698924731,46.0,-2.9,0.68,Anthropic,False,Infrastructure & DevOps
+Startup / Ambiguity,0.5853658536585366,0.5564516129032258,414.0,-2.9,0.95,Anthropic,False,Leadership & Collaboration
+Privacy & Data Protection,0.07538802660753881,0.0456989247311828,34.0,-3.0,0.61,Anthropic,False,Security & Compliance
+Distributed Systems,0.07538802660753881,0.04435483870967742,33.0,-3.1,0.59,Anthropic,False,HPC & Distributed Systems
+Go-to-Market Strategy,0.34146341463414637,0.3064516129032258,228.0,-3.5,0.9,Anthropic,False,Go-to-Market & Sales
+SaaS / B2B,0.19955654101995565,0.1639784946236559,122.0,-3.6,0.82,Anthropic,False,Go-to-Market & Sales
+Data Analysis,0.12195121951219512,0.08333333333333333,62.0,-3.9,0.68,Anthropic,False,Data Engineering & Analytics
+Program & Project Management,0.18181818181818182,0.1424731182795699,106.0,-3.9,0.78,Anthropic,False,"Finance, Legal & Operations"
+Google Cloud,0.12195121951219512,0.0793010752688172,59.0,-4.3,0.65,Anthropic,False,Cloud Platforms
+Machine Learning,0.37915742793791574,0.33602150537634407,250.0,-4.3,0.89,Anthropic,False,AI/ML Methods
+AWS,0.13303769401330376,0.0846774193548387,63.0,-4.8,0.64,Anthropic,False,Cloud Platforms
+Strategy & Operations,0.18625277161862527,0.13440860215053763,100.0,-5.2,0.72,Anthropic,False,"Finance, Legal & Operations"
+Enterprise Sales,0.17073170731707318,0.11424731182795698,85.0,-5.6,0.67,Anthropic,False,Go-to-Market & Sales
+People Management,0.1352549889135255,0.07526881720430108,56.0,-6.0,0.56,Anthropic,False,Leadership & Collaboration
+BI & Dashboards,0.15077605321507762,0.09005376344086022,67.0,-6.1,0.6,Anthropic,False,Data Engineering & Analytics
+Communication Skills,0.3968957871396896,0.32661290322580644,243.0,-7.0,0.82,Anthropic,False,Leadership & Collaboration
+Cross-functional Collaboration,0.4279379157427938,0.34274193548387094,255.0,-8.5,0.8,Anthropic,False,Leadership & Collaboration
+Government & Public Sector,0.055860805860805864,0.08783783783783784,130.0,3.2,1.57,Anthropic + OpenAI,True,"Finance, Legal & Operations"
+Data Center Design & Construction,0.045787545787545784,0.07702702702702703,114.0,3.1,1.68,Anthropic + OpenAI,True,Data Center & Facilities
+AI Agents,0.1391941391941392,0.16959459459459458,251.0,3.0,1.22,Anthropic + OpenAI,False,LLM & Generative AI
+Large Language Models,0.17765567765567766,0.20675675675675675,306.0,2.9,1.16,Anthropic + OpenAI,False,LLM & Generative AI
+Account Management,0.11996336996336997,0.14797297297297296,219.0,2.8,1.23,Anthropic + OpenAI,False,Go-to-Market & Sales
+Solutions Architecture / Pre-sales,0.08974358974358974,0.11756756756756757,174.0,2.8,1.31,Anthropic + OpenAI,False,Go-to-Market & Sales
+APIs,0.21794871794871795,0.2445945945945946,362.0,2.7,1.12,Anthropic + OpenAI,False,"Web, Mobile & APIs"
+Identity & Access,0.023809523809523808,0.0472972972972973,70.0,2.3,1.99,Anthropic + OpenAI,True,Security & Compliance
+LLM APIs,0.03205128205128205,0.05540540540540541,82.0,2.3,1.73,Anthropic + OpenAI,True,LLM & Generative AI
+Negotiation,0.0989010989010989,0.1222972972972973,181.0,2.3,1.24,Anthropic + OpenAI,False,Leadership & Collaboration
+Commissioning,0.026556776556776556,0.0472972972972973,70.0,2.1,1.78,Anthropic + OpenAI,True,Data Center & Facilities
+English,0.04945054945054945,0.06824324324324324,101.0,1.9,1.38,Anthropic + OpenAI,False,Spoken Languages
+Python,0.16666666666666666,0.18513513513513513,274.0,1.8,1.11,Anthropic + OpenAI,False,Programming Languages
+Business Development & Partnerships,0.17399267399267399,0.19054054054054054,282.0,1.7,1.1,Anthropic + OpenAI,False,Go-to-Market & Sales
+Intellectual Property,0.008241758241758242,0.024324324324324326,36.0,1.6,2.95,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+Regulatory & Compliance,0.13095238095238096,0.14391891891891892,213.0,1.3,1.1,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+Electrical Engineering,0.011904761904761904,0.02364864864864865,35.0,1.2,1.99,Anthropic + OpenAI,False,Data Center & Facilities
+Git,0.009157509157509158,0.021621621621621623,32.0,1.2,2.36,Anthropic + OpenAI,False,Infrastructure & DevOps
+JavaScript,0.026556776556776556,0.038513513513513516,57.0,1.2,1.45,Anthropic + OpenAI,False,Programming Languages
+CPA / CFA,0.024725274725274724,0.03581081081081081,53.0,1.1,1.45,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+Site Reliability Engineering,0.0695970695970696,0.0804054054054054,119.0,1.1,1.16,Anthropic + OpenAI,False,Infrastructure & DevOps
+Backend Development,0.05402930402930403,0.06418918918918919,95.0,1.0,1.19,Anthropic + OpenAI,False,"Web, Mobile & APIs"
+Model Context Protocol,0.0173992673992674,0.027702702702702704,41.0,1.0,1.59,Anthropic + OpenAI,False,LLM & Generative AI
+Product Management,0.14560439560439561,0.15472972972972973,229.0,0.9,1.06,Anthropic + OpenAI,False,Product & Design
+"Security Compliance (SOC 2, ISO, FedRAMP)",0.03205128205128205,0.04121621621621622,61.0,0.9,1.29,Anthropic + OpenAI,False,Security & Compliance
+Thermal & Power,0.031135531135531136,0.03986486486486487,59.0,0.9,1.28,Anthropic + OpenAI,False,Hardware & Accelerators
+Red Teaming,0.014652014652014652,0.022972972972972974,34.0,0.8,1.57,Anthropic + OpenAI,False,AI Safety & Evaluation
+TypeScript,0.026556776556776556,0.03445945945945946,51.0,0.8,1.3,Anthropic + OpenAI,False,Programming Languages
+Security Engineering,0.020146520146520148,0.02702702702702703,40.0,0.7,1.34,Anthropic + OpenAI,False,Security & Compliance
+AI Safety,0.08699633699633699,0.09324324324324325,138.0,0.6,1.07,Anthropic + OpenAI,False,AI Safety & Evaluation
+Financial Planning & Analysis,0.05311355311355311,0.05945945945945946,88.0,0.6,1.12,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+Korean,0.007326007326007326,0.012837837837837839,19.0,0.6,1.75,Anthropic + OpenAI,False,Spoken Languages
+Offensive Security,0.007326007326007326,0.013513513513513514,20.0,0.6,1.84,Anthropic + OpenAI,False,Security & Compliance
+Parallel Programming,0.003663003663003663,0.010135135135135136,15.0,0.6,2.77,Anthropic + OpenAI,False,HPC & Distributed Systems
+Treasury,0.015567765567765568,0.021621621621621623,32.0,0.6,1.39,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+"Legal (contracts, commercial law)",0.031135531135531136,0.03648648648648649,54.0,0.5,1.17,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+"Accounting (GAAP, close)",0.07142857142857142,0.07567567567567568,112.0,0.4,1.06,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+German,0.013736263736263736,0.01756756756756757,26.0,0.4,1.28,Anthropic + OpenAI,False,Spoken Languages
+Marketing,0.0695970695970696,0.07364864864864865,109.0,0.4,1.06,Anthropic + OpenAI,False,Go-to-Market & Sales
+Procurement & Vendor Management,0.10897435897435898,0.11283783783783784,167.0,0.4,1.04,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+Bash / Shell,0.007326007326007326,0.010135135135135136,15.0,0.3,1.38,Anthropic + OpenAI,False,Programming Languages
+Java,0.007326007326007326,0.010810810810810811,16.0,0.3,1.48,Anthropic + OpenAI,False,Programming Languages
+Technical Writing & Documentation,0.01282051282051282,0.015540540540540541,23.0,0.3,1.21,Anthropic + OpenAI,False,Product & Design
+Threat Modeling,0.037545787545787544,0.04054054054054054,60.0,0.3,1.08,Anthropic + OpenAI,False,Security & Compliance
+User Research,0.010073260073260074,0.013513513513513514,20.0,0.3,1.34,Anthropic + OpenAI,False,Product & Design
+ASIC / SoC Design,0.01098901098901099,0.012837837837837839,19.0,0.2,1.17,Anthropic + OpenAI,False,Hardware & Accelerators
+Cryptography,0.014652014652014652,0.016216216216216217,24.0,0.2,1.11,Anthropic + OpenAI,False,Security & Compliance
+Robotics,0.019230769230769232,0.021621621621621623,32.0,0.2,1.12,Anthropic + OpenAI,False,AI/ML Methods
+Data Modeling,0.010073260073260074,0.010810810810810811,16.0,0.1,1.07,Anthropic + OpenAI,False,Data Engineering & Analytics
+Energy & Power Procurement,0.011904761904761904,0.012837837837837839,19.0,0.1,1.08,Anthropic + OpenAI,False,Data Center & Facilities
+Storage Systems,0.013736263736263736,0.014864864864864866,22.0,0.1,1.08,Anthropic + OpenAI,False,HPC & Distributed Systems
+Threat Detection & Response,0.04945054945054945,0.05067567567567568,75.0,0.1,1.02,Anthropic + OpenAI,False,Security & Compliance
+AI Policy & Governance,0.031135531135531136,0.031081081081081083,46.0,-0.0,1.0,Anthropic + OpenAI,False,AI Safety & Evaluation
+Linux,0.014652014652014652,0.014864864864864866,22.0,0.0,1.01,Anthropic + OpenAI,False,Infrastructure & DevOps
+Observability,0.07875457875457875,0.07837837837837838,116.0,-0.0,1.0,Anthropic + OpenAI,False,Infrastructure & DevOps
+Pretraining,0.010073260073260074,0.010135135135135136,15.0,0.0,1.01,Anthropic + OpenAI,False,LLM & Generative AI
+Prompt Engineering,0.02197802197802198,0.0222972972972973,33.0,0.0,1.01,Anthropic + OpenAI,False,LLM & Generative AI
+Spanish,0.014652014652014652,0.014864864864864866,22.0,0.0,1.01,Anthropic + OpenAI,False,Spoken Languages
+Frontend Development,0.03388278388278388,0.032432432432432434,48.0,-0.1,0.96,Anthropic + OpenAI,False,"Web, Mobile & APIs"
+Full-stack Development,0.038461538461538464,0.037162162162162164,55.0,-0.1,0.97,Anthropic + OpenAI,False,"Web, Mobile & APIs"
+Japanese,0.015567765567765568,0.014864864864864866,22.0,-0.1,0.95,Anthropic + OpenAI,False,Spoken Languages
+Model Evaluation,0.08333333333333333,0.08243243243243244,122.0,-0.1,0.99,Anthropic + OpenAI,False,AI Safety & Evaluation
+Communications & PR,0.016483516483516484,0.014864864864864866,22.0,-0.2,0.9,Anthropic + OpenAI,False,Go-to-Market & Sales
+Firmware & Embedded,0.028388278388278388,0.026351351351351353,39.0,-0.2,0.93,Anthropic + OpenAI,False,Hardware & Accelerators
+Multi-cloud,0.013736263736263736,0.011486486486486487,17.0,-0.2,0.84,Anthropic + OpenAI,False,Cloud Platforms
+Tax,0.054945054945054944,0.052702702702702706,78.0,-0.2,0.96,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+"ERP Systems (NetSuite, Oracle, Workday)",0.055860805860805864,0.052702702702702706,78.0,-0.3,0.94,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+Infrastructure & Cloud Security,0.020146520146520148,0.01756756756756757,26.0,-0.3,0.87,Anthropic + OpenAI,False,Security & Compliance
+Mechanical / HVAC,0.014652014652014652,0.011486486486486487,17.0,-0.3,0.78,Anthropic + OpenAI,False,Data Center & Facilities
+React,0.014652014652014652,0.011486486486486487,17.0,-0.3,0.78,Anthropic + OpenAI,False,"Web, Mobile & APIs"
+C++,0.024725274725274724,0.020945945945945947,31.0,-0.4,0.85,Anthropic + OpenAI,False,Programming Languages
+Terraform / IaC,0.024725274725274724,0.02027027027027027,30.0,-0.4,0.82,Anthropic + OpenAI,False,Infrastructure & DevOps
+HPC,0.020146520146520148,0.015540540540540541,23.0,-0.5,0.77,Anthropic + OpenAI,False,HPC & Distributed Systems
+Mentorship,0.11538461538461539,0.11013513513513513,163.0,-0.5,0.95,Anthropic + OpenAI,False,Leadership & Collaboration
+Rust,0.04395604395604396,0.038513513513513516,57.0,-0.5,0.88,Anthropic + OpenAI,False,Programming Languages
+SaaS / B2B,0.15842490842490842,0.15337837837837837,227.0,-0.5,0.97,Anthropic + OpenAI,False,Go-to-Market & Sales
+Kubernetes,0.03205128205128205,0.026351351351351353,39.0,-0.6,0.82,Anthropic + OpenAI,False,Infrastructure & DevOps
+Privacy & Data Protection,0.03388278388278388,0.027702702702702704,41.0,-0.6,0.82,Anthropic + OpenAI,False,Security & Compliance
+Generative AI,0.0347985347985348,0.027702702702702704,41.0,-0.7,0.8,Anthropic + OpenAI,False,LLM & Generative AI
+Data Warehousing,0.029304029304029304,0.020945945945945947,31.0,-0.8,0.71,Anthropic + OpenAI,False,Data Engineering & Analytics
+French,0.021062271062271064,0.013513513513513514,20.0,-0.8,0.64,Anthropic + OpenAI,False,Spoken Languages
+Operating Systems,0.04395604395604396,0.03581081081081081,53.0,-0.8,0.81,Anthropic + OpenAI,False,HPC & Distributed Systems
+Statistics,0.022893772893772892,0.014864864864864866,22.0,-0.8,0.65,Anthropic + OpenAI,False,AI/ML Methods
+Audit & SOX,0.0989010989010989,0.08851351351351351,131.0,-1.0,0.89,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+CI/CD,0.031135531135531136,0.020945945945945947,31.0,-1.0,0.67,Anthropic + OpenAI,False,Infrastructure & DevOps
+Go,0.05036630036630037,0.04054054054054054,60.0,-1.0,0.8,Anthropic + OpenAI,False,Programming Languages
+Reinforcement Learning,0.03388278388278388,0.024324324324324326,36.0,-1.0,0.72,Anthropic + OpenAI,False,AI/ML Methods
+"CRM (Salesforce, HubSpot)",0.07326007326007326,0.062162162162162166,92.0,-1.1,0.85,Anthropic + OpenAI,False,Go-to-Market & Sales
+Docker / Containers,0.022893772893772892,0.012162162162162163,18.0,-1.1,0.53,Anthropic + OpenAI,False,Infrastructure & DevOps
+Technical Leadership,0.07509157509157509,0.06418918918918919,95.0,-1.1,0.85,Anthropic + OpenAI,False,Leadership & Collaboration
+Causal Inference & Experimentation,0.09432234432234432,0.08243243243243244,122.0,-1.2,0.87,Anthropic + OpenAI,False,AI/ML Methods
+Google Cloud,0.057692307692307696,0.04594594594594595,68.0,-1.2,0.8,Anthropic + OpenAI,False,Cloud Platforms
+Trust & Safety,0.0695970695970696,0.057432432432432436,85.0,-1.2,0.83,Anthropic + OpenAI,False,AI Safety & Evaluation
+SQL,0.0989010989010989,0.08581081081081081,127.0,-1.3,0.87,Anthropic + OpenAI,False,Programming Languages
+Azure,0.04487179487179487,0.031081081081081083,46.0,-1.4,0.69,Anthropic + OpenAI,False,Cloud Platforms
+Inference & Serving,0.06593406593406594,0.05202702702702703,77.0,-1.4,0.79,Anthropic + OpenAI,False,LLM & Generative AI
+Machine Learning,0.23992673992673993,0.22567567567567567,334.0,-1.4,0.94,Anthropic + OpenAI,False,AI/ML Methods
+GPU,0.047619047619047616,0.032432432432432434,48.0,-1.5,0.68,Anthropic + OpenAI,False,Hardware & Accelerators
+UX / Product Design,0.07509157509157509,0.06013513513513514,89.0,-1.5,0.8,Anthropic + OpenAI,False,Product & Design
+Data Pipelines / ETL,0.05860805860805861,0.04256756756756757,63.0,-1.6,0.73,Anthropic + OpenAI,False,Data Engineering & Analytics
+Excel / Spreadsheets,0.04487179487179487,0.029054054054054056,43.0,-1.6,0.65,Anthropic + OpenAI,False,Data Engineering & Analytics
+Performance Optimization,0.03388278388278388,0.018243243243243244,27.0,-1.6,0.54,Anthropic + OpenAI,False,HPC & Distributed Systems
+RLHF / Post-training,0.026556776556776556,0.010810810810810811,16.0,-1.6,0.41,Anthropic + OpenAI,False,LLM & Generative AI
+Distributed Systems,0.0815018315018315,0.06418918918918919,95.0,-1.7,0.79,Anthropic + OpenAI,False,HPC & Distributed Systems
+Program & Project Management,0.16666666666666666,0.14864864864864866,220.0,-1.8,0.89,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+Developer Relations,0.03388278388278388,0.014864864864864866,22.0,-1.9,0.44,Anthropic + OpenAI,False,Go-to-Market & Sales
+Go-to-Market Strategy,0.3360805860805861,0.31756756756756754,470.0,-1.9,0.94,Anthropic + OpenAI,False,Go-to-Market & Sales
+People Management,0.09523809523809523,0.07364864864864865,109.0,-2.2,0.77,Anthropic + OpenAI,False,Leadership & Collaboration
+Pipeline & Forecasting,0.08333333333333333,0.06148648648648649,91.0,-2.2,0.74,Anthropic + OpenAI,False,Go-to-Market & Sales
+Recruiting & People Ops,0.08882783882783883,0.06689189189189189,99.0,-2.2,0.75,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+Stakeholder Management,0.27106227106227104,0.24864864864864866,368.0,-2.2,0.92,Anthropic + OpenAI,False,Leadership & Collaboration
+Customer Success,0.1346153846153846,0.10878378378378378,161.0,-2.6,0.81,Anthropic + OpenAI,False,Go-to-Market & Sales
+Enterprise Sales,0.10347985347985347,0.07567567567567568,112.0,-2.8,0.73,Anthropic + OpenAI,False,Go-to-Market & Sales
+Metrics & KPIs,0.06501831501831502,0.033783783783783786,50.0,-3.1,0.52,Anthropic + OpenAI,False,Product & Design
+BI & Dashboards,0.11172161172161173,0.07972972972972973,118.0,-3.2,0.71,Anthropic + OpenAI,False,Data Engineering & Analytics
+AWS,0.08791208791208792,0.052702702702702706,78.0,-3.5,0.6,Anthropic + OpenAI,False,Cloud Platforms
+Data Analysis,0.1282051282051282,0.0918918918918919,136.0,-3.6,0.72,Anthropic + OpenAI,False,Data Engineering & Analytics
+Networking,0.09706959706959707,0.05878378378378379,87.0,-3.8,0.61,Anthropic + OpenAI,False,Infrastructure & DevOps
+Strategy & Operations,0.19139194139194138,0.1527027027027027,226.0,-3.9,0.8,Anthropic + OpenAI,False,"Finance, Legal & Operations"
+Communication Skills,0.31043956043956045,0.2702702702702703,400.0,-4.0,0.87,Anthropic + OpenAI,False,Leadership & Collaboration
+Startup / Ambiguity,0.6556776556776557,0.6101351351351352,903.0,-4.6,0.93,Anthropic + OpenAI,False,Leadership & Collaboration
+Cross-functional Collaboration,0.4899267399267399,0.3878378378378378,574.0,-10.2,0.79,Anthropic + OpenAI,False,Leadership & Collaboration
+APIs,0.2121684867394696,0.2608695652173913,192.0,4.9,1.23,OpenAI,False,"Web, Mobile & APIs"
+Identity & Access,0.0171606864274571,0.05298913043478261,39.0,3.6,3.09,OpenAI,True,Security & Compliance
+Business Development & Partnerships,0.1357254290171607,0.16847826086956522,124.0,3.3,1.24,OpenAI,False,Go-to-Market & Sales
+Regulatory & Compliance,0.08268330733229329,0.11548913043478261,85.0,3.3,1.4,OpenAI,False,"Finance, Legal & Operations"
+Product Management,0.11700468018720749,0.14945652173913043,110.0,3.2,1.28,OpenAI,False,Product & Design
+AI Agents,0.15912636505460218,0.18885869565217392,139.0,3.0,1.19,OpenAI,False,LLM & Generative AI
+Negotiation,0.0748829953198128,0.10461956521739131,77.0,3.0,1.4,OpenAI,False,Leadership & Collaboration
+Site Reliability Engineering,0.0452418096723869,0.07472826086956522,55.0,2.9,1.65,OpenAI,True,Infrastructure & DevOps
+Commissioning,0.0234009360374415,0.050271739130434784,37.0,2.7,2.15,OpenAI,True,Data Center & Facilities
+LLM APIs,0.031201248049921998,0.058423913043478264,43.0,2.7,1.87,OpenAI,True,LLM & Generative AI
+Python,0.14508580343213728,0.17255434782608695,127.0,2.7,1.19,OpenAI,False,Programming Languages
+Data Center Design & Construction,0.0358814352574103,0.06114130434782609,45.0,2.5,1.7,OpenAI,True,Data Center & Facilities
+JavaScript,0.0374414976599064,0.0625,46.0,2.5,1.67,OpenAI,True,Programming Languages
+Electrical Engineering,0.0093603744149766,0.03260869565217391,24.0,2.3,3.48,OpenAI,True,Data Center & Facilities
+English,0.0343213728549142,0.057065217391304345,42.0,2.3,1.66,OpenAI,True,Spoken Languages
+Intellectual Property,0.0031201248049922,0.025815217391304348,19.0,2.3,8.27,OpenAI,True,"Finance, Legal & Operations"
+Backend Development,0.06708268330733229,0.08695652173913043,64.0,2.0,1.3,OpenAI,False,"Web, Mobile & APIs"
+Thermal & Power,0.0265210608424337,0.04619565217391304,34.0,2.0,1.74,OpenAI,True,Hardware & Accelerators
+Account Management,0.0655226209048362,0.08288043478260869,61.0,1.7,1.26,OpenAI,False,Go-to-Market & Sales
+Marketing,0.078003120124805,0.09510869565217392,70.0,1.7,1.22,OpenAI,False,Go-to-Market & Sales
+Parallel Programming,0.0046801872074883,0.020380434782608696,15.0,1.6,4.35,OpenAI,False,HPC & Distributed Systems
+Treasury,0.0078003120124804995,0.021739130434782608,16.0,1.4,2.79,OpenAI,False,"Finance, Legal & Operations"
+"Accounting (GAAP, close)",0.0483619344773791,0.06114130434782609,45.0,1.3,1.26,OpenAI,False,"Finance, Legal & Operations"
+Government & Public Sector,0.0374414976599064,0.050271739130434784,37.0,1.3,1.34,OpenAI,False,"Finance, Legal & Operations"
+SaaS / B2B,0.1294851794071763,0.14266304347826086,105.0,1.3,1.1,OpenAI,False,Go-to-Market & Sales
+"Security Compliance (SOC 2, ISO, FedRAMP)",0.0202808112324493,0.03260869565217391,24.0,1.2,1.61,OpenAI,False,Security & Compliance
+Causal Inference & Experimentation,0.12636505460218408,0.1358695652173913,100.0,1.0,1.08,OpenAI,False,AI/ML Methods
+AI Safety,0.0514820592823713,0.059782608695652176,44.0,0.8,1.16,OpenAI,False,AI Safety & Evaluation
+TypeScript,0.028081123244929798,0.035326086956521736,26.0,0.7,1.26,OpenAI,False,Programming Languages
+ASIC / SoC Design,0.0187207488299532,0.024456521739130436,18.0,0.6,1.31,OpenAI,False,Hardware & Accelerators
+Firmware & Embedded,0.0358814352574103,0.04076086956521739,30.0,0.5,1.14,OpenAI,False,Hardware & Accelerators
+People Management,0.06708268330733229,0.07201086956521739,53.0,0.5,1.07,OpenAI,False,Leadership & Collaboration
+Procurement & Vendor Management,0.11076443057722309,0.11548913043478261,85.0,0.5,1.04,OpenAI,False,"Finance, Legal & Operations"
+Red Teaming,0.015600624024960999,0.020380434782608696,15.0,0.5,1.31,OpenAI,False,AI Safety & Evaluation
+Financial Planning & Analysis,0.0405616224648986,0.04483695652173913,33.0,0.4,1.11,OpenAI,False,"Finance, Legal & Operations"
+Full-stack Development,0.0452418096723869,0.04891304347826087,36.0,0.4,1.08,OpenAI,False,"Web, Mobile & APIs"
+Robotics,0.031201248049921998,0.033967391304347824,25.0,0.3,1.09,OpenAI,False,AI/ML Methods
+CI/CD,0.0187207488299532,0.020380434782608696,15.0,0.2,1.09,OpenAI,False,Infrastructure & DevOps
+Tax,0.054602184087363496,0.057065217391304345,42.0,0.2,1.05,OpenAI,False,"Finance, Legal & Operations"
+Frontend Development,0.0374414976599064,0.03804347826086957,28.0,0.1,1.02,OpenAI,False,"Web, Mobile & APIs"
+Go,0.0483619344773791,0.04891304347826087,36.0,0.1,1.01,OpenAI,False,Programming Languages
+Observability,0.09828393135725429,0.09918478260869565,73.0,0.1,1.01,OpenAI,False,Infrastructure & DevOps
+Solutions Architecture / Pre-sales,0.0873634945397816,0.08831521739130435,65.0,0.1,1.01,OpenAI,False,Go-to-Market & Sales
+Communications & PR,0.0218408736349454,0.020380434782608696,15.0,-0.1,0.93,OpenAI,False,Go-to-Market & Sales
+Operating Systems,0.0514820592823713,0.050271739130434784,37.0,-0.1,0.98,OpenAI,False,HPC & Distributed Systems
+Program & Project Management,0.15600624024961,0.15489130434782608,114.0,-0.1,0.99,OpenAI,False,"Finance, Legal & Operations"
+Distributed Systems,0.08580343213728549,0.08423913043478261,62.0,-0.2,0.98,OpenAI,False,HPC & Distributed Systems
+Go-to-Market Strategy,0.33229329173166927,0.328804347826087,242.0,-0.3,0.99,OpenAI,False,Go-to-Market & Sales
+Audit & SOX,0.07020280811232449,0.06521739130434782,48.0,-0.5,0.93,OpenAI,False,"Finance, Legal & Operations"
+Threat Modeling,0.0249609984399376,0.020380434782608696,15.0,-0.5,0.82,OpenAI,False,Security & Compliance
+Statistics,0.0265210608424337,0.020380434782608696,15.0,-0.6,0.77,OpenAI,False,AI/ML Methods
+C++,0.0327613104524181,0.024456521739130436,18.0,-0.8,0.75,OpenAI,False,Programming Languages
+Rust,0.0390015600624025,0.03125,23.0,-0.8,0.8,OpenAI,False,Programming Languages
+Generative AI,0.0358814352574103,0.02717391304347826,20.0,-0.9,0.76,OpenAI,False,LLM & Generative AI
+"CRM (Salesforce, HubSpot)",0.046801872074883,0.036684782608695655,27.0,-1.0,0.78,OpenAI,False,Go-to-Market & Sales
+"ERP Systems (NetSuite, Oracle, Workday)",0.0452418096723869,0.035326086956521736,26.0,-1.0,0.78,OpenAI,False,"Finance, Legal & Operations"
+Threat Detection & Response,0.0327613104524181,0.020380434782608696,15.0,-1.2,0.62,OpenAI,False,Security & Compliance
+Large Language Models,0.1435257410296412,0.13043478260869565,96.0,-1.3,0.91,OpenAI,False,LLM & Generative AI
+Mentorship,0.10452418096723869,0.09103260869565218,67.0,-1.3,0.87,OpenAI,False,Leadership & Collaboration
+Performance Optimization,0.0390015600624025,0.025815217391304348,19.0,-1.3,0.66,OpenAI,False,HPC & Distributed Systems
+SQL,0.07956318252730109,0.06657608695652174,49.0,-1.3,0.84,OpenAI,False,Programming Languages
+BI & Dashboards,0.0842433697347894,0.06929347826086957,51.0,-1.5,0.82,OpenAI,False,Data Engineering & Analytics
+Technical Leadership,0.078003120124805,0.0625,46.0,-1.6,0.8,OpenAI,False,Leadership & Collaboration
+UX / Product Design,0.0904836193447738,0.07472826086956522,55.0,-1.6,0.83,OpenAI,False,Product & Design
+Data Pipelines / ETL,0.0530421216848674,0.035326086956521736,26.0,-1.8,0.67,OpenAI,False,Data Engineering & Analytics
+Inference & Serving,0.057722308892355696,0.03940217391304348,29.0,-1.8,0.68,OpenAI,False,LLM & Generative AI
+Trust & Safety,0.07956318252730109,0.06114130434782609,45.0,-1.8,0.77,OpenAI,False,AI Safety & Evaluation
+Enterprise Sales,0.056162246489859596,0.036684782608695655,27.0,-1.9,0.65,OpenAI,False,Go-to-Market & Sales
+Pipeline & Forecasting,0.06708268330733229,0.04483695652173913,33.0,-2.2,0.67,OpenAI,False,Go-to-Market & Sales
+Strategy & Operations,0.19500780031201248,0.17119565217391305,126.0,-2.4,0.88,OpenAI,False,"Finance, Legal & Operations"
+Machine Learning,0.1419656786271451,0.11413043478260869,84.0,-2.8,0.8,OpenAI,False,AI/ML Methods
+Model Evaluation,0.07644305772230889,0.04755434782608696,35.0,-2.9,0.62,OpenAI,False,AI Safety & Evaluation
+Data Analysis,0.13260530421216848,0.10054347826086957,74.0,-3.2,0.76,OpenAI,False,Data Engineering & Analytics
+GPU,0.056162246489859596,0.02309782608695652,17.0,-3.3,0.41,OpenAI,False,Hardware & Accelerators
+Recruiting & People Ops,0.1060842433697348,0.07336956521739131,54.0,-3.3,0.69,OpenAI,False,"Finance, Legal & Operations"
+AWS,0.056162246489859596,0.020380434782608696,15.0,-3.6,0.36,OpenAI,False,Cloud Platforms
+Communication Skills,0.24960998439937598,0.21331521739130435,157.0,-3.6,0.85,OpenAI,False,Leadership & Collaboration
+Startup / Ambiguity,0.7051482059282371,0.6644021739130435,489.0,-4.1,0.94,OpenAI,False,Leadership & Collaboration
+Networking,0.10140405616224649,0.05570652173913043,41.0,-4.6,0.55,OpenAI,False,Infrastructure & DevOps
+Customer Success,0.1357254290171607,0.08695652173913043,64.0,-4.9,0.64,OpenAI,False,Go-to-Market & Sales
+Metrics & KPIs,0.07020280811232449,0.020380434782608696,15.0,-5.0,0.29,OpenAI,False,Product & Design
+Stakeholder Management,0.3042121684867395,0.2513586956521739,185.0,-5.3,0.83,OpenAI,False,Leadership & Collaboration
+Cross-functional Collaboration,0.5335413416536662,0.43342391304347827,319.0,-10.0,0.81,OpenAI,False,Leadership & Collaboration

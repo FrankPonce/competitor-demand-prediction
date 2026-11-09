@@ -4,8 +4,8 @@ Daily archive of Anthropic's and OpenAI's job postings. It records when each
 advertised role appeared and disappeared, how its text changed, and which area
 of the lab's work it belongs to.
 
-Data through 1 Nov 2026 (counts and postings are shown with a seven-day delay).
-File generated 8 Nov 2026. Published at https://epoch.ai/data/frontier-lab-hiring.
+Data through 2 Nov 2026 (counts and postings are shown with a seven-day delay).
+File generated 9 Nov 2026. Published at https://epoch.ai/data/frontier-lab-hiring.
 
 ## Files
 
@@ -243,7 +243,7 @@ and authors are credited under the Creative Commons Attribution license
 ## Citation
 
 Epoch AI, 'Data on Frontier Lab Hiring'. Published online at epoch.ai.
-Retrieved from 'https://epoch.ai/data/frontier-lab-hiring' [online resource]. Accessed 1 Nov 2026.
+Retrieved from 'https://epoch.ai/data/frontier-lab-hiring' [online resource]. Accessed 2 Nov 2026.
 
 BibTeX:
 
@@ -254,6 +254,6 @@ BibTeX:
   year = {2026},
   month = {11},
   url = {https://epoch.ai/data/frontier-lab-hiring},
-  note = {Accessed: 1 Nov 2026}
+  note = {Accessed: 2 Nov 2026}
 }
 ```

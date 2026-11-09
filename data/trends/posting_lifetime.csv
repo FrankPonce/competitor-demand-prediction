@@ -1,0 +1,33 @@
+company_name,median_days_open,closed_postings,role_family
+Anthropic,39.0,811,All roles
+OpenAI,41.0,1104,All roles
+Anthropic,31.0,19,Data & Analytics
+Anthropic,56.0,43,Data Center & Facilities
+Anthropic,40.5,112,"Finance, Legal & People"
+Anthropic,87.0,5,Hardware & Silicon
+Anthropic,43.5,48,Infrastructure & SRE
+Anthropic,64.0,21,ML / AI Engineering
+Anthropic,43.5,56,Marketing & Communications
+Anthropic,17.0,2,Other
+Anthropic,40.5,34,Product & Design
+Anthropic,35.5,20,Program Management
+Anthropic,43.0,17,Research
+Anthropic,36.0,71,"Safety, Policy & Trust"
+Anthropic,34.0,285,Sales & Go-to-Market
+Anthropic,39.5,34,Security & Privacy
+Anthropic,45.5,44,Software Engineering
+OpenAI,47.0,24,Data & Analytics
+OpenAI,52.0,43,Data Center & Facilities
+OpenAI,45.0,151,"Finance, Legal & People"
+OpenAI,67.0,32,Hardware & Silicon
+OpenAI,45.0,56,Infrastructure & SRE
+OpenAI,72.5,30,ML / AI Engineering
+OpenAI,31.0,125,Marketing & Communications
+OpenAI,54.0,17,Other
+OpenAI,26.5,54,Product & Design
+OpenAI,35.0,40,Program Management
+OpenAI,31.0,25,Research
+OpenAI,46.0,54,"Safety, Policy & Trust"
+OpenAI,41.0,318,Sales & Go-to-Market
+OpenAI,59.0,31,Security & Privacy
+OpenAI,42.0,104,Software Engineering

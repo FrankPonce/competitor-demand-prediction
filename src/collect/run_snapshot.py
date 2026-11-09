@@ -106,6 +106,11 @@ def run(key: str, args) -> dict:
 
     rows = normalize(raw, company, started)
     issues = validate_rows(rows)
+    # An incomplete snapshot would make missing postings look "closed": refuse to save it.
+    attempted = raw.get("sitemap_url_count") or len(raw.get("queries", [])) or 0
+    failed = len(raw.get("errors", [])) + sum(1 for q in raw.get("queries", []) if "error" in q)
+    if attempted and failed / attempted > 0.05:
+        raise RuntimeError(f"{failed}/{attempted} fetches failed; snapshot not saved (re-run later)")
     if not args.limit:  # test runs don't pollute the time series
         write_csv(out_dir / f"{date}.csv", rows, FIELDS)
         merged = merge_snapshots(key)
@@ -142,9 +147,10 @@ def run(key: str, args) -> dict:
 
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("companies", nargs="*", default=list(COMPANIES), choices=list(COMPANIES))
+    p.add_argument("companies", nargs="*", choices=list(COMPANIES), help="default: all four")
     p.add_argument("--limit", type=int, default=None, help="test mode: fetch only a few items, don't save CSVs")
     args = p.parse_args(argv)
+    args.companies = args.companies or list(COMPANIES)
     ok = True
     for key in args.companies:
         try:

@@ -54,14 +54,22 @@ class PoliteSession:
         self.request_count = 0
 
     def get(self, url: str, **kwargs) -> requests.Response:
-        for attempt in range(3):
+        attempts = 4
+        for attempt in range(attempts):
             wait = self.delay - (time.monotonic() - self._last)
             if wait > 0:
                 time.sleep(wait)
             self._last = time.monotonic()
             self.request_count += 1
-            resp = self.s.get(url, timeout=self.timeout, **kwargs)
-            if resp.status_code in (429, 500, 502, 503, 504):
+            try:
+                resp = self.s.get(url, timeout=self.timeout, **kwargs)
+            except (requests.ConnectionError, requests.Timeout):
+                # transient network trouble (DNS blips, resets): back off and retry
+                if attempt == attempts - 1:
+                    raise
+                time.sleep(10 * (attempt + 1))
+                continue
+            if resp.status_code in (429, 500, 502, 503, 504) and attempt < attempts - 1:
                 time.sleep(self.delay * (attempt + 2) * 2)
                 continue
             resp.raise_for_status()
