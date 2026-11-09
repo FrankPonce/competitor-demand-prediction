@@ -60,3 +60,26 @@ contains contact details, remove them during preprocessing.
   snapshots, update `first_seen_date`, `last_seen_date`, and `job_status`
   instead of duplicating rows.
 - Raw snapshot files are named `data/raw/<company>/<YYYY-MM-DD>.json` (or `.csv`).
+
+## Sprint 3 corpus (`data/processed/corpus.parquet`)
+
+One row per unique posting across live snapshots and Epoch history. Contains
+all core fields above plus:
+
+| Field | Type | Description |
+| ----- | ---- | ----------- |
+| `job_category` | string | Epoch AI category / subcategory (Anthropic + OpenAI only) |
+| `in_live` | bool | Seen in our own snapshots |
+| `in_epoch` | bool | Present in Epoch AI history |
+| `salary_min` / `salary_max` | float | Annual USD parsed from `salary_range` or description text |
+| `language` | string | `en`, `mixed` (bilingual) or `other` |
+| `section_intro` | string | Text before the first recognised heading, boilerplate removed |
+| `section_about` | string | About the role / team |
+| `section_responsibilities` | string | What the person will do |
+| `section_requirements` | string | Minimum / required qualifications |
+| `section_preferred` | string | Nice-to-haves |
+| `clean_text` | string | All kept sections joined: readable, boilerplate-free (for embeddings, skill matching) |
+| `cleaned_description` | string | Lower-cased lemmas without stop words, punctuation or numbers (for TF-IDF) |
+| `n_chars_raw` / `n_chars_clean` / `n_tokens` | int | Size before/after cleaning |
+| `has_responsibilities` / `has_requirements` | bool | Section detected |
+| `job_description` | string | Original raw text, kept for reproducibility |

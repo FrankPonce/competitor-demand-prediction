@@ -1,1 +1,6 @@
 requests>=2.31
+pandas>=2.2
+pyarrow>=15
+spacy>=3.7
+tabulate>=0.9
+# then: python -m spacy download en_core_web_sm

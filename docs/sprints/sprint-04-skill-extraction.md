@@ -1,6 +1,6 @@
 # Sprint 4 — Skill Extraction & Feature Engineering
 
-**Week of:** 2026-11-30 · **CadetX task 4** · **Status:** ⬜ Not started
+**Week of:** 2026-11-30 · **CadetX task 4** · **Status:** 🟡 Next up
 
 ## Goal
 

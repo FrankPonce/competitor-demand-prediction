@@ -7,8 +7,8 @@
 
 <br>
 
-![Status](https://img.shields.io/badge/status-Sprint%203%20·%20NLP%20Preprocessing-2e6f8e?style=flat-square)
-![Progress](https://img.shields.io/badge/sprints-2%20%2F%2012%20done-e07b2f?style=flat-square)
+![Status](https://img.shields.io/badge/status-Sprint%204%20·%20Skill%20Extraction-2e6f8e?style=flat-square)
+![Progress](https://img.shields.io/badge/sprints-3%20%2F%2012%20done-e07b2f?style=flat-square)
 ![Python](https://img.shields.io/badge/python-3.12-10243b?style=flat-square&logo=python&logoColor=white)
 ![Program](https://img.shields.io/badge/CadetX-Virtual%20Work%20Experience-0D4ABC?style=flat-square)
 
@@ -54,8 +54,8 @@ Click a sprint to see its goal, deliverables, and results.
 |:-:|---|:-:|---|:-:|
 | 01 | [**Data Sources & Legal**](docs/sprints/sprint-01-data-sources-legal.md) | Nov 9 | Reviewed terms + robots.txt for all four companies, found a compliant route for each, plus CC BY history for two | ✅ |
 | 02 | [**Data Collection**](docs/sprints/sprint-02-data-collection.md) | Nov 16 | 4 collectors built; first snapshot of 2,170 postings + 4,111 historical; [Data Collection Reports](reports/data-collection/) | ✅ |
-| 03 | [**NLP Preprocessing**](docs/sprints/sprint-03-nlp-preprocessing.md) | Nov 23 | Strip boilerplate, normalize, section-split, and lemmatize descriptions | 🟡 |
-| 04 | [**Skill Extraction**](docs/sprints/sprint-04-skill-extraction.md) | Nov 30 | Shared skill taxonomy; skills, categories, tech-stack and seniority features | ⬜ |
+| 03 | [**NLP Preprocessing**](docs/sprints/sprint-03-nlp-preprocessing.md) | Nov 23 | Unified 4,909-posting corpus; 23–54% boilerplate removed; sections, salary, spaCy lemmas; [summary](reports/preprocessing/summary.md) | ✅ |
+| 04 | [**Skill Extraction**](docs/sprints/sprint-04-skill-extraction.md) | Nov 30 | Shared skill taxonomy; skills, categories, tech-stack and seniority features | 🟡 |
 | 05 | [**Hiring Trends**](docs/sprints/sprint-05-hiring-trends.md) | Dec 7 | Weekly time series of new / active / closed postings; hiring velocity | ⬜ |
 | 06 | [**Competitor Comparison**](docs/sprints/sprint-06-competitor-comparison.md) | Dec 14 | Role mix, distinctive skills, seniority and location side by side | ⬜ |
 | 07 | [**Demand Forecasting**](docs/sprints/sprint-07-demand-forecasting.md) | Dec 21 | Baselines → ARIMA / Prophet with backtesting and honest intervals | ⬜ |
@@ -102,10 +102,12 @@ Each company has a documented, compliant route. Full evidence is in
 python -m venv .venv
 .venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
+python -m spacy download en_core_web_sm
 
 python -m src.collect.epoch_history          # Anthropic + OpenAI history (CC BY)
 python -m src.collect.run_snapshot           # weekly snapshot, all four companies
 python -m src.collect.run_snapshot nvidia --limit 3   # quick test, saves nothing
+python -m src.preprocess.build_corpus        # cleaned corpus -> data/processed/corpus.parquet
 ```
 
 Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
@@ -123,11 +125,13 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 │   ├── weekly-notes/         weekly progress notes
 │   ├── data-dictionary.md    shared schema for all four companies
 │   └── source-register.csv   legal / access review evidence
-├── src/collect/              collectors · validation · snapshot runner
+├── src/
+│   ├── collect/              collectors · validation · snapshot runner
+│   └── preprocess/           sections · boilerplate removal · spaCy · corpus builder
 ├── data/
 │   ├── raw/                  weekly snapshot CSVs per company (full text)
 │   ├── external/             Epoch AI download (CC BY)
-│   └── processed/            merged per-company datasets + Epoch history
+│   └── processed/            per-company datasets · Epoch history · corpus.parquet
 ├── notebooks/                exploration & analysis
 ├── reports/                  run logs, collection reports, insight reports
 └── presentations/            final deck
