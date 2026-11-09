@@ -1,6 +1,6 @@
 # Sprint 7 — Demand Forecasting
 
-**Week of:** 2026-12-21 · **CadetX task 7** · **Status:** ⬜ Not started
+**Week of:** 2026-12-21 · **CadetX task 7** · **Status:** 🟡 Next up
 
 ## Goal
 

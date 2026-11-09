@@ -166,3 +166,25 @@ def test_weekly_trends_only_complete_weeks():
         pytest.skip("trends not built")
     t = pd.read_csv(f, parse_dates=["week"])
     assert (t.week.dt.day_of_week == 0).all()  # Mondays
+
+
+# ---------------------------------------------------------------- Sprint 6: comparison
+
+@pytest.mark.parametrize("loc,expected", [
+    ("San Francisco, CA; New York City, NY; London, UK", {"US", "Europe"}),
+    ("US, CA, Santa Clara, United States of America", {"US"}),
+    ("Bengaluru, Karnataka, India", {"Asia-Pacific"}),
+    ("Israel, Yokneam", {"Other"}),
+    ("Ontario, CAN", {"Other"}),
+    ("London, UK", {"Europe"}),
+])
+def test_region_parsing(loc, expected):
+    from src.compare.build_comparison import regions
+    assert regions(loc) == expected
+
+
+def test_primary_hub_normalises_formats():
+    from src.compare.build_comparison import primary_hub
+    assert primary_hub("US, CA, Santa Clara, United States of America") == "Santa Clara"
+    assert primary_hub("New York City, NY; Seattle, WA") == "New York"
+    assert primary_hub("Remote-Friendly (Travel-Required)") == "Remote"

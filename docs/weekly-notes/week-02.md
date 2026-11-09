@@ -53,3 +53,10 @@
 - Repo health: the corpus is now committed as per-company CSVs (delta-friendly). The 30 MB Parquet is a local cache, which avoids about 30 MB of growth per weekly rebuild.
 - Added 41 regression tests (`python -m pytest`) covering robots rules, parsing, salary, sections and skill false positives.
 - Added `notebooks/` and `presentations/` placeholders; refreshed stale counts.
+
+## Update — Sprint 6 done (2026-11-09)
+
+- Built a two-lens comparison (`src/compare/`): all roles vs. like-for-like technical roles, shares not counts, lift vs. the average of the other three.
+- Profiles: Anthropic = AI safety, multi-cloud, Staff+ seniority, highest pay, heavy GTM build-out; OpenAI = APIs/backend/observability, experimentation culture, firm requirements; NVIDIA = CUDA/HPC/networking stack; Google = TPU, compilers, people management, PhD-preferred.
+- Caveat recorded: Google's keyword-driven sample inflates GenAI/LLM/TPU shares.
+- 48 tests passing.
