@@ -47,18 +47,11 @@ EPOCH_START = pd.Timestamp("2026-03-18")
 HISTORY = ["Anthropic", "OpenAI"]
 COMPANIES = ["Anthropic", "OpenAI", "NVIDIA", "Google"]
 
-# Validated categorical palette (dataviz reference, light mode): fixed slot per company.
-COLOR = {"Anthropic": "#2a78d6", "OpenAI": "#eb6834", "NVIDIA": "#1baf7a", "Google": "#eda100"}
-INK, INK2, GRID, SURFACE = "#0b0b0b", "#52514e", "#e4e3df", "#fcfcfb"
+from src.style import COMPANY_COLOR as COLOR, THEME, apply_matplotlib, colorize_markdown, footnote, label  # noqa: E402
 
-plt.rcParams.update({
-    "figure.facecolor": SURFACE, "axes.facecolor": SURFACE, "savefig.facecolor": SURFACE,
-    "axes.edgecolor": GRID, "axes.labelcolor": INK2, "xtick.color": INK2, "ytick.color": INK2,
-    "axes.grid": True, "grid.color": GRID, "grid.linewidth": 0.8, "axes.axisbelow": True,
-    "axes.spines.top": False, "axes.spines.right": False, "axes.spines.left": False,
-    "font.size": 10, "axes.titlesize": 12, "axes.titleweight": "bold", "axes.titlecolor": INK,
-    "axes.titlelocation": "left", "legend.frameon": False, "lines.linewidth": 2,
-})
+INK, INK2, GRID, SURFACE = THEME["text"], THEME["text2"], THEME["grid"], THEME["surface"]
+apply_matplotlib()
+SOURCE = "Source: Epoch AI 'Data on Frontier Lab Hiring' (CC BY) + project snapshots"
 
 
 def monday(s: pd.Series) -> pd.Series:
@@ -212,14 +205,15 @@ def fig_weekly_new(t: pd.DataFrame) -> None:
     for c in HISTORY:
         d = t[t.company == c].dropna(subset=["new_postings"])
         x = pd.to_datetime(d.week)
-        ax.plot(x, d.new_postings.astype(float), color=COLOR[c], alpha=0.35, linewidth=1.2)
+        ax.plot(x, d.new_postings.astype(float), color=COLOR[c], alpha=0.55, linewidth=1.1)
         ax.plot(x, d.new_4wk_avg, color=COLOR[c], linewidth=2.2)
         _label_end(ax, x.iloc[-1], d.new_4wk_avg.iloc[-1], f"{c} {d.new_4wk_avg.iloc[-1]:.0f}/wk", COLOR[c])
     ax.set_title("New postings per week (thin) and 4-week average (bold)")
     ax.set_ylabel("postings first seen")
     ax.set_ylim(bottom=0)
     ax.margins(x=0.12)
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0.04, 1, 1))
+    footnote(fig, SOURCE)
     fig.savefig(FIG / "weekly_new_postings.png", dpi=150)
     plt.close(fig)
 
@@ -234,7 +228,8 @@ def fig_open_roles(eo: pd.DataFrame) -> None:
     ax.set_ylabel("open postings")
     ax.set_ylim(bottom=0)
     ax.margins(x=0.1)
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0.04, 1, 1))
+    footnote(fig, "Source: Epoch AI daily open-role counts (CC BY)")
     fig.savefig(FIG / "open_roles.png", dpi=150)
     plt.close(fig)
 
@@ -255,7 +250,8 @@ def fig_open_by_category(eo: pd.DataFrame) -> None:
         ax.tick_params(axis="x", labelrotation=30, labelsize=8)
     axes.flat[0].legend(loc="upper left", fontsize=8)
     fig.suptitle("Open roles by Epoch category", x=0.01, ha="left", fontweight="bold", color=INK)
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0.04, 1, 1))
+    footnote(fig, "Source: Epoch AI daily open-role counts (CC BY)")
     fig.savefig(FIG / "open_roles_by_category.png", dpi=150)
     plt.close(fig)
 
@@ -274,7 +270,8 @@ def fig_role_shift(rs: pd.DataFrame) -> None:
         ax.grid(axis="y", visible=False)
         ax.margins(x=0.25)
     axes[0].set_xlabel("change in share of new postings (pp), early vs recent 13 weeks")
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0.04, 1, 1))
+    footnote(fig, SOURCE)
     fig.savefig(FIG / "role_family_shift.png", dpi=150)
     plt.close(fig)
 
@@ -282,7 +279,7 @@ def fig_role_shift(rs: pd.DataFrame) -> None:
 def fig_emerging(em: pd.DataFrame) -> None:
     d = em[em.scope == "Anthropic + OpenAI"].head(12).iloc[::-1]
     fig, ax = plt.subplots(figsize=(9, 5))
-    ax.barh(d.skill, d.change_pp, color=COLOR["Anthropic"], height=0.6)
+    ax.barh(d.skill, d.change_pp, color=THEME["text2"], height=0.6)
     for y, (v, e, r) in enumerate(zip(d.change_pp, d.early_share, d.recent_share)):
         ax.annotate(f"+{v:.1f} pp  ({e:.0%} → {r:.0%})", (v, y), xytext=(4, 0), textcoords="offset points",
                     va="center", fontsize=8, color=INK)
@@ -290,7 +287,8 @@ def fig_emerging(em: pd.DataFrame) -> None:
     ax.set_xlabel("change in share of new postings (pp), early vs recent 13 weeks")
     ax.grid(axis="y", visible=False)
     ax.margins(x=0.35)
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0.04, 1, 1))
+    footnote(fig, SOURCE)
     fig.savefig(FIG / "emerging_skills.png", dpi=150)
     plt.close(fig)
 
@@ -307,7 +305,8 @@ def fig_recent_published(rp: pd.DataFrame) -> None:
         ax.set_title(f"{c}: open postings by week published")
         ax.tick_params(axis="x", labelrotation=30, labelsize=8)
         ax.grid(axis="x", visible=False)
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0.04, 1, 1))
+    footnote(fig, "Source: project snapshots (published date of currently open roles)")
     fig.savefig(FIG / "nvidia_google_recent.png", dpi=150)
     plt.close(fig)
 
@@ -337,7 +336,7 @@ def write_summary(t, eo, rp, rs, em, life, f) -> None:
         f"Generated by `python -m src.trends.build_trends` · data through {f.last_seen_date.max().date()} · "
         "see [Sprint 5](../../docs/sprints/sprint-05-hiring-trends.md)", "",
         "## Anthropic & OpenAI: weekly flows (Epoch history + our snapshots)", "",
-        agg.reset_index().to_markdown(index=False), "",
+        agg.rename(index=label).reset_index().to_markdown(index=False), "",
         "![Weekly new postings](figures/weekly_new_postings.png)", "",
         f"> Epoch's daily scrapes have gaps (up to 8 days). Postings published during a gap are first seen "
         f"on the next scrape, so single weeks are lumpy. {int(t[t.company == 'Anthropic'].low_coverage.sum())} "
@@ -367,7 +366,7 @@ def write_summary(t, eo, rp, rs, em, life, f) -> None:
         "## Weekly table", "",
         t.to_markdown(index=False), "",
     ]
-    (REP / "summary.md").write_text("\n".join(lines), encoding="utf-8")
+    (REP / "summary.md").write_text(colorize_markdown("\n".join(lines)), encoding="utf-8")
 
 
 def main() -> None:

@@ -9,7 +9,7 @@ comparable, and pick the methods later sprints build on.
 
 ## CadetX deliverables
 
-- [x] Cleaned & preprocessed job-posting text: [`data/processed/corpus.parquet`](../../data/processed/corpus.parquet) (all 4,909 postings) · browsable sample: [`corpus_sample.csv`](../../data/processed/corpus_sample.csv)
+- [x] Cleaned & preprocessed job-posting text: [`data/processed/corpus/`](../../data/processed/corpus/), one CSV per company (4,909 postings at sprint close; 4,958 after the 2026-11-09 snapshot). Browsable sample: [`corpus_sample.csv`](../../data/processed/corpus_sample.csv)
 - [x] Documented preprocessing workflow + code in GitHub: this page · [`src/preprocess/`](../../src/preprocess/) · generated [preprocessing summary](../../reports/preprocessing/summary.md)
 
 ## Results
@@ -36,7 +36,7 @@ flowchart LR
     E --> F[Extract<br/>salary]
     E --> G[spaCy tokens<br/>+ lemmas]
     G --> H[Language<br/>flag]
-    F --> I[(corpus.parquet)]
+    F --> I[(corpus CSVs)]
     H --> I
 ```
 
@@ -72,7 +72,7 @@ See [`data-dictionary.md`](../data-dictionary.md#sprint-3-corpus-dataprocessedco
 - **Heading coverage:** 4–10% of postings have no detected requirements section. Their content stays in `intro`/`about`, so nothing is lost, it's just unlabelled.
 - **Inline heading matching** adds a few false positives (~0.4% of docs, checked on 900) where a heading phrase with a colon appears mid-paragraph.
 - **Lower-casing** merges "Go" (language) with "go" (verb) in `cleaned_description`. Sprint 4's skill matcher works on case-preserved `clean_text` to avoid this.
-- **Parquet, not CSV**, for the full corpus: 35 MB instead of 150 MB+, and it keeps types. GitHub can't preview it, hence the CSV sample.
+- **Storage (updated 2026-11-09):** the corpus is committed as per-company CSVs, which git delta-compresses to about 1 MB per weekly change. A 30 MB Parquet version is kept only as a local cache, because binary files don't compress between versions and would have grown the repo by about 30 MB every week. Load it with `load_corpus()`.
 
 ---
 

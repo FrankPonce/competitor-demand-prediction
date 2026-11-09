@@ -61,7 +61,12 @@ contains contact details, remove them during preprocessing.
   instead of duplicating rows.
 - Raw snapshot files are named `data/raw/<company>/<YYYY-MM-DD>.json` (or `.csv`).
 
-## Sprint 3 corpus (`data/processed/corpus.parquet`)
+## Sprint 3 corpus (`data/processed/corpus/<company>.csv`)
+
+Load it with `from src.preprocess.corpus_io import load_corpus`. The committed CSVs omit two
+derivable columns (`clean_text` = joined sections, `job_description` = raw text from the
+per-company files); `load_corpus()` rebuilds them and caches everything in
+`data/processed/corpus.parquet` (local, gitignored).
 
 One row per unique posting across live snapshots and Epoch history. Contains
 all core fields above plus:

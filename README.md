@@ -1,16 +1,13 @@
 <div align="center">
 
-# 📈 Competitor Demand Prediction
-### Using Job Postings · NLP + Forecasting
-
-*Turning public job postings from Google, OpenAI, NVIDIA and Anthropic into signals about<br>where each company is heading: skills, teams, and hiring demand.*
+<img src="assets/banner.svg" alt="Competitor Demand Prediction: hiring intelligence for Anthropic, OpenAI, NVIDIA and Google" width="100%">
 
 <br>
 
-![Status](https://img.shields.io/badge/status-Sprint%206%20·%20Competitor%20Comparison-2e6f8e?style=flat-square)
-![Progress](https://img.shields.io/badge/sprints-5%20%2F%2012%20done-e07b2f?style=flat-square)
-![Python](https://img.shields.io/badge/python-3.12-10243b?style=flat-square&logo=python&logoColor=white)
-![Program](https://img.shields.io/badge/CadetX-Virtual%20Work%20Experience-0D4ABC?style=flat-square)
+![Status](https://img.shields.io/badge/status-Sprint%206%20·%20Competitor%20Comparison-30363d?style=for-the-badge&labelColor=161b22)
+![Progress](https://img.shields.io/badge/sprints-5%20%2F%2012%20done-b95115?style=for-the-badge&labelColor=161b22)
+![Python](https://img.shields.io/badge/python-3.12-2d6ac1?style=for-the-badge&logo=python&logoColor=white&labelColor=161b22)
+![Program](https://img.shields.io/badge/CadetX-Virtual%20Work%20Experience-5ea529?style=for-the-badge&labelColor=161b22)
 
 [**Roadmap**](#-sprint-roadmap) · [**Data sources**](#-data-sources) · [**Quickstart**](#-quickstart) · [**Repo map**](#-repository-map) · [**Ethics**](#-data-ethics)
 
@@ -25,6 +22,7 @@ earnings reports or product launches. This project builds an end-to-end
 hiring-intelligence pipeline:
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'background':'#0d1117','primaryColor':'#161b22','primaryTextColor':'#e6edf3','primaryBorderColor':'#30363d','lineColor':'#6e7681','fontFamily':'Segoe UI, Inter, sans-serif'}}}%%
 flowchart LR
     A[🔎 Collect<br/>weekly snapshots] --> B[🧹 Preprocess<br/>NLP cleaning]
     B --> C[🧩 Extract skills<br/>shared taxonomy]
@@ -34,6 +32,8 @@ flowchart LR
     E --> G[💡 Insights &<br/>presentation]
     F --> G
 ```
+
+**Colour code** used in every chart and table: 🟠 **Anthropic** · 🟣 **OpenAI** · 🟢 **NVIDIA** · 🔵 **Google**
 
 | | |
 |---|---|
@@ -58,7 +58,7 @@ Click a sprint to see its goal, deliverables, and results.
 |:-:|---|:-:|---|:-:|
 | 01 | [**Data Sources & Legal**](docs/sprints/sprint-01-data-sources-legal.md) | Nov 9 | Reviewed terms + robots.txt for all four companies, found a compliant route for each, plus CC BY history for two | ✅ |
 | 02 | [**Data Collection**](docs/sprints/sprint-02-data-collection.md) | Nov 16 | 4 collectors built; first snapshot of 2,170 postings + 4,111 historical; [Data Collection Reports](reports/data-collection/) | ✅ |
-| 03 | [**NLP Preprocessing**](docs/sprints/sprint-03-nlp-preprocessing.md) | Nov 23 | Unified 4,909-posting corpus; 23–54% boilerplate removed; sections, salary, spaCy lemmas; [summary](reports/preprocessing/summary.md) | ✅ |
+| 03 | [**NLP Preprocessing**](docs/sprints/sprint-03-nlp-preprocessing.md) | Nov 23 | Unified corpus (4,958 postings as of Nov 9); 23–54% boilerplate removed; sections, salary, spaCy lemmas; [summary](reports/preprocessing/summary.md) | ✅ |
 | 04 | [**Skill Extraction**](docs/sprints/sprint-04-skill-extraction.md) | Nov 30 | 211-skill shared taxonomy; 45k skill mentions; role family, seniority, education features; 89% precision; [summary](reports/skills/summary.md) | ✅ |
 | 05 | [**Hiring Trends**](docs/sprints/sprint-05-hiring-trends.md) | Dec 7 | Open roles +52% Anthropic / +29% OpenAI since March; weekly velocity, role-mix shifts, emerging skills; [summary](reports/trends/summary.md) | ✅ |
 | 06 | [**Competitor Comparison**](docs/sprints/sprint-06-competitor-comparison.md) | Dec 14 | Role mix, distinctive skills, seniority and location side by side | 🟡 |
@@ -81,22 +81,22 @@ Each company has a documented, compliant route. Full evidence is in
 
 | Company | ATS | Current postings | History |
 |---|---|---|---|
-| **Anthropic** | Greenhouse | [Job Board API](https://docs.greenhouse.io/job-board.html) (public, documented) | [Epoch AI](https://epoch.ai/data/frontier-lab-hiring) archive since Mar 2026 · CC BY |
-| **OpenAI** | Ashby | [Posting API](https://developers.ashbyhq.com/docs/public-job-posting-api) (public, documented) | [Epoch AI](https://epoch.ai/data/frontier-lab-hiring) archive since Mar 2026 · CC BY |
-| **NVIDIA** | Workday | Sitemap-listed job pages (path allowed by robots.txt) | Own weekly snapshots |
-| **Google** | Google Careers | Unpaginated results pages, newest-first slices | Own weekly snapshots |
+| 🟠 **Anthropic** | Greenhouse | [Job Board API](https://docs.greenhouse.io/job-board.html) (public, documented) | [Epoch AI](https://epoch.ai/data/frontier-lab-hiring) archive since Mar 2026 · CC BY |
+| 🟣 **OpenAI** | Ashby | [Posting API](https://developers.ashbyhq.com/docs/public-job-posting-api) (public, documented) | [Epoch AI](https://epoch.ai/data/frontier-lab-hiring) archive since Mar 2026 · CC BY |
+| 🟢 **NVIDIA** | Workday | Sitemap-listed job pages (path allowed by robots.txt) | Own weekly snapshots |
+| 🔵 **Google** | Google Careers | Unpaginated results pages, newest-first slices | Own weekly snapshots |
 
 > [!NOTE]
 > A single snapshot isn't a time series. Snapshots began on 2026-11-08: all
 > companies every Monday, and NVIDIA again every Thursday. Forecasts for NVIDIA
 > and Google rely on that short history and are labelled accordingly.
 
-**First snapshot · 2026-11-08**
+**Latest snapshot · 2026-11-09** · corpus of **4,958** unique postings
 
-| Anthropic | OpenAI | NVIDIA | Google | Epoch history |
+| 🟠 Anthropic | 🟣 OpenAI | 🟢 NVIDIA | 🔵 Google | Epoch history |
 |:-:|:-:|:-:|:-:|:-:|
-| **675** | **816** | **100** | **579** | **4,111** |
-| full board | full board | newest ~5 days | AI/ML sample | Mar → Oct 2026 |
+| **675** | **813** | **99** | **582** | **4,114** |
+| full board | full board | newest ~5 days | AI/ML sample | Mar → Nov 2026 |
 
 ---
 
@@ -111,9 +111,10 @@ python -m spacy download en_core_web_sm
 python -m src.collect.epoch_history          # Anthropic + OpenAI history (CC BY)
 python -m src.collect.run_snapshot           # weekly snapshot, all four companies
 python -m src.collect.run_snapshot nvidia --limit 3   # quick test, saves nothing
-python -m src.preprocess.build_corpus        # cleaned corpus -> data/processed/corpus.parquet
+python -m src.preprocess.build_corpus        # cleaned corpus -> data/processed/corpus/
 python -m src.features.build_features       # skills + features -> data/features/
 python -m src.trends.build_trends           # weekly trends + charts -> data/trends/, reports/trends/
+python -m pytest                             # 41 regression tests
 ```
 
 Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
@@ -139,9 +140,11 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 ├── data/
 │   ├── raw/                  weekly snapshot CSVs per company (full text)
 │   ├── external/             Epoch AI download (CC BY)
-│   ├── processed/            per-company datasets · Epoch history · corpus.parquet
+│   ├── processed/            per-company datasets · Epoch history · corpus/ (cleaned, per company)
 │   ├── features/             posting features · skills (long) · skill matrix
 │   └── trends/               weekly / monthly trend tables
+├── tests/                    regression tests (compliance rules, parsing, skill matching)
+├── assets/                   banner and visual identity
 ├── notebooks/                exploration & analysis
 ├── reports/                  run logs, collection reports, insight reports
 └── presentations/            final deck

@@ -46,3 +46,10 @@
 - Trend pipeline (`src/trends/`) built: shared weekly structure, Epoch daily open roles, role-mix shift, emerging skills, posting lifetime.
 - Key patterns: Anthropic open roles +52% and OpenAI +29% since March; Anthropic paused GTM hiring in summer and then surged; emerging skills point to data-center build-out and the public sector.
 - Data quality: Epoch scrape gaps make single weeks lumpy, so 4-week averages are the headline.
+
+## Update — Review & polish (2026-11-09)
+
+- Visual identity: dark theme plus one fixed, colour-blind-validated colour per company (🟠 Anthropic, 🟣 OpenAI, 🟢 NVIDIA, 🔵 Google) in `src/style.py`; charts re-rendered; README banner and badges.
+- Repo health: the corpus is now committed as per-company CSVs (delta-friendly). The 30 MB Parquet is a local cache, which avoids about 30 MB of growth per weekly rebuild.
+- Added 41 regression tests (`python -m pytest`) covering robots rules, parsing, salary, sections and skill false positives.
+- Added `notebooks/` and `presentations/` placeholders; refreshed stale counts.

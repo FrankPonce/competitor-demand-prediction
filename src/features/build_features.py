@@ -3,7 +3,7 @@
 Usage (repo root):
     python -m src.features.build_features
 
-Input    data/processed/corpus.parquet   (Sprint 3)
+Input    cleaned corpus via src.preprocess.corpus_io.load_corpus()   (Sprint 3)
 Outputs  data/features/posting_features.parquet / .csv   one row per posting, no raw text
          data/features/skills_long.csv                   one row per (posting, skill), with sections
          data/features/skill_matrix.parquet              posting x skill binary matrix
@@ -23,9 +23,10 @@ import pandas as pd
 
 from .extract import SKILLS, education, match_skills, min_years_experience, role_family, seniority, snippets
 from .taxonomy import TAXONOMY
+from src.preprocess.corpus_io import load_corpus
+from src.style import colorize_markdown
 
 ROOT = Path(__file__).resolve().parents[2]
-CORPUS = ROOT / "data" / "processed" / "corpus.parquet"
 OUT = ROOT / "data" / "features"
 REP = ROOT / "reports" / "skills"
 
@@ -138,7 +139,7 @@ def write_summary(feat, long, skill, cat, role, sen, secs: float) -> None:
     lines += ["## Most common tech-stack tags (all companies)", "",
               " · ".join(f"{k} ({v})" for k, v in tech.items()), ""]
     REP.mkdir(parents=True, exist_ok=True)
-    (REP / "summary.md").write_text("\n".join(lines), encoding="utf-8")
+    (REP / "summary.md").write_text(colorize_markdown("\n".join(lines)), encoding="utf-8")
 
 
 def spot_check(df: pd.DataFrame, long: pd.DataFrame, n: int = 100, seed: int = 7) -> pd.DataFrame:
@@ -154,7 +155,7 @@ def spot_check(df: pd.DataFrame, long: pd.DataFrame, n: int = 100, seed: int = 7
 
 def main() -> None:
     t0 = time.time()
-    df = pd.read_parquet(CORPUS)
+    df = load_corpus()
     feat, long = build(df)
     OUT.mkdir(parents=True, exist_ok=True)
     feat.to_parquet(OUT / "posting_features.parquet", index=False)

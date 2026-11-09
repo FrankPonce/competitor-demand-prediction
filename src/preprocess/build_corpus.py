@@ -5,7 +5,8 @@ Usage (repo root):
 
 Inputs   data/processed/{anthropic,openai,nvidia,google}.csv  (live snapshots, merged)
          data/processed/epoch_history.csv                      (Anthropic + OpenAI history)
-Outputs  data/processed/corpus.parquet        full cleaned corpus (one row per unique posting)
+Outputs  data/processed/corpus/<company>.csv  cleaned corpus, committed (see corpus_io.py)
+         data/processed/corpus.parquet        same + raw text, local cache (gitignored)
          data/processed/corpus_sample.csv     50 rows per company, for browsing on GitHub
          reports/preprocessing/summary.md     generated stats + before/after examples
 
@@ -38,6 +39,8 @@ from .clean import (
     normalize,
 )
 from .sections import split_sections
+from .corpus_io import save_corpus
+from src.style import colorize_markdown
 
 ROOT = Path(__file__).resolve().parents[2]
 PROC = ROOT / "data" / "processed"
@@ -176,17 +179,17 @@ def write_report(df: pd.DataFrame, seconds: float) -> None:
             "",
         ]
     REPORT.parent.mkdir(parents=True, exist_ok=True)
-    REPORT.write_text("\n".join(lines), encoding="utf-8")
+    REPORT.write_text(colorize_markdown("\n".join(lines)), encoding="utf-8")
 
 
 def main() -> None:
     t0 = time.time()
     df = process(load_merged())[COLUMNS]
-    df.to_parquet(PROC / "corpus.parquet", index=False)
+    save_corpus(df)
     sample = df.groupby("company_name", group_keys=False).apply(lambda s: s.head(50))
     sample.drop(columns=["job_description"]).to_csv(PROC / "corpus_sample.csv", index=False)
     write_report(df, time.time() - t0)
-    print(f"corpus: {len(df):,} postings -> data/processed/corpus.parquet ({time.time() - t0:.0f}s)")
+    print(f"corpus: {len(df):,} postings -> data/processed/corpus/ + corpus.parquet cache ({time.time() - t0:.0f}s)")
     print(df.groupby("company_name").size().to_string())
 
 
