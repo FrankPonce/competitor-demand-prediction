@@ -1,0 +1,29 @@
+company,group,month,median_mid,n
+Anthropic,Sales & GTM,2026-04-01,327500.0,41
+Anthropic,Sales & GTM,2026-05-01,321250.0,20
+Anthropic,Sales & GTM,2026-06-01,268750.0,12
+Anthropic,Sales & GTM,2026-07-01,327500.0,24
+Anthropic,Sales & GTM,2026-08-01,310000.0,47
+Anthropic,Sales & GTM,2026-09-01,292500.0,45
+Anthropic,Sales & GTM,2026-10-01,307500.0,33
+Anthropic,Technical,2026-04-01,328750.0,34
+Anthropic,Technical,2026-05-01,402500.0,30
+Anthropic,Technical,2026-06-01,372500.0,36
+Anthropic,Technical,2026-07-01,402500.0,45
+Anthropic,Technical,2026-08-01,362500.0,67
+Anthropic,Technical,2026-09-01,402500.0,61
+Anthropic,Technical,2026-10-01,360000.0,53
+OpenAI,Sales & GTM,2026-04-01,239850.0,3
+OpenAI,Sales & GTM,2026-05-01,267500.0,20
+OpenAI,Sales & GTM,2026-06-01,325000.0,4
+OpenAI,Sales & GTM,2026-07-01,304250.0,8
+OpenAI,Sales & GTM,2026-08-01,257000.0,16
+OpenAI,Sales & GTM,2026-09-01,245750.0,24
+OpenAI,Sales & GTM,2026-10-01,283750.0,14
+OpenAI,Technical,2026-04-01,339000.0,19
+OpenAI,Technical,2026-05-01,337500.0,29
+OpenAI,Technical,2026-06-01,366000.0,19
+OpenAI,Technical,2026-07-01,309000.0,21
+OpenAI,Technical,2026-08-01,355500.0,30
+OpenAI,Technical,2026-09-01,351000.0,57
+OpenAI,Technical,2026-10-01,339000.0,59

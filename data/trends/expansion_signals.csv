@@ -1,0 +1,49 @@
+company,city,country,lat,lon,first_seen,postings_total,open_now,signal
+Anthropic,Singapore,SG,1.28967,103.85007,2026-04-14,24,10,True
+OpenAI,Abu Dhabi,AE,24.45118,54.39696,2026-05-13,7,3,True
+OpenAI,Madrid,ES,40.4165,-3.70256,2026-06-11,9,4,True
+OpenAI,Stockholm,SE,59.32938,18.06871,2026-06-18,7,3,True
+OpenAI,Berlin,DE,52.52437,13.41053,2026-06-23,2,2,True
+Anthropic,Austin,US,30.26715,-97.74306,2026-08-20,2,1,True
+Anthropic,Mumbai,IN,19.07283,72.88261,2026-08-20,3,2,True
+Anthropic,Delhi,IN,28.65195,77.23149,2026-08-22,1,0,True
+Anthropic,Milan,IT,45.46427,9.18951,2026-08-27,3,2,True
+OpenAI,Melbourne,AU,-37.814,144.96332,2026-10-29,1,1,True
+OpenAI,Amsterdam,NL,52.37403,4.88969,2026-11-08,1,1,True
+Anthropic,Bengaluru,IN,12.97194,77.59369,2026-03-18,21,4,False
+Anthropic,Boston,US,42.35843,-71.05977,2026-03-18,30,11,False
+Anthropic,Brussels,BE,50.85045,4.34878,2026-03-18,3,0,False
+Anthropic,Canberra,AU,-35.28346,149.12807,2026-03-18,2,1,False
+Anthropic,Dublin,IE,53.33306,-6.24889,2026-03-18,62,7,False
+Anthropic,London,GB,51.50853,-0.12574,2026-03-18,172,42,False
+Anthropic,Madrid,ES,40.4165,-3.70256,2026-03-18,4,1,False
+Anthropic,Munich,DE,48.13743,11.57549,2026-03-18,37,16,False
+Anthropic,New York City,US,40.71427,-74.00597,2026-03-18,868,373,False
+Anthropic,Ottawa,CA,45.41117,-75.69812,2026-03-18,16,8,False
+Anthropic,Paris,FR,48.85341,2.3488,2026-03-18,25,12,False
+Anthropic,San Francisco,US,37.77493,-122.41942,2026-03-18,1257,487,False
+Anthropic,Seattle,US,47.60621,-122.33207,2026-03-18,429,184,False
+Anthropic,Seoul,KR,37.566,126.9784,2026-03-18,27,14,False
+Anthropic,Sydney,AU,-33.86785,151.20732,2026-03-18,38,13,False
+Anthropic,Tokyo,JP,35.6895,139.69171,2026-03-18,40,16,False
+Anthropic,Washington,US,38.89511,-77.03637,2026-03-18,159,60,False
+Anthropic,Zürich,CH,47.36667,8.55,2026-03-18,19,5,False
+OpenAI,Bengaluru,IN,12.97194,77.59369,2026-03-18,2,0,False
+OpenAI,Brussels,BE,50.85045,4.34878,2026-03-18,2,0,False
+OpenAI,Delhi,IN,28.65195,77.23149,2026-03-18,13,6,False
+OpenAI,Dublin,IE,53.33306,-6.24889,2026-03-18,65,18,False
+OpenAI,London,GB,51.50853,-0.12574,2026-03-18,107,38,False
+OpenAI,Mountain View,US,37.38605,-122.08385,2026-03-18,19,12,False
+OpenAI,Mumbai,IN,19.07283,72.88261,2026-03-18,10,5,False
+OpenAI,Munich,DE,48.13743,11.57549,2026-03-18,39,15,False
+OpenAI,New York City,US,40.71427,-74.00597,2026-03-18,275,111,False
+OpenAI,Paris,FR,48.85341,2.3488,2026-03-18,37,10,False
+OpenAI,San Francisco,US,37.77493,-122.41942,2026-03-18,1665,568,False
+OpenAI,Seattle,US,47.60621,-122.33207,2026-03-18,171,78,False
+OpenAI,Seoul,KR,37.566,126.9784,2026-03-18,26,9,False
+OpenAI,Singapore,SG,1.28967,103.85007,2026-03-18,107,38,False
+OpenAI,Sydney,AU,-33.86785,151.20732,2026-03-18,28,11,False
+OpenAI,São Paulo,BR,-23.5475,-46.63611,2026-03-18,23,8,False
+OpenAI,Tokyo,JP,35.6895,139.69171,2026-03-18,52,30,False
+OpenAI,Washington,US,38.89511,-77.03637,2026-03-18,100,32,False
+OpenAI,Zürich,CH,47.36667,8.55,2026-03-18,6,3,False

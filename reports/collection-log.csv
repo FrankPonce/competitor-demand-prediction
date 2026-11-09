@@ -7,3 +7,5 @@ run_started_utc,company,source,requests,postings_in_snapshot,postings_total_merg
 2026-11-09T16:54:31+00:00,OpenAI,ashby_posting_api,1,813,821,813,0,False,
 2026-11-09T17:07:41+00:00,NVIDIA,nvidia_workday_sitemap,102,99,129,99,0,False,sitemap urls=100; fetch errors=0
 2026-11-09T17:13:48+00:00,Google,google_careers_results_unpaginated,257,582,588,582,0,False,256 queries; 113 had more results than the first page
+2026-11-09T18:20:16+00:00,Google,google_careers_results_unpaginated,131,917,1277,917,0,False,"v2: 130 slices; full-flow coverage weekly 126/130, twice-weekly 130/130"
+2026-11-09T18:27:51+00:00,NVIDIA,nvidia_workday_board,2822,2799,2799,2799,0,False,board=2800; listed=2800; new details=2671; carried=129; errors=0

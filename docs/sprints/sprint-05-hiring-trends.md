@@ -115,6 +115,96 @@ The second snapshot (2026-11-09) ran into a temporary DNS outage. It was rerun, 
 
 The weekly merge now has real history: 1,170 Anthropic and 1,583 OpenAI postings are marked closed.
 
+## Addendum (2026-11-09): longer history, untracked signals, geography, pay
+
+Added after the project review to address three weaknesses: short history, uneven data, and a
+taxonomy-only view of skills.
+
+### A. Multi-year history from the Internet Archive
+
+![History](../../reports/trends/figures/history_open_roles.png)
+
+[`src/collect/wayback_history.py`](../../src/collect/wayback_history.py) reads archived copies of public careers
+pages (research use under the Internet Archive's terms, about 1 request every 4 s) and keeps **only the
+open-roles count** per capture. One capture per week: 150 for Google (2023–26), 103 for Anthropic (2024–26).
+
+- **Validated:** across the 22 weeks where archive and Epoch overlap (Anthropic), the archive counts are within
+  **1.2% on average (r = 0.997)** of Epoch's daily counts.
+- 🟠 **Anthropic** grew from about 74 open roles (Q4 2024) to **667** (Q4 2026), about 9× in two years, accelerating
+  through 2025–26.
+- 🔵 **Google** went from about 1,950 open roles (mid-2023) to about 3,400 (2026), with a **clear yearly cycle**:
+  peaks in spring and troughs around December–January. Sprint 7 can model this seasonality.
+- 🟣 OpenAI's pages render jobs client-side and 🟢 NVIDIA's board isn't archived, so their history stays shorter
+  (see C).
+
+Files: [`data/history/wayback_open_roles.csv`](../../data/history/wayback_open_roles.csv) ·
+[`open_roles_long.csv`](../../data/history/open_roles_long.csv)
+
+### B. Emerging signals the taxonomy missed
+
+![Emerging terms](../../reports/trends/figures/emerging_terms.png)
+
+[`src/trends/emerging_terms.py`](../../src/trends/emerging_terms.py) ranks 1–3-word phrases in the role text of new
+postings (first vs last 13 weeks, Anthropic + OpenAI) with the *Fightin' Words* weighted log-odds method
+(Monroe, Colaresi & Quinn, 2008). Single words count only if they behave like names or technical terms. Each term is
+checked against the Sprint 4 taxonomy. The chart groups the strongest **untracked** risers into themes; the full
+ranking (8,000+ terms) is in [`emerging_terms.csv`](../../data/trends/emerging_terms.csv).
+
+| Theme | Evidence | Reading |
+|---|---|---|
+| Government & national security | **TS/SCI** 3 → 20 postings, CISA, research security | Push into classified / defence work |
+| Deploying AI at customers | customer sites 16 → 58, sustained adoption 2 → 26, critical escalation, production incidents, API failures | Shift from *selling* to *deploying and operating* AI at customers |
+| New segments & regions | SMB, DACH, LLB (non-US law degree), local needs | Mid-market and European / international expansion |
+| AI fluency in every role | "ai tools" 54 → 129 postings | AI-tool proficiency becoming a baseline requirement |
+| Physical build-out | electrical/mechanical 2 → 23 | Data-center construction |
+| *Falling* | "GTM strategy", "strategic vision", "fast-moving environments" | Less strategy-speak, more execution |
+
+### C. Geographic footprint and expansion signals
+
+![Footprint](../../reports/trends/figures/footprint_map.png)
+
+![Expansion](../../reports/trends/figures/expansion_map.png)
+
+[`src/trends/geo_pay.py`](../../src/trends/geo_pay.py) geocodes every posting location (GeoNames, CC BY;
+Natural Earth outlines). An **expansion signal** is a city's first appearance in a company's postings after the
+first two weeks of history.
+
+| When | 🟠 Anthropic | 🟣 OpenAI |
+|---|---|---|
+| Apr | Singapore | |
+| May | | Abu Dhabi |
+| Jun | | Madrid, Stockholm, Berlin |
+| Aug | Mumbai, Delhi, Milan, Austin | |
+| Oct–Nov | | Melbourne, Amsterdam |
+
+Anthropic's Asian and European cities appear in **August**, the same weeks its go-to-market openings surged
+(pattern 2 above). OpenAI's Gulf and European expansion came earlier, in **May–June**. These dates are the
+raw material for Sprint 7's leading-indicator tests.
+
+### D. Pay trends
+
+![Pay trend](../../reports/trends/figures/pay_trend.png)
+
+Disclosed base-pay midpoints of new postings by month (Anthropic + OpenAI; months with ≥8 disclosing postings,
+partial current month excluded) in [`pay_trend_monthly.csv`](../../data/trends/pay_trend_monthly.csv). Anthropic's
+technical roles pay a steady **~$360–400k** median midpoint, above OpenAI's ~$310–365k. Sales & GTM sits about
+$50–100k lower at both. There's no clear upward drift over 2026: the hiring surge was about more roles, not higher pay.
+
+### E. NVIDIA: requisitions per day from the ID sequence
+
+![NVIDIA requisitions](../../reports/trends/figures/nvidia_requisition_rate.png)
+
+NVIDIA's board isn't archived, and its posted dates refresh often (about 73% of open postings show a date in the
+last six weeks). Its **requisition IDs**, though, are issued in sequence (JR2028597 → JR2029722). Among the 2,799
+open postings, the highest JR number posted by each date tracks NVIDIA's requisition counter. Differencing it gives
+**requisitions created per day**, including ones since filled (the "German tank" estimator;
+[`history.py`](../../src/trends/history.py)). Only weeks with at least 5 surviving postings are used, from late January 2026.
+
+- Requisition creation **rose from about 45–55 a day in spring to 70–80 a day in autumn 2026** (4-week mean 72/day in
+  the latest week, roughly 25,000 a year), so NVIDIA's hiring activity is accelerating. That's company-wide hiring activity, including internal and unadvertised requisitions, so read it as an
+  activity index, not a count of posted jobs.
+- Weekly snapshots from now on add the direct view (new and closed postings) to cross-check it.
+
 ## Limitations
 
 - **Epoch scrape gaps.** Daily scrapes skip some days (up to 8, e.g. Apr 2–10 and Aug 14–20). Postings published in a

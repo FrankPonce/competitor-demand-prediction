@@ -37,7 +37,7 @@ def test_robots_wildcards(url, allowed):
 
 
 def test_google_urls_never_paginate():
-    url = build_url("machine learning", "London, UK", ["MID"])
+    url = build_url("London, UK", ["MID"])
     assert "page=" not in url and "sort_by=date" in url
 
 
@@ -188,3 +188,39 @@ def test_primary_hub_normalises_formats():
     assert primary_hub("US, CA, Santa Clara, United States of America") == "Santa Clara"
     assert primary_hub("New York City, NY; Seattle, WA") == "New York"
     assert primary_hub("Remote-Friendly (Travel-Required)") == "Remote"
+
+
+# ---------------------------------------------------------------- Review additions (2026-11-09)
+
+@pytest.mark.parametrize("loc,expected", [
+    ("San Francisco, CA; New York City, NY", [("San Francisco", "US"), ("New York", "US")]),
+    ("United States: Seattle", [("Seattle", "US")]),                       # Epoch format
+    ("US, CA, Santa Clara, United States of America", [("Santa Clara", "US")]),  # NVIDIA format
+    ("Remote-Friendly (Travel-Required); London, UK", [("London", "GB")]),
+])
+def test_parse_locations(loc, expected):
+    from src.trends.geo_pay import parse_locations
+    assert parse_locations(loc) == expected
+
+
+def test_geocode_province_falls_back_to_capital():
+    from src.trends.geo_pay import geocode
+    lat, lon, name, cc = geocode("Ontario", "CA")
+    assert cc == "CA"  # not Ontario, California
+
+
+def test_fightin_words_direction():
+    import numpy as np
+    from src.trends.emerging_terms import fightin_words
+    z = fightin_words(np.array([50.0, 5.0]), np.array([5.0, 50.0]), 500, 500)
+    assert z[0] > 3 and z[1] < -3
+
+
+def test_wayback_parsers():
+    from src.collect.wayback_history import google_count, greenhouse_count
+    assert greenhouse_count('{"jobPosts":{"count":50,"page":1,"total":146}}') == 146
+    links = "".join(f'<a href="/anthropic/jobs/{4000000 + i}">' for i in range(12))
+    assert greenhouse_count(links) == 12
+    assert greenhouse_count("<html>redirect</html>") is None
+    page = "AF_initDataCallback({key: 'ds:1', hash: 'x', data:[[],null,2807,20], sideChannel: {}});</script>"
+    assert google_count(page) == 2807

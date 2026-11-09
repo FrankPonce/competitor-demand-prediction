@@ -43,9 +43,11 @@ flowchart LR
 | **Team** | Solo: [Frank Mediavilla](https://github.com/FrankPonce), rotating through Scrum Lead, Data Quality, Docs and Tech Lead roles. |
 | **Timeline** | 12 weekly sprints · Nov 2026 → Jan 2027 |
 
-**Latest signal:** open roles grew **+52% at Anthropic** and **+29% at OpenAI** between March and November 2026 ([Sprint 5](docs/sprints/sprint-05-hiring-trends.md)).
+**Latest signal:** Anthropic's open roles grew about **9× in two years** (≈74 → 667), Google's about +70% since 2023 with a clear yearly cycle ([Sprint 5](docs/sprints/sprint-05-hiring-trends.md)).
 
-![Open roles](reports/trends/figures/open_roles.png)
+![Open roles history](reports/trends/figures/history_open_roles.png)
+
+![Expansion map](reports/trends/figures/expansion_map.png)
 
 **How they differ** ([Sprint 6](docs/sprints/sprint-06-competitor-comparison.md)): the skills each company over-indexes on, compared with the other three.
 
@@ -64,8 +66,8 @@ Click a sprint to see its goal, deliverables, and results.
 | 02 | [**Data Collection**](docs/sprints/sprint-02-data-collection.md) | Nov 16 | 4 collectors built; first snapshot of 2,170 postings + 4,111 historical; [Data Collection Reports](reports/data-collection/) | ✅ |
 | 03 | [**NLP Preprocessing**](docs/sprints/sprint-03-nlp-preprocessing.md) | Nov 23 | Unified corpus (4,958 postings as of Nov 9); 23–54% boilerplate removed; sections, salary, spaCy lemmas; [summary](reports/preprocessing/summary.md) | ✅ |
 | 04 | [**Skill Extraction**](docs/sprints/sprint-04-skill-extraction.md) | Nov 30 | 211-skill shared taxonomy; 45k skill mentions; role family, seniority, education features; 89% precision; [summary](reports/skills/summary.md) | ✅ |
-| 05 | [**Hiring Trends**](docs/sprints/sprint-05-hiring-trends.md) | Dec 7 | Open roles +52% Anthropic / +29% OpenAI since March; weekly velocity, role-mix shifts, emerging skills; [summary](reports/trends/summary.md) | ✅ |
-| 06 | [**Competitor Comparison**](docs/sprints/sprint-06-competitor-comparison.md) | Dec 14 | Fair two-lens framework; Anthropic = safety + GTM, OpenAI = APIs/platform, NVIDIA = HPC stack, Google = TPU/research; [summary](reports/comparison/summary.md) | ✅ |
+| 05 | [**Hiring Trends**](docs/sprints/sprint-05-hiring-trends.md) | Dec 7 | Multi-year history (Internet Archive, validated within 1.2%), weekly velocity, expansion maps, untracked emerging signals, pay, NVIDIA requisition rate; [summary](reports/trends/summary.md) | ✅ |
+| 06 | [**Competitor Comparison**](docs/sprints/sprint-06-competitor-comparison.md) | Dec 14 | Two-lens framework on full/unbiased data; Anthropic = safety + GTM, OpenAI = APIs/platform, NVIDIA = GPU/HPC/robotics stack, Google = Cloud sales + GenAI + management layer; [summary](reports/comparison/summary.md) | ✅ |
 | 07 | [**Demand Forecasting**](docs/sprints/sprint-07-demand-forecasting.md) | Dec 21 | Baselines → ARIMA / Prophet with backtesting and honest intervals | 🟡 |
 | 08 | [**Similarity Scoring**](docs/sprints/sprint-08-similarity-scoring.md) | Dec 28 | TF-IDF + Sentence-BERT similarity, role clusters, heatmaps | ⬜ |
 | 09 | [**Insights & Reporting**](docs/sprints/sprint-09-insights-reporting.md) | Jan 4 | Decision-ready findings per company and across the landscape | ⬜ |
@@ -87,20 +89,20 @@ Each company has a documented, compliant route. Full evidence is in
 |---|---|---|---|
 | 🟠 **Anthropic** | Greenhouse | [Job Board API](https://docs.greenhouse.io/job-board.html) (public, documented) | [Epoch AI](https://epoch.ai/data/frontier-lab-hiring) archive since Mar 2026 · CC BY |
 | 🟣 **OpenAI** | Ashby | [Posting API](https://developers.ashbyhq.com/docs/public-job-posting-api) (public, documented) | [Epoch AI](https://epoch.ai/data/frontier-lab-hiring) archive since Mar 2026 · CC BY |
-| 🟢 **NVIDIA** | Workday | Sitemap-listed job pages (path allowed by robots.txt) | Own weekly snapshots |
-| 🔵 **Google** | Google Careers | Unpaginated results pages, newest-first slices | Own weekly snapshots |
+| 🟢 **NVIDIA** | Workday | Full board (2,800) via the careers page's own listing endpoint + job-page JSON-LD | Requisition-ID sequence estimate + own snapshots |
+| 🔵 **Google** | Google Careers | Unpaginated results, 26 hubs × 5 levels, no keywords (unbiased flow sample) | Internet Archive open-role counts 2023–26 |
 
 > [!NOTE]
-> A single snapshot isn't a time series. Snapshots began on 2026-11-08: all
-> companies every Monday, and NVIDIA again every Thursday. Forecasts for NVIDIA
-> and Google rely on that short history and are labelled accordingly.
+> History comes from three places: Epoch AI (Anthropic/OpenAI daily since Mar 2026), Internet Archive
+> captures (Google 2023–26, Anthropic 2024–26; counts only) and our own snapshots (all four, Mondays and
+> Thursdays since 2026-11-08). NVIDIA history is estimated from its requisition-ID sequence.
 
-**Latest snapshot · 2026-11-09** · corpus of **4,958** unique postings
+**Latest snapshot · 2026-11-09** · corpus of **8,317** unique postings
 
 | 🟠 Anthropic | 🟣 OpenAI | 🟢 NVIDIA | 🔵 Google | Epoch history |
 |:-:|:-:|:-:|:-:|:-:|
-| **675** | **813** | **99** | **582** | **4,114** |
-| full board | full board | newest ~5 days | AI/ML sample | Mar → Nov 2026 |
+| **675** | **813** | **2,799** | **917** | **4,114** |
+| full board | full board | full board | unbiased sample | Mar → Nov 2026 |
 
 ---
 
@@ -113,13 +115,17 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
 python -m src.collect.epoch_history          # Anthropic + OpenAI history (CC BY)
+python -m src.collect.wayback_history        # Internet Archive open-role counts (Google, Anthropic)
 python -m src.collect.run_snapshot           # weekly snapshot, all four companies
 python -m src.collect.run_snapshot nvidia --limit 3   # quick test, saves nothing
 python -m src.preprocess.build_corpus        # cleaned corpus -> data/processed/corpus/
 python -m src.features.build_features       # skills + features -> data/features/
 python -m src.trends.build_trends           # weekly trends + charts -> data/trends/, reports/trends/
+python -m src.trends.emerging_terms         # rising phrases beyond the taxonomy
+python -m src.trends.geo_pay                # footprint + expansion maps, pay trends
+python -m src.trends.history                # multi-year history, NVIDIA requisition rate
 python -m src.compare.build_comparison      # competitor comparison -> data/comparison/, reports/comparison/
-python -m pytest                             # 48 regression tests
+python -m pytest                             # 55 regression tests
 ```
 
 Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
@@ -149,7 +155,8 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 │   ├── processed/            per-company datasets · Epoch history · corpus/ (cleaned, per company)
 │   ├── features/             posting features · skills (long) · skill matrix
 │   ├── trends/               weekly / monthly trend tables
-│   └── comparison/           company profiles · distinctive skills · mixes
+│   ├── comparison/           company profiles · distinctive skills · mixes
+│   └── history/              Internet Archive counts · long-run series · NVIDIA requisition rate
 ├── tests/                    regression tests (compliance rules, parsing, skill matching)
 ├── assets/                   banner and visual identity
 ├── notebooks/                exploration & analysis

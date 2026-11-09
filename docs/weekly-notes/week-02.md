@@ -60,3 +60,12 @@
 - Profiles: Anthropic = AI safety, multi-cloud, Staff+ seniority, highest pay, heavy GTM build-out; OpenAI = APIs/backend/observability, experimentation culture, firm requirements; NVIDIA = CUDA/HPC/networking stack; Google = TPU, compilers, people management, PhD-preferred.
 - Caveat recorded: Google's keyword-driven sample inflates GenAI/LLM/TPU shares.
 - 48 tests passing.
+
+## Update — Project review: closing the gaps (2026-11-09)
+
+- **Uneven data fixed:** NVIDIA is now the full board (2,799 postings, via the listing endpoint the careers page uses); Google is an unbiased 26-hub × 5-level sample (917 postings, 130/130 slices fully covered at twice-weekly cadence).
+- **Longer history:** Internet Archive open-role counts (counts only) for Google 2023–26 and Anthropic 2024–26, within 1.2% of Epoch where they overlap. NVIDIA requisition-ID estimator: 45–55/day in spring → 70–80/day in autumn.
+- **Beyond the taxonomy:** Fightin' Words log-odds on phrases surfaces TS/SCI clearances, SMB/DACH segments, customer-deployment language and "AI tools" fluency.
+- **Geography and pay:** footprint and expansion maps (11 new-city signals); pay trends.
+- Sprint 6 re-run on the better data; Google's earlier AI focus was overstated by the keyword sample (60% → 40% technical).
+- Routine change: Google now runs twice weekly alongside NVIDIA. 55 tests passing.

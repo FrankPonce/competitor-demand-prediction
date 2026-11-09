@@ -1,205 +1,212 @@
 skill,category,Anthropic,Google,NVIDIA,OpenAI
-AI Agents,LLM & Generative AI,0.1415,0.3078,0.2403,0.1749
-AI Policy & Governance,AI Safety & Evaluation,0.0477,0.0068,0.0,0.0142
-AI Safety,AI Safety & Evaluation,0.1398,0.0289,0.0078,0.0551
-APIs,"Web, Mobile & APIs",0.232,0.1463,0.1705,0.2588
-ASIC / SoC Design,Hardware & Accelerators,0.0038,0.0782,0.1628,0.0196
-AWS,Cloud Platforms,0.1106,0.0,0.0543,0.0367
-Account Management,Go-to-Market & Sales,0.1935,0.0119,0.0155,0.0751
-"Accounting (GAAP, close)","Finance, Legal & Operations",0.0878,0.0102,0.0078,0.0551
-Airflow / Orchestration,Data Engineering & Analytics,0.013,0.0017,0.0233,0.0109
-Alignment,AI Safety & Evaluation,0.0081,0.0017,0.0,0.0096
-Android,"Web, Mobile & APIs",0.0098,0.0476,0.0078,0.0075
-Arabic,Spoken Languages,0.0027,0.0,0.0,0.0004
-Audit & SOX,"Finance, Legal & Operations",0.1084,0.017,0.0155,0.0735
-Azure,Cloud Platforms,0.0542,0.0,0.0155,0.028
-BI & Dashboards,Data Engineering & Analytics,0.1122,0.051,0.0775,0.0935
-Backend Development,"Web, Mobile & APIs",0.0455,0.068,0.0388,0.0993
-Bash / Shell,Programming Languages,0.0125,0.0034,0.093,0.0075
-Bazel,Infrastructure & DevOps,0.0049,0.0,0.0078,0.0046
-Board & Signal Integrity,Hardware & Accelerators,0.006,0.0136,0.0698,0.0109
-Business Development & Partnerships,Go-to-Market & Sales,0.2,0.0765,0.093,0.1281
-C,Programming Languages,0.0065,0.0391,0.1008,0.0075
-C#,Programming Languages,0.0,0.0051,0.0078,0.0
-C++,Programming Languages,0.0168,0.2568,0.2946,0.0321
-CI/CD,Infrastructure & DevOps,0.0369,0.0102,0.1705,0.0309
-CPA / CFA,"Finance, Legal & Operations",0.0379,0.0,0.0,0.0184
-"CRM (Salesforce, HubSpot)",Go-to-Market & Sales,0.0938,0.0085,0.0233,0.0396
-CUDA,Programming Languages,0.0043,0.0051,0.1705,0.0054
-Cassandra / NoSQL,Databases,0.0033,0.017,0.0,0.0004
-Causal Inference & Experimentation,AI/ML Methods,0.0401,0.0561,0.0465,0.1223
-Commissioning,Data Center & Facilities,0.0304,0.0085,0.0078,0.0296
-Communication Skills,Leadership & Collaboration,0.3691,0.1207,0.3411,0.2195
-Communications & PR,Go-to-Market & Sales,0.0103,0.0,0.0,0.0175
-Compilers,HPC & Distributed Systems,0.0065,0.0663,0.0388,0.0092
-Computer Architecture,Hardware & Accelerators,0.0016,0.0697,0.1473,0.0067
-Computer Vision,AI/ML Methods,0.0016,0.0476,0.0388,0.0017
-Cross-functional Collaboration,Leadership & Collaboration,0.3821,0.4269,0.1395,0.4624
-Cryptography,Security & Compliance,0.0184,0.0085,0.0543,0.0167
-Customer Success,Go-to-Market & Sales,0.122,0.0272,0.0233,0.1039
-Data Analysis,Data Engineering & Analytics,0.1084,0.2398,0.1163,0.1177
-Data Center Design & Construction,Data Center & Facilities,0.0623,0.0425,0.031,0.0447
-Data Modeling,Data Engineering & Analytics,0.0081,0.0119,0.0233,0.0113
-Data Pipelines / ETL,Data Engineering & Analytics,0.0667,0.0867,0.062,0.0488
-Data Warehousing,Data Engineering & Analytics,0.0423,0.0663,0.0,0.015
-Deep Learning,AI/ML Methods,0.013,0.0493,0.2946,0.0109
-DeepSpeed / Megatron,ML Frameworks & Libraries,0.0,0.0,0.0078,0.0
-Developer Relations,Go-to-Market & Sales,0.019,0.0153,0.0775,0.0217
-Diffusion & Image Generation,LLM & Generative AI,0.0005,0.0153,0.0,0.0046
-Distillation & Quantization,LLM & Generative AI,0.0049,0.0153,0.0,0.0067
-Distributed Systems,HPC & Distributed Systems,0.0775,0.1429,0.1163,0.0918
-Distributed Training,HPC & Distributed Systems,0.0114,0.0034,0.0388,0.005
-Django / Flask / FastAPI,"Web, Mobile & APIs",0.0,0.0034,0.0233,0.0033
-Docker / Containers,Infrastructure & DevOps,0.0304,0.0289,0.186,0.0221
-Dutch,Spoken Languages,0.0,0.0,0.0,0.0004
-EDA Tools,Hardware & Accelerators,0.0027,0.0238,0.1008,0.0079
-"ERP Systems (NetSuite, Oracle, Workday)","Finance, Legal & Operations",0.065,0.0136,0.031,0.0388
-Elasticsearch,Databases,0.0,0.0,0.0,0.0008
-Electrical Engineering,Data Center & Facilities,0.013,0.0187,0.0155,0.0159
-Energy & Power Procurement,Data Center & Facilities,0.0141,0.017,0.0078,0.0079
-English,Spoken Languages,0.0661,0.034,0.0853,0.0376
-Enterprise Sales,Go-to-Market & Sales,0.1344,0.0136,0.0,0.0484
-Excel / Spreadsheets,Data Engineering & Analytics,0.0369,0.0187,0.0078,0.0221
-FPGA,Hardware & Accelerators,0.0011,0.0153,0.0078,0.0008
-Figma,Product & Design,0.0049,0.0017,0.0,0.0054
-Financial Planning & Analysis,"Finance, Legal & Operations",0.0699,0.0153,0.0155,0.0334
-Fine-tuning,LLM & Generative AI,0.0244,0.0578,0.031,0.0192
-Firmware & Embedded,Hardware & Accelerators,0.0168,0.0272,0.2791,0.033
-French,Spoken Languages,0.0238,0.0,0.0155,0.005
-Frontend Development,"Web, Mobile & APIs",0.0304,0.0612,0.0155,0.0463
-Full-stack Development,"Web, Mobile & APIs",0.0374,0.0578,0.0388,0.0618
-GPU,Hardware & Accelerators,0.0488,0.0731,0.5814,0.0447
-Generative AI,LLM & Generative AI,0.0401,0.2976,0.0233,0.0451
-German,Spoken Languages,0.0228,0.0,0.0078,0.0054
-Git,Infrastructure & DevOps,0.026,0.0051,0.1318,0.0142
-Go,Programming Languages,0.0412,0.0833,0.1008,0.0513
-Go-to-Market Strategy,Go-to-Market & Sales,0.2867,0.1156,0.1085,0.3226
-Google Cloud,Cloud Platforms,0.1057,0.2823,0.031,0.0163
-Government & Public Sector,"Finance, Legal & Operations",0.0916,0.0221,0.0078,0.0434
-Graph ML,AI/ML Methods,0.0,0.0034,0.0,0.0
-HPC,HPC & Distributed Systems,0.0217,0.017,0.3488,0.0238
+AI Agents,LLM & Generative AI,0.1415,0.2208,0.2011,0.1749
+AI Policy & Governance,AI Safety & Evaluation,0.0477,0.0039,0.0021,0.0142
+AI Safety,AI Safety & Evaluation,0.1398,0.0204,0.0082,0.0551
+APIs,"Web, Mobile & APIs",0.232,0.119,0.1561,0.2588
+ASIC / SoC Design,Hardware & Accelerators,0.0038,0.0556,0.2165,0.0196
+AWS,Cloud Platforms,0.1106,0.0,0.0347,0.0367
+Account Management,Go-to-Market & Sales,0.1935,0.065,0.0125,0.0751
+"Accounting (GAAP, close)","Finance, Legal & Operations",0.0878,0.0117,0.0143,0.0551
+Airflow / Orchestration,Data Engineering & Analytics,0.013,0.0023,0.0079,0.0109
+Alignment,AI Safety & Evaluation,0.0081,0.0016,0.0,0.0096
+Android,"Web, Mobile & APIs",0.0098,0.047,0.0118,0.0075
+Arabic,Spoken Languages,0.0027,0.0016,0.0007,0.0004
+Assembly,Programming Languages,0.0,0.0,0.0064,0.0
+Audit & SOX,"Finance, Legal & Operations",0.1084,0.0204,0.0293,0.0735
+Azure,Cloud Platforms,0.0542,0.0,0.0254,0.028
+BI & Dashboards,Data Engineering & Analytics,0.1122,0.0509,0.0511,0.0935
+Backend Development,"Web, Mobile & APIs",0.0455,0.0626,0.0593,0.0993
+Bash / Shell,Programming Languages,0.0125,0.0039,0.0675,0.0075
+Bazel,Infrastructure & DevOps,0.0049,0.0016,0.0057,0.0046
+Board & Signal Integrity,Hardware & Accelerators,0.006,0.011,0.0936,0.0109
+Business Development & Partnerships,Go-to-Market & Sales,0.2,0.1785,0.0822,0.1281
+C,Programming Languages,0.0065,0.0431,0.1036,0.0075
+C#,Programming Languages,0.0,0.0047,0.0057,0.0
+C++,Programming Languages,0.0168,0.1895,0.3119,0.0321
+CI/CD,Infrastructure & DevOps,0.0369,0.0117,0.0979,0.0309
+CPA / CFA,"Finance, Legal & Operations",0.0379,0.0008,0.0061,0.0184
+"CRM (Salesforce, HubSpot)",Go-to-Market & Sales,0.0938,0.0141,0.0075,0.0396
+CUDA,Programming Languages,0.0043,0.0023,0.1736,0.0054
+Cassandra / NoSQL,Databases,0.0033,0.0094,0.0039,0.0004
+Causal Inference & Experimentation,AI/ML Methods,0.0401,0.0368,0.0211,0.1223
+Commissioning,Data Center & Facilities,0.0304,0.0133,0.0043,0.0296
+Communication Skills,Leadership & Collaboration,0.3691,0.1449,0.3508,0.2195
+Communications & PR,Go-to-Market & Sales,0.0103,0.0039,0.0025,0.0175
+Compilers,HPC & Distributed Systems,0.0065,0.0376,0.064,0.0092
+Computer Architecture,Hardware & Accelerators,0.0016,0.0454,0.1568,0.0067
+Computer Vision,AI/ML Methods,0.0016,0.0274,0.0422,0.0017
+Cross-functional Collaboration,Leadership & Collaboration,0.3821,0.4558,0.1869,0.4624
+Cryptography,Security & Compliance,0.0184,0.0149,0.0171,0.0167
+Customer Success,Go-to-Market & Sales,0.122,0.0439,0.0168,0.1039
+Data Analysis,Data Engineering & Analytics,0.1084,0.2482,0.1375,0.1177
+Data Center Design & Construction,Data Center & Facilities,0.0623,0.0478,0.0354,0.0447
+Data Modeling,Data Engineering & Analytics,0.0081,0.0102,0.0089,0.0113
+Data Pipelines / ETL,Data Engineering & Analytics,0.0667,0.072,0.0461,0.0488
+Data Warehousing,Data Engineering & Analytics,0.0423,0.0564,0.0093,0.015
+Deep Learning,AI/ML Methods,0.013,0.0282,0.2376,0.0109
+DeepSpeed / Megatron,ML Frameworks & Libraries,0.0,0.0008,0.0104,0.0
+Developer Relations,Go-to-Market & Sales,0.019,0.0078,0.0547,0.0217
+Diffusion & Image Generation,LLM & Generative AI,0.0005,0.0078,0.0057,0.0046
+Distillation & Quantization,LLM & Generative AI,0.0049,0.007,0.0161,0.0067
+Distributed Systems,HPC & Distributed Systems,0.0775,0.1143,0.0915,0.0918
+Distributed Training,HPC & Distributed Systems,0.0114,0.0031,0.0314,0.005
+Django / Flask / FastAPI,"Web, Mobile & APIs",0.0,0.0016,0.0039,0.0033
+Docker / Containers,Infrastructure & DevOps,0.0304,0.0329,0.1186,0.0221
+Dutch,Spoken Languages,0.0,0.0023,0.0,0.0004
+EDA Tools,Hardware & Accelerators,0.0027,0.0157,0.0918,0.0079
+"ERP Systems (NetSuite, Oracle, Workday)","Finance, Legal & Operations",0.065,0.0133,0.0264,0.0388
+Elasticsearch,Databases,0.0,0.0,0.0043,0.0008
+Electrical Engineering,Data Center & Facilities,0.013,0.018,0.02,0.0159
+Elixir / Erlang,Programming Languages,0.0,0.0008,0.0,0.0
+Energy & Power Procurement,Data Center & Facilities,0.0141,0.011,0.0089,0.0079
+English,Spoken Languages,0.0661,0.1261,0.0907,0.0376
+Enterprise Sales,Go-to-Market & Sales,0.1344,0.0298,0.0064,0.0484
+Excel / Spreadsheets,Data Engineering & Analytics,0.0369,0.0172,0.0157,0.0221
+FPGA,Hardware & Accelerators,0.0011,0.0149,0.0218,0.0008
+Figma,Product & Design,0.0049,0.0008,0.0004,0.0054
+Financial Planning & Analysis,"Finance, Legal & Operations",0.0699,0.0274,0.0082,0.0334
+Fine-tuning,LLM & Generative AI,0.0244,0.0368,0.0364,0.0192
+Firmware & Embedded,Hardware & Accelerators,0.0168,0.0204,0.2033,0.033
+French,Spoken Languages,0.0238,0.0117,0.0025,0.005
+Frontend Development,"Web, Mobile & APIs",0.0304,0.054,0.0343,0.0463
+Full-stack Development,"Web, Mobile & APIs",0.0374,0.0517,0.0493,0.0618
+GPU,Hardware & Accelerators,0.0488,0.0454,0.5406,0.0447
+Generative AI,LLM & Generative AI,0.0401,0.2075,0.0775,0.0451
+German,Spoken Languages,0.0228,0.0149,0.0011,0.0054
+Git,Infrastructure & DevOps,0.026,0.0047,0.0654,0.0142
+Go,Programming Languages,0.0412,0.0689,0.0457,0.0513
+Go-to-Market Strategy,Go-to-Market & Sales,0.2867,0.1496,0.0518,0.3226
+Google Cloud,Cloud Platforms,0.1057,0.2882,0.0239,0.0163
+Government & Public Sector,"Finance, Legal & Operations",0.0916,0.0227,0.0107,0.0434
+Graph ML,AI/ML Methods,0.0,0.0016,0.0036,0.0
+HPC,HPC & Distributed Systems,0.0217,0.0117,0.2708,0.0238
+Haskell / OCaml,Programming Languages,0.0,0.0008,0.0004,0.0
 Hindi,Spoken Languages,0.0016,0.0,0.0,0.0013
-Hugging Face,ML Frameworks & Libraries,0.0005,0.0017,0.0,0.0
-Identity & Access,Security & Compliance,0.0428,0.0323,0.0543,0.0447
-Inference & Serving,LLM & Generative AI,0.0764,0.0816,0.124,0.0463
-Infrastructure & Cloud Security,Security & Compliance,0.0276,0.0272,0.031,0.0205
-Intellectual Property,"Finance, Legal & Operations",0.0157,0.0153,0.0155,0.0159
-"Interconnects (NVLink, PCIe, CXL)",Hardware & Accelerators,0.0027,0.0136,0.1705,0.0096
-Interpretability,AI Safety & Evaluation,0.0125,0.0017,0.0,0.0063
-Italian,Spoken Languages,0.007,0.0,0.0,0.0004
-JAX,ML Frameworks & Libraries,0.0103,0.0374,0.0233,0.0021
-Japanese,Spoken Languages,0.0157,0.034,0.0,0.0125
-Java,Programming Languages,0.019,0.1616,0.0465,0.0083
-JavaScript,Programming Languages,0.0184,0.0884,0.0233,0.0664
-Julia,Programming Languages,0.0005,0.0,0.0,0.0
-Kafka / Streaming,Data Engineering & Analytics,0.0065,0.0119,0.031,0.0096
-Keras,ML Frameworks & Libraries,0.0,0.0051,0.0,0.0
-Korean,Spoken Languages,0.0087,0.0,0.0,0.0075
-Kotlin,Programming Languages,0.0005,0.0204,0.0,0.0038
-Kubernetes,Infrastructure & DevOps,0.0531,0.0323,0.2248,0.0305
-LLM APIs,LLM & Generative AI,0.0444,0.0017,0.0078,0.0626
-LangChain / LlamaIndex,ML Frameworks & Libraries,0.0,0.0476,0.0078,0.0
-Large Language Models,LLM & Generative AI,0.2846,0.3231,0.1008,0.1615
-"Legal (contracts, commercial law)","Finance, Legal & Operations",0.052,0.0034,0.0,0.0117
-Linux,Infrastructure & DevOps,0.0184,0.0408,0.3566,0.0179
-MLflow / W&B,ML Frameworks & Libraries,0.0,0.0034,0.0,0.0
-MPI / NCCL,HPC & Distributed Systems,0.0103,0.0017,0.062,0.0042
-Machine Learning,AI/ML Methods,0.387,0.5238,0.2093,0.1544
-Mandarin / Chinese,Spoken Languages,0.0033,0.0017,0.0078,0.0058
-Marketing,Go-to-Market & Sales,0.0537,0.0374,0.0543,0.0726
-Mechanical / HVAC,Data Center & Facilities,0.0098,0.0204,0.0233,0.0117
-Mentorship,Leadership & Collaboration,0.1257,0.1446,0.1318,0.0906
-Metrics & KPIs,Product & Design,0.0477,0.0493,0.0155,0.0538
-Microservices,"Web, Mobile & APIs",0.0033,0.0102,0.0233,0.0017
-Model Context Protocol,LLM & Generative AI,0.0423,0.0442,0.0078,0.0104
-Model Evaluation,AI Safety & Evaluation,0.1171,0.1667,0.0233,0.0751
-MongoDB,Databases,0.0011,0.0034,0.0078,0.0
-Multi-cloud,Cloud Platforms,0.026,0.0085,0.0155,0.005
-Multimodal,AI/ML Methods,0.0054,0.0799,0.0388,0.0221
-MySQL,Databases,0.0016,0.0017,0.0078,0.0104
-Natural Language Processing,AI/ML Methods,0.006,0.051,0.0,0.0029
-Negotiation,Leadership & Collaboration,0.1279,0.0289,0.062,0.0772
-Networking,Infrastructure & DevOps,0.077,0.1395,0.4031,0.0743
-"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,0.0054,0.0119,0.2558,0.015
-Next.js,"Web, Mobile & APIs",0.0043,0.0,0.0,0.0008
-Node.js,"Web, Mobile & APIs",0.0054,0.0017,0.0155,0.0046
-NumPy / pandas,ML Frameworks & Libraries,0.0016,0.0017,0.0155,0.0017
-Observability,Infrastructure & DevOps,0.0694,0.0561,0.1938,0.1064
-Offensive Security,Security & Compliance,0.0222,0.0085,0.0078,0.0113
-Operating Systems,HPC & Distributed Systems,0.0249,0.0238,0.2016,0.0451
-Optimization,AI/ML Methods,0.0022,0.0238,0.0078,0.0025
-Oracle Cloud,Cloud Platforms,0.0016,0.0,0.0155,0.0079
-PHP,Programming Languages,0.0,0.0017,0.0,0.0
-Parallel Programming,HPC & Distributed Systems,0.0022,0.0085,0.1628,0.0113
-People Management,Leadership & Collaboration,0.0921,0.1071,0.0465,0.0605
-Performance Optimization,HPC & Distributed Systems,0.0293,0.0561,0.1628,0.0346
-Physical Design,Hardware & Accelerators,0.0033,0.0425,0.0233,0.0071
-Pipeline & Forecasting,Go-to-Market & Sales,0.0932,0.0289,0.0233,0.058
-Portuguese,Spoken Languages,0.0038,0.0,0.0,0.0046
-PostgreSQL,Databases,0.0043,0.0017,0.0078,0.0154
-Pretraining,LLM & Generative AI,0.0173,0.0119,0.0078,0.0075
-Privacy & Data Protection,Security & Compliance,0.0558,0.0153,0.0,0.0188
-Procurement & Vendor Management,"Finance, Legal & Operations",0.0949,0.0459,0.0698,0.0993
-Product Management,Product & Design,0.161,0.2721,0.1163,0.1469
-Program & Project Management,"Finance, Legal & Operations",0.1458,0.1344,0.1085,0.1461
-Prompt Engineering,LLM & Generative AI,0.0444,0.0306,0.0,0.0067
-PyTorch,ML Frameworks & Libraries,0.0125,0.0561,0.1163,0.0104
-Python,Programming Languages,0.2282,0.352,0.5116,0.1937
-R,Programming Languages,0.0087,0.0374,0.0,0.0058
-RAG & Retrieval,LLM & Generative AI,0.0065,0.0714,0.0388,0.0171
-RLHF / Post-training,LLM & Generative AI,0.0146,0.0204,0.031,0.0238
-RTL & Verification,Hardware & Accelerators,0.0038,0.0595,0.0388,0.0096
-Ranking & Search,AI/ML Methods,0.0027,0.0289,0.0,0.0063
-Ray,ML Frameworks & Libraries,0.0,0.0034,0.0078,0.0
-React,"Web, Mobile & APIs",0.019,0.0017,0.0155,0.0159
-Recommender Systems,AI/ML Methods,0.007,0.0442,0.0,0.0205
-Recruiting & People Ops,"Finance, Legal & Operations",0.0564,0.0153,0.0078,0.086
-Red Teaming,AI Safety & Evaluation,0.0271,0.0187,0.0155,0.0225
-Redis,Databases,0.0027,0.0,0.0233,0.0013
-Regulatory & Compliance,"Finance, Legal & Operations",0.1615,0.034,0.0233,0.1014
-Reinforcement Learning,AI/ML Methods,0.0461,0.0816,0.0465,0.0225
-Robotics,AI/ML Methods,0.0054,0.0238,0.1085,0.0275
-Ruby,Programming Languages,0.0,0.0017,0.0078,0.0021
-Rust,Programming Languages,0.0569,0.0085,0.0543,0.0376
-SQL,Programming Languages,0.1187,0.1259,0.031,0.0772
-SaaS / B2B,Go-to-Market & Sales,0.1762,0.0306,0.0388,0.1348
-Scala,Programming Languages,0.0,0.0017,0.0,0.0025
-"Security Compliance (SOC 2, ISO, FedRAMP)",Security & Compliance,0.0417,0.017,0.0233,0.038
-Security Engineering,Security & Compliance,0.0336,0.0255,0.031,0.0221
-Site Reliability Engineering,Infrastructure & DevOps,0.1041,0.0816,0.124,0.0818
-Slurm,HPC & Distributed Systems,0.0022,0.0085,0.093,0.0008
-Solutions Architecture / Pre-sales,Go-to-Market & Sales,0.1322,0.1173,0.1085,0.1039
-Spanish,Spoken Languages,0.0157,0.0,0.0,0.0063
-Spanner,Databases,0.0016,0.034,0.0,0.0
-Spark,Data Engineering & Analytics,0.007,0.0408,0.0078,0.0067
-Speech & Audio,AI/ML Methods,0.0011,0.0017,0.0078,0.0008
-Stakeholder Management,Leadership & Collaboration,0.2341,0.119,0.0543,0.2613
-Startup / Ambiguity,Leadership & Collaboration,0.5778,0.3061,0.2171,0.6728
-Statistics,AI/ML Methods,0.0141,0.0833,0.0233,0.0246
-Storage Systems,HPC & Distributed Systems,0.013,0.017,0.0698,0.0125
-Strategy & Operations,"Finance, Legal & Operations",0.1518,0.0986,0.0543,0.1795
-Swift,Programming Languages,0.0027,0.0034,0.0,0.0021
-Synthetic Data,LLM & Generative AI,0.0038,0.0051,0.0,0.0121
-TPU,Hardware & Accelerators,0.0287,0.1071,0.0,0.0033
-Tax,"Finance, Legal & Operations",0.045,0.0034,0.0078,0.0505
-Technical Leadership,Leadership & Collaboration,0.0748,0.2602,0.1085,0.0718
-Technical Writing & Documentation,Product & Design,0.0179,0.0085,0.0155,0.0142
-TensorFlow,ML Frameworks & Libraries,0.0016,0.0459,0.062,0.0046
-TensorRT,ML Frameworks & Libraries,0.0,0.0,0.0155,0.0
-Terraform / IaC,Infrastructure & DevOps,0.0314,0.0051,0.1008,0.025
-Thermal & Power,Hardware & Accelerators,0.0309,0.0289,0.062,0.0342
-Threat Detection & Response,Security & Compliance,0.0748,0.0425,0.062,0.0363
-Threat Modeling,Security & Compliance,0.0575,0.034,0.0388,0.0338
-Time Series & Forecasting,AI/ML Methods,0.0141,0.017,0.0,0.0071
-Transformers,LLM & Generative AI,0.0081,0.0,0.0078,0.005
-Treasury,"Finance, Legal & Operations",0.0211,0.0034,0.0,0.0121
-Triton,ML Frameworks & Libraries,0.0027,0.0068,0.0233,0.0029
-Trust & Safety,AI Safety & Evaluation,0.058,0.0544,0.0078,0.0689
-TypeScript,Programming Languages,0.0358,0.0408,0.0233,0.0321
-UX / Product Design,Product & Design,0.0493,0.1514,0.031,0.1018
-User Research,Product & Design,0.007,0.0153,0.0,0.0125
-Verilog / SystemVerilog,Programming Languages,0.0,0.0425,0.0233,0.0042
-dbt,Data Engineering & Analytics,0.0108,0.0017,0.0,0.0017
-iOS,"Web, Mobile & APIs",0.0092,0.0085,0.0,0.0063
-scikit-learn,ML Frameworks & Libraries,0.0,0.0,0.0,0.0008
-vLLM / SGLang,ML Frameworks & Libraries,0.0,0.0085,0.031,0.0021
+Hugging Face,ML Frameworks & Libraries,0.0005,0.0008,0.0096,0.0
+Identity & Access,Security & Compliance,0.0428,0.0298,0.0196,0.0447
+Inference & Serving,LLM & Generative AI,0.0764,0.0556,0.1486,0.0463
+Infrastructure & Cloud Security,Security & Compliance,0.0276,0.0337,0.0125,0.0205
+Intellectual Property,"Finance, Legal & Operations",0.0157,0.0164,0.0232,0.0159
+"Interconnects (NVLink, PCIe, CXL)",Hardware & Accelerators,0.0027,0.0094,0.1122,0.0096
+Interpretability,AI Safety & Evaluation,0.0125,0.0023,0.0011,0.0063
+Italian,Spoken Languages,0.007,0.0008,0.0,0.0004
+JAX,ML Frameworks & Libraries,0.0103,0.0243,0.0257,0.0021
+Japanese,Spoken Languages,0.0157,0.0431,0.0043,0.0125
+Java,Programming Languages,0.019,0.137,0.0225,0.0083
+JavaScript,Programming Languages,0.0184,0.0814,0.0132,0.0664
+Julia,Programming Languages,0.0005,0.0,0.0007,0.0
+Kafka / Streaming,Data Engineering & Analytics,0.0065,0.0078,0.0057,0.0096
+Keras,ML Frameworks & Libraries,0.0,0.0023,0.0007,0.0
+Korean,Spoken Languages,0.0087,0.0055,0.0011,0.0075
+Kotlin,Programming Languages,0.0005,0.0117,0.0,0.0038
+Kubernetes,Infrastructure & DevOps,0.0531,0.0337,0.1304,0.0305
+LLM APIs,LLM & Generative AI,0.0444,0.0008,0.0021,0.0626
+LangChain / LlamaIndex,ML Frameworks & Libraries,0.0,0.0415,0.0146,0.0
+Large Language Models,LLM & Generative AI,0.2846,0.1989,0.1754,0.1615
+"Legal (contracts, commercial law)","Finance, Legal & Operations",0.052,0.011,0.0025,0.0117
+Linux,Infrastructure & DevOps,0.0184,0.0368,0.2454,0.0179
+MLflow / W&B,ML Frameworks & Libraries,0.0,0.0016,0.0011,0.0
+MPI / NCCL,HPC & Distributed Systems,0.0103,0.0008,0.0575,0.0042
+Machine Learning,AI/ML Methods,0.387,0.3688,0.2372,0.1544
+Mandarin / Chinese,Spoken Languages,0.0033,0.0141,0.0164,0.0058
+Marketing,Go-to-Market & Sales,0.0537,0.0407,0.0243,0.0726
+Mechanical / HVAC,Data Center & Facilities,0.0098,0.0227,0.0179,0.0117
+Mentorship,Leadership & Collaboration,0.1257,0.13,0.115,0.0906
+Metrics & KPIs,Product & Design,0.0477,0.0486,0.0125,0.0538
+Microservices,"Web, Mobile & APIs",0.0033,0.0094,0.0236,0.0017
+Model Context Protocol,LLM & Generative AI,0.0423,0.0407,0.0168,0.0104
+Model Evaluation,AI Safety & Evaluation,0.1171,0.1057,0.0229,0.0751
+MongoDB,Databases,0.0011,0.0016,0.0046,0.0
+Multi-cloud,Cloud Platforms,0.026,0.007,0.0132,0.005
+Multimodal,AI/ML Methods,0.0054,0.0439,0.0425,0.0221
+MySQL,Databases,0.0016,0.0039,0.0029,0.0104
+Natural Language Processing,AI/ML Methods,0.006,0.0368,0.0118,0.0029
+Negotiation,Leadership & Collaboration,0.1279,0.0634,0.0272,0.0772
+Networking,Infrastructure & DevOps,0.077,0.1245,0.3094,0.0743
+"Networking Hardware (InfiniBand, Ethernet)",Hardware & Accelerators,0.0054,0.0086,0.1858,0.015
+Next.js,"Web, Mobile & APIs",0.0043,0.0,0.0014,0.0008
+Node.js,"Web, Mobile & APIs",0.0054,0.0008,0.005,0.0046
+NumPy / pandas,ML Frameworks & Libraries,0.0016,0.0016,0.005,0.0017
+ONNX,ML Frameworks & Libraries,0.0,0.0,0.0046,0.0
+Observability,Infrastructure & DevOps,0.0694,0.0525,0.0915,0.1064
+Offensive Security,Security & Compliance,0.0222,0.0102,0.0104,0.0113
+OpenCV,ML Frameworks & Libraries,0.0,0.0,0.0011,0.0
+Operating Systems,HPC & Distributed Systems,0.0249,0.0196,0.1258,0.0451
+Optimization,AI/ML Methods,0.0022,0.0172,0.0046,0.0025
+Oracle Cloud,Cloud Platforms,0.0016,0.0,0.0068,0.0079
+PHP,Programming Languages,0.0,0.0008,0.0,0.0
+Parallel Programming,HPC & Distributed Systems,0.0022,0.0055,0.1429,0.0113
+People Management,Leadership & Collaboration,0.0921,0.0979,0.0268,0.0605
+Performance Optimization,HPC & Distributed Systems,0.0293,0.0368,0.1218,0.0346
+Physical Design,Hardware & Accelerators,0.0033,0.036,0.0654,0.0071
+Pipeline & Forecasting,Go-to-Market & Sales,0.0932,0.0556,0.0075,0.058
+Portuguese,Spoken Languages,0.0038,0.0196,0.0007,0.0046
+PostgreSQL,Databases,0.0043,0.0016,0.0025,0.0154
+Pretraining,LLM & Generative AI,0.0173,0.0063,0.0118,0.0075
+Privacy & Data Protection,Security & Compliance,0.0558,0.0157,0.0032,0.0188
+Procurement & Vendor Management,"Finance, Legal & Operations",0.0949,0.0509,0.0457,0.0993
+Product Management,Product & Design,0.161,0.2193,0.1333,0.1469
+Program & Project Management,"Finance, Legal & Operations",0.1458,0.166,0.0932,0.1461
+Prompt Engineering,LLM & Generative AI,0.0444,0.0196,0.0096,0.0067
+PyTorch,ML Frameworks & Libraries,0.0125,0.036,0.0968,0.0104
+Python,Programming Languages,0.2282,0.278,0.4648,0.1937
+R,Programming Languages,0.0087,0.0282,0.005,0.0058
+RAG & Retrieval,LLM & Generative AI,0.0065,0.0564,0.0397,0.0171
+RLHF / Post-training,LLM & Generative AI,0.0146,0.0125,0.0268,0.0238
+RTL & Verification,Hardware & Accelerators,0.0038,0.0439,0.1272,0.0096
+Ranking & Search,AI/ML Methods,0.0027,0.0227,0.0039,0.0063
+Ray,ML Frameworks & Libraries,0.0,0.0023,0.0054,0.0
+React,"Web, Mobile & APIs",0.019,0.0031,0.0086,0.0159
+Recommender Systems,AI/ML Methods,0.007,0.0227,0.0071,0.0205
+Recruiting & People Ops,"Finance, Legal & Operations",0.0564,0.0157,0.0111,0.086
+Red Teaming,AI Safety & Evaluation,0.0271,0.0102,0.0043,0.0225
+Redis,Databases,0.0027,0.0008,0.0025,0.0013
+Regulatory & Compliance,"Finance, Legal & Operations",0.1615,0.0478,0.0143,0.1014
+Reinforcement Learning,AI/ML Methods,0.0461,0.0439,0.04,0.0225
+Robotics,AI/ML Methods,0.0054,0.011,0.1208,0.0275
+Ruby,Programming Languages,0.0,0.0008,0.0032,0.0021
+Rust,Programming Languages,0.0569,0.0055,0.0325,0.0376
+SQL,Programming Languages,0.1187,0.112,0.0268,0.0772
+SaaS / B2B,Go-to-Market & Sales,0.1762,0.0399,0.0171,0.1348
+Scala,Programming Languages,0.0,0.0016,0.0021,0.0025
+"Security Compliance (SOC 2, ISO, FedRAMP)",Security & Compliance,0.0417,0.0164,0.0193,0.038
+Security Engineering,Security & Compliance,0.0336,0.0219,0.0139,0.0221
+Site Reliability Engineering,Infrastructure & DevOps,0.1041,0.0775,0.0457,0.0818
+Slurm,HPC & Distributed Systems,0.0022,0.007,0.0425,0.0008
+Solutions Architecture / Pre-sales,Go-to-Market & Sales,0.1322,0.1057,0.0879,0.1039
+Spanish,Spoken Languages,0.0157,0.0086,0.0007,0.0063
+Spanner,Databases,0.0016,0.0298,0.0,0.0
+Spark,Data Engineering & Analytics,0.007,0.0345,0.0129,0.0067
+Speech & Audio,AI/ML Methods,0.0011,0.0008,0.0111,0.0008
+Stakeholder Management,Leadership & Collaboration,0.2341,0.1684,0.0322,0.2613
+Startup / Ambiguity,Leadership & Collaboration,0.5778,0.26,0.1793,0.6728
+Statistics,AI/ML Methods,0.0141,0.0767,0.0243,0.0246
+Storage Systems,HPC & Distributed Systems,0.013,0.0164,0.0322,0.0125
+Strategy & Operations,"Finance, Legal & Operations",0.1518,0.1214,0.0557,0.1795
+Swift,Programming Languages,0.0027,0.0047,0.0,0.0021
+Synthetic Data,LLM & Generative AI,0.0038,0.0031,0.0289,0.0121
+TPU,Hardware & Accelerators,0.0287,0.0854,0.0004,0.0033
+Tax,"Finance, Legal & Operations",0.045,0.0063,0.0043,0.0505
+Technical Leadership,Leadership & Collaboration,0.0748,0.177,0.0961,0.0718
+Technical Writing & Documentation,Product & Design,0.0179,0.011,0.0146,0.0142
+TensorFlow,ML Frameworks & Libraries,0.0016,0.0305,0.035,0.0046
+TensorRT,ML Frameworks & Libraries,0.0,0.0,0.0254,0.0
+Terraform / IaC,Infrastructure & DevOps,0.0314,0.007,0.0464,0.025
+Thermal & Power,Hardware & Accelerators,0.0309,0.0258,0.0754,0.0342
+Threat Detection & Response,Security & Compliance,0.0748,0.047,0.0772,0.0363
+Threat Modeling,Security & Compliance,0.0575,0.0258,0.0214,0.0338
+Time Series & Forecasting,AI/ML Methods,0.0141,0.0141,0.0054,0.0071
+Transformers,LLM & Generative AI,0.0081,0.0008,0.0086,0.005
+Treasury,"Finance, Legal & Operations",0.0211,0.0047,0.0021,0.0121
+Triton,ML Frameworks & Libraries,0.0027,0.0039,0.0339,0.0029
+Trust & Safety,AI Safety & Evaluation,0.058,0.0399,0.0007,0.0689
+TypeScript,Programming Languages,0.0358,0.0321,0.0086,0.0321
+UX / Product Design,Product & Design,0.0493,0.1135,0.0457,0.1018
+User Research,Product & Design,0.007,0.0094,0.0007,0.0125
+Vector Databases,Databases,0.0,0.0,0.0007,0.0
+Verilog / SystemVerilog,Programming Languages,0.0,0.0313,0.0747,0.0042
+XGBoost / LightGBM,ML Frameworks & Libraries,0.0,0.0008,0.0004,0.0
+dbt,Data Engineering & Analytics,0.0108,0.0008,0.0004,0.0017
+iOS,"Web, Mobile & APIs",0.0092,0.0094,0.0007,0.0063
+scikit-learn,ML Frameworks & Libraries,0.0,0.0008,0.0025,0.0008
+vLLM / SGLang,ML Frameworks & Libraries,0.0,0.0063,0.0364,0.0021

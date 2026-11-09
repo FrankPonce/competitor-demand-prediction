@@ -87,14 +87,14 @@ Median days a posting stays up before closing: Anthropic **39**, OpenAI **41**. 
 
 | week       |   🔵 Google |   🟢 NVIDIA |
 |:-----------|---------:|---------:|
-| 2026-09-21 |        8 |        0 |
-| 2026-09-28 |       19 |        0 |
-| 2026-10-05 |       36 |        0 |
-| 2026-10-12 |       59 |        0 |
-| 2026-10-19 |       73 |        0 |
-| 2026-10-26 |       97 |        0 |
-| 2026-11-02 |      236 |       75 |
-| 2026-11-09 |        7 |       24 |
+| 2026-09-21 |        6 |       43 |
+| 2026-09-28 |       13 |       47 |
+| 2026-10-05 |       40 |       65 |
+| 2026-10-12 |       91 |       95 |
+| 2026-10-19 |      123 |      103 |
+| 2026-10-26 |      174 |     1406 |
+| 2026-11-02 |      394 |      339 |
+| 2026-11-09 |       29 |       28 |
 
 > Survivorship-biased: only roles still open are visible, so older weeks are under-counted. Real flows for NVIDIA and Google come from our weekly snapshots, which accumulate from 2026-11-08.
 

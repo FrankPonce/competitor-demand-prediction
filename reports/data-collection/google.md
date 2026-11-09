@@ -61,3 +61,12 @@ That gives 8 × 8 × 4 = 256 slices. Run weekly, the newest-first ordering means
 - The embedded data is a positional array. Field meanings were inferred on 2026-11-08 and could change without notice, so the validator will flag it if they break.
 - Timestamp [12] is treated as the posting date; [14] is treated as last updated.
 - Newest-first capture can still miss postings in very busy slices if more than 20 new ones appear in a week. The truncated-slice count in the run log tracks this.
+
+## Update 2026-11-09: unbiased sampling (v2)
+
+The keyword sample above inflated exactly the skills its search terms named (GenAI, LLM, TPU). v2 drops
+keywords: **26 global hubs × 5 seniority levels**, newest first, run twice a week. The first v2 run returned
+**917 postings**. For every slice, `covered_days` (how far back the 20 newest postings reach) exceeded 3.5 days,
+so the twice-weekly cadence captures each slice's **entire** new-posting flow (126/130 even at weekly cadence).
+Google is now an unbiased *flow* sample. It is still not a census of the open stock; the Internet Archive history
+provides the board total instead (about 3,200–3,800 open roles in 2026).

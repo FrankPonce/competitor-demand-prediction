@@ -92,6 +92,19 @@ Reviewed 2026-11-08. Evidence is recorded in [`source-register.csv`](../source-r
 - **Fallback:** Manually record a weekly sample of metadata (title, location,
   team, date seen) by browsing. The ToS restricts automated tools, not a
   person reading public pages.
+- **Update 2026-11-09: full-board route.** The sitemap only lists the newest ~100
+  postings, out of 2,800 open. The board's careers page loads its job list from
+  `POST /wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs`, the same request every
+  visitor's browser makes. This path is **not disallowed** by the board's robots.txt
+  (RFC 9309: anything not disallowed is allowed), needs no login, and returns
+  public listing fields (title, location, posted bucket, requisition ID). The list
+  is capped at 2,000 results per query, so it is queried once per job-family facet.
+  Descriptions still come from each job page's JSON-LD, **fetched once per new
+  requisition** (known ones are carried forward). Same conditions: ≤1 request /
+  2.5 s, robots.txt checked per URL, no nvidia.com pages, no application flow.
+- **History:** the Internet Archive holds no captures of this board (checked
+  2026-11-09), so NVIDIA's history comes from our own snapshots plus the
+  requisition-ID sequence estimate (Sprint 5 addendum).
 
 ### Google: approved with conditions
 
@@ -117,6 +130,29 @@ Reviewed 2026-11-08. Evidence is recorded in [`source-register.csv`](../source-r
 - **Limit:** Coverage will be a filtered sample (e.g. AI/ML and engineering
   roles), not all of Google's postings. Document this in the Sprint 2 Data
   Collection Report.
+- **Update 2026-11-09: unbiased sampling (v2).** The v1 keyword sample (AI/ML
+  search terms) biased skill shares. v2 queries 26 hubs × 5 seniority levels with
+  **no keywords**, newest-first, twice weekly. Same robots.txt rules (never
+  `page=`); 130 requests per run.
+
+### Historical counts: Internet Archive (Wayback Machine)
+
+- **Route:** archived copies of public careers pages via the Wayback CDX API and
+  `web.archive.org/web/<timestamp>id_/<url>`. The companies' live sites are never
+  contacted.
+- **Why it's OK:** the Internet Archive's Terms of Use grant access to its
+  collections "for scholarship and research purposes", which is this project's
+  use. The CDX API is its documented machine interface. We request about 1 page
+  every 4 s.
+- **Data minimisation:** only one number per capture (the open-roles count) is
+  extracted and stored. **No archived page content is kept**, locally or in git.
+- **Coverage (2026-11-09):** Google careers results 2023–26, Anthropic Greenhouse
+  board 2024–26. OpenAI's pages render jobs client-side (no counts recoverable).
+  NVIDIA's board isn't archived.
+- **Note on "keep it local":** not publishing data avoids *republishing* issues, but
+  it does not make a collection method acceptable if the method itself breaks a
+  site's terms. That's why history comes only from the research archive, never
+  from re-crawling the companies' sites.
 
 ## Legal requirements
 

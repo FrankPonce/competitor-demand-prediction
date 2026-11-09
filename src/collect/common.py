@@ -54,6 +54,12 @@ class PoliteSession:
         self.request_count = 0
 
     def get(self, url: str, **kwargs) -> requests.Response:
+        return self.request("GET", url, **kwargs)
+
+    def post(self, url: str, **kwargs) -> requests.Response:
+        return self.request("POST", url, **kwargs)
+
+    def request(self, method: str, url: str, **kwargs) -> requests.Response:
         attempts = 4
         for attempt in range(attempts):
             wait = self.delay - (time.monotonic() - self._last)
@@ -62,7 +68,7 @@ class PoliteSession:
             self._last = time.monotonic()
             self.request_count += 1
             try:
-                resp = self.s.get(url, timeout=self.timeout, **kwargs)
+                resp = self.s.request(method, url, timeout=self.timeout, **kwargs)
             except (requests.ConnectionError, requests.Timeout):
                 # transient network trouble (DNS blips, resets): back off and retry
                 if attempt == attempts - 1:

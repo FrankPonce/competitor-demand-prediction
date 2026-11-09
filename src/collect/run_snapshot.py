@@ -35,12 +35,11 @@ csv.field_size_limit(2**31 - 1)
 COMPANIES = {
     "anthropic": ("Anthropic", lambda s, a: greenhouse.fetch(s, "anthropic"), greenhouse.normalize, 1.0),
     "openai": ("OpenAI", lambda s, a: ashby.fetch(s, "openai"), ashby.normalize, 1.0),
-    "nvidia": ("NVIDIA", lambda s, a: nvidia_workday.fetch(s, limit=a.limit), nvidia_workday.normalize, 3.0),
+    "nvidia": ("NVIDIA", lambda s, a: nvidia_workday.fetch(s, limit=a.limit), nvidia_workday.normalize, 2.5),
     "google": (
         "Google",
         lambda s, a: google_careers.fetch(
             s,
-            keywords=google_careers.KEYWORDS[: a.limit] if a.limit else None,
             locations=google_careers.LOCATIONS[: a.limit] if a.limit else None,
             levels=google_careers.LEVELS[: a.limit] if a.limit else None,
         ),
@@ -78,7 +77,11 @@ def merge_snapshots(key: str) -> list[dict]:
                     row["posting_date"] = prev.get("posting_date", "")
                 merged[row["job_id"]] = row
     for row in merged.values():
-        row["job_status"] = "active" if row["last_seen_date"] == latest_date else "closed"
+        if row["last_seen_date"] == latest_date:
+            row["job_status"] = "active"
+        else:
+            # Google is a newest-first sample: dropping out of the top 20 doesn't mean the job closed.
+            row["job_status"] = "unknown" if key == "google" else "closed"
         if not row.get("posting_date"):
             row["posting_date"] = row["first_seen_date"]
     return sorted(merged.values(), key=lambda r: r["job_id"])
@@ -107,10 +110,13 @@ def run(key: str, args) -> dict:
     rows = normalize(raw, company, started)
     issues = validate_rows(rows)
     # An incomplete snapshot would make missing postings look "closed": refuse to save it.
-    attempted = raw.get("sitemap_url_count") or len(raw.get("queries", [])) or 0
+    attempted = raw.get("details_attempted") or len(raw.get("queries", [])) or 0
     failed = len(raw.get("errors", [])) + sum(1 for q in raw.get("queries", []) if "error" in q)
     if attempted and failed / attempted > 0.05:
         raise RuntimeError(f"{failed}/{attempted} fetches failed; snapshot not saved (re-run later)")
+    board, listed = raw.get("board_total"), raw.get("listing_count")
+    if board and not args.limit and listed < 0.95 * board:
+        raise RuntimeError(f"listing covered {listed}/{board} postings; snapshot not saved (re-run later)")
     if not args.limit:  # test runs don't pollute the time series
         write_csv(out_dir / f"{date}.csv", rows, FIELDS)
         merged = merge_snapshots(key)
@@ -121,10 +127,14 @@ def run(key: str, args) -> dict:
     note = ""
     if key == "google":
         qs = raw.get("queries", [])
-        truncated = sum(1 for q in qs if (q.get("total") or 0) > (q.get("returned") or 0))
-        note = f"{len(qs)} queries; {truncated} had more results than the first page"
+        ok = [q for q in qs if "error" not in q]
+        weekly = sum(1 for q in ok if q.get("covered_days", 0) >= 7)
+        half = sum(1 for q in ok if q.get("covered_days", 0) >= 3.5)
+        note = (f"v{raw.get('sampling_version', 1)}: {len(qs)} slices; full-flow coverage "
+                f"weekly {weekly}/{len(ok)}, twice-weekly {half}/{len(ok)}")
     if key == "nvidia":
-        note = f"sitemap urls={raw.get('sitemap_url_count')}; fetch errors={len(raw.get('errors', []))}"
+        note = (f"board={raw.get('board_total')}; listed={raw.get('listing_count')}; new details="
+                f"{raw.get('details_attempted')}; carried={raw.get('carried_forward')}; errors={len(raw.get('errors', []))}")
 
     entry = {
         "run_started_utc": started,

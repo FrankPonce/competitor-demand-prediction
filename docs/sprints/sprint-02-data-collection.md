@@ -56,11 +56,23 @@ Run log (text-free, committed): [`reports/collection-log.csv`](../../reports/col
 - **Datasets are committed with full text** so reviewers can inspect them (see the [Sprint 1 data-sharing decision](sprint-01-data-sources-legal.md#legal-requirements)). Raw API JSON dumps stay local because they duplicate the CSVs and are large.
 - **Test runs (`--limit`) never write snapshot CSVs**, so they can't pollute the time series.
 
+## Update (2026-11-09): coverage fixes after the project review
+
+| Company | Before | After |
+|---|---|---|
+| 🟢 NVIDIA | Sitemap: newest ~100 of the board | **Full board (2,800 postings)** via the listing endpoint the careers page itself calls, queried per job-family facet (2,000-per-query cap). Descriptions fetched once per *new* requisition. First backfill: 2,822 requests, 0 errors |
+| 🔵 Google | 8 AI/ML keywords × 8 hubs × 4 levels (keyword-biased) | **26 hubs × 5 levels, no keywords** (v2), newest first, twice weekly. First run: 917 postings; **130/130 slices** capture their full new-posting flow at twice-weekly cadence |
+| History | Epoch only (Anthropic/OpenAI, from Mar 2026) | + Internet Archive counts: Google 2023–26, Anthropic 2024–26 (validated against Epoch: 1.2% mean error) |
+
+Safeguards added: snapshots are refused if more than 5% of detail fetches fail **or** the listing covers
+less than 95% of the board's stated total. Google postings that drop out of the top 20 are marked
+`unknown`, not `closed`.
+
 ## Collection routine (until Sprint 12)
 
 1. Re-check the source register: the robots.txt files, and whether the NVIDIA board now links nvidia.com's terms.
 2. **Every Monday:** `python -m src.collect.run_snapshot` (all four companies).
-   **Plus every Thursday:** `python -m src.collect.run_snapshot nvidia` (its sitemap only holds ~5 days of postings).
+   **Plus every Thursday:** `python -m src.collect.run_snapshot nvidia google` (Google v2 slices are sized for a twice-weekly cadence; NVIDIA keeps closures accurate).
 3. Skim the console for validation issues and check `reports/collection-log.csv`.
 4. Note the counts in the weekly note.
 

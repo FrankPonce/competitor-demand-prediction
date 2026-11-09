@@ -23,30 +23,30 @@ compare *sampling methods*. The framework controls for that:
 | **Same point in time:** postings open in the latest snapshot (2026-11-09) | Removes the history imbalance (Anthropic/OpenAI have Epoch history; NVIDIA/Google don't) |
 | **Shares, never counts** | Board sizes and samples differ, so "% of a company's postings" is comparable |
 | **Lens A: all roles** | Like-for-like for Anthropic vs OpenAI (full boards). Indicative only for NVIDIA (newest ~100) and Google (AI/ML sample) |
-| **Lens B: technical roles** (ML/AI, research, software, infra, hardware, data, security) | Like-for-like across all four: OpenAI 408 · Google 349 · Anthropic 260 · NVIDIA 71 postings |
-| **Distinctiveness = lift vs the *average* of the other three** | Each competitor weighs equally, so OpenAI's large board doesn't define "normal" |
+| **Lens B: technical roles** (ML/AI, research, software, infra, hardware, data, security) | Like-for-like across all four: NVIDIA 2,059 · OpenAI 408 · Google 366 · Anthropic 260 postings |
+| **Distinctiveness = lift vs the *average* of the other three** | Each competitor weighs equally, so a big board doesn't define "normal" |
 
-> ⚠️ **Google sampling caveat:** the Google sample was gathered with search terms such as *generative AI*,
-> *large language model*, *TPU* and *machine learning* (Sprint 2). Its high shares for those exact skills partly
-> reflect **how the data was collected**, not only Google's priorities. Google's strongest *unbiased* signals are
-> the ones its queries didn't target: people management, Java, compilers, RTL, and degree/experience requirements.
+> **Revised 2026-11-09 with better data.** This page was first written with NVIDIA's newest ~100 postings and a
+> keyword-biased Google sample. Both were fixed (Sprint 2 update): NVIDIA is now the **full board (2,799)**, and
+> Google is an **unbiased hub × seniority sample (917)**. The first version overstated Google's AI focus (60% →
+> 40% technical, PhD mentions 64% → 45%). Remaining caveat: Google's v2 sample takes the same number of postings
+> per hub, so its **location mix reflects the sampling design**, not Google's real geography.
 
 ## At a glance
 
 | | 🟠 Anthropic | 🟣 OpenAI | 🟢 NVIDIA | 🔵 Google |
 |---|---:|---:|---:|---:|
-| Open postings (all roles) | 675 | 813 | 99 | 582 |
-| Technical share of postings | 39% | 50% | 72% | 60% |
-| Sales & GTM share (lens A) | 29% | 25% | 4% | 16% |
+| Open postings (all roles) | 675 | 813 | 2,799 | 917 (sample) |
+| Technical share of postings | 39% | 50% | 74% | 40% |
+| Sales & GTM share (lens A) | 29% | 25% | 10% | 32% |
 | Median min. years, tech roles | 7 | 7 | 5 | 3 |
-| PhD mentioned, tech roles | 5% | 3% | 23% | 64% |
-| "Or equivalent experience" accepted, tech | 8%¹ | 12% | 83% | 94% |
-| People managers (all roles) | 19% | 15% | 9% | 12% |
-| Multi-location postings | 60% | 19% | 0% | 41% |
-| Median disclosed pay midpoint, tech roles | **$402k** | $351k | $270k | n/a² |
-| Skills phrased as *preferred* (nice-to-have) | 36% | **7%** | 28% | 37% |
+| PhD mentioned / required, tech | 5% / 3% | 3% / 3% | 29% / 26% | 45% / 6% |
+| "Or equivalent experience" accepted, tech | 8%¹ | 12% | 80% | 93% |
+| People managers (all roles) | 19% | 15% | 11% | 13% |
+| Median disclosed pay midpoint, tech roles | **$402k** | $351k | $245k | n/a² |
+| Skills phrased as *preferred* (nice-to-have) | 36% | **7%** | 29% | 35% |
 
-<sub>¹ Anthropic states its degree policy in a standard "Logistics" block that Sprint 3 removes as boilerplate, so this undercounts. ² Google's results pages don't expose pay.</sub>
+<sub>¹ Anthropic states its degree policy in a standard "Logistics" block that Sprint 3 removes as boilerplate, so this undercounts. ² Google's results pages rarely expose pay (2% of tech postings).</sub>
 
 ![Role family mix](../../reports/comparison/figures/role_family_mix.png)
 
@@ -87,45 +87,46 @@ compare *sampling methods*. The framework controls for that:
 
 ### 🟢 NVIDIA: the hardware & HPC stack
 
-- **Role mix:** 72% technical, with hardware & silicon (17%), infrastructure (19%) and data-center roles (8%), and almost
-  no GTM or corporate roles in its newest postings.
-- **Distinctive skills:** the whole accelerated-computing stack. Networking hardware such as InfiniBand/Ethernet
-  (30% vs 2%), CUDA (17% vs 1%), NVLink/PCIe/CXL interconnects (20% vs 2%), HPC (35% vs 4%), Slurm (11% vs 1%),
-  Linux (41% vs 6%), parallel programming (17% vs 2%).
-- **Seniority:** 75% Senior-titled, and the most open to non-traditional paths: 83% accept "or equivalent experience"
-  despite a 23% PhD-mention rate.
-- **Gaps:** low on LLM language (8% vs 34%) and model evaluation (0%). NVIDIA hires the people who build the
-  platform rather than the people who build frontier models on it.
+- **Role mix (full board, 2,799):** 74% technical. Software engineering 27%, **hardware & silicon 24%**,
+  infrastructure 11%; sales 10%; almost no corporate or safety roles. 219 university postings (interns/new grads).
+- **Distinctive skills:** the accelerated-computing stack. GPU (57% vs 10%), CUDA (18% vs 1%), InfiniBand/Ethernet
+  networking (19% vs 2%), HPC (27% vs 4%), computer architecture (19% vs 3%), NVLink/PCIe/CXL (12% vs 2%), parallel
+  programming (16% vs 2%), EDA tools (10% vs 1%), plus **robotics (11% vs 1%)**, NVIDIA's physical-AI push.
+- **Seniority & credentials:** 60% Senior-titled. The highest PhD *requirement* (26% of tech roles), yet 80% accept
+  "or equivalent experience". Median disclosed pay about $245k (US roles), the lowest of the three that disclose,
+  likely because its board covers far more mid-level and hardware roles.
+- **Geography:** Santa Clara 47%, then Israel 15%, India 9%, China 9%, Taiwan 5%: the most Asia-weighted footprint.
+- **Gaps:** low on "fast-paced/ambiguity" language (15% vs 49%), distributed systems and SRE. NVIDIA builds the
+  platform rather than running consumer services on it.
 
-### 🔵 Google: research-grade AI at scale, with a strong management layer
+### 🔵 Google: Cloud selling, GenAI and a deep management layer
 
-- **Role mix (AI/ML sample):** ML/AI engineering 13%, infrastructure 14%, product & design 9%, hardware 7% (TPU).
-  Its largest hub in the sample is Bangalore (19%), followed by Sunnyvale, Mountain View and New York.
-- **Distinctive skills:** TPU (16% vs 3%), compilers (11% vs 2%), RTL & verification (9% vs 2%) and Java (19% vs 5%),
-  which point to its custom silicon and large internal platforms. **People management (13% vs 2%)** and technical
-  leadership (36% vs 14%) stand out.
-- **Credentials:** PhD mentioned in 64% of technical postings, but 94% accept "or equivalent experience". Google lists
-  advanced degrees as preferred rather than required (PhD required in only 11%). It has the lowest median minimum
-  years (3), so it hires across more levels.
-- **Gaps:** low on observability, Kubernetes and APIs. Google's internal tooling names don't match the external
-  vocabulary the taxonomy looks for (a known limitation).
+- **Role mix (unbiased sample):** only 40% technical. **Sales & GTM 32%**, the highest of the four, which reflects
+  Google Cloud's enterprise sales machine. Infrastructure 13%, software 9%.
+- **Distinctive skills:** Google Cloud (30% vs 7%), Java (20% vs 3%), **Generative AI (15% vs 3%)** and TPU (10% vs 3%),
+  so its GenAI push is real even without keyword sampling. Also statistics and data analysis, and the strongest
+  **management layer**: people management (13% vs 2%), program management (15% vs 7%), product management (17% vs 9%).
+- **Credentials:** PhD mentioned in 45% of technical postings but required in only 6%; 93% accept "or equivalent
+  experience"; lowest median minimum years (3). Google hires across the most levels (Junior 15%, Mid 23%).
+- **Gaps:** low on GPU (6% vs 28%, since Google uses its own TPUs), APIs and observability. Google's internal tool names
+  don't match the external vocabulary in the taxonomy.
 
 ## Similarities and strategic gaps
 
 **Shared ground** (share of technical postings):
-- Python 39–65%.
-- AI agents 23–34%: agentic AI is now a cross-industry hiring theme.
-- Distributed systems 18–25%.
-- Infrastructure & DevOps 29–75%.
+- Python 39–54%.
+- AI agents 17–34%: highest at the two labs, but agentic AI appears in roughly 1 in 6 technical postings even at NVIDIA and Google.
+- Infrastructure & DevOps 33–55%.
+- Distributed systems 10–25%.
 
 **Where they diverge:**
 
 | Dimension | Leaders | Laggards | Reading |
 |---|---|---|---|
-| AI safety & evaluation | 🟠 Anthropic 38% | 🟢 NVIDIA 3% | Safety is a core hiring axis only at Anthropic |
-| Hardware & accelerators | 🟢 NVIDIA 87% | 🟠 Anthropic 21% | Labs buy compute; NVIDIA builds it (Google: TPU in-house) |
+| AI safety & evaluation | 🟠 Anthropic 38% | 🟢 NVIDIA 3% | Safety is a core hiring axis only at Anthropic (OpenAI 17%, Google 14%) |
+| Hardware & accelerators | 🟢 NVIDIA 86% | 🟠 Anthropic 21% | Labs buy compute; NVIDIA builds it (Google: TPU in-house) |
 | APIs & backend platforms | 🟣 OpenAI 40% APIs | 🔵 Google 9% | OpenAI's product-platform focus |
-| Go-to-market build-out | 🟠 Anthropic 29% of roles | 🟢 NVIDIA 4% | Both labs are hiring sales capacity |
+| Go-to-market build-out | 🔵 Google 32%, 🟠 Anthropic 29% of roles | 🟢 NVIDIA 10% | Anthropic's sales build-out is now Google-Cloud-scale *as a share* |
 | Credential flexibility | 🔵 Google / 🟢 NVIDIA ~90% "or equivalent" | Labs (stated less often) | Different ways of writing requirements |
 
 ![Seniority mix](../../reports/comparison/figures/seniority_mix.png)

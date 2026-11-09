@@ -1,17 +1,24 @@
 """Google via unpaginated Google Careers results pages.
 
-robots.txt (User-agent: *) disallows careers results URLs carrying `page=`, so this
-collector NEVER paginates. Instead each query is a narrow slice
-(keyword x location x seniority) sorted newest-first, so the first page (20 jobs) holds
-that slice's most recent postings. Run weekly, this captures most *new* postings per
-slice over time. The page embeds full job data, so no job detail pages are fetched.
-Coverage per query (returned vs. total) is recorded in the run log.
+robots.txt (User-agent: *) disallows careers results URLs carrying `page=`, so this collector
+NEVER paginates. Each query is a narrow slice sorted newest-first, so the first page (20 jobs)
+holds that slice's most recent postings. The page embeds full job data, so no job detail pages
+are fetched.
+
+Sampling design (v2, from 2026-11-09)
+    Slices = 26 global hubs x 5 seniority levels, **no keywords**. v1 used AI/ML search terms,
+    which biased skill shares toward those terms. Run twice a week, newest-first slices catch a
+    slice's whole new-posting flow whenever its 20 newest postings reach back past the previous
+    run; `covered_days` per query records exactly that, so coverage gaps are measured, not hidden.
+    Absence from a later run does NOT mean a posting closed (it may just have fallen out of the
+    top 20), so Google postings not seen in the latest run get status "unknown".
 """
 
 from __future__ import annotations
 
 import json
 import re
+import time
 from datetime import datetime, timezone
 from urllib.parse import urlencode
 
@@ -28,36 +35,29 @@ from .common import (
 SOURCE = "google_careers_results_unpaginated"
 RESULTS = "https://www.google.com/about/careers/applications/jobs/results"
 JOB_URL = RESULTS + "/{id}"
+SAMPLING_VERSION = 2
 
-# AI/ML + infrastructure focus, across major hubs. Edit freely, but keep queries narrow.
-KEYWORDS = [
-    "machine learning",
-    "large language model",
-    "generative AI",
-    "deep learning",
-    "TPU",
-    "data scientist",
-    "AI research",
-    "ML infrastructure",
-]
+# Google's largest hiring hubs. The location filter is regional (Mountain View already covers the
+# Bay Area, including Sunnyvale and San Francisco), so one entry per metro area.
 LOCATIONS = [
-    "Mountain View, CA, USA",
-    "San Francisco, CA, USA",
-    "New York, NY, USA",
-    "Seattle, WA, USA",
-    "London, UK",
-    "Zurich, Switzerland",
-    "Bangalore, India",
-    "Tokyo, Japan",
+    "Mountain View, CA, USA", "New York, NY, USA", "Seattle, WA, USA", "Austin, TX, USA",
+    "Atlanta, GA, USA", "Cambridge, MA, USA", "Chicago, IL, USA", "Los Angeles, CA, USA",
+    "Washington D.C., DC, USA", "Pittsburgh, PA, USA", "Boulder, CO, USA",
+    "London, UK", "Dublin, Ireland", "Zurich, Switzerland", "Munich, Germany", "Paris, France",
+    "Warsaw, Poland", "Bangalore, India", "Hyderabad, India", "Tokyo, Japan", "Singapore",
+    "Sydney, NSW, Australia", "Tel Aviv, Israel", "Taipei, Taiwan", "Sao Paulo, Brazil",
+    "Toronto, ON, Canada",
 ]
-
-LEVELS = [["EARLY"], ["MID"], ["ADVANCED"], ["LEAD", "DIRECTOR"]]
+LEVELS = [["EARLY"], ["MID"], ["ADVANCED"], ["LEAD"], ["DIRECTOR"]]
+# v1 keywords, kept only to document the earlier sample (no longer queried)
+V1_KEYWORDS = ["machine learning", "large language model", "generative AI", "deep learning", "TPU",
+               "data scientist", "AI research", "ML infrastructure"]
 
 _DS1 = re.compile(r"AF_initDataCallback\(\{key: 'ds:1'.*?data:(.*?), sideChannel: \{\}\}\);</script>", re.S)
 
 
-def build_url(keyword: str, location: str, levels: list[str]) -> str:
-    params = [("q", keyword), ("location", location)]
+def build_url(location: str, levels: list[str], keyword: str | None = None) -> str:
+    params = ([("q", keyword)] if keyword else []) + [("location", location)]
     params += [("target_level", lv) for lv in levels]
     params.append(("sort_by", "date"))
     url = f"{RESULTS}?{urlencode(params)}"
@@ -66,28 +66,33 @@ def build_url(keyword: str, location: str, levels: list[str]) -> str:
     return url
 
 
-def fetch(session: PoliteSession, keywords=None, locations=None, levels=None) -> dict:
+def fetch(session: PoliteSession, locations=None, levels=None) -> dict:
     robots = Robots.fetch(session, "https://www.google.com/robots.txt")
+    now = time.time()
     queries = []
-    for kw in keywords or KEYWORDS:
-        for loc in locations or LOCATIONS:
-            for lv in levels or LEVELS:
-                url = build_url(kw, loc, lv)
-                assert_allowed(robots, url)
-                entry = {"keyword": kw, "location": loc, "levels": lv, "url": url}
-                try:
-                    m = _DS1.search(session.get(url).text)
-                    data = json.loads(m.group(1)) if m else None
-                except Exception as e:
-                    entry["error"] = str(e)
-                    queries.append(entry)
-                    continue
-                jobs = (data or [[]])[0] or []
-                entry["total"] = data[2] if data and len(data) > 2 else None
-                entry["returned"] = len(jobs)
-                entry["jobs"] = jobs
+    for loc in locations or LOCATIONS:
+        for lv in levels or LEVELS:
+            url = build_url(loc, lv)
+            assert_allowed(robots, url)
+            entry = {"location": loc, "levels": lv, "url": url}
+            try:
+                m = _DS1.search(session.get(url).text)
+                data = json.loads(m.group(1)) if m else None
+            except Exception as e:
+                entry["error"] = str(e)
                 queries.append(entry)
-    return {"queries": queries}
+                continue
+            jobs = (data or [[]])[0] or []
+            entry["total"] = data[2] if data and len(data) > 2 else None
+            entry["returned"] = len(jobs)
+            stamps = [j[12][0] for j in jobs if isinstance(j, list) and len(j) > 12
+                      and isinstance(j[12], list) and j[12] and isinstance(j[12][0], int)]
+            # how far back this slice's first page reaches; a full slice (total <= 20) covers everything
+            entry["covered_days"] = (9999 if (entry["total"] or 0) <= len(jobs)
+                                     else round((now - min(stamps)) / 86400, 1) if stamps else 0)
+            entry["jobs"] = jobs
+            queries.append(entry)
+    return {"sampling_version": SAMPLING_VERSION, "queries": queries}
 
 
 def _text(field) -> str:

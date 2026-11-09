@@ -46,3 +46,16 @@ Full review: [Sprint 1](../../docs/sprints/sprint-01-data-sources-legal.md#nvidi
   **Decision: run NVIDIA every 3 days** (`python -m src.collect.run_snapshot nvidia`). Each run is still about 100 gentle requests.
 - This captures the *flow of new postings* well, but not the full stock of open roles. Closed-status detection is weaker, because a posting dropping off the sitemap only means it's no longer among the newest. Trend analysis for NVIDIA will use **new postings per week** as its main signal.
 - There is no department field; it will be derived later.
+
+## Update 2026-11-09: full board
+
+The sitemap route above only ever saw the newest ~100 postings. It was replaced by the board's listing
+endpoint (the same request the public careers page makes), queried once per job-family facet to stay under
+the 2,000-per-query cap. Result: **2,799 of 2,800 open postings** with full descriptions (2,671 newly fetched,
+129 carried forward), 0 errors. The open stock is now complete, so `closed` really means removed from the board.
+
+Mix of the full board: Engineering 1,764 · Sales 328 · University (interns/new grads) 219 · Program
+Management 114 · Operations 108 · Marketing 97 · IT 47 · Research 41.
+
+Caveat: about 73% of open postings carry a posted date within the last six weeks, because NVIDIA refreshes
+postings often. For history, use the requisition-ID estimate (Sprint 5 addendum), not posted dates.
