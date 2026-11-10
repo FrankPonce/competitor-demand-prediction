@@ -11,7 +11,7 @@ somewhere people will actually look: a live, public dashboard that refreshes its
 
 - [x] Documented pipeline design & automation steps (this page)
 - [x] Final workflow in GitHub: [`.github/workflows/refresh.yml`](../../.github/workflows/refresh.yml)
-- [x] Extra: **AI Hiring Signals**, a static intelligence console in [`dashboard/`](../../dashboard/) served by Vercel
+- [x] Extra: **SIGNALS**, a static AI hiring-intelligence console in [`dashboard/`](../../dashboard/) served by Vercel
 - [x] Extra: context data beyond job postings (SEC filings, model releases, newsroom feeds, layoffs, patents)
 
 ## Pipeline design
@@ -72,7 +72,16 @@ filings) is used instead.
 $98.0B of non-operating gains (equity-security marks), so the figure is real, not a parsing error. The dashboard
 plots revenue and R&D instead of net income for exactly this reason.
 
-## Dashboard: AI Hiring Signals
+## Dashboard: SIGNALS
+
+**Live:** [signals-hiring.vercel.app](https://signals-hiring.vercel.app)
+
+**Name and identity.** The console is called **SIGNALS**. The wordmark is the word set normally in Inter ExtraBold
+with a gradient copy laid exactly on top, cropped to the A and the upright of the L, so it reads SIGNALS first and
+"AI" second. The crop edge is measured from the font at runtime, so it holds at any size. The gradient uses the four
+company colours and flows slowly (static for reduced-motion users). Favicon: the gradient "AI" drawn as shapes.
+Social preview, touch icon and README banner are rendered from `assets/brand/render.html`.
+
 
 A "sleek intelligence console": a minimal dark UI with a few OSINT touches (timestamped signal feed, source and
 confidence labels, "updated · next refresh" status). No server, no database: the page reads eight small JSON files
@@ -151,7 +160,7 @@ OpenAI headline naming a watchlist city would have counted as a confirmation. Fi
 ## Setup left to the owner
 
 1. Repository secrets: `SEC_CONTACT_EMAIL`, `EPO_OPS_KEY`, `EPO_OPS_SECRET`, `GROQ_API_KEY` (done), optional `OPENROUTER_API_KEY`.
-2. Vercel: import the GitHub repo (framework preset "Other"); `vercel.json` does the rest.
+2. Vercel: connected; live at [signals-hiring.vercel.app](https://signals-hiring.vercel.app).
 
 ---
 

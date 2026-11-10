@@ -1,4 +1,4 @@
-/* AI Hiring Signals · dashboard logic. Reads data/*.json exported by src.dashboard.export. */
+/* SIGNALS · dashboard logic. Reads data/*.json exported by src.dashboard.export. */
 (() => {
   "use strict";
 
@@ -594,6 +594,27 @@
       el.classList.add("reveal"); io.observe(el);
     });
   }
+
+  // ---------- SIGNALS wordmark ----------
+  // The word is set normally; a gradient copy sits on top, cropped from the start of the A to the right edge of the
+  // L's upright, so "AI" shows inside "SIGNALS". The upright's edge is found by drawing an L in the real font.
+  function wordmarks() {
+    document.querySelectorAll(".wm").forEach((wm) => {
+      const base = wm.querySelector(".wm-base"), txt = base.firstChild, cs = getComputedStyle(base);
+      const fs = parseFloat(cs.fontSize), box = wm.getBoundingClientRect();
+      if (!box.width) return;
+      const glyph = (i) => { const r = document.createRange(); r.setStart(txt, i); r.setEnd(txt, i + 1); return r.getBoundingClientRect(); };
+      const a = glyph(4), L = glyph(5);
+      const px = 200, c = document.createElement("canvas"); c.width = px * 2; c.height = px * 1.4;
+      const g = c.getContext("2d"); g.font = `${cs.fontWeight} ${px}px ${cs.fontFamily}`; g.fillText("L", 0, px);
+      const y = Math.round(px * 0.45), d = g.getImageData(0, y, c.width, 1).data;
+      let x = 0; while (x < c.width && d[x * 4 + 3] < 128) x++;
+      while (x < c.width && d[x * 4 + 3] >= 128) x++;
+      const x0 = (a.left - box.left) / fs - 0.02, x1 = (L.left - box.left) / fs + x / px + 0.005;
+      wm.style.setProperty("--wm-clip", `polygon(${x0}em 0, ${x1}em 0, ${x1}em 100%, ${x0}em 100%)`);
+    });
+  }
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(wordmarks); else wordmarks();
 
   // ---------- boot ----------
   async function boot() {

@@ -1,4 +1,4 @@
-/* AI Hiring Signals · dark console. Tokens mirror src/style.py. */
+/* SIGNALS · dark console. Tokens mirror src/style.py. */
 :root {
   --surface: #0d1117;
   --panel: #161b22;
@@ -295,3 +295,16 @@ main { max-width: 1280px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 40px); }
   .chapter::before { inset: 20px -16px auto; }
   .ch-watch { flex-direction: column; gap: 6px; }
 }
+
+/* ---------- SIGNALS wordmark: plain text + gradient copy on top, cropped to the A and the L's upright ---------- */
+.wm { position: relative; display: inline-block; font-weight: 800; letter-spacing: -0.01em; line-height: 1; white-space: nowrap; }
+.wm-base { color: var(--text); }
+.wm-over { position: absolute; inset: 0; pointer-events: none; color: transparent;
+  background: linear-gradient(90deg, var(--anthropic), var(--openai), var(--google), var(--nvidia), var(--anthropic), var(--openai));
+  background-size: 300% 100%; -webkit-background-clip: text; background-clip: text;
+  clip-path: var(--wm-clip, inset(0 100% 0 0)); animation: wm-flow 6s linear infinite; }
+@keyframes wm-flow { to { background-position: -150% 0; } }
+@media (prefers-reduced-motion: reduce) { .wm-over { animation: none; } }
+.brand .wm { font-size: 21px; }
+.foot-brand { display: inline-flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.foot-brand .wm { font-size: 16px; }

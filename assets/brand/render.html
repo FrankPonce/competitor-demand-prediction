@@ -1,0 +1,74 @@
+<!doctype html>
+<!-- SIGNALS brand images: open via a local server, then save each canvas (og.png, readme-signals.png, icon-180.png). -->
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<body style="margin:0;background:#222">
+<canvas id="og" width="1200" height="630"></canvas>
+<canvas id="readme" width="1200" height="240"></canvas>
+<canvas id="icon" width="180" height="180"></canvas>
+<script>
+// Temporary render page for SIGNALS brand images (deleted after export).
+const C = { bg: "#0d1117", panel: "#161b22", grid: "#21262d", text: "#e6edf3", t2: "#9198a1", muted: "#6e7681" };
+const STOPS = ["#b95115", "#9c7bd2", "#2d6ac1", "#5ea529"];
+function grad(g, x0, x1) { const gr = g.createLinearGradient(x0, 0, x1, 0); STOPS.forEach((c, i) => gr.addColorStop(i / 3, c)); return gr; }
+function stemRight(fontPx) {
+  const c = document.createElement("canvas"), px = 200; c.width = 400; c.height = 280;
+  const g = c.getContext("2d"); g.font = `800 ${px}px Inter`; g.fillText("L", 0, px);
+  const d = g.getImageData(0, Math.round(px * 0.45), 400, 1).data;
+  let x = 0; while (x < 400 && d[x * 4 + 3] < 128) x++; while (x < 400 && d[x * 4 + 3] >= 128) x++;
+  return x / px * fontPx;
+}
+function wordmark(g, x, y, size) {
+  g.font = `800 ${size}px Inter`; g.textBaseline = "alphabetic";
+  const sp = -0.01 * size; g.letterSpacing = `${sp}px`;
+  const w = (s) => g.measureText(s).width;
+  g.fillStyle = C.text; g.fillText("SIGNALS", x, y);
+  const xa = x + w("SIGN"), xl = x + w("SIGNA");
+  const x1 = xl + stemRight(size);
+  g.save(); g.beginPath(); g.rect(xa - 0.02 * size, y - size, x1 - xa + 0.02 * size, size * 1.3); g.clip();
+  g.fillStyle = grad(g, xa, x1); g.fillText("SIGNALS", x, y); g.restore();
+  return w("SIGNALS");
+}
+function bgGrid(g, W, H, step) {
+  g.fillStyle = C.bg; g.fillRect(0, 0, W, H); g.strokeStyle = C.grid; g.lineWidth = 1; g.globalAlpha = .55;
+  for (let x = 0; x <= W; x += step) { g.beginPath(); g.moveTo(x + .5, 0); g.lineTo(x + .5, H); g.stroke(); }
+  for (let y = 0; y <= H; y += step) { g.beginPath(); g.moveTo(0, y + .5); g.lineTo(W, y + .5); g.stroke(); }
+  g.globalAlpha = 1;
+  const v = g.createLinearGradient(0, 0, W, 0); v.addColorStop(0, "rgba(13,17,23,1)"); v.addColorStop(.6, "rgba(13,17,23,.75)"); v.addColorStop(1, "rgba(13,17,23,.2)");
+  g.fillStyle = v; g.fillRect(0, 0, W, H);
+}
+function arcs(g, cx, cy, r) {  // HQ -> new-city arcs, as on the globe
+  const ends = [[r * 0.9, -r * 0.55], [r * 1.05, r * 0.05], [r * 0.7, r * 0.6], [r * 0.25, -r * 0.85]];
+  ends.forEach(([dx, dy], i) => {
+    g.strokeStyle = STOPS[i]; g.lineWidth = 3; g.lineCap = "round"; g.beginPath(); g.moveTo(cx, cy);
+    g.quadraticCurveTo(cx + dx * 0.4, cy + dy - r * 0.45, cx + dx, cy + dy); g.stroke();
+    g.beginPath(); g.arc(cx + dx, cy + dy, 6, 0, 7); g.fillStyle = STOPS[i]; g.fill();
+    g.beginPath(); g.arc(cx + dx, cy + dy, 14, 0, 7); g.globalAlpha = .45; g.lineWidth = 2; g.stroke(); g.globalAlpha = 1;
+  });
+  g.beginPath(); g.arc(cx, cy, 8, 0, 7); g.fillStyle = C.text; g.fill();
+}
+document.fonts.load("800 64px Inter").then(() => document.fonts.load("500 20px Inter")).then(() => document.fonts.load("500 20px 'JetBrains Mono'")).then(() => {
+  // social preview 1200x630
+  let g = document.getElementById("og").getContext("2d");
+  bgGrid(g, 1200, 630, 48); arcs(g, 930, 360, 190);
+  wordmark(g, 80, 250, 112);
+  g.letterSpacing = "0px"; g.font = "500 40px Inter"; g.fillStyle = C.text; g.fillText("Where frontier AI is hiring next.", 84, 330);
+  g.font = "500 24px Inter"; g.fillStyle = C.t2;
+  g.fillText("Job postings of Anthropic, OpenAI, NVIDIA, Google + 13 peers,", 84, 384);
+  g.fillText("turned into signals, stories and forecasts scored in public.", 84, 418);
+  g.font = "500 18px 'JetBrains Mono'"; g.fillStyle = C.muted; g.fillText("REFRESHED MON + THU", 84, 540);
+  STOPS.forEach((c, i) => { g.beginPath(); g.arc(90 + i * 22, 572, 7, 0, 7); g.fillStyle = c; g.fill(); });
+  // README strip 1200x240
+  g = document.getElementById("readme").getContext("2d");
+  bgGrid(g, 1200, 240, 40); arcs(g, 1000, 150, 110);
+  wordmark(g, 60, 128, 88);
+  g.letterSpacing = "0px"; g.font = "500 24px Inter"; g.fillStyle = C.t2; g.fillText("AI hiring intelligence · the live console of this project", 64, 178);
+  // apple touch icon 180
+  g = document.getElementById("icon").getContext("2d");
+  g.fillStyle = C.bg; g.fillRect(0, 0, 180, 180);
+  g.font = "800 112px Inter"; g.letterSpacing = "-1px";
+  const wa = g.measureText("AI").width; g.fillStyle = grad(g, (180 - wa) / 2, (180 + wa) / 2); g.fillText("AI", (180 - wa) / 2, 130);
+  window.READY = true;
+});
+</script>
+</body>
