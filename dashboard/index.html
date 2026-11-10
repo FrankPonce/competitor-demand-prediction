@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Hiring Signals</title>
+  <meta name="description" content="Live competitor-demand console: where Anthropic, OpenAI, NVIDIA and Google are hiring, what it predicts, and how the predictions score.">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="AI Hiring Signals, back to top">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>AI Hiring Signals</span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#signals">Signals</a><a href="#pulse">Pulse</a><a href="#companies">Companies</a>
+      <a href="#tracker">Tracker</a><a href="#market">Market</a><a href="#methods">Methods</a>
+    </nav>
+    <div class="status" id="status"><span class="dot" aria-hidden="true"></span><span id="status-text">Loading…</span></div>
+  </header>
+
+  <main id="top">
+    <!-- 1 · Hero -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Competitor demand intelligence · job postings</p>
+        <h1>Where frontier AI is hiring <em>next</em>.</h1>
+        <p class="lede">Job boards are published before press releases. This console tracks the open roles of
+          Anthropic, OpenAI, NVIDIA, Google and 13 peers, turns them into signals and forecasts, and scores every
+          forecast in public.</p>
+        <div class="counters" id="counters"></div>
+        <div class="legend" id="legend" role="group" aria-label="Show companies on the globe"></div>
+      </div>
+      <div class="globe-wrap">
+        <div id="globe" aria-label="Globe of hiring hubs and new-city expansions"></div>
+        <div class="globe-tip" id="globe-tip" hidden></div>
+        <p class="globe-note">Arcs: HQ → first posting in a new city · pulsing rings: unannounced (watchlist)</p>
+      </div>
+    </section>
+
+    <section class="panel expansions" aria-labelledby="exp-h">
+      <div class="panel-head">
+        <h2 id="exp-h">New-city expansions</h2>
+        <p class="sub">First posting in a city, compared with the first public announcement</p>
+      </div>
+      <ol class="exp-list" id="expansions"></ol>
+    </section>
+
+    <!-- 2 · Signals -->
+    <section id="signals" class="section">
+      <div class="section-head">
+        <p class="eyebrow">01 · Signal feed</p>
+        <h2>What changed</h2>
+        <p class="sub">Automatic signals from postings, filings, model releases and newsroom feeds. Each carries a
+          confidence label: <b>confirmed</b> (observed directly), <b>watch</b> (unannounced, still developing),
+          <b>context</b> (background news).</p>
+      </div>
+      <div class="filters" id="filters"></div>
+      <ul class="feed" id="feed"></ul>
+      <button class="more" id="feed-more" type="button">Show more</button>
+    </section>
+
+    <!-- 3 · Pulse -->
+    <section id="pulse" class="section">
+      <div class="section-head">
+        <p class="eyebrow">02 · Pulse</p>
+        <h2>Hiring volume and 8-week outlook</h2>
+        <p class="sub">Weekly series with the best back-tested model's forecast and an empirical 80% interval. Each
+          panel keeps its own scale: NVIDIA is measured as new requisitions per day.</p>
+        <div class="seg" id="range" role="group" aria-label="Time range">
+          <button type="button" data-r="26">6M</button><button type="button" data-r="52" class="on">1Y</button><button type="button" data-r="0">All</button>
+        </div>
+      </div>
+      <div class="pulse-grid" id="pulse-grid"></div>
+    </section>
+
+    <!-- 4 · Companies -->
+    <section id="companies" class="section">
+      <div class="section-head">
+        <p class="eyebrow">03 · Company deep-dive</p>
+        <h2>What each company is building toward</h2>
+      </div>
+      <div class="tabs" id="tabs" role="tablist" aria-label="Company"></div>
+      <div class="deep" id="deep"></div>
+    </section>
+
+    <!-- 5 · Tracker -->
+    <section id="tracker" class="section">
+      <div class="section-head">
+        <p class="eyebrow">04 · Prediction tracker</p>
+        <h2>Predictions, scored in public</h2>
+        <p class="sub" id="tracker-sub"></p>
+      </div>
+      <div class="grid-2">
+        <div class="panel">
+          <div class="panel-head"><h3>Frozen forecasts</h3><p class="sub">Next 8 weeks · point and 80% interval · actual fills in as weeks resolve</p></div>
+          <div class="table-wrap"><table class="tbl" id="forecast-table"></table></div>
+        </div>
+        <div class="panel">
+          <div class="panel-head"><h3>Did hiring lead the news?</h3><p class="sub">Days between first posting in a city and its public announcement</p></div>
+          <div class="chart" id="leadlag" style="height:300px"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-head"><h3>Watchlist</h3><p class="sub">Cities with postings but no announcement yet</p></div>
+          <ul class="watch" id="watchlist"></ul>
+        </div>
+        <div class="panel">
+          <div class="panel-head"><h3>Funding → hiring</h3><p class="sub">Change in open roles around each round</p></div>
+          <div class="chart" id="funding" style="height:260px"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · Market -->
+    <section id="market" class="section">
+      <div class="section-head">
+        <p class="eyebrow">05 · Market map</p>
+        <h2>Who competes for the same people</h2>
+        <p class="sub">17 companies linked when their hiring looks alike (skills, role mix, posting text and
+          embeddings combined). Stronger links pull companies together.</p>
+      </div>
+      <div class="grid-2 market-grid">
+        <div class="panel"><div class="chart" id="graph" style="height:460px"></div></div>
+        <div class="panel">
+          <div class="panel-head"><h3>Talent pools</h3><p class="sub">Share of each company's postings in the 10 largest role clusters</p></div>
+          <div class="chart" id="pools" style="height:460px"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Methods -->
+    <section id="methods" class="section methods">
+      <div class="section-head">
+        <p class="eyebrow">06 · Methods & sources</p>
+        <h2>How this works</h2>
+      </div>
+      <div class="grid-3">
+        <div class="panel"><h3>Pipeline</h3><p>Snapshots of public job boards on Mondays and Thursdays → text cleaning →
+          skill, role and seniority extraction (211-skill taxonomy) → trends, comparison, forecasts, similarity → this
+          page. GitHub Actions rebuilds the data; Vercel serves it as static files.</p></div>
+        <div class="panel"><h3>Forecasting</h3><p>Eight models (naive, drift, moving average, seasonal naive, ETS,
+          ARIMA, harmonic regression, ensemble) compete in rolling back-tests. The winner per series is frozen with an
+          empirical 80% interval and scored weekly. Nothing is edited after freezing.</p></div>
+        <div class="panel"><h3>Compliance</h3><p>Only public, unauthenticated endpoints, robots.txt respected, polite
+          rate limits, no personal data. Historical counts come from Epoch AI (CC BY) and the Internet Archive.
+          Logos: Simple Icons (CC0); trademarks belong to their owners. Not affiliated with any company shown.</p></div>
+      </div>
+      <ul class="sources" id="sources"></ul>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>CadetX · Competitor Demand Prediction</span>
+    <a href="https://github.com/FrankPonce/competitor-demand-prediction">Source on GitHub</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/echarts@6.1.0/dist/echarts.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/globe.gl@2.46.2/dist/globe.gl.min.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>

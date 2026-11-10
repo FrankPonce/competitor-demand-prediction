@@ -4,8 +4,8 @@
 
 <br>
 
-![Status](https://img.shields.io/badge/status-Sprint%2010%20·%20Automated%20Pipeline-30363d?style=for-the-badge&labelColor=161b22)
-![Progress](https://img.shields.io/badge/sprints-9%20%2F%2012%20done-b95115?style=for-the-badge&labelColor=161b22)
+![Status](https://img.shields.io/badge/status-Sprint%2011%20·%20Fine--Tuned%20Skill%20Model-30363d?style=for-the-badge&labelColor=161b22)
+![Progress](https://img.shields.io/badge/sprints-10%20%2F%2012%20done-b95115?style=for-the-badge&labelColor=161b22)
 ![Python](https://img.shields.io/badge/python-3.12-2d6ac1?style=for-the-badge&logo=python&logoColor=white&labelColor=161b22)
 ![Program](https://img.shields.io/badge/CadetX-Virtual%20Work%20Experience-5ea529?style=for-the-badge&labelColor=161b22)
 
@@ -16,6 +16,8 @@
 ---
 
 > 📄 **Start here: [Hiring Intelligence Report](reports/insights/insight_report.md)**, with the findings, company profiles and a test of whether job postings predict company moves.
+>
+> 🛰️ **Live console: AI Hiring Signals** ([`dashboard/`](dashboard/)), refreshed every Monday and Thursday by GitHub Actions and served by Vercel. Preview locally: `python -m http.server 8765 --directory dashboard`.
 
 ## 🎯 Overview
 
@@ -33,6 +35,7 @@ flowchart LR
     C --> F[🤝 Compare &<br/>similarity]
     E --> G[💡 Insights &<br/>presentation]
     F --> G
+    G --> H[🛰️ Live console<br/>auto-refreshed]
 ```
 
 **Colour code** used in every chart and table: 🟠 **Anthropic** · 🟣 **OpenAI** · 🟢 **NVIDIA** · 🔵 **Google**
@@ -94,7 +97,7 @@ Click a sprint to see its goal, deliverables, and results.
 | 07 | [**Demand Forecasting**](docs/sprints/sprint-07-demand-forecasting.md) | Dec 21 | 16 series, 8-week horizon; rolling backtests (up to +32% vs naive); empirical intervals; forecasts **frozen** and scored weekly; [summary](reports/forecast/summary.md) · [scorecard](reports/forecast/scorecard.md) | ✅ |
 | 08 | [**Similarity Scoring**](docs/sprints/sprint-08-similarity-scoring.md) | Dec 28 | Market map of 17 AI companies (+13 peers via public ATS APIs); 5 measures incl. Sentence-BERT; talent-pool overlap; [summary](reports/similarity/summary.md) | ✅ |
 | 09 | [**Insights & Reporting**](docs/sprints/sprint-09-insights-reporting.md) | Jan 4 | **[Hiring Intelligence Report](reports/insights/insight_report.md)**, company cards, leading-indicator test vs 13 cited events (2 led, 2 simultaneous, 2 lagged) + live watchlist | ✅ |
-| 10 | [**Automated Pipeline**](docs/sprints/sprint-10-automated-pipeline.md) <sub>optional</sub> | Jan 11 | One scheduled end-to-end pipeline | 🟡 |
+| 10 | [**Automated Pipeline**](docs/sprints/sprint-10-automated-pipeline.md) <sub>optional</sub> | Jan 11 | GitHub Actions refresh (Mon/Thu) + **AI Hiring Signals** console on Vercel (globe, signal feed, forecasts, tracker, market map); new context sources: SEC EDGAR, Epoch models, newsroom RSS, GDELT, EPO patents, CA WARN | ✅ |
 | 11 | [**Fine-Tuned Skill Model**](docs/sprints/sprint-11-fine-tuning.md) <sub>optional</sub> | Jan 18 | BERT/RoBERTa token classifier vs. rule-based baseline | ⬜ |
 | 12 | [**Final Presentation**](docs/sprints/sprint-12-final-presentation.md) | Jan 25 | Mentor review, final deck, polished repo | ⬜ |
 
@@ -148,13 +151,16 @@ python -m src.trends.emerging_terms         # rising phrases beyond the taxonomy
 python -m src.trends.geo_pay                # footprint + expansion maps, pay trends
 python -m src.trends.history                # multi-year history, NVIDIA requisition rate
 python -m src.compare.build_comparison      # competitor comparison -> data/comparison/, reports/comparison/
-python -m src.forecast.run_forecast         # backtest + 8-week forecasts (+ freezes once per day)
+python -m src.forecast.run_forecast         # backtest + 8-week forecasts (+ freezes once per day unless FREEZE_FORECAST=0)
 python -m src.forecast.report               # forecast charts + summary
 python -m src.forecast.score_frozen         # score frozen forecasts against new actuals
 python -m src.similarity.build_similarity   # 17-company similarity, embeddings, talent pools
 python -m src.insights.leading_indicators   # hiring signals vs cited public events
 python -m src.insights.company_cards        # one-page company cards
-python -m pytest                             # 64 regression tests
+python -m src.external.sources             # context: SEC EDGAR, Epoch models, news, EPO patents, CA WARN
+python -m src.dashboard.export             # dashboard JSON -> dashboard/data/
+python -m http.server 8765 --directory dashboard   # preview the console at localhost:8765
+python -m pytest                             # 77 regression tests
 ```
 
 Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
@@ -180,7 +186,9 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 │   ├── compare/              two-lens competitor comparison
 │   ├── forecast/             series · models · backtest · frozen forecasts · scorer
 │   ├── similarity/           5 similarity measures · Sentence-BERT · talent pools
-│   └── insights/             leading indicators vs events · company cards
+│   ├── insights/             leading indicators vs events · company cards
+│   ├── external/             context sources: SEC EDGAR · Epoch models · RSS/GDELT news · EPO patents · CA WARN
+│   └── dashboard/            JSON export for the console
 ├── data/
 │   ├── raw/                  weekly snapshot CSVs per company (full text)
 │   ├── external/             Epoch AI download (CC BY)
@@ -192,8 +200,11 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 │   ├── forecasts/            backtests · latest forecast · frozen/ (never edited) · scorecard
 │   ├── similarity/           17×17 matrices · pairs · talent pools · role clusters
 │   ├── events/               cited public events (offices, funding, infrastructure)
-│   └── insights/             lead-lag · watchlist · funding response
-├── tests/                    regression tests (compliance rules, parsing, skill matching)
+│   ├── insights/             lead-lag · watchlist · funding response
+│   └── context/              financials · model releases · news headlines · patents · WARN notices
+├── dashboard/                AI Hiring Signals console (static: index.html · styles.css · app.js · data/*.json)
+├── .github/workflows/        refresh.yml: scheduled collect → rebuild → export → commit
+├── tests/                    regression tests (compliance rules, parsing, skill matching, dashboard contract)
 ├── assets/                   banner and visual identity
 ├── notebooks/                exploration & analysis
 ├── reports/                  run logs, collection reports, insight reports

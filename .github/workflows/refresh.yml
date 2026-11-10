@@ -1,0 +1,109 @@
+name: Refresh data and dashboard
+
+# Mondays: full snapshot of all 17 boards + Epoch history. Thursdays: NVIDIA + Google only.
+# The 1st of each month also refreshes the Internet Archive history. Everything downstream is rebuilt,
+# the frozen forecast is scored, dashboard/data/*.json is exported and committed; Vercel redeploys on push.
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # Monday 06:00 UTC
+    - cron: "0 6 * * 4"   # Thursday 06:00 UTC
+    - cron: "0 7 1 * *"   # 1st of the month: Wayback history
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "full (all boards) or light (NVIDIA + Google)"
+        type: choice
+        options: [full, light]
+        default: full
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      PYTHONIOENCODING: utf-8
+      FREEZE_FORECAST: "0"   # scheduled runs score the frozen forecast; they never freeze a new one
+      SEC_CONTACT_EMAIL: ${{ secrets.SEC_CONTACT_EMAIL }}
+      EPO_OPS_KEY: ${{ secrets.EPO_OPS_KEY }}
+      EPO_OPS_SECRET: ${{ secrets.EPO_OPS_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
+          python -m spacy download en_core_web_sm
+
+      - name: Choose mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then m="${{ inputs.mode }}"
+          elif [ "${{ github.event.schedule }}" = "0 6 * * 4" ]; then m=light
+          elif [ "${{ github.event.schedule }}" = "0 7 1 * *" ]; then m=wayback
+          else m=full; fi
+          echo "mode=$m" >> "$GITHUB_OUTPUT"; echo "mode: $m"
+
+      # Collection steps are allowed to fail (a board may throttle GitHub's IPs); the snapshot
+      # guards keep partial or broken snapshots out of the data, and the rest rebuilds from what exists.
+      - name: Snapshot all boards
+        if: steps.mode.outputs.mode == 'full'
+        run: python -m src.collect.run_snapshot || echo "::warning::some boards failed"
+      - name: Snapshot NVIDIA + Google
+        if: steps.mode.outputs.mode == 'light'
+        run: python -m src.collect.run_snapshot nvidia google || echo "::warning::some boards failed"
+      - name: Epoch AI hiring history
+        if: steps.mode.outputs.mode == 'full'
+        run: python -m src.collect.epoch_history || echo "::warning::epoch history failed"
+      - name: Internet Archive history
+        if: steps.mode.outputs.mode == 'wayback'
+        run: python -m src.collect.wayback_history || echo "::warning::wayback failed"
+
+      - name: Rebuild corpus, features, trends, comparison
+        run: |
+          python -m src.preprocess.build_corpus
+          python -m src.features.build_features
+          python -m src.trends.build_trends
+          python -m src.trends.emerging_terms
+          python -m src.trends.geo_pay
+          python -m src.trends.history
+          python -m src.compare.build_comparison
+
+      - name: Forecast and score the frozen forecast
+        run: |
+          python -m src.forecast.run_forecast
+          python -m src.forecast.report
+          python -m src.forecast.score_frozen
+
+      - name: Similarity and insights
+        run: |
+          python -m src.similarity.build_similarity
+          python -m src.insights.leading_indicators
+          python -m src.insights.company_cards
+
+      - name: External context (EDGAR, models, news, patents, WARN)
+        run: python -m src.external.sources || echo "::warning::some external sources failed"
+
+      - name: Export dashboard data
+        run: python -m src.dashboard.export
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data dashboard/data dashboard/assets reports docs
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Data refresh $(date -u +%Y-%m-%d) (${{ steps.mode.outputs.mode }})"
+          git push

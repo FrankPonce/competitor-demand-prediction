@@ -16,6 +16,7 @@ Usage:  python -m src.forecast.run_forecast
 from __future__ import annotations
 
 import json
+import os
 from datetime import date
 from pathlib import Path
 
@@ -100,6 +101,10 @@ def main() -> None:
     fc.to_csv(OUT / "latest_forecast.csv", index=False)
     (OUT / "model_selection.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
 
+    # Scheduled refreshes set FREEZE_FORECAST=0: they update latest_forecast.csv but freeze nothing new,
+    # so the public scorecard keeps tracking the same frozen file.
+    if os.environ.get("FREEZE_FORECAST", "1") == "0":
+        return
     frozen = OUT / "frozen" / f"{date.today().isoformat()}.csv"
     frozen.parent.mkdir(parents=True, exist_ok=True)
     if not frozen.exists():  # a frozen forecast is never overwritten

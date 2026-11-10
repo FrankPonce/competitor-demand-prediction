@@ -1,0 +1,239 @@
+company,model,date,domain,organization,training_compute_flop,link
+OpenAI,InstructGPT 175B,2022-01-27,Language,OpenAI,3.19181e+23,https://arxiv.org/pdf/2203.02155
+OpenAI,InstructGPT 6B,2022-01-27,Language,OpenAI,,https://arxiv.org/abs/2203.02155
+OpenAI,InstructGPT 1.3B,2022-01-27,Language,OpenAI,,https://arxiv.org/abs/2203.02155
+Google,AlphaCode,2022-02-02,Language,DeepMind,2.38010000000001e+23,https://arxiv.org/abs/2203.07814
+Google,RETRO-7B,2022-02-07,Language,DeepMind,1.68e+22,https://arxiv.org/abs/2112.04426
+Google,MaskGIT (ImageNet),2022-02-08,Image generation,Google Research,,https://arxiv.org/abs/2202.04200
+Google,LaMDA,2022-02-10,Language,Google,3.55e+23,https://arxiv.org/abs/2201.08239
+Google,ST-MoE,2022-02-17,Language,"Google,Google Brain,Google Research",2.9e+23,https://arxiv.org/abs/2202.08906v2
+NVIDIA,FourCastNet,2022-02-22,Earth science,"Nvidia,NERSC, Lawrence Berkeley National Laboratory,University of Michigan,Rice University,California Institute of Technology,Purdue University",3.4504704e+20,https://arxiv.org/abs/2202.11214
+OpenAI,Statement Curriculum Learning,2022-03-02,"Language,Mathematics",OpenAI,1.7901648e+22,https://arxiv.org/abs/2202.01344
+Google,ViT-G (model soup),2022-03-10,Vision,"University of Washington,Columbia University,Google,Meta AI,Tel Aviv University",3.4e+21,https://arxiv.org/abs/2203.05482v3
+OpenAI,GPT-3.5 (davinci-002),2022-03-15,Language,OpenAI,2.578e+24,https://platform.openai.com/docs/models/gpt-3-5
+Google,Chinchilla,2022-03-29,Language,DeepMind,5.76e+23,https://arxiv.org/abs/2203.15556
+Google,PaLM (540B),2022-04-04,Language,Google Research,2.5272e+24,https://arxiv.org/abs/2204.02311
+OpenAI,DALL·E 2,2022-04-06,Image generation,OpenAI,3.3695784e+23,https://cdn.openai.com/papers/dall-e-2.pdf
+Google,XMC-GAN,2022-04-14,Image generation,Google Research,,https://arxiv.org/abs/2101.04702
+Google,Flamingo,2022-04-29,"Multimodal,Vision,Language,Video",DeepMind,2.18972000000001e+23,https://arxiv.org/abs/2204.14198
+Google,UL2,2022-05-10,Language,"Google Research,Google Brain",1.2e+23,https://arxiv.org/abs/2205.05131v1
+Google,Gato,2022-05-12,"Multimodal,Robotics,Games,Language",DeepMind,4.02e+21,https://arxiv.org/abs/2205.06175
+Google,Imagen,2022-05-23,Image generation,Google Brain,1.46e+22,https://arxiv.org/abs/2205.11487
+Cohere,Tranception,2022-05-27,Biology,"University of Oxford,Harvard Medical School,Cohere",7.24e+21,https://arxiv.org/abs/2205.13760
+Google,CoCa,2022-06-14,Vision,Google Research,7.3e+22,https://arxiv.org/abs/2205.01917v2
+Google,Parti,2022-06-22,Image generation,Google Research,5.09607936e+23,https://arxiv.org/abs/2206.10789v1
+Google,Minerva (540B),2022-06-29,Language,Google,2.7415e+24,https://arxiv.org/abs/2206.14858
+Google,PaLI,2022-09-14,"Language,Vision,Multimodal",Google,1.69e+23,https://arxiv.org/abs/2209.06794v4
+OpenAI,Whisper,2022-09-21,Speech,OpenAI,4.2072663e+21,"https://cdn.openai.com/papers/whisper.pdf
+
+https://arxiv.org/abs/2212.04356"
+Google,Phenaki,2022-10-05,Video,"University College London (UCL),University of Michigan,Google Brain",,https://arxiv.org/abs/2210.02399
+Google,AlphaTensor,2022-10-05,"Other,Games,Mathematics",DeepMind,7.1414784e+20,https://www.nature.com/articles/s41586-022-05172-4
+NVIDIA,GenSLM,2022-10-11,Biology,"University of Chicago,Nvidia,Harvard University,Cerebras Systems,Technical University of Munich,California Institute of Technology",1.42e+21,https://www.biorxiv.org/content/biorxiv/early/2022/10/11/2022.10.10.511571.full.pdf
+Google,U-PaLM (540B),2022-10-20,Language,Google,2.53e+24,https://arxiv.org/abs/2210.11399
+Google,Flan-PaLM 540B,2022-10-20,Language,Google,2.540000000001e+24,https://arxiv.org/abs/2210.11416
+Google,LMSI-Palm,2022-10-20,Language,"Google,University of Illinois Urbana-Champaign (UIUC)",,https://arxiv.org/abs/2210.11610
+NVIDIA,eDiff-I,2022-11-02,Image generation,Nvidia,5.46e+19,https://arxiv.org/abs/2211.01324
+Google,Mogrifier RLSTM (WT2),2022-11-03,Language,DeepMind,1.4e+17,https://arxiv.org/abs/2211.01848
+Google,DeepNash,2022-12-01,Games,DeepMind,,https://www.science.org/stoken/author-tokens/ST-887/full
+Google,RT-1,2022-12-13,Robotics,Google,,https://arxiv.org/abs/2212.06817
+Google,DreamerV3,2023-01-10,Games,"DeepMind,University of Toronto",2.2032e+20,https://arxiv.org/abs/2301.04104v1
+NVIDIA,Nucleotide Transformer,2023-01-15,Biology,"Nvidia,Technical University of Munich,InstaDeep",8.08e+21,https://www.biorxiv.org/content/10.1101/2023.01.11.523679v1.full.pdf
+Google,MusicLM,2023-01-26,Audio,Google,,https://arxiv.org/abs/2301.11325
+NVIDIA,ProteinDT,2023-02-09,"Biology,Language","University of California (UC) Berkeley,California Institute of Technology,University of Toronto,University of Wisconsin Madison,Texas A&M,Nvidia,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms)",,https://arxiv.org/abs/2302.04611
+Google,ViT-22B,2023-02-10,Vision,Google,1.93248e+23,https://arxiv.org/abs/2302.05442v1
+Google,BASIC-L + Lion,2023-02-13,Vision,"Google,University of California Los Angeles (UCLA)",,https://arxiv.org/abs/2302.06675v4
+Google,PaLM-E,2023-03-06,"Robotics,Vision,Language","Google,TU Berlin",,https://arxiv.org/abs/2303.03378
+Anthropic,Claude,2023-03-14,Language,Anthropic,,https://www.anthropic.com/index/introducing-claude
+OpenAI,GPT-4 (Mar 2023),2023-03-15,"Multimodal,Language,Vision",OpenAI,2.1e+25,https://arxiv.org/abs/2303.08774
+Google,SigLIP 400M,2023-03-27,Vision,Google DeepMind,4.9467301e+21,https://arxiv.org/abs/2303.15343
+Google,Agile Soccer Robot,2023-04-26,Robotics,Google DeepMind,,https://arxiv.org/abs/2304.13653
+Google,PaLM 2,2023-05-10,Language,Google,7.34e+24,https://arxiv.org/abs/2305.10403
+Google,Med-PaLM 2,2023-05-16,"Medicine,Language","Google Research,DeepMind",,https://arxiv.org/abs/2305.09617
+Google,PaLI-X,2023-05-29,"Multimodal,Language,Vision,Video",Google Research,5.6e+23,https://arxiv.org/abs/2305.18565
+OpenAI,GPT-3.5 Turbo,2023-06-13,Language,OpenAI,,https://platform.openai.com/docs/models/gpt-3.5-turbo
+OpenAI,GPT-4 (Jun 2023),2023-06-13,"Multimodal,Language,Vision",OpenAI,2.1e+25,https://arxiv.org/abs/2303.08774
+Anthropic,Claude 2,2023-07-11,Language,Anthropic,3.866e+24,"https://www.anthropic.com/index/claude-2, https://www-files.anthropic.com/production/images/Model-Card-Claude-2.pdf"
+Google,AudioLM,2023-07-26,Audio,Google Research,3.9e+18,https://arxiv.org/abs/2209.03143
+Google,RT-2,2023-07-28,Robotics,Google DeepMind,,https://arxiv.org/abs/2307.15818
+Google,AlphaMissense,2023-09-22,Biology,Google DeepMind,,https://www.science.org/doi/10.1126/science.adg7492
+OpenAI,GPT-4V,2023-09-25,"Multimodal,Vision,Language",OpenAI,,https://cdn.openai.com/papers/GPTV_System_Card.pdf
+OpenAI,GPT-3.5 Turbo Instruct,2023-09-28,Language,OpenAI,,https://platform.openai.com/docs/models/gpt-3.5-turbo
+Google,RT-2-X,2023-10-13,Robotics,Google DeepMind,,https://arxiv.org/abs/2310.08864
+Google,PaLI-3,2023-10-17,"Multimodal,Language,Vision","Google DeepMind,Google Research,Google Cloud",,https://arxiv.org/abs/2310.09199
+OpenAI,DALL·E 3,2023-10-19,Image generation,OpenAI,,https://cdn.openai.com/papers/dall-e-3.pdf
+Cohere,Cohere Embed,2023-11-02,Language,Cohere,,https://txt.cohere.com/introducing-embed-v3/
+Google,RT-Trajectory,2023-11-03,Robotics,"Google DeepMind,University of California San Diego,Stanford University",,https://arxiv.org/abs/2311.01977
+xAI,Grok-1,2023-11-04,Language,xAI,2.90000000001e+24,"https://x.ai/model-card/, https://x.ai/blog/grok-os"
+OpenAI,GPT-4 Turbo (Nov 2023),2023-11-06,"Multimodal,Vision,Language,Image generation",OpenAI,,https://openai.com/blog/new-models-and-developer-products-announced-at-devday
+Google,GraphCast,2023-11-14,Earth science,Google DeepMind,2.1000000000000002e+22,"https://www.science.org/doi/epdf/10.1126/science.adi2336
+
+https://arxiv.org/abs/2212.12794"
+NVIDIA,Nemotron-3-8B,2023-11-15,Language,Nvidia,1.8e+23,"https://developer.nvidia.com/blog/nvidia-ai-foundation-models-build-custom-enterprise-chatbots-and-co-pilots-with-production-ready-llms/
+
+https://catalog.ngc.nvidia.com/orgs/nvidia/teams/nemo/models/nemotron-3-8b-base-4k"
+Anthropic,Claude 2.1,2023-11-21,Language,Anthropic,,https://www.anthropic.com/index/claude-2-1
+Google,GNoME for crystal discovery,2023-11-29,Materials science,Google DeepMind,,https://www.nature.com/articles/s41586-023-06735-9
+Google,Gemini 1.0 Ultra,2023-12-06,"Multimodal,Language,Vision",Google DeepMind,5.0000000001e+25,https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf
+Google,Gemini 1.0 Pro,2023-12-06,"Multimodal,Language,Vision",Google DeepMind,,https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf
+Google,W.A.L.T,2023-12-11,Video,"Stanford University,Google Research,Georgia Institute of Technology",,https://arxiv.org/abs/2312.06662
+NVIDIA,VILA-13B,2023-12-12,"Multimodal,Language,Vision","Nvidia,Massachusetts Institute of Technology (MIT)",2.3003136e+21,"https://arxiv.org/abs/2312.07533
+https://huggingface.co/Efficient-Large-Model/VILA-13b"
+Google,FunSearch,2023-12-14,"Language,Search",Google DeepMind,3.87e+23,"https://www.nature.com/articles/s41586-023-06924-6
+https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/"
+Google,Gemini Nano-2,2023-12-19,"Multimodal,Language,Vision,Audio",Google DeepMind,,https://arxiv.org/abs/2312.11805
+Google,Gemini Nano-1,2023-12-19,"Multimodal,Language,Vision,Audio",Google DeepMind,,https://arxiv.org/abs/2312.11805
+Google,GQA-8-XXL,2023-12-23,Language,Google Research,3.4912896e+22,https://arxiv.org/abs/2305.13245
+Google,AlphaGeometry,2024-01-17,Mathematics,"Google DeepMind,New York University (NYU)",,https://www.nature.com/articles/s41586-023-06747-5
+Cohere,Aya,2024-02-12,Language,"Cohere Labs (formerly Cohere for AI),Brown University,Cohere,Carnegie Mellon University (CMU),Massachusetts Institute of Technology (MIT)",,https://arxiv.org/abs/2402.07827
+OpenAI,Sora,2024-02-15,"Video,Vision",OpenAI,,https://openai.com/index/video-generation-models-as-world-simulators/
+Google,Gemini 1.5 Pro,2024-02-15,"Language,Multimodal",Google DeepMind,,https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf
+Anthropic,Claude 3 Opus,2024-03-04,"Multimodal,Language,Vision",Anthropic,,https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf
+Anthropic,Claude 3 Sonnet,2024-03-04,"Multimodal,Language,Vision",Anthropic,,https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf
+Databricks,DBRX,2024-03-27,Language,Databricks,2.6e+24,https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm
+OpenAI,GPT-4 Turbo (Apr 2024),2024-04-09,"Multimodal,Vision,Language,Image generation",OpenAI,,https://x.com/OpenAI/status/1778574613813006610
+Google,GenCast,2024-05-01,Earth science,Google DeepMind,8.169984e+20,https://arxiv.org/abs/2312.15796
+NVIDIA,VILA1.5-13B,2024-05-03,"Multimodal,Language,Vision,Video","Nvidia,Massachusetts Institute of Technology (MIT)",2.3003136e+21,"https://huggingface.co/Efficient-Large-Model/VILA1.5-13b
+https://github.com/NVlabs/VILA/tree/bbc609baf326b1b49b93450b48edc516db3737fc/scripts/v1_5/release/13b
+https://developer.nvidia.com/blog/visual-language-models-on-nvidia-hardware-with-vila/
+"
+Google,AlphaFold 3,2024-05-08,Biology,"Google DeepMind,Isomorphic Labs",4.1405645e+22,https://www.nature.com/articles/s41586-024-07487-w
+OpenAI,GPT-4o,2024-05-13,"Multimodal,Language,Audio,Speech,Vision",OpenAI,,"https://openai.com/index/hello-gpt-4o/ 
+https://openai.com/index/gpt-4o-system-card/"
+Google,Octo-Base,2024-05-20,Robotics,"University of California (UC) Berkeley,Stanford University,Carnegie Mellon University (CMU),DeepMind",5.85e+20,https://arxiv.org/abs/2405.12213 
+Google,OpenVLA,2024-06-13,"Robotics,Vision,Language","Stanford University,University of California (UC) Berkeley,Toyota Research Institute,Google DeepMind,Massachusetts Institute of Technology (MIT),Physical Intelligence",1.1e+23,"https://openvla.github.io/
+https://arxiv.org/abs/2406.09246"
+NVIDIA,Nemotron-4 340B,2024-06-14,Language,Nvidia,1.8e+25,https://blogs.nvidia.com/blog/nemotron-4-synthetic-data-generation-llm-training/ 
+Anthropic,Claude 3.5 Sonnet,2024-06-20,"Multimodal,Language,Vision",Anthropic,2.700000000000001e+25,https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf
+OpenAI,GPT-4o mini,2024-07-18,"Language,Multimodal,Vision",OpenAI,,https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/
+OpenAI,GPT-4o (Aug 2024),2024-08-06,"Multimodal,Language,Audio,Speech,Vision",OpenAI,,https://help.openai.com/en/articles/9624314-model-release-notes
+Google,Table Tennis Agent,2024-08-07,Robotics,Google DeepMind,,"https://deepmind.google/research/publications/107741/
+https://arxiv.org/abs/2408.03906"
+xAI,Grok-2,2024-08-13,"Language,Vision,Multimodal",xAI,2.96e+25,https://x.ai/blog/grok-2
+Google,AlphaProteo,2024-09-05,Biology,Google DeepMind,,https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/AlphaProteo2024.pdf
+OpenAI,o1-preview,2024-09-12,"Language,Mathematics,Biology",OpenAI,,https://openai.com/index/introducing-openai-o1-preview/
+OpenAI,o1-mini,2024-09-12,Language,OpenAI,,https://openai.com/index/learning-to-reason-with-llms/
+NVIDIA,Llama-3.1-Nemotron-70B-Instruct,2024-10-12,Language,"Nvidia,Meta AI",7.929e+24,https://catalog.ngc.nvidia.com/orgs/nim/teams/nvidia/containers/llama-3.1-nemotron-70b-instruct
+NVIDIA,NVLM-D 72B,2024-10-22,"Vision,Language",Nvidia,3.02e+24,https://arxiv.org/abs/2409.11402
+NVIDIA,NVLM-X 72B,2024-10-22,"Vision,Language",Nvidia,3.0398181e+24,https://arxiv.org/abs/2409.11402
+NVIDIA,NVLM-H 72B,2024-10-22,"Vision,Language",Nvidia,3.02e+24,https://arxiv.org/abs/2409.11402
+Anthropic,Claude 3.5 Sonnet (October 2024),2024-10-22,"Multimodal,Language,Vision",Anthropic,,https://www.anthropic.com/news/3-5-models-and-computer-use
+Google,Gemini-Exp-1114,2024-11-15,Language,Google DeepMind,,https://www.tomsguide.com/ai/google-gemini/google-drops-new-gemini-model-and-it-goes-straight-to-the-top-of-the-llm-leaderboard
+OpenAI,GPT-4o (Nov 2024),2024-11-20,"Multimodal,Language,Audio,Speech,Vision",OpenAI,,https://help.openai.com/en/articles/9624314-model-release-notes
+NVIDIA,Fugatto 1,2024-11-25,"Multimodal,Language,Audio",Nvidia,,https://research.nvidia.com/publication/2024-11_fugatto-1-foundational-generative-audio-transformer-opus-1
+NVIDIA,NVILA 15B,2024-12-05,"Vision,Language,Multimodal,Video","Nvidia,Massachusetts Institute of Technology (MIT),University of California (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua University",,https://arxiv.org/abs/2412.04468
+OpenAI,o1,2024-12-05,"Language,Mathematics,Multimodal",OpenAI,,https://openai.com/index/introducing-chatgpt-pro/
+OpenAI,Sora Turbo,2024-12-09,"Video,Vision",OpenAI,,https://openai.com/index/sora-is-here/
+Google,Gemini 2.0 Pro,2024-12-11,"Language,Multimodal,Vision,Video,Audio",Google DeepMind,,https://deepmind.google/technologies/gemini/pro/
+Google,Veo 2,2024-12-16,"Video,Vision",Google DeepMind,,https://deepmind.google/technologies/veo/veo-2/
+OpenAI,o3,2024-12-20,"Language,Vision,Multimodal",OpenAI,,https://openai.com/index/introducing-o3-and-o4-mini/
+NVIDIA,STORM-B/8,2024-12-31,3D modeling,"University of Southern California,Georgia Institute of Technology,Stanford University,Nvidia",,"https://arxiv.org/abs/2501.00602
+https://github.com/NVlabs/GaussianSTORM
+https://jiawei-yang.github.io/STORM"
+NVIDIA,Eagle 2,2025-01-20,"Vision,Robotics,Language","Nvidia,Nanjing University,Tsinghua University,Hong Kong Polytechnic University,Johns Hopkins University,New York University (NYU)",4.7156e+22,arxiv.org/abs/2501.14818
+OpenAI,Computer-Using Agent (CUA),2025-01-23,"Vision,Language,Multimodal",OpenAI,,https://openai.com/index/computer-using-agent/
+OpenAI,GPT-4o (Jan 2025),2025-01-29,"Multimodal,Language,Audio,Speech,Vision",OpenAI,,https://help.openai.com/en/articles/9624314-model-release-notes
+OpenAI,o3-mini,2025-01-31,Language,OpenAI,,https://openai.com/index/openai-o3-mini/
+xAI,Grok 3,2025-02-17,"Language,Vision,Multimodal",xAI,3.5e+26,https://x.ai/blog/grok-3
+Anthropic,Claude 3.7 Sonnet,2025-02-24,"Language,Vision,Multimodal",Anthropic,3.35e+25,https://www.anthropic.com/news/claude-3-7-sonnet
+OpenAI,GPT-4.5,2025-02-27,"Language,Vision,Multimodal",OpenAI,3.8e+26,https://openai.com/index/introducing-gpt-4-5/
+OpenAI,o1-pro,2025-03-19,"Language,Mathematics,Multimodal",OpenAI,,https://openai.com/index/introducing-chatgpt-pro/
+NVIDIA,Diffusion Renderer,2025-03-22,Video,"Nvidia,University of Toronto,Vector Institute,University of Illinois Urbana-Champaign (UIUC)",,https://arxiv.org/abs/2501.18590
+Google,Gemini 2.5 Pro (Mar 2025),2025-03-25,"Language,Vision,Video,Multimodal,Speech",Google DeepMind,,https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking
+OpenAI,GPT-4o (Mar 2025),2025-03-27,"Multimodal,Language,Audio,Speech,Vision",OpenAI,,https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+OpenAI,gpt-image-1,2025-04-23,"Image generation,Vision",OpenAI,,https://openai.com/index/image-generation-api/
+Google,Gemini 2.5 Pro (May 2025),2025-05-06,"Language,Vision,Video,Multimodal,Speech",Google DeepMind,,https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking
+Google,Imagen 4,2025-05-20,Image generation,Google,,https://storage.googleapis.com/deepmind-media/Model-Cards/Imagen-4-Model-Card.pdf
+Google,Veo 3,2025-05-21,"Video,Vision",Google DeepMind,,https://deepmind.google/models/veo/
+Anthropic,Claude Opus 4,2025-05-22,"Language,Multimodal,Vision",Anthropic,,"https://www.anthropic.com/claude/opus
+
+https://www.anthropic.com/news/claude-4"
+Anthropic,Claude Sonnet 4,2025-05-22,"Language,Multimodal,Vision",Anthropic,,"https://www.anthropic.com/claude/sonnet
+
+https://www.anthropic.com/news/claude-4"
+Google,Gemini 2.5 Pro (Jun 2025),2025-06-05,"Language,Vision,Video,Multimodal,Speech",Google DeepMind,,https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking
+Google,FGN,2025-06-12,Earth science,Google DeepMind,9.618950880000001e+21,https://arxiv.org/abs/2506.10772v1
+xAI,Grok 4,2025-07-09,"Language,Multimodal,Vision",xAI,5.0000000000001e+26,https://x.ai/news/grok-4
+xAI,Grok 4 Heavy,2025-07-10,Language,xAI,,https://x.ai/news/grok-4
+Google,Gemini Embedding,2025-07-14,Language,Google DeepMind,,https://arxiv.org/abs/2503.07891
+Google,Gemini 2.5 Deep Think,2025-08-01,"Language,Multimodal,Vision,Video,Audio,Mathematics","Google,Google DeepMind",,"https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Deep-Think-Model-Card.pdf
+
+https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf"
+Anthropic,Claude Opus 4.1,2025-08-05,"Language,Multimodal,Vision",Anthropic,,https://www.anthropic.com/news/claude-opus-4-1
+OpenAI,gpt-oss-120b,2025-08-05,Language,OpenAI,4.94e+24,https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf
+OpenAI,gpt-oss-20b,2025-08-05,Language,OpenAI,5.49e+23,https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf
+OpenAI,GPT-5 nano,2025-08-07,"Multimodal,Language,Vision",OpenAI,,https://cdn.openai.com/gpt-5-system-card.pdf
+OpenAI,GPT-5 mini,2025-08-07,"Multimodal,Language,Vision",OpenAI,,https://cdn.openai.com/gpt-5-system-card.pdf
+OpenAI,GPT-5,2025-08-07,"Multimodal,Language,Vision",OpenAI,6.6e+25,"https://cdn.openai.com/gpt-5-system-card.pdf
+https://openai.com/index/introducing-gpt-5/ "
+Google,Gemini 2.5 Flash Image (Nano Banana),2025-08-26,Image generation,Google,,"https://gemini.google/overview/image-generation/
+
+https://aistudio.google.com/models/gemini-2-5-flash-image"
+Google,Gemini Robotics-ER 1.5,2025-09-25,"Vision,Language,Speech",Google DeepMind,,"https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/
+
+https://storage.googleapis.com/deepmind-media/gemini-robotics/Gemini-Robotics-1-5-Tech-Report.pdf"
+Anthropic,Claude Sonnet 4.5,2025-09-29,"Language,Vision,Multimodal",Anthropic,,https://www.anthropic.com/news/claude-sonnet-4-5
+OpenAI,Sora 2.0,2025-09-30,Video,OpenAI,,https://openai.com/index/sora-2/
+OpenAI,GPT-5 Pro,2025-10-07,"Multimodal,Language,Vision",OpenAI,,https://cdn.openai.com/gpt-5-system-card.pdf
+Google,Veo 3.1,2025-10-15,"Video,Vision",Google DeepMind,,https://blog.google/technology/ai/veo-updates-flow/
+Anthropic,Claude Haiku 4.5,2025-10-15,Language,Anthropic,,https://www.anthropic.com/news/claude-haiku-4-5
+OpenAI,GPT-5.1-Codex,2025-11-12,Language,OpenAI,,
+OpenAI,GPT-5.1 Instant,2025-11-13,"Multimodal,Language,Vision",OpenAI,,https://openai.com/index/gpt-5-1/
+OpenAI,GPT-5.1,2025-11-13,"Multimodal,Language,Vision",OpenAI,,https://openai.com/index/gpt-5-1/
+xAI,Grok 4.1,2025-11-17,Language,xAI,,https://x.ai/news/grok-4-1
+Google,Gemini 3 Deep Think,2025-11-18,Language,Google DeepMind,,https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/
+Google,Gemini 3 Pro,2025-11-18,"Multimodal,Language,Vision",Google DeepMind,,https://blog.google/products/gemini/gemini-3/
+xAI,Grok 4.1 Fast,2025-11-19,Language,xAI,,https://x.ai/news/grok-4-1-fast
+OpenAI,GPT-5.1-Codex-Max,2025-11-19,Language,OpenAI,,https://openai.com/index/gpt-5-1-codex-max/
+Google,Gemini 3 Pro Image (Nano Banana Pro),2025-11-20,Image generation,Google DeepMind,,https://blog.google/innovation-and-ai/products/nano-banana-pro/
+Anthropic,Claude Opus 4.5,2025-11-24,"Language,Multimodal,Vision",Anthropic,,https://www.anthropic.com/news/claude-opus-4-5
+Google,SIMA 2,2025-12-04,3D modeling,Google DeepMind,,https://arxiv.org/abs/2512.04797v1
+OpenAI,GPT-5.2,2025-12-11,,OpenAI,,
+OpenAI,GPT-5.2 Pro,2025-12-11,"Multimodal,Language,Vision",OpenAI,,https://openai.com/index/introducing-gpt-5-2/
+NVIDIA,Nemotron 3-Nano-30B-A3B,2025-12-15,Language,Nvidia,4.8e+23,https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Nano-Technical-Report.pdf
+OpenAI,GPT Image 1.5,2025-12-16,"Image generation,Language",OpenAI,,https://openai.com/index/new-chatgpt-images-is-here/
+OpenAI,GPT-5.2 Codex,2025-12-18,Language,OpenAI,,https://openai.com/index/introducing-gpt-5-2-codex/
+OpenAI,GPT-5.3 Codex,2026-02-05,Language,OpenAI,,https://openai.com/index/introducing-gpt-5-3-codex/
+OpenAI,GPT-5.3-Codex-Spark,2026-02-12,Language,OpenAI,,https://openai.com/index/introducing-gpt-5-3-codex-spark/
+xAI,Grok 4.20,2026-02-17,Language,xAI,,https://docs.x.ai/developers/models
+Google,Gemini 3.0 Flash-lite,2026-03-03,Language,Google DeepMind,,https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/
+OpenAI,GPT-5.4,2026-03-05,"Multimodal,Language,Vision",OpenAI,,https://openai.com/index/introducing-gpt-5-4/
+OpenAI,GPT-5.4 Pro,2026-03-05,"Multimodal,Language,Vision",OpenAI,,https://openai.com/index/introducing-gpt-5-4/
+NVIDIA,Nemotron 3 Super,2026-03-11,Language,Nvidia,,https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/
+Anthropic,Claude Mythos Preview,2026-04-07,"Language,Multimodal",Anthropic,,"https://www-cdn.anthropic.com/7624816413e9b4d2e3ba620c5a5e091b98b190a5/Claude%20Mythos%20Preview%20System%20Card.pdf
+https://www.anthropic.com/glasswing"
+OpenAI,GPT-5.4-Cyber,2026-04-14,"Cybersecurity,Language",OpenAI,,https://openai.com/index/scaling-trusted-access-for-cyber-defense/
+Google,Gemini Flash 3.1 TTS,2026-04-15,Audio,Google DeepMind,,https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/
+Anthropic,Claude Opus 4.7,2026-04-16,Language,Anthropic,,https://www.anthropic.com/news/claude-opus-4-7
+OpenAI,GPT Image 2,2026-04-21,Image generation,OpenAI,,https://openai.com/index/introducing-chatgpt-images-2-0/
+OpenAI,GPT-5.5,2026-04-23,"Multimodal,Language,Vision",OpenAI,,https://openai.com/index/introducing-gpt-5-5/
+OpenAI,GPT-5.5 Pro,2026-04-23,"Multimodal,Language,Vision",OpenAI,,https://openai.com/index/introducing-gpt-5-5/
+OpenAI,GPT-5.5 Instant,2026-05-05,"Multimodal,Language,Vision",OpenAI,,https://openai.com/index/gpt-5-5-instant/
+OpenAI,GPT-5.5 Cyber,2026-05-07,Cybersecurity,OpenAI,,https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/
+Google,Gemini 3.5 Flash,2026-05-19,"Language,Multimodal,Audio,Video,Vision",Google DeepMind,,https://deepmind.google/models/model-cards/gemini-3-5-flash/
+Anthropic,Claude Opus 4.8,2026-05-28,Language,Anthropic,,https://www.anthropic.com/news/claude-opus-4-8
+NVIDIA,Nemotron 3 Ultra,2026-06-04,Language,Nvidia,6.6e+24,"https://arxiv.org/abs/2512.20856
+https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf "
+Anthropic,Claude Fable 5,2026-06-09,"Language,Multimodal",Anthropic,,https://www.anthropic.com/news/claude-fable-5-mythos-5
+Anthropic,Claude Mythos 5,2026-06-09,"Language,Multimodal",Anthropic,,https://www.anthropic.com/news/claude-fable-5-mythos-5
+Anthropic,Claude Opus 5,2026-07-24,"Language,Vision,Multimodal",Anthropic,,https://www.anthropic.com/news/claude-opus-5
+OpenAI,GPT-5.6 Cyber,2026-08-11,"Cybersecurity,Language",OpenAI,,https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/
+Anthropic,Claude Fable 5.1,2026-09-01,"Language,Multimodal,Vision",Anthropic,,https://www.anthropic.com/claude-fable-and-mythos-5-1
+Google,Gemini 3.8 Flash,2026-09-02,"Language,Multimodal,Image generation,Video,Audio",Google DeepMind,,https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash
+OpenAI,GPT-6 Astra,2026-09-03,"Multimodal,Language,Vision",OpenAI,9.4e+26,
+Google,WeatherNext 3,2026-09-03,Earth science,"Google DeepMind,Google Research",2.0725198384e+23,"https://arxiv.org/abs/2609.03582 
+
+https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/ "
+OpenAI,GPT-Image-2.5 Sunburst,2026-09-08,Image generation,OpenAI,,https://openai.com/index/introducing-chatgpt-images-2-5/
+OpenAI,GPT-Image-2.5 Flare,2026-09-08,Image generation,OpenAI,,https://openai.com/index/introducing-chatgpt-images-2-5/
+OpenAI,ChatGPT Images 2.5,2026-09-08,"Image generation,Vision",OpenAI,,https://openai.com/index/introducing-chatgpt-images-2-5/
+xAI,Grok 4.7,2026-09-21,Language,xAI,,https://x.ai/news/grok-4-7
+OpenAI,GPT-6 Sol,2026-09-22,"Multimodal,Language,Vision",OpenAI,,https://openai.com/index/introducing-gpt-6-sol-and-luna/
+Anthropic,Claude Opus 5.5,2026-09-22,Language,Anthropic,,https://www.anthropic.com/claude-opus-5-5
+OpenAI,GPT-6 Luna,2026-09-22,"Multimodal,Language,Vision",OpenAI,,https://openai.com/index/introducing-gpt-6-sol-and-luna/
+OpenAI,GPT-6 Luna Decisions,2026-09-22,"Language,Vision,Multimodal",OpenAI,,https://openai.com/index/decisions-api/
+Anthropic,Claude Sonnet 5.5,2026-09-28,"Language,Multimodal,Vision",Anthropic,,https://www.anthropic.com/claude-sonnet-5-5
+OpenAI,GPT-6.1 Sol,2026-09-29,"Multimodal,Language,Vision",OpenAI,,https://openai.com/index/introducing-gpt-6-1-sol/
+Google,Gemini 4 Argon,2026-09-30,"Language,Multimodal,Vision",Google DeepMind,,https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/
+xAI,Grok Voice 3.0,2026-10-14,"Language,Audio,Speech",xAI,,https://x.ai/news/grok-voice-3
+Google,Gemini 4 Carbon,2026-10-28,"Language,Multimodal,Vision",Google DeepMind,,https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/

@@ -1,0 +1,238 @@
+date,company,title,url,source,kind,topics
+2026-11-10,OpenAI,Closing the AI guidance gap in education,https://openai.com/index/closing-ai-guidance-gap-education,OpenAI newsroom,official,
+2026-11-09,NVIDIA,NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum,https://blogs.nvidia.com/blog/korean-startup-investments-msit/,NVIDIA newsroom,official,partnership
+2026-11-09,OpenAI,Kuken Industries searches 70 years of drawings in minutes,https://openai.com/index/kuken,OpenAI newsroom,official,
+2026-11-09,NVIDIA,"From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/,NVIDIA newsroom,official,expansion;infrastructure;partnership
+2026-11-09,NVIDIA,Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA,https://blogs.nvidia.com/blog/korea-secure-agentic-ai/,NVIDIA newsroom,official,
+2026-11-09,NVIDIA,Korea Advances Physical AI Across Industries With NVIDIA,https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/,NVIDIA newsroom,official,
+2026-11-09,NVIDIA,NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production,https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/,NVIDIA newsroom,official,
+2026-11-09,NVIDIA,"Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/,NVIDIA newsroom,official,partnership
+2026-11-09,OpenAI,ChatGPT Enterprise now available in AWS Marketplace,https://openai.com/index/chatgpt-enterprise-aws-marketplace,OpenAI newsroom,official,
+2026-11-09,OpenAI,Control Room: A central system to track and stop model workloads across our research infrastructure,https://openai.com/index/control-room,OpenAI newsroom,official,
+2026-11-09,OpenAI,CodeRabbit scales agentic software development and ships 20x more,https://openai.com/index/coderabbit-codex-daybreak,OpenAI newsroom,official,
+2026-11-09,NVIDIA,"NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion",https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion,NVIDIA newsroom,official,partnership
+2026-11-08,NVIDIA,Statement From NVIDIA Board of Directors,https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors,NVIDIA newsroom,official,
+2026-11-08,NVIDIA,A Message to Our Company,https://nvidianews.nvidia.com/news/a-message-to-our-company,NVIDIA newsroom,official,
+2026-11-06,OpenAI,Partnering with Hacktron to find vulnerabilities in OpenAI’s systems,https://openai.com/index/partnering-with-hacktron,OpenAI newsroom,official,partnership
+2026-11-06,NVIDIA,How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks,https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/,NVIDIA newsroom,official,
+2026-11-06,OpenAI,Measuring how AI agents handle everyday wet-lab science,https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science,OpenAI newsroom,official,
+2026-11-05,OpenAI,Franklin Templeton uses OpenAI to support investment research,https://openai.com/index/franklin-templeton,OpenAI newsroom,official,
+2026-11-05,NVIDIA,‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW,https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/,NVIDIA newsroom,official,
+2026-11-05,NVIDIA,More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge,https://blogs.nvidia.com/blog/memory-full-stack-codesign/,NVIDIA newsroom,official,
+2026-11-05,NVIDIA,Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents,https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/,NVIDIA newsroom,official,
+2026-11-05,OpenAI,Setting a new standard for responsible AI infrastructure,https://openai.com/index/setting-new-standard-responsible-ai-infrastructure,OpenAI newsroom,official,
+2026-11-05,Google,Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips,https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/,Google newsroom,official,launch
+2026-11-05,NVIDIA,The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models,https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/,NVIDIA newsroom,official,
+2026-11-05,OpenAI,Flipsnack grows product signups with conversion optimization,https://openai.com/ads/customers/flipsnack,OpenAI newsroom,official,
+2026-11-05,OpenAI,GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents,https://openai.com/index/introducing-gpt-6-cyber,OpenAI newsroom,official,
+2026-11-05,OpenAI,Cult.fit builds operational muscle with Codex,https://openai.com/index/cultfit-builds-with-codex,OpenAI newsroom,official,
+2026-11-05,OpenAI,Australian universities are creating AI-native graduates,https://openai.com/index/australian-universities-ai-native-graduates,OpenAI newsroom,official,
+2026-11-05,OpenAI,Merge builds product and business tools with OpenAI technology,https://openai.com/index/merge-builds-with-openai,OpenAI newsroom,official,
+2026-11-04,OpenAI,Daybreak Red is now available in AWS GovCloud (US-East),https://openai.com/index/daybreak-red-aws-govcloud,OpenAI newsroom,official,
+2026-11-04,OpenAI,A thousand fewer paths to root,https://openai.com/index/a-thousand-fewer-paths-to-root,OpenAI newsroom,official,
+2026-11-04,OpenAI,Introducing Images 2.6,https://openai.com/index/introducing-images-2-6,OpenAI newsroom,official,launch
+2026-11-04,OpenAI,"OpenAI to acquire Pierre Computer Company, Inc.",https://openai.com/index/openai-to-acquire-pierre,OpenAI newsroom,official,infrastructure
+2026-11-04,OpenAI,DevRev delivers autonomous self-service with GPT-6.1 Sol,https://openai.com/index/devrev-enterprise-self-service,OpenAI newsroom,official,launch
+2026-11-03,OpenAI,Heimstaden is changing residential real estate management with AI,https://openai.com/index/heimstaden,OpenAI newsroom,official,
+2026-11-03,OpenAI,How Cisco defends at machine speed with OpenAI,https://openai.com/index/cisco-cyber,OpenAI newsroom,official,
+2026-11-03,OpenAI,Accelerating engineering for the physical world,https://openai.com/index/accelerating-engineering-for-the-physical-world,OpenAI newsroom,official,
+2026-11-03,OpenAI,OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer,https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer,OpenAI newsroom,official,
+2026-11-03,NVIDIA,Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI,https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/,NVIDIA newsroom,official,
+2026-11-03,NVIDIA,AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It,https://blogs.nvidia.com/blog/ai-semiconductor-fabs/,NVIDIA newsroom,official,
+2026-11-02,OpenAI,Rewarding defenders with bigger bug bounties,https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties,OpenAI newsroom,official,
+2026-11-02,Google,The latest AI news we announced in October 2026,https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/,Google newsroom,official,
+2026-11-02,OpenAI,OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization,https://openai.com/index/dan-driscoll-joins-openai,OpenAI newsroom,official,government
+2026-11-02,OpenAI,Preparing our next security sprint to harden OpenAI,https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai,OpenAI newsroom,official,
+2026-11-02,OpenAI,Qodo builds context into AI code review with Codex,https://openai.com/index/qodo-codex-plugin,OpenAI newsroom,official,
+2026-11-02,OpenAI,Introducing the Grid Protectors Program,https://openai.com/index/grid-protectors-program,OpenAI newsroom,official,launch
+2026-11-02,OpenAI,Scaling Git at OpenAI,https://openai.com/index/scaling-git-at-openai,OpenAI newsroom,official,
+2026-10-30,NVIDIA,Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals,https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/,NVIDIA newsroom,official,
+2026-10-30,OpenAI,Making it easier for websites to express AI training preferences,https://openai.com/index/helping-websites-express-ai-training-preferences,OpenAI newsroom,official,
+2026-10-30,OpenAI,Community safety report and new protections for teens,https://openai.com/index/community-safety-report-and-new-protections-for-teens,OpenAI newsroom,official,
+2026-10-30,OpenAI,Fair use benefits everyone,https://openai.com/index/fair-use-benefits-everyone,OpenAI newsroom,official,
+2026-10-29,OpenAI,How we detect frontier model misalignment,https://openai.com/index/how-we-detect-frontier-model-misalignment,OpenAI newsroom,official,
+2026-10-29,OpenAI,Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot,https://openai.com/index/credit-saison,OpenAI newsroom,official,
+2026-10-29,OpenAI,How Ropes & Gray is developing AI for transactional diligence,https://openai.com/index/ropes-gray-ai-diligence,OpenAI newsroom,official,
+2026-10-29,NVIDIA,Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW,https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/,NVIDIA newsroom,official,launch
+2026-10-29,OpenAI,An updated Model Spec for more capable and beneficial AI,https://openai.com/index/updated-model-spec,OpenAI newsroom,official,
+2026-10-28,OpenAI,The future of the firm,https://openai.com/index/the-future-of-the-firm,OpenAI newsroom,official,
+2026-10-28,NVIDIA,"NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/,NVIDIA newsroom,official,
+2026-10-28,OpenAI,Legora is building the agentic operating system for legal work,https://openai.com/index/legora,OpenAI newsroom,official,
+2026-10-28,OpenAI,OpenAI and ServiceNow expand partnership across enterprise workflows,https://openai.com/index/openai-servicenow-partnership-expansion,OpenAI newsroom,official,expansion;partnership
+2026-10-28,NVIDIA,NVIDIA Sets Conference Call for Third-Quarter Financial Results,https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873,NVIDIA newsroom,official,
+2026-10-28,OpenAI,Evernote turns AI-driven discovery into paid subscriptions,https://openai.com/ads/customers/evernote,OpenAI newsroom,official,
+2026-10-27,OpenAI,Retell uses OpenAI models to help power 100M monthly calls,https://openai.com/index/retell-ai,OpenAI newsroom,official,
+2026-10-27,OpenAI,How Check Point accelerates vulnerability research with Daybreak,https://openai.com/index/check-point-daybreak,OpenAI newsroom,official,
+2026-10-27,OpenAI,OpenAI expands partnership with Oracle to bring its apps to ChatGPT,https://openai.com/index/oracle-apps-in-chatgpt,OpenAI newsroom,official,expansion;partnership
+2026-10-26,OpenAI,Introducing GPT-6.1 Terra,https://openai.com/index/introducing-gpt-6-1-terra,OpenAI newsroom,official,launch
+2026-10-26,OpenAI,GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases,https://openai.com/index/gpt-6-1-sol-coderabbit-code-security,OpenAI newsroom,official,launch
+2026-10-26,Google,Our newest AI Quest: Mapping the human brain,https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/,Google newsroom,official,
+2026-10-26,OpenAI,Greptile takes bug detection beyond code review with GPT-6 Astra,https://openai.com/index/greptile-code-review-codex-astra,OpenAI newsroom,official,launch
+2026-10-26,OpenAI,Working with academic communities to build scientific understanding,https://openai.com/index/building-scientific-understanding-with-academic-communities,OpenAI newsroom,official,
+2026-10-26,OpenAI,ChatGPT’s expanding world of work,https://openai.com/index/chatgpt-expanding-world-of-work,OpenAI newsroom,official,expansion
+2026-10-26,OpenAI,How Fanatics and OpenAI streamline the fan experience,https://openai.com/index/fanatics-streamline-fan-experience,OpenAI newsroom,official,
+2026-10-26,OpenAI,How Ultrafast cut incident investigation from hours to minutes at OpenAI,https://openai.com/index/openai-cut-incident-investigation,OpenAI newsroom,official,
+2026-10-23,OpenAI,Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II),https://openai.com/index/scaling-storage-one-billion-users-part-two,OpenAI newsroom,official,
+2026-10-23,OpenAI,Securing our frontier model training environment,https://openai.com/index/securing-our-frontier-model-training-environment,OpenAI newsroom,official,
+2026-10-23,OpenAI,Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live,https://openai.com/index/anima,OpenAI newsroom,official,launch
+2026-10-23,OpenAI,OpenAI and Poland’s NASK partner to advance AI safety and security,https://openai.com/index/openai-nask-ai-safety-security-partnership,OpenAI newsroom,official,partnership
+2026-10-22,OpenAI,Build more responsive apps with the Decisions API,https://openai.com/index/decisions-api,OpenAI newsroom,official,
+2026-10-22,OpenAI,What FDE means at OpenAI,https://openai.com/index/forward-deployed-engineering-means,OpenAI newsroom,official,
+2026-10-22,OpenAI,Uber brings ChatGPT Work to all employees with OpenAI,https://openai.com/index/uber-chatgpt-work-rollout,OpenAI newsroom,official,
+2026-10-21,OpenAI,"Democratic governance of frontier AI, part II: Empowering cyber defenders",https://openai.com/index/empowering-cyber-defenders,OpenAI newsroom,official,
+2026-10-21,OpenAI,How AT&T is rethinking in-house legal work with OpenAI,https://openai.com/index/att-legal,OpenAI newsroom,official,
+2026-10-21,Google,Southeast Asia’s digital economy to hit $368 billion,https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/,Google newsroom,official,
+2026-10-21,OpenAI,Cloudflare links vulnerability discovery to defense with OpenAI,https://openai.com/index/cloudflare-cyber,OpenAI newsroom,official,government
+2026-10-21,OpenAI,How we built ChatGPT’s novel ad stack for user trust and relevance,https://openai.com/index/building-chatgpt-ad-stack,OpenAI newsroom,official,
+2026-10-21,OpenAI,OpenAI models are coming to Google Cloud,https://openai.com/index/openai-models-google-cloud,OpenAI newsroom,official,
+2026-10-21,OpenAI,Using thousands of AI agents to uncover new leads in biological data,https://openai.com/index/scaling-ai-research-for-complex-biological-data,OpenAI newsroom,official,
+2026-10-21,OpenAI,Broad access through consistent standards,https://openai.com/index/broad-access-through-consistent-standards,OpenAI newsroom,official,
+2026-10-21,OpenAI,"ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",https://openai.com/index/chatgpt-ads-expands-26-new-countries,OpenAI newsroom,official,expansion
+2026-10-21,OpenAI,Patch the Planet: global response coordination as agents uncover critical vulnerabilities,https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities,OpenAI newsroom,official,
+2026-10-20,OpenAI,OpenAI acquires Orchestra Bio,https://openai.com/index/openai-to-acquire-orchestra-bio,OpenAI newsroom,official,
+2026-10-20,OpenAI,Terminal X matches senior investor judgment 88.6% with GPT-6.1,https://openai.com/index/terminal-x,OpenAI newsroom,official,launch
+2026-10-20,OpenAI,Franchisee reconciles cash in 94% less time with ChatGPT Work,https://openai.com/index/ted-taylor-restaurant,OpenAI newsroom,official,
+2026-10-19,OpenAI,Advancing coding in low‑resource programming languages,https://openai.com/index/low-resource-programming-languages,OpenAI newsroom,official,
+2026-10-16,OpenAI,How Itaú is building generative AI for its entire customer base,https://openai.com/index/itau-generative-ai,OpenAI newsroom,official,
+2026-10-16,OpenAI,How Localiza reorganized work around generative AI,https://openai.com/index/localiza-generative-ai,OpenAI newsroom,official,
+2026-10-16,OpenAI,How Grupo Boticário uses AI to strengthen human connections,https://openai.com/index/grupo-boticario,OpenAI newsroom,official,
+2026-10-16,OpenAI,Stack Overflow for Agents triples signups with ChatGPT plugin,https://openai.com/index/stack-overflow-chatgpt-plugin,OpenAI newsroom,official,
+2026-10-16,OpenAI,Benefit Street Partners answers questions faster with Codex,https://openai.com/index/benefit-street-partners,OpenAI newsroom,official,partnership
+2026-10-15,OpenAI,Sullivan & Cromwell brings legal expertise into agreement review,https://openai.com/index/sullivan-cromwell,OpenAI newsroom,official,partnership
+2026-10-15,OpenAI,Teaching students to think and learn through questions,https://openai.com/index/teaching-students-to-think-and-learn-through-questions,OpenAI newsroom,official,
+2026-10-15,OpenAI,Bringing GPT-Rosalind to academic research labs,https://openai.com/index/introducing-the-rosalind-academic-plan,OpenAI newsroom,official,launch
+2026-10-14,OpenAI,Amp puts AI agents to work beyond code with OpenAI models,https://openai.com/index/amp-beyond-coding,OpenAI newsroom,official,
+2026-10-14,OpenAI,SentinelOne cuts malware analysis from weeks to hours,https://openai.com/index/sentinelone,OpenAI newsroom,official,
+2026-10-14,OpenAI,"How Third Moment Research runs 10,000 agents for 36+ hours",https://openai.com/index/third-moment-research,OpenAI newsroom,official,
+2026-10-14,OpenAI,How Block is building AI-powered security with OpenAI technology,https://openai.com/index/block-ai-powered-security,OpenAI newsroom,official,
+2026-10-14,OpenAI,The EU’s next chapter in AI is agentic,https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic,OpenAI newsroom,official,
+2026-10-13,OpenAI,Higgsfield takes AI video from 1 minute to over 10,https://openai.com/index/higgsfield-longer-videos-voice,OpenAI newsroom,official,
+2026-10-13,Google,Gemini 4 Argon: Built to solve your hardest problems,https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/,Google newsroom,official,launch
+2026-10-09,OpenAI,Sophos cuts threat investigation time by 96% with OpenAI Daybreak,https://openai.com/index/sophos,OpenAI newsroom,official,
+2026-10-09,OpenAI,Asana cuts model costs 76x in browser tests with GPT-6.1 Sol,https://openai.com/index/asana-browser-agent,OpenAI newsroom,official,launch
+2026-10-08,OpenAI,How Oracle turns days of work into minutes with ChatGPT and Codex,https://openai.com/index/oracle,OpenAI newsroom,official,
+2026-10-08,OpenAI,LegalOn halves Codex costs while maintaining development speed,https://openai.com/index/legalon-halves-codex-costs,OpenAI newsroom,official,
+2026-10-08,OpenAI,Disrupting AI-enabled “false front” operations,https://openai.com/index/disrupting-ai-enabled-false-front-operations,OpenAI newsroom,official,
+2026-10-08,OpenAI,Pollo AI turns creative ideas into campaigns with OpenAI,https://openai.com/index/pollo-ai,OpenAI newsroom,official,
+2026-10-07,OpenAI,"Helping teens learn, plan, and shape the future of AI",https://openai.com/index/teens-learn-and-plan,OpenAI newsroom,official,
+2026-10-07,OpenAI,GPT-6 and Intelligent UI for everyone,https://openai.com/index/gpt-6-for-everyone,OpenAI newsroom,official,launch
+2026-10-07,Google,Introducing Playground: Create and play custom games,https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/,Google newsroom,official,launch
+2026-10-07,OpenAI,Radisson Hotel Group brings hotel discovery into ChatGPT,https://openai.com/index/radisson,OpenAI newsroom,official,
+2026-10-06,OpenAI,How Jump Trading is scaling quant research with ChatGPT,https://openai.com/index/jump-trading,OpenAI newsroom,official,
+2026-10-06,OpenAI,Sharing AI progress in mathematics,https://openai.com/index/sharing-ai-progress-in-mathematics,OpenAI newsroom,official,
+2026-10-06,OpenAI,Advancing computer use with Ironclad,https://openai.com/index/advancing-computer-use-with-ironclad,OpenAI newsroom,official,infrastructure
+2026-10-06,OpenAI,Atlassian and OpenAI expand partnership to turn enterprise knowledge into action,https://openai.com/index/atlassian-partnership,OpenAI newsroom,official,expansion;partnership
+2026-10-05,OpenAI,Our approach to EU text provenance rules,https://openai.com/index/eu-text-provenance,OpenAI newsroom,official,
+2026-10-05,OpenAI,Building advertising for the way people use AI,https://openai.com/index/new-chatgpt-ads-format-and-measurement,OpenAI newsroom,official,
+2026-10-02,Google,The latest AI news we announced in September 2026,https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/,Google newsroom,official,
+2026-10-02,OpenAI,A model guide for the GPT-6 family,https://openai.com/index/practical-guide-building-gpt-6,OpenAI newsroom,official,launch
+2026-10-02,OpenAI,Chatham scales its capital markets expertise with OpenAI,https://openai.com/index/chatham-financial,OpenAI newsroom,official,
+2026-10-01,OpenAI,The Den frees up 10-15 hours a week to grow with ChatGPT Work,https://openai.com/index/the-den-family-social,OpenAI newsroom,official,
+2026-10-01,OpenAI,The eternal complement,https://openai.com/index/the-eternal-complement,OpenAI newsroom,official,
+2026-10-01,OpenAI,How Albertsons Companies is reimagining retail from the inside out,https://openai.com/index/albertsons-reimagining-retail,OpenAI newsroom,official,
+2026-09-30,OpenAI,Disrupting a coordinated model-distillation campaign,https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign,OpenAI newsroom,official,
+2026-09-30,OpenAI,Helping small businesses put AI to work,https://openai.com/index/helping-small-businesses-put-ai-to-work,OpenAI newsroom,official,
+2026-09-29,OpenAI,Introducing dots,https://openai.com/index/introducing-dots,OpenAI newsroom,official,launch
+2026-09-29,OpenAI,DevDay 2026 Recap,https://openai.com/index/devday-2026-recap,OpenAI newsroom,official,
+2026-09-29,OpenAI,Introducing GPT-6.1 Sol,https://openai.com/index/introducing-gpt-6-1-sol,OpenAI newsroom,official,launch
+2026-09-28,Google,"Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/,Google newsroom,official,
+2026-09-28,OpenAI,How we will do better for Australia,https://openai.com/index/how-we-will-do-better-for-australia,OpenAI newsroom,official,
+2026-09-28,OpenAI,Towards safety cases for frontier AI training,https://openai.com/index/towards-safety-cases-for-frontier-ai-training,OpenAI newsroom,official,
+2026-09-28,OpenAI,The Lenfest Institute grows landmark program with expanded OpenAI support,https://openai.com/index/lenfest-ai-collaborative-expansion,OpenAI newsroom,official,expansion
+2026-09-28,OpenAI,Are you a Codex Original?,https://openai.com/form/codex-originals,OpenAI newsroom,official,
+2026-09-28,OpenAI,Basis completes a tax workbook 2x faster with GPT-6 Astra,https://openai.com/index/basis-tax-workbook-with-astra,OpenAI newsroom,official,launch
+2026-09-25,OpenAI,Wayfair boosts catalog accuracy and support speed with OpenAI,https://openai.com/index/wayfair,OpenAI newsroom,official,
+2026-09-25,OpenAI,Proaction boosts sales 60% and saves 75+ hours with Codex,https://openai.com/index/proaction,OpenAI newsroom,official,
+2026-09-25,OpenAI,Lowe’s answers millions of home improvement questions with OpenAI,https://openai.com/index/lowes,OpenAI newsroom,official,
+2026-09-23,OpenAI,ChatGPT Ads expands to Southeast Asia and Taiwan,https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan,OpenAI newsroom,official,expansion
+2026-09-23,OpenAI,Harvey turns legal context into stronger drafts with GPT-6 Astra,https://openai.com/index/harvey-from-context-to-confidence-with-astra,OpenAI newsroom,official,launch
+2026-09-23,OpenAI,Ringg’s AI agents resolve up to 65% of customer calls with OpenAI,https://openai.com/index/ringg,OpenAI newsroom,official,
+2026-09-23,OpenAI,How invideo improves color grading 3x with GPT‑6 Astra,https://openai.com/index/invideo-builds-with-gpt-6-astra,OpenAI newsroom,official,
+2026-09-23,OpenAI,Grab and OpenAI bring practical AI skills to Southeast Asia,https://openai.com/index/grab-openai-ai-skills-southeast-asia,OpenAI newsroom,official,
+2026-09-23,OpenAI,Introducing MentalHealthBench,https://openai.com/index/introducing-mentalhealthbench,OpenAI newsroom,official,launch
+2026-09-23,OpenAI,Sam Altman’s remarks at the United Nations Security Council,https://openai.com/index/sam-altman-un-security-council-remarks,OpenAI newsroom,official,
+2026-09-23,OpenAI,Airbnb widens access to GPT-6 Astra and OpenAI frontier models,https://openai.com/index/airbnb-gpt-6-astra,OpenAI newsroom,official,launch
+2026-09-23,OpenAI,Two years of OpenAI Academy,https://openai.com/index/two-years-of-openai-academy,OpenAI newsroom,official,
+2026-09-23,OpenAI,OpenAI extends cyber access to Ukraine for civilian defense,https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense,OpenAI newsroom,official,government
+2026-09-23,Google,"Google Beam expands with new regions, partners, and customers",https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/,Google newsroom,official,expansion;partnership
+2026-09-22,OpenAI,Better prompt caching for GPT-6,https://openai.com/index/better-prompt-caching-for-gpt-6,OpenAI newsroom,official,launch
+2026-09-22,OpenAI,Introducing GPT-6 Sol and Luna,https://openai.com/index/introducing-gpt-6-sol-and-luna,OpenAI newsroom,official,launch
+2026-09-22,OpenAI,Parallel cut research time and cost in half with GPT‑6 Astra,https://openai.com/index/parallel-cuts-time-and-cost-with-astra,OpenAI newsroom,official,
+2026-09-22,OpenAI,Priorities and principles for effective third party assessments,https://openai.com/index/priorities-principles-third-party-assessments,OpenAI newsroom,official,
+2026-09-21,OpenAI,Building standards for the next phase of AI,https://openai.com/index/building-standards-next-phase-ai,OpenAI newsroom,official,
+2026-09-21,OpenAI,Expanding OpenAI Academy with new learning paths,https://openai.com/index/expanding-openai-academy-with-new-learning-paths,OpenAI newsroom,official,expansion
+2026-09-21,OpenAI,V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna,https://openai.com/index/v7,OpenAI newsroom,official,launch
+2026-09-21,OpenAI,Advisory Group on Mathematics and Artificial Intelligence,https://openai.com/index/advisory-group-on-mathematics-and-ai,OpenAI newsroom,official,
+2026-09-21,OpenAI,Higgsfield AI ships new video features in a day with GPT-6 Astra,https://openai.com/index/higgsfield-from-prompt-to-production-with-astra,OpenAI newsroom,official,launch
+2026-09-18,Google,New experts join Google’s AI & Economy team,https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/,Google newsroom,official,
+2026-09-18,OpenAI,Introducing the Australian Youth Safety Blueprint,https://openai.com/index/australian-youth-safety-blueprint,OpenAI newsroom,official,launch
+2026-09-18,Google,Co-creating the future of fashion with Google,https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/,Google newsroom,official,
+2026-09-17,OpenAI,How Cooley is accelerating IPO work with ChatGPT,https://openai.com/index/cooley-gopublic,OpenAI newsroom,official,funding
+2026-09-17,Google,Making global data easier to explore,https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/,Google newsroom,official,
+2026-09-17,OpenAI,Introducing Astra for Law,https://openai.com/index/astra-for-law,OpenAI newsroom,official,launch
+2026-09-16,OpenAI,Our framework for reporting model misalignment,https://openai.com/index/model-misalignment-reporting-framework,OpenAI newsroom,official,
+2026-09-16,OpenAI,How workers are unlocking new ways of working,https://openai.com/index/unlocking-new-ways-of-working,OpenAI newsroom,official,
+2026-09-16,OpenAI,Hex turns complex analysis into visual reports with GPT‑6 Astra,https://openai.com/index/hex-gpt-6-astra,OpenAI newsroom,official,
+2026-09-16,OpenAI,How to connect AI usage to business value,https://openai.com/index/how-to-connect-ai-usage-to-business-value,OpenAI newsroom,official,
+2026-09-16,OpenAI,Helping older adults use AI in everyday life,https://openai.com/index/helping-older-adults-use-ai-in-everyday-life,OpenAI newsroom,official,
+2026-09-16,OpenAI,Reimagining advertising with AI,https://openai.com/index/reimagining-advertising-with-ai,OpenAI newsroom,official,
+2026-09-15,Google,AI for everyone in every language,https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/,Google newsroom,official,
+2026-09-15,Google,New insights from Google’s AI & Economy ATLAS,https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/,Google newsroom,official,
+2026-09-15,Google,AI for Societal Impact,https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/,Google newsroom,official,
+2026-09-15,Google,Building AI to accelerate science and improve lives,https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/,Google newsroom,official,
+2026-09-14,OpenAI,How Fyxer built an AI executive assistant people trust,https://openai.com/index/fyxer,OpenAI newsroom,official,
+2026-09-14,OpenAI,Perplexity trusts GPT-6 Astra with end-to-end systems,https://openai.com/index/perplexity-improving-accuracy-with-astra,OpenAI newsroom,official,launch
+2026-09-14,Google,"Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/,Google newsroom,official,
+2026-09-11,OpenAI,Rapidly scaling online storage to serve over 1 billion ChatGPT users,https://openai.com/index/scaling-storage-one-billion-users-part-one,OpenAI newsroom,official,
+2026-09-11,OpenAI,Cognition helps Devin test its own work with GPT‑6 Astra,https://openai.com/index/cognition-devin-testing-with-astra,OpenAI newsroom,official,
+2026-09-10,Google,3 ways to prep for your next big race with Search,https://blog.google/products-and-platforms/products/search/running-race-training-tips/,Google newsroom,official,
+2026-09-10,OpenAI,Introducing the Agents API,https://openai.com/index/introducing-the-agents-api,OpenAI newsroom,official,launch
+2026-09-10,OpenAI,Build more natural voice experiences with GPT‑Live‑1 in the API,https://openai.com/index/introducing-gpt-live-1-in-the-api,OpenAI newsroom,official,
+2026-09-10,OpenAI,"Expanding AI access and cyber defense for federal, state, local, and tribal governments",https://openai.com/index/expanding-ai-access-us-government,OpenAI newsroom,official,expansion;government
+2026-09-10,OpenAI,Now everyone can put data to work,https://openai.com/index/put-data-to-work,OpenAI newsroom,official,
+2026-09-10,OpenAI,How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules,https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials,OpenAI newsroom,official,
+2026-09-10,OpenAI,Introducing ChatGPT for Financial Services,https://openai.com/index/introducing-chatgpt-financial-services,OpenAI newsroom,official,launch
+2026-09-09,OpenAI,The AI policy window is open. We need to act.,https://openai.com/index/ai-policy-window,OpenAI newsroom,official,
+2026-09-09,Google,Get ready for the game with new football features in Search,https://blog.google/products-and-platforms/products/search/football-features-google-search/,Google newsroom,official,
+2026-09-09,OpenAI,Paul Christiano joins OpenAI Foundation Board,https://openai.com/index/paul-christiano-joins-openai-foundation-board,OpenAI newsroom,official,
+2026-09-09,OpenAI,GPT-6 Astra: The next generation in intelligence for work,https://openai.com/index/gpt-6-astra-next-generation-work,OpenAI newsroom,official,launch
+2026-09-08,OpenAI,OpenAI expands initiatives to support journalism from classrooms to newsrooms,https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms,OpenAI newsroom,official,expansion
+2026-09-08,OpenAI,1Password increases engineering productivity 21% with Codex,https://openai.com/index/1password,OpenAI newsroom,official,
+2026-09-08,OpenAI,On the Navier–Stokes Millennium Prize Problem,https://openai.com/index/navier-stokes-solution,OpenAI newsroom,official,
+2026-09-08,OpenAI,How GPT-5.6 Sol helps run quantum computing experiments,https://openai.com/index/codex-quantum-computing-experiments,OpenAI newsroom,official,launch
+2026-09-08,OpenAI,The Work Now Within Reach,https://openai.com/index/the-work-now-within-reach,OpenAI newsroom,official,
+2026-09-08,OpenAI,Introducing ChatGPT Images 2.5,https://openai.com/index/introducing-chatgpt-images-2-5,OpenAI newsroom,official,launch
+2026-09-08,OpenAI,Funding grants for new research into AI and teen development,https://openai.com/index/teen-development-research-grants,OpenAI newsroom,official,funding
+2026-09-07,OpenAI,Supporting independent journalism in Ukraine,https://openai.com/index/supporting-independent-journalism-in-ukraine,OpenAI newsroom,official,
+2026-09-06,OpenAI,Research acceleration: The view inside OpenAI,https://openai.com/index/research-acceleration-view-inside-openai,OpenAI newsroom,official,
+2026-09-03,OpenAI,Playco cut manual fixes 50% prototyping games with GPT-6 Astra,https://openai.com/index/playco-game-prototyping-with-astra,OpenAI newsroom,official,launch
+2026-09-03,OpenAI,Daybreak for Frontline Defenders: $1B to protect essential services,https://openai.com/index/daybreak-for-frontline-defenders,OpenAI newsroom,official,
+2026-09-03,OpenAI,Legora reviewed 41 documents in minutes with GPT-6 Astra,https://openai.com/index/legora-financial-statement-review-with-astra,OpenAI newsroom,official,launch
+2026-09-03,OpenAI,Safety overview: GPT-6 Astra,https://openai.com/index/safety-overview-gpt-6-astra,OpenAI newsroom,official,launch
+2026-09-03,OpenAI,GPT-6 Astra: A new generation of intelligence,https://openai.com/index/gpt-6-astra,OpenAI newsroom,official,launch
+2026-09-02,OpenAI,ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT,https://openai.com/index/atv-big-air-tour,OpenAI newsroom,official,
+2026-09-01,OpenAI,Healthcare organizations can now connect EHR and additional industry data to ChatGPT,https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources,OpenAI newsroom,official,
+2026-09-01,OpenAI,How AI-native companies turn workflows into operating capability,https://openai.com/index/ai-native-company-workflows,OpenAI newsroom,official,
+2026-09-01,OpenAI,How law firm Gilbert + Tobin governs and scales AI with OpenAI,https://openai.com/index/gilbert-tobin,OpenAI newsroom,official,
+2026-09-01,OpenAI,Path to Astra: critical capabilities and frontier safeguards,https://openai.com/index/path-to-astra,OpenAI newsroom,official,
+2026-08-31,OpenAI,Polimill builds Japan's next-generation public AI infrastructure,https://openai.com/index/polimill,OpenAI newsroom,official,
+2026-08-31,OpenAI,OpenAI supports California’s bill to advance youth AI safety,https://openai.com/index/supporting-california-bill-advance-ai-youth-safety,OpenAI newsroom,official,
+2026-08-31,OpenAI,A milestone in expanding access to AI,https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads,OpenAI newsroom,official,expansion
+2026-08-28,OpenAI,Our decision on Cursor following its acquisition by SpaceX,https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex,OpenAI newsroom,official,
+2026-08-28,OpenAI,Supporting Thailand’s next generation of AI startups,https://openai.com/index/supporting-next-generation-ai-startups-thailand,OpenAI newsroom,official,
+2026-08-27,OpenAI,"Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training,OpenAI newsroom,official,
+2026-08-27,OpenAI,Expanding OpenAI’s presence in Brazil,https://openai.com/index/expanding-our-presence-in-brazil,OpenAI newsroom,official,expansion
+2026-08-26,OpenAI,How loveholidays is making everyone a builder with Codex,https://openai.com/index/loveholidays,OpenAI newsroom,official,
+2026-08-26,OpenAI,The Hugging Face incident and the road ahead,https://openai.com/index/hugging-face-incident-and-the-road-ahead,OpenAI newsroom,official,
+2026-08-26,OpenAI,Bringing ChatGPT for Teachers to more U.S. school districts,https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts,OpenAI newsroom,official,
+2026-08-26,OpenAI,Learning never stops: How AI makes learning continuous,https://openai.com/index/learning-never-stops,OpenAI newsroom,official,
+2026-08-25,OpenAI,Introducing the Admin plugin for ChatGPT Work and Codex,https://openai.com/index/introducing-admin-plugin,OpenAI newsroom,official,launch
+2026-08-25,OpenAI,Disrupting a new covert influence campaign from Russia,https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia,OpenAI newsroom,official,
+2026-08-25,OpenAI,Jalapeño’s first results show industry-leading speed and efficiency in AI inference,https://openai.com/index/jalapeno-first-results,OpenAI newsroom,official,
+2026-08-25,OpenAI,The full stack behind abundant intelligence,https://openai.com/index/the-full-stack-behind-abundant-intelligence,OpenAI newsroom,official,
+2026-08-24,OpenAI,Advancing price-performance for developers with GPT‑5.6 in Kiro,https://openai.com/index/gpt-5-6-in-kiro,OpenAI newsroom,official,
+2026-08-20,OpenAI,Stampli cuts launch hours by 68% using ChatGPT Work,https://openai.com/index/stampli,OpenAI newsroom,official,launch
+2026-08-20,OpenAI,Introducing Intelligence Age,https://openai.com/index/introducing-intelligence-age,OpenAI newsroom,official,launch
+2026-08-19,OpenAI,Replit expands access to software creation with GPT-5.6 Luna,https://openai.com/index/replit,OpenAI newsroom,official,expansion;launch
+2026-08-19,OpenAI,Offering Zero Data Retention for frontier models,https://openai.com/index/offering-zero-data-retention-for-frontier-models,OpenAI newsroom,official,
+2026-08-18,OpenAI,ChatGPT Ads expands across Europe,https://openai.com/index/chatgpt-ads-expands-across-europe,OpenAI newsroom,official,expansion

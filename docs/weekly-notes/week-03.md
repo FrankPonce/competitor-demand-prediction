@@ -46,3 +46,11 @@
 - Leading-indicator test: hiring led in 2 of 6 expansions (Singapore +154 d, Berlin +52 d), was simultaneous in 2 and lagged in 2; Series H funding was followed by +305 open roles in 26 weeks.
 - Live watchlist of 5 unannounced new-city signals; Hiring Intelligence Report with a shared structure and company cards.
 - 64 tests passing.
+
+## Update — Sprint 10 done (2026-11-10)
+
+- One scheduled pipeline in GitHub Actions (`refresh.yml`): full snapshot on Mondays, NVIDIA + Google on Thursdays, Internet Archive monthly; rebuild → score frozen forecast → export → commit. Collection failures are non-fatal; scheduled runs never freeze new forecasts.
+- New context sources with source-register rows: SEC EDGAR (NVIDIA, Alphabet quarterly financials), Epoch AI notable models (207 releases), newsroom RSS (237 headlines), GDELT (rate-limited locally), EPO OPS patents (key pending), California WARN (0 matches).
+- **AI Hiring Signals** console in `dashboard/`: globe of hubs and new-city arcs, signal feed, pulse with forecast bands, company deep-dives incl. hiring vs SEC financials, prediction tracker, market map. Static, served by Vercel.
+- A new test caught a matcher bug (`opens?` matched inside "OpenAI"); fixed. 77 tests passing.
+- Owner setup left: repository secrets and connecting Vercel to the repo.
