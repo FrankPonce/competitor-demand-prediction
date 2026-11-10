@@ -339,5 +339,8 @@ main { max-width: 1280px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 40px); }
 }
 @media (prefers-reduced-motion: reduce) { .wm-over { animation: none; } }
 .brand .wm { font-size: 21px; }
+.brand-logo { display: block; flex: none; }
+.foot-brand { align-items: center !important; }
+.foot-brand .brand-logo { margin-right: -4px; }
 .foot-brand { display: inline-flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
 .foot-brand .wm { font-size: 16px; }
