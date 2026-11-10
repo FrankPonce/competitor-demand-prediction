@@ -92,7 +92,16 @@ def fetch(session: PoliteSession, locations=None, levels=None) -> dict:
                                      else round((now - min(stamps)) / 86400, 1) if stamps else 0)
             entry["jobs"] = jobs
             queries.append(entry)
-    return {"sampling_version": SAMPLING_VERSION, "queries": queries}
+    # Board-wide total (one request to the unfiltered results page) for forecast scoring
+    total = None
+    try:
+        assert_allowed(robots, RESULTS)
+        m = _DS1.search(session.get(RESULTS).text)
+        d = json.loads(m.group(1)) if m else None
+        total = d[2] if d and len(d) > 2 and isinstance(d[2], int) else None
+    except Exception:
+        pass
+    return {"sampling_version": SAMPLING_VERSION, "open_roles_total": total, "queries": queries}
 
 
 def _text(field) -> str:

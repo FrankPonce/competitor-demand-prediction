@@ -131,7 +131,8 @@ def run(key: str, args) -> dict:
         weekly = sum(1 for q in ok if q.get("covered_days", 0) >= 7)
         half = sum(1 for q in ok if q.get("covered_days", 0) >= 3.5)
         note = (f"v{raw.get('sampling_version', 1)}: {len(qs)} slices; full-flow coverage "
-                f"weekly {weekly}/{len(ok)}, twice-weekly {half}/{len(ok)}")
+                f"weekly {weekly}/{len(ok)}, twice-weekly {half}/{len(ok)}; "
+                f"board total={raw.get('open_roles_total')}")
     if key == "nvidia":
         note = (f"board={raw.get('board_total')}; listed={raw.get('listing_count')}; new details="
                 f"{raw.get('details_attempted')}; carried={raw.get('carried_forward')}; errors={len(raw.get('errors', []))}")

@@ -1,6 +1,6 @@
 # Sprint 8 — Company Similarity Scoring
 
-**Week of:** 2026-12-28 · **CadetX task 8** · **Status:** ⬜ Not started
+**Week of:** 2026-12-28 · **CadetX task 8** · **Status:** 🟡 Next up
 
 ## Goal
 

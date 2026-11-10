@@ -1,0 +1,129 @@
+series,company,label,unit,origin_week,target_week,h,model,point,lo80,hi80,backtest_bias,last_actual
+anthropic_open,Anthropic,Anthropic open roles,open roles,2026-11-02,2026-11-09,1,ensemble,672.6,660.5,684.7,6.3,673.0
+anthropic_open,Anthropic,Anthropic open roles,open roles,2026-11-02,2026-11-16,2,ensemble,672.3,643.4,701.1,10.2,673.0
+anthropic_open,Anthropic,Anthropic open roles,open roles,2026-11-02,2026-11-23,3,ensemble,672.0,630.5,713.5,18.7,673.0
+anthropic_open,Anthropic,Anthropic open roles,open roles,2026-11-02,2026-11-30,4,ensemble,671.8,616.1,727.5,22.4,673.0
+anthropic_open,Anthropic,Anthropic open roles,open roles,2026-11-02,2026-12-07,5,ensemble,671.6,598.3,745.0,30.3,673.0
+anthropic_open,Anthropic,Anthropic open roles,open roles,2026-11-02,2026-12-14,6,ensemble,671.5,574.9,768.1,34.5,673.0
+anthropic_open,Anthropic,Anthropic open roles,open roles,2026-11-02,2026-12-21,7,ensemble,671.4,559.6,783.2,44.1,673.0
+anthropic_open,Anthropic,Anthropic open roles,open roles,2026-11-02,2026-12-28,8,ensemble,671.3,531.3,811.3,49.6,673.0
+openai_open,OpenAI,OpenAI open roles,open roles,2026-11-02,2026-11-09,1,drift,817.0,803.2,830.9,-0.9,811.0
+openai_open,OpenAI,OpenAI open roles,open roles,2026-11-02,2026-11-16,2,drift,823.0,795.4,850.7,-1.2,811.0
+openai_open,OpenAI,OpenAI open roles,open roles,2026-11-02,2026-11-23,3,drift,829.1,794.4,863.8,-1.2,811.0
+openai_open,OpenAI,OpenAI open roles,open roles,2026-11-02,2026-11-30,4,drift,835.1,790.6,879.5,-1.1,811.0
+openai_open,OpenAI,OpenAI open roles,open roles,2026-11-02,2026-12-07,5,drift,841.1,788.4,893.8,0.0,811.0
+openai_open,OpenAI,OpenAI open roles,open roles,2026-11-02,2026-12-14,6,drift,847.1,798.4,895.9,4.6,811.0
+openai_open,OpenAI,OpenAI open roles,open roles,2026-11-02,2026-12-21,7,drift,853.1,810.3,896.0,10.2,811.0
+openai_open,OpenAI,OpenAI open roles,open roles,2026-11-02,2026-12-28,8,drift,859.2,832.6,885.7,15.8,811.0
+google_open,Google,Google open roles,open roles,2026-11-02,2026-11-09,1,snaive,3121.0,2850.0,3392.0,42.2,3182.0
+google_open,Google,Google open roles,open roles,2026-11-02,2026-11-16,2,snaive,3037.0,2584.0,3490.0,19.7,3182.0
+google_open,Google,Google open roles,open roles,2026-11-02,2026-11-23,3,snaive,3011.0,2594.4,3427.6,85.8,3182.0
+google_open,Google,Google open roles,open roles,2026-11-02,2026-11-30,4,snaive,2904.0,2476.6,3331.4,58.9,3182.0
+google_open,Google,Google open roles,open roles,2026-11-02,2026-12-07,5,snaive,2888.0,2418.8,3357.2,95.2,3182.0
+google_open,Google,Google open roles,open roles,2026-11-02,2026-12-14,6,snaive,2977.0,2475.6,3478.4,71.3,3182.0
+google_open,Google,Google open roles,open roles,2026-11-02,2026-12-21,7,snaive,2789.0,2177.9,3400.1,121.5,3182.0
+google_open,Google,Google open roles,open roles,2026-11-02,2026-12-28,8,snaive,2723.0,2152.0,3294.0,89.7,3182.0
+anthropic_open_gtm,Anthropic,Anthropic open roles: Go-to-market,open roles,2026-11-02,2026-11-09,1,arima,222.2,212.5,231.8,3.4,223.0
+anthropic_open_gtm,Anthropic,Anthropic open roles: Go-to-market,open roles,2026-11-02,2026-11-16,2,arima,221.9,198.7,245.0,8.4,223.0
+anthropic_open_gtm,Anthropic,Anthropic open roles: Go-to-market,open roles,2026-11-02,2026-11-23,3,arima,221.9,185.7,258.1,15.3,223.0
+anthropic_open_gtm,Anthropic,Anthropic open roles: Go-to-market,open roles,2026-11-02,2026-11-30,4,arima,221.9,169.3,274.5,23.0,223.0
+anthropic_open_gtm,Anthropic,Anthropic open roles: Go-to-market,open roles,2026-11-02,2026-12-07,5,arima,221.9,147.2,296.5,32.9,223.0
+anthropic_open_gtm,Anthropic,Anthropic open roles: Go-to-market,open roles,2026-11-02,2026-12-14,6,arima,221.9,131.0,312.7,45.5,223.0
+anthropic_open_gtm,Anthropic,Anthropic open roles: Go-to-market,open roles,2026-11-02,2026-12-21,7,arima,221.9,120.8,322.9,59.2,223.0
+anthropic_open_gtm,Anthropic,Anthropic open roles: Go-to-market,open roles,2026-11-02,2026-12-28,8,arima,221.9,109.0,334.7,69.5,223.0
+anthropic_open_research,Anthropic,Anthropic open roles: Research,open roles,2026-11-02,2026-11-09,1,arima,117.0,113.5,120.5,2.2,117.0
+anthropic_open_research,Anthropic,Anthropic open roles: Research,open roles,2026-11-02,2026-11-16,2,arima,117.0,111.9,122.1,3.9,117.0
+anthropic_open_research,Anthropic,Anthropic open roles: Research,open roles,2026-11-02,2026-11-23,3,arima,117.0,111.9,122.1,4.7,117.0
+anthropic_open_research,Anthropic,Anthropic open roles: Research,open roles,2026-11-02,2026-11-30,4,arima,117.0,110.4,123.6,5.4,117.0
+anthropic_open_research,Anthropic,Anthropic open roles: Research,open roles,2026-11-02,2026-12-07,5,arima,117.0,108.8,125.2,6.2,117.0
+anthropic_open_research,Anthropic,Anthropic open roles: Research,open roles,2026-11-02,2026-12-14,6,arima,117.0,106.9,127.1,7.4,117.0
+anthropic_open_research,Anthropic,Anthropic open roles: Research,open roles,2026-11-02,2026-12-21,7,arima,117.0,105.2,128.8,9.0,117.0
+anthropic_open_research,Anthropic,Anthropic open roles: Research,open roles,2026-11-02,2026-12-28,8,arima,117.0,105.7,128.3,10.2,117.0
+anthropic_open_product,Anthropic,Anthropic open roles: Product,open roles,2026-11-02,2026-11-09,1,ets,67.0,63.7,70.4,0.9,66.0
+anthropic_open_product,Anthropic,Anthropic open roles: Product,open roles,2026-11-02,2026-11-16,2,ets,67.6,62.5,72.8,2.0,66.0
+anthropic_open_product,Anthropic,Anthropic open roles: Product,open roles,2026-11-02,2026-11-23,3,ets,68.1,61.0,75.3,3.6,66.0
+anthropic_open_product,Anthropic,Anthropic open roles: Product,open roles,2026-11-02,2026-11-30,4,ets,68.5,57.9,79.2,5.1,66.0
+anthropic_open_product,Anthropic,Anthropic open roles: Product,open roles,2026-11-02,2026-12-07,5,ets,68.8,55.0,82.6,6.3,66.0
+anthropic_open_product,Anthropic,Anthropic open roles: Product,open roles,2026-11-02,2026-12-14,6,ets,69.1,52.0,86.2,7.4,66.0
+anthropic_open_product,Anthropic,Anthropic open roles: Product,open roles,2026-11-02,2026-12-21,7,ets,69.3,48.5,90.1,8.7,66.0
+anthropic_open_product,Anthropic,Anthropic open roles: Product,open roles,2026-11-02,2026-12-28,8,ets,69.5,47.3,91.6,9.7,66.0
+anthropic_open_compute,Anthropic,Anthropic open roles: Compute,open roles,2026-11-02,2026-11-09,1,drift,78.2,74.1,82.4,0.5,77.0
+anthropic_open_compute,Anthropic,Anthropic open roles: Compute,open roles,2026-11-02,2026-11-16,2,drift,79.5,71.4,87.5,1.6,77.0
+anthropic_open_compute,Anthropic,Anthropic open roles: Compute,open roles,2026-11-02,2026-11-23,3,drift,80.7,69.1,92.3,3.4,77.0
+anthropic_open_compute,Anthropic,Anthropic open roles: Compute,open roles,2026-11-02,2026-11-30,4,drift,82.0,63.1,100.8,5.4,77.0
+anthropic_open_compute,Anthropic,Anthropic open roles: Compute,open roles,2026-11-02,2026-12-07,5,drift,83.2,60.2,106.2,7.9,77.0
+anthropic_open_compute,Anthropic,Anthropic open roles: Compute,open roles,2026-11-02,2026-12-14,6,drift,84.4,59.4,109.5,11.0,77.0
+anthropic_open_compute,Anthropic,Anthropic open roles: Compute,open roles,2026-11-02,2026-12-21,7,drift,85.7,58.5,112.9,14.3,77.0
+anthropic_open_compute,Anthropic,Anthropic open roles: Compute,open roles,2026-11-02,2026-12-28,8,drift,86.9,57.1,116.7,17.8,77.0
+anthropic_open_corporate,Anthropic,Anthropic open roles: Corporate,open roles,2026-11-02,2026-11-09,1,drift,193.2,185.3,201.0,3.0,190.0
+anthropic_open_corporate,Anthropic,Anthropic open roles: Corporate,open roles,2026-11-02,2026-11-16,2,drift,196.4,185.9,206.8,7.2,190.0
+anthropic_open_corporate,Anthropic,Anthropic open roles: Corporate,open roles,2026-11-02,2026-11-23,3,drift,199.5,184.4,214.6,12.2,190.0
+anthropic_open_corporate,Anthropic,Anthropic open roles: Corporate,open roles,2026-11-02,2026-11-30,4,drift,202.7,165.2,240.3,17.2,190.0
+anthropic_open_corporate,Anthropic,Anthropic open roles: Corporate,open roles,2026-11-02,2026-12-07,5,drift,205.9,159.7,252.1,22.9,190.0
+anthropic_open_corporate,Anthropic,Anthropic open roles: Corporate,open roles,2026-11-02,2026-12-14,6,drift,209.1,157.3,260.8,29.5,190.0
+anthropic_open_corporate,Anthropic,Anthropic open roles: Corporate,open roles,2026-11-02,2026-12-21,7,drift,212.3,157.7,266.8,35.8,190.0
+anthropic_open_corporate,Anthropic,Anthropic open roles: Corporate,open roles,2026-11-02,2026-12-28,8,drift,215.4,156.3,274.5,41.0,190.0
+openai_open_gtm,OpenAI,OpenAI open roles: Go-to-market,open roles,2026-11-02,2026-11-09,1,drift,285.7,275.6,295.7,1.6,283.0
+openai_open_gtm,OpenAI,OpenAI open roles: Go-to-market,open roles,2026-11-02,2026-11-16,2,drift,288.4,270.6,306.1,3.3,283.0
+openai_open_gtm,OpenAI,OpenAI open roles: Go-to-market,open roles,2026-11-02,2026-11-23,3,drift,291.0,269.2,312.9,4.5,283.0
+openai_open_gtm,OpenAI,OpenAI open roles: Go-to-market,open roles,2026-11-02,2026-11-30,4,drift,293.7,265.8,321.7,5.6,283.0
+openai_open_gtm,OpenAI,OpenAI open roles: Go-to-market,open roles,2026-11-02,2026-12-07,5,drift,296.4,266.0,326.8,6.7,283.0
+openai_open_gtm,OpenAI,OpenAI open roles: Go-to-market,open roles,2026-11-02,2026-12-14,6,drift,299.1,270.0,328.2,9.6,283.0
+openai_open_gtm,OpenAI,OpenAI open roles: Go-to-market,open roles,2026-11-02,2026-12-21,7,drift,301.8,268.5,335.1,13.4,283.0
+openai_open_gtm,OpenAI,OpenAI open roles: Go-to-market,open roles,2026-11-02,2026-12-28,8,drift,304.4,270.1,338.8,18.3,283.0
+openai_open_research,OpenAI,OpenAI open roles: Research,open roles,2026-11-02,2026-11-09,1,ma4,97.1,91.2,103.1,-1.4,98.0
+openai_open_research,OpenAI,OpenAI open roles: Research,open roles,2026-11-02,2026-11-16,2,ma4,97.1,88.8,105.5,-2.0,98.0
+openai_open_research,OpenAI,OpenAI open roles: Research,open roles,2026-11-02,2026-11-23,3,ma4,97.1,85.8,108.4,-2.5,98.0
+openai_open_research,OpenAI,OpenAI open roles: Research,open roles,2026-11-02,2026-11-30,4,ma4,97.1,85.8,108.4,-3.0,98.0
+openai_open_research,OpenAI,OpenAI open roles: Research,open roles,2026-11-02,2026-12-07,5,ma4,97.1,85.9,108.3,-3.4,98.0
+openai_open_research,OpenAI,OpenAI open roles: Research,open roles,2026-11-02,2026-12-14,6,ma4,97.1,88.2,106.0,-2.7,98.0
+openai_open_research,OpenAI,OpenAI open roles: Research,open roles,2026-11-02,2026-12-21,7,ma4,97.1,92.6,101.6,-1.9,98.0
+openai_open_research,OpenAI,OpenAI open roles: Research,open roles,2026-11-02,2026-12-28,8,ma4,97.1,93.2,101.0,-1.5,98.0
+openai_open_product,OpenAI,OpenAI open roles: Product,open roles,2026-11-02,2026-11-09,1,drift,180.0,173.1,187.0,-0.0,178.0
+openai_open_product,OpenAI,OpenAI open roles: Product,open roles,2026-11-02,2026-11-16,2,drift,182.1,168.8,195.4,0.8,178.0
+openai_open_product,OpenAI,OpenAI open roles: Product,open roles,2026-11-02,2026-11-23,3,drift,184.1,168.3,200.0,2.8,178.0
+openai_open_product,OpenAI,OpenAI open roles: Product,open roles,2026-11-02,2026-11-30,4,drift,186.2,168.1,204.3,5.2,178.0
+openai_open_product,OpenAI,OpenAI open roles: Product,open roles,2026-11-02,2026-12-07,5,drift,188.2,166.7,209.8,8.4,178.0
+openai_open_product,OpenAI,OpenAI open roles: Product,open roles,2026-11-02,2026-12-14,6,drift,190.3,166.6,214.0,12.0,178.0
+openai_open_product,OpenAI,OpenAI open roles: Product,open roles,2026-11-02,2026-12-21,7,drift,192.3,163.3,221.4,16.0,178.0
+openai_open_product,OpenAI,OpenAI open roles: Product,open roles,2026-11-02,2026-12-28,8,drift,194.4,159.7,229.0,19.8,178.0
+openai_open_compute,OpenAI,OpenAI open roles: Compute,open roles,2026-11-02,2026-11-09,1,drift,111.6,106.7,116.5,-0.6,111.0
+openai_open_compute,OpenAI,OpenAI open roles: Compute,open roles,2026-11-02,2026-11-16,2,drift,112.2,105.3,119.1,-1.9,111.0
+openai_open_compute,OpenAI,OpenAI open roles: Compute,open roles,2026-11-02,2026-11-23,3,drift,112.8,102.3,123.3,-3.6,111.0
+openai_open_compute,OpenAI,OpenAI open roles: Compute,open roles,2026-11-02,2026-11-30,4,drift,113.4,102.3,124.5,-5.2,111.0
+openai_open_compute,OpenAI,OpenAI open roles: Compute,open roles,2026-11-02,2026-12-07,5,drift,114.0,97.4,130.6,-6.2,111.0
+openai_open_compute,OpenAI,OpenAI open roles: Compute,open roles,2026-11-02,2026-12-14,6,drift,114.6,98.0,131.2,-7.0,111.0
+openai_open_compute,OpenAI,OpenAI open roles: Compute,open roles,2026-11-02,2026-12-21,7,drift,115.2,94.6,135.8,-7.8,111.0
+openai_open_compute,OpenAI,OpenAI open roles: Compute,open roles,2026-11-02,2026-12-28,8,drift,115.8,98.2,133.4,-8.3,111.0
+openai_open_corporate,OpenAI,OpenAI open roles: Corporate,open roles,2026-11-02,2026-11-09,1,ma4,143.9,135.8,152.0,-1.4,141.0
+openai_open_corporate,OpenAI,OpenAI open roles: Corporate,open roles,2026-11-02,2026-11-16,2,ma4,143.9,135.5,152.3,-1.5,141.0
+openai_open_corporate,OpenAI,OpenAI open roles: Corporate,open roles,2026-11-02,2026-11-23,3,ma4,143.9,133.7,154.2,-1.6,141.0
+openai_open_corporate,OpenAI,OpenAI open roles: Corporate,open roles,2026-11-02,2026-11-30,4,ma4,143.9,132.7,155.2,-1.9,141.0
+openai_open_corporate,OpenAI,OpenAI open roles: Corporate,open roles,2026-11-02,2026-12-07,5,ma4,143.9,132.8,155.0,-2.8,141.0
+openai_open_corporate,OpenAI,OpenAI open roles: Corporate,open roles,2026-11-02,2026-12-14,6,ma4,143.9,132.9,155.0,-4.0,141.0
+openai_open_corporate,OpenAI,OpenAI open roles: Corporate,open roles,2026-11-02,2026-12-21,7,ma4,143.9,133.7,154.1,-5.3,141.0
+openai_open_corporate,OpenAI,OpenAI open roles: Corporate,open roles,2026-11-02,2026-12-28,8,ma4,143.9,131.2,156.6,-6.8,141.0
+anthropic_new,Anthropic,Anthropic new postings / week,new postings,2026-11-02,2026-11-09,1,ma4,48.8,15.4,82.1,2.1,56.0
+anthropic_new,Anthropic,Anthropic new postings / week,new postings,2026-11-02,2026-11-16,2,ma4,48.8,17.0,80.5,3.7,56.0
+anthropic_new,Anthropic,Anthropic new postings / week,new postings,2026-11-02,2026-11-23,3,ma4,48.8,18.3,79.2,5.1,56.0
+anthropic_new,Anthropic,Anthropic new postings / week,new postings,2026-11-02,2026-11-30,4,ma4,48.8,20.4,77.1,9.0,56.0
+anthropic_new,Anthropic,Anthropic new postings / week,new postings,2026-11-02,2026-12-07,5,ma4,48.8,18.2,79.2,11.3,56.0
+anthropic_new,Anthropic,Anthropic new postings / week,new postings,2026-11-02,2026-12-14,6,ma4,48.8,17.5,80.0,11.8,56.0
+anthropic_new,Anthropic,Anthropic new postings / week,new postings,2026-11-02,2026-12-21,7,ma4,48.8,22.5,75.0,6.5,56.0
+anthropic_new,Anthropic,Anthropic new postings / week,new postings,2026-11-02,2026-12-28,8,ma4,48.8,21.0,76.6,4.3,56.0
+openai_new,OpenAI,OpenAI new postings / week,new postings,2026-11-02,2026-11-09,1,arima,52.9,34.9,70.8,4.3,64.0
+openai_new,OpenAI,OpenAI new postings / week,new postings,2026-11-02,2026-11-16,2,arima,52.9,34.6,71.2,5.6,64.0
+openai_new,OpenAI,OpenAI new postings / week,new postings,2026-11-02,2026-11-23,3,arima,52.9,36.8,69.0,4.8,64.0
+openai_new,OpenAI,OpenAI new postings / week,new postings,2026-11-02,2026-11-30,4,arima,52.9,37.2,68.6,5.6,64.0
+openai_new,OpenAI,OpenAI new postings / week,new postings,2026-11-02,2026-12-07,5,arima,52.9,37.5,68.2,5.0,64.0
+openai_new,OpenAI,OpenAI new postings / week,new postings,2026-11-02,2026-12-14,6,arima,52.9,37.6,68.1,6.6,64.0
+openai_new,OpenAI,OpenAI new postings / week,new postings,2026-11-02,2026-12-21,7,arima,52.9,37.7,68.1,5.3,64.0
+openai_new,OpenAI,OpenAI new postings / week,new postings,2026-11-02,2026-12-28,8,arima,52.9,38.7,67.0,5.0,64.0
+nvidia_reqs,NVIDIA,NVIDIA requisitions / day,requisitions per day,2026-11-09,2026-11-16,1,ma4,72.1,53.2,90.9,0.9,66.6
+nvidia_reqs,NVIDIA,NVIDIA requisitions / day,requisitions per day,2026-11-09,2026-11-23,2,ma4,72.1,48.4,95.7,2.8,66.6
+nvidia_reqs,NVIDIA,NVIDIA requisitions / day,requisitions per day,2026-11-09,2026-11-30,3,ma4,72.1,54.5,89.6,3.7,66.6
+nvidia_reqs,NVIDIA,NVIDIA requisitions / day,requisitions per day,2026-11-09,2026-12-07,4,ma4,72.1,54.2,89.9,1.0,66.6
+nvidia_reqs,NVIDIA,NVIDIA requisitions / day,requisitions per day,2026-11-09,2026-12-14,5,ma4,72.1,49.6,94.6,1.8,66.6
+nvidia_reqs,NVIDIA,NVIDIA requisitions / day,requisitions per day,2026-11-09,2026-12-21,6,ma4,72.1,54.5,89.6,2.9,66.6
+nvidia_reqs,NVIDIA,NVIDIA requisitions / day,requisitions per day,2026-11-09,2026-12-28,7,ma4,72.1,56.0,88.1,2.4,66.6
+nvidia_reqs,NVIDIA,NVIDIA requisitions / day,requisitions per day,2026-11-09,2027-01-04,8,ma4,72.1,51.0,93.1,2.2,66.6

@@ -224,3 +224,38 @@ def test_wayback_parsers():
     assert greenhouse_count("<html>redirect</html>") is None
     page = "AF_initDataCallback({key: 'ds:1', hash: 'x', data:[[],null,2807,20], sideChannel: {}});</script>"
     assert google_count(page) == 2807
+
+
+# ---------------------------------------------------------------- Sprint 7: forecasting
+
+def test_baseline_models_shapes_and_values():
+    import numpy as np
+    from src.forecast.models import drift, ma4, naive, predict
+    y = pd.Series([10.0, 12, 14, 16, 18, 20], index=pd.date_range("2026-01-05", periods=6, freq="7D"))
+    assert list(naive(y, 3)) == [20, 20, 20]
+    assert np.allclose(drift(y, 2), [22, 24])
+    assert np.allclose(ma4(y, 1), [17])
+    falling = pd.Series([5.0, 3, 1, 0.5], index=y.index[:4])
+    assert (predict("drift", falling, 6, seasonal=False) >= 0).all()  # never negative
+
+
+def test_seasonal_naive_replays_last_years_pattern():
+    import numpy as np
+    from src.forecast.models import snaive
+    idx = pd.date_range("2024-01-01", periods=60, freq="7D")
+    pattern = 100 + 10 * np.sin(2 * np.pi * np.arange(60) / 52)
+    y = pd.Series(pattern, index=idx)
+    f = snaive(y, 4)
+    # next weeks = today's level + last year's week-over-week movement at the same point in the cycle
+    expected = y.iloc[-1] + (y.iloc[-52:-48].to_numpy() - y.iloc[-53])
+    assert np.allclose(f, expected)
+
+
+def test_frozen_forecasts_are_never_overwritten():
+    from pathlib import Path
+    frozen = sorted(Path("data/forecasts/frozen").glob("*.csv"))
+    if not frozen:
+        pytest.skip("no frozen forecasts")
+    f = pd.read_csv(frozen[0])
+    assert {"series", "target_week", "point", "lo80", "hi80", "last_actual"} <= set(f.columns)
+    assert (f.lo80 <= f.point).all() and (f.point <= f.hi80).all()

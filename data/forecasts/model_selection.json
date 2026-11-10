@@ -1,0 +1,226 @@
+{
+  "anthropic_open": {
+    "model": "ensemble",
+    "mase": 5.867,
+    "naive_mase": 6.394,
+    "skill_vs_naive": 0.082,
+    "mean_bias_h8": 49.6,
+    "arima_order": [
+      2,
+      1,
+      2
+    ],
+    "n_weeks": 130,
+    "seasonal": false
+  },
+  "openai_open": {
+    "model": "drift",
+    "mase": 2.101,
+    "naive_mase": 2.991,
+    "skill_vs_naive": 0.298,
+    "mean_bias_h8": 15.8,
+    "arima_order": [
+      0,
+      1,
+      0
+    ],
+    "n_weeks": 34,
+    "seasonal": false
+  },
+  "google_open": {
+    "model": "snaive",
+    "mase": 3.244,
+    "naive_mase": 3.974,
+    "skill_vs_naive": 0.184,
+    "mean_bias_h8": 89.7,
+    "arima_order": [
+      1,
+      1,
+      0
+    ],
+    "n_weeks": 176,
+    "seasonal": true
+  },
+  "anthropic_open_gtm": {
+    "model": "arima",
+    "mase": 4.732,
+    "naive_mase": 4.928,
+    "skill_vs_naive": 0.04,
+    "mean_bias_h8": 69.5,
+    "arima_order": [
+      0,
+      1,
+      2
+    ],
+    "n_weeks": 34,
+    "seasonal": false
+  },
+  "anthropic_open_research": {
+    "model": "arima",
+    "mase": 2.182,
+    "naive_mase": 2.182,
+    "skill_vs_naive": 0.0,
+    "mean_bias_h8": 10.2,
+    "arima_order": [
+      0,
+      1,
+      0
+    ],
+    "n_weeks": 34,
+    "seasonal": false
+  },
+  "anthropic_open_product": {
+    "model": "ets",
+    "mase": 3.606,
+    "naive_mase": 4.274,
+    "skill_vs_naive": 0.156,
+    "mean_bias_h8": 9.7,
+    "arima_order": [
+      0,
+      1,
+      0
+    ],
+    "n_weeks": 34,
+    "seasonal": false
+  },
+  "anthropic_open_compute": {
+    "model": "drift",
+    "mase": 4.242,
+    "naive_mase": 4.585,
+    "skill_vs_naive": 0.075,
+    "mean_bias_h8": 17.8,
+    "arima_order": [
+      0,
+      1,
+      0
+    ],
+    "n_weeks": 34,
+    "seasonal": false
+  },
+  "anthropic_open_corporate": {
+    "model": "drift",
+    "mase": 3.417,
+    "naive_mase": 3.959,
+    "skill_vs_naive": 0.137,
+    "mean_bias_h8": 41.0,
+    "arima_order": [
+      2,
+      1,
+      2
+    ],
+    "n_weeks": 34,
+    "seasonal": false
+  },
+  "openai_open_gtm": {
+    "model": "drift",
+    "mase": 3.183,
+    "naive_mase": 3.559,
+    "skill_vs_naive": 0.105,
+    "mean_bias_h8": 18.3,
+    "arima_order": [
+      0,
+      1,
+      1
+    ],
+    "n_weeks": 34,
+    "seasonal": false
+  },
+  "openai_open_research": {
+    "model": "ma4",
+    "mase": 2.485,
+    "naive_mase": 2.673,
+    "skill_vs_naive": 0.07,
+    "mean_bias_h8": -1.5,
+    "arima_order": [
+      0,
+      1,
+      0
+    ],
+    "n_weeks": 34,
+    "seasonal": false
+  },
+  "openai_open_product": {
+    "model": "drift",
+    "mase": 3.182,
+    "naive_mase": 4.035,
+    "skill_vs_naive": 0.211,
+    "mean_bias_h8": 19.8,
+    "arima_order": [
+      0,
+      1,
+      0
+    ],
+    "n_weeks": 34,
+    "seasonal": false
+  },
+  "openai_open_compute": {
+    "model": "drift",
+    "mase": 2.45,
+    "naive_mase": 2.818,
+    "skill_vs_naive": 0.131,
+    "mean_bias_h8": -8.3,
+    "arima_order": [
+      0,
+      1,
+      1
+    ],
+    "n_weeks": 34,
+    "seasonal": false
+  },
+  "openai_open_corporate": {
+    "model": "ma4",
+    "mase": 1.269,
+    "naive_mase": 1.293,
+    "skill_vs_naive": 0.018,
+    "mean_bias_h8": -6.8,
+    "arima_order": [
+      2,
+      1,
+      2
+    ],
+    "n_weeks": 34,
+    "seasonal": false
+  },
+  "anthropic_new": {
+    "model": "ma4",
+    "mase": 1.374,
+    "naive_mase": 1.578,
+    "skill_vs_naive": 0.129,
+    "mean_bias_h8": 4.3,
+    "arima_order": [
+      0,
+      1,
+      1
+    ],
+    "n_weeks": 33,
+    "seasonal": false
+  },
+  "openai_new": {
+    "model": "arima",
+    "mase": 0.404,
+    "naive_mase": 0.593,
+    "skill_vs_naive": 0.32,
+    "mean_bias_h8": 5.0,
+    "arima_order": [
+      0,
+      1,
+      1
+    ],
+    "n_weeks": 33,
+    "seasonal": false
+  },
+  "nvidia_reqs": {
+    "model": "ma4",
+    "mase": 0.37,
+    "naive_mase": 0.537,
+    "skill_vs_naive": 0.31,
+    "mean_bias_h8": 2.2,
+    "arima_order": [
+      0,
+      1,
+      2
+    ],
+    "n_weeks": 30,
+    "seasonal": false
+  }
+}
