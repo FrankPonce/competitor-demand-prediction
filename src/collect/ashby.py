@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import re
+
 from .common import PoliteSession, scrub_contacts
 
 SOURCE = "ashby_posting_api"
@@ -28,7 +30,7 @@ def normalize(raw: dict, company: str, scraped_at: str) -> list[dict]:
         workplace = (j.get("workplaceType") or "").lower()
         rows.append(
             {
-                "job_id": f"{company.lower()}-{j['id']}",
+                "job_id": f"{re.sub(r'\W+', '', company.lower())}-{j['id']}",
                 "company_name": company,
                 "job_title": j.get("title", ""),
                 "job_description": scrub_contacts(j.get("descriptionPlain") or ""),

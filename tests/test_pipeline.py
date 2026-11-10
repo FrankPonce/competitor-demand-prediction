@@ -259,3 +259,32 @@ def test_frozen_forecasts_are_never_overwritten():
     f = pd.read_csv(frozen[0])
     assert {"series", "target_week", "point", "lo80", "hi80", "last_actual"} <= set(f.columns)
     assert (f.lo80 <= f.point).all() and (f.point <= f.hi80).all()
+
+
+# ---------------------------------------------------------------- Sprint 8: peers + similarity
+
+def test_peer_job_ids_have_no_spaces():
+    from src.collect import greenhouse
+    rows = greenhouse.normalize({"jobs": [{"id": 1, "title": "t", "content": "x", "absolute_url": "https://a"}]},
+                                "Scale AI", "2026-11-10")
+    assert rows[0]["job_id"] == "scaleai-1"
+
+
+def test_peer_registry_and_segments():
+    from src.collect.peers import PEERS, segment
+    assert len(PEERS) == 13 and all(ats in {"greenhouse", "ashby"} for _, ats, _, _ in PEERS.values())
+    assert segment("Harvey") == "AI application" and segment("Anthropic") == "Frontier lab"
+
+
+def test_similarity_helpers():
+    import numpy as np
+    from src.similarity.build_similarity import cosine_matrix, minmax_offdiag
+    S = cosine_matrix({"a": np.array([1.0, 0]), "b": np.array([1.0, 0]), "c": np.array([0, 1.0])})
+    assert np.isclose(S.loc["a", "b"], 1) and np.isclose(S.loc["a", "c"], 0)
+    M = minmax_offdiag(S)
+    assert np.isclose(M.loc["a", "b"], 1) and np.isclose(M.loc["a", "c"], 0) and (np.diag(M) == 1).all()
+
+
+def test_colorize_skips_google_cloud_skill():
+    out = colorize_markdown("| Google Cloud | Google |")
+    assert "🔵 Google Cloud" not in out and "🔵 Google |" in out

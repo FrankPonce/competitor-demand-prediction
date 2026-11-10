@@ -39,13 +39,15 @@ from .clean import (
     normalize,
 )
 from .sections import split_sections
+from src.collect.peers import PEERS
+
 from .corpus_io import save_corpus
 from src.style import colorize_markdown
 
 ROOT = Path(__file__).resolve().parents[2]
 PROC = ROOT / "data" / "processed"
 REPORT = ROOT / "reports" / "preprocessing" / "summary.md"
-LIVE = ["anthropic", "openai", "nvidia", "google"]
+LIVE = ["anthropic", "openai", "nvidia", "google"] + list(PEERS)  # peers added in Sprint 8
 KEPT_SECTIONS = ["intro", "about", "responsibilities", "requirements", "preferred"]
 URL_TEMPLATE = {
     "Anthropic": "https://job-boards.greenhouse.io/anthropic/jobs/{}",
@@ -54,7 +56,8 @@ URL_TEMPLATE = {
 
 
 def load_merged() -> pd.DataFrame:
-    live = pd.concat([pd.read_csv(PROC / f"{c}.csv", dtype=str, keep_default_na=False) for c in LIVE],
+    live = pd.concat([pd.read_csv(PROC / f"{c}.csv", dtype=str, keep_default_na=False) for c in LIVE
+                      if (PROC / f"{c}.csv").exists()],
                      ignore_index=True)
     live["in_live"] = True
     epoch = pd.read_csv(PROC / "epoch_history.csv", dtype=str, keep_default_na=False)

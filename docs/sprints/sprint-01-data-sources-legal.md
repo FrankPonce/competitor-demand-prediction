@@ -135,6 +135,16 @@ Reviewed 2026-11-08. Evidence is recorded in [`source-register.csv`](../source-r
   **no keywords**, newest-first, twice weekly. Same robots.txt rules (never
   `page=`); 130 requests per run.
 
+### Peers (added in Sprint 8): approved
+
+13 AI-market peers are collected through the **same documented public ATS APIs** as Anthropic and OpenAI:
+- **Greenhouse:** xAI, Databricks, Scale AI, Together AI, Figure AI.
+- **Ashby:** Cohere, Perplexity, Cursor, ElevenLabs, Harvey, Sierra, Decagon, Baseten.
+
+One request per peer per snapshot; the companies' own websites are never contacted. Each board was checked
+(2026-11-10) to belong to the named company, which names itself throughout its own postings. Same data-sharing
+rules as all sources: source URL on every row, removed on request. Rows in the source register.
+
 ### Historical counts: Internet Archive (Wayback Machine)
 
 - **Route:** archived copies of public careers pages via the Wayback CDX API and

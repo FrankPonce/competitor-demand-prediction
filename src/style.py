@@ -47,7 +47,8 @@ def colorize_markdown(md: str) -> str:
     """Prefix company names with their colour marker in Markdown tables and headings."""
     import re
 
-    rx = re.compile(r"(?<![🟠🟣🟢🔵] )\b(" + "|".join(COMPANIES) + r")\b(?![\w-])")
+    # "(?! Cloud)": the skill "Google Cloud" is not the company
+    rx = re.compile(r"(?<![🟠🟣🟢🔵] )\b(" + "|".join(COMPANIES) + r")\b(?![\w-])(?! Cloud)")
     out = []
     for line in md.split("\n"):
         if line.startswith("|") or line.startswith("#") or line.startswith("**"):

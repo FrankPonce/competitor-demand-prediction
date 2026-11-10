@@ -9,3 +9,16 @@ run_started_utc,company,source,requests,postings_in_snapshot,postings_total_merg
 2026-11-09T17:13:48+00:00,Google,google_careers_results_unpaginated,257,582,588,582,0,False,256 queries; 113 had more results than the first page
 2026-11-09T18:20:16+00:00,Google,google_careers_results_unpaginated,131,917,1277,917,0,False,"v2: 130 slices; full-flow coverage weekly 126/130, twice-weekly 130/130"
 2026-11-09T18:27:51+00:00,NVIDIA,nvidia_workday_board,2822,2799,2799,2799,0,False,board=2800; listed=2800; new details=2671; carried=129; errors=0
+2026-11-10T11:11:25+00:00,xAI,greenhouse_job_board_api,1,308,308,308,0,False,
+2026-11-10T11:11:26+00:00,Cohere,ashby_posting_api,1,127,127,127,0,False,
+2026-11-10T11:11:27+00:00,Databricks,greenhouse_job_board_api,1,920,920,920,0,False,
+2026-11-10T11:11:32+00:00,Scale AI,greenhouse_job_board_api,1,169,169,169,0,False,
+2026-11-10T11:11:33+00:00,Together AI,greenhouse_job_board_api,1,77,77,77,0,False,
+2026-11-10T11:11:34+00:00,Baseten,ashby_posting_api,1,102,102,102,0,False,
+2026-11-10T11:11:36+00:00,Perplexity,ashby_posting_api,1,136,136,136,0,False,
+2026-11-10T11:11:37+00:00,Cursor,ashby_posting_api,1,115,115,115,0,False,
+2026-11-10T11:11:38+00:00,ElevenLabs,ashby_posting_api,1,129,129,129,0,False,
+2026-11-10T11:11:39+00:00,Harvey,ashby_posting_api,1,376,376,376,0,False,
+2026-11-10T11:11:41+00:00,Sierra,ashby_posting_api,1,214,214,214,0,False,
+2026-11-10T11:11:43+00:00,Decagon,ashby_posting_api,1,130,130,130,0,False,
+2026-11-10T11:11:45+00:00,Figure AI,greenhouse_job_board_api,1,103,103,103,0,False,

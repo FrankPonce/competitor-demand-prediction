@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import re
+
 from .common import PoliteSession, html_to_text, remote_type_from, scrub_contacts
 
 SOURCE = "greenhouse_job_board_api"
@@ -20,7 +22,7 @@ def normalize(raw: dict, company: str, scraped_at: str) -> list[dict]:
         loc_type = meta.get("Location Type") or ""
         rows.append(
             {
-                "job_id": f"{company.lower()}-{j['id']}",
+                "job_id": f"{re.sub(r'\W+', '', company.lower())}-{j['id']}",
                 "company_name": company,
                 "job_title": j.get("title", ""),
                 "job_description": scrub_contacts(html_to_text(j.get("content"))),

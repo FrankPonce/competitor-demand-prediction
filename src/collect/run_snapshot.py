@@ -22,6 +22,7 @@ import sys
 from pathlib import Path
 
 from . import ashby, google_careers, greenhouse, nvidia_workday
+from .peers import PEERS
 from .common import FIELDS, PoliteSession, today, utc_now_iso
 from .validate import validate_rows
 
@@ -47,6 +48,11 @@ COMPANIES = {
         3.0,
     ),
 }
+
+for _key, (_name, _ats, _token, _seg) in PEERS.items():
+    _mod = greenhouse if _ats == "greenhouse" else ashby
+    COMPANIES[_key] = (_name, (lambda m, t: (lambda s, a: m.fetch(s, t)))(_mod, _token), _mod.normalize, 1.0)
+CORE = ["anthropic", "openai", "nvidia", "google"]
 
 MERGED_FIELDS = FIELDS + ["first_seen_date", "last_seen_date", "job_status"]
 
@@ -158,10 +164,13 @@ def run(key: str, args) -> dict:
 
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("companies", nargs="*", choices=list(COMPANIES), help="default: all four")
+    p.add_argument("companies", nargs="*", choices=list(COMPANIES) + ["core", "peers"],
+                   help="default: all (core four + peers); 'core' or 'peers' select a group")
     p.add_argument("--limit", type=int, default=None, help="test mode: fetch only a few items, don't save CSVs")
     args = p.parse_args(argv)
-    args.companies = args.companies or list(COMPANIES)
+    groups = {"core": CORE, "peers": list(PEERS)}
+    chosen = args.companies or list(COMPANIES)
+    args.companies = list(dict.fromkeys(k for c in chosen for k in groups.get(c, [c])))
     ok = True
     for key in args.companies:
         try:

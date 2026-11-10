@@ -10,3 +10,6 @@ data/external/epoch/*/frontier_lab_hiring_posting_texts.csv
 
 # Full corpus cache (30 MB binary, rebuilt from data/processed/corpus/*.csv); not delta-friendly in git
 data/processed/corpus.parquet
+
+# Sentence-BERT embedding cache (regenerable)
+data/similarity/embeddings.parquet

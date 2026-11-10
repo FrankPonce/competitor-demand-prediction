@@ -1,6 +1,6 @@
 # Sprint 9 — Insight Generation & Reporting
 
-**Week of:** 2027-01-04 · **CadetX task 9** · **Status:** ⬜ Not started
+**Week of:** 2027-01-04 · **CadetX task 9** · **Status:** 🟡 Next up
 
 ## Goal
 

@@ -4,8 +4,8 @@
 
 <br>
 
-![Status](https://img.shields.io/badge/status-Sprint%208%20·%20Similarity%20Scoring-30363d?style=for-the-badge&labelColor=161b22)
-![Progress](https://img.shields.io/badge/sprints-7%20%2F%2012%20done-b95115?style=for-the-badge&labelColor=161b22)
+![Status](https://img.shields.io/badge/status-Sprint%209%20·%20Insights%20%26%20Reporting-30363d?style=for-the-badge&labelColor=161b22)
+![Progress](https://img.shields.io/badge/sprints-8%20%2F%2012%20done-b95115?style=for-the-badge&labelColor=161b22)
 ![Python](https://img.shields.io/badge/python-3.12-2d6ac1?style=for-the-badge&logo=python&logoColor=white&labelColor=161b22)
 ![Program](https://img.shields.io/badge/CadetX-Virtual%20Work%20Experience-5ea529?style=for-the-badge&labelColor=161b22)
 
@@ -53,6 +53,10 @@ flowchart LR
 
 ![Distinctive skills](reports/comparison/figures/distinctive_skills.png)
 
+**Where they sit in the AI market** ([Sprint 8](docs/sprints/sprint-08-similarity-scoring.md)): 17 companies, linked to their 3 most similar.
+
+![Similarity network](reports/similarity/figures/similarity_network.png)
+
 ---
 
 ## 🗺️ Sprint roadmap
@@ -69,8 +73,8 @@ Click a sprint to see its goal, deliverables, and results.
 | 05 | [**Hiring Trends**](docs/sprints/sprint-05-hiring-trends.md) | Dec 7 | Multi-year history (Internet Archive, validated within 1.2%), weekly velocity, expansion maps, untracked emerging signals, pay, NVIDIA requisition rate; [summary](reports/trends/summary.md) | ✅ |
 | 06 | [**Competitor Comparison**](docs/sprints/sprint-06-competitor-comparison.md) | Dec 14 | Two-lens framework on full/unbiased data; Anthropic = safety + GTM, OpenAI = APIs/platform, NVIDIA = GPU/HPC/robotics stack, Google = Cloud sales + GenAI + management layer; [summary](reports/comparison/summary.md) | ✅ |
 | 07 | [**Demand Forecasting**](docs/sprints/sprint-07-demand-forecasting.md) | Dec 21 | 16 series, 8-week horizon; rolling backtests (up to +32% vs naive); empirical intervals; forecasts **frozen** and scored weekly; [summary](reports/forecast/summary.md) · [scorecard](reports/forecast/scorecard.md) | ✅ |
-| 08 | [**Similarity Scoring**](docs/sprints/sprint-08-similarity-scoring.md) | Dec 28 | TF-IDF + Sentence-BERT similarity, role clusters, heatmaps | 🟡 |
-| 09 | [**Insights & Reporting**](docs/sprints/sprint-09-insights-reporting.md) | Jan 4 | Decision-ready findings per company and across the landscape | ⬜ |
+| 08 | [**Similarity Scoring**](docs/sprints/sprint-08-similarity-scoring.md) | Dec 28 | Market map of 17 AI companies (+13 peers via public ATS APIs); 5 measures incl. Sentence-BERT; talent-pool overlap; [summary](reports/similarity/summary.md) | ✅ |
+| 09 | [**Insights & Reporting**](docs/sprints/sprint-09-insights-reporting.md) | Jan 4 | Decision-ready findings per company and across the landscape | 🟡 |
 | 10 | [**Automated Pipeline**](docs/sprints/sprint-10-automated-pipeline.md) <sub>optional</sub> | Jan 11 | One scheduled end-to-end pipeline | ⬜ |
 | 11 | [**Fine-Tuned Skill Model**](docs/sprints/sprint-11-fine-tuning.md) <sub>optional</sub> | Jan 18 | BERT/RoBERTa token classifier vs. rule-based baseline | ⬜ |
 | 12 | [**Final Presentation**](docs/sprints/sprint-12-final-presentation.md) | Jan 25 | Mentor review, final deck, polished repo | ⬜ |
@@ -128,7 +132,8 @@ python -m src.compare.build_comparison      # competitor comparison -> data/comp
 python -m src.forecast.run_forecast         # backtest + 8-week forecasts (+ freezes once per day)
 python -m src.forecast.report               # forecast charts + summary
 python -m src.forecast.score_frozen         # score frozen forecasts against new actuals
-python -m pytest                             # 58 regression tests
+python -m src.similarity.build_similarity   # 17-company similarity, embeddings, talent pools
+python -m pytest                             # 62 regression tests
 ```
 
 Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
@@ -152,7 +157,8 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 │   ├── features/             skill taxonomy · extractors · feature tables
 │   ├── trends/               weekly flows · emerging skills · charts
 │   ├── compare/              two-lens competitor comparison
-│   └── forecast/             series · models · backtest · frozen forecasts · scorer
+│   ├── forecast/             series · models · backtest · frozen forecasts · scorer
+│   └── similarity/           5 similarity measures · Sentence-BERT · talent pools
 ├── data/
 │   ├── raw/                  weekly snapshot CSVs per company (full text)
 │   ├── external/             Epoch AI download (CC BY)
@@ -161,7 +167,8 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 │   ├── trends/               weekly / monthly trend tables
 │   ├── comparison/           company profiles · distinctive skills · mixes
 │   ├── history/              Internet Archive counts · long-run series · NVIDIA requisition rate
-│   └── forecasts/            backtests · latest forecast · frozen/ (never edited) · scorecard
+│   ├── forecasts/            backtests · latest forecast · frozen/ (never edited) · scorecard
+│   └── similarity/           17×17 matrices · pairs · talent pools · role clusters
 ├── tests/                    regression tests (compliance rules, parsing, skill matching)
 ├── assets/                   banner and visual identity
 ├── notebooks/                exploration & analysis

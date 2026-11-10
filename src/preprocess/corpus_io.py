@@ -11,6 +11,7 @@ Downstream code calls `load_corpus()` and never cares which one exists.
 
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -33,7 +34,8 @@ def save_corpus(df: pd.DataFrame) -> None:
     df.to_parquet(CACHE, index=False)
     CSV_DIR.mkdir(parents=True, exist_ok=True)
     for company, sub in df.groupby("company_name"):
-        sub.drop(columns=NOT_IN_CSV).to_csv(CSV_DIR / f"{company.lower()}.csv", index=False)
+        name = re.sub(r"\W+", "", company.lower())
+        sub.drop(columns=NOT_IN_CSV).to_csv(CSV_DIR / f"{name}.csv", index=False)
 
 
 def _raw_descriptions() -> pd.Series:

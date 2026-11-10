@@ -32,3 +32,10 @@
 
 - [ ] Thursday: `run_snapshot nvidia google`. Monday: full snapshot + Epoch refresh + `score_frozen`.
 - [ ] Sprint 8: similarity scoring + more Greenhouse/Ashby companies.
+
+## Update — Sprint 8 done (2026-11-10)
+
+- Added 13 AI-market peers through the same documented public Greenhouse/Ashby APIs (source review recorded); corpus now 17 companies / 11,223 postings. Peers are included in weekly snapshots.
+- Five similarity measures (skills, role mix, TF-IDF, Sentence-BERT embeddings, talent-pool overlap) plus a combined score; heatmap, network graph and talent-pool chart.
+- Findings: Anthropic and OpenAI are near-twins (0.99); an "LLM + go-to-market" bloc (Harvey, Perplexity, Cohere, Baseten); NVIDIA and Google sit apart; enterprise AEs are the most contested talent pool; 53% of xAI's postings are data-center build-out.
+- 62 tests passing.
