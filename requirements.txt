@@ -14,4 +14,5 @@ svgpath2mpl>=1.0
 python-dotenv>=1.0
 feedparser>=6.0
 openpyxl>=3.1
+# GPU (optional, Sprint 11 training): pip install torch --index-url https://download.pytorch.org/whl/cu130
 # then: python -m spacy download en_core_web_sm

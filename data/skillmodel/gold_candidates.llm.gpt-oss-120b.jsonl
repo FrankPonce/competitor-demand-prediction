@@ -1,0 +1,200 @@
+{"id": "gold_candidates-0000", "spans": [{"start": 73, "end": 84, "text": "ad networks"}, {"start": 86, "end": 104, "text": "payment processing"}, {"start": 106, "end": 126, "text": "marketplace matching"}, {"start": 128, "end": 135, "text": "routing"}]}
+{"id": "gold_candidates-0001", "spans": [{"start": 14, "end": 47, "text": "medium-/high-voltage distribution"}, {"start": 49, "end": 67, "text": "on-site generation"}, {"start": 72, "end": 120, "text": "battery energy storage system (BESS) integration"}, {"start": 146, "end": 177, "text": "building-side electrical design"}]}
+{"id": "gold_candidates-0002", "spans": []}
+{"id": "gold_candidates-0003", "spans": [{"start": 19, "end": 31, "text": "IP selection"}]}
+{"id": "gold_candidates-0004", "spans": []}
+{"id": "gold_candidates-0005", "spans": [{"start": 16, "end": 30, "text": "load balancing"}, {"start": 32, "end": 47, "text": "request routing"}, {"start": 52, "end": 78, "text": "traffic management systems"}]}
+{"id": "gold_candidates-0006", "spans": [{"start": 16, "end": 25, "text": "scripting"}]}
+{"id": "gold_candidates-0007", "spans": []}
+{"id": "gold_candidates-0008", "spans": []}
+{"id": "gold_candidates-0009", "spans": [{"start": 36, "end": 64, "text": "technical program management"}]}
+{"id": "gold_candidates-0010", "spans": []}
+{"id": "gold_candidates-0011", "spans": [{"start": 65, "end": 82, "text": "incident response"}]}
+{"id": "gold_candidates-0012", "spans": []}
+{"id": "gold_candidates-0013", "spans": [{"start": 97, "end": 111, "text": "AI integration"}]}
+{"id": "gold_candidates-0014", "spans": []}
+{"id": "gold_candidates-0015", "spans": []}
+{"id": "gold_candidates-0016", "spans": []}
+{"id": "gold_candidates-0017", "spans": [{"start": 156, "end": 168, "text": "IP licensing"}]}
+{"id": "gold_candidates-0018", "spans": [{"start": 141, "end": 149, "text": "training"}, {"start": 153, "end": 162, "text": "inference"}]}
+{"id": "gold_candidates-0019", "spans": [{"start": 23, "end": 59, "text": "contract lifecycle management system"}]}
+{"id": "gold_candidates-0020", "spans": [{"start": 27, "end": 47, "text": "CI/CD infrastructure"}, {"start": 77, "end": 90, "text": "load balancer"}, {"start": 98, "end": 113, "text": "cloud platforms"}]}
+{"id": "gold_candidates-0021", "spans": [{"start": 18, "end": 27, "text": "marketing"}, {"start": 31, "end": 41, "text": "healthcare"}, {"start": 45, "end": 64, "text": "scientist audiences"}, {"start": 93, "end": 101, "text": "clinical"}, {"start": 103, "end": 106, "text": "R&D"}, {"start": 111, "end": 136, "text": "commercial buying centers"}]}
+{"id": "gold_candidates-0022", "spans": [{"start": 0, "end": 5, "text": "CI/CD"}, {"start": 7, "end": 20, "text": "build systems"}, {"start": 26, "end": 47, "text": "deployment automation"}]}
+{"id": "gold_candidates-0023", "spans": []}
+{"id": "gold_candidates-0024", "spans": []}
+{"id": "gold_candidates-0025", "spans": []}
+{"id": "gold_candidates-0026", "spans": []}
+{"id": "gold_candidates-0027", "spans": [{"start": 20, "end": 36, "text": "security tooling"}]}
+{"id": "gold_candidates-0028", "spans": [{"start": 34, "end": 37, "text": "AWS"}, {"start": 39, "end": 42, "text": "GCP"}, {"start": 44, "end": 49, "text": "Azure"}]}
+{"id": "gold_candidates-0029", "spans": [{"start": 8, "end": 22, "text": "event security"}]}
+{"id": "gold_candidates-0030", "spans": []}
+{"id": "gold_candidates-0031", "spans": [{"start": 5, "end": 14, "text": "trademark"}, {"start": 19, "end": 37, "text": "domain enforcement"}]}
+{"id": "gold_candidates-0032", "spans": []}
+{"id": "gold_candidates-0033", "spans": []}
+{"id": "gold_candidates-0034", "spans": [{"start": 24, "end": 43, "text": "paid media planning"}, {"start": 75, "end": 86, "text": "channel mix"}, {"start": 88, "end": 105, "text": "budget allocation"}, {"start": 111, "end": 128, "text": "audience strategy"}]}
+{"id": "gold_candidates-0035", "spans": [{"start": 18, "end": 46, "text": "contract governance controls"}, {"start": 55, "end": 78, "text": "compliance requirements"}, {"start": 90, "end": 116, "text": "contract review procedures"}, {"start": 118, "end": 152, "text": "delegation of authority frameworks"}, {"start": 158, "end": 187, "text": "exception-tracking mechanisms"}]}
+{"id": "gold_candidates-0036", "spans": []}
+{"id": "gold_candidates-0037", "spans": []}
+{"id": "gold_candidates-0038", "spans": []}
+{"id": "gold_candidates-0039", "spans": [{"start": 21, "end": 30, "text": "modelling"}]}
+{"id": "gold_candidates-0040", "spans": [{"start": 25, "end": 48, "text": "time-series forecasting"}, {"start": 64, "end": 69, "text": "ARIMA"}, {"start": 71, "end": 92, "text": "exponential smoothing"}]}
+{"id": "gold_candidates-0041", "spans": [{"start": 54, "end": 85, "text": "economic development agreements"}, {"start": 97, "end": 114, "text": "commercial review"}, {"start": 125, "end": 141, "text": "tax implications"}, {"start": 146, "end": 168, "text": "infrastructure funding"}]}
+{"id": "gold_candidates-0042", "spans": [{"start": 18, "end": 44, "text": "vendor performance metrics"}]}
+{"id": "gold_candidates-0043", "spans": [{"start": 16, "end": 27, "text": "RTL quality"}, {"start": 32, "end": 46, "text": "sign-off tools"}, {"start": 54, "end": 58, "text": "Lint"}, {"start": 60, "end": 63, "text": "CDC"}]}
+{"id": "gold_candidates-0044", "spans": [{"start": 122, "end": 134, "text": "supply chain"}]}
+{"id": "gold_candidates-0045", "spans": [{"start": 70, "end": 90, "text": "communication skills"}]}
+{"id": "gold_candidates-0046", "spans": []}
+{"id": "gold_candidates-0047", "spans": []}
+{"id": "gold_candidates-0048", "spans": [{"start": 84, "end": 97, "text": "API discovery"}, {"start": 99, "end": 132, "text": "interactive capability evaluation"}, {"start": 134, "end": 148, "text": "SDK onboarding"}, {"start": 150, "end": 166, "text": "credential setup"}, {"start": 172, "end": 186, "text": "usage guidance"}]}
+{"id": "gold_candidates-0049", "spans": []}
+{"id": "gold_candidates-0050", "spans": []}
+{"id": "gold_candidates-0051", "spans": []}
+{"id": "gold_candidates-0052", "spans": []}
+{"id": "gold_candidates-0053", "spans": [{"start": 47, "end": 67, "text": "security engineering"}, {"start": 69, "end": 86, "text": "security research"}, {"start": 88, "end": 97, "text": "DevSecOps"}, {"start": 99, "end": 116, "text": "incident response"}, {"start": 118, "end": 129, "text": "SOC analyst"}, {"start": 150, "end": 166, "text": "malware research"}, {"start": 168, "end": 183, "text": "threat analysis"}]}
+{"id": "gold_candidates-0054", "spans": []}
+{"id": "gold_candidates-0055", "spans": []}
+{"id": "gold_candidates-0056", "spans": []}
+{"id": "gold_candidates-0057", "spans": []}
+{"id": "gold_candidates-0058", "spans": []}
+{"id": "gold_candidates-0059", "spans": [{"start": 103, "end": 106, "text": "GPU"}, {"start": 109, "end": 118, "text": "Pixel TPU"}, {"start": 121, "end": 125, "text": "NPUs"}, {"start": 128, "end": 131, "text": "CPU"}, {"start": 136, "end": 143, "text": "Android"}, {"start": 145, "end": 151, "text": "Chrome"}]}
+{"id": "gold_candidates-0060", "spans": []}
+{"id": "gold_candidates-0061", "spans": [{"start": 61, "end": 78, "text": "conversational AI"}]}
+{"id": "gold_candidates-0062", "spans": [{"start": 16, "end": 42, "text": "AI-driven design workflows"}, {"start": 44, "end": 73, "text": "AI-assisted rapid prototyping"}, {"start": 89, "end": 109, "text": "design system tokens"}, {"start": 122, "end": 156, "text": "front-end development environments"}]}
+{"id": "gold_candidates-0063", "spans": []}
+{"id": "gold_candidates-0064", "spans": [{"start": 20, "end": 36, "text": "GenAI techniques"}, {"start": 44, "end": 48, "text": "LLMs"}, {"start": 50, "end": 60, "text": "multimodal"}, {"start": 62, "end": 81, "text": "large vision models"}, {"start": 91, "end": 113, "text": "genAI-related concepts"}, {"start": 121, "end": 132, "text": "evaluations"}, {"start": 134, "end": 151, "text": "language modeling"}, {"start": 153, "end": 168, "text": "computer vision"}]}
+{"id": "gold_candidates-0065", "spans": [{"start": 76, "end": 105, "text": "child safety workflows (CSAM)"}]}
+{"id": "gold_candidates-0066", "spans": []}
+{"id": "gold_candidates-0067", "spans": [{"start": 17, "end": 43, "text": "generative AI technologies"}, {"start": 45, "end": 73, "text": "Large Language Models (LLMs)"}, {"start": 78, "end": 87, "text": "AI agents"}]}
+{"id": "gold_candidates-0068", "spans": [{"start": 0, "end": 15, "text": "Code Evaluation"}, {"start": 71, "end": 97, "text": "AI-first rapid prototyping"}]}
+{"id": "gold_candidates-0069", "spans": [{"start": 39, "end": 45, "text": "Python"}, {"start": 47, "end": 48, "text": "R"}, {"start": 50, "end": 53, "text": "SAS"}, {"start": 55, "end": 61, "text": "MATLAB"}, {"start": 72, "end": 92, "text": "statistical software"}]}
+{"id": "gold_candidates-0070", "spans": []}
+{"id": "gold_candidates-0071", "spans": [{"start": 17, "end": 38, "text": "computer architecture"}, {"start": 49, "end": 77, "text": "industry standard interfaces"}, {"start": 82, "end": 99, "text": "memory subsystems"}]}
+{"id": "gold_candidates-0072", "spans": [{"start": 11, "end": 43, "text": "automating large-scale processes"}]}
+{"id": "gold_candidates-0073", "spans": [{"start": 22, "end": 49, "text": "machine learning principles"}]}
+{"id": "gold_candidates-0074", "spans": [{"start": 0, "end": 6, "text": "Triage"}]}
+{"id": "gold_candidates-0075", "spans": [{"start": 66, "end": 75, "text": "AppsFlyer"}, {"start": 80, "end": 86, "text": "Adjust"}]}
+{"id": "gold_candidates-0076", "spans": []}
+{"id": "gold_candidates-0077", "spans": []}
+{"id": "gold_candidates-0078", "spans": [{"start": 55, "end": 60, "text": "sales"}, {"start": 62, "end": 91, "text": "building client relationships"}, {"start": 96, "end": 114, "text": "account management"}]}
+{"id": "gold_candidates-0079", "spans": [{"start": 73, "end": 97, "text": "policy enforcement logic"}]}
+{"id": "gold_candidates-0080", "spans": []}
+{"id": "gold_candidates-0081", "spans": [{"start": 7, "end": 30, "text": "communication abilities"}]}
+{"id": "gold_candidates-0082", "spans": [{"start": 42, "end": 53, "text": "SAP systems"}]}
+{"id": "gold_candidates-0083", "spans": [{"start": 29, "end": 35, "text": "Python"}, {"start": 37, "end": 40, "text": "C++"}]}
+{"id": "gold_candidates-0084", "spans": [{"start": 50, "end": 84, "text": "cloud storage services (IaaS/PaaS)"}]}
+{"id": "gold_candidates-0085", "spans": [{"start": 0, "end": 31, "text": "Model & system level techniques"}, {"start": 93, "end": 114, "text": "Instruction Hierarchy"}, {"start": 118, "end": 132, "text": "Risk Detection"}]}
+{"id": "gold_candidates-0086", "spans": []}
+{"id": "gold_candidates-0087", "spans": []}
+{"id": "gold_candidates-0088", "spans": []}
+{"id": "gold_candidates-0089", "spans": [{"start": 60, "end": 82, "text": "BOM/ECO implementation"}]}
+{"id": "gold_candidates-0090", "spans": [{"start": 20, "end": 31, "text": "programming"}, {"start": 36, "end": 42, "text": "coding"}]}
+{"id": "gold_candidates-0091", "spans": [{"start": 60, "end": 79, "text": "compatibility tests"}, {"start": 81, "end": 95, "text": "negative tests"}, {"start": 97, "end": 116, "text": "fuzz/property tests"}, {"start": 122, "end": 140, "text": "conformance suites"}, {"start": 152, "end": 175, "text": "APF-compatible runtimes"}, {"start": 180, "end": 188, "text": "adapters"}]}
+{"id": "gold_candidates-0092", "spans": [{"start": 51, "end": 53, "text": "AI"}, {"start": 55, "end": 58, "text": "HPC"}, {"start": 60, "end": 75, "text": "cloud computing"}, {"start": 77, "end": 84, "text": "storage"}, {"start": 86, "end": 100, "text": "virtualization"}, {"start": 102, "end": 121, "text": "container platforms"}, {"start": 127, "end": 150, "text": "enterprise data centers"}]}
+{"id": "gold_candidates-0093", "spans": [{"start": 16, "end": 30, "text": "AI/ML security"}, {"start": 32, "end": 56, "text": "LLM application security"}, {"start": 76, "end": 89, "text": "cybersecurity"}]}
+{"id": "gold_candidates-0094", "spans": [{"start": 31, "end": 36, "text": "React"}, {"start": 38, "end": 45, "text": "Angular"}, {"start": 47, "end": 53, "text": "Vue.js"}, {"start": 55, "end": 59, "text": "HTML"}, {"start": 61, "end": 64, "text": "CSS"}, {"start": 66, "end": 76, "text": "JavaScript"}, {"start": 95, "end": 102, "text": "Node.js"}, {"start": 104, "end": 123, "text": "Python/Django/Flask"}, {"start": 125, "end": 138, "text": "Ruby on Rails"}, {"start": 140, "end": 151, "text": "Java/Spring"}, {"start": 154, "end": 157, "text": "NET"}, {"start": 193, "end": 196, "text": "SQL"}, {"start": 197, "end": 202, "text": "NoSQL"}, {"start": 235, "end": 238, "text": "AWS"}, {"start": 240, "end": 245, "text": "Azure"}, {"start": 247, "end": 250, "text": "GCP"}]}
+{"id": "gold_candidates-0095", "spans": [{"start": 22, "end": 42, "text": "HW/FW/SW engineering"}, {"start": 146, "end": 149, "text": "DFM"}]}
+{"id": "gold_candidates-0096", "spans": [{"start": 31, "end": 55, "text": "property tax regulations"}, {"start": 85, "end": 105, "text": "valuation techniques"}]}
+{"id": "gold_candidates-0097", "spans": [{"start": 0, "end": 14, "text": "Timing closure"}]}
+{"id": "gold_candidates-0098", "spans": [{"start": 30, "end": 44, "text": "agent workflow"}, {"start": 60, "end": 70, "text": "sandboxing"}, {"start": 84, "end": 99, "text": "GPU environment"}]}
+{"id": "gold_candidates-0099", "spans": [{"start": 33, "end": 71, "text": "deep learning infrastructure libraries"}, {"start": 118, "end": 130, "text": "GPU clusters"}]}
+{"id": "gold_candidates-0100", "spans": [{"start": 21, "end": 30, "text": "AI models"}, {"start": 35, "end": 52, "text": "agentic pipelines"}, {"start": 56, "end": 62, "text": "Jetson"}, {"start": 65, "end": 88, "text": "on-device LLM inference"}, {"start": 90, "end": 112, "text": "vision-language models"}]}
+{"id": "gold_candidates-0101", "spans": [{"start": 0, "end": 15, "text": "GPU programming"}, {"start": 28, "end": 32, "text": "CUDA"}, {"start": 36, "end": 42, "text": "OpenCL"}]}
+{"id": "gold_candidates-0102", "spans": [{"start": 19, "end": 21, "text": "RL"}, {"start": 69, "end": 80, "text": "Open Source"}, {"start": 160, "end": 176, "text": "GPU architecture"}, {"start": 178, "end": 193, "text": "HW/SW co-design"}, {"start": 199, "end": 220, "text": "performance profiling"}]}
+{"id": "gold_candidates-0103", "spans": []}
+{"id": "gold_candidates-0104", "spans": [{"start": 8, "end": 39, "text": "GPU-accelerated implementations"}]}
+{"id": "gold_candidates-0105", "spans": [{"start": 34, "end": 51, "text": "rapid prototyping"}, {"start": 67, "end": 81, "text": "model-training"}, {"start": 86, "end": 107, "text": "simulation frameworks"}, {"start": 115, "end": 122, "text": "PyTorch"}, {"start": 124, "end": 133, "text": "Isaac Lab"}, {"start": 135, "end": 141, "text": "MuJoCo"}]}
+{"id": "gold_candidates-0106", "spans": [{"start": 33, "end": 56, "text": "software products sales"}, {"start": 125, "end": 148, "text": "AI software integration"}, {"start": 192, "end": 217, "text": "cloud native environments"}, {"start": 226, "end": 236, "text": "Kubernetes"}, {"start": 238, "end": 244, "text": "Docker"}, {"start": 246, "end": 255, "text": "OpenShift"}, {"start": 257, "end": 270, "text": "microservices"}]}
+{"id": "gold_candidates-0107", "spans": [{"start": 0, "end": 22, "text": "Infrastructure-as-code"}, {"start": 27, "end": 41, "text": "policy-as-code"}]}
+{"id": "gold_candidates-0108", "spans": [{"start": 25, "end": 41, "text": "silicon bring-up"}, {"start": 43, "end": 79, "text": "frequency and power characterization"}, {"start": 81, "end": 96, "text": "product binning"}, {"start": 102, "end": 135, "text": "performance-per-watt optimization"}]}
+{"id": "gold_candidates-0109", "spans": []}
+{"id": "gold_candidates-0110", "spans": []}
+{"id": "gold_candidates-0111", "spans": [{"start": 13, "end": 27, "text": "circuit design"}, {"start": 29, "end": 49, "text": "board/pkg technology"}, {"start": 60, "end": 77, "text": "link architecture"}, {"start": 79, "end": 106, "text": "timing budget methodologies"}]}
+{"id": "gold_candidates-0112", "spans": []}
+{"id": "gold_candidates-0113", "spans": []}
+{"id": "gold_candidates-0114", "spans": [{"start": 7, "end": 20, "text": "communication"}]}
+{"id": "gold_candidates-0115", "spans": [{"start": 24, "end": 59, "text": "electrical engineering fundamentals"}, {"start": 72, "end": 91, "text": "VLSI package design"}, {"start": 93, "end": 109, "text": "signal integrity"}, {"start": 111, "end": 125, "text": "power delivery"}, {"start": 127, "end": 147, "text": "parasitic extraction"}]}
+{"id": "gold_candidates-0116", "spans": []}
+{"id": "gold_candidates-0117", "spans": []}
+{"id": "gold_candidates-0118", "spans": []}
+{"id": "gold_candidates-0119", "spans": [{"start": 36, "end": 41, "text": "CI/CD"}, {"start": 46, "end": 63, "text": "release pipelines"}]}
+{"id": "gold_candidates-0120", "spans": []}
+{"id": "gold_candidates-0121", "spans": [{"start": 7, "end": 39, "text": "written and verbal communication"}]}
+{"id": "gold_candidates-0122", "spans": [{"start": 7, "end": 32, "text": "writing and communication"}, {"start": 106, "end": 127, "text": "process documentation"}]}
+{"id": "gold_candidates-0123", "spans": [{"start": 24, "end": 34, "text": "taping out"}, {"start": 43, "end": 58, "text": "silicon designs"}]}
+{"id": "gold_candidates-0124", "spans": [{"start": 47, "end": 66, "text": "logistics processes"}]}
+{"id": "gold_candidates-0125", "spans": [{"start": 46, "end": 65, "text": "model architectures"}]}
+{"id": "gold_candidates-0126", "spans": [{"start": 32, "end": 52, "text": "marketing automation"}, {"start": 57, "end": 60, "text": "CRM"}, {"start": 71, "end": 94, "text": "customer-data platforms"}, {"start": 96, "end": 108, "text": "ad platforms"}, {"start": 110, "end": 121, "text": "attribution"}, {"start": 123, "end": 138, "text": "experimentation"}, {"start": 140, "end": 148, "text": "identity"}, {"start": 150, "end": 157, "text": "consent"}, {"start": 163, "end": 184, "text": "lifecycle measurement"}]}
+{"id": "gold_candidates-0127", "spans": []}
+{"id": "gold_candidates-0128", "spans": [{"start": 6, "end": 26, "text": "actuator integration"}]}
+{"id": "gold_candidates-0129", "spans": []}
+{"id": "gold_candidates-0130", "spans": []}
+{"id": "gold_candidates-0131", "spans": [{"start": 31, "end": 48, "text": "incident response"}, {"start": 74, "end": 89, "text": "threat triaging"}, {"start": 91, "end": 104, "text": "investigation"}, {"start": 106, "end": 116, "text": "mitigation"}, {"start": 146, "end": 154, "text": "briefing"}]}
+{"id": "gold_candidates-0132", "spans": [{"start": 57, "end": 70, "text": "documentation"}, {"start": 72, "end": 89, "text": "hands-on training"}, {"start": 91, "end": 102, "text": "programming"}]}
+{"id": "gold_candidates-0133", "spans": []}
+{"id": "gold_candidates-0134", "spans": []}
+{"id": "gold_candidates-0135", "spans": []}
+{"id": "gold_candidates-0136", "spans": []}
+{"id": "gold_candidates-0137", "spans": [{"start": 0, "end": 3, "text": "CPA"}, {"start": 5, "end": 7, "text": "CA"}, {"start": 56, "end": 76, "text": "technical accounting"}, {"start": 78, "end": 91, "text": "consolidation"}, {"start": 93, "end": 106, "text": "SEC reporting"}, {"start": 108, "end": 116, "text": "advisory"}]}
+{"id": "gold_candidates-0138", "spans": [{"start": 13, "end": 17, "text": "PCIe"}, {"start": 19, "end": 27, "text": "ethernet"}, {"start": 38, "end": 69, "text": "high BW communication protocols"}]}
+{"id": "gold_candidates-0139", "spans": [{"start": 42, "end": 59, "text": "contractual terms"}, {"start": 64, "end": 86, "text": "accounting conclusions"}, {"start": 101, "end": 122, "text": "operational processes"}, {"start": 124, "end": 143, "text": "system requirements"}, {"start": 149, "end": 167, "text": "control frameworks"}]}
+{"id": "gold_candidates-0140", "spans": [{"start": 17, "end": 33, "text": "sensing hardware"}, {"start": 35, "end": 52, "text": "real-time systems"}]}
+{"id": "gold_candidates-0141", "spans": [{"start": 31, "end": 51, "text": "marketing operations"}, {"start": 62, "end": 72, "text": "automation"}, {"start": 74, "end": 78, "text": "data"}, {"start": 84, "end": 103, "text": "technical execution"}]}
+{"id": "gold_candidates-0142", "spans": []}
+{"id": "gold_candidates-0143", "spans": [{"start": 16, "end": 19, "text": "ads"}, {"start": 21, "end": 33, "text": "monetization"}, {"start": 38, "end": 46, "text": "platform"}]}
+{"id": "gold_candidates-0144", "spans": []}
+{"id": "gold_candidates-0145", "spans": [{"start": 19, "end": 27, "text": "web spam"}, {"start": 29, "end": 43, "text": "search quality"}, {"start": 45, "end": 74, "text": "adversarial content detection"}]}
+{"id": "gold_candidates-0146", "spans": []}
+{"id": "gold_candidates-0147", "spans": []}
+{"id": "gold_candidates-0148", "spans": []}
+{"id": "gold_candidates-0149", "spans": []}
+{"id": "gold_candidates-0150", "spans": [{"start": 51, "end": 69, "text": "analytics engineer"}, {"start": 74, "end": 89, "text": "data scientists"}]}
+{"id": "gold_candidates-0151", "spans": []}
+{"id": "gold_candidates-0152", "spans": [{"start": 38, "end": 44, "text": "Oracle"}]}
+{"id": "gold_candidates-0153", "spans": [{"start": 31, "end": 33, "text": "AI"}, {"start": 70, "end": 90, "text": "exception management"}, {"start": 95, "end": 110, "text": "workflow design"}, {"start": 141, "end": 156, "text": "data protection"}]}
+{"id": "gold_candidates-0154", "spans": []}
+{"id": "gold_candidates-0155", "spans": [{"start": 30, "end": 46, "text": "LLM applications"}, {"start": 48, "end": 61, "text": "coding agents"}, {"start": 63, "end": 68, "text": "evals"}, {"start": 70, "end": 86, "text": "model deployment"}, {"start": 88, "end": 97, "text": "inference"}, {"start": 99, "end": 127, "text": "compiler/runtime performance"}, {"start": 132, "end": 151, "text": "developer platforms"}]}
+{"id": "gold_candidates-0156", "spans": [{"start": 26, "end": 42, "text": "consumer journey"}, {"start": 51, "end": 60, "text": "marketing"}]}
+{"id": "gold_candidates-0157", "spans": [{"start": 18, "end": 26, "text": "research"}]}
+{"id": "gold_candidates-0158", "spans": [{"start": 25, "end": 44, "text": "scalable automation"}, {"start": 81, "end": 92, "text": "red-teaming"}, {"start": 104, "end": 113, "text": "pipelines"}]}
+{"id": "gold_candidates-0159", "spans": [{"start": 7, "end": 26, "text": "scalable approaches"}, {"start": 56, "end": 71, "text": "safety outcomes"}]}
+{"id": "gold_candidates-0160", "spans": [{"start": 47, "end": 50, "text": "dbt"}]}
+{"id": "gold_candidates-0161", "spans": []}
+{"id": "gold_candidates-0162", "spans": []}
+{"id": "gold_candidates-0163", "spans": []}
+{"id": "gold_candidates-0164", "spans": []}
+{"id": "gold_candidates-0165", "spans": []}
+{"id": "gold_candidates-0166", "spans": []}
+{"id": "gold_candidates-0167", "spans": []}
+{"id": "gold_candidates-0168", "spans": []}
+{"id": "gold_candidates-0169", "spans": [{"start": 31, "end": 48, "text": "quality assurance"}]}
+{"id": "gold_candidates-0170", "spans": [{"start": 9, "end": 26, "text": "training dynamics"}, {"start": 31, "end": 44, "text": "failure modes"}, {"start": 56, "end": 67, "text": "instability"}, {"start": 69, "end": 93, "text": "reward over-optimization"}, {"start": 99, "end": 121, "text": "capability regressions"}]}
+{"id": "gold_candidates-0171", "spans": [{"start": 15, "end": 20, "text": "Oromo"}]}
+{"id": "gold_candidates-0172", "spans": []}
+{"id": "gold_candidates-0173", "spans": [{"start": 21, "end": 37, "text": "secure container"}, {"start": 42, "end": 52, "text": "Kubernetes"}, {"start": 66, "end": 76, "text": "bare metal"}, {"start": 81, "end": 94, "text": "private cloud"}, {"start": 137, "end": 141, "text": "RBAC"}, {"start": 143, "end": 157, "text": "network policy"}, {"start": 163, "end": 170, "text": "secrets"}]}
+{"id": "gold_candidates-0174", "spans": [{"start": 17, "end": 45, "text": "Public Sector buying motions"}, {"start": 77, "end": 84, "text": "FedRAMP"}, {"start": 89, "end": 102, "text": "DoD IL levels"}]}
+{"id": "gold_candidates-0175", "spans": [{"start": 17, "end": 27, "text": "networking"}, {"start": 29, "end": 32, "text": "I/O"}, {"start": 134, "end": 137, "text": "GPU"}]}
+{"id": "gold_candidates-0176", "spans": [{"start": 36, "end": 66, "text": "functional performance testing"}, {"start": 68, "end": 90, "text": "pre-functional testing"}, {"start": 92, "end": 115, "text": "site acceptance testing"}, {"start": 117, "end": 134, "text": "load-bank testing"}, {"start": 136, "end": 160, "text": "protection-relay testing"}, {"start": 162, "end": 187, "text": "integrated system testing"}, {"start": 193, "end": 208, "text": "system turnover"}]}
+{"id": "gold_candidates-0177", "spans": []}
+{"id": "gold_candidates-0178", "spans": [{"start": 19, "end": 35, "text": "secure workloads"}, {"start": 85, "end": 89, "text": "FaaS"}, {"start": 91, "end": 103, "text": "CI sandboxes"}, {"start": 105, "end": 121, "text": "remote notebooks"}]}
+{"id": "gold_candidates-0179", "spans": [{"start": 15, "end": 35, "text": "rigorous experiments"}]}
+{"id": "gold_candidates-0180", "spans": []}
+{"id": "gold_candidates-0181", "spans": [{"start": 5, "end": 21, "text": "domain expertise"}]}
+{"id": "gold_candidates-0182", "spans": [{"start": 14, "end": 28, "text": "design systems"}]}
+{"id": "gold_candidates-0183", "spans": [{"start": 0, "end": 10, "text": "AI builder"}, {"start": 12, "end": 31, "text": "AI-forward operator"}, {"start": 55, "end": 69, "text": "agentic coding"}, {"start": 93, "end": 103, "text": "AI tooling"}]}
+{"id": "gold_candidates-0184", "spans": [{"start": 17, "end": 37, "text": "cloud infrastructure"}, {"start": 39, "end": 42, "text": "AWS"}, {"start": 65, "end": 82, "text": "SaaS environments"}]}
+{"id": "gold_candidates-0185", "spans": [{"start": 48, "end": 68, "text": "annotation workflows"}, {"start": 72, "end": 86, "text": "data processes"}]}
+{"id": "gold_candidates-0186", "spans": []}
+{"id": "gold_candidates-0187", "spans": [{"start": 50, "end": 66, "text": "prompt injection"}, {"start": 68, "end": 84, "text": "model extraction"}, {"start": 90, "end": 119, "text": "adversarial input protections"}]}
+{"id": "gold_candidates-0188", "spans": [{"start": 25, "end": 29, "text": "LLMs"}, {"start": 31, "end": 42, "text": "evaluations"}, {"start": 47, "end": 62, "text": "agentic systems"}]}
+{"id": "gold_candidates-0189", "spans": [{"start": 5, "end": 23, "text": "talent development"}, {"start": 25, "end": 44, "text": "succession planning"}, {"start": 50, "end": 71, "text": "organizational design"}]}
+{"id": "gold_candidates-0190", "spans": [{"start": 17, "end": 32, "text": "legal expertise"}, {"start": 43, "end": 69, "text": "natural language prompting"}]}
+{"id": "gold_candidates-0191", "spans": [{"start": 21, "end": 41, "text": "cloud infrastructure"}, {"start": 53, "end": 71, "text": "GPU configurations"}, {"start": 73, "end": 83, "text": "networking"}, {"start": 89, "end": 109, "text": "cluster architecture"}]}
+{"id": "gold_candidates-0192", "spans": [{"start": 0, "end": 38, "text": "Deep learning performance optimization"}, {"start": 54, "end": 62, "text": "training"}, {"start": 66, "end": 75, "text": "inference"}]}
+{"id": "gold_candidates-0193", "spans": [{"start": 52, "end": 60, "text": "strategy"}, {"start": 62, "end": 84, "text": "sponsorship evaluation"}, {"start": 86, "end": 103, "text": "campaign planning"}, {"start": 105, "end": 121, "text": "event production"}, {"start": 123, "end": 143, "text": "executive management"}, {"start": 145, "end": 162, "text": "on-site execution"}, {"start": 168, "end": 188, "text": "performance analysis"}]}
+{"id": "gold_candidates-0194", "spans": [{"start": 89, "end": 107, "text": "academic databases"}, {"start": 113, "end": 133, "text": "technical literature"}]}
+{"id": "gold_candidates-0195", "spans": []}
+{"id": "gold_candidates-0196", "spans": [{"start": 49, "end": 55, "text": "Python"}, {"start": 59, "end": 61, "text": "Go"}, {"start": 91, "end": 99, "text": "services"}, {"start": 101, "end": 105, "text": "APIs"}, {"start": 111, "end": 135, "text": "relational data modeling"}]}
+{"id": "gold_candidates-0197", "spans": [{"start": 208, "end": 217, "text": "Jifflenow"}, {"start": 222, "end": 231, "text": "RainFocus"}]}
+{"id": "gold_candidates-0198", "spans": [{"start": 21, "end": 34, "text": "system design"}, {"start": 53, "end": 57, "text": "APIs"}, {"start": 59, "end": 67, "text": "services"}, {"start": 73, "end": 90, "text": "security controls"}, {"start": 111, "end": 122, "text": "reliability"}, {"start": 127, "end": 142, "text": "maintainability"}]}
+{"id": "gold_candidates-0199", "spans": [{"start": 17, "end": 40, "text": "cloud database services"}, {"start": 51, "end": 80, "text": "Azure Database for PostgreSQL"}, {"start": 82, "end": 95, "text": "GCP Cloud SQL"}, {"start": 100, "end": 114, "text": "AWS RDS/Aurora"}, {"start": 120, "end": 142, "text": "infrastructure-as-code"}, {"start": 144, "end": 153, "text": "Terraform"}, {"start": 155, "end": 161, "text": "Pulumi"}]}

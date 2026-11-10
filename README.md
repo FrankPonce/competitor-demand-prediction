@@ -100,7 +100,7 @@ Click a sprint to see its goal, deliverables, and results.
 | 08 | [**Similarity Scoring**](docs/sprints/sprint-08-similarity-scoring.md) | Dec 28 | Market map of 17 AI companies (+13 peers via public ATS APIs); 5 measures incl. Sentence-BERT; talent-pool overlap; [summary](reports/similarity/summary.md) | ✅ |
 | 09 | [**Insights & Reporting**](docs/sprints/sprint-09-insights-reporting.md) | Jan 4 | **[Hiring Intelligence Report](reports/insights/insight_report.md)**, company cards, leading-indicator test vs 13 cited events (2 led, 2 simultaneous, 2 lagged) + live watchlist | ✅ |
 | 10 | [**Automated Pipeline**](docs/sprints/sprint-10-automated-pipeline.md) <sub>optional</sub> | Jan 11 | GitHub Actions refresh (Mon/Thu) + **[SIGNALS](https://signals-hiring.vercel.app)** console on Vercel (briefing + company stories written by an open model from rule-based evidence, globe, signal feed, forecasts, tracker, market map); new context sources: SEC EDGAR, Epoch models, newsroom RSS, GDELT, EPO patents, CA WARN | ✅ |
-| 11 | [**Fine-Tuned Skill Model**](docs/sprints/sprint-11-fine-tuning.md) <sub>optional</sub> | Jan 18 | BERT/RoBERTa token classifier vs. rule-based baseline | ⬜ |
+| 11 | [**Fine-Tuned Skill Model**](docs/sprints/sprint-11-fine-tuning.md) <sub>optional</sub> | Jan 18 | Rules vs free LLM vs fine-tuned token classifier on a verified gold set | 🟡 |
 | 12 | [**Final Presentation**](docs/sprints/sprint-12-final-presentation.md) | Jan 25 | Mentor review, final deck, polished repo | ⬜ |
 
 <sub>✅ done · 🟡 in progress · ⬜ not started · Weekly notes live in <a href="docs/weekly-notes/">docs/weekly-notes/</a></sub>
