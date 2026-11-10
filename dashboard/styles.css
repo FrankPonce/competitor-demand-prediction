@@ -316,12 +316,27 @@ main { max-width: 1280px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 40px); }
 
 /* ---------- SIGNALS wordmark: plain text + gradient copy on top, cropped to the A and the L's upright ---------- */
 .wm { position: relative; display: inline-block; font-weight: 800; letter-spacing: -0.01em; line-height: 1; white-space: nowrap; }
-.wm-base { color: var(--text); }
+.wm-base { color: var(--text); clip-path: var(--wm-base-clip, none); }
 .wm-over { position: absolute; inset: 0; pointer-events: none; color: transparent;
   background: linear-gradient(90deg, var(--anthropic), var(--openai), var(--google), var(--nvidia), var(--anthropic), var(--openai));
   background-size: 300% 100%; -webkit-background-clip: text; background-clip: text;
   clip-path: var(--wm-clip, inset(0 100% 0 0)); animation: wm-flow 6s linear infinite; }
 @keyframes wm-flow { to { background-position: -150% 0; } }
+/* Same liquid gradient as the hero's "next", sized to the AI only (JS sets --wm-x0 / --wm-w from the measured crop) */
+@supports (x: cos(1deg)) {
+  .wm-over {
+    background:
+      radial-gradient(42% 95% at calc(50% + 36% * cos(var(--liq))) calc(50% + 40% * sin(var(--liq))), var(--anthropic) 20%, transparent 62%),
+      radial-gradient(42% 95% at calc(50% + 34% * cos(var(--liq) * -1 + 120deg)) calc(50% + 45% * sin(var(--liq) * -1 + 120deg)), var(--openai) 20%, transparent 62%),
+      radial-gradient(46% 100% at calc(50% + 38% * cos(var(--liq) * 2 + 240deg)) calc(50% + 38% * sin(var(--liq) * 2 + 240deg)), var(--google) 20%, transparent 62%),
+      radial-gradient(40% 90% at calc(50% + 30% * cos(var(--liq) * -2 + 60deg)) calc(50% + 48% * sin(var(--liq) * -2 + 60deg)), var(--nvidia) 20%, transparent 62%),
+      linear-gradient(90deg, var(--anthropic), var(--openai) 40%, var(--google) 75%, var(--nvidia));
+    background-size: var(--wm-w, 100%) 100%; background-position: var(--wm-x0, 0) 0; background-repeat: no-repeat;
+    -webkit-background-clip: text; background-clip: text;
+    filter: saturate(1.35) brightness(1.08);
+    animation: liquid 24s linear infinite;
+  }
+}
 @media (prefers-reduced-motion: reduce) { .wm-over { animation: none; } }
 .brand .wm { font-size: 21px; }
 .foot-brand { display: inline-flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }

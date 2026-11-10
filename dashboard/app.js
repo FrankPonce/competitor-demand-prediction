@@ -612,6 +612,9 @@
       while (x < c.width && d[x * 4 + 3] >= 128) x++;
       const x0 = (a.left - box.left) / fs - 0.02, x1 = (L.left - box.left) / fs + x / px + 0.005;
       wm.style.setProperty("--wm-clip", `polygon(${x0}em 0, ${x1}em 0, ${x1}em 100%, ${x0}em 100%)`);
+      wm.style.setProperty("--wm-x0", `${x0}em`); wm.style.setProperty("--wm-w", `${x1 - x0}em`);
+      // the white word gets the opposite cut-out, so no white edge shows around the coloured AI
+      wm.style.setProperty("--wm-base-clip", `polygon(0 0, ${x0}em 0, ${x0}em 100%, ${x1}em 100%, ${x1}em 0, 100% 0, 100% 100%, 0 100%)`);
     });
   }
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(wordmarks); else wordmarks();
