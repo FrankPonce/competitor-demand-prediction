@@ -1,0 +1,1257 @@
+{"id": "train_pool-0000", "spans": []}
+{"id": "train_pool-0001", "spans": []}
+{"id": "train_pool-0002", "spans": []}
+{"id": "train_pool-0003", "spans": [{"start": 34, "end": 46, "text": "front-end UI"}, {"start": 50, "end": 73, "text": "back-end infrastructure"}]}
+{"id": "train_pool-0004", "spans": []}
+{"id": "train_pool-0005", "spans": []}
+{"id": "train_pool-0006", "spans": []}
+{"id": "train_pool-0007", "spans": []}
+{"id": "train_pool-0008", "spans": [{"start": 28, "end": 53, "text": "cyber threat intelligence"}, {"start": 55, "end": 69, "text": "threat hunting"}, {"start": 74, "end": 92, "text": "intrusion analysis"}]}
+{"id": "train_pool-0009", "spans": []}
+{"id": "train_pool-0010", "spans": [{"start": 205, "end": 207, "text": "AI"}, {"start": 209, "end": 211, "text": "ML"}]}
+{"id": "train_pool-0011", "spans": []}
+{"id": "train_pool-0012", "spans": []}
+{"id": "train_pool-0013", "spans": []}
+{"id": "train_pool-0014", "spans": [{"start": 8, "end": 26, "text": "dataset management"}, {"start": 28, "end": 43, "text": "data cataloging"}, {"start": 49, "end": 67, "text": "provenance tooling"}]}
+{"id": "train_pool-0015", "spans": [{"start": 18, "end": 51, "text": "security configuration management"}, {"start": 56, "end": 79, "text": "compliance verification"}]}
+{"id": "train_pool-0016", "spans": []}
+{"id": "train_pool-0017", "spans": []}
+{"id": "train_pool-0018", "spans": []}
+{"id": "train_pool-0019", "spans": [{"start": 42, "end": 69, "text": "enterprise system of record"}]}
+{"id": "train_pool-0020", "spans": []}
+{"id": "train_pool-0021", "spans": [{"start": 8, "end": 22, "text": "external audit"}]}
+{"id": "train_pool-0022", "spans": [{"start": 13, "end": 39, "text": "false positive review loop"}]}
+{"id": "train_pool-0023", "spans": []}
+{"id": "train_pool-0024", "spans": [{"start": 17, "end": 38, "text": "full-cycle recruiting"}]}
+{"id": "train_pool-0025", "spans": [{"start": 177, "end": 180, "text": "CRM"}]}
+{"id": "train_pool-0026", "spans": [{"start": 21, "end": 42, "text": "commercial agreements"}]}
+{"id": "train_pool-0027", "spans": [{"start": 6, "end": 21, "text": "agent harnesses"}, {"start": 50, "end": 79, "text": "context management strategies"}]}
+{"id": "train_pool-0028", "spans": []}
+{"id": "train_pool-0029", "spans": [{"start": 42, "end": 58, "text": "Financial models"}, {"start": 97, "end": 109, "text": "EPM platform"}, {"start": 115, "end": 122, "text": "Pigment"}]}
+{"id": "train_pool-0030", "spans": []}
+{"id": "train_pool-0031", "spans": [{"start": 63, "end": 96, "text": "real-time accounting consultation"}]}
+{"id": "train_pool-0032", "spans": []}
+{"id": "train_pool-0033", "spans": []}
+{"id": "train_pool-0034", "spans": []}
+{"id": "train_pool-0035", "spans": [{"start": 23, "end": 50, "text": "knowledge management system"}]}
+{"id": "train_pool-0036", "spans": [{"start": 4, "end": 23, "text": "product experiments"}]}
+{"id": "train_pool-0037", "spans": [{"start": 6, "end": 16, "text": "automation"}, {"start": 21, "end": 35, "text": "tax technology"}, {"start": 102, "end": 112, "text": "AI tooling"}]}
+{"id": "train_pool-0038", "spans": [{"start": 35, "end": 65, "text": "strategic channel partnerships"}, {"start": 70, "end": 93, "text": "ecosystem relationships"}]}
+{"id": "train_pool-0039", "spans": []}
+{"id": "train_pool-0040", "spans": [{"start": 24, "end": 36, "text": "tax concepts"}]}
+{"id": "train_pool-0041", "spans": []}
+{"id": "train_pool-0042", "spans": []}
+{"id": "train_pool-0043", "spans": [{"start": 167, "end": 180, "text": "audit logging"}]}
+{"id": "train_pool-0044", "spans": [{"start": 16, "end": 32, "text": "search relevance"}, {"start": 37, "end": 44, "text": "ranking"}]}
+{"id": "train_pool-0045", "spans": [{"start": 21, "end": 42, "text": "corporate development"}, {"start": 44, "end": 66, "text": "strategic partnerships"}, {"start": 71, "end": 96, "text": "infrastructure investment"}]}
+{"id": "train_pool-0046", "spans": [{"start": 7, "end": 27, "text": "communication skills"}]}
+{"id": "train_pool-0047", "spans": [{"start": 37, "end": 52, "text": "RL environments"}, {"start": 73, "end": 97, "text": "model training pipelines"}]}
+{"id": "train_pool-0048", "spans": []}
+{"id": "train_pool-0049", "spans": []}
+{"id": "train_pool-0050", "spans": [{"start": 59, "end": 71, "text": "Claude's SDK"}, {"start": 76, "end": 79, "text": "API"}]}
+{"id": "train_pool-0051", "spans": []}
+{"id": "train_pool-0052", "spans": []}
+{"id": "train_pool-0053", "spans": [{"start": 17, "end": 35, "text": "workforce planning"}, {"start": 40, "end": 60, "text": "predictive analytics"}]}
+{"id": "train_pool-0054", "spans": []}
+{"id": "train_pool-0055", "spans": []}
+{"id": "train_pool-0056", "spans": [{"start": 43, "end": 60, "text": "Chrome Policy API"}, {"start": 64, "end": 67, "text": "GAM"}]}
+{"id": "train_pool-0057", "spans": [{"start": 44, "end": 54, "text": "accounting"}, {"start": 82, "end": 102, "text": "technical accounting"}]}
+{"id": "train_pool-0058", "spans": []}
+{"id": "train_pool-0059", "spans": []}
+{"id": "train_pool-0060", "spans": [{"start": 66, "end": 83, "text": "framework choices"}, {"start": 85, "end": 104, "text": "performance budgets"}, {"start": 106, "end": 134, "text": "accessibility implementation"}, {"start": 154, "end": 177, "text": "frontend infrastructure"}]}
+{"id": "train_pool-0061", "spans": [{"start": 48, "end": 63, "text": "market strategy"}, {"start": 65, "end": 85, "text": "carrier negotiations"}, {"start": 91, "end": 116, "text": "open enrollment execution"}]}
+{"id": "train_pool-0062", "spans": []}
+{"id": "train_pool-0063", "spans": []}
+{"id": "train_pool-0064", "spans": [{"start": 48, "end": 64, "text": "event identities"}, {"start": 66, "end": 80, "text": "spatial design"}, {"start": 86, "end": 107, "text": "experiential elements"}]}
+{"id": "train_pool-0065", "spans": [{"start": 40, "end": 53, "text": "production ML"}, {"start": 57, "end": 83, "text": "safety-enforcement systems"}]}
+{"id": "train_pool-0066", "spans": [{"start": 11, "end": 31, "text": "utility coordination"}, {"start": 33, "end": 50, "text": "power procurement"}, {"start": 55, "end": 76, "text": "energy considerations"}]}
+{"id": "train_pool-0067", "spans": [{"start": 13, "end": 45, "text": "privacy-preserving ML techniques"}, {"start": 50, "end": 73, "text": "compliance requirements"}]}
+{"id": "train_pool-0068", "spans": []}
+{"id": "train_pool-0069", "spans": [{"start": 23, "end": 36, "text": "online safety"}, {"start": 40, "end": 69, "text": "content moderation regulation"}]}
+{"id": "train_pool-0070", "spans": []}
+{"id": "train_pool-0071", "spans": [{"start": 8, "end": 33, "text": "supplier issue management"}, {"start": 38, "end": 52, "text": "risk treatment"}]}
+{"id": "train_pool-0072", "spans": []}
+{"id": "train_pool-0073", "spans": [{"start": 34, "end": 50, "text": "customer success"}, {"start": 55, "end": 71, "text": "brand protection"}]}
+{"id": "train_pool-0074", "spans": [{"start": 35, "end": 48, "text": "healthcare AI"}]}
+{"id": "train_pool-0075", "spans": []}
+{"id": "train_pool-0076", "spans": [{"start": 20, "end": 47, "text": "corporate insurance program"}, {"start": 103, "end": 120, "text": "broker management"}]}
+{"id": "train_pool-0077", "spans": []}
+{"id": "train_pool-0078", "spans": []}
+{"id": "train_pool-0079", "spans": []}
+{"id": "train_pool-0080", "spans": [{"start": 40, "end": 48, "text": "payments"}, {"start": 50, "end": 53, "text": "POs"}, {"start": 59, "end": 68, "text": "GL coding"}]}
+{"id": "train_pool-0081", "spans": [{"start": 17, "end": 37, "text": "facilitate workshops"}]}
+{"id": "train_pool-0082", "spans": [{"start": 34, "end": 60, "text": "cross-platform development"}]}
+{"id": "train_pool-0083", "spans": [{"start": 21, "end": 28, "text": "FAT/SAT"}, {"start": 33, "end": 56, "text": "commissioning workflows"}, {"start": 65, "end": 88, "text": "equipment documentation"}]}
+{"id": "train_pool-0084", "spans": []}
+{"id": "train_pool-0085", "spans": [{"start": 57, "end": 79, "text": "performance management"}, {"start": 81, "end": 99, "text": "career development"}]}
+{"id": "train_pool-0086", "spans": [{"start": 35, "end": 52, "text": "operating systems"}, {"start": 54, "end": 62, "text": "browsers"}, {"start": 74, "end": 96, "text": "OS-integrated software"}, {"start": 98, "end": 111, "text": "screensharing"}, {"start": 113, "end": 126, "text": "video-calling"}, {"start": 128, "end": 140, "text": "game engines"}]}
+{"id": "train_pool-0087", "spans": [{"start": 37, "end": 52, "text": "data operations"}, {"start": 58, "end": 75, "text": "vendor management"}]}
+{"id": "train_pool-0088", "spans": [{"start": 31, "end": 43, "text": "data science"}, {"start": 48, "end": 59, "text": "engineering"}, {"start": 92, "end": 130, "text": "large-scale data processing frameworks"}]}
+{"id": "train_pool-0089", "spans": []}
+{"id": "train_pool-0090", "spans": [{"start": 15, "end": 32, "text": "delivery pipeline"}]}
+{"id": "train_pool-0091", "spans": [{"start": 25, "end": 44, "text": "enablement programs"}, {"start": 55, "end": 64, "text": "workshops"}, {"start": 66, "end": 87, "text": "cohort-based learning"}, {"start": 89, "end": 112, "text": "communities of practice"}, {"start": 117, "end": 144, "text": "partner onboarding journeys"}]}
+{"id": "train_pool-0092", "spans": [{"start": 85, "end": 105, "text": "measurement approach"}]}
+{"id": "train_pool-0093", "spans": [{"start": 15, "end": 32, "text": "ML infrastructure"}, {"start": 34, "end": 53, "text": "distributed systems"}, {"start": 58, "end": 74, "text": "research tooling"}]}
+{"id": "train_pool-0094", "spans": []}
+{"id": "train_pool-0095", "spans": [{"start": 17, "end": 57, "text": "standalone-subsidiary integration models"}, {"start": 59, "end": 80, "text": "consolidation bridges"}, {"start": 86, "end": 111, "text": "equity-method investments"}]}
+{"id": "train_pool-0096", "spans": [{"start": 45, "end": 61, "text": "keynote settings"}, {"start": 73, "end": 83, "text": "live demos"}, {"start": 88, "end": 117, "text": "pre-designed motion scenarios"}]}
+{"id": "train_pool-0097", "spans": [{"start": 99, "end": 118, "text": "experimental design"}, {"start": 123, "end": 143, "text": "interpreting results"}]}
+{"id": "train_pool-0098", "spans": [{"start": 16, "end": 48, "text": "state-of-the-art language models"}]}
+{"id": "train_pool-0099", "spans": []}
+{"id": "train_pool-0100", "spans": []}
+{"id": "train_pool-0101", "spans": []}
+{"id": "train_pool-0102", "spans": []}
+{"id": "train_pool-0103", "spans": []}
+{"id": "train_pool-0104", "spans": []}
+{"id": "train_pool-0105", "spans": []}
+{"id": "train_pool-0106", "spans": [{"start": 11, "end": 45, "text": "investigating inauthentic networks"}, {"start": 47, "end": 64, "text": "covert monitoring"}, {"start": 69, "end": 88, "text": "surveillance abuses"}]}
+{"id": "train_pool-0107", "spans": []}
+{"id": "train_pool-0108", "spans": []}
+{"id": "train_pool-0109", "spans": []}
+{"id": "train_pool-0110", "spans": [{"start": 74, "end": 91, "text": "deal registration"}, {"start": 93, "end": 102, "text": "reporting"}, {"start": 104, "end": 129, "text": "programmes de financement"}]}
+{"id": "train_pool-0111", "spans": [{"start": 17, "end": 48, "text": "AI-assisted development tooling"}]}
+{"id": "train_pool-0112", "spans": []}
+{"id": "train_pool-0113", "spans": []}
+{"id": "train_pool-0114", "spans": [{"start": 28, "end": 47, "text": "multiple currencies"}, {"start": 61, "end": 74, "text": "FX-related AR"}]}
+{"id": "train_pool-0115", "spans": []}
+{"id": "train_pool-0116", "spans": [{"start": 18, "end": 37, "text": "experimental design"}, {"start": 42, "end": 58, "text": "causal inference"}, {"start": 70, "end": 81, "text": "A/B testing"}, {"start": 92, "end": 100, "text": "holdouts"}, {"start": 105, "end": 131, "text": "quasi-experimental methods"}]}
+{"id": "train_pool-0117", "spans": [{"start": 11, "end": 22, "text": "measurement"}, {"start": 27, "end": 51, "text": "causal-inference tooling"}]}
+{"id": "train_pool-0118", "spans": [{"start": 29, "end": 49, "text": "assistive technology"}, {"start": 52, "end": 100, "text": "screen readers (VoiceOver, NVDA, JAWS, TalkBack)"}, {"start": 102, "end": 126, "text": "keyboard-only navigation"}, {"start": 128, "end": 141, "text": "magnification"}, {"start": 143, "end": 156, "text": "voice control"}]}
+{"id": "train_pool-0119", "spans": [{"start": 36, "end": 44, "text": "security"}, {"start": 49, "end": 80, "text": "supply-chain-integrity concepts"}]}
+{"id": "train_pool-0120", "spans": []}
+{"id": "train_pool-0121", "spans": [{"start": 34, "end": 83, "text": "federal and state corporate income tax compliance"}]}
+{"id": "train_pool-0122", "spans": []}
+{"id": "train_pool-0123", "spans": [{"start": 65, "end": 87, "text": "technical integrations"}]}
+{"id": "train_pool-0124", "spans": [{"start": 56, "end": 66, "text": "automation"}, {"start": 92, "end": 115, "text": "quote-to-cash lifecycle"}, {"start": 132, "end": 151, "text": "operational metrics"}]}
+{"id": "train_pool-0125", "spans": [{"start": 8, "end": 46, "text": "simulation-based training environments"}, {"start": 51, "end": 60, "text": "verifiers"}]}
+{"id": "train_pool-0126", "spans": [{"start": 87, "end": 103, "text": "chain of custody"}]}
+{"id": "train_pool-0127", "spans": [{"start": 52, "end": 70, "text": "peaking generation"}]}
+{"id": "train_pool-0128", "spans": [{"start": 28, "end": 33, "text": "coach"}]}
+{"id": "train_pool-0129", "spans": []}
+{"id": "train_pool-0130", "spans": []}
+{"id": "train_pool-0131", "spans": [{"start": 19, "end": 36, "text": "reference designs"}, {"start": 40, "end": 49, "text": "standards"}]}
+{"id": "train_pool-0132", "spans": []}
+{"id": "train_pool-0133", "spans": []}
+{"id": "train_pool-0134", "spans": []}
+{"id": "train_pool-0135", "spans": []}
+{"id": "train_pool-0136", "spans": [{"start": 19, "end": 34, "text": "digital content"}, {"start": 39, "end": 49, "text": "paid media"}]}
+{"id": "train_pool-0137", "spans": [{"start": 34, "end": 45, "text": "Claude Code"}]}
+{"id": "train_pool-0138", "spans": [{"start": 92, "end": 107, "text": "eval frameworks"}, {"start": 109, "end": 132, "text": "experimentation tooling"}, {"start": 134, "end": 148, "text": "data pipelines"}]}
+{"id": "train_pool-0139", "spans": [{"start": 21, "end": 55, "text": "cloud marketplace reseller motions"}, {"start": 65, "end": 79, "text": "private offers"}, {"start": 83, "end": 99, "text": "co-sell programs"}]}
+{"id": "train_pool-0140", "spans": [{"start": 32, "end": 50, "text": "payroll operations"}, {"start": 77, "end": 98, "text": "international payroll"}]}
+{"id": "train_pool-0141", "spans": [{"start": 48, "end": 69, "text": "regulatory engagement"}, {"start": 98, "end": 116, "text": "content regulation"}, {"start": 121, "end": 135, "text": "AI regulations"}, {"start": 341, "end": 361, "text": "structured dialogues"}, {"start": 363, "end": 367, "text": "RFIs"}, {"start": 369, "end": 391, "text": "transparency reporting"}, {"start": 397, "end": 424, "text": "codes-of-practice processes"}]}
+{"id": "train_pool-0142", "spans": []}
+{"id": "train_pool-0143", "spans": [{"start": 27, "end": 33, "text": "Python"}, {"start": 35, "end": 39, "text": "Rust"}, {"start": 47, "end": 49, "text": "Go"}]}
+{"id": "train_pool-0144", "spans": [{"start": 79, "end": 99, "text": "onboarding workshops"}, {"start": 123, "end": 143, "text": "live troubleshooting"}, {"start": 145, "end": 171, "text": "executive security reviews"}]}
+{"id": "train_pool-0145", "spans": []}
+{"id": "train_pool-0146", "spans": [{"start": 20, "end": 36, "text": "shared platforms"}, {"start": 40, "end": 61, "text": "foundational services"}]}
+{"id": "train_pool-0147", "spans": [{"start": 0, "end": 25, "text": "Public cloud fundamentals"}, {"start": 27, "end": 37, "text": "containers"}, {"start": 39, "end": 56, "text": "managed databases"}, {"start": 58, "end": 61, "text": "CDN"}, {"start": 63, "end": 73, "text": "monitoring"}]}
+{"id": "train_pool-0148", "spans": [{"start": 0, "end": 18, "text": "Revenue Accounting"}, {"start": 20, "end": 33, "text": "Go-to--Market"}, {"start": 35, "end": 40, "text": "Legal"}, {"start": 42, "end": 45, "text": "Tax"}, {"start": 47, "end": 66, "text": "Billing Engineering"}, {"start": 72, "end": 87, "text": "Finance Systems"}]}
+{"id": "train_pool-0149", "spans": [{"start": 4, "end": 19, "text": "month-end close"}, {"start": 55, "end": 67, "text": "payment runs"}, {"start": 104, "end": 121, "text": "banking platforms"}]}
+{"id": "train_pool-0150", "spans": []}
+{"id": "train_pool-0151", "spans": []}
+{"id": "train_pool-0152", "spans": [{"start": 39, "end": 62, "text": "infrastructure projects"}]}
+{"id": "train_pool-0153", "spans": []}
+{"id": "train_pool-0154", "spans": [{"start": 36, "end": 42, "text": "server"}, {"start": 44, "end": 51, "text": "network"}, {"start": 57, "end": 76, "text": "rack-level hardware"}]}
+{"id": "train_pool-0155", "spans": []}
+{"id": "train_pool-0156", "spans": [{"start": 0, "end": 25, "text": "Major incident management"}]}
+{"id": "train_pool-0157", "spans": [{"start": 11, "end": 42, "text": "digital signal processing (DSP)"}, {"start": 73, "end": 99, "text": "acoustic echo cancellation"}, {"start": 101, "end": 116, "text": "noise reduction"}, {"start": 118, "end": 129, "text": "EQ/dynamics"}, {"start": 135, "end": 145, "text": "automixing"}]}
+{"id": "train_pool-0158", "spans": [{"start": 17, "end": 25, "text": "AI tools"}]}
+{"id": "train_pool-0159", "spans": [{"start": 42, "end": 72, "text": "integration project management"}]}
+{"id": "train_pool-0160", "spans": [{"start": 34, "end": 53, "text": "equity compensation"}, {"start": 58, "end": 74, "text": "tax requirements"}]}
+{"id": "train_pool-0161", "spans": [{"start": 31, "end": 48, "text": "security concepts"}]}
+{"id": "train_pool-0162", "spans": [{"start": 46, "end": 49, "text": "SQL"}, {"start": 51, "end": 57, "text": "Python"}, {"start": 59, "end": 62, "text": "dbt"}, {"start": 68, "end": 91, "text": "modern data stack tools"}]}
+{"id": "train_pool-0163", "spans": [{"start": 51, "end": 66, "text": "external audits"}]}
+{"id": "train_pool-0164", "spans": [{"start": 26, "end": 55, "text": "lease administration platform"}, {"start": 132, "end": 146, "text": "data migration"}, {"start": 152, "end": 173, "text": "operational workflows"}]}
+{"id": "train_pool-0165", "spans": [{"start": 5, "end": 26, "text": "quantitative analysis"}, {"start": 78, "end": 82, "text": "FAIR"}, {"start": 84, "end": 105, "text": "calibrated estimation"}, {"start": 111, "end": 121, "text": "simulation"}]}
+{"id": "train_pool-0166", "spans": [{"start": 21, "end": 54, "text": "enterprise level business systems"}]}
+{"id": "train_pool-0167", "spans": [{"start": 37, "end": 65, "text": "consumer-facing web products"}, {"start": 93, "end": 103, "text": "UI quality"}, {"start": 108, "end": 123, "text": "user experience"}]}
+{"id": "train_pool-0168", "spans": [{"start": 63, "end": 84, "text": "management consulting"}]}
+{"id": "train_pool-0169", "spans": [{"start": 54, "end": 74, "text": "commercial contracts"}, {"start": 76, "end": 91, "text": "SaaS agreements"}, {"start": 96, "end": 119, "text": "technology transactions"}]}
+{"id": "train_pool-0170", "spans": [{"start": 37, "end": 65, "text": "sanctions and trade controls"}]}
+{"id": "train_pool-0171", "spans": []}
+{"id": "train_pool-0172", "spans": []}
+{"id": "train_pool-0173", "spans": []}
+{"id": "train_pool-0174", "spans": [{"start": 71, "end": 85, "text": "political risk"}]}
+{"id": "train_pool-0175", "spans": []}
+{"id": "train_pool-0176", "spans": [{"start": 14, "end": 38, "text": "infrastructure/databases"}]}
+{"id": "train_pool-0177", "spans": [{"start": 24, "end": 32, "text": "AI tools"}]}
+{"id": "train_pool-0178", "spans": [{"start": 85, "end": 89, "text": "JTAG"}, {"start": 91, "end": 97, "text": "serial"}, {"start": 99, "end": 122, "text": "platform-level bring-up"}, {"start": 124, "end": 138, "text": "silicon errata"}]}
+{"id": "train_pool-0179", "spans": []}
+{"id": "train_pool-0180", "spans": [{"start": 22, "end": 40, "text": "partner enablement"}, {"start": 44, "end": 66, "text": "certification programs"}]}
+{"id": "train_pool-0181", "spans": []}
+{"id": "train_pool-0182", "spans": [{"start": 73, "end": 76, "text": "API"}]}
+{"id": "train_pool-0183", "spans": []}
+{"id": "train_pool-0184", "spans": []}
+{"id": "train_pool-0185", "spans": [{"start": 60, "end": 87, "text": "revenue recognition systems"}, {"start": 97, "end": 110, "text": "Zuora Revenue"}, {"start": 112, "end": 136, "text": "Salesforce Revenue Cloud"}, {"start": 170, "end": 177, "text": "ASC 606"}]}
+{"id": "train_pool-0186", "spans": []}
+{"id": "train_pool-0187", "spans": []}
+{"id": "train_pool-0188", "spans": []}
+{"id": "train_pool-0189", "spans": []}
+{"id": "train_pool-0190", "spans": [{"start": 34, "end": 44, "text": "dashboards"}, {"start": 49, "end": 54, "text": "tools"}, {"start": 65, "end": 85, "text": "self-serve analytics"}]}
+{"id": "train_pool-0191", "spans": []}
+{"id": "train_pool-0192", "spans": []}
+{"id": "train_pool-0193", "spans": []}
+{"id": "train_pool-0194", "spans": [{"start": 21, "end": 48, "text": "modern cloud infrastructure"}, {"start": 60, "end": 70, "text": "Kubernetes"}, {"start": 75, "end": 102, "text": "large scale cloud providers"}]}
+{"id": "train_pool-0195", "spans": []}
+{"id": "train_pool-0196", "spans": [{"start": 44, "end": 52, "text": "modeling"}]}
+{"id": "train_pool-0197", "spans": [{"start": 80, "end": 95, "text": "reconciliations"}, {"start": 97, "end": 112, "text": "journal entries"}, {"start": 118, "end": 137, "text": "variance commentary"}]}
+{"id": "train_pool-0198", "spans": [{"start": 46, "end": 65, "text": "Git-based workflows"}, {"start": 67, "end": 78, "text": "code review"}, {"start": 80, "end": 97, "text": "automated testing"}, {"start": 99, "end": 104, "text": "CI/CD"}, {"start": 106, "end": 113, "text": "logging"}, {"start": 119, "end": 132, "text": "observability"}]}
+{"id": "train_pool-0199", "spans": []}
+{"id": "train_pool-0200", "spans": [{"start": 43, "end": 62, "text": "production networks"}, {"start": 95, "end": 102, "text": "cabling"}, {"start": 104, "end": 110, "text": "optics"}, {"start": 112, "end": 120, "text": "hardware"}, {"start": 130, "end": 157, "text": "software-defined networking"}]}
+{"id": "train_pool-0202", "spans": [{"start": 16, "end": 34, "text": "offensive security"}, {"start": 36, "end": 47, "text": "red teaming"}, {"start": 52, "end": 74, "text": "vulnerability research"}]}
+{"id": "train_pool-0205", "spans": [{"start": 12, "end": 36, "text": "crowd-sourcing platforms"}, {"start": 41, "end": 74, "text": "human feedback collection systems"}]}
+{"id": "train_pool-0206", "spans": [{"start": 57, "end": 73, "text": "channel strategy"}]}
+{"id": "train_pool-0210", "spans": []}
+{"id": "train_pool-0211", "spans": [{"start": 22, "end": 37, "text": "deal management"}, {"start": 42, "end": 60, "text": "revenue operations"}]}
+{"id": "train_pool-0212", "spans": [{"start": 42, "end": 59, "text": "broadcast studios"}, {"start": 61, "end": 85, "text": "streaming infrastructure"}, {"start": 91, "end": 107, "text": "event technology"}]}
+{"id": "train_pool-0213", "spans": [{"start": 19, "end": 41, "text": "privacy infrastructure"}, {"start": 52, "end": 76, "text": "automated data discovery"}, {"start": 78, "end": 92, "text": "classification"}, {"start": 94, "end": 109, "text": "access controls"}, {"start": 111, "end": 124, "text": "audit logging"}, {"start": 130, "end": 158, "text": "lifecycle management systems"}]}
+{"id": "train_pool-0214", "spans": []}
+{"id": "train_pool-0215", "spans": [{"start": 21, "end": 53, "text": "privacy-preserving architectures"}, {"start": 58, "end": 69, "text": "AI training"}, {"start": 74, "end": 91, "text": "inference systems"}, {"start": 148, "end": 168, "text": "differential privacy"}, {"start": 170, "end": 188, "text": "federated learning"}, {"start": 194, "end": 224, "text": "secure multi-party computation"}]}
+{"id": "train_pool-0216", "spans": [{"start": 30, "end": 48, "text": "ALM implementation"}, {"start": 80, "end": 94, "text": "Asset Taxonomy"}, {"start": 103, "end": 118, "text": "Three-Way Match"}]}
+{"id": "train_pool-0217", "spans": [{"start": 93, "end": 109, "text": "Interpretability"}]}
+{"id": "train_pool-0218", "spans": [{"start": 30, "end": 51, "text": "large language models"}]}
+{"id": "train_pool-0219", "spans": []}
+{"id": "train_pool-0220", "spans": []}
+{"id": "train_pool-0221", "spans": [{"start": 36, "end": 52, "text": "web applications"}, {"start": 86, "end": 89, "text": "CRM"}]}
+{"id": "train_pool-0222", "spans": [{"start": 21, "end": 39, "text": "security workflows"}, {"start": 44, "end": 49, "text": "AI/ML"}]}
+{"id": "train_pool-0223", "spans": []}
+{"id": "train_pool-0224", "spans": []}
+{"id": "train_pool-0225", "spans": [{"start": 246, "end": 259, "text": "architectural"}, {"start": 261, "end": 284, "text": "electrical / fire alarm"}, {"start": 286, "end": 293, "text": "network"}, {"start": 295, "end": 297, "text": "AV"}, {"start": 303, "end": 326, "text": "Real Estate / Workplace"}]}
+{"id": "train_pool-0226", "spans": [{"start": 37, "end": 53, "text": "Customer Success"}, {"start": 55, "end": 65, "text": "Consulting"}, {"start": 67, "end": 86, "text": "Solutions Architect"}, {"start": 88, "end": 119, "text": "Solutions/Functional Consultant"}, {"start": 121, "end": 137, "text": "Success Engineer"}]}
+{"id": "train_pool-0227", "spans": [{"start": 32, "end": 38, "text": "AI R&D"}]}
+{"id": "train_pool-0228", "spans": []}
+{"id": "train_pool-0229", "spans": []}
+{"id": "train_pool-0230", "spans": [{"start": 23, "end": 47, "text": "high-stakes negotiations"}]}
+{"id": "train_pool-0231", "spans": [{"start": 0, "end": 18, "text": "Research computing"}, {"start": 20, "end": 45, "text": "scientific infrastructure"}, {"start": 50, "end": 69, "text": "developer platforms"}]}
+{"id": "train_pool-0232", "spans": [{"start": 20, "end": 60, "text": "capital-intensive procurement portfolios"}, {"start": 83, "end": 94, "text": "negotiation"}, {"start": 96, "end": 113, "text": "category strategy"}, {"start": 119, "end": 139, "text": "vendor consolidation"}]}
+{"id": "train_pool-0233", "spans": [{"start": 13, "end": 24, "text": "pretraining"}, {"start": 26, "end": 28, "text": "RL"}]}
+{"id": "train_pool-0234", "spans": [{"start": 29, "end": 45, "text": "product insights"}]}
+{"id": "train_pool-0235", "spans": [{"start": 15, "end": 44, "text": "transfer-pricing arrangements"}, {"start": 66, "end": 68, "text": "FX"}, {"start": 73, "end": 106, "text": "intercompany settlement processes"}]}
+{"id": "train_pool-0236", "spans": [{"start": 17, "end": 21, "text": "LLMs"}, {"start": 34, "end": 53, "text": "security assessment"}, {"start": 65, "end": 81, "text": "tooling creation"}]}
+{"id": "train_pool-0237", "spans": [{"start": 22, "end": 35, "text": "cybersecurity"}]}
+{"id": "train_pool-0238", "spans": [{"start": 27, "end": 47, "text": "experimental science"}]}
+{"id": "train_pool-0239", "spans": [{"start": 21, "end": 38, "text": "people management"}]}
+{"id": "train_pool-0240", "spans": [{"start": 84, "end": 87, "text": "CTI"}]}
+{"id": "train_pool-0241", "spans": []}
+{"id": "train_pool-0242", "spans": [{"start": 34, "end": 52, "text": "bug bounty program"}]}
+{"id": "train_pool-0243", "spans": []}
+{"id": "train_pool-0244", "spans": []}
+{"id": "train_pool-0245", "spans": [{"start": 47, "end": 57, "text": "Applied AI"}]}
+{"id": "train_pool-0246", "spans": []}
+{"id": "train_pool-0247", "spans": []}
+{"id": "train_pool-0248", "spans": []}
+{"id": "train_pool-0249", "spans": []}
+{"id": "train_pool-0250", "spans": []}
+{"id": "train_pool-0251", "spans": []}
+{"id": "train_pool-0252", "spans": []}
+{"id": "train_pool-0253", "spans": [{"start": 21, "end": 40, "text": "endpoint management"}, {"start": 45, "end": 62, "text": "security concepts"}]}
+{"id": "train_pool-0254", "spans": []}
+{"id": "train_pool-0255", "spans": [{"start": 29, "end": 38, "text": "financing"}, {"start": 43, "end": 70, "text": "infrastructure requirements"}, {"start": 74, "end": 96, "text": "compute infrastructure"}]}
+{"id": "train_pool-0256", "spans": []}
+{"id": "train_pool-0257", "spans": [{"start": 28, "end": 65, "text": "exigences de souveraineté des données"}, {"start": 70, "end": 78, "text": "sécurité"}, {"start": 85, "end": 95, "text": "conformité"}]}
+{"id": "train_pool-0258", "spans": [{"start": 8, "end": 23, "text": "joint campaigns"}, {"start": 28, "end": 46, "text": "executive programs"}]}
+{"id": "train_pool-0259", "spans": [{"start": 10, "end": 42, "text": "written and verbal communication"}]}
+{"id": "train_pool-0260", "spans": []}
+{"id": "train_pool-0261", "spans": [{"start": 31, "end": 49, "text": "statistical models"}, {"start": 51, "end": 74, "text": "optimization frameworks"}, {"start": 80, "end": 98, "text": "simulation engines"}]}
+{"id": "train_pool-0262", "spans": []}
+{"id": "train_pool-0263", "spans": []}
+{"id": "train_pool-0264", "spans": []}
+{"id": "train_pool-0265", "spans": []}
+{"id": "train_pool-0266", "spans": []}
+{"id": "train_pool-0267", "spans": []}
+{"id": "train_pool-0268", "spans": []}
+{"id": "train_pool-0269", "spans": []}
+{"id": "train_pool-0270", "spans": [{"start": 18, "end": 33, "text": "interview loops"}, {"start": 35, "end": 51, "text": "intake practices"}, {"start": 57, "end": 78, "text": "assessment approaches"}]}
+{"id": "train_pool-0271", "spans": []}
+{"id": "train_pool-0272", "spans": []}
+{"id": "train_pool-0273", "spans": [{"start": 27, "end": 56, "text": "AI/technology deal structures"}, {"start": 59, "end": 70, "text": "acqui-hires"}, {"start": 72, "end": 101, "text": "IP/license-heavy transactions"}, {"start": 103, "end": 132, "text": "data and compute arrangements"}, {"start": 134, "end": 160, "text": "revenue-share partnerships"}, {"start": 166, "end": 191, "text": "strategic investor rights"}, {"start": 230, "end": 232, "text": "AI"}]}
+{"id": "train_pool-0274", "spans": [{"start": 73, "end": 95, "text": "platform modernization"}, {"start": 100, "end": 117, "text": "new tech adoption"}]}
+{"id": "train_pool-0275", "spans": []}
+{"id": "train_pool-0276", "spans": []}
+{"id": "train_pool-0277", "spans": [{"start": 20, "end": 45, "text": "data collection pipelines"}]}
+{"id": "train_pool-0278", "spans": []}
+{"id": "train_pool-0279", "spans": [{"start": 21, "end": 53, "text": "project management methodologies"}, {"start": 55, "end": 60, "text": "Agile"}, {"start": 62, "end": 67, "text": "Scrum"}]}
+{"id": "train_pool-0280", "spans": [{"start": 23, "end": 25, "text": "AI"}, {"start": 65, "end": 75, "text": "government"}, {"start": 77, "end": 80, "text": "law"}, {"start": 82, "end": 99, "text": "political science"}, {"start": 104, "end": 117, "text": "public policy"}]}
+{"id": "train_pool-0281", "spans": [{"start": 42, "end": 53, "text": "ERP systems"}, {"start": 137, "end": 152, "text": "API development"}, {"start": 154, "end": 158, "text": "REST"}, {"start": 160, "end": 168, "text": "SOAP/XML"}, {"start": 170, "end": 178, "text": "webhooks"}, {"start": 201, "end": 223, "text": "ERP extension patterns"}, {"start": 228, "end": 253, "text": "custom object development"}]}
+{"id": "train_pool-0282", "spans": []}
+{"id": "train_pool-0283", "spans": []}
+{"id": "train_pool-0284", "spans": []}
+{"id": "train_pool-0285", "spans": [{"start": 31, "end": 45, "text": "systems design"}, {"start": 94, "end": 110, "text": "software systems"}]}
+{"id": "train_pool-0286", "spans": []}
+{"id": "train_pool-0287", "spans": []}
+{"id": "train_pool-0288", "spans": [{"start": 25, "end": 30, "text": "Slack"}, {"start": 35, "end": 51, "text": "Google Workspace"}]}
+{"id": "train_pool-0289", "spans": []}
+{"id": "train_pool-0290", "spans": [{"start": 8, "end": 25, "text": "internal controls"}]}
+{"id": "train_pool-0291", "spans": [{"start": 0, "end": 29, "text": "Continuous control monitoring"}, {"start": 181, "end": 202, "text": "compliance frameworks"}]}
+{"id": "train_pool-0292", "spans": [{"start": 30, "end": 45, "text": "experimentation"}, {"start": 49, "end": 65, "text": "causal-inference"}]}
+{"id": "train_pool-0293", "spans": [{"start": 13, "end": 21, "text": "Japanese"}, {"start": 49, "end": 56, "text": "English"}]}
+{"id": "train_pool-0294", "spans": []}
+{"id": "train_pool-0295", "spans": []}
+{"id": "train_pool-0296", "spans": []}
+{"id": "train_pool-0297", "spans": []}
+{"id": "train_pool-0298", "spans": []}
+{"id": "train_pool-0299", "spans": []}
+{"id": "train_pool-0300", "spans": []}
+{"id": "train_pool-0301", "spans": []}
+{"id": "train_pool-0302", "spans": []}
+{"id": "train_pool-0303", "spans": [{"start": 55, "end": 74, "text": "process improvement"}]}
+{"id": "train_pool-0304", "spans": [{"start": 14, "end": 36, "text": "user experience design"}, {"start": 38, "end": 56, "text": "product management"}, {"start": 61, "end": 76, "text": "workflow design"}]}
+{"id": "train_pool-0305", "spans": []}
+{"id": "train_pool-0306", "spans": [{"start": 19, "end": 38, "text": "executive briefings"}, {"start": 40, "end": 55, "text": "customer events"}]}
+{"id": "train_pool-0307", "spans": [{"start": 6, "end": 30, "text": "site and campus planning"}]}
+{"id": "train_pool-0308", "spans": [{"start": 15, "end": 47, "text": "written and verbal communication"}]}
+{"id": "train_pool-0309", "spans": [{"start": 10, "end": 39, "text": "facilitation and presentation"}]}
+{"id": "train_pool-0310", "spans": []}
+{"id": "train_pool-0311", "spans": []}
+{"id": "train_pool-0312", "spans": [{"start": 109, "end": 139, "text": "financial and legal frameworks"}]}
+{"id": "train_pool-0313", "spans": [{"start": 12, "end": 28, "text": "enterprise sales"}]}
+{"id": "train_pool-0314", "spans": [{"start": 83, "end": 106, "text": "quote-to-cash lifecycle"}]}
+{"id": "train_pool-0315", "spans": [{"start": 5, "end": 23, "text": "consultative sales"}]}
+{"id": "train_pool-0316", "spans": [{"start": 10, "end": 30, "text": "communication skills"}]}
+{"id": "train_pool-0317", "spans": []}
+{"id": "train_pool-0318", "spans": []}
+{"id": "train_pool-0319", "spans": [{"start": 11, "end": 18, "text": "English"}, {"start": 44, "end": 50, "text": "French"}]}
+{"id": "train_pool-0320", "spans": []}
+{"id": "train_pool-0321", "spans": [{"start": 21, "end": 40, "text": "enterprise security"}, {"start": 42, "end": 46, "text": "risk"}, {"start": 52, "end": 62, "text": "compliance"}]}
+{"id": "train_pool-0322", "spans": [{"start": 29, "end": 34, "text": "HRBPs"}]}
+{"id": "train_pool-0323", "spans": [{"start": 24, "end": 46, "text": "measurement frameworks"}]}
+{"id": "train_pool-0324", "spans": [{"start": 10, "end": 20, "text": "deal model"}, {"start": 25, "end": 43, "text": "pro forma forecast"}, {"start": 79, "end": 93, "text": "deal economics"}, {"start": 98, "end": 117, "text": "structuring options"}]}
+{"id": "train_pool-0325", "spans": [{"start": 19, "end": 34, "text": "staffing models"}, {"start": 50, "end": 61, "text": "SLA targets"}, {"start": 67, "end": 89, "text": "headcount requirements"}, {"start": 97, "end": 100, "text": "FTE"}]}
+{"id": "train_pool-0326", "spans": [{"start": 27, "end": 36, "text": "playbooks"}]}
+{"id": "train_pool-0327", "spans": []}
+{"id": "train_pool-0328", "spans": [{"start": 16, "end": 31, "text": "data governance"}, {"start": 35, "end": 57, "text": "information protection"}, {"start": 59, "end": 77, "text": "sensitivity labels"}, {"start": 79, "end": 82, "text": "DLP"}]}
+{"id": "train_pool-0329", "spans": []}
+{"id": "train_pool-0330", "spans": []}
+{"id": "train_pool-0331", "spans": [{"start": 18, "end": 50, "text": "cloud service provider economics"}, {"start": 52, "end": 71, "text": "contract structures"}, {"start": 77, "end": 91, "text": "pricing models"}]}
+{"id": "train_pool-0332", "spans": []}
+{"id": "train_pool-0333", "spans": []}
+{"id": "train_pool-0334", "spans": []}
+{"id": "train_pool-0335", "spans": [{"start": 42, "end": 58, "text": "AI/ML components"}, {"start": 75, "end": 96, "text": "large language models"}]}
+{"id": "train_pool-0336", "spans": []}
+{"id": "train_pool-0337", "spans": []}
+{"id": "train_pool-0338", "spans": [{"start": 6, "end": 25, "text": "process improvement"}, {"start": 30, "end": 59, "text": "revenue system implementation"}, {"start": 110, "end": 113, "text": "UAT"}]}
+{"id": "train_pool-0339", "spans": [{"start": 8, "end": 22, "text": "internal tools"}, {"start": 52, "end": 62, "text": "monitoring"}, {"start": 64, "end": 72, "text": "alerting"}, {"start": 74, "end": 89, "text": "service metrics"}, {"start": 95, "end": 103, "text": "runbooks"}]}
+{"id": "train_pool-0340", "spans": [{"start": 14, "end": 28, "text": "sales strategy"}, {"start": 30, "end": 48, "text": "revenue operations"}, {"start": 53, "end": 74, "text": "management consulting"}, {"start": 142, "end": 150, "text": "presales"}, {"start": 152, "end": 167, "text": "customer-facing"}, {"start": 169, "end": 181, "text": "partnerships"}, {"start": 187, "end": 205, "text": "founder experience"}]}
+{"id": "train_pool-0341", "spans": [{"start": 9, "end": 44, "text": "quantitative schedule risk analysis"}, {"start": 55, "end": 81, "text": "parametric cost benchmarks"}]}
+{"id": "train_pool-0342", "spans": []}
+{"id": "train_pool-0343", "spans": [{"start": 28, "end": 51, "text": "regulatory environments"}, {"start": 101, "end": 116, "text": "employment laws"}, {"start": 149, "end": 173, "text": "data privacy regulations"}, {"start": 202, "end": 206, "text": "APPI"}, {"start": 217, "end": 221, "text": "PIPA"}, {"start": 236, "end": 247, "text": "Privacy Act"}, {"start": 266, "end": 274, "text": "DPDP Act"}, {"start": 292, "end": 296, "text": "PDPA"}]}
+{"id": "train_pool-0344", "spans": [{"start": 16, "end": 34, "text": "accelerator health"}, {"start": 39, "end": 46, "text": "burn-in"}, {"start": 48, "end": 88, "text": "collective-communications sanity testing"}, {"start": 93, "end": 110, "text": "fleet-health SLOs"}]}
+{"id": "train_pool-0345", "spans": [{"start": 6, "end": 33, "text": "designing scalable programs"}, {"start": 35, "end": 45, "text": "frameworks"}, {"start": 51, "end": 71, "text": "flexible org systems"}]}
+{"id": "train_pool-0346", "spans": [{"start": 16, "end": 41, "text": "headless CMS architecture"}, {"start": 72, "end": 88, "text": "content modeling"}, {"start": 90, "end": 115, "text": "structured data workflows"}, {"start": 125, "end": 146, "text": "publishing experience"}]}
+{"id": "train_pool-0347", "spans": [{"start": 31, "end": 47, "text": "pricing decision"}, {"start": 59, "end": 67, "text": "bookings"}, {"start": 69, "end": 78, "text": "invoicing"}, {"start": 80, "end": 83, "text": "tax"}, {"start": 88, "end": 107, "text": "revenue recognition"}]}
+{"id": "train_pool-0348", "spans": [{"start": 22, "end": 36, "text": "technical lead"}, {"start": 49, "end": 70, "text": "engineering standards"}]}
+{"id": "train_pool-0349", "spans": [{"start": 86, "end": 106, "text": "technical deep dives"}, {"start": 112, "end": 133, "text": "relationship building"}]}
+{"id": "train_pool-0350", "spans": [{"start": 95, "end": 119, "text": "infrastructure expertise"}]}
+{"id": "train_pool-0351", "spans": []}
+{"id": "train_pool-0352", "spans": [{"start": 21, "end": 46, "text": "attack surface monitoring"}, {"start": 51, "end": 72, "text": "automated remediation"}, {"start": 87, "end": 120, "text": "cloud security posture management"}, {"start": 128, "end": 157, "text": "custom detection capabilities"}, {"start": 163, "end": 203, "text": "infrastructure-as-code security scanning"}]}
+{"id": "train_pool-0353", "spans": []}
+{"id": "train_pool-0354", "spans": [{"start": 24, "end": 30, "text": "Claude"}, {"start": 40, "end": 48, "text": "AI tools"}, {"start": 52, "end": 75, "text": "automate reconciliation"}, {"start": 77, "end": 84, "text": "testing"}, {"start": 89, "end": 108, "text": "evidence collection"}]}
+{"id": "train_pool-0355", "spans": [{"start": 17, "end": 42, "text": "liquid-handling platforms"}]}
+{"id": "train_pool-0356", "spans": [{"start": 69, "end": 86, "text": "economic analysis"}, {"start": 98, "end": 120, "text": "measurement approaches"}]}
+{"id": "train_pool-0357", "spans": []}
+{"id": "train_pool-0358", "spans": [{"start": 24, "end": 51, "text": "sprint-based delivery model"}]}
+{"id": "train_pool-0359", "spans": [{"start": 15, "end": 28, "text": "HR compliance"}, {"start": 33, "end": 43, "text": "governance"}]}
+{"id": "train_pool-0360", "spans": []}
+{"id": "train_pool-0361", "spans": []}
+{"id": "train_pool-0362", "spans": [{"start": 107, "end": 110, "text": "AWS"}, {"start": 112, "end": 115, "text": "GCP"}, {"start": 117, "end": 122, "text": "Azure"}, {"start": 124, "end": 133, "text": "Snowflake"}, {"start": 135, "end": 145, "text": "Databricks"}, {"start": 147, "end": 154, "text": "Datadog"}, {"start": 156, "end": 163, "text": "MongoDB"}, {"start": 165, "end": 174, "text": "Confluent"}, {"start": 176, "end": 182, "text": "Twilio"}]}
+{"id": "train_pool-0363", "spans": []}
+{"id": "train_pool-0364", "spans": [{"start": 50, "end": 68, "text": "evaluation methods"}]}
+{"id": "train_pool-0365", "spans": []}
+{"id": "train_pool-0366", "spans": [{"start": 25, "end": 48, "text": "go-to-market strategies"}]}
+{"id": "train_pool-0367", "spans": [{"start": 41, "end": 53, "text": "scoping work"}, {"start": 55, "end": 71, "text": "managing budgets"}]}
+{"id": "train_pool-0368", "spans": [{"start": 22, "end": 39, "text": "security training"}, {"start": 62, "end": 89, "text": "security education programs"}]}
+{"id": "train_pool-0369", "spans": [{"start": 8, "end": 24, "text": "third-party risk"}, {"start": 29, "end": 55, "text": "restricted-party screening"}]}
+{"id": "train_pool-0370", "spans": []}
+{"id": "train_pool-0371", "spans": [{"start": 6, "end": 29, "text": "security infrastructure"}, {"start": 34, "end": 44, "text": "AI systems"}]}
+{"id": "train_pool-0372", "spans": [{"start": 25, "end": 39, "text": "business logic"}, {"start": 44, "end": 57, "text": "orchestration"}, {"start": 65, "end": 82, "text": "financial systems"}]}
+{"id": "train_pool-0373", "spans": [{"start": 5, "end": 25, "text": "strategic engagement"}]}
+{"id": "train_pool-0374", "spans": [{"start": 34, "end": 59, "text": "cross-border transactions"}]}
+{"id": "train_pool-0375", "spans": [{"start": 17, "end": 32, "text": "technical talks"}, {"start": 34, "end": 43, "text": "workshops"}, {"start": 48, "end": 56, "text": "training"}]}
+{"id": "train_pool-0376", "spans": [{"start": 33, "end": 57, "text": "cash application process"}, {"start": 113, "end": 132, "text": "remittance handling"}, {"start": 198, "end": 223, "text": "cash-to-AR reconciliation"}]}
+{"id": "train_pool-0377", "spans": [{"start": 11, "end": 23, "text": "code quality"}, {"start": 25, "end": 32, "text": "testing"}, {"start": 38, "end": 49, "text": "performance"}]}
+{"id": "train_pool-0378", "spans": [{"start": 11, "end": 28, "text": "control framework"}, {"start": 50, "end": 73, "text": "autonomous AI operators"}, {"start": 149, "end": 162, "text": "change review"}, {"start": 178, "end": 195, "text": "human-in-the-loop"}, {"start": 201, "end": 220, "text": "evidence collection"}]}
+{"id": "train_pool-0379", "spans": [{"start": 70, "end": 79, "text": "inference"}, {"start": 81, "end": 91, "text": "sandboxing"}, {"start": 143, "end": 150, "text": "tooling"}]}
+{"id": "train_pool-0380", "spans": []}
+{"id": "train_pool-0381", "spans": []}
+{"id": "train_pool-0382", "spans": [{"start": 53, "end": 62, "text": "debugging"}, {"start": 64, "end": 73, "text": "profiling"}, {"start": 79, "end": 93, "text": "rearchitecting"}]}
+{"id": "train_pool-0383", "spans": [{"start": 56, "end": 59, "text": "dbt"}]}
+{"id": "train_pool-0384", "spans": []}
+{"id": "train_pool-0385", "spans": []}
+{"id": "train_pool-0386", "spans": []}
+{"id": "train_pool-0387", "spans": []}
+{"id": "train_pool-0388", "spans": []}
+{"id": "train_pool-0389", "spans": [{"start": 67, "end": 73, "text": "5 Whys"}, {"start": 77, "end": 79, "text": "8D"}]}
+{"id": "train_pool-0390", "spans": [{"start": 30, "end": 47, "text": "conversational AI"}]}
+{"id": "train_pool-0391", "spans": [{"start": 62, "end": 70, "text": "controls"}, {"start": 75, "end": 78, "text": "BMS"}]}
+{"id": "train_pool-0392", "spans": [{"start": 120, "end": 125, "text": "dTPMs"}, {"start": 130, "end": 135, "text": "fTPMs"}]}
+{"id": "train_pool-0393", "spans": [{"start": 31, "end": 45, "text": "AI development"}]}
+{"id": "train_pool-0394", "spans": [{"start": 5, "end": 22, "text": "incident response"}, {"start": 36, "end": 47, "text": "AI services"}]}
+{"id": "train_pool-0395", "spans": [{"start": 18, "end": 38, "text": "application controls"}, {"start": 43, "end": 72, "text": "IT automated controls (ITACs)"}]}
+{"id": "train_pool-0396", "spans": [{"start": 29, "end": 77, "text": "Financial Supervisory Service (FSS) requirements"}]}
+{"id": "train_pool-0397", "spans": []}
+{"id": "train_pool-0398", "spans": [{"start": 20, "end": 23, "text": "P&L"}]}
+{"id": "train_pool-0399", "spans": [{"start": 44, "end": 56, "text": "EMEA markets"}]}
+{"id": "train_pool-0400", "spans": []}
+{"id": "train_pool-0401", "spans": [{"start": 46, "end": 48, "text": "AI"}]}
+{"id": "train_pool-0402", "spans": [{"start": 28, "end": 44, "text": "deal structuring"}, {"start": 47, "end": 54, "text": "pricing"}, {"start": 56, "end": 67, "text": "discounting"}, {"start": 69, "end": 102, "text": "multi-year and consumption models"}, {"start": 104, "end": 125, "text": "commit and ramp terms"}, {"start": 136, "end": 155, "text": "approval frameworks"}]}
+{"id": "train_pool-0403", "spans": []}
+{"id": "train_pool-0404", "spans": [{"start": 83, "end": 85, "text": "AI"}]}
+{"id": "train_pool-0405", "spans": []}
+{"id": "train_pool-0406", "spans": []}
+{"id": "train_pool-0407", "spans": []}
+{"id": "train_pool-0408", "spans": [{"start": 16, "end": 40, "text": "Netgear network switches"}, {"start": 49, "end": 67, "text": "AV over IP systems"}, {"start": 69, "end": 73, "text": "QLAN"}, {"start": 75, "end": 80, "text": "Dante"}, {"start": 82, "end": 92, "text": "SMPTE 2110"}]}
+{"id": "train_pool-0409", "spans": [{"start": 2, "end": 9, "text": "physics"}, {"start": 11, "end": 23, "text": "applied-math"}, {"start": 78, "end": 80, "text": "ML"}]}
+{"id": "train_pool-0410", "spans": []}
+{"id": "train_pool-0411", "spans": [{"start": 26, "end": 47, "text": "policy communications"}]}
+{"id": "train_pool-0412", "spans": [{"start": 16, "end": 34, "text": "media mix modeling"}, {"start": 36, "end": 59, "text": "multi-touch attribution"}, {"start": 63, "end": 94, "text": "incrementality and lift testing"}]}
+{"id": "train_pool-0413", "spans": []}
+{"id": "train_pool-0414", "spans": []}
+{"id": "train_pool-0415", "spans": []}
+{"id": "train_pool-0416", "spans": [{"start": 24, "end": 37, "text": "system design"}]}
+{"id": "train_pool-0417", "spans": []}
+{"id": "train_pool-0418", "spans": []}
+{"id": "train_pool-0419", "spans": []}
+{"id": "train_pool-0420", "spans": []}
+{"id": "train_pool-0421", "spans": [{"start": 51, "end": 74, "text": "account-linking signals"}]}
+{"id": "train_pool-0422", "spans": [{"start": 118, "end": 154, "text": "large-scale developer infrastructure"}]}
+{"id": "train_pool-0423", "spans": [{"start": 12, "end": 25, "text": "due diligence"}, {"start": 30, "end": 50, "text": "integration planning"}]}
+{"id": "train_pool-0424", "spans": [{"start": 59, "end": 71, "text": "fee analysis"}, {"start": 73, "end": 88, "text": "service reviews"}, {"start": 90, "end": 107, "text": "wallet allocation"}, {"start": 113, "end": 125, "text": "connectivity"}]}
+{"id": "train_pool-0425", "spans": [{"start": 94, "end": 109, "text": "AV requirements"}]}
+{"id": "train_pool-0426", "spans": [{"start": 47, "end": 62, "text": "analytics tools"}, {"start": 64, "end": 79, "text": "funnel modeling"}, {"start": 85, "end": 107, "text": "experimentation design"}]}
+{"id": "train_pool-0427", "spans": [{"start": 31, "end": 60, "text": "strategic enterprise accounts"}, {"start": 111, "end": 138, "text": "asset and wealth management"}]}
+{"id": "train_pool-0428", "spans": [{"start": 28, "end": 39, "text": "data center"}, {"start": 49, "end": 78, "text": "mission-critical construction"}]}
+{"id": "train_pool-0429", "spans": [{"start": 24, "end": 39, "text": "field marketing"}, {"start": 63, "end": 82, "text": "scalable frameworks"}]}
+{"id": "train_pool-0430", "spans": []}
+{"id": "train_pool-0431", "spans": []}
+{"id": "train_pool-0432", "spans": [{"start": 7, "end": 27, "text": "software engineering"}, {"start": 38, "end": 44, "text": "Python"}, {"start": 79, "end": 81, "text": "Go"}, {"start": 83, "end": 87, "text": "Rust"}, {"start": 89, "end": 94, "text": "C/C++"}]}
+{"id": "train_pool-0433", "spans": [{"start": 68, "end": 80, "text": "cloud-native"}, {"start": 115, "end": 125, "text": "compliance"}, {"start": 127, "end": 135, "text": "security"}, {"start": 140, "end": 162, "text": "regulated environments"}]}
+{"id": "train_pool-0434", "spans": []}
+{"id": "train_pool-0435", "spans": [{"start": 101, "end": 121, "text": "integrated marketing"}]}
+{"id": "train_pool-0436", "spans": [{"start": 17, "end": 43, "text": "data center infrastructure"}, {"start": 45, "end": 61, "text": "compute hardware"}, {"start": 70, "end": 96, "text": "silicon development cycles"}]}
+{"id": "train_pool-0437", "spans": [{"start": 30, "end": 42, "text": "EHS training"}, {"start": 100, "end": 119, "text": "occupational health"}, {"start": 121, "end": 131, "text": "ergonomics"}, {"start": 143, "end": 148, "text": "audit"}, {"start": 164, "end": 181, "text": "EHS documentation"}, {"start": 198, "end": 215, "text": "reporting systems"}]}
+{"id": "train_pool-0438", "spans": [{"start": 39, "end": 56, "text": "Treasury policies"}, {"start": 61, "end": 79, "text": "SOX-ready controls"}]}
+{"id": "train_pool-0439", "spans": [{"start": 6, "end": 21, "text": "pipeline health"}, {"start": 23, "end": 56, "text": "forecast partner-attached revenue"}]}
+{"id": "train_pool-0440", "spans": [{"start": 22, "end": 41, "text": "threat intelligence"}, {"start": 61, "end": 65, "text": "IOCs"}, {"start": 67, "end": 77, "text": "YARA rules"}, {"start": 83, "end": 112, "text": "threat correlation techniques"}]}
+{"id": "train_pool-0441", "spans": []}
+{"id": "train_pool-0442", "spans": []}
+{"id": "train_pool-0443", "spans": [{"start": 13, "end": 29, "text": "enterprise sales"}, {"start": 64, "end": 96, "text": "state and local government sales"}]}
+{"id": "train_pool-0444", "spans": []}
+{"id": "train_pool-0445", "spans": [{"start": 123, "end": 146, "text": "account-based marketing"}]}
+{"id": "train_pool-0446", "spans": [{"start": 4, "end": 20, "text": "technical design"}]}
+{"id": "train_pool-0447", "spans": []}
+{"id": "train_pool-0448", "spans": [{"start": 13, "end": 45, "text": "enterprise technology narratives"}]}
+{"id": "train_pool-0449", "spans": []}
+{"id": "train_pool-0450", "spans": []}
+{"id": "train_pool-0451", "spans": []}
+{"id": "train_pool-0452", "spans": [{"start": 39, "end": 57, "text": "approval workflows"}, {"start": 59, "end": 80, "text": "escalation procedures"}, {"start": 86, "end": 108, "text": "standardized templates"}]}
+{"id": "train_pool-0453", "spans": []}
+{"id": "train_pool-0454", "spans": []}
+{"id": "train_pool-0455", "spans": [{"start": 75, "end": 100, "text": "environmental stewardship"}]}
+{"id": "train_pool-0456", "spans": [{"start": 21, "end": 39, "text": "payroll operations"}]}
+{"id": "train_pool-0457", "spans": [{"start": 24, "end": 27, "text": "AWS"}, {"start": 29, "end": 41, "text": "Google Cloud"}, {"start": 46, "end": 55, "text": "Microsoft"}, {"start": 60, "end": 77, "text": "partner marketing"}, {"start": 81, "end": 95, "text": "AI/ML services"}]}
+{"id": "train_pool-0458", "spans": [{"start": 60, "end": 72, "text": "data science"}, {"start": 74, "end": 83, "text": "analytics"}, {"start": 88, "end": 107, "text": "operations research"}]}
+{"id": "train_pool-0459", "spans": []}
+{"id": "train_pool-0460", "spans": [{"start": 10, "end": 49, "text": "written and verbal communication skills"}]}
+{"id": "train_pool-0461", "spans": []}
+{"id": "train_pool-0462", "spans": []}
+{"id": "train_pool-0463", "spans": []}
+{"id": "train_pool-0464", "spans": []}
+{"id": "train_pool-0465", "spans": [{"start": 38, "end": 55, "text": "incident response"}]}
+{"id": "train_pool-0466", "spans": []}
+{"id": "train_pool-0467", "spans": [{"start": 52, "end": 74, "text": "system implementations"}, {"start": 76, "end": 96, "text": "process improvements"}, {"start": 102, "end": 122, "text": "reporting automation"}]}
+{"id": "train_pool-0468", "spans": [{"start": 8, "end": 31, "text": "competitive positioning"}, {"start": 32, "end": 51, "text": "content-battlecards"}, {"start": 53, "end": 75, "text": "differentiation guides"}, {"start": 77, "end": 95, "text": "objection handling"}]}
+{"id": "train_pool-0469", "spans": [{"start": 10, "end": 30, "text": "communication skills"}]}
+{"id": "train_pool-0470", "spans": []}
+{"id": "train_pool-0471", "spans": [{"start": 0, "end": 16, "text": "Drug repurposing"}, {"start": 86, "end": 107, "text": "regulatory submission"}]}
+{"id": "train_pool-0472", "spans": [{"start": 19, "end": 38, "text": "technical direction"}]}
+{"id": "train_pool-0473", "spans": [{"start": 20, "end": 22, "text": "AI"}]}
+{"id": "train_pool-0474", "spans": []}
+{"id": "train_pool-0475", "spans": [{"start": 18, "end": 24, "text": "Python"}, {"start": 46, "end": 70, "text": "deep learning frameworks"}]}
+{"id": "train_pool-0476", "spans": []}
+{"id": "train_pool-0477", "spans": [{"start": 19, "end": 41, "text": "credit and collections"}]}
+{"id": "train_pool-0478", "spans": []}
+{"id": "train_pool-0479", "spans": []}
+{"id": "train_pool-0480", "spans": []}
+{"id": "train_pool-0481", "spans": [{"start": 29, "end": 47, "text": "acquisition models"}, {"start": 52, "end": 71, "text": "pro forma forecasts"}, {"start": 144, "end": 164, "text": "financial statements"}]}
+{"id": "train_pool-0482", "spans": []}
+{"id": "train_pool-0483", "spans": [{"start": 53, "end": 59, "text": "Python"}]}
+{"id": "train_pool-0484", "spans": []}
+{"id": "train_pool-0485", "spans": []}
+{"id": "train_pool-0486", "spans": []}
+{"id": "train_pool-0487", "spans": []}
+{"id": "train_pool-0488", "spans": []}
+{"id": "train_pool-0489", "spans": []}
+{"id": "train_pool-0490", "spans": [{"start": 51, "end": 76, "text": "positioning and messaging"}, {"start": 80, "end": 96, "text": "launch execution"}, {"start": 101, "end": 117, "text": "sales enablement"}]}
+{"id": "train_pool-0491", "spans": [{"start": 84, "end": 103, "text": "sourcing strategies"}]}
+{"id": "train_pool-0492", "spans": [{"start": 20, "end": 34, "text": "security tools"}, {"start": 38, "end": 48, "text": "automation"}]}
+{"id": "train_pool-0493", "spans": [{"start": 7, "end": 18, "text": "deal cycles"}]}
+{"id": "train_pool-0494", "spans": [{"start": 11, "end": 33, "text": "scaling infrastructure"}]}
+{"id": "train_pool-0495", "spans": []}
+{"id": "train_pool-0496", "spans": [{"start": 83, "end": 97, "text": "cloud services"}, {"start": 99, "end": 114, "text": "data management"}, {"start": 119, "end": 121, "text": "AI"}]}
+{"id": "train_pool-0497", "spans": [{"start": 17, "end": 33, "text": "network analysis"}, {"start": 35, "end": 51, "text": "machine learning"}, {"start": 56, "end": 84, "text": "advanced statistical methods"}]}
+{"id": "train_pool-0498", "spans": [{"start": 44, "end": 63, "text": "security leadership"}, {"start": 124, "end": 141, "text": "people leadership"}]}
+{"id": "train_pool-0499", "spans": []}
+{"id": "train_pool-0500", "spans": [{"start": 4, "end": 15, "text": "measurement"}, {"start": 20, "end": 29, "text": "reporting"}, {"start": 101, "end": 109, "text": "capacity"}, {"start": 114, "end": 124, "text": "allocation"}, {"start": 126, "end": 152, "text": "strategic-account coverage"}, {"start": 158, "end": 185, "text": "program-influenced pipeline"}]}
+{"id": "train_pool-0501", "spans": [{"start": 21, "end": 28, "text": "accrual"}, {"start": 33, "end": 53, "text": "prepayment processes"}, {"start": 103, "end": 123, "text": "cloud infrastructure"}, {"start": 141, "end": 162, "text": "capacity reservations"}, {"start": 164, "end": 177, "text": "savings plans"}, {"start": 183, "end": 206, "text": "committed-use discounts"}]}
+{"id": "train_pool-0502", "spans": [{"start": 12, "end": 34, "text": "engineering management"}, {"start": 65, "end": 79, "text": "infrastructure"}, {"start": 81, "end": 89, "text": "platform"}, {"start": 94, "end": 101, "text": "compute"}]}
+{"id": "train_pool-0503", "spans": [{"start": 0, "end": 20, "text": "Software engineering"}, {"start": 35, "end": 60, "text": "Linux systems programming"}, {"start": 62, "end": 80, "text": "kernel development"}]}
+{"id": "train_pool-0504", "spans": [{"start": 23, "end": 26, "text": "PMM"}, {"start": 126, "end": 150, "text": "core-product positioning"}]}
+{"id": "train_pool-0505", "spans": [{"start": 14, "end": 28, "text": "Chief of Staff"}, {"start": 32, "end": 51, "text": "Business Operations"}]}
+{"id": "train_pool-0506", "spans": [{"start": 17, "end": 25, "text": "research"}]}
+{"id": "train_pool-0507", "spans": []}
+{"id": "train_pool-0508", "spans": []}
+{"id": "train_pool-0509", "spans": []}
+{"id": "train_pool-0510", "spans": [{"start": 58, "end": 61, "text": "AWS"}, {"start": 63, "end": 66, "text": "GCP"}, {"start": 71, "end": 76, "text": "Azure"}, {"start": 88, "end": 102, "text": "private offers"}, {"start": 107, "end": 128, "text": "pricing configuration"}]}
+{"id": "train_pool-0511", "spans": [{"start": 52, "end": 76, "text": "advanced LLM integration"}, {"start": 78, "end": 88, "text": "deployment"}, {"start": 94, "end": 102, "text": "adoption"}]}
+{"id": "train_pool-0512", "spans": []}
+{"id": "train_pool-0513", "spans": []}
+{"id": "train_pool-0514", "spans": []}
+{"id": "train_pool-0515", "spans": []}
+{"id": "train_pool-0516", "spans": []}
+{"id": "train_pool-0517", "spans": []}
+{"id": "train_pool-0518", "spans": []}
+{"id": "train_pool-0519", "spans": []}
+{"id": "train_pool-0520", "spans": []}
+{"id": "train_pool-0521", "spans": [{"start": 23, "end": 30, "text": "pricing"}, {"start": 32, "end": 41, "text": "packaging"}]}
+{"id": "train_pool-0522", "spans": [{"start": 14, "end": 32, "text": "OSP/fiber planning"}, {"start": 36, "end": 52, "text": "network delivery"}]}
+{"id": "train_pool-0523", "spans": [{"start": 10, "end": 21, "text": "RL training"}]}
+{"id": "train_pool-0524", "spans": [{"start": 24, "end": 28, "text": "GDPR"}, {"start": 33, "end": 51, "text": "UK data protection"}, {"start": 101, "end": 110, "text": "AI ethics"}]}
+{"id": "train_pool-0525", "spans": [{"start": 8, "end": 14, "text": "Claude"}]}
+{"id": "train_pool-0526", "spans": [{"start": 8, "end": 33, "text": "purchase price accounting"}, {"start": 38, "end": 71, "text": "opening balance sheet preparation"}, {"start": 91, "end": 98, "text": "ASC 805"}]}
+{"id": "train_pool-0527", "spans": [{"start": 27, "end": 30, "text": "NPI"}]}
+{"id": "train_pool-0528", "spans": [{"start": 25, "end": 42, "text": "physical security"}, {"start": 44, "end": 47, "text": "EHS"}, {"start": 53, "end": 67, "text": "event security"}]}
+{"id": "train_pool-0529", "spans": [{"start": 68, "end": 85, "text": "AI implementation"}]}
+{"id": "train_pool-0530", "spans": []}
+{"id": "train_pool-0531", "spans": []}
+{"id": "train_pool-0532", "spans": [{"start": 107, "end": 118, "text": "forecasting"}, {"start": 120, "end": 135, "text": "deal inspection"}, {"start": 141, "end": 157, "text": "account planning"}]}
+{"id": "train_pool-0533", "spans": []}
+{"id": "train_pool-0534", "spans": []}
+{"id": "train_pool-0535", "spans": []}
+{"id": "train_pool-0536", "spans": []}
+{"id": "train_pool-0537", "spans": []}
+{"id": "train_pool-0538", "spans": []}
+{"id": "train_pool-0539", "spans": [{"start": 10, "end": 42, "text": "written and verbal communication"}, {"start": 77, "end": 98, "text": "program documentation"}, {"start": 103, "end": 119, "text": "status reporting"}]}
+{"id": "train_pool-0540", "spans": []}
+{"id": "train_pool-0541", "spans": []}
+{"id": "train_pool-0542", "spans": []}
+{"id": "train_pool-0543", "spans": []}
+{"id": "train_pool-0544", "spans": []}
+{"id": "train_pool-0545", "spans": []}
+{"id": "train_pool-0546", "spans": []}
+{"id": "train_pool-0547", "spans": []}
+{"id": "train_pool-0548", "spans": []}
+{"id": "train_pool-0549", "spans": []}
+{"id": "train_pool-0550", "spans": []}
+{"id": "train_pool-0551", "spans": []}
+{"id": "train_pool-0552", "spans": [{"start": 21, "end": 41, "text": "applied cryptography"}, {"start": 88, "end": 102, "text": "key management"}]}
+{"id": "train_pool-0553", "spans": []}
+{"id": "train_pool-0554", "spans": []}
+{"id": "train_pool-0555", "spans": [{"start": 12, "end": 32, "text": "communication skills"}]}
+{"id": "train_pool-0556", "spans": []}
+{"id": "train_pool-0557", "spans": []}
+{"id": "train_pool-0558", "spans": [{"start": 112, "end": 137, "text": "responsible AI deployment"}]}
+{"id": "train_pool-0559", "spans": []}
+{"id": "train_pool-0560", "spans": [{"start": 25, "end": 39, "text": "COSO framework"}, {"start": 41, "end": 45, "text": "ICFR"}, {"start": 51, "end": 66, "text": "PCAOB standards"}]}
+{"id": "train_pool-0561", "spans": []}
+{"id": "train_pool-0562", "spans": [{"start": 0, "end": 19, "text": "Structured thinking"}]}
+{"id": "train_pool-0563", "spans": []}
+{"id": "train_pool-0564", "spans": [{"start": 15, "end": 24, "text": "SOX audit"}]}
+{"id": "train_pool-0565", "spans": [{"start": 20, "end": 39, "text": "accounting policies"}, {"start": 143, "end": 178, "text": "cloud service provider arrangements"}]}
+{"id": "train_pool-0566", "spans": [{"start": 38, "end": 49, "text": "Claude Code"}]}
+{"id": "train_pool-0567", "spans": []}
+{"id": "train_pool-0568", "spans": []}
+{"id": "train_pool-0569", "spans": []}
+{"id": "train_pool-0570", "spans": [{"start": 100, "end": 110, "text": "AI systems"}]}
+{"id": "train_pool-0571", "spans": [{"start": 17, "end": 23, "text": "Disclo"}, {"start": 28, "end": 35, "text": "Sparrow"}, {"start": 48, "end": 87, "text": "accommodation case management platforms"}]}
+{"id": "train_pool-0572", "spans": [{"start": 29, "end": 50, "text": "commercial agreements"}, {"start": 76, "end": 98, "text": "GTM/Sales transactions"}, {"start": 109, "end": 138, "text": "enterprise customer contracts"}]}
+{"id": "train_pool-0574", "spans": [{"start": 11, "end": 24, "text": "EHS execution"}, {"start": 57, "end": 75, "text": "onsite inspections"}, {"start": 77, "end": 104, "text": "hazard and risk assessments"}, {"start": 110, "end": 127, "text": "ergonomic reviews"}]}
+{"id": "train_pool-0575", "spans": [{"start": 31, "end": 49, "text": "Google Analytics 4"}, {"start": 51, "end": 59, "text": "BigQuery"}, {"start": 61, "end": 64, "text": "Hex"}]}
+{"id": "train_pool-0576", "spans": [{"start": 20, "end": 44, "text": "spend forecasting models"}, {"start": 49, "end": 85, "text": "large-scale cost attribution systems"}]}
+{"id": "train_pool-0578", "spans": [{"start": 30, "end": 32, "text": "IA"}]}
+{"id": "train_pool-0580", "spans": [{"start": 0, "end": 8, "text": "Database"}, {"start": 11, "end": 14, "text": "SQL"}]}
+{"id": "train_pool-0581", "spans": [{"start": 0, "end": 27, "text": "Clear written communication"}]}
+{"id": "train_pool-0582", "spans": []}
+{"id": "train_pool-0583", "spans": []}
+{"id": "train_pool-0584", "spans": []}
+{"id": "train_pool-0585", "spans": [{"start": 16, "end": 35, "text": "enterprise software"}, {"start": 37, "end": 51, "text": "cloud services"}, {"start": 56, "end": 74, "text": "AI/ML technologies"}]}
+{"id": "train_pool-0586", "spans": [{"start": 29, "end": 56, "text": "ASC 606 revenue recognition"}, {"start": 60, "end": 92, "text": "consumption-based billing models"}]}
+{"id": "train_pool-0587", "spans": [{"start": 44, "end": 62, "text": "marketing programs"}]}
+{"id": "train_pool-0588", "spans": [{"start": 16, "end": 18, "text": "AI"}]}
+{"id": "train_pool-0589", "spans": [{"start": 0, "end": 24, "text": "Corporate public affairs"}]}
+{"id": "train_pool-0594", "spans": [{"start": 12, "end": 28, "text": "enterprise sales"}]}
+{"id": "train_pool-0595", "spans": [{"start": 43, "end": 52, "text": "AI safety"}]}
+{"id": "train_pool-0597", "spans": [{"start": 5, "end": 31, "text": "APAC direct tax compliance"}]}
+{"id": "train_pool-0600", "spans": [{"start": 39, "end": 54, "text": "AI/ML pipelines"}, {"start": 66, "end": 88, "text": "AI security frameworks"}, {"start": 96, "end": 117, "text": "OWASP Top 10 for LLMs"}, {"start": 119, "end": 130, "text": "NIST AI RMF"}, {"start": 148, "end": 176, "text": "secure cloud AI environments"}]}
+{"id": "train_pool-0601", "spans": [{"start": 27, "end": 59, "text": "software design and architecture"}]}
+{"id": "train_pool-0602", "spans": [{"start": 72, "end": 81, "text": "Vertex AI"}, {"start": 86, "end": 113, "text": "Google Cloud Platform (GCP)"}]}
+{"id": "train_pool-0603", "spans": [{"start": 35, "end": 63, "text": "client-side web technologies"}, {"start": 71, "end": 75, "text": "HTML"}, {"start": 77, "end": 80, "text": "CSS"}, {"start": 82, "end": 92, "text": "JavaScript"}, {"start": 97, "end": 101, "text": "HTTP"}]}
+{"id": "train_pool-0604", "spans": [{"start": 37, "end": 43, "text": "Python"}, {"start": 47, "end": 50, "text": "C++"}]}
+{"id": "train_pool-0605", "spans": [{"start": 26, "end": 47, "text": "production-grade code"}, {"start": 52, "end": 73, "text": "multi-agent workflows"}, {"start": 75, "end": 105, "text": "tool-use orchestration engines"}, {"start": 111, "end": 144, "text": "dynamic decision-making pipelines"}]}
+{"id": "train_pool-0606", "spans": [{"start": 55, "end": 86, "text": "large-scale distributed systems"}]}
+{"id": "train_pool-0607", "spans": [{"start": 14, "end": 37, "text": "hyperscale data centers"}, {"start": 39, "end": 54, "text": "power utilities"}, {"start": 59, "end": 91, "text": "24x7 mission-critical facilities"}]}
+{"id": "train_pool-0608", "spans": [{"start": 16, "end": 46, "text": "privacy-enhancing technologies"}, {"start": 54, "end": 74, "text": "differential privacy"}, {"start": 76, "end": 94, "text": "federated learning"}, {"start": 100, "end": 130, "text": "secure multi-party computation"}]}
+{"id": "train_pool-0609", "spans": [{"start": 98, "end": 103, "text": "DV360"}]}
+{"id": "train_pool-0610", "spans": [{"start": 10, "end": 21, "text": "embedded AI"}, {"start": 26, "end": 43, "text": "Agentic solutions"}]}
+{"id": "train_pool-0611", "spans": [{"start": 13, "end": 40, "text": "real-time bidding (OpenRTB)"}, {"start": 42, "end": 62, "text": "programmatic ad tech"}, {"start": 64, "end": 68, "text": "DSPs"}, {"start": 70, "end": 74, "text": "SSPs"}, {"start": 76, "end": 93, "text": "Google Ad Manager"}, {"start": 95, "end": 100, "text": "AdMob"}, {"start": 107, "end": 126, "text": "distributed systems"}]}
+{"id": "train_pool-0612", "spans": [{"start": 91, "end": 104, "text": "data analysis"}, {"start": 106, "end": 124, "text": "prompt engineering"}]}
+{"id": "train_pool-0613", "spans": []}
+{"id": "train_pool-0614", "spans": [{"start": 22, "end": 31, "text": "ML models"}]}
+{"id": "train_pool-0615", "spans": [{"start": 12, "end": 42, "text": "cross-functional communication"}]}
+{"id": "train_pool-0616", "spans": [{"start": 36, "end": 61, "text": "formal verification tools"}, {"start": 71, "end": 81, "text": "JasperGold"}, {"start": 83, "end": 92, "text": "VC Formal"}, {"start": 94, "end": 107, "text": "Questa Formal"}, {"start": 112, "end": 118, "text": "360-DV"}]}
+{"id": "train_pool-0617", "spans": []}
+{"id": "train_pool-0618", "spans": []}
+{"id": "train_pool-0619", "spans": [{"start": 54, "end": 64, "text": "benchmarks"}, {"start": 69, "end": 94, "text": "simulation/rule verifiers"}]}
+{"id": "train_pool-0620", "spans": []}
+{"id": "train_pool-0621", "spans": []}
+{"id": "train_pool-0622", "spans": [{"start": 21, "end": 32, "text": "ML research"}, {"start": 34, "end": 48, "text": "ML performance"}, {"start": 50, "end": 76, "text": "model optimization tooling"}]}
+{"id": "train_pool-0623", "spans": [{"start": 61, "end": 82, "text": "semiconductor Edge AI"}]}
+{"id": "train_pool-0624", "spans": [{"start": 10, "end": 25, "text": "GSRS frameworks"}, {"start": 111, "end": 127, "text": "security designs"}]}
+{"id": "train_pool-0625", "spans": [{"start": 35, "end": 62, "text": "Computer-aided design (CAD)"}]}
+{"id": "train_pool-0626", "spans": []}
+{"id": "train_pool-0627", "spans": []}
+{"id": "train_pool-0628", "spans": []}
+{"id": "train_pool-0629", "spans": [{"start": 16, "end": 44, "text": "building data infrastructure"}, {"start": 52, "end": 74, "text": "designing architecture"}, {"start": 76, "end": 99, "text": "building data pipelines"}, {"start": 101, "end": 133, "text": "implementing scalable monitoring"}, {"start": 152, "end": 171, "text": "reporting solutions"}]}
+{"id": "train_pool-0630", "spans": [{"start": 54, "end": 61, "text": "pricing"}]}
+{"id": "train_pool-0631", "spans": [{"start": 69, "end": 89, "text": "Software development"}, {"start": 93, "end": 117, "text": "engineering fundamentals"}]}
+{"id": "train_pool-0632", "spans": [{"start": 0, "end": 8, "text": "Chillers"}, {"start": 10, "end": 28, "text": "Air handling units"}, {"start": 30, "end": 35, "text": "pumps"}, {"start": 40, "end": 55, "text": "CRAC/CRAH units"}]}
+{"id": "train_pool-0633", "spans": [{"start": 24, "end": 43, "text": "large-scale systems"}, {"start": 61, "end": 82, "text": "large real world data"}]}
+{"id": "train_pool-0634", "spans": [{"start": 22, "end": 34, "text": "Data Science"}, {"start": 90, "end": 111, "text": "Modern Data Warehouse"}]}
+{"id": "train_pool-0635", "spans": [{"start": 41, "end": 54, "text": "demand signal"}]}
+{"id": "train_pool-0636", "spans": [{"start": 16, "end": 33, "text": "LLM orchestration"}, {"start": 35, "end": 45, "text": "embeddings"}, {"start": 47, "end": 60, "text": "vector search"}, {"start": 66, "end": 82, "text": "agent frameworks"}]}
+{"id": "train_pool-0637", "spans": [{"start": 23, "end": 40, "text": "agentic workflows"}, {"start": 45, "end": 66, "text": "performance debugging"}, {"start": 71, "end": 83, "text": "optimization"}]}
+{"id": "train_pool-0638", "spans": [{"start": 9, "end": 16, "text": "payroll"}]}
+{"id": "train_pool-0639", "spans": [{"start": 20, "end": 49, "text": "extended workforce governance"}, {"start": 51, "end": 66, "text": "SLA performance"}, {"start": 72, "end": 90, "text": "vendor transitions"}]}
+{"id": "train_pool-0640", "spans": [{"start": 27, "end": 54, "text": "machine learning algorithms"}, {"start": 72, "end": 82, "text": "TensorFlow"}, {"start": 84, "end": 91, "text": "Pytorch"}]}
+{"id": "train_pool-0641", "spans": []}
+{"id": "train_pool-0642", "spans": [{"start": 25, "end": 53, "text": "technical program management"}, {"start": 57, "end": 72, "text": "risk management"}, {"start": 80, "end": 106, "text": "data center infrastructure"}, {"start": 108, "end": 118, "text": "operations"}, {"start": 123, "end": 140, "text": "physical security"}]}
+{"id": "train_pool-0643", "spans": [{"start": 7, "end": 23, "text": "secure protocols"}, {"start": 48, "end": 65, "text": "security strategy"}, {"start": 70, "end": 91, "text": "Google Cloud Platform"}]}
+{"id": "train_pool-0644", "spans": [{"start": 9, "end": 18, "text": "AI agents"}]}
+{"id": "train_pool-0645", "spans": []}
+{"id": "train_pool-0646", "spans": [{"start": 26, "end": 34, "text": "Japanese"}, {"start": 39, "end": 46, "text": "English"}]}
+{"id": "train_pool-0647", "spans": []}
+{"id": "train_pool-0648", "spans": []}
+{"id": "train_pool-0649", "spans": []}
+{"id": "train_pool-0650", "spans": [{"start": 27, "end": 45, "text": "system programming"}, {"start": 50, "end": 59, "text": "debugging"}]}
+{"id": "train_pool-0651", "spans": []}
+{"id": "train_pool-0652", "spans": [{"start": 33, "end": 43, "text": "mobile app"}, {"start": 51, "end": 54, "text": "iOS"}, {"start": 58, "end": 65, "text": "Android"}]}
+{"id": "train_pool-0653", "spans": [{"start": 27, "end": 32, "text": "sales"}, {"start": 34, "end": 54, "text": "business development"}, {"start": 59, "end": 76, "text": "sales development"}]}
+{"id": "train_pool-0654", "spans": [{"start": 39, "end": 71, "text": "multi-tenant distributed systems"}]}
+{"id": "train_pool-0655", "spans": [{"start": 70, "end": 78, "text": "AI tools"}]}
+{"id": "train_pool-0656", "spans": []}
+{"id": "train_pool-0657", "spans": [{"start": 9, "end": 32, "text": "manufacturing processes"}]}
+{"id": "train_pool-0658", "spans": [{"start": 9, "end": 38, "text": "computer and network security"}]}
+{"id": "train_pool-0659", "spans": [{"start": 27, "end": 47, "text": "software development"}, {"start": 53, "end": 77, "text": "C++ programming language"}]}
+{"id": "train_pool-0660", "spans": [{"start": 10, "end": 31, "text": "organizational skills"}]}
+{"id": "train_pool-0661", "spans": [{"start": 57, "end": 88, "text": "production ML serving platforms"}, {"start": 99, "end": 120, "text": "low-latency inference"}, {"start": 122, "end": 139, "text": "high availability"}, {"start": 145, "end": 167, "text": "zero-downtime rollouts"}]}
+{"id": "train_pool-0662", "spans": [{"start": 25, "end": 55, "text": "global supply chain management"}, {"start": 57, "end": 79, "text": "agreement facilitation"}, {"start": 85, "end": 96, "text": "procurement"}]}
+{"id": "train_pool-0663", "spans": [{"start": 12, "end": 36, "text": "proof-of-concept attacks"}]}
+{"id": "train_pool-0664", "spans": [{"start": 49, "end": 62, "text": "value-selling"}]}
+{"id": "train_pool-0665", "spans": [{"start": 4, "end": 12, "text": "AI tools"}]}
+{"id": "train_pool-0666", "spans": []}
+{"id": "train_pool-0667", "spans": [{"start": 139, "end": 159, "text": "business development"}]}
+{"id": "train_pool-0668", "spans": [{"start": 154, "end": 157, "text": "LLM"}, {"start": 194, "end": 200, "text": "memory"}, {"start": 202, "end": 221, "text": "context engineering"}, {"start": 223, "end": 255, "text": "recursive self-improvement loops"}]}
+{"id": "train_pool-0669", "spans": []}
+{"id": "train_pool-0670", "spans": [{"start": 15, "end": 24, "text": "synthesis"}, {"start": 26, "end": 38, "text": "timing/power"}, {"start": 44, "end": 65, "text": "FPGA/silicon bring-up"}]}
+{"id": "train_pool-0671", "spans": [{"start": 24, "end": 34, "text": "simulators"}, {"start": 39, "end": 56, "text": "real-world robots"}, {"start": 63, "end": 85, "text": "dexterous manipulation"}, {"start": 96, "end": 116, "text": "multi-fingered hands"}, {"start": 120, "end": 138, "text": "whole body control"}, {"start": 151, "end": 169, "text": "multimodal sensing"}, {"start": 176, "end": 183, "text": "tactile"}]}
+{"id": "train_pool-0672", "spans": []}
+{"id": "train_pool-0673", "spans": []}
+{"id": "train_pool-0674", "spans": [{"start": 25, "end": 38, "text": "data analysis"}, {"start": 50, "end": 68, "text": "identifying trends"}, {"start": 70, "end": 99, "text": "generating summary statistics"}, {"start": 105, "end": 121, "text": "drawing insights"}, {"start": 127, "end": 160, "text": "quantitative and qualitative data"}]}
+{"id": "train_pool-0675", "spans": [{"start": 23, "end": 63, "text": "custom multi-agent orchestration systems"}, {"start": 113, "end": 125, "text": "design tools"}, {"start": 136, "end": 138, "text": "AI"}]}
+{"id": "train_pool-0676", "spans": [{"start": 40, "end": 52, "text": "storytelling"}]}
+{"id": "train_pool-0677", "spans": [{"start": 56, "end": 76, "text": "deep learning models"}, {"start": 132, "end": 139, "text": "ML/LLMs"}, {"start": 181, "end": 203, "text": "recommendation systems"}, {"start": 205, "end": 224, "text": "revenue forecasting"}, {"start": 229, "end": 246, "text": "agent development"}]}
+{"id": "train_pool-0678", "spans": [{"start": 56, "end": 74, "text": "Image Quality (IQ)"}]}
+{"id": "train_pool-0679", "spans": [{"start": 0, "end": 17, "text": "Automate response"}]}
+{"id": "train_pool-0680", "spans": []}
+{"id": "train_pool-0681", "spans": [{"start": 24, "end": 44, "text": "e-commerce platforms"}, {"start": 46, "end": 50, "text": "APIs"}, {"start": 52, "end": 60, "text": "webhooks"}, {"start": 65, "end": 96, "text": "merchant integration ecosystems"}]}
+{"id": "train_pool-0682", "spans": [{"start": 27, "end": 46, "text": "project life-cycles"}]}
+{"id": "train_pool-0683", "spans": [{"start": 17, "end": 38, "text": "packet classification"}, {"start": 40, "end": 50, "text": "processing"}, {"start": 52, "end": 59, "text": "queuing"}, {"start": 61, "end": 71, "text": "scheduling"}, {"start": 73, "end": 82, "text": "switching"}, {"start": 84, "end": 91, "text": "routing"}, {"start": 93, "end": 113, "text": "traffic conditioning"}, {"start": 119, "end": 128, "text": "telemetry"}]}
+{"id": "train_pool-0684", "spans": [{"start": 16, "end": 35, "text": "Floating Point (FP)"}, {"start": 40, "end": 48, "text": "SIMD ISA"}]}
+{"id": "train_pool-0685", "spans": [{"start": 33, "end": 44, "text": "UX research"}]}
+{"id": "train_pool-0686", "spans": [{"start": 20, "end": 30, "text": "statistics"}, {"start": 34, "end": 61, "text": "machine learning evaluation"}]}
+{"id": "train_pool-0687", "spans": [{"start": 19, "end": 45, "text": "technical project strategy"}, {"start": 47, "end": 56, "text": "ML design"}, {"start": 73, "end": 90, "text": "ML infrastructure"}, {"start": 98, "end": 114, "text": "model deployment"}, {"start": 116, "end": 132, "text": "model evaluation"}, {"start": 134, "end": 149, "text": "data processing"}, {"start": 151, "end": 160, "text": "debugging"}, {"start": 162, "end": 173, "text": "fine tuning"}]}
+{"id": "train_pool-0688", "spans": [{"start": 31, "end": 37, "text": "Python"}, {"start": 39, "end": 40, "text": "C"}, {"start": 42, "end": 45, "text": "C++"}]}
+{"id": "train_pool-0689", "spans": [{"start": 48, "end": 64, "text": "Computer Science"}, {"start": 66, "end": 79, "text": "Cybersecurity"}, {"start": 81, "end": 101, "text": "Information Security"}, {"start": 103, "end": 123, "text": "Software Engineering"}, {"start": 197, "end": 217, "text": "Security Engineering"}]}
+{"id": "train_pool-0690", "spans": [{"start": 10, "end": 34, "text": "employment legal aspects"}, {"start": 38, "end": 59, "text": "commercial agreements"}, {"start": 64, "end": 67, "text": "M&A"}, {"start": 79, "end": 99, "text": "integration planning"}, {"start": 104, "end": 136, "text": "employee transition arrangements"}]}
+{"id": "train_pool-0691", "spans": [{"start": 35, "end": 53, "text": "TPU software stack"}, {"start": 73, "end": 101, "text": "cluster and fleet management"}, {"start": 103, "end": 135, "text": "power and resource orchestration"}, {"start": 137, "end": 162, "text": "host and runtime software"}, {"start": 164, "end": 186, "text": "hardware qualification"}, {"start": 191, "end": 221, "text": "fleet health and observability"}]}
+{"id": "train_pool-0692", "spans": [{"start": 10, "end": 25, "text": "Google accounts"}]}
+{"id": "train_pool-0693", "spans": [{"start": 63, "end": 78, "text": "agentic systems"}, {"start": 80, "end": 93, "text": "user modeling"}, {"start": 98, "end": 121, "text": "multi-turn optimization"}]}
+{"id": "train_pool-0694", "spans": []}
+{"id": "train_pool-0695", "spans": [{"start": 21, "end": 48, "text": "microservices architectures"}, {"start": 50, "end": 75, "text": "containerized deployments"}, {"start": 83, "end": 93, "text": "Kubernetes"}, {"start": 96, "end": 113, "text": "serverless models"}, {"start": 119, "end": 152, "text": "API-driven application frameworks"}]}
+{"id": "train_pool-0696", "spans": []}
+{"id": "train_pool-0697", "spans": [{"start": 16, "end": 36, "text": "consumer electronics"}, {"start": 40, "end": 60, "text": "device manufacturing"}]}
+{"id": "train_pool-0698", "spans": [{"start": 25, "end": 53, "text": "technical program management"}, {"start": 55, "end": 75, "text": "software engineering"}, {"start": 80, "end": 99, "text": "network engineering"}]}
+{"id": "train_pool-0699", "spans": [{"start": 24, "end": 45, "text": "cloud migration tools"}, {"start": 53, "end": 69, "text": "Migration Center"}, {"start": 100, "end": 114, "text": "VMware vMotion"}, {"start": 116, "end": 126, "text": "Oracle ZDM"}, {"start": 128, "end": 144, "text": "Database DMA/DMS"}, {"start": 146, "end": 154, "text": "Dual Run"}]}
+{"id": "train_pool-0700", "spans": [{"start": 26, "end": 45, "text": "data infrastructure"}, {"start": 68, "end": 82, "text": "data integrity"}, {"start": 87, "end": 100, "text": "accessibility"}]}
+{"id": "train_pool-0701", "spans": []}
+{"id": "train_pool-0702", "spans": [{"start": 25, "end": 40, "text": "cloud computing"}, {"start": 48, "end": 69, "text": "enterprise technology"}, {"start": 74, "end": 85, "text": "open source"}, {"start": 97, "end": 104, "text": "compute"}, {"start": 106, "end": 113, "text": "storage"}, {"start": 115, "end": 129, "text": "data analytics"}, {"start": 135, "end": 151, "text": "machine learning"}]}
+{"id": "train_pool-0703", "spans": [{"start": 25, "end": 52, "text": "natural language processing"}, {"start": 54, "end": 70, "text": "machine learning"}, {"start": 72, "end": 87, "text": "computer vision"}, {"start": 89, "end": 106, "text": "speech processing"}]}
+{"id": "train_pool-0704", "spans": [{"start": 60, "end": 82, "text": "whiteboarding sessions"}, {"start": 99, "end": 122, "text": "technical presentations"}]}
+{"id": "train_pool-0705", "spans": [{"start": 45, "end": 64, "text": "IP-parameterization"}, {"start": 66, "end": 83, "text": "release packaging"}, {"start": 85, "end": 103, "text": "integration guides"}, {"start": 108, "end": 137, "text": "customer-facing documentation"}]}
+{"id": "train_pool-0706", "spans": []}
+{"id": "train_pool-0707", "spans": [{"start": 27, "end": 67, "text": "measurement and qualification ecosystems"}, {"start": 88, "end": 111, "text": "electro-optical systems"}]}
+{"id": "train_pool-0708", "spans": [{"start": 11, "end": 18, "text": "testing"}, {"start": 20, "end": 31, "text": "maintaining"}, {"start": 37, "end": 64, "text": "launching software products"}]}
+{"id": "train_pool-0709", "spans": [{"start": 53, "end": 70, "text": "interdependencies"}]}
+{"id": "train_pool-0710", "spans": []}
+{"id": "train_pool-0711", "spans": []}
+{"id": "train_pool-0712", "spans": []}
+{"id": "train_pool-0713", "spans": [{"start": 7, "end": 39, "text": "executive stakeholder management"}]}
+{"id": "train_pool-0714", "spans": [{"start": 32, "end": 61, "text": "digital marketing/advertising"}]}
+{"id": "train_pool-0715", "spans": []}
+{"id": "train_pool-0716", "spans": []}
+{"id": "train_pool-0717", "spans": [{"start": 17, "end": 40, "text": "Artificial Intelligence"}, {"start": 45, "end": 61, "text": "Machine Learning"}]}
+{"id": "train_pool-0718", "spans": []}
+{"id": "train_pool-0719", "spans": [{"start": 48, "end": 51, "text": "API"}]}
+{"id": "train_pool-0720", "spans": [{"start": 45, "end": 57, "text": "architecture"}, {"start": 59, "end": 65, "text": "design"}, {"start": 67, "end": 72, "text": "power"}, {"start": 74, "end": 83, "text": "emulation"}, {"start": 85, "end": 93, "text": "software"}]}
+{"id": "train_pool-0721", "spans": [{"start": 106, "end": 119, "text": "generative AI"}]}
+{"id": "train_pool-0722", "spans": []}
+{"id": "train_pool-0723", "spans": [{"start": 19, "end": 48, "text": "go-to-market (GTM) strategies"}]}
+{"id": "train_pool-0724", "spans": []}
+{"id": "train_pool-0725", "spans": [{"start": 48, "end": 50, "text": "OT"}, {"start": 52, "end": 61, "text": "ICS/SCADA"}, {"start": 67, "end": 81, "text": "cyber security"}]}
+{"id": "train_pool-0726", "spans": [{"start": 14, "end": 25, "text": "copywriting"}, {"start": 30, "end": 45, "text": "public speaking"}]}
+{"id": "train_pool-0727", "spans": []}
+{"id": "train_pool-0728", "spans": [{"start": 35, "end": 54, "text": "network assessments"}, {"start": 56, "end": 90, "text": "web and mobile application testing"}]}
+{"id": "train_pool-0729", "spans": []}
+{"id": "train_pool-0730", "spans": [{"start": 14, "end": 34, "text": "software development"}, {"start": 39, "end": 45, "text": "coding"}, {"start": 106, "end": 110, "text": "Java"}, {"start": 112, "end": 113, "text": "C"}, {"start": 115, "end": 118, "text": "C++"}, {"start": 120, "end": 126, "text": "Python"}, {"start": 128, "end": 138, "text": "JavaScript"}, {"start": 140, "end": 142, "text": "C#"}, {"start": 144, "end": 146, "text": "Go"}]}
+{"id": "train_pool-0731", "spans": []}
+{"id": "train_pool-0732", "spans": []}
+{"id": "train_pool-0733", "spans": []}
+{"id": "train_pool-0734", "spans": []}
+{"id": "train_pool-0735", "spans": []}
+{"id": "train_pool-0736", "spans": [{"start": 20, "end": 25, "text": "ML/AI"}]}
+{"id": "train_pool-0737", "spans": [{"start": 9, "end": 17, "text": "bring-up"}, {"start": 19, "end": 34, "text": "troubleshooting"}, {"start": 40, "end": 45, "text": "debug"}]}
+{"id": "train_pool-0738", "spans": [{"start": 98, "end": 120, "text": "financial technologies"}, {"start": 142, "end": 159, "text": "payment solutions"}]}
+{"id": "train_pool-0739", "spans": [{"start": 30, "end": 56, "text": "technical project strategy"}, {"start": 58, "end": 67, "text": "ML design"}, {"start": 94, "end": 110, "text": "Machine Learning"}, {"start": 118, "end": 134, "text": "model deployment"}, {"start": 136, "end": 152, "text": "model evaluation"}, {"start": 154, "end": 169, "text": "data processing"}, {"start": 171, "end": 180, "text": "debugging"}, {"start": 182, "end": 193, "text": "fine tuning"}]}
+{"id": "train_pool-0740", "spans": []}
+{"id": "train_pool-0741", "spans": [{"start": 44, "end": 71, "text": "software-defined networking"}, {"start": 73, "end": 80, "text": "routing"}, {"start": 82, "end": 106, "text": "virtual private networks"}, {"start": 108, "end": 122, "text": "load balancers"}, {"start": 127, "end": 136, "text": "firewalls"}]}
+{"id": "train_pool-0742", "spans": []}
+{"id": "train_pool-0743", "spans": []}
+{"id": "train_pool-0744", "spans": []}
+{"id": "train_pool-0745", "spans": [{"start": 136, "end": 148, "text": "Google Cloud"}]}
+{"id": "train_pool-0746", "spans": [{"start": 12, "end": 30, "text": "demand forecasting"}, {"start": 32, "end": 49, "text": "capacity planning"}]}
+{"id": "train_pool-0747", "spans": [{"start": 40, "end": 53, "text": "Generative-AI"}]}
+{"id": "train_pool-0748", "spans": [{"start": 102, "end": 120, "text": "data and analytics"}]}
+{"id": "train_pool-0749", "spans": [{"start": 9, "end": 21, "text": "verification"}, {"start": 33, "end": 47, "text": "digital design"}]}
+{"id": "train_pool-0750", "spans": []}
+{"id": "train_pool-0751", "spans": [{"start": 8, "end": 36, "text": "strategic thought leadership"}, {"start": 62, "end": 80, "text": "technical roadmaps"}]}
+{"id": "train_pool-0752", "spans": [{"start": 19, "end": 22, "text": "CPU"}, {"start": 27, "end": 30, "text": "SoC"}, {"start": 31, "end": 60, "text": "performance model development"}, {"start": 62, "end": 82, "text": "performance analysis"}, {"start": 84, "end": 107, "text": "performance correlation"}, {"start": 113, "end": 138, "text": "workload characterization"}]}
+{"id": "train_pool-0753", "spans": []}
+{"id": "train_pool-0754", "spans": [{"start": 36, "end": 50, "text": "communications"}, {"start": 55, "end": 74, "text": "engagement strategy"}]}
+{"id": "train_pool-0755", "spans": [{"start": 42, "end": 64, "text": "regulatory settlements"}, {"start": 66, "end": 81, "text": "consent decrees"}, {"start": 93, "end": 115, "text": "compliance commitments"}]}
+{"id": "train_pool-0756", "spans": []}
+{"id": "train_pool-0757", "spans": [{"start": 76, "end": 102, "text": "customer-facing validation"}, {"start": 104, "end": 127, "text": "early adoption programs"}, {"start": 147, "end": 168, "text": "security capabilities"}]}
+{"id": "train_pool-0758", "spans": [{"start": 57, "end": 80, "text": "architecture definition"}, {"start": 82, "end": 100, "text": "IP area estimation"}, {"start": 102, "end": 120, "text": "power optimization"}, {"start": 126, "end": 150, "text": "performance enhancements"}]}
+{"id": "train_pool-0759", "spans": [{"start": 16, "end": 37, "text": "distributed messaging"}, {"start": 39, "end": 48, "text": "streaming"}, {"start": 53, "end": 67, "text": "caching layers"}, {"start": 108, "end": 113, "text": "Kafka"}, {"start": 115, "end": 119, "text": "NATS"}, {"start": 121, "end": 126, "text": "Redis"}, {"start": 128, "end": 136, "text": "RabbitMQ"}]}
+{"id": "train_pool-0760", "spans": [{"start": 14, "end": 32, "text": "prompt engineering"}, {"start": 34, "end": 52, "text": "rubric development"}, {"start": 57, "end": 81, "text": "model evaluation methods"}]}
+{"id": "train_pool-0761", "spans": [{"start": 51, "end": 89, "text": "large-scale distributed data platforms"}, {"start": 91, "end": 112, "text": "cloud-native software"}, {"start": 118, "end": 135, "text": "AI-driven systems"}]}
+{"id": "train_pool-0762", "spans": [{"start": 48, "end": 62, "text": "data pipelines"}, {"start": 69, "end": 72, "text": "SQL"}, {"start": 87, "end": 112, "text": "production infrastructure"}, {"start": 121, "end": 143, "text": "compute infrastructure"}, {"start": 148, "end": 164, "text": "server platforms"}]}
+{"id": "train_pool-0763", "spans": [{"start": 138, "end": 150, "text": "Google Cloud"}]}
+{"id": "train_pool-0764", "spans": [{"start": 46, "end": 64, "text": "network management"}]}
+{"id": "train_pool-0765", "spans": []}
+{"id": "train_pool-0766", "spans": []}
+{"id": "train_pool-0767", "spans": []}
+{"id": "train_pool-0768", "spans": []}
+{"id": "train_pool-0769", "spans": [{"start": 16, "end": 32, "text": "SAP technologies"}]}
+{"id": "train_pool-0770", "spans": []}
+{"id": "train_pool-0771", "spans": [{"start": 22, "end": 57, "text": "environmental compliance frameworks"}, {"start": 59, "end": 79, "text": "industrial acoustics"}, {"start": 81, "end": 101, "text": "watershed management"}, {"start": 107, "end": 135, "text": "zoning/entitlement processes"}]}
+{"id": "train_pool-0772", "spans": [{"start": 0, "end": 5, "text": "Pitch"}]}
+{"id": "train_pool-0773", "spans": [{"start": 81, "end": 107, "text": "frontier model development"}, {"start": 112, "end": 140, "text": "biological safety guardrails"}]}
+{"id": "train_pool-0774", "spans": []}
+{"id": "train_pool-0775", "spans": [{"start": 22, "end": 41, "text": "AI-powered software"}, {"start": 46, "end": 67, "text": "agentic LLM workflows"}]}
+{"id": "train_pool-0776", "spans": [{"start": 52, "end": 62, "text": "networking"}]}
+{"id": "train_pool-0777", "spans": [{"start": 21, "end": 38, "text": "business cadences"}, {"start": 55, "end": 75, "text": "reporting frameworks"}]}
+{"id": "train_pool-0778", "spans": [{"start": 16, "end": 51, "text": "large-scale data processing systems"}]}
+{"id": "train_pool-0779", "spans": [{"start": 24, "end": 44, "text": "technical leadership"}]}
+{"id": "train_pool-0780", "spans": [{"start": 25, "end": 38, "text": "Cloud storage"}]}
+{"id": "train_pool-0781", "spans": []}
+{"id": "train_pool-0782", "spans": [{"start": 4, "end": 21, "text": "microarchitecture"}]}
+{"id": "train_pool-0783", "spans": [{"start": 21, "end": 49, "text": "infrastructure-as-code (IaC)"}, {"start": 70, "end": 79, "text": "Terraform"}]}
+{"id": "train_pool-0784", "spans": [{"start": 21, "end": 49, "text": "silicon product architecture"}, {"start": 210, "end": 245, "text": "hardware-software co-design process"}]}
+{"id": "train_pool-0785", "spans": [{"start": 39, "end": 53, "text": "content policy"}, {"start": 57, "end": 78, "text": "anti-abuse operations"}]}
+{"id": "train_pool-0786", "spans": []}
+{"id": "train_pool-0787", "spans": [{"start": 57, "end": 76, "text": "multi-agent systems"}, {"start": 101, "end": 110, "text": "LangGraph"}, {"start": 112, "end": 118, "text": "CrewAI"}, {"start": 120, "end": 123, "text": "ADK"}, {"start": 153, "end": 158, "text": "ReAct"}, {"start": 160, "end": 175, "text": "self-reflection"}, {"start": 177, "end": 200, "text": "hierarchical delegation"}]}
+{"id": "train_pool-0788", "spans": [{"start": 35, "end": 48, "text": "ETL pipelines"}]}
+{"id": "train_pool-0789", "spans": []}
+{"id": "train_pool-0790", "spans": []}
+{"id": "train_pool-0791", "spans": [{"start": 25, "end": 47, "text": "backend infrastructure"}, {"start": 49, "end": 68, "text": "distributed systems"}, {"start": 70, "end": 88, "text": "evaluation systems"}, {"start": 93, "end": 111, "text": "testing frameworks"}]}
+{"id": "train_pool-0792", "spans": [{"start": 53, "end": 74, "text": "microlearning modules"}, {"start": 76, "end": 96, "text": "interactive job aids"}, {"start": 102, "end": 113, "text": "slide decks"}, {"start": 120, "end": 142, "text": "modern authoring tools"}]}
+{"id": "train_pool-0793", "spans": []}
+{"id": "train_pool-0794", "spans": [{"start": 0, "end": 5, "text": "Slurm"}, {"start": 29, "end": 41, "text": "LLM training"}, {"start": 46, "end": 55, "text": "inference"}]}
+{"id": "train_pool-0795", "spans": [{"start": 91, "end": 107, "text": "machine learning"}, {"start": 122, "end": 152, "text": "AI-powered security operations"}, {"start": 158, "end": 189, "text": "autonomous threat investigation"}]}
+{"id": "train_pool-0796", "spans": [{"start": 211, "end": 230, "text": "system architecture"}, {"start": 235, "end": 257, "text": "integration strategies"}]}
+{"id": "train_pool-0797", "spans": []}
+{"id": "train_pool-0798", "spans": []}
+{"id": "train_pool-0799", "spans": []}
+{"id": "train_pool-0800", "spans": [{"start": 47, "end": 61, "text": "data analytics"}, {"start": 65, "end": 93, "text": "data management technologies"}]}
+{"id": "train_pool-0801", "spans": []}
+{"id": "train_pool-0802", "spans": [{"start": 89, "end": 109, "text": "software engineering"}, {"start": 111, "end": 129, "text": "product management"}, {"start": 135, "end": 147, "text": "data science"}]}
+{"id": "train_pool-0803", "spans": []}
+{"id": "train_pool-0804", "spans": [{"start": 11, "end": 21, "text": "presenting"}]}
+{"id": "train_pool-0805", "spans": []}
+{"id": "train_pool-0806", "spans": []}
+{"id": "train_pool-0807", "spans": [{"start": 26, "end": 33, "text": "English"}, {"start": 38, "end": 46, "text": "Japanese"}]}
+{"id": "train_pool-0808", "spans": []}
+{"id": "train_pool-0809", "spans": []}
+{"id": "train_pool-0810", "spans": [{"start": 63, "end": 80, "text": "digital marketing"}]}
+{"id": "train_pool-0811", "spans": [{"start": 7, "end": 23, "text": "Computer Science"}, {"start": 25, "end": 41, "text": "Machine Learning"}, {"start": 43, "end": 54, "text": "Mathematics"}, {"start": 56, "end": 73, "text": "Cognitive Science"}]}
+{"id": "train_pool-0812", "spans": [{"start": 37, "end": 62, "text": "enterprise cyber-security"}, {"start": 66, "end": 68, "text": "IT"}]}
+{"id": "train_pool-0813", "spans": [{"start": 36, "end": 60, "text": "business recommendations"}, {"start": 96, "end": 124, "text": "insights-based presentations"}, {"start": 128, "end": 142, "text": "business cases"}]}
+{"id": "train_pool-0814", "spans": [{"start": 10, "end": 29, "text": "data infrastructure"}]}
+{"id": "train_pool-0815", "spans": []}
+{"id": "train_pool-0816", "spans": [{"start": 70, "end": 98, "text": "Marketing Mix Modeling (MMM)"}, {"start": 100, "end": 129, "text": "Multi-Touch Attribution (MTA)"}, {"start": 131, "end": 183, "text": "Incrementality testing (Conversion Lift, Brand Lift)"}, {"start": 188, "end": 210, "text": "Causal Impact analysis"}]}
+{"id": "train_pool-0817", "spans": [{"start": 35, "end": 48, "text": "GPU ecosystem"}, {"start": 118, "end": 135, "text": "AI infrastructure"}]}
+{"id": "train_pool-0818", "spans": [{"start": 28, "end": 46, "text": "payments ecosystem"}]}
+{"id": "train_pool-0819", "spans": [{"start": 17, "end": 31, "text": "security risks"}]}
+{"id": "train_pool-0820", "spans": [{"start": 54, "end": 81, "text": "technical data requirements"}]}
+{"id": "train_pool-0821", "spans": []}
+{"id": "train_pool-0822", "spans": [{"start": 16, "end": 21, "text": "Linux"}, {"start": 23, "end": 26, "text": "C++"}, {"start": 28, "end": 46, "text": "cluster management"}, {"start": 58, "end": 82, "text": "performance optimization"}]}
+{"id": "train_pool-0823", "spans": []}
+{"id": "train_pool-0824", "spans": [{"start": 60, "end": 104, "text": "Retrieval-Augmented Generation (RAG) systems"}, {"start": 129, "end": 133, "text": "LLMs"}, {"start": 149, "end": 176, "text": "legacy enterprise databases"}]}
+{"id": "train_pool-0825", "spans": [{"start": 28, "end": 47, "text": "software deployment"}, {"start": 49, "end": 65, "text": "containerization"}, {"start": 67, "end": 82, "text": "build pipelines"}, {"start": 88, "end": 109, "text": "artifact verification"}]}
+{"id": "train_pool-0826", "spans": [{"start": 45, "end": 60, "text": "program reviews"}, {"start": 99, "end": 174, "text": "Resource Stewardship (effective deployment of machine and people resources)"}]}
+{"id": "train_pool-0827", "spans": [{"start": 27, "end": 94, "text": "cloud computing (e.g., infrastructure, storage, platforms and data)"}]}
+{"id": "train_pool-0828", "spans": [{"start": 42, "end": 61, "text": "global stakeholders"}, {"start": 111, "end": 136, "text": "risk acceptance workflows"}]}
+{"id": "train_pool-0829", "spans": [{"start": 33, "end": 50, "text": "technical program"}, {"start": 54, "end": 72, "text": "project management"}]}
+{"id": "train_pool-0830", "spans": [{"start": 16, "end": 36, "text": "software development"}, {"start": 81, "end": 87, "text": "Python"}, {"start": 89, "end": 90, "text": "C"}, {"start": 92, "end": 95, "text": "C++"}, {"start": 97, "end": 101, "text": "Java"}, {"start": 103, "end": 113, "text": "Javascript"}]}
+{"id": "train_pool-0831", "spans": [{"start": 25, "end": 36, "text": "advertising"}, {"start": 38, "end": 56, "text": "consultative sales"}, {"start": 58, "end": 78, "text": "business development"}, {"start": 83, "end": 104, "text": "management consulting"}]}
+{"id": "train_pool-0832", "spans": [{"start": 10, "end": 27, "text": "performance model"}, {"start": 32, "end": 52, "text": "performance analysis"}, {"start": 57, "end": 81, "text": "microarchitecture design"}]}
+{"id": "train_pool-0833", "spans": [{"start": 41, "end": 75, "text": "Generative Artificial Intelligence"}, {"start": 77, "end": 98, "text": "Large Language Models"}, {"start": 104, "end": 128, "text": "multimodal understanding"}, {"start": 179, "end": 192, "text": "visual search"}]}
+{"id": "train_pool-0834", "spans": []}
+{"id": "train_pool-0835", "spans": [{"start": 24, "end": 54, "text": "autonomous security operations"}, {"start": 56, "end": 87, "text": "frontline operational workflows"}, {"start": 93, "end": 122, "text": "end-to-end security use-cases"}]}
+{"id": "train_pool-0836", "spans": [{"start": 29, "end": 38, "text": "education"}, {"start": 43, "end": 49, "text": "edtech"}]}
+{"id": "train_pool-0837", "spans": [{"start": 21, "end": 46, "text": "scalable operating models"}]}
+{"id": "train_pool-0838", "spans": []}
+{"id": "train_pool-0839", "spans": [{"start": 27, "end": 46, "text": "computer networking"}, {"start": 51, "end": 67, "text": "web technologies"}, {"start": 69, "end": 73, "text": "HTTP"}, {"start": 75, "end": 79, "text": "HTML"}, {"start": 81, "end": 84, "text": "DNS"}]}
+{"id": "train_pool-0840", "spans": []}
+{"id": "train_pool-0841", "spans": [{"start": 22, "end": 36, "text": "managing teams"}]}
+{"id": "train_pool-0842", "spans": [{"start": 130, "end": 158, "text": "Large volume data processing"}]}
+{"id": "train_pool-0843", "spans": []}
+{"id": "train_pool-0844", "spans": []}
+{"id": "train_pool-0845", "spans": []}
+{"id": "train_pool-0846", "spans": [{"start": 49, "end": 63, "text": "software sales"}, {"start": 68, "end": 99, "text": "consultative account management"}]}
+{"id": "train_pool-0847", "spans": [{"start": 9, "end": 12, "text": "SQL"}, {"start": 14, "end": 16, "text": "AI"}, {"start": 22, "end": 47, "text": "workflow automation tools"}]}
+{"id": "train_pool-0848", "spans": [{"start": 42, "end": 65, "text": "AI/ML-driven approaches"}, {"start": 70, "end": 88, "text": "security workflows"}, {"start": 96, "end": 124, "text": "vulnerability identification"}, {"start": 126, "end": 141, "text": "risk evaluation"}, {"start": 143, "end": 154, "text": "remediation"}]}
+{"id": "train_pool-0849", "spans": [{"start": 61, "end": 82, "text": "structural enclosures"}, {"start": 84, "end": 104, "text": "liquid cooling loops"}, {"start": 106, "end": 135, "text": "high-power distribution skids"}, {"start": 162, "end": 182, "text": "TPU/GPU server trays"}, {"start": 184, "end": 206, "text": "rack-level integration"}, {"start": 208, "end": 226, "text": "cabling topologies"}, {"start": 232, "end": 248, "text": "L11/L12 assembly"}]}
+{"id": "train_pool-0850", "spans": [{"start": 58, "end": 82, "text": "GMP contract negotiation"}, {"start": 84, "end": 96, "text": "cost control"}, {"start": 102, "end": 140, "text": "general contractor supplier management"}]}
+{"id": "train_pool-0851", "spans": [{"start": 25, "end": 41, "text": "machine learning"}, {"start": 53, "end": 73, "text": "large scale training"}]}
+{"id": "train_pool-0856", "spans": [{"start": 17, "end": 20, "text": "RCS"}, {"start": 25, "end": 61, "text": "native mobile application ecosystems"}]}
+{"id": "train_pool-0860", "spans": []}
+{"id": "train_pool-0861", "spans": [{"start": 29, "end": 51, "text": "vulnerability analysis"}]}
+{"id": "train_pool-0862", "spans": [{"start": 16, "end": 51, "text": "systematic performance benchmarking"}, {"start": 56, "end": 62, "text": "tuning"}]}
+{"id": "train_pool-0863", "spans": [{"start": 45, "end": 80, "text": "distributed infrastructure software"}, {"start": 82, "end": 120, "text": "bare-metal server lifecycle automation"}, {"start": 122, "end": 154, "text": "hardware management integrations"}, {"start": 162, "end": 169, "text": "Redfish"}, {"start": 171, "end": 180, "text": "BMC/iDRAC"}, {"start": 182, "end": 230, "text": "Intelligent Platform Management Interface (IPMI)"}, {"start": 232, "end": 241, "text": "UEFI/BIOS"}, {"start": 243, "end": 262, "text": "firmware management"}, {"start": 268, "end": 296, "text": "large-scale fleet monitoring"}, {"start": 301, "end": 317, "text": "alerting systems"}]}
+{"id": "train_pool-0864", "spans": [{"start": 54, "end": 67, "text": "SystemVerilog"}, {"start": 71, "end": 80, "text": "Specman/E"}, {"start": 85, "end": 90, "text": "FPGAs"}, {"start": 94, "end": 99, "text": "ASICs"}]}
+{"id": "train_pool-0865", "spans": [{"start": 41, "end": 43, "text": "ML"}, {"start": 45, "end": 47, "text": "AI"}]}
+{"id": "train_pool-0866", "spans": [{"start": 15, "end": 32, "text": "integration tests"}]}
+{"id": "train_pool-0867", "spans": [{"start": 13, "end": 26, "text": "architectures"}, {"start": 28, "end": 38, "text": "optimizers"}, {"start": 44, "end": 60, "text": "training methods"}]}
+{"id": "train_pool-0868", "spans": [{"start": 26, "end": 33, "text": "English"}, {"start": 38, "end": 54, "text": "Bahasa Indonesia"}]}
+{"id": "train_pool-0869", "spans": [{"start": 22, "end": 29, "text": "testing"}, {"start": 95, "end": 110, "text": "software design"}, {"start": 115, "end": 127, "text": "architecture"}]}
+{"id": "train_pool-0870", "spans": []}
+{"id": "train_pool-0871", "spans": []}
+{"id": "train_pool-0872", "spans": []}
+{"id": "train_pool-0873", "spans": [{"start": 16, "end": 28, "text": "API gateways"}, {"start": 30, "end": 46, "text": "cloud networking"}, {"start": 48, "end": 79, "text": "distributed proxy architectures"}, {"start": 81, "end": 102, "text": "API management (APIM)"}, {"start": 107, "end": 151, "text": "enterprise observability/telemetry platforms"}]}
+{"id": "train_pool-0874", "spans": [{"start": 99, "end": 123, "text": "Google product knowledge"}, {"start": 131, "end": 149, "text": "Google ad products"}, {"start": 195, "end": 215, "text": "consultative selling"}]}
+{"id": "train_pool-0875", "spans": [{"start": 27, "end": 47, "text": "software development"}]}
+{"id": "train_pool-0876", "spans": [{"start": 16, "end": 44, "text": "Large Language Models (LLMs)"}, {"start": 49, "end": 71, "text": "Generative AI concepts"}, {"start": 79, "end": 97, "text": "prompt engineering"}, {"start": 99, "end": 135, "text": "retrieval-augmented generation (RAG)"}]}
+{"id": "train_pool-0877", "spans": [{"start": 30, "end": 38, "text": "MicroLED"}, {"start": 40, "end": 81, "text": "Micro-Organic Light Emitting Diode (OLED)"}, {"start": 86, "end": 136, "text": "Augmented Reality/Virtual Reality/Extended Reality"}]}
+{"id": "train_pool-0878", "spans": [{"start": 38, "end": 74, "text": "NPI operational readiness frameworks"}, {"start": 79, "end": 99, "text": "portfolio governance"}]}
+{"id": "train_pool-0879", "spans": [{"start": 25, "end": 36, "text": "game design"}]}
+{"id": "train_pool-0880", "spans": [{"start": 14, "end": 31, "text": "ML infrastructure"}, {"start": 39, "end": 55, "text": "model deployment"}, {"start": 57, "end": 73, "text": "model evaluation"}, {"start": 75, "end": 87, "text": "optimization"}, {"start": 89, "end": 104, "text": "data processing"}, {"start": 110, "end": 119, "text": "debugging"}, {"start": 135, "end": 141, "text": "Python"}]}
+{"id": "train_pool-0881", "spans": []}
+{"id": "train_pool-0882", "spans": []}
+{"id": "train_pool-0883", "spans": []}
+{"id": "train_pool-0884", "spans": [{"start": 61, "end": 89, "text": "digital marketing strategies"}]}
+{"id": "train_pool-0885", "spans": []}
+{"id": "train_pool-0886", "spans": []}
+{"id": "train_pool-0887", "spans": [{"start": 0, "end": 16, "text": "Analyze datasets"}]}
+{"id": "train_pool-0888", "spans": []}
+{"id": "train_pool-0889", "spans": [{"start": 6, "end": 45, "text": "automated adversarial testing platforms"}, {"start": 64, "end": 75, "text": "stress-test"}, {"start": 105, "end": 117, "text": "verification"}, {"start": 122, "end": 148, "text": "safe production deployment"}]}
+{"id": "train_pool-0890", "spans": [{"start": 48, "end": 59, "text": "Java/Kotlin"}, {"start": 63, "end": 66, "text": "C++"}]}
+{"id": "train_pool-0891", "spans": [{"start": 66, "end": 80, "text": "stress-testing"}]}
+{"id": "train_pool-0892", "spans": [{"start": 13, "end": 48, "text": "Large Language Model native metrics"}, {"start": 56, "end": 66, "text": "tokens/sec"}, {"start": 68, "end": 84, "text": "cost-per-request"}, {"start": 116, "end": 132, "text": "state management"}, {"start": 137, "end": 153, "text": "granular tracing"}]}
+{"id": "train_pool-0893", "spans": []}
+{"id": "train_pool-0894", "spans": [{"start": 36, "end": 39, "text": "Tcl"}, {"start": 41, "end": 47, "text": "Python"}, {"start": 49, "end": 53, "text": "Perl"}, {"start": 64, "end": 81, "text": "layout automation"}, {"start": 125, "end": 134, "text": "EDA tools"}]}
+{"id": "train_pool-0895", "spans": [{"start": 76, "end": 78, "text": "Go"}, {"start": 80, "end": 86, "text": "Python"}, {"start": 88, "end": 91, "text": "C++"}]}
+{"id": "train_pool-0896", "spans": []}
+{"id": "train_pool-0897", "spans": []}
+{"id": "train_pool-0898", "spans": [{"start": 16, "end": 47, "text": "large-scale distributed systems"}, {"start": 51, "end": 75, "text": "machine learning systems"}, {"start": 77, "end": 93, "text": "Training for LLM"}]}
+{"id": "train_pool-0899", "spans": []}
+{"id": "train_pool-0900", "spans": [{"start": 11, "end": 37, "text": "mentoring junior engineers"}, {"start": 119, "end": 139, "text": "communication skills"}]}
+{"id": "train_pool-0901", "spans": [{"start": 6, "end": 33, "text": "Apache Spark core internals"}]}
+{"id": "train_pool-0902", "spans": []}
+{"id": "train_pool-0903", "spans": []}
+{"id": "train_pool-0904", "spans": []}
+{"id": "train_pool-0905", "spans": [{"start": 16, "end": 29, "text": "data analysis"}, {"start": 31, "end": 42, "text": "3D modeling"}, {"start": 47, "end": 74, "text": "mechanical simulation tools"}]}
+{"id": "train_pool-0906", "spans": [{"start": 15, "end": 34, "text": "Vertex AI Pipelines"}, {"start": 36, "end": 44, "text": "Kubeflow"}, {"start": 49, "end": 55, "text": "MLflow"}, {"start": 69, "end": 88, "text": "CI/CD/CT automation"}]}
+{"id": "train_pool-0907", "spans": [{"start": 178, "end": 188, "text": "Gemini API"}, {"start": 193, "end": 205, "text": "Google Cloud"}]}
+{"id": "train_pool-0908", "spans": [{"start": 10, "end": 38, "text": "software system architecture"}]}
+{"id": "train_pool-0909", "spans": []}
+{"id": "train_pool-0910", "spans": [{"start": 48, "end": 73, "text": "enterprise cloud services"}]}
+{"id": "train_pool-0911", "spans": [{"start": 16, "end": 33, "text": "asset reliability"}, {"start": 35, "end": 58, "text": "maintenance engineering"}, {"start": 63, "end": 89, "text": "industrial control systems"}]}
+{"id": "train_pool-0912", "spans": [{"start": 33, "end": 38, "text": "GenAI"}, {"start": 42, "end": 62, "text": "agentic applications"}]}
+{"id": "train_pool-0913", "spans": [{"start": 68, "end": 99, "text": "Service Level Agreements (SLAs)"}]}
+{"id": "train_pool-0914", "spans": [{"start": 39, "end": 65, "text": "automated validation loops"}]}
+{"id": "train_pool-0915", "spans": [{"start": 34, "end": 80, "text": "CPU subsystem microarchitecture specifications"}]}
+{"id": "train_pool-0916", "spans": [{"start": 25, "end": 49, "text": "preventative maintenance"}]}
+{"id": "train_pool-0917", "spans": []}
+{"id": "train_pool-0918", "spans": [{"start": 20, "end": 50, "text": "energy regulatory environments"}, {"start": 52, "end": 76, "text": "wholesale market designs"}, {"start": 82, "end": 112, "text": "clean energy policy frameworks"}, {"start": 159, "end": 181, "text": "power pricing dynamics"}, {"start": 183, "end": 204, "text": "transmission planning"}, {"start": 206, "end": 225, "text": "capacity mechanisms"}, {"start": 231, "end": 258, "text": "renewable integration rules"}]}
+{"id": "train_pool-0919", "spans": [{"start": 68, "end": 88, "text": "contracting projects"}, {"start": 93, "end": 112, "text": "commercial programs"}]}
+{"id": "train_pool-0920", "spans": [{"start": 54, "end": 59, "text": "CISSP"}, {"start": 61, "end": 65, "text": "CISM"}, {"start": 67, "end": 70, "text": "CEH"}, {"start": 72, "end": 121, "text": "Google Cloud Professional Cloud Security Engineer"}]}
+{"id": "train_pool-0921", "spans": []}
+{"id": "train_pool-0922", "spans": []}
+{"id": "train_pool-0923", "spans": []}
+{"id": "train_pool-0924", "spans": []}
+{"id": "train_pool-0925", "spans": [{"start": 63, "end": 78, "text": "Conversion Lift"}, {"start": 80, "end": 90, "text": "Brand Lift"}, {"start": 92, "end": 95, "text": "XNR"}, {"start": 101, "end": 121, "text": "Geo-based Experiment"}, {"start": 131, "end": 165, "text": "statistical significance (StatSig)"}]}
+{"id": "train_pool-0926", "spans": []}
+{"id": "train_pool-0927", "spans": []}
+{"id": "train_pool-0928", "spans": [{"start": 32, "end": 60, "text": "Artificial Intelligence (AI)"}, {"start": 99, "end": 118, "text": "root cause analysis"}, {"start": 120, "end": 136, "text": "variant analysis"}, {"start": 138, "end": 152, "text": "trend analysis"}, {"start": 154, "end": 165, "text": "remediation"}]}
+{"id": "train_pool-0929", "spans": [{"start": 49, "end": 57, "text": "AI tools"}]}
+{"id": "train_pool-0930", "spans": [{"start": 17, "end": 52, "text": "data center critical infrastructure"}, {"start": 64, "end": 74, "text": "electrical"}, {"start": 76, "end": 86, "text": "mechanical"}, {"start": 91, "end": 107, "text": "cooling controls"}, {"start": 117, "end": 130, "text": "cybersecurity"}]}
+{"id": "train_pool-0931", "spans": []}
+{"id": "train_pool-0932", "spans": [{"start": 35, "end": 62, "text": "distributed Backend systems"}, {"start": 66, "end": 91, "text": "data processing pipelines"}]}
+{"id": "train_pool-0933", "spans": []}
+{"id": "train_pool-0934", "spans": [{"start": 78, "end": 107, "text": "data engineering technologies"}]}
+{"id": "train_pool-0935", "spans": [{"start": 22, "end": 41, "text": "distribution shifts"}, {"start": 43, "end": 56, "text": "concept drift"}, {"start": 61, "end": 80, "text": "adversarial attacks"}]}
+{"id": "train_pool-0936", "spans": [{"start": 16, "end": 26, "text": "containers"}, {"start": 28, "end": 38, "text": "Kubernetes"}, {"start": 44, "end": 65, "text": "Google Cloud Platform"}]}
+{"id": "train_pool-0937", "spans": []}
+{"id": "train_pool-0938", "spans": [{"start": 34, "end": 55, "text": "content understanding"}, {"start": 60, "end": 75, "text": "personalization"}]}
+{"id": "train_pool-0939", "spans": []}
+{"id": "train_pool-0940", "spans": [{"start": 20, "end": 36, "text": "machine learning"}, {"start": 40, "end": 52, "text": "data science"}]}
+{"id": "train_pool-0941", "spans": [{"start": 49, "end": 52, "text": "SQL"}, {"start": 54, "end": 55, "text": "R"}, {"start": 57, "end": 63, "text": "Python"}]}
+{"id": "train_pool-0942", "spans": []}
+{"id": "train_pool-0943", "spans": []}
+{"id": "train_pool-0944", "spans": [{"start": 16, "end": 35, "text": "Agile methodologies"}, {"start": 37, "end": 51, "text": "systems design"}, {"start": 57, "end": 82, "text": "technical risk management"}]}
+{"id": "train_pool-0945", "spans": [{"start": 17, "end": 36, "text": "SAP cloud offerings"}, {"start": 45, "end": 53, "text": "RISE/PCE"}, {"start": 55, "end": 62, "text": "SAP BTP"}, {"start": 67, "end": 84, "text": "SAP SaaS products"}]}
+{"id": "train_pool-0946", "spans": [{"start": 16, "end": 35, "text": "threat intelligence"}, {"start": 37, "end": 47, "text": "anti-abuse"}, {"start": 49, "end": 57, "text": "security"}, {"start": 59, "end": 75, "text": "network analysis"}, {"start": 77, "end": 92, "text": "fraud detection"}, {"start": 96, "end": 128, "text": "Search Engine Optimization (SEO)"}]}
+{"id": "train_pool-0947", "spans": [{"start": 106, "end": 121, "text": "software design"}]}
+{"id": "train_pool-0948", "spans": [{"start": 16, "end": 32, "text": "sales leadership"}, {"start": 37, "end": 54, "text": "people management"}, {"start": 71, "end": 79, "text": "coaching"}, {"start": 81, "end": 90, "text": "mentoring"}, {"start": 96, "end": 112, "text": "team development"}]}
+{"id": "train_pool-0949", "spans": []}
+{"id": "train_pool-0950", "spans": [{"start": 9, "end": 26, "text": "advanced AI tools"}, {"start": 31, "end": 57, "text": "modern workflow automation"}, {"start": 149, "end": 176, "text": "Search commercial mechanics"}]}
+{"id": "train_pool-0951", "spans": [{"start": 16, "end": 34, "text": "network automation"}, {"start": 39, "end": 65, "text": "orchestration technologies"}]}
+{"id": "train_pool-0952", "spans": []}
+{"id": "train_pool-0953", "spans": [{"start": 41, "end": 55, "text": "floor-planning"}, {"start": 57, "end": 66, "text": "synthesis"}, {"start": 68, "end": 77, "text": "placement"}, {"start": 79, "end": 105, "text": "clock tree synthesis (CTS)"}, {"start": 107, "end": 121, "text": "timing closure"}, {"start": 123, "end": 130, "text": "routing"}, {"start": 132, "end": 142, "text": "extraction"}, {"start": 144, "end": 165, "text": "physical verification"}, {"start": 167, "end": 193, "text": "design rule checking (DRC)"}, {"start": 194, "end": 223, "text": "layout versus schematic (LVS)"}, {"start": 225, "end": 249, "text": "electromigration (EM)/IR"}, {"start": 255, "end": 268, "text": "final signoff"}]}
+{"id": "train_pool-0954", "spans": []}
+{"id": "train_pool-0955", "spans": []}
+{"id": "train_pool-0956", "spans": [{"start": 52, "end": 85, "text": "privacy-by-design implementations"}]}
+{"id": "train_pool-0957", "spans": []}
+{"id": "train_pool-0958", "spans": [{"start": 16, "end": 32, "text": "containerization"}, {"start": 37, "end": 63, "text": "orchestration technologies"}, {"start": 71, "end": 77, "text": "Docker"}, {"start": 79, "end": 89, "text": "Kubernetes"}]}
+{"id": "train_pool-0959", "spans": []}
+{"id": "train_pool-0960", "spans": []}
+{"id": "train_pool-0961", "spans": []}
+{"id": "train_pool-0962", "spans": []}
+{"id": "train_pool-0963", "spans": [{"start": 17, "end": 25, "text": "Dataproc"}, {"start": 30, "end": 44, "text": "Cloud Platform"}, {"start": 96, "end": 116, "text": "OpenTelemetry (OTel)"}]}
+{"id": "train_pool-0964", "spans": [{"start": 54, "end": 72, "text": "GenAI model policy"}]}
+{"id": "train_pool-0965", "spans": []}
+{"id": "train_pool-0966", "spans": []}
+{"id": "train_pool-0967", "spans": []}
+{"id": "train_pool-0968", "spans": []}
+{"id": "train_pool-0969", "spans": []}
+{"id": "train_pool-0970", "spans": [{"start": 17, "end": 37, "text": "AI safety benchmarks"}, {"start": 39, "end": 60, "text": "evaluation frameworks"}, {"start": 66, "end": 84, "text": "fuzzing techniques"}]}
+{"id": "train_pool-0971", "spans": [{"start": 31, "end": 41, "text": "zero-trust"}, {"start": 45, "end": 68, "text": "defense-in-depth models"}]}
+{"id": "train_pool-0972", "spans": [{"start": 30, "end": 52, "text": "Telco service industry"}]}
+{"id": "train_pool-0973", "spans": [{"start": 37, "end": 40, "text": "C++"}, {"start": 42, "end": 48, "text": "Python"}, {"start": 52, "end": 54, "text": "Go"}]}
+{"id": "train_pool-0974", "spans": []}
+{"id": "train_pool-0975", "spans": []}
+{"id": "train_pool-0976", "spans": []}
+{"id": "train_pool-0977", "spans": [{"start": 47, "end": 52, "text": "CISSP"}, {"start": 54, "end": 58, "text": "CISA"}, {"start": 60, "end": 64, "text": "CIPP"}, {"start": 66, "end": 86, "text": "ISO lead implementer"}, {"start": 88, "end": 95, "text": "PCI ISA"}]}
+{"id": "train_pool-0978", "spans": []}
+{"id": "train_pool-0979", "spans": [{"start": 37, "end": 76, "text": "supply chain transformation initiatives"}]}
+{"id": "train_pool-0980", "spans": [{"start": 8, "end": 24, "text": "content creation"}]}
+{"id": "train_pool-0981", "spans": []}
+{"id": "train_pool-0982", "spans": []}
+{"id": "train_pool-0983", "spans": []}
+{"id": "train_pool-0984", "spans": []}
+{"id": "train_pool-0985", "spans": [{"start": 34, "end": 53, "text": "hardware validation"}, {"start": 96, "end": 114, "text": "logic BIST (LBIST)"}, {"start": 116, "end": 135, "text": "memory BIST (MBIST)"}, {"start": 141, "end": 157, "text": "Scan compression"}]}
+{"id": "train_pool-0986", "spans": [{"start": 4, "end": 22, "text": "talent development"}, {"start": 24, "end": 46, "text": "performance management"}, {"start": 48, "end": 54, "text": "hiring"}, {"start": 60, "end": 70, "text": "engagement"}]}
+{"id": "train_pool-0987", "spans": [{"start": 59, "end": 82, "text": "lakehouse architectures"}, {"start": 84, "end": 92, "text": "metadata"}, {"start": 97, "end": 113, "text": "semantic context"}, {"start": 123, "end": 138, "text": "access controls"}]}
+{"id": "train_pool-0988", "spans": [{"start": 7, "end": 21, "text": "carbon removal"}, {"start": 22, "end": 35, "text": "offtake deals"}]}
+{"id": "train_pool-0989", "spans": [{"start": 66, "end": 89, "text": "artificial intelligence"}]}
+{"id": "train_pool-0990", "spans": [{"start": 25, "end": 47, "text": "full-stack development"}, {"start": 63, "end": 79, "text": "machine learning"}]}
+{"id": "train_pool-0991", "spans": [{"start": 38, "end": 53, "text": "user interfaces"}, {"start": 64, "end": 76, "text": "TV platforms"}, {"start": 80, "end": 96, "text": "smart TV devices"}]}
+{"id": "train_pool-0992", "spans": [{"start": 35, "end": 50, "text": "quality rubrics"}, {"start": 52, "end": 85, "text": "continuous improvement frameworks"}, {"start": 90, "end": 119, "text": "operational governance models"}]}
+{"id": "train_pool-0993", "spans": [{"start": 66, "end": 75, "text": "SLAs/SLIs"}, {"start": 77, "end": 92, "text": "system modeling"}, {"start": 94, "end": 118, "text": "performance benchmarking"}, {"start": 120, "end": 135, "text": "fault injection"}, {"start": 141, "end": 171, "text": "zero-downtime rolling upgrades"}]}
+{"id": "train_pool-0994", "spans": []}
+{"id": "train_pool-0995", "spans": [{"start": 25, "end": 43, "text": "network operations"}, {"start": 90, "end": 115, "text": "service provider networks"}]}
+{"id": "train_pool-0996", "spans": []}
+{"id": "train_pool-0997", "spans": [{"start": 60, "end": 88, "text": "network security engineering"}]}
+{"id": "train_pool-0998", "spans": [{"start": 40, "end": 48, "text": "analysis"}, {"start": 50, "end": 58, "text": "modeling"}, {"start": 64, "end": 82, "text": "network simulation"}, {"start": 107, "end": 129, "text": "performance test plans"}]}
+{"id": "train_pool-0999", "spans": [{"start": 33, "end": 62, "text": "customer-facing communication"}]}
+{"id": "train_pool-1000", "spans": []}
+{"id": "train_pool-1001", "spans": []}
+{"id": "train_pool-1002", "spans": [{"start": 11, "end": 38, "text": "selling technical solutions"}, {"start": 72, "end": 87, "text": "data management"}, {"start": 89, "end": 103, "text": "data analytics"}, {"start": 105, "end": 113, "text": "cloud AI"}]}
+{"id": "train_pool-1003", "spans": [{"start": 30, "end": 56, "text": "digital marketing products"}]}
+{"id": "train_pool-1004", "spans": [{"start": 27, "end": 36, "text": "ML design"}, {"start": 41, "end": 58, "text": "ML infrastructure"}, {"start": 66, "end": 82, "text": "model deployment"}, {"start": 84, "end": 100, "text": "model evaluation"}, {"start": 102, "end": 117, "text": "data processing"}, {"start": 119, "end": 128, "text": "debugging"}, {"start": 130, "end": 141, "text": "fine tuning"}]}
+{"id": "train_pool-1005", "spans": [{"start": 59, "end": 87, "text": "shared responsibility models"}, {"start": 127, "end": 157, "text": "system-level access guardrails"}]}
+{"id": "train_pool-1006", "spans": [{"start": 50, "end": 70, "text": "peer-reviewed papers"}, {"start": 81, "end": 98, "text": "technical reports"}, {"start": 104, "end": 117, "text": "presentations"}]}
+{"id": "train_pool-1007", "spans": [{"start": 16, "end": 41, "text": "mathematical optimization"}, {"start": 49, "end": 51, "text": "LP"}, {"start": 53, "end": 55, "text": "IP"}, {"start": 57, "end": 60, "text": "MIP"}, {"start": 62, "end": 65, "text": "NLP"}]}
+{"id": "train_pool-1008", "spans": [{"start": 182, "end": 203, "text": "blameless postmortems"}, {"start": 233, "end": 255, "text": "tier 2 oncall rotation"}, {"start": 272, "end": 297, "text": "SAGE/SPARK infrastructure"}]}
+{"id": "train_pool-1009", "spans": [{"start": 0, "end": 26, "text": "Sell products and services"}, {"start": 95, "end": 109, "text": "prepare quotes"}]}
+{"id": "train_pool-1010", "spans": [{"start": 115, "end": 134, "text": "data center network"}]}
+{"id": "train_pool-1011", "spans": [{"start": 117, "end": 120, "text": "UVM"}]}
+{"id": "train_pool-1012", "spans": [{"start": 17, "end": 36, "text": "chip design process"}, {"start": 41, "end": 64, "text": "design and verification"}]}
+{"id": "train_pool-1013", "spans": []}
+{"id": "train_pool-1014", "spans": []}
+{"id": "train_pool-1015", "spans": []}
+{"id": "train_pool-1016", "spans": []}
+{"id": "train_pool-1017", "spans": [{"start": 110, "end": 144, "text": "batch and streaming data pipelines"}]}
+{"id": "train_pool-1018", "spans": [{"start": 93, "end": 111, "text": "advanced analytics"}, {"start": 134, "end": 152, "text": "ML/AI capabilities"}]}
+{"id": "train_pool-1019", "spans": []}
+{"id": "train_pool-1020", "spans": [{"start": 17, "end": 30, "text": "communication"}]}
+{"id": "train_pool-1021", "spans": [{"start": 22, "end": 47, "text": "Application Modernization"}, {"start": 49, "end": 64, "text": "re-architecting"}, {"start": 66, "end": 77, "text": "refactoring"}, {"start": 79, "end": 95, "text": "containerization"}, {"start": 121, "end": 148, "text": "AI-augmented SDLC workflows"}]}
+{"id": "train_pool-1022", "spans": [{"start": 16, "end": 50, "text": "advanced driver-assistance systems"}, {"start": 54, "end": 81, "text": "autonomous driving features"}]}
+{"id": "train_pool-1023", "spans": [{"start": 21, "end": 40, "text": "enterprise products"}, {"start": 44, "end": 49, "text": "tools"}]}
+{"id": "train_pool-1024", "spans": [{"start": 29, "end": 47, "text": "youth monetization"}]}
+{"id": "train_pool-1025", "spans": [{"start": 57, "end": 70, "text": "manufacturing"}, {"start": 72, "end": 78, "text": "retail"}, {"start": 80, "end": 83, "text": "CPG"}]}
+{"id": "train_pool-1026", "spans": [{"start": 14, "end": 34, "text": "hardware engineering"}, {"start": 36, "end": 49, "text": "system design"}, {"start": 51, "end": 63, "text": "board design"}, {"start": 68, "end": 79, "text": "development"}, {"start": 81, "end": 106, "text": "debugging/troubleshooting"}, {"start": 111, "end": 126, "text": "hardware design"}]}
+{"id": "train_pool-1027", "spans": [{"start": 58, "end": 70, "text": "public cloud"}, {"start": 77, "end": 97, "text": "enterprise architect"}, {"start": 101, "end": 129, "text": "IT infrastructure consultant"}]}
+{"id": "train_pool-1028", "spans": [{"start": 20, "end": 27, "text": "billing"}, {"start": 32, "end": 39, "text": "payment"}, {"start": 52, "end": 67, "text": "troubleshooting"}]}
+{"id": "train_pool-1029", "spans": [{"start": 40, "end": 68, "text": "Large Language Models (LLMs)"}, {"start": 72, "end": 81, "text": "AI agents"}]}
+{"id": "train_pool-1030", "spans": [{"start": 61, "end": 81, "text": "Cloud Infrastructure"}]}
+{"id": "train_pool-1031", "spans": []}
+{"id": "train_pool-1032", "spans": [{"start": 42, "end": 73, "text": "distributed filesystem backends"}, {"start": 97, "end": 111, "text": "AI/ML training"}, {"start": 113, "end": 122, "text": "inference"}, {"start": 128, "end": 145, "text": "Agentic workloads"}]}
+{"id": "train_pool-1033", "spans": []}
+{"id": "train_pool-1034", "spans": []}
+{"id": "train_pool-1035", "spans": []}
+{"id": "train_pool-1036", "spans": []}
+{"id": "train_pool-1037", "spans": []}
+{"id": "train_pool-1038", "spans": [{"start": 57, "end": 85, "text": "automated UI standardization"}, {"start": 90, "end": 103, "text": "token tooling"}]}
+{"id": "train_pool-1039", "spans": []}
+{"id": "train_pool-1040", "spans": [{"start": 121, "end": 140, "text": "cloud/IT technology"}]}
+{"id": "train_pool-1041", "spans": [{"start": 30, "end": 55, "text": "lightweight methodologies"}]}
+{"id": "train_pool-1042", "spans": []}
+{"id": "train_pool-1043", "spans": [{"start": 64, "end": 90, "text": "production data warehouses"}, {"start": 95, "end": 117, "text": "canonical data sources"}]}
+{"id": "train_pool-1044", "spans": [{"start": 25, "end": 44, "text": "health data systems"}, {"start": 46, "end": 65, "text": "data reconciliation"}, {"start": 71, "end": 99, "text": "wearable device integrations"}]}
+{"id": "train_pool-1045", "spans": []}
+{"id": "train_pool-1046", "spans": []}
+{"id": "train_pool-1047", "spans": [{"start": 138, "end": 157, "text": "generative AI tools"}, {"start": 162, "end": 179, "text": "agentic workflows"}]}
+{"id": "train_pool-1048", "spans": [{"start": 40, "end": 60, "text": "Python Workspace API"}, {"start": 72, "end": 84, "text": "Bash/gws CLI"}]}
+{"id": "train_pool-1049", "spans": [{"start": 48, "end": 77, "text": "training/inference onboarding"}, {"start": 82, "end": 105, "text": "optimization frameworks"}]}
+{"id": "train_pool-1050", "spans": []}
+{"id": "train_pool-1051", "spans": []}
+{"id": "train_pool-1052", "spans": []}
+{"id": "train_pool-1053", "spans": []}
+{"id": "train_pool-1054", "spans": [{"start": 14, "end": 32, "text": "program management"}]}
+{"id": "train_pool-1055", "spans": [{"start": 37, "end": 53, "text": "agentic AI tools"}, {"start": 99, "end": 125, "text": "data governance frameworks"}]}
+{"id": "train_pool-1056", "spans": []}
+{"id": "train_pool-1057", "spans": []}
+{"id": "train_pool-1058", "spans": []}
+{"id": "train_pool-1059", "spans": [{"start": 83, "end": 99, "text": "machine learning"}]}
+{"id": "train_pool-1060", "spans": [{"start": 37, "end": 39, "text": "AI"}]}
+{"id": "train_pool-1061", "spans": []}
+{"id": "train_pool-1062", "spans": []}
+{"id": "train_pool-1063", "spans": [{"start": 24, "end": 41, "text": "ML Infrastructure"}, {"start": 107, "end": 149, "text": "generative and discriminative technologies"}]}
+{"id": "train_pool-1064", "spans": [{"start": 198, "end": 214, "text": "Google Cloud TPU"}]}
+{"id": "train_pool-1065", "spans": [{"start": 26, "end": 41, "text": "cloud computing"}]}
+{"id": "train_pool-1066", "spans": [{"start": 10, "end": 22, "text": "architecture"}, {"start": 24, "end": 32, "text": "firmware"}, {"start": 37, "end": 45, "text": "software"}, {"start": 89, "end": 122, "text": "micro-architecture specifications"}]}
+{"id": "train_pool-1067", "spans": [{"start": 39, "end": 51, "text": "ASIC designs"}, {"start": 56, "end": 76, "text": "general architecture"}]}
+{"id": "train_pool-1068", "spans": [{"start": 18, "end": 37, "text": "enterprise software"}]}
+{"id": "train_pool-1069", "spans": []}
+{"id": "train_pool-1070", "spans": [{"start": 8, "end": 27, "text": "root cause analysis"}, {"start": 55, "end": 88, "text": "Building Management Systems (BMS)"}, {"start": 93, "end": 135, "text": "Electrical Power Monitoring Systems (EPMS)"}]}
+{"id": "train_pool-1071", "spans": []}
+{"id": "train_pool-1072", "spans": []}
+{"id": "train_pool-1073", "spans": []}
+{"id": "train_pool-1074", "spans": []}
+{"id": "train_pool-1075", "spans": [{"start": 84, "end": 96, "text": "at-speed TDF"}, {"start": 98, "end": 102, "text": "ATPG"}, {"start": 104, "end": 109, "text": "MBIST"}, {"start": 111, "end": 124, "text": "Memory Repair"}, {"start": 126, "end": 142, "text": "diagnostic tools"}, {"start": 144, "end": 161, "text": "yield improvement"}]}
+{"id": "train_pool-1076", "spans": [{"start": 27, "end": 52, "text": "cloud native architecture"}, {"start": 130, "end": 174, "text": "application performance profiling and tuning"}]}
+{"id": "train_pool-1077", "spans": []}
+{"id": "train_pool-1078", "spans": [{"start": 44, "end": 81, "text": "Environment, Health, and Safety (EHS)"}]}
+{"id": "train_pool-1079", "spans": [{"start": 16, "end": 52, "text": "machine learning inference workloads"}]}
+{"id": "train_pool-1080", "spans": []}
+{"id": "train_pool-1081", "spans": [{"start": 29, "end": 49, "text": "software engineering"}]}
+{"id": "train_pool-1082", "spans": []}
+{"id": "train_pool-1083", "spans": []}
+{"id": "train_pool-1084", "spans": []}
+{"id": "train_pool-1085", "spans": [{"start": 93, "end": 111, "text": "project management"}]}
+{"id": "train_pool-1086", "spans": []}
+{"id": "train_pool-1087", "spans": []}
+{"id": "train_pool-1088", "spans": []}
+{"id": "train_pool-1089", "spans": []}
+{"id": "train_pool-1090", "spans": [{"start": 11, "end": 33, "text": "open-source leadership"}]}
+{"id": "train_pool-1091", "spans": [{"start": 42, "end": 69, "text": "financial services industry"}]}
+{"id": "train_pool-1092", "spans": [{"start": 16, "end": 19, "text": "bar"}]}
+{"id": "train_pool-1093", "spans": [{"start": 21, "end": 42, "text": "AI productivity tools"}]}
+{"id": "train_pool-1094", "spans": [{"start": 42, "end": 53, "text": "Transformer"}, {"start": 58, "end": 93, "text": "Mixture-of-Experts model components"}]}
+{"id": "train_pool-1095", "spans": [{"start": 27, "end": 51, "text": "Generative AI techniques"}, {"start": 59, "end": 63, "text": "LLMs"}, {"start": 65, "end": 76, "text": "Multi-Modal"}, {"start": 82, "end": 101, "text": "Large Vision Models"}, {"start": 111, "end": 141, "text": "Generative AI-related concepts"}, {"start": 143, "end": 160, "text": "language modeling"}, {"start": 165, "end": 180, "text": "computer vision"}]}
+{"id": "train_pool-1096", "spans": [{"start": 55, "end": 74, "text": "marketing analytics"}, {"start": 76, "end": 115, "text": "return on investment/financial modeling"}, {"start": 121, "end": 141, "text": "statistical analysis"}]}
+{"id": "train_pool-1097", "spans": []}
+{"id": "train_pool-1098", "spans": [{"start": 44, "end": 79, "text": "Cloud based technical architectures"}, {"start": 81, "end": 101, "text": "migration approaches"}, {"start": 107, "end": 132, "text": "application optimizations"}]}
+{"id": "train_pool-1099", "spans": [{"start": 53, "end": 63, "text": "Google Ads"}, {"start": 65, "end": 81, "text": "Google Analytics"}, {"start": 83, "end": 91, "text": "Firebase"}, {"start": 124, "end": 133, "text": "Appsflyer"}, {"start": 135, "end": 141, "text": "Branch"}, {"start": 147, "end": 153, "text": "Adjust"}]}
+{"id": "train_pool-1100", "spans": [{"start": 35, "end": 46, "text": "GRC systems"}, {"start": 54, "end": 60, "text": "Comply"}, {"start": 62, "end": 66, "text": "GGRC"}]}
+{"id": "train_pool-1101", "spans": [{"start": 72, "end": 80, "text": "ML stack"}, {"start": 82, "end": 92, "text": "Frameworks"}, {"start": 100, "end": 103, "text": "JAX"}, {"start": 105, "end": 112, "text": "PyTorch"}, {"start": 115, "end": 118, "text": "XLA"}, {"start": 123, "end": 136, "text": "runtime stack"}]}
+{"id": "train_pool-1102", "spans": []}
+{"id": "train_pool-1103", "spans": [{"start": 28, "end": 47, "text": "enterprise security"}, {"start": 49, "end": 57, "text": "identity"}, {"start": 62, "end": 69, "text": "privacy"}]}
+{"id": "train_pool-1104", "spans": [{"start": 20, "end": 31, "text": "forecasting"}, {"start": 33, "end": 41, "text": "planning"}, {"start": 46, "end": 72, "text": "resource-allocation system"}]}
+{"id": "train_pool-1105", "spans": []}
+{"id": "train_pool-1106", "spans": [{"start": 25, "end": 58, "text": "statistical programming languages"}, {"start": 66, "end": 72, "text": "Python"}, {"start": 74, "end": 75, "text": "R"}]}
+{"id": "train_pool-1107", "spans": []}
+{"id": "train_pool-1108", "spans": [{"start": 24, "end": 52, "text": "Artificial Intelligence (AI)"}, {"start": 54, "end": 86, "text": "Robotic Process Automation (RPA)"}, {"start": 92, "end": 115, "text": "automation technologies"}]}
+{"id": "train_pool-1109", "spans": [{"start": 47, "end": 57, "text": "autoraters"}, {"start": 59, "end": 79, "text": "dynamic attack trees"}, {"start": 85, "end": 100, "text": "threat personas"}, {"start": 105, "end": 123, "text": "agentic simulators"}]}
+{"id": "train_pool-1110", "spans": [{"start": 27, "end": 55, "text": "Large Language Models (LLMs)"}, {"start": 60, "end": 86, "text": "generative AI technologies"}]}
+{"id": "train_pool-1111", "spans": []}
+{"id": "train_pool-1112", "spans": [{"start": 30, "end": 39, "text": "ML design"}, {"start": 55, "end": 72, "text": "ML infrastructure"}, {"start": 80, "end": 96, "text": "model deployment"}, {"start": 98, "end": 114, "text": "model evaluation"}, {"start": 116, "end": 131, "text": "data processing"}, {"start": 133, "end": 142, "text": "debugging"}, {"start": 144, "end": 155, "text": "fine tuning"}]}
+{"id": "train_pool-1113", "spans": []}
+{"id": "train_pool-1114", "spans": [{"start": 25, "end": 42, "text": "people management"}]}
+{"id": "train_pool-1115", "spans": [{"start": 59, "end": 79, "text": "generative AI models"}]}
+{"id": "train_pool-1116", "spans": []}
+{"id": "train_pool-1117", "spans": [{"start": 7, "end": 23, "text": "systems-thinking"}, {"start": 82, "end": 105, "text": "Source-to-Pay pipelines"}]}
+{"id": "train_pool-1118", "spans": []}
+{"id": "train_pool-1119", "spans": [{"start": 47, "end": 50, "text": "CPU"}, {"start": 52, "end": 56, "text": "dGPU"}, {"start": 61, "end": 64, "text": "TPU"}]}
+{"id": "train_pool-1120", "spans": [{"start": 148, "end": 161, "text": "system design"}]}
+{"id": "train_pool-1121", "spans": [{"start": 33, "end": 49, "text": "validation plans"}]}
+{"id": "train_pool-1122", "spans": [{"start": 16, "end": 54, "text": "online lead generation business models"}]}
+{"id": "train_pool-1123", "spans": [{"start": 46, "end": 65, "text": "resource management"}]}
+{"id": "train_pool-1124", "spans": [{"start": 45, "end": 74, "text": "recommendation systems models"}, {"start": 76, "end": 85, "text": "retrieval"}, {"start": 87, "end": 97, "text": "prediction"}, {"start": 99, "end": 106, "text": "ranking"}, {"start": 108, "end": 123, "text": "personalization"}, {"start": 125, "end": 139, "text": "search quality"}, {"start": 141, "end": 150, "text": "embedding"}, {"start": 191, "end": 203, "text": "architecture"}]}
+{"id": "train_pool-1125", "spans": [{"start": 16, "end": 30, "text": "hardware tools"}]}
+{"id": "train_pool-1126", "spans": [{"start": 26, "end": 44, "text": "program management"}]}
+{"id": "train_pool-1127", "spans": [{"start": 16, "end": 40, "text": "Performance optimization"}, {"start": 62, "end": 71, "text": "debugging"}, {"start": 81, "end": 109, "text": "distributed software systems"}]}
+{"id": "train_pool-1128", "spans": [{"start": 14, "end": 34, "text": "software development"}, {"start": 71, "end": 94, "text": "machine learning models"}]}
+{"id": "train_pool-1129", "spans": [{"start": 15, "end": 37, "text": "measurement strategies"}, {"start": 63, "end": 96, "text": "Key Performance Indicators (KPIs)"}]}
+{"id": "train_pool-1130", "spans": [{"start": 20, "end": 29, "text": "AI agents"}, {"start": 41, "end": 56, "text": "HTML dashboards"}, {"start": 128, "end": 149, "text": "business intelligence"}]}
+{"id": "train_pool-1131", "spans": [{"start": 16, "end": 72, "text": "online controlled experimentation (A/B testing at scale)"}, {"start": 74, "end": 90, "text": "causal inference"}, {"start": 108, "end": 131, "text": "telemetry/data analysis"}]}
+{"id": "train_pool-1132", "spans": []}
+{"id": "train_pool-1133", "spans": []}
+{"id": "train_pool-1134", "spans": [{"start": 13, "end": 28, "text": "cloud computing"}, {"start": 40, "end": 73, "text": "serverless execution environments"}, {"start": 75, "end": 89, "text": "virtualization"}, {"start": 91, "end": 106, "text": "hosted services"}, {"start": 108, "end": 142, "text": "multi-tenant cloud infrastructures"}, {"start": 148, "end": 171, "text": "secure cloud networking"}]}
+{"id": "train_pool-1135", "spans": []}
+{"id": "train_pool-1136", "spans": []}
+{"id": "train_pool-1137", "spans": []}
+{"id": "train_pool-1138", "spans": [{"start": 76, "end": 85, "text": "A/B tests"}, {"start": 87, "end": 115, "text": "Marketing Mix Modeling (MMM)"}, {"start": 121, "end": 150, "text": "Multi-Touch Attribution (MTA)"}]}
+{"id": "train_pool-1139", "spans": [{"start": 19, "end": 35, "text": "cloud migrations"}, {"start": 37, "end": 60, "text": "digital implementations"}, {"start": 64, "end": 91, "text": "managed services operations"}]}
+{"id": "train_pool-1140", "spans": [{"start": 132, "end": 151, "text": "cloud architectures"}]}
+{"id": "train_pool-1141", "spans": [{"start": 16, "end": 32, "text": "web technologies"}, {"start": 34, "end": 38, "text": "HTTP"}, {"start": 40, "end": 44, "text": "HTML"}, {"start": 46, "end": 49, "text": "DNS"}, {"start": 51, "end": 54, "text": "TCP"}, {"start": 118, "end": 122, "text": "Java"}, {"start": 124, "end": 130, "text": "Python"}, {"start": 132, "end": 134, "text": "Go"}, {"start": 139, "end": 152, "text": "system design"}, {"start": 154, "end": 182, "text": "AI-assisted coding/debugging"}]}
+{"id": "train_pool-1142", "spans": []}
+{"id": "train_pool-1143", "spans": [{"start": 9, "end": 30, "text": "domain-specific tools"}, {"start": 32, "end": 42, "text": "simulators"}, {"start": 44, "end": 52, "text": "datasets"}, {"start": 58, "end": 64, "text": "models"}, {"start": 72, "end": 90, "text": "genomics pipelines"}, {"start": 92, "end": 112, "text": "structure prediction"}, {"start": 114, "end": 138, "text": "physics-based simulation"}]}
+{"id": "train_pool-1144", "spans": [{"start": 16, "end": 41, "text": "algorithmic architectures"}, {"start": 43, "end": 55, "text": "data sources"}, {"start": 61, "end": 94, "text": "training and inference techniques"}, {"start": 99, "end": 127, "text": "generative multimodal models"}, {"start": 144, "end": 165, "text": "robotics applications"}, {"start": 173, "end": 177, "text": "VLAs"}, {"start": 179, "end": 183, "text": "WAMs"}]}
+{"id": "train_pool-1145", "spans": [{"start": 16, "end": 50, "text": "extract, transform, and load (ETL)"}, {"start": 52, "end": 69, "text": "data architecture"}, {"start": 75, "end": 93, "text": "system integration"}]}
+{"id": "train_pool-1146", "spans": []}
+{"id": "train_pool-1147", "spans": []}
+{"id": "train_pool-1148", "spans": [{"start": 56, "end": 76, "text": "Digital Services Act"}, {"start": 78, "end": 114, "text": "Audiovisual Media Services Directive"}, {"start": 119, "end": 145, "text": "European Media Freedom Act"}]}
+{"id": "train_pool-1149", "spans": [{"start": 14, "end": 31, "text": "change management"}, {"start": 36, "end": 58, "text": "communication strategy"}]}
+{"id": "train_pool-1150", "spans": [{"start": 174, "end": 189, "text": "troubleshooting"}, {"start": 193, "end": 201, "text": "triaging"}]}
+{"id": "train_pool-1151", "spans": [{"start": 13, "end": 61, "text": "high-performance and low-power design techniques"}, {"start": 63, "end": 98, "text": "assertion-based formal verification"}, {"start": 100, "end": 136, "text": "Field-programmable Gate Array (FPGA)"}, {"start": 141, "end": 160, "text": "emulation platforms"}, {"start": 166, "end": 182, "text": "SoC architecture"}]}
+{"id": "train_pool-1152", "spans": [{"start": 10, "end": 27, "text": "analytical skills"}]}
+{"id": "train_pool-1153", "spans": []}
+{"id": "train_pool-1154", "spans": [{"start": 25, "end": 59, "text": "enterprise application development"}, {"start": 64, "end": 80, "text": "data engineering"}, {"start": 92, "end": 116, "text": "designing data pipelines"}, {"start": 118, "end": 127, "text": "databases"}, {"start": 132, "end": 144, "text": "web services"}, {"start": 152, "end": 166, "text": "REST/SOAP APIs"}]}
+{"id": "train_pool-1155", "spans": [{"start": 14, "end": 30, "text": "data integration"}, {"start": 35, "end": 44, "text": "analytics"}, {"start": 72, "end": 94, "text": "data automation models"}, {"start": 96, "end": 123, "text": "relational tracking systems"}, {"start": 133, "end": 136, "text": "SQL"}, {"start": 138, "end": 146, "text": "BigQuery"}, {"start": 148, "end": 186, "text": "spreadsheet software/Sheets automation"}, {"start": 191, "end": 202, "text": "Apps Script"}, {"start": 209, "end": 229, "text": "reporting dashboards"}]}
+{"id": "train_pool-1156", "spans": [{"start": 22, "end": 36, "text": "DFT activities"}, {"start": 58, "end": 79, "text": "ASIC development flow"}]}
+{"id": "train_pool-1157", "spans": []}
+{"id": "train_pool-1158", "spans": [{"start": 14, "end": 46, "text": "software design and architecture"}, {"start": 77, "end": 91, "text": "AI/ML concepts"}, {"start": 93, "end": 103, "text": "algorithms"}]}
+{"id": "train_pool-1159", "spans": []}
+{"id": "train_pool-1160", "spans": []}
+{"id": "train_pool-1161", "spans": [{"start": 40, "end": 55, "text": "AI applications"}, {"start": 138, "end": 157, "text": "multi-agent systems"}, {"start": 159, "end": 170, "text": "MCP servers"}]}
+{"id": "train_pool-1162", "spans": []}
+{"id": "train_pool-1163", "spans": [{"start": 44, "end": 50, "text": "Python"}, {"start": 52, "end": 54, "text": "Go"}, {"start": 56, "end": 66, "text": "JavaScript"}, {"start": 71, "end": 75, "text": "HTML"}]}
+{"id": "train_pool-1164", "spans": []}
+{"id": "train_pool-1165", "spans": [{"start": 17, "end": 44, "text": "data path design techniques"}]}
+{"id": "train_pool-1166", "spans": []}
+{"id": "train_pool-1167", "spans": [{"start": 8, "end": 26, "text": "Silicon Networking"}, {"start": 109, "end": 123, "text": "Networking IPs"}]}
+{"id": "train_pool-1168", "spans": [{"start": 22, "end": 39, "text": "change management"}]}
+{"id": "train_pool-1169", "spans": []}
+{"id": "train_pool-1170", "spans": []}
+{"id": "train_pool-1171", "spans": [{"start": 14, "end": 23, "text": "logistics"}, {"start": 52, "end": 80, "text": "OpEx/CapEx budget allocation"}, {"start": 86, "end": 106, "text": "financial governance"}, {"start": 174, "end": 198, "text": "unit costing/forecasting"}]}
+{"id": "train_pool-1172", "spans": [{"start": 22, "end": 52, "text": "scalable engineering solutions"}]}
+{"id": "train_pool-1173", "spans": [{"start": 16, "end": 47, "text": "Core Architecture methodologies"}, {"start": 56, "end": 82, "text": "Migrate for Compute Engine"}, {"start": 84, "end": 118, "text": "Cloud Migration Discovery/Planning"}, {"start": 124, "end": 151, "text": "Architecting for Resilience"}]}
+{"id": "train_pool-1174", "spans": [{"start": 42, "end": 59, "text": "engineering teams"}, {"start": 61, "end": 70, "text": "mentoring"}]}
+{"id": "train_pool-1175", "spans": [{"start": 61, "end": 76, "text": "computer vision"}, {"start": 78, "end": 94, "text": "machine learning"}, {"start": 99, "end": 116, "text": "computer graphics"}]}
+{"id": "train_pool-1176", "spans": [{"start": 19, "end": 47, "text": "Large Language Models (LLMs)"}, {"start": 49, "end": 55, "text": "agents"}, {"start": 60, "end": 83, "text": "generative technologies"}]}
+{"id": "train_pool-1177", "spans": [{"start": 46, "end": 85, "text": "conversational voice and chat solutions"}, {"start": 87, "end": 96, "text": "voicebots"}, {"start": 98, "end": 101, "text": "IVR"}, {"start": 103, "end": 117, "text": "virtual agents"}]}
+{"id": "train_pool-1178", "spans": [{"start": 20, "end": 55, "text": "physical infrastructure integration"}, {"start": 60, "end": 119, "text": "ultra-high-density AI/ML accelerator platforms (TPUs, GPUs)"}, {"start": 131, "end": 149, "text": "high-power busways"}, {"start": 151, "end": 171, "text": "power tap interfaces"}, {"start": 177, "end": 207, "text": "direct liquid-cooling handoffs"}]}
+{"id": "train_pool-1179", "spans": []}
+{"id": "train_pool-1180", "spans": [{"start": 19, "end": 31, "text": "Google Cloud"}]}
+{"id": "train_pool-1181", "spans": []}
+{"id": "train_pool-1182", "spans": []}
+{"id": "train_pool-1183", "spans": []}
+{"id": "train_pool-1184", "spans": []}
+{"id": "train_pool-1185", "spans": [{"start": 24, "end": 30, "text": "DevOps"}, {"start": 35, "end": 50, "text": "MLOps pipelines"}]}
+{"id": "train_pool-1186", "spans": [{"start": 39, "end": 56, "text": "AI infrastructure"}, {"start": 61, "end": 84, "text": "supply chain ecosystems"}]}
+{"id": "train_pool-1187", "spans": []}
+{"id": "train_pool-1188", "spans": []}
+{"id": "train_pool-1189", "spans": []}
+{"id": "train_pool-1190", "spans": []}
+{"id": "train_pool-1191", "spans": []}
+{"id": "train_pool-1192", "spans": [{"start": 17, "end": 41, "text": "modern commercial models"}]}
+{"id": "train_pool-1193", "spans": [{"start": 70, "end": 101, "text": "statistical modeling techniques"}]}
+{"id": "train_pool-1194", "spans": [{"start": 60, "end": 75, "text": "data structures"}, {"start": 77, "end": 87, "text": "algorithms"}, {"start": 92, "end": 107, "text": "software design"}]}
+{"id": "train_pool-1195", "spans": []}
+{"id": "train_pool-1196", "spans": []}
+{"id": "train_pool-1197", "spans": []}
+{"id": "train_pool-1198", "spans": []}
+{"id": "train_pool-1199", "spans": [{"start": 27, "end": 44, "text": "resource planning"}, {"start": 50, "end": 65, "text": "risk mitigation"}]}
+{"id": "train_pool-1200", "spans": [{"start": 102, "end": 113, "text": "reliability"}, {"start": 115, "end": 125, "text": "versioning"}, {"start": 127, "end": 140, "text": "observability"}, {"start": 142, "end": 156, "text": "access control"}, {"start": 158, "end": 171, "text": "documentation"}, {"start": 177, "end": 191, "text": "support models"}]}
+{"id": "train_pool-1201", "spans": [{"start": 18, "end": 46, "text": "LLMs (Large Language Models)"}, {"start": 48, "end": 76, "text": "GNNs (Graph Neural Networks)"}, {"start": 82, "end": 104, "text": "Reinforcement Learning"}]}
+{"id": "train_pool-1202", "spans": [{"start": 5, "end": 15, "text": "automation"}, {"start": 49, "end": 74, "text": "infrastructure management"}]}
+{"id": "train_pool-1203", "spans": [{"start": 98, "end": 102, "text": "CUDA"}, {"start": 107, "end": 124, "text": "OpenGL extensions"}]}
+{"id": "train_pool-1204", "spans": [{"start": 71, "end": 78, "text": "SAP S/4"}, {"start": 80, "end": 83, "text": "IBP"}, {"start": 85, "end": 95, "text": "Salesforce"}, {"start": 184, "end": 193, "text": "API-First"}, {"start": 198, "end": 223, "text": "Event Driven Architecture"}]}
+{"id": "train_pool-1205", "spans": []}
+{"id": "train_pool-1206", "spans": [{"start": 72, "end": 96, "text": "Co-Packaged Optics (CPO)"}, {"start": 98, "end": 115, "text": "Silicon Photonics"}, {"start": 130, "end": 142, "text": "OSFP/QSFP-DD"}]}
+{"id": "train_pool-1207", "spans": [{"start": 110, "end": 125, "text": "system software"}, {"start": 127, "end": 139, "text": "data science"}, {"start": 145, "end": 157, "text": "AI platforms"}]}
+{"id": "train_pool-1208", "spans": []}
+{"id": "train_pool-1209", "spans": [{"start": 17, "end": 20, "text": "MBA"}]}
+{"id": "train_pool-1210", "spans": [{"start": 32, "end": 53, "text": "accelerated computing"}, {"start": 58, "end": 99, "text": "datacenter/HPC-based Enterprise computing"}]}
+{"id": "train_pool-1211", "spans": [{"start": 21, "end": 45, "text": "AI factory architectures"}, {"start": 47, "end": 68, "text": "distributed inference"}, {"start": 73, "end": 90, "text": "network telemetry"}]}
+{"id": "train_pool-1212", "spans": [{"start": 19, "end": 24, "text": "C/C++"}, {"start": 25, "end": 41, "text": "reference models"}, {"start": 43, "end": 62, "text": "stimulus generators"}, {"start": 64, "end": 72, "text": "checkers"}, {"start": 78, "end": 87, "text": "test code"}, {"start": 99, "end": 109, "text": "simulation"}, {"start": 114, "end": 123, "text": "emulation"}]}
+{"id": "train_pool-1213", "spans": []}
+{"id": "train_pool-1214", "spans": [{"start": 41, "end": 52, "text": "Claude Code"}, {"start": 54, "end": 60, "text": "Cursor"}, {"start": 62, "end": 69, "text": "Open AI"}, {"start": 74, "end": 88, "text": "inference SDKs"}]}
+{"id": "train_pool-1215", "spans": [{"start": 35, "end": 51, "text": "test development"}, {"start": 53, "end": 73, "text": "firmware development"}, {"start": 75, "end": 85, "text": "automation"}, {"start": 90, "end": 110, "text": "software engineering"}]}
+{"id": "train_pool-1216", "spans": [{"start": 54, "end": 75, "text": "embedded environments"}, {"start": 83, "end": 90, "text": "DriveOS"}, {"start": 92, "end": 101, "text": "ISO 26262"}]}
+{"id": "train_pool-1217", "spans": [{"start": 25, "end": 43, "text": "Ethernet Switching"}, {"start": 47, "end": 64, "text": "Routing protocols"}, {"start": 74, "end": 91, "text": "Linux development"}, {"start": 93, "end": 103, "text": "user-space"}, {"start": 111, "end": 123, "text": "kernel-space"}]}
+{"id": "train_pool-1218", "spans": []}
+{"id": "train_pool-1219", "spans": [{"start": 0, "end": 29, "text": "BGP/EVPN control-plane design"}, {"start": 34, "end": 66, "text": "VRF/VxLAN multi-tenant isolation"}]}
+{"id": "train_pool-1220", "spans": []}
+{"id": "train_pool-1221", "spans": []}
+{"id": "train_pool-1222", "spans": []}
+{"id": "train_pool-1223", "spans": []}
+{"id": "train_pool-1224", "spans": []}
+{"id": "train_pool-1225", "spans": []}
+{"id": "train_pool-1226", "spans": [{"start": 83, "end": 100, "text": "inventory control"}]}
+{"id": "train_pool-1227", "spans": [{"start": 24, "end": 43, "text": "AI Customer Journey"}, {"start": 67, "end": 85, "text": "Cloud technologies"}]}
+{"id": "train_pool-1228", "spans": [{"start": 48, "end": 71, "text": "computational chemistry"}, {"start": 73, "end": 83, "text": "biophysics"}, {"start": 85, "end": 104, "text": "applied mathematics"}, {"start": 109, "end": 125, "text": "computer science"}, {"start": 142, "end": 145, "text": "HPC"}, {"start": 149, "end": 169, "text": "scientific computing"}]}
+{"id": "train_pool-1229", "spans": [{"start": 38, "end": 41, "text": "PID"}, {"start": 43, "end": 46, "text": "MPC"}, {"start": 48, "end": 66, "text": "whole body control"}]}
+{"id": "train_pool-1230", "spans": [{"start": 14, "end": 21, "text": "Specman"}, {"start": 24, "end": 38, "text": "System Verilog"}, {"start": 39, "end": 42, "text": "UVM"}]}
+{"id": "train_pool-1231", "spans": [{"start": 70, "end": 72, "text": "Go"}]}
+{"id": "train_pool-1232", "spans": [{"start": 19, "end": 39, "text": "Algorithmic Thinking"}, {"start": 42, "end": 55, "text": "System Design"}, {"start": 67, "end": 76, "text": "Recursion"}, {"start": 78, "end": 83, "text": "Graph"}, {"start": 85, "end": 89, "text": "Tree"}, {"start": 91, "end": 96, "text": "Stack"}, {"start": 101, "end": 106, "text": "Queue"}, {"start": 108, "end": 161, "text": "Large scale loosely coupled distributed system design"}]}
+{"id": "train_pool-1233", "spans": [{"start": 46, "end": 56, "text": "Kubernetes"}]}
+{"id": "train_pool-1234", "spans": [{"start": 13, "end": 19, "text": "Python"}, {"start": 40, "end": 41, "text": "C"}, {"start": 46, "end": 49, "text": "C++"}, {"start": 55, "end": 60, "text": "Linux"}, {"start": 129, "end": 147, "text": "micro-architecture"}]}
+{"id": "train_pool-1235", "spans": [{"start": 94, "end": 103, "text": "reasoning"}, {"start": 105, "end": 115, "text": "multimodal"}, {"start": 117, "end": 129, "text": "long-context"}, {"start": 135, "end": 150, "text": "agentic systems"}]}
+{"id": "train_pool-1236", "spans": [{"start": 8, "end": 44, "text": "retrieval-augmented generation (RAG)"}, {"start": 85, "end": 98, "text": "vector search"}, {"start": 100, "end": 114, "text": "keyword search"}, {"start": 116, "end": 125, "text": "reranking"}, {"start": 131, "end": 151, "text": "structured knowledge"}]}
+{"id": "train_pool-1237", "spans": [{"start": 17, "end": 30, "text": "observability"}]}
+{"id": "train_pool-1238", "spans": [{"start": 19, "end": 36, "text": "systems debugging"}]}
+{"id": "train_pool-1239", "spans": [{"start": 12, "end": 44, "text": "verbal and written communication"}]}
+{"id": "train_pool-1240", "spans": []}
+{"id": "train_pool-1241", "spans": [{"start": 22, "end": 25, "text": "C++"}, {"start": 30, "end": 36, "text": "Python"}]}
+{"id": "train_pool-1242", "spans": [{"start": 35, "end": 44, "text": "workloads"}, {"start": 46, "end": 52, "text": "clocks"}, {"start": 54, "end": 62, "text": "voltages"}, {"start": 64, "end": 76, "text": "power limits"}, {"start": 78, "end": 86, "text": "thermals"}, {"start": 88, "end": 97, "text": "telemetry"}, {"start": 103, "end": 124, "text": "system-level policies"}]}
+{"id": "train_pool-1243", "spans": []}
+{"id": "train_pool-1244", "spans": [{"start": 30, "end": 40, "text": "toolchains"}, {"start": 42, "end": 73, "text": "experiment management workflows"}, {"start": 79, "end": 102, "text": "technical documentation"}]}
+{"id": "train_pool-1245", "spans": []}
+{"id": "train_pool-1246", "spans": [{"start": 25, "end": 29, "text": "CUDA"}, {"start": 31, "end": 39, "text": "ROS/ROS2"}, {"start": 41, "end": 43, "text": "AV"}, {"start": 47, "end": 66, "text": "robotics middleware"}, {"start": 68, "end": 96, "text": "sensor processing frameworks"}, {"start": 98, "end": 113, "text": "profiling tools"}, {"start": 119, "end": 150, "text": "heterogeneous compute pipelines"}]}
+{"id": "train_pool-1247", "spans": []}
+{"id": "train_pool-1248", "spans": [{"start": 20, "end": 43, "text": "large pretrained vision"}, {"start": 45, "end": 55, "text": "multimodal"}, {"start": 60, "end": 83, "text": "world foundation models"}]}
+{"id": "train_pool-1249", "spans": []}
+{"id": "train_pool-1250", "spans": []}
+{"id": "train_pool-1251", "spans": [{"start": 57, "end": 58, "text": "C"}, {"start": 60, "end": 63, "text": "C++"}, {"start": 65, "end": 71, "text": "Python"}, {"start": 73, "end": 80, "text": "Verilog"}, {"start": 82, "end": 96, "text": "System Verilog"}, {"start": 98, "end": 110, "text": "ARM assembly"}, {"start": 112, "end": 127, "text": "RISC V assembly"}, {"start": 132, "end": 151, "text": "scripting languages"}]}
+{"id": "train_pool-1252", "spans": []}
+{"id": "train_pool-1253", "spans": [{"start": 43, "end": 61, "text": "identity lifecycle"}, {"start": 63, "end": 78, "text": "access requests"}, {"start": 80, "end": 97, "text": "directory hygiene"}, {"start": 103, "end": 129, "text": "service account governance"}]}
+{"id": "train_pool-1254", "spans": [{"start": 22, "end": 48, "text": "firmware/driver structures"}]}
+{"id": "train_pool-1255", "spans": []}
+{"id": "train_pool-1256", "spans": []}
+{"id": "train_pool-1257", "spans": [{"start": 42, "end": 48, "text": "Claude"}, {"start": 50, "end": 55, "text": "Codex"}, {"start": 61, "end": 67, "text": "Cursor"}]}
+{"id": "train_pool-1258", "spans": [{"start": 82, "end": 100, "text": "parallel computing"}]}
+{"id": "train_pool-1259", "spans": [{"start": 0, "end": 20, "text": "GPU Software testing"}, {"start": 25, "end": 40, "text": "test automation"}, {"start": 105, "end": 110, "text": "cuDNN"}, {"start": 112, "end": 120, "text": "TensorRT"}]}
+{"id": "train_pool-1260", "spans": [{"start": 26, "end": 42, "text": "Site Reliability"}, {"start": 44, "end": 58, "text": "Infrastructure"}, {"start": 60, "end": 79, "text": "Systems Engineering"}]}
+{"id": "train_pool-1261", "spans": []}
+{"id": "train_pool-1262", "spans": [{"start": 13, "end": 33, "text": "software engineering"}, {"start": 56, "end": 76, "text": "technical leadership"}, {"start": 82, "end": 105, "text": "data-intensive platform"}]}
+{"id": "train_pool-1263", "spans": []}
+{"id": "train_pool-1264", "spans": [{"start": 15, "end": 35, "text": "RTL design (Verilog)"}, {"start": 37, "end": 79, "text": "System-On-Chip design/implementation flows"}, {"start": 85, "end": 102, "text": "design automation"}]}
+{"id": "train_pool-1265", "spans": []}
+{"id": "train_pool-1266", "spans": [{"start": 13, "end": 21, "text": "AI tools"}]}
+{"id": "train_pool-1267", "spans": [{"start": 38, "end": 41, "text": "C++"}, {"start": 49, "end": 55, "text": "Python"}, {"start": 104, "end": 108, "text": "CUDA"}]}
+{"id": "train_pool-1268", "spans": []}
+{"id": "train_pool-1269", "spans": [{"start": 7, "end": 20, "text": "channel sales"}, {"start": 25, "end": 43, "text": "services knowledge"}, {"start": 48, "end": 66, "text": "partner co-selling"}]}
+{"id": "train_pool-1270", "spans": [{"start": 25, "end": 44, "text": "Power Management IP"}]}
+{"id": "train_pool-1271", "spans": [{"start": 33, "end": 39, "text": "web UX"}]}
+{"id": "train_pool-1272", "spans": [{"start": 76, "end": 83, "text": "storage"}, {"start": 85, "end": 95, "text": "networking"}, {"start": 104, "end": 121, "text": "operating-systems"}, {"start": 144, "end": 161, "text": "C/C++ programming"}]}
+{"id": "train_pool-1273", "spans": [{"start": 36, "end": 57, "text": "laboratory automation"}]}
+{"id": "train_pool-1274", "spans": [{"start": 0, "end": 15, "text": "Drive emulation"}, {"start": 17, "end": 33, "text": "silicon bring-up"}, {"start": 35, "end": 63, "text": "power/performance validation"}, {"start": 69, "end": 86, "text": "product hardening"}]}
+{"id": "train_pool-1275", "spans": [{"start": 13, "end": 24, "text": "GPU compute"}, {"start": 61, "end": 98, "text": "BMC (Baseboard Management Controller)"}, {"start": 100, "end": 110, "text": "Infiniband"}, {"start": 112, "end": 116, "text": "PCIE"}, {"start": 118, "end": 124, "text": "NVLink"}]}
+{"id": "train_pool-1276", "spans": [{"start": 17, "end": 37, "text": "technical leadership"}, {"start": 45, "end": 57, "text": "architecture"}, {"start": 59, "end": 73, "text": "design reviews"}, {"start": 75, "end": 98, "text": "implementation guidance"}, {"start": 104, "end": 124, "text": "production readiness"}, {"start": 159, "end": 175, "text": "data engineering"}]}
+{"id": "train_pool-1277", "spans": [{"start": 45, "end": 60, "text": "Nvidia hardware"}, {"start": 111, "end": 139, "text": "microarchitectural solutions"}, {"start": 144, "end": 156, "text": "connectivity"}, {"start": 158, "end": 167, "text": "coherency"}, {"start": 169, "end": 185, "text": "power management"}, {"start": 187, "end": 195, "text": "security"}, {"start": 197, "end": 214, "text": "memory management"}, {"start": 225, "end": 241, "text": "SOC level issues"}]}
+{"id": "train_pool-1278", "spans": [{"start": 24, "end": 26, "text": "ML"}, {"start": 31, "end": 33, "text": "AI"}]}
+{"id": "train_pool-1279", "spans": [{"start": 28, "end": 36, "text": "AI tools"}, {"start": 38, "end": 56, "text": "process automation"}]}

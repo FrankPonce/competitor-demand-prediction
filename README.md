@@ -4,8 +4,8 @@
 
 <br>
 
-![Status](https://img.shields.io/badge/status-Sprint%2011%20·%20Fine--Tuned%20Skill%20Model-30363d?style=for-the-badge&labelColor=161b22)
-![Progress](https://img.shields.io/badge/sprints-10%20%2F%2012%20done-b95115?style=for-the-badge&labelColor=161b22)
+![Status](https://img.shields.io/badge/status-Sprint%2012%20·%20Final%20Presentation-30363d?style=for-the-badge&labelColor=161b22)
+![Progress](https://img.shields.io/badge/sprints-11%20%2F%2012%20done-b95115?style=for-the-badge&labelColor=161b22)
 ![Python](https://img.shields.io/badge/python-3.12-2d6ac1?style=for-the-badge&logo=python&logoColor=white&labelColor=161b22)
 ![Program](https://img.shields.io/badge/CadetX-Virtual%20Work%20Experience-5ea529?style=for-the-badge&labelColor=161b22)
 
@@ -100,7 +100,7 @@ Click a sprint to see its goal, deliverables, and results.
 | 08 | [**Similarity Scoring**](docs/sprints/sprint-08-similarity-scoring.md) | Dec 28 | Market map of 17 AI companies (+13 peers via public ATS APIs); 5 measures incl. Sentence-BERT; talent-pool overlap; [summary](reports/similarity/summary.md) | ✅ |
 | 09 | [**Insights & Reporting**](docs/sprints/sprint-09-insights-reporting.md) | Jan 4 | **[Hiring Intelligence Report](reports/insights/insight_report.md)**, company cards, leading-indicator test vs 13 cited events (2 led, 2 simultaneous, 2 lagged) + live watchlist | ✅ |
 | 10 | [**Automated Pipeline**](docs/sprints/sprint-10-automated-pipeline.md) <sub>optional</sub> | Jan 11 | GitHub Actions refresh (Mon/Thu) + **[SIGNALS](https://signals-hiring.vercel.app)** console on Vercel (briefing + company stories written by an open model from rule-based evidence, globe, signal feed, forecasts, tracker, market map); new context sources: SEC EDGAR, Epoch models, newsroom RSS, GDELT, EPO patents, CA WARN | ✅ |
-| 11 | [**Fine-Tuned Skill Model**](docs/sprints/sprint-11-fine-tuning.md) <sub>optional</sub> | Jan 18 | Rules vs free LLM vs fine-tuned token classifier on a verified gold set | 🟡 |
+| 11 | [**Fine-Tuned Skill Model**](docs/sprints/sprint-11-fine-tuning.md) <sub>optional</sub> | Jan 18 | RoBERTa student distilled from a free LLM: skill-span F1 **0.78** vs rules 0.47 (recall 0.35 → 0.78), ~1,060 sentences/s on a laptop GPU; verified gold set; [summary](reports/skillmodel/summary.md) | ✅ |
 | 12 | [**Final Presentation**](docs/sprints/sprint-12-final-presentation.md) | Jan 25 | Mentor review, final deck, polished repo | ⬜ |
 
 <sub>✅ done · 🟡 in progress · ⬜ not started · Weekly notes live in <a href="docs/weekly-notes/">docs/weekly-notes/</a></sub>
@@ -163,7 +163,9 @@ python -m src.external.sources             # context: SEC EDGAR, Epoch models, n
 python -m src.dashboard.export             # dashboard JSON -> dashboard/data/
 python -m src.insights.story               # evidence rules + LLM-written briefing/chapters (GROQ_API_KEY; templates without)
 python -m http.server 8765 --directory dashboard   # preview the console at localhost:8765
-python -m pytest                             # 102 regression tests
+python -m src.skillmodel.train --labels llm  # Sprint 11: fine-tune the skill model (GPU)
+python -m src.skillmodel.report             # rules vs LLM vs student, with bootstrap intervals
+python -m pytest                             # 113 regression tests
 ```
 
 Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
@@ -190,6 +192,7 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 │   ├── forecast/             series · models · backtest · frozen forecasts · scorer
 │   ├── similarity/           5 similarity measures · Sentence-BERT · talent pools
 │   ├── insights/             leading indicators vs events · company cards · story layer (evidence rules + narrator)
+│   ├── skillmodel/           Sprint 11: dataset · LLM labels · gold verification page · training · evaluation
 │   ├── llm.py                free LLM client (Groq → OpenRouter → templates) used only to write prose
 │   ├── external/             context sources: SEC EDGAR · Epoch models · RSS/GDELT news · EPO patents · CA WARN
 │   └── dashboard/            JSON export for the console

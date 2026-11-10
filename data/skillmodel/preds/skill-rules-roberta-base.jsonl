@@ -1,0 +1,200 @@
+{"id": "gold_candidates-0000", "spans": []}
+{"id": "gold_candidates-0001", "spans": [{"start": 160, "end": 177, "text": "electrical design"}]}
+{"id": "gold_candidates-0002", "spans": []}
+{"id": "gold_candidates-0003", "spans": []}
+{"id": "gold_candidates-0004", "spans": []}
+{"id": "gold_candidates-0005", "spans": []}
+{"id": "gold_candidates-0006", "spans": []}
+{"id": "gold_candidates-0007", "spans": []}
+{"id": "gold_candidates-0008", "spans": []}
+{"id": "gold_candidates-0009", "spans": [{"start": 46, "end": 64, "text": "program management"}]}
+{"id": "gold_candidates-0010", "spans": [{"start": 25, "end": 29, "text": "eval"}, {"start": 63, "end": 69, "text": "agents"}]}
+{"id": "gold_candidates-0011", "spans": [{"start": 65, "end": 82, "text": "incident response"}]}
+{"id": "gold_candidates-0012", "spans": [{"start": 23, "end": 30, "text": "C-level"}, {"start": 66, "end": 70, "text": "CIOs"}, {"start": 72, "end": 76, "text": "CTOs"}, {"start": 182, "end": 193, "text": "procurement"}, {"start": 205, "end": 215, "text": "regulatory"}]}
+{"id": "gold_candidates-0013", "spans": [{"start": 8, "end": 18, "text": "mentorship"}]}
+{"id": "gold_candidates-0014", "spans": []}
+{"id": "gold_candidates-0015", "spans": []}
+{"id": "gold_candidates-0016", "spans": []}
+{"id": "gold_candidates-0017", "spans": [{"start": 16, "end": 25, "text": "negotiate"}]}
+{"id": "gold_candidates-0018", "spans": [{"start": 153, "end": 162, "text": "inference"}]}
+{"id": "gold_candidates-0019", "spans": []}
+{"id": "gold_candidates-0020", "spans": [{"start": 27, "end": 32, "text": "CI/CD"}, {"start": 56, "end": 65, "text": "inference"}]}
+{"id": "gold_candidates-0021", "spans": []}
+{"id": "gold_candidates-0022", "spans": [{"start": 0, "end": 5, "text": "CI/CD"}]}
+{"id": "gold_candidates-0023", "spans": [{"start": 38, "end": 41, "text": "GTM"}]}
+{"id": "gold_candidates-0024", "spans": []}
+{"id": "gold_candidates-0025", "spans": []}
+{"id": "gold_candidates-0026", "spans": []}
+{"id": "gold_candidates-0027", "spans": []}
+{"id": "gold_candidates-0028", "spans": [{"start": 34, "end": 37, "text": "AWS"}, {"start": 39, "end": 42, "text": "GCP"}, {"start": 44, "end": 49, "text": "Azure"}, {"start": 132, "end": 136, "text": "APIs"}]}
+{"id": "gold_candidates-0029", "spans": []}
+{"id": "gold_candidates-0030", "spans": []}
+{"id": "gold_candidates-0031", "spans": []}
+{"id": "gold_candidates-0032", "spans": []}
+{"id": "gold_candidates-0033", "spans": [{"start": 78, "end": 86, "text": "startups"}]}
+{"id": "gold_candidates-0034", "spans": [{"start": 171, "end": 174, "text": "B2B"}]}
+{"id": "gold_candidates-0035", "spans": [{"start": 27, "end": 46, "text": "governance controls"}]}
+{"id": "gold_candidates-0036", "spans": []}
+{"id": "gold_candidates-0037", "spans": []}
+{"id": "gold_candidates-0038", "spans": [{"start": 24, "end": 31, "text": "C-suite"}]}
+{"id": "gold_candidates-0039", "spans": []}
+{"id": "gold_candidates-0040", "spans": [{"start": 25, "end": 36, "text": "time-series"}]}
+{"id": "gold_candidates-0041", "spans": [{"start": 125, "end": 128, "text": "tax"}]}
+{"id": "gold_candidates-0042", "spans": []}
+{"id": "gold_candidates-0043", "spans": [{"start": 16, "end": 19, "text": "RTL"}]}
+{"id": "gold_candidates-0044", "spans": [{"start": 54, "end": 70, "text": "cross-functional"}, {"start": 122, "end": 134, "text": "supply chain"}]}
+{"id": "gold_candidates-0045", "spans": [{"start": 70, "end": 90, "text": "communication skills"}]}
+{"id": "gold_candidates-0046", "spans": []}
+{"id": "gold_candidates-0047", "spans": []}
+{"id": "gold_candidates-0048", "spans": [{"start": 84, "end": 87, "text": "API"}, {"start": 134, "end": 137, "text": "SDK"}]}
+{"id": "gold_candidates-0049", "spans": []}
+{"id": "gold_candidates-0050", "spans": [{"start": 48, "end": 57, "text": "ambiguous"}]}
+{"id": "gold_candidates-0051", "spans": []}
+{"id": "gold_candidates-0052", "spans": []}
+{"id": "gold_candidates-0053", "spans": [{"start": 47, "end": 67, "text": "security engineering"}, {"start": 69, "end": 86, "text": "security research"}, {"start": 99, "end": 116, "text": "incident response"}, {"start": 118, "end": 121, "text": "SOC"}, {"start": 131, "end": 148, "text": "incident response"}, {"start": 168, "end": 183, "text": "threat analysis"}]}
+{"id": "gold_candidates-0054", "spans": [{"start": 85, "end": 105, "text": "Large Language Model"}, {"start": 107, "end": 110, "text": "LLM"}]}
+{"id": "gold_candidates-0055", "spans": [{"start": 57, "end": 70, "text": "user adoption"}, {"start": 96, "end": 101, "text": "GenAI"}, {"start": 106, "end": 113, "text": "agentic"}]}
+{"id": "gold_candidates-0056", "spans": [{"start": 12, "end": 32, "text": "regulatory oversight"}, {"start": 146, "end": 153, "text": "federal"}, {"start": 190, "end": 200, "text": "regulatory"}]}
+{"id": "gold_candidates-0057", "spans": []}
+{"id": "gold_candidates-0058", "spans": [{"start": 97, "end": 113, "text": "cross-functional"}]}
+{"id": "gold_candidates-0059", "spans": [{"start": 103, "end": 106, "text": "GPU"}, {"start": 115, "end": 118, "text": "TPU"}, {"start": 121, "end": 125, "text": "NPUs"}, {"start": 136, "end": 143, "text": "Android"}, {"start": 145, "end": 151, "text": "Chrome"}]}
+{"id": "gold_candidates-0060", "spans": [{"start": 57, "end": 77, "text": "creator partnerships"}]}
+{"id": "gold_candidates-0061", "spans": []}
+{"id": "gold_candidates-0062", "spans": [{"start": 122, "end": 131, "text": "front-end"}]}
+{"id": "gold_candidates-0063", "spans": [{"start": 11, "end": 30, "text": "communicate complex"}]}
+{"id": "gold_candidates-0064", "spans": [{"start": 44, "end": 48, "text": "LLMs"}, {"start": 50, "end": 60, "text": "multimodal"}, {"start": 153, "end": 168, "text": "computer vision"}]}
+{"id": "gold_candidates-0065", "spans": [{"start": 82, "end": 88, "text": "safety"}]}
+{"id": "gold_candidates-0066", "spans": [{"start": 11, "end": 29, "text": "project management"}]}
+{"id": "gold_candidates-0067", "spans": [{"start": 17, "end": 30, "text": "generative AI"}, {"start": 45, "end": 66, "text": "Large Language Models"}, {"start": 68, "end": 72, "text": "LLMs"}, {"start": 78, "end": 87, "text": "AI agents"}]}
+{"id": "gold_candidates-0068", "spans": []}
+{"id": "gold_candidates-0069", "spans": [{"start": 39, "end": 45, "text": "Python"}, {"start": 47, "end": 48, "text": "R"}, {"start": 50, "end": 53, "text": "SAS"}, {"start": 55, "end": 61, "text": "MATLAB"}]}
+{"id": "gold_candidates-0070", "spans": [{"start": 6, "end": 22, "text": "cross-functional"}]}
+{"id": "gold_candidates-0071", "spans": [{"start": 17, "end": 38, "text": "computer architecture"}]}
+{"id": "gold_candidates-0072", "spans": []}
+{"id": "gold_candidates-0073", "spans": [{"start": 22, "end": 38, "text": "machine learning"}]}
+{"id": "gold_candidates-0074", "spans": []}
+{"id": "gold_candidates-0075", "spans": [{"start": 36, "end": 47, "text": "Measurement"}]}
+{"id": "gold_candidates-0076", "spans": []}
+{"id": "gold_candidates-0077", "spans": []}
+{"id": "gold_candidates-0078", "spans": [{"start": 96, "end": 114, "text": "account management"}]}
+{"id": "gold_candidates-0079", "spans": []}
+{"id": "gold_candidates-0080", "spans": []}
+{"id": "gold_candidates-0081", "spans": [{"start": 7, "end": 30, "text": "communication abilities"}]}
+{"id": "gold_candidates-0082", "spans": [{"start": 42, "end": 45, "text": "SAP"}]}
+{"id": "gold_candidates-0083", "spans": [{"start": 29, "end": 35, "text": "Python"}, {"start": 37, "end": 40, "text": "C++"}]}
+{"id": "gold_candidates-0084", "spans": [{"start": 74, "end": 78, "text": "IaaS"}, {"start": 79, "end": 83, "text": "PaaS"}, {"start": 153, "end": 157, "text": "APIs"}]}
+{"id": "gold_candidates-0085", "spans": [{"start": 39, "end": 52, "text": "post-training"}]}
+{"id": "gold_candidates-0086", "spans": []}
+{"id": "gold_candidates-0087", "spans": []}
+{"id": "gold_candidates-0088", "spans": []}
+{"id": "gold_candidates-0089", "spans": []}
+{"id": "gold_candidates-0090", "spans": []}
+{"id": "gold_candidates-0091", "spans": []}
+{"id": "gold_candidates-0092", "spans": [{"start": 20, "end": 30, "text": "networking"}, {"start": 55, "end": 58, "text": "HPC"}]}
+{"id": "gold_candidates-0093", "spans": [{"start": 19, "end": 21, "text": "ML"}, {"start": 32, "end": 35, "text": "LLM"}]}
+{"id": "gold_candidates-0094", "spans": [{"start": 14, "end": 23, "text": "front-end"}, {"start": 31, "end": 36, "text": "React"}, {"start": 38, "end": 45, "text": "Angular"}, {"start": 47, "end": 50, "text": "Vue"}, {"start": 55, "end": 59, "text": "HTML"}, {"start": 61, "end": 64, "text": "CSS"}, {"start": 66, "end": 76, "text": "JavaScript"}, {"start": 79, "end": 87, "text": "back-end"}, {"start": 95, "end": 102, "text": "Node.js"}, {"start": 104, "end": 110, "text": "Python"}, {"start": 111, "end": 117, "text": "Django"}, {"start": 118, "end": 123, "text": "Flask"}, {"start": 125, "end": 138, "text": "Ruby on Rails"}, {"start": 140, "end": 144, "text": "Java"}, {"start": 145, "end": 151, "text": "Spring"}, {"start": 153, "end": 157, "text": ".NET"}, {"start": 193, "end": 196, "text": "SQL"}, {"start": 197, "end": 202, "text": "NoSQL"}, {"start": 235, "end": 238, "text": "AWS"}, {"start": 240, "end": 245, "text": "Azure"}, {"start": 247, "end": 250, "text": "GCP"}]}
+{"id": "gold_candidates-0095", "spans": [{"start": 110, "end": 121, "text": "procurement"}]}
+{"id": "gold_candidates-0096", "spans": [{"start": 31, "end": 39, "text": "property"}, {"start": 40, "end": 43, "text": "tax"}]}
+{"id": "gold_candidates-0097", "spans": []}
+{"id": "gold_candidates-0098", "spans": [{"start": 84, "end": 87, "text": "GPU"}]}
+{"id": "gold_candidates-0099", "spans": [{"start": 33, "end": 46, "text": "deep learning"}, {"start": 118, "end": 121, "text": "GPU"}]}
+{"id": "gold_candidates-0100", "spans": [{"start": 35, "end": 42, "text": "agentic"}, {"start": 56, "end": 62, "text": "Jetson"}, {"start": 75, "end": 78, "text": "LLM"}, {"start": 79, "end": 88, "text": "inference"}]}
+{"id": "gold_candidates-0101", "spans": [{"start": 0, "end": 3, "text": "GPU"}, {"start": 28, "end": 32, "text": "CUDA"}, {"start": 36, "end": 42, "text": "OpenCL"}]}
+{"id": "gold_candidates-0102", "spans": [{"start": 19, "end": 21, "text": "RL"}, {"start": 160, "end": 176, "text": "GPU architecture"}, {"start": 211, "end": 220, "text": "profiling"}]}
+{"id": "gold_candidates-0103", "spans": []}
+{"id": "gold_candidates-0104", "spans": []}
+{"id": "gold_candidates-0105", "spans": [{"start": 73, "end": 81, "text": "training"}, {"start": 115, "end": 122, "text": "PyTorch"}]}
+{"id": "gold_candidates-0106", "spans": [{"start": 226, "end": 236, "text": "Kubernetes"}, {"start": 238, "end": 244, "text": "Docker"}, {"start": 246, "end": 255, "text": "OpenShift"}]}
+{"id": "gold_candidates-0107", "spans": [{"start": 0, "end": 22, "text": "Infrastructure-as-code"}, {"start": 27, "end": 41, "text": "policy-as-code"}]}
+{"id": "gold_candidates-0108", "spans": []}
+{"id": "gold_candidates-0109", "spans": []}
+{"id": "gold_candidates-0110", "spans": [{"start": 37, "end": 48, "text": "Procurement"}, {"start": 50, "end": 58, "text": "Treasury"}, {"start": 60, "end": 63, "text": "Tax"}, {"start": 140, "end": 147, "text": "Procure"}, {"start": 177, "end": 193, "text": "cross-functional"}]}
+{"id": "gold_candidates-0111", "spans": [{"start": 13, "end": 27, "text": "circuit design"}]}
+{"id": "gold_candidates-0112", "spans": []}
+{"id": "gold_candidates-0113", "spans": []}
+{"id": "gold_candidates-0114", "spans": []}
+{"id": "gold_candidates-0115", "spans": []}
+{"id": "gold_candidates-0116", "spans": []}
+{"id": "gold_candidates-0117", "spans": []}
+{"id": "gold_candidates-0118", "spans": []}
+{"id": "gold_candidates-0119", "spans": [{"start": 36, "end": 41, "text": "CI/CD"}]}
+{"id": "gold_candidates-0120", "spans": []}
+{"id": "gold_candidates-0121", "spans": [{"start": 7, "end": 25, "text": "written and verbal"}, {"start": 26, "end": 46, "text": "communication skills"}]}
+{"id": "gold_candidates-0122", "spans": [{"start": 19, "end": 39, "text": "communication skills"}]}
+{"id": "gold_candidates-0123", "spans": []}
+{"id": "gold_candidates-0124", "spans": []}
+{"id": "gold_candidates-0125", "spans": []}
+{"id": "gold_candidates-0126", "spans": [{"start": 57, "end": 60, "text": "CRM"}, {"start": 123, "end": 138, "text": "experimentation"}]}
+{"id": "gold_candidates-0127", "spans": [{"start": 4, "end": 13, "text": "ambiguity"}]}
+{"id": "gold_candidates-0128", "spans": [{"start": 83, "end": 91, "text": "firmware"}, {"start": 109, "end": 117, "text": "robotics"}]}
+{"id": "gold_candidates-0129", "spans": []}
+{"id": "gold_candidates-0130", "spans": [{"start": 0, "end": 5, "text": "Excel"}, {"start": 38, "end": 54, "text": "cross-functional"}]}
+{"id": "gold_candidates-0131", "spans": [{"start": 31, "end": 48, "text": "incident response"}]}
+{"id": "gold_candidates-0132", "spans": []}
+{"id": "gold_candidates-0133", "spans": []}
+{"id": "gold_candidates-0134", "spans": [{"start": 83, "end": 95, "text": "go-to-market"}, {"start": 165, "end": 176, "text": "procurement"}]}
+{"id": "gold_candidates-0135", "spans": []}
+{"id": "gold_candidates-0136", "spans": [{"start": 63, "end": 66, "text": "CMs"}]}
+{"id": "gold_candidates-0137", "spans": [{"start": 66, "end": 76, "text": "accounting"}, {"start": 93, "end": 96, "text": "SEC"}, {"start": 136, "end": 146, "text": "accounting"}]}
+{"id": "gold_candidates-0138", "spans": [{"start": 13, "end": 17, "text": "PCIe"}, {"start": 19, "end": 27, "text": "ethernet"}]}
+{"id": "gold_candidates-0139", "spans": [{"start": 42, "end": 53, "text": "contractual"}, {"start": 64, "end": 74, "text": "accounting"}]}
+{"id": "gold_candidates-0140", "spans": []}
+{"id": "gold_candidates-0141", "spans": []}
+{"id": "gold_candidates-0142", "spans": []}
+{"id": "gold_candidates-0143", "spans": []}
+{"id": "gold_candidates-0144", "spans": [{"start": 152, "end": 157, "text": "HRBPs"}]}
+{"id": "gold_candidates-0145", "spans": []}
+{"id": "gold_candidates-0146", "spans": []}
+{"id": "gold_candidates-0147", "spans": []}
+{"id": "gold_candidates-0148", "spans": []}
+{"id": "gold_candidates-0149", "spans": []}
+{"id": "gold_candidates-0150", "spans": [{"start": 51, "end": 60, "text": "analytics"}]}
+{"id": "gold_candidates-0151", "spans": []}
+{"id": "gold_candidates-0152", "spans": [{"start": 38, "end": 44, "text": "Oracle"}]}
+{"id": "gold_candidates-0153", "spans": []}
+{"id": "gold_candidates-0154", "spans": [{"start": 27, "end": 37, "text": "fast-paced"}]}
+{"id": "gold_candidates-0155", "spans": [{"start": 30, "end": 33, "text": "LLM"}, {"start": 55, "end": 61, "text": "agents"}, {"start": 63, "end": 68, "text": "evals"}, {"start": 88, "end": 97, "text": "inference"}, {"start": 99, "end": 107, "text": "compiler"}]}
+{"id": "gold_candidates-0156", "spans": []}
+{"id": "gold_candidates-0157", "spans": []}
+{"id": "gold_candidates-0158", "spans": []}
+{"id": "gold_candidates-0159", "spans": []}
+{"id": "gold_candidates-0160", "spans": [{"start": 47, "end": 50, "text": "dbt"}, {"start": 106, "end": 115, "text": "analytics"}]}
+{"id": "gold_candidates-0161", "spans": []}
+{"id": "gold_candidates-0162", "spans": []}
+{"id": "gold_candidates-0163", "spans": []}
+{"id": "gold_candidates-0164", "spans": []}
+{"id": "gold_candidates-0165", "spans": [{"start": 138, "end": 143, "text": "evals"}]}
+{"id": "gold_candidates-0166", "spans": []}
+{"id": "gold_candidates-0167", "spans": []}
+{"id": "gold_candidates-0168", "spans": []}
+{"id": "gold_candidates-0169", "spans": []}
+{"id": "gold_candidates-0170", "spans": []}
+{"id": "gold_candidates-0171", "spans": []}
+{"id": "gold_candidates-0172", "spans": [{"start": 65, "end": 81, "text": "book of business"}]}
+{"id": "gold_candidates-0173", "spans": [{"start": 42, "end": 52, "text": "Kubernetes"}]}
+{"id": "gold_candidates-0174", "spans": [{"start": 17, "end": 30, "text": "Public Sector"}, {"start": 77, "end": 84, "text": "FedRAMP"}]}
+{"id": "gold_candidates-0175", "spans": [{"start": 17, "end": 27, "text": "networking"}, {"start": 30, "end": 32, "text": "/O"}, {"start": 119, "end": 127, "text": "backends"}, {"start": 134, "end": 137, "text": "GPU"}]}
+{"id": "gold_candidates-0176", "spans": [{"start": 0, "end": 13, "text": "Commissioning"}, {"start": 68, "end": 82, "text": "pre-functional"}]}
+{"id": "gold_candidates-0177", "spans": []}
+{"id": "gold_candidates-0178", "spans": [{"start": 85, "end": 89, "text": "FaaS"}, {"start": 91, "end": 93, "text": "CI"}]}
+{"id": "gold_candidates-0179", "spans": []}
+{"id": "gold_candidates-0180", "spans": [{"start": 68, "end": 84, "text": "cross-functional"}]}
+{"id": "gold_candidates-0181", "spans": []}
+{"id": "gold_candidates-0182", "spans": []}
+{"id": "gold_candidates-0183", "spans": [{"start": 55, "end": 62, "text": "agentic"}]}
+{"id": "gold_candidates-0184", "spans": [{"start": 39, "end": 42, "text": "AWS"}, {"start": 65, "end": 69, "text": "SaaS"}]}
+{"id": "gold_candidates-0185", "spans": []}
+{"id": "gold_candidates-0186", "spans": []}
+{"id": "gold_candidates-0187", "spans": [{"start": 23, "end": 25, "text": "ML"}, {"start": 50, "end": 66, "text": "prompt injection"}]}
+{"id": "gold_candidates-0188", "spans": [{"start": 25, "end": 29, "text": "LLMs"}, {"start": 47, "end": 54, "text": "agentic"}]}
+{"id": "gold_candidates-0189", "spans": []}
+{"id": "gold_candidates-0190", "spans": [{"start": 43, "end": 69, "text": "natural language prompting"}, {"start": 109, "end": 115, "text": "agents"}]}
+{"id": "gold_candidates-0191", "spans": [{"start": 53, "end": 56, "text": "GPU"}, {"start": 73, "end": 83, "text": "networking"}]}
+{"id": "gold_candidates-0192", "spans": [{"start": 0, "end": 13, "text": "Deep learning"}, {"start": 14, "end": 38, "text": "performance optimization"}, {"start": 66, "end": 75, "text": "inference"}, {"start": 82, "end": 91, "text": "inference"}]}
+{"id": "gold_candidates-0193", "spans": []}
+{"id": "gold_candidates-0194", "spans": []}
+{"id": "gold_candidates-0195", "spans": [{"start": 30, "end": 39, "text": "ambiguous"}]}
+{"id": "gold_candidates-0196", "spans": [{"start": 23, "end": 30, "text": "backend"}, {"start": 49, "end": 55, "text": "Python"}, {"start": 59, "end": 61, "text": "Go"}, {"start": 101, "end": 105, "text": "APIs"}]}
+{"id": "gold_candidates-0197", "spans": []}
+{"id": "gold_candidates-0198", "spans": [{"start": 53, "end": 57, "text": "APIs"}]}
+{"id": "gold_candidates-0199", "spans": [{"start": 51, "end": 56, "text": "Azure"}, {"start": 70, "end": 80, "text": "PostgreSQL"}, {"start": 82, "end": 85, "text": "GCP"}, {"start": 92, "end": 95, "text": "SQL"}, {"start": 100, "end": 103, "text": "AWS"}, {"start": 104, "end": 107, "text": "RDS"}, {"start": 120, "end": 142, "text": "infrastructure-as-code"}, {"start": 144, "end": 153, "text": "Terraform"}]}

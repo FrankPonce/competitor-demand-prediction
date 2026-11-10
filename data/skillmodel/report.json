@@ -1,0 +1,320 @@
+{
+ "best_student": "skill-llm-roberta-base",
+ "table": [
+  {
+   "system": "rules",
+   "label": "Rules (Sprint 4 taxonomy)",
+   "verified_exact": {
+    "precision": 0.502,
+    "recall": 0.239,
+    "f1": 0.324,
+    "tp": 101,
+    "fp": 100,
+    "fn": 321
+   },
+   "verified_overlap": {
+    "precision": 0.736,
+    "recall": 0.351,
+    "f1": 0.475,
+    "tp": 148,
+    "fp": 53,
+    "fn": 274
+   },
+   "strict_exact": {
+    "precision": 0.483,
+    "recall": 0.241,
+    "f1": 0.321,
+    "tp": 97,
+    "fp": 104,
+    "fn": 306
+   },
+   "strict_overlap": {
+    "precision": 0.706,
+    "recall": 0.352,
+    "f1": 0.47,
+    "tp": 142,
+    "fp": 59,
+    "fn": 261
+   },
+   "ci": [
+    0.399,
+    0.544
+   ]
+  },
+  {
+   "system": "llm",
+   "label": "LLM (gpt-oss-120b, zero-shot)",
+   "verified_exact": {
+    "precision": 0.763,
+    "recall": 0.685,
+    "f1": 0.722,
+    "tp": 289,
+    "fp": 90,
+    "fn": 133
+   },
+   "verified_overlap": {
+    "precision": 0.85,
+    "recall": 0.763,
+    "f1": 0.804,
+    "tp": 322,
+    "fp": 57,
+    "fn": 100
+   },
+   "strict_exact": {
+    "precision": 0.752,
+    "recall": 0.707,
+    "f1": 0.729,
+    "tp": 285,
+    "fp": 94,
+    "fn": 118
+   },
+   "strict_overlap": {
+    "precision": 0.836,
+    "recall": 0.787,
+    "f1": 0.811,
+    "tp": 317,
+    "fp": 62,
+    "fn": 86
+   },
+   "ci": [
+    0.763,
+    0.842
+   ]
+  },
+  {
+   "system": "skill-llm-roberta-base",
+   "label": "student: llm-roberta-base",
+   "verified_exact": {
+    "precision": 0.627,
+    "recall": 0.642,
+    "f1": 0.635,
+    "tp": 271,
+    "fp": 161,
+    "fn": 151
+   },
+   "verified_overlap": {
+    "precision": 0.766,
+    "recall": 0.784,
+    "f1": 0.775,
+    "tp": 331,
+    "fp": 101,
+    "fn": 91
+   },
+   "strict_exact": {
+    "precision": 0.609,
+    "recall": 0.653,
+    "f1": 0.63,
+    "tp": 263,
+    "fp": 169,
+    "fn": 140
+   },
+   "strict_overlap": {
+    "precision": 0.745,
+    "recall": 0.799,
+    "f1": 0.771,
+    "tp": 322,
+    "fp": 110,
+    "fn": 81
+   },
+   "ci": [
+    0.734,
+    0.811
+   ],
+   "train_sentences": 1132,
+   "train_seconds": 77,
+   "labels": "llm",
+   "base": "FacebookAI/roberta-base"
+  },
+  {
+   "system": "skill-llm-deberta-v3-base",
+   "label": "student: llm-deberta-v3-base",
+   "verified_exact": {
+    "precision": 0.615,
+    "recall": 0.645,
+    "f1": 0.63,
+    "tp": 272,
+    "fp": 170,
+    "fn": 150
+   },
+   "verified_overlap": {
+    "precision": 0.749,
+    "recall": 0.784,
+    "f1": 0.766,
+    "tp": 331,
+    "fp": 111,
+    "fn": 91
+   },
+   "strict_exact": {
+    "precision": 0.595,
+    "recall": 0.653,
+    "f1": 0.622,
+    "tp": 263,
+    "fp": 179,
+    "fn": 140
+   },
+   "strict_overlap": {
+    "precision": 0.726,
+    "recall": 0.797,
+    "f1": 0.76,
+    "tp": 321,
+    "fp": 121,
+    "fn": 82
+   },
+   "ci": [
+    0.726,
+    0.805
+   ],
+   "train_sentences": 1132,
+   "train_seconds": 115,
+   "labels": "llm",
+   "base": "microsoft/deberta-v3-base"
+  },
+  {
+   "system": "skill-llm-jobbert-base-cased",
+   "label": "student: llm-jobbert-base-cased",
+   "verified_exact": {
+    "precision": 0.599,
+    "recall": 0.583,
+    "f1": 0.591,
+    "tp": 246,
+    "fp": 165,
+    "fn": 176
+   },
+   "verified_overlap": {
+    "precision": 0.774,
+    "recall": 0.754,
+    "f1": 0.764,
+    "tp": 318,
+    "fp": 93,
+    "fn": 104
+   },
+   "strict_exact": {
+    "precision": 0.582,
+    "recall": 0.593,
+    "f1": 0.587,
+    "tp": 239,
+    "fp": 172,
+    "fn": 164
+   },
+   "strict_overlap": {
+    "precision": 0.752,
+    "recall": 0.767,
+    "f1": 0.759,
+    "tp": 309,
+    "fp": 102,
+    "fn": 94
+   },
+   "ci": [
+    0.719,
+    0.802
+   ],
+   "train_sentences": 1132,
+   "train_seconds": 62,
+   "labels": "llm",
+   "base": "jjzha/jobbert-base-cased"
+  },
+  {
+   "system": "skill-union-roberta-base",
+   "label": "student: union-roberta-base",
+   "verified_exact": {
+    "precision": 0.583,
+    "recall": 0.659,
+    "f1": 0.618,
+    "tp": 278,
+    "fp": 199,
+    "fn": 144
+   },
+   "verified_overlap": {
+    "precision": 0.719,
+    "recall": 0.813,
+    "f1": 0.763,
+    "tp": 343,
+    "fp": 134,
+    "fn": 79
+   },
+   "strict_exact": {
+    "precision": 0.566,
+    "recall": 0.67,
+    "f1": 0.614,
+    "tp": 270,
+    "fp": 207,
+    "fn": 133
+   },
+   "strict_overlap": {
+    "precision": 0.7,
+    "recall": 0.829,
+    "f1": 0.759,
+    "tp": 334,
+    "fp": 143,
+    "fn": 69
+   },
+   "ci": [
+    0.719,
+    0.8
+   ],
+   "train_sentences": 1132,
+   "train_seconds": 69,
+   "labels": "union",
+   "base": "FacebookAI/roberta-base"
+  },
+  {
+   "system": "skill-rules-roberta-base",
+   "label": "student: rules-roberta-base",
+   "verified_exact": {
+    "precision": 0.502,
+    "recall": 0.254,
+    "f1": 0.337,
+    "tp": 107,
+    "fp": 106,
+    "fn": 315
+   },
+   "verified_overlap": {
+    "precision": 0.737,
+    "recall": 0.372,
+    "f1": 0.494,
+    "tp": 157,
+    "fp": 56,
+    "fn": 265
+   },
+   "strict_exact": {
+    "precision": 0.488,
+    "recall": 0.258,
+    "f1": 0.338,
+    "tp": 104,
+    "fp": 109,
+    "fn": 299
+   },
+   "strict_overlap": {
+    "precision": 0.714,
+    "recall": 0.377,
+    "f1": 0.494,
+    "tp": 152,
+    "fp": 61,
+    "fn": 251
+   },
+   "ci": [
+    0.413,
+    0.575
+   ],
+   "train_sentences": 2700,
+   "train_seconds": 162,
+   "labels": "rules",
+   "base": "FacebookAI/roberta-base"
+  }
+ ],
+ "best_minus": {
+  "rules": [
+   0.236,
+   0.3,
+   0.37
+  ],
+  "llm": [
+   -0.064,
+   -0.029,
+   0.004
+  ]
+ },
+ "student_sentences_per_second": 1134,
+ "llm_labels_collected": 1257,
+ "new_skill_candidates": 60
+}

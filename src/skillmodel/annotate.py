@@ -97,7 +97,10 @@ $("#sent").addEventListener("mouseup",async e=>{
   const sel=getSelection(); if(!sel.rangeCount||sel.isCollapsed){ const m=e.target.closest("mark"); if(m){rows[i].spans.splice(+m.dataset.k,1);render();await persist("span removed");} return; }
   const rg=sel.getRangeAt(0); let a=offsetIn(rg.startContainer,rg.startOffset), b=offsetIn(rg.endContainer,rg.endOffset); sel.removeAllRanges();
   if(a<0||b<0) return; if(a>b)[a,b]=[b,a]; const t=rows[i].text;
-  while(a<b&&/[\s.,;:()]/.test(t[a]))a++; while(b>a&&/[\s.,;:()]/.test(t[b-1]))b--; // trim spaces and punctuation
+  while(a<b&&/[\s.,;:]/.test(t[a]))a++; while(b>a&&/[\s.,;:]/.test(t[b-1]))b--; // trim spaces and punctuation
+  const opens=(x)=>(x.match(/\(/g)||[]).length, closes=(x)=>(x.match(/\)/g)||[]).length; // brackets: trim only unbalanced ones
+  while(a<b&&t[a]==="("&&opens(t.slice(a,b))>closes(t.slice(a,b)))a++; while(b>a&&t[b-1]===")"&&closes(t.slice(a,b))>opens(t.slice(a,b)))b--;
+  if(b<t.length&&t[b]===")"&&opens(t.slice(a,b))>closes(t.slice(a,b)))b++; // selection stopped just before the closing bracket
   if(b<=a) return;
   rows[i].spans=rows[i].spans.filter(s=>s.end<=a||s.start>=b); rows[i].spans.push({start:a,end:b,text:t.slice(a,b)}); rows[i].spans.sort((x,y)=>x.start-y.start);
   render(); await persist("span added");

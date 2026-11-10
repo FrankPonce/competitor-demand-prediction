@@ -13,3 +13,6 @@ data/processed/corpus.parquet
 
 # Sentence-BERT embedding cache (regenerable)
 data/similarity/embeddings.parquet
+
+# Fine-tuned model weights (rebuilt by src.skillmodel.train)
+models/

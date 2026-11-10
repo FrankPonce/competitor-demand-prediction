@@ -1,0 +1,212 @@
+{
+ "skill-llm-roberta-base": {
+  "model": "skill-llm-roberta-base",
+  "base": "FacebookAI/roberta-base",
+  "labels": "llm",
+  "train_sentences": 1132,
+  "epochs": 8,
+  "best_dev_f1": 0.82,
+  "train_seconds": 77,
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "verified_exact": {
+   "precision": 0.627,
+   "recall": 0.642,
+   "f1": 0.635,
+   "tp": 271,
+   "fp": 161,
+   "fn": 151
+  },
+  "verified_overlap": {
+   "precision": 0.766,
+   "recall": 0.784,
+   "f1": 0.775,
+   "tp": 331,
+   "fp": 101,
+   "fn": 91
+  },
+  "strict_exact": {
+   "precision": 0.609,
+   "recall": 0.653,
+   "f1": 0.63,
+   "tp": 263,
+   "fp": 169,
+   "fn": 140
+  },
+  "strict_overlap": {
+   "precision": 0.745,
+   "recall": 0.799,
+   "f1": 0.771,
+   "tp": 322,
+   "fp": 110,
+   "fn": 81
+  }
+ },
+ "skill-rules-roberta-base": {
+  "model": "skill-rules-roberta-base",
+  "base": "FacebookAI/roberta-base",
+  "labels": "rules",
+  "train_sentences": 2700,
+  "epochs": 8,
+  "best_dev_f1": 0.849,
+  "train_seconds": 162,
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "verified_exact": {
+   "precision": 0.502,
+   "recall": 0.254,
+   "f1": 0.337,
+   "tp": 107,
+   "fp": 106,
+   "fn": 315
+  },
+  "verified_overlap": {
+   "precision": 0.737,
+   "recall": 0.372,
+   "f1": 0.494,
+   "tp": 157,
+   "fp": 56,
+   "fn": 265
+  },
+  "strict_exact": {
+   "precision": 0.488,
+   "recall": 0.258,
+   "f1": 0.338,
+   "tp": 104,
+   "fp": 109,
+   "fn": 299
+  },
+  "strict_overlap": {
+   "precision": 0.714,
+   "recall": 0.377,
+   "f1": 0.494,
+   "tp": 152,
+   "fp": 61,
+   "fn": 251
+  }
+ },
+ "skill-union-roberta-base": {
+  "model": "skill-union-roberta-base",
+  "base": "FacebookAI/roberta-base",
+  "labels": "union",
+  "train_sentences": 1132,
+  "epochs": 8,
+  "best_dev_f1": 0.815,
+  "train_seconds": 69,
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "verified_exact": {
+   "precision": 0.583,
+   "recall": 0.659,
+   "f1": 0.618,
+   "tp": 278,
+   "fp": 199,
+   "fn": 144
+  },
+  "verified_overlap": {
+   "precision": 0.719,
+   "recall": 0.813,
+   "f1": 0.763,
+   "tp": 343,
+   "fp": 134,
+   "fn": 79
+  },
+  "strict_exact": {
+   "precision": 0.566,
+   "recall": 0.67,
+   "f1": 0.614,
+   "tp": 270,
+   "fp": 207,
+   "fn": 133
+  },
+  "strict_overlap": {
+   "precision": 0.7,
+   "recall": 0.829,
+   "f1": 0.759,
+   "tp": 334,
+   "fp": 143,
+   "fn": 69
+  }
+ },
+ "skill-llm-jobbert-base-cased": {
+  "model": "skill-llm-jobbert-base-cased",
+  "base": "jjzha/jobbert-base-cased",
+  "labels": "llm",
+  "train_sentences": 1132,
+  "epochs": 8,
+  "best_dev_f1": 0.816,
+  "train_seconds": 62,
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "verified_exact": {
+   "precision": 0.599,
+   "recall": 0.583,
+   "f1": 0.591,
+   "tp": 246,
+   "fp": 165,
+   "fn": 176
+  },
+  "verified_overlap": {
+   "precision": 0.774,
+   "recall": 0.754,
+   "f1": 0.764,
+   "tp": 318,
+   "fp": 93,
+   "fn": 104
+  },
+  "strict_exact": {
+   "precision": 0.582,
+   "recall": 0.593,
+   "f1": 0.587,
+   "tp": 239,
+   "fp": 172,
+   "fn": 164
+  },
+  "strict_overlap": {
+   "precision": 0.752,
+   "recall": 0.767,
+   "f1": 0.759,
+   "tp": 309,
+   "fp": 102,
+   "fn": 94
+  }
+ },
+ "skill-llm-deberta-v3-base": {
+  "model": "skill-llm-deberta-v3-base",
+  "base": "microsoft/deberta-v3-base",
+  "labels": "llm",
+  "train_sentences": 1132,
+  "epochs": 8,
+  "best_dev_f1": 0.817,
+  "train_seconds": 115,
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "verified_exact": {
+   "precision": 0.615,
+   "recall": 0.645,
+   "f1": 0.63,
+   "tp": 272,
+   "fp": 170,
+   "fn": 150
+  },
+  "verified_overlap": {
+   "precision": 0.749,
+   "recall": 0.784,
+   "f1": 0.766,
+   "tp": 331,
+   "fp": 111,
+   "fn": 91
+  },
+  "strict_exact": {
+   "precision": 0.595,
+   "recall": 0.653,
+   "f1": 0.622,
+   "tp": 263,
+   "fp": 179,
+   "fn": 140
+  },
+  "strict_overlap": {
+   "precision": 0.726,
+   "recall": 0.797,
+   "f1": 0.76,
+   "tp": 321,
+   "fp": 121,
+   "fn": 82
+  }
+ }
+}
