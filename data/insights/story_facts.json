@@ -1,0 +1,1389 @@
+{
+ "Anthropic": {
+  "facts": {
+   "company": "Anthropic",
+   "segment": "Frontier lab",
+   "unit": "open roles",
+   "size": {
+    "metric": "Anthropic open roles",
+    "week": "2026-11-02",
+    "value": 673.0
+   },
+   "postings_analysed": 675,
+   "change_6m_pct": 56,
+   "forecast_next_8_weeks_pct": 0,
+   "technical_share_pct": 39,
+   "pay_mid_usd": 402500.0,
+   "top_roles": [
+    [
+     "Sales & Go-to-Market",
+     29
+    ],
+    [
+     "Finance, Legal & People",
+     11
+    ],
+    [
+     "Software Engineering",
+     10
+    ]
+   ],
+   "distinctive_skills": [
+    [
+     "AI Safety",
+     4.5
+    ],
+    [
+     "AWS",
+     3.8
+    ],
+    [
+     "Reinforcement Learning",
+     3.4
+    ],
+    [
+     "Rust",
+     2.9
+    ]
+   ],
+   "top_hubs": [
+    [
+     "San Francisco",
+     61
+    ],
+    [
+     "Remote",
+     7
+    ],
+    [
+     "New York",
+     6
+    ]
+   ],
+   "nearest_peer": [
+    "OpenAI",
+    0.9945
+   ],
+   "recent_models": [
+    [
+     "2026-09-28",
+     "Claude Sonnet 5.5"
+    ],
+    [
+     "2026-09-22",
+     "Claude Opus 5.5"
+    ],
+    [
+     "2026-09-01",
+     "Claude Fable 5.1"
+    ]
+   ],
+   "financials": null,
+   "patents": {
+    "patent_publications_last_4_quarters": 5,
+    "patent_publications_4_quarters_before": 1,
+    "change_pct": null,
+    "source": "EPO Open Patent Services (publications naming the company as applicant)",
+    "recent_patent_titles": [
+     "Magnitude invariant multimodal agent for efficient image-text interface automation",
+     "Identifying optimal weights to improve prediction accuracy in machine learning techniques"
+    ]
+   },
+   "funding": [
+    {
+     "event": "Series G: $30B at $380B valuation",
+     "date": "2026-02-12",
+     "open_roles_change_26w_after": -11
+    },
+    {
+     "event": "Series H: $65B at $965B post-money valuation",
+     "date": "2026-05-28",
+     "open_roles_change_26w_after": 305
+    }
+   ]
+  },
+  "claims": [
+   {
+    "key_fact": "89 → 195 new roles per 13 weeks (2.2×)",
+    "concentrated_in": [
+     "San Francisco",
+     "New York"
+    ],
+    "id": "sales_push",
+    "label": "Scaling the sales machine",
+    "reading": "A growing sales force means the company is chasing revenue in new segments or regions.",
+    "confidence": "likely",
+    "open_roles": 150,
+    "share_of_open": 0.222,
+    "lift_vs_peers": 1.43,
+    "new_13w": 195,
+    "prior_13w": 89,
+    "growth": 2.19,
+    "cities": [
+     [
+      "San Francisco",
+      79
+     ],
+     [
+      "New York",
+      70
+     ],
+     [
+      "Seattle",
+      25
+     ]
+    ],
+    "examples": [
+     "Enterprise Account Executive, System Integrators",
+     "Enterprise Account Executive - Healthcare & Life Science",
+     "Enterprise Account Executive - Semiconductors",
+     "Enterprise Account Executive, Federal Civilian Sales - Federal Financials"
+    ],
+    "corroboration": [],
+    "signal": [
+     "150 open roles (22% of Anthropic's open postings)",
+     "1.4× the share at the other three companies",
+     "195 new in the last 13 weeks vs 89 in the 13 weeks before"
+    ],
+    "strength": 470.51
+   },
+   {
+    "key_fact": "6 → 25 new roles per 13 weeks (4.2×)",
+    "concentrated_in": [
+     "Washington",
+     "San Francisco"
+    ],
+    "id": "government",
+    "label": "Selling to government and defense",
+    "reading": "Security-clearance and public-sector roles point to contracts with government and defense customers, which need cleared staff on site.",
+    "confidence": "likely",
+    "open_roles": 26,
+    "share_of_open": 0.039,
+    "lift_vs_peers": 3.71,
+    "new_13w": 25,
+    "prior_13w": 6,
+    "growth": 4.17,
+    "cities": [
+     [
+      "Washington",
+      16
+     ],
+     [
+      "San Francisco",
+      6
+     ],
+     [
+      "New York",
+      4
+     ]
+    ],
+    "examples": [
+     "Enterprise Account Executive, Federal Partners Sales",
+     "Enterprise Account Executive, Federal Civilian Sales",
+     "Enterprise Account Executive, Public Sector, DACH",
+     "Applied AI Architect, Public Sector"
+    ],
+    "corroboration": [],
+    "signal": [
+     "26 open roles (4% of Anthropic's open postings)",
+     "3.7× the share at the other three companies",
+     "25 new in the last 13 weeks vs 6 in the 13 weeks before"
+    ],
+    "strength": 463.22
+   },
+   {
+    "key_fact": "41 → 69 new roles per 13 weeks (1.7×)",
+    "concentrated_in": [
+     "San Francisco",
+     "New York",
+     "Washington"
+    ],
+    "id": "safety_policy",
+    "label": "Investing in safety and policy",
+    "reading": "Safety, alignment and policy roles show how much the company invests in governing its models.",
+    "confidence": "likely",
+    "open_roles": 64,
+    "share_of_open": 0.095,
+    "lift_vs_peers": 4.57,
+    "new_13w": 69,
+    "prior_13w": 41,
+    "growth": 1.68,
+    "cities": [
+     [
+      "San Francisco",
+      50
+     ],
+     [
+      "New York",
+      31
+     ],
+     [
+      "Washington",
+      19
+     ]
+    ],
+    "examples": [
+     "Staff+ Software Engineer, Safeguards",
+     "Staff+ Software Engineer, Account Abuse",
+     "Staff+ Software Engineer, Safeguards Infrastructure",
+     "Staff+ Software Engineer, Safeguards Human Review Tooling"
+    ],
+    "corroboration": [],
+    "signal": [
+     "64 open roles (9% of Anthropic's open postings)",
+     "4.6× the share at the other three companies",
+     "69 new in the last 13 weeks vs 41 in the 13 weeks before"
+    ],
+    "strength": 430.83
+   },
+   {
+    "key_fact": "8 → 26 new roles per 13 weeks (3.2×)",
+    "concentrated_in": [
+     "San Francisco",
+     "New York"
+    ],
+    "id": "dc_build",
+    "label": "Building its own data centers",
+    "reading": "Power, cooling, construction and site roles mean the company is building or running its own compute sites instead of only renting cloud capacity.",
+    "confidence": "likely",
+    "open_roles": 19,
+    "share_of_open": 0.028,
+    "lift_vs_peers": 1.52,
+    "new_13w": 26,
+    "prior_13w": 8,
+    "growth": 3.25,
+    "cities": [
+     [
+      "San Francisco",
+      6
+     ],
+     [
+      "New York",
+      4
+     ],
+     [
+      "Sydney",
+      2
+     ]
+    ],
+    "examples": [
+     "Senior Data Center Capacity Delivery Manager",
+     "Data Center Controls Engineer",
+     "Data Center Mechanical Engineer",
+     "Data Center Facility Operations Lead"
+    ],
+    "corroboration": [],
+    "signal": [
+     "19 open roles (3% of Anthropic's open postings)",
+     "1.5× the share at the other three companies",
+     "26 new in the last 13 weeks vs 8 in the 13 weeks before"
+    ],
+    "strength": 138.78
+   }
+  ],
+  "expansions": [
+   {
+    "summary": "Milan: looks like a sales office (3 postings, first 2026-08-27; announced 98 days before the first posting)",
+    "city": "Milan",
+    "country": "IT",
+    "first_posting": "2026-08-27",
+    "status": "hiring lagged",
+    "postings": 3,
+    "kind": "sales office",
+    "role_mix": [
+     [
+      "Sales & Go-to-Market",
+      3
+     ]
+    ],
+    "lead_days": -98,
+    "event": "Milan office announced (Reuters)",
+    "source": "https://finance.yahoo.com/sectors/technology/articles/anthropic-open-milan-office-expanding-095020601.html",
+    "examples": [
+     "Applied AI Architect, Industries",
+     "Enterprise Account Executive, Public Sector",
+     "Partner Account Manager - Italy"
+    ]
+   },
+   {
+    "summary": "Delhi: looks like a sales office (1 postings, first 2026-08-22; no announcement yet)",
+    "city": "Delhi",
+    "country": "IN",
+    "first_posting": "2026-08-22",
+    "status": "watch",
+    "postings": 1,
+    "kind": "sales office",
+    "role_mix": [
+     [
+      "Sales & Go-to-Market",
+      1
+     ]
+    ],
+    "lead_days": null,
+    "event": null,
+    "source": null,
+    "examples": [
+     "Enterprise Account Executive - Digital Native Business"
+    ]
+   },
+   {
+    "summary": "Austin: looks like a data-center site (2 postings, first 2026-08-20; no announcement yet)",
+    "city": "Austin",
+    "country": "US",
+    "first_posting": "2026-08-20",
+    "status": "watch",
+    "postings": 2,
+    "kind": "data-center site",
+    "role_mix": [
+     [
+      "Data Center & Facilities",
+      1
+     ],
+     [
+      "Sales & Go-to-Market",
+      1
+     ]
+    ],
+    "lead_days": null,
+    "event": null,
+    "source": null,
+    "examples": [
+     "Community Engagement Manager, Data Centers (Texas)",
+     "Head of State and Local Government Sales"
+    ]
+   },
+   {
+    "summary": "Mumbai: looks like a sales office (3 postings, first 2026-08-20; no announcement yet)",
+    "city": "Mumbai",
+    "country": "IN",
+    "first_posting": "2026-08-20",
+    "status": "watch",
+    "postings": 3,
+    "kind": "sales office",
+    "role_mix": [
+     [
+      "Sales & Go-to-Market",
+      3
+     ]
+    ],
+    "lead_days": null,
+    "event": null,
+    "source": null,
+    "examples": [
+     "Applied AI Architect",
+     "Enterprise Account Executive, Industries - BFSI"
+    ]
+   },
+   {
+    "summary": "Singapore: looks like a regional hub (24 postings, first 2026-04-14; announced 154 days after the first posting)",
+    "city": "Singapore",
+    "country": "SG",
+    "first_posting": "2026-04-14",
+    "status": "hiring led",
+    "postings": 24,
+    "kind": "regional hub",
+    "role_mix": [
+     [
+      "Finance, Legal & People",
+      12
+     ],
+     [
+      "Sales & Go-to-Market",
+      9
+     ],
+     [
+      "Product & Design",
+      2
+     ]
+    ],
+    "lead_days": 154,
+    "event": "Singapore office plan announced",
+    "source": "https://www.computerweekly.com/news/366652182/Anthropic-opens-Singapore-office-signs-AI-safety-pact-with-government",
+    "examples": [
+     "Enterprise Account Executive - Industries Generalist (ASEAN)",
+     "Account Executive - Public Sector (ASEAN)",
+     "Finance & Strategy, Deal Strategy - APAC"
+    ]
+   }
+  ]
+ },
+ "OpenAI": {
+  "facts": {
+   "company": "OpenAI",
+   "segment": "Frontier lab",
+   "unit": "open roles",
+   "size": {
+    "metric": "OpenAI open roles",
+    "week": "2026-11-02",
+    "value": 811.0
+   },
+   "postings_analysed": 813,
+   "change_6m_pct": 23,
+   "forecast_next_8_weeks_pct": 6,
+   "technical_share_pct": 50,
+   "pay_mid_usd": 351000.0,
+   "top_roles": [
+    [
+     "Sales & Go-to-Market",
+     25
+    ],
+    [
+     "Software Engineering",
+     20
+    ],
+    [
+     "ML / AI Engineering",
+     8
+    ]
+   ],
+   "distinctive_skills": [
+    [
+     "LLM APIs",
+     4.5
+    ],
+    [
+     "Causal Inference & Experimentation",
+     3.8
+    ],
+    [
+     "Observability",
+     2.7
+    ],
+    [
+     "APIs",
+     2.3
+    ]
+   ],
+   "top_hubs": [
+    [
+     "San Francisco",
+     67
+    ],
+    [
+     "Singapore",
+     5
+    ],
+    [
+     "New York",
+     4
+    ]
+   ],
+   "nearest_peer": [
+    "Anthropic",
+    0.9945
+   ],
+   "recent_models": [
+    [
+     "2026-09-29",
+     "GPT-6.1 Sol"
+    ],
+    [
+     "2026-09-22",
+     "GPT-6 Sol"
+    ],
+    [
+     "2026-09-22",
+     "GPT-6 Luna"
+    ]
+   ],
+   "financials": null,
+   "patents": {
+    "patent_publications_last_4_quarters": 84,
+    "patent_publications_4_quarters_before": 37,
+    "change_pct": 127,
+    "source": "EPO Open Patent Services (publications naming the company as applicant)",
+    "recent_patent_titles": [
+     "Conditional inference-time policy enforcement system for generative ai models",
+     "Detecting vulnerabilities in code commits utilizing generative model agents",
+     "Assisted debugging with generative response engine",
+     "Remote control and monitoring of a locally executing generative agent",
+     "Obfuscating and mediating sensitive credentials for generative agent environments",
+     "Safety engine processing of generative response engine output"
+    ]
+   },
+   "funding": []
+  },
+  "claims": [
+   {
+    "key_fact": "20 → 34 new roles per 13 weeks (1.7×)",
+    "concentrated_in": [
+     "San Francisco"
+    ],
+    "id": "devices",
+    "label": "Building hardware devices",
+    "reading": "Hardware, manufacturing and supply-chain roles suggest a physical product in development.",
+    "confidence": "likely",
+    "open_roles": 38,
+    "share_of_open": 0.047,
+    "lift_vs_peers": 7.89,
+    "new_13w": 34,
+    "prior_13w": 20,
+    "growth": 1.7,
+    "cities": [
+     [
+      "San Francisco",
+      30
+     ],
+     [
+      "Tokyo",
+      1
+     ],
+     [
+      "Seattle",
+      1
+     ]
+    ],
+    "examples": [
+     "Software Engineer, Private Computing",
+     "Software Engineer, Manufacturing Infrastructure",
+     "Software Engineer, HSM Infrastructure Security, Consumer Devices",
+     "Product Manufacturing Engineer - PCBA"
+    ],
+    "corroboration": [],
+    "signal": [
+     "38 open roles (5% of OpenAI's open postings)",
+     "7.9× the share at the other three companies",
+     "34 new in the last 13 weeks vs 20 in the 13 weeks before"
+    ],
+    "strength": 413.44
+   },
+   {
+    "key_fact": "198 open roles, 1.6× the share at peers",
+    "concentrated_in": [
+     "San Francisco",
+     "New York"
+    ],
+    "id": "sales_push",
+    "label": "Scaling the sales machine",
+    "reading": "A growing sales force means the company is chasing revenue in new segments or regions.",
+    "confidence": "confirmed",
+    "open_roles": 198,
+    "share_of_open": 0.244,
+    "lift_vs_peers": 1.63,
+    "new_13w": 210,
+    "prior_13w": 202,
+    "growth": 1.04,
+    "cities": [
+     [
+      "San Francisco",
+      83
+     ],
+     [
+      "New York",
+      40
+     ],
+     [
+      "Tokyo",
+      18
+     ]
+    ],
+    "examples": [
+     "Account Director, Digital Native New Business",
+     "Account Director, Startups | New Business",
+     "Account Director, Financial Services",
+     "Account Director, Large Enterprise"
+    ],
+    "corroboration": [
+     {
+      "date": "2026-11-09",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "source": "OpenAI newsroom"
+     },
+     {
+      "date": "2026-10-29",
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "url": "https://openai.com/index/credit-saison",
+      "source": "OpenAI newsroom"
+     },
+     {
+      "date": "2026-10-28",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "OpenAI newsroom"
+     }
+    ],
+    "signal": [
+     "198 open roles (24% of OpenAI's open postings)",
+     "1.6× the share at the other three companies",
+     "210 new in the last 13 weeks vs 202 in the 13 weeks before"
+    ],
+    "strength": 336.07
+   },
+   {
+    "key_fact": "65 open roles, 13.2× the share at peers",
+    "concentrated_in": [
+     "San Francisco",
+     "New York"
+    ],
+    "id": "consumer_ads",
+    "label": "Monetising consumers",
+    "reading": "Ads, growth and subscription roles mean the company is turning a large user base into revenue.",
+    "confidence": "confirmed",
+    "open_roles": 65,
+    "share_of_open": 0.08,
+    "lift_vs_peers": 13.23,
+    "new_13w": 71,
+    "prior_13w": 62,
+    "growth": 1.15,
+    "cities": [
+     [
+      "San Francisco",
+      52
+     ],
+     [
+      "New York",
+      20
+     ],
+     [
+      "Seattle",
+      6
+     ]
+    ],
+    "examples": [
+     "Software Engineer, Ad Formats",
+     "Software Engineer, ChatGPT Shopping",
+     "Software Engineer, GTM Growth Engineering",
+     "Software Engineer, Monetization ML Infrastructure"
+    ],
+    "corroboration": [
+     {
+      "date": "2026-10-28",
+      "title": "Evernote turns AI-driven discovery into paid subscriptions",
+      "url": "https://openai.com/ads/customers/evernote",
+      "source": "OpenAI newsroom"
+     },
+     {
+      "date": "2026-10-21",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "source": "OpenAI newsroom"
+     },
+     {
+      "date": "2026-10-21",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "source": "OpenAI newsroom"
+     }
+    ],
+    "signal": [
+     "65 open roles (8% of OpenAI's open postings)",
+     "13.2× the share at the other three companies",
+     "71 new in the last 13 weeks vs 62 in the 13 weeks before"
+    ],
+    "strength": 297.74
+   },
+   {
+    "key_fact": "60 → 92 new roles per 13 weeks (1.5×)",
+    "concentrated_in": [
+     "San Francisco",
+     "New York"
+    ],
+    "id": "enterprise_deploy",
+    "label": "Deploying inside large enterprises",
+    "reading": "Engineers who work at customer sites mean the product is being rolled out inside large organisations, not only sold self-serve.",
+    "confidence": "confirmed",
+    "open_roles": 99,
+    "share_of_open": 0.122,
+    "lift_vs_peers": 1.54,
+    "new_13w": 92,
+    "prior_13w": 60,
+    "growth": 1.53,
+    "cities": [
+     [
+      "San Francisco",
+      36
+     ],
+     [
+      "New York",
+      25
+     ],
+     [
+      "Seattle",
+      8
+     ]
+    ],
+    "examples": [
+     "Applied AI Engineer, Enterprise",
+     "Applied AI Engineer, Codex",
+     "Applied AI Engineer",
+     "Applied AI Engineer, Government"
+    ],
+    "corroboration": [
+     {
+      "date": "2026-11-09",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "source": "OpenAI newsroom"
+     },
+     {
+      "date": "2026-10-29",
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "url": "https://openai.com/index/credit-saison",
+      "source": "OpenAI newsroom"
+     },
+     {
+      "date": "2026-10-28",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "OpenAI newsroom"
+     }
+    ],
+    "signal": [
+     "99 open roles (12% of OpenAI's open postings)",
+     "1.5× the share at the other three companies",
+     "92 new in the last 13 weeks vs 60 in the 13 weeks before"
+    ],
+    "strength": 233.24
+   }
+  ],
+  "expansions": [
+   {
+    "summary": "Amsterdam: looks like a sales office (1 postings, first 2026-11-08; no announcement yet)",
+    "city": "Amsterdam",
+    "country": "NL",
+    "first_posting": "2026-11-08",
+    "status": "watch",
+    "postings": 1,
+    "kind": "sales office",
+    "role_mix": [
+     [
+      "Sales & Go-to-Market",
+      1
+     ]
+    ],
+    "lead_days": null,
+    "event": null,
+    "source": null,
+    "examples": [
+     "Sales and Partnerships"
+    ]
+   },
+   {
+    "summary": "Melbourne: looks like a engineering hub (1 postings, first 2026-10-29; no announcement yet)",
+    "city": "Melbourne",
+    "country": "AU",
+    "first_posting": "2026-10-29",
+    "status": "watch",
+    "postings": 1,
+    "kind": "engineering hub",
+    "role_mix": [
+     [
+      "Security & Privacy",
+      1
+     ]
+    ],
+    "lead_days": null,
+    "event": null,
+    "source": null,
+    "examples": [
+     "Incident Commander, Detection & Response - APAC"
+    ]
+   },
+   {
+    "summary": "Berlin: looks like a sales office (2 postings, first 2026-06-23; announced 52 days after the first posting)",
+    "city": "Berlin",
+    "country": "DE",
+    "first_posting": "2026-06-23",
+    "status": "hiring led",
+    "postings": 2,
+    "kind": "sales office",
+    "role_mix": [
+     [
+      "Sales & Go-to-Market",
+      2
+     ]
+    ],
+    "lead_days": 52,
+    "event": "Second German office announced by Sam Altman (Handelsblatt interview)",
+    "source": "https://invest-in.berlin/n/openai-picks-berlin-for-its-second-german-office/",
+    "examples": [
+     "Sales and Partnerships",
+     "Account Director, Large Enterprise"
+    ]
+   },
+   {
+    "summary": "Stockholm: looks like a sales office (7 postings, first 2026-06-18; announced the same day)",
+    "city": "Stockholm",
+    "country": "SE",
+    "first_posting": "2026-06-18",
+    "status": "simultaneous",
+    "postings": 7,
+    "kind": "sales office",
+    "role_mix": [
+     [
+      "Sales & Go-to-Market",
+      6
+     ],
+     [
+      "Software Engineering",
+      1
+     ]
+    ],
+    "lead_days": 0,
+    "event": "First Nordic office announced (opening H2 2026)",
+    "source": "https://swedenherald.com/article/openai-to-open-its-first-nordic-office-in-stockholm-in-the-second-half-of-2026",
+    "examples": [
+     "Account Director, Digital Natives - Nordics",
+     "Account Director, Startups - Nordics",
+     "Account Director, Large Enterprise"
+    ]
+   },
+   {
+    "summary": "Madrid: looks like a sales office (9 postings, first 2026-06-11; announced the same day)",
+    "city": "Madrid",
+    "country": "ES",
+    "first_posting": "2026-06-11",
+    "status": "simultaneous",
+    "postings": 9,
+    "kind": "sales office",
+    "role_mix": [
+     [
+      "Sales & Go-to-Market",
+      7
+     ],
+     [
+      "ML / AI Engineering",
+      1
+     ],
+     [
+      "Software Engineering",
+      1
+     ]
+    ],
+    "lead_days": 0,
+    "event": "First Spanish office announced (opening H2 2026)",
+    "source": "https://euronews.com/business/2026/06/12/openai-backs-spain-opens-madrid-office-to-speed-up-chatgpt-expansion",
+    "examples": [
+     "Forward Deployed Engineer - Madrid (Spanish-speaking)",
+     "Forward Deployed Engineer - Madrid",
+     "Sales and Partnerships"
+    ]
+   },
+   {
+    "summary": "Abu Dhabi: looks like a sales office (7 postings, first 2026-05-13; announced 356 days before the first posting)",
+    "city": "Abu Dhabi",
+    "country": "AE",
+    "first_posting": "2026-05-13",
+    "status": "hiring lagged",
+    "postings": 7,
+    "kind": "sales office",
+    "role_mix": [
+     [
+      "Sales & Go-to-Market",
+      5
+     ],
+     [
+      "ML / AI Engineering",
+      1
+     ],
+     [
+      "Software Engineering",
+      1
+     ]
+    ],
+    "lead_days": -356,
+    "event": "Stargate UAE announced (1GW cluster; 200MW in 2026)",
+    "source": "https://openai.com/index/introducing-stargate-uae/",
+    "examples": [
+     "Sales and Partnerships",
+     "Technical Success - EMEA",
+     "Forward Deployed Engineer - UAE"
+    ]
+   }
+  ]
+ },
+ "NVIDIA": {
+  "facts": {
+   "company": "NVIDIA",
+   "segment": "Semiconductors",
+   "unit": "requisitions per day",
+   "size": {
+    "metric": "NVIDIA requisitions / day",
+    "week": "2026-11-09",
+    "value": 66.6
+   },
+   "postings_analysed": 2799,
+   "change_6m_pct": 26,
+   "forecast_next_8_weeks_pct": 8,
+   "technical_share_pct": 74,
+   "pay_mid_usd": 245000.0,
+   "top_roles": [
+    [
+     "Software Engineering",
+     27
+    ],
+    [
+     "Hardware & Silicon",
+     24
+    ],
+    [
+     "Infrastructure & SRE",
+     11
+    ]
+   ],
+   "distinctive_skills": [
+    [
+     "CUDA",
+     10.7
+    ],
+    [
+     "Networking Hardware (InfiniBand, Ethernet)",
+     6.7
+    ],
+    [
+     "Parallel Programming",
+     6.0
+    ],
+    [
+     "HPC",
+     5.5
+    ]
+   ],
+   "top_hubs": [
+    [
+     "Santa Clara",
+     47
+    ],
+    [
+     "Israel",
+     15
+    ],
+    [
+     "India",
+     9
+    ]
+   ],
+   "nearest_peer": [
+    "OpenAI",
+    0.5968
+   ],
+   "recent_models": [
+    [
+     "2026-06-04",
+     "Nemotron 3 Ultra"
+    ],
+    [
+     "2026-03-11",
+     "Nemotron 3 Super"
+    ],
+    [
+     "2025-12-15",
+     "Nemotron 3-Nano-30B-A3B"
+    ]
+   ],
+   "financials": {
+    "quarter_end": "2026-07-26",
+    "revenue_usd_b": 96.2,
+    "revenue_yoy": 1.059,
+    "rnd_usd_b": 7.1
+   },
+   "patents": {
+    "patent_publications_last_4_quarters": 1799,
+    "patent_publications_4_quarters_before": 1048,
+    "change_pct": 72,
+    "source": "EPO Open Patent Services (publications naming the company as applicant)",
+    "recent_patent_titles": [
+     "Inference on memory-constrained systems",
+     "Dynamic parallelism for language model inference",
+     "Blind circuit board connections",
+     "Key value and extended tensor parallelism for transformer-based neural networks",
+     "Liquid metal circuit board connectors",
+     "Scalable neural control for dexterous manipulation from reference-scoped exploration"
+    ]
+   },
+   "funding": []
+  },
+  "claims": [
+   {
+    "key_fact": "234 open roles, 4.2× the share at peers",
+    "concentrated_in": [
+     "Santa Clara"
+    ],
+    "id": "networking",
+    "label": "Owning the network between GPUs",
+    "reading": "Networking, optics and interconnect roles show investment in linking thousands of chips into one system: the bottleneck has moved from the single chip to the cluster.",
+    "confidence": "confirmed",
+    "open_roles": 234,
+    "share_of_open": 0.084,
+    "lift_vs_peers": 4.19,
+    "new_13w": null,
+    "prior_13w": null,
+    "growth": null,
+    "cities": [
+     [
+      "Santa Clara",
+      82
+     ],
+     [
+      "Yokneam",
+      37
+     ],
+     [
+      "Tel Aviv",
+      20
+     ]
+    ],
+    "examples": [
+     "Senior Software Engineer - Networking",
+     "Senior Software Engineer, NVLINK",
+     "Senior Software Engineer, Networking",
+     "Senior Software Engineer - Ethernet Switch"
+    ],
+    "corroboration": [
+     {
+      "date": "2026-11-09",
+      "title": "NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
+      "source": "NVIDIA newsroom"
+     },
+     {
+      "date": "2026-11-06",
+      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "source": "NVIDIA newsroom"
+     }
+    ],
+    "signal": [
+     "234 open roles (8% of NVIDIA's open postings)",
+     "4.2× the share at the other three companies"
+    ],
+    "strength": 936
+   },
+   {
+    "key_fact": "114 open roles, 8.9× the share at peers",
+    "concentrated_in": [
+     "Santa Clara"
+    ],
+    "id": "autonomous",
+    "label": "Building self-driving and automotive AI",
+    "reading": "Autonomous-driving and automotive roles mean cars remain a growth market for the company's chips and software.",
+    "confidence": "likely",
+    "open_roles": 114,
+    "share_of_open": 0.041,
+    "lift_vs_peers": 8.9,
+    "new_13w": null,
+    "prior_13w": null,
+    "growth": null,
+    "cities": [
+     [
+      "Santa Clara",
+      84
+     ],
+     [
+      "Shanghai",
+      8
+     ],
+     [
+      "Bangalore",
+      7
+     ]
+    ],
+    "examples": [
+     "Senior System Software Engineer - AV Platform",
+     "Senior System Software Engineer - Autonomous Vehicles",
+     "Senior System Software Engineer, DRIVE OS - Linux and QNX",
+     "Senior System Software Engineer - Automotive"
+    ],
+    "corroboration": [],
+    "signal": [
+     "114 open roles (4% of NVIDIA's open postings)",
+     "8.9× the share at the other three companies"
+    ],
+    "strength": 456
+   },
+   {
+    "key_fact": "66 open roles, 3.3× the share at peers",
+    "concentrated_in": [
+     "Santa Clara"
+    ],
+    "id": "robotics",
+    "label": "Moving into robotics",
+    "reading": "Robotics, actuator and test-rig roles mean AI is being built into physical machines.",
+    "confidence": "confirmed",
+    "open_roles": 66,
+    "share_of_open": 0.024,
+    "lift_vs_peers": 3.34,
+    "new_13w": null,
+    "prior_13w": null,
+    "growth": null,
+    "cities": [
+     [
+      "Santa Clara",
+      35
+     ],
+     [
+      "Shanghai",
+      12
+     ],
+     [
+      "Bangalore",
+      4
+     ]
+    ],
+    "examples": [
+     "PhD Research Intern, Robotics - Summer 2027",
+     "PhD Research Intern, Learning Embodied Skills from Human Data - 2027",
+     "PhD Research Intern, Embodied and Agentic AI - 2027",
+     "PhD Research Intern, Generalist Embodied Agents Research - 2027"
+    ],
+    "corroboration": [
+     {
+      "date": "2026-11-09",
+      "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+      "source": "NVIDIA newsroom"
+     },
+     {
+      "date": "2026-11-09",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "source": "NVIDIA newsroom"
+     }
+    ],
+    "signal": [
+     "66 open roles (2% of NVIDIA's open postings)",
+     "3.3× the share at the other three companies"
+    ],
+    "strength": 352.27
+   }
+  ],
+  "expansions": []
+ },
+ "Google": {
+  "facts": {
+   "company": "Google",
+   "segment": "Big tech",
+   "unit": "open roles",
+   "size": {
+    "metric": "Google open roles",
+    "week": "2026-11-02",
+    "value": 3182.0
+   },
+   "postings_analysed": 917,
+   "change_6m_pct": -15,
+   "forecast_next_8_weeks_pct": -14,
+   "technical_share_pct": 40,
+   "pay_mid_usd": null,
+   "top_roles": [
+    [
+     "Sales & Go-to-Market",
+     32
+    ],
+    [
+     "Infrastructure & SRE",
+     13
+    ],
+    [
+     "Software Engineering",
+     9
+    ]
+   ],
+   "distinctive_skills": [
+    [
+     "Java",
+     5.4
+    ],
+    [
+     "People Management",
+     4.5
+    ],
+    [
+     "Google Cloud",
+     3.8
+    ],
+    [
+     "Generative AI",
+     3.7
+    ]
+   ],
+   "top_hubs": [
+    [
+     "Singapore",
+     7
+    ],
+    [
+     "Bangalore",
+     6
+    ],
+    [
+     "New York",
+     5
+    ]
+   ],
+   "nearest_peer": [
+    "OpenAI",
+    0.6124
+   ],
+   "recent_models": [
+    [
+     "2026-10-28",
+     "Gemini 4 Carbon"
+    ],
+    [
+     "2026-09-30",
+     "Gemini 4 Argon"
+    ],
+    [
+     "2026-09-03",
+     "WeatherNext 3"
+    ]
+   ],
+   "financials": {
+    "quarter_end": "2026-09-30",
+    "revenue_usd_b": 127.6,
+    "revenue_yoy": 0.247,
+    "rnd_usd_b": 20.6
+   },
+   "patents": {
+    "patent_publications_last_4_quarters": 4102,
+    "patent_publications_4_quarters_before": 5049,
+    "change_pct": -19,
+    "source": "EPO Open Patent Services (publications naming the company as applicant)",
+    "recent_patent_titles": [
+     "Extensible conversational system intelligence agent",
+     "Automatic speech recognition with word-timings transcribed",
+     "Coupled transmission of memory transaction messages in a processor",
+     "Methods and devices enabling end-to-end encrypted next-generation mobile messaging services",
+     "Proactive thermal throttling based on forecasted temperature data",
+     "Text input to proxy phrase conversion"
+    ]
+   },
+   "funding": []
+  },
+  "claims": [
+   {
+    "key_fact": "38 open roles, 3.4× the share at peers",
+    "concentrated_in": [
+     "Tel Aviv",
+     "Haifa"
+    ],
+    "id": "chips",
+    "label": "Designing its own chips",
+    "reading": "Chip-design and verification roles mean in-house silicon, which cuts dependence on GPU suppliers.",
+    "confidence": "likely",
+    "open_roles": 38,
+    "share_of_open": 0.041,
+    "lift_vs_peers": 3.43,
+    "new_13w": null,
+    "prior_13w": null,
+    "growth": null,
+    "cities": [
+     [
+      "Tel Aviv",
+      21
+     ],
+     [
+      "Haifa",
+      19
+     ],
+     [
+      "Sunnyvale",
+      5
+     ]
+    ],
+    "examples": [
+     "SoC Product Engineer, Google Cloud",
+     "Senior Silicon Validation Engineer",
+     "Networking Silicon Architect, Google Cloud",
+     "Silicon Manufacturing Intern, 2027"
+    ],
+    "corroboration": [],
+    "signal": [
+     "38 open roles (4% of Google's open postings)",
+     "3.4× the share at the other three companies"
+    ],
+    "strength": 208.28
+   },
+   {
+    "key_fact": "21 open roles",
+    "concentrated_in": [
+     "Sunnyvale",
+     "Atlanta",
+     "Austin"
+    ],
+    "id": "dc_build",
+    "label": "Building its own data centers",
+    "reading": "Power, cooling, construction and site roles mean the company is building or running its own compute sites instead of only renting cloud capacity.",
+    "confidence": "watch",
+    "open_roles": 21,
+    "share_of_open": 0.023,
+    "lift_vs_peers": 1.14,
+    "new_13w": null,
+    "prior_13w": null,
+    "growth": null,
+    "cities": [
+     [
+      "Sunnyvale",
+      7
+     ],
+     [
+      "Atlanta",
+      7
+     ],
+     [
+      "Austin",
+      6
+     ]
+    ],
+    "examples": [
+     "Technical Program Manager, Data Center Construction/Projects",
+     "Data Center Operations Manager, CSCS Deployments",
+     "Data Center Controls Engineer, Advanced Technology and Innovation",
+     "Data Center Operations Facilities Manager"
+    ],
+    "corroboration": [],
+    "signal": [
+     "21 open roles (2% of Google's open postings)",
+     "1.1× the share at the other three companies"
+    ],
+    "strength": 38.17
+   },
+   {
+    "key_fact": "14 open roles",
+    "concentrated_in": [
+     "Washington",
+     "Reston",
+     "New York"
+    ],
+    "id": "government",
+    "label": "Selling to government and defense",
+    "reading": "Security-clearance and public-sector roles point to contracts with government and defense customers, which need cleared staff on site.",
+    "confidence": "watch",
+    "open_roles": 14,
+    "share_of_open": 0.015,
+    "lift_vs_peers": 1.11,
+    "new_13w": null,
+    "prior_13w": null,
+    "growth": null,
+    "cities": [
+     [
+      "Washington",
+      6
+     ],
+     [
+      "Reston",
+      5
+     ],
+     [
+      "New York",
+      3
+     ]
+    ],
+    "examples": [
+     "Senior Software Engineer, AI/ML, Technical Delivery, Google Public Sector",
+     "Analytical Lead, Government and Advocacy, Large Customer Sales",
+     "Field Sales Representative II, Public Sector, Google Cloud",
+     "Senior Account Manager, Nonprofits, LCS, Government and Advocacy"
+    ],
+    "corroboration": [],
+    "signal": [
+     "14 open roles (2% of Google's open postings)",
+     "1.1× the share at the other three companies"
+    ],
+    "strength": 24.85
+   }
+  ],
+  "expansions": []
+ }
+}

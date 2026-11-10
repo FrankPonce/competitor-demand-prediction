@@ -97,7 +97,7 @@ Click a sprint to see its goal, deliverables, and results.
 | 07 | [**Demand Forecasting**](docs/sprints/sprint-07-demand-forecasting.md) | Dec 21 | 16 series, 8-week horizon; rolling backtests (up to +32% vs naive); empirical intervals; forecasts **frozen** and scored weekly; [summary](reports/forecast/summary.md) · [scorecard](reports/forecast/scorecard.md) | ✅ |
 | 08 | [**Similarity Scoring**](docs/sprints/sprint-08-similarity-scoring.md) | Dec 28 | Market map of 17 AI companies (+13 peers via public ATS APIs); 5 measures incl. Sentence-BERT; talent-pool overlap; [summary](reports/similarity/summary.md) | ✅ |
 | 09 | [**Insights & Reporting**](docs/sprints/sprint-09-insights-reporting.md) | Jan 4 | **[Hiring Intelligence Report](reports/insights/insight_report.md)**, company cards, leading-indicator test vs 13 cited events (2 led, 2 simultaneous, 2 lagged) + live watchlist | ✅ |
-| 10 | [**Automated Pipeline**](docs/sprints/sprint-10-automated-pipeline.md) <sub>optional</sub> | Jan 11 | GitHub Actions refresh (Mon/Thu) + **AI Hiring Signals** console on Vercel (globe, signal feed, forecasts, tracker, market map); new context sources: SEC EDGAR, Epoch models, newsroom RSS, GDELT, EPO patents, CA WARN | ✅ |
+| 10 | [**Automated Pipeline**](docs/sprints/sprint-10-automated-pipeline.md) <sub>optional</sub> | Jan 11 | GitHub Actions refresh (Mon/Thu) + **AI Hiring Signals** console on Vercel (briefing + company stories written by an open model from rule-based evidence, globe, signal feed, forecasts, tracker, market map); new context sources: SEC EDGAR, Epoch models, newsroom RSS, GDELT, EPO patents, CA WARN | ✅ |
 | 11 | [**Fine-Tuned Skill Model**](docs/sprints/sprint-11-fine-tuning.md) <sub>optional</sub> | Jan 18 | BERT/RoBERTa token classifier vs. rule-based baseline | ⬜ |
 | 12 | [**Final Presentation**](docs/sprints/sprint-12-final-presentation.md) | Jan 25 | Mentor review, final deck, polished repo | ⬜ |
 
@@ -159,8 +159,9 @@ python -m src.insights.leading_indicators   # hiring signals vs cited public eve
 python -m src.insights.company_cards        # one-page company cards
 python -m src.external.sources             # context: SEC EDGAR, Epoch models, news, EPO patents, CA WARN
 python -m src.dashboard.export             # dashboard JSON -> dashboard/data/
+python -m src.insights.story               # evidence rules + LLM-written briefing/chapters (GROQ_API_KEY; templates without)
 python -m http.server 8765 --directory dashboard   # preview the console at localhost:8765
-python -m pytest                             # 77 regression tests
+python -m pytest                             # 102 regression tests
 ```
 
 Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
@@ -186,7 +187,8 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 │   ├── compare/              two-lens competitor comparison
 │   ├── forecast/             series · models · backtest · frozen forecasts · scorer
 │   ├── similarity/           5 similarity measures · Sentence-BERT · talent pools
-│   ├── insights/             leading indicators vs events · company cards
+│   ├── insights/             leading indicators vs events · company cards · story layer (evidence rules + narrator)
+│   ├── llm.py                free LLM client (Groq → OpenRouter → templates) used only to write prose
 │   ├── external/             context sources: SEC EDGAR · Epoch models · RSS/GDELT news · EPO patents · CA WARN
 │   └── dashboard/            JSON export for the console
 ├── data/

@@ -238,14 +238,15 @@ def market() -> dict:
 def context() -> dict:
     fin = pd.read_csv(D / "context" / "financials_quarterly.csv")
     mr = pd.read_csv(D / "context" / "model_releases.csv")
-    pm = D / "context" / "patents_monthly.csv"
+    pm = D / "context" / "patents_quarterly.csv"
     wn = D / "context" / "warn_notices.csv"
     return {
         "financials": {c: {m: [[r.quarter_end, r.usd] for r in g.sort_values("quarter_end").itertuples()]
                            for m, g in gc.groupby("metric")} for c, gc in fin.groupby("company")},
         "models": mr[["company", "model", "date", "domain", "link"]].fillna("").to_dict("records"),
         "patents": pd.read_csv(pm).to_dict("records") if pm.exists() else [],
-        "patents_status": "ok" if pm.exists() else "awaiting EPO OPS key",
+        "patents_status": (f"{int(pd.read_csv(pm).publications.sum()):,} publications since 2023" if pm.exists()
+                           else "awaiting EPO OPS key"),
         "warn": pd.read_csv(wn).fillna("").to_dict("records") if wn.exists() else [],
     }
 

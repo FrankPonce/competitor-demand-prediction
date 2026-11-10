@@ -359,7 +359,7 @@
       <div class="panel span-2"><div class="panel-head"><h3>Nearest peers</h3><p class="sub">Hiring similarity (0–1)</p></div>${bars(d.peers, c, (r) => r[1].toFixed(2), 1)}</div>
       <div class="panel span-2"><div class="panel-head"><h3>Model releases</h3><p class="sub">${models.length ? `${models.length} notable models since 2022` : "None in Epoch AI's notable-models list"}</p></div>
         <ul class="models">${models.slice(0, 12).map((m) => `<li><span class="mono">${m.date}</span><span>${esc(m.model)}</span></li>`).join("") || `<li class="sub">–</li>`}</ul></div>
-      <p class="sub span-6" style="margin:0;font-size:12px;max-width:none">Patent filings (EPO Open Patent Services): ${esc(D.context.patents_status || "loaded")} · California WARN layoff notices: ${D.context.warn.filter((w) => w.company === co).length || "none filed"}</p>`;
+      <p class="sub span-6" style="margin:0;font-size:12px;max-width:none">Patent publications (EPO Open Patent Services, all four companies): ${esc(D.context.patents_status || "loaded")} · this company: ${fmt(D.context.patents.filter((p) => p.company === co).reduce((a, p) => a + p.publications, 0))} · California WARN layoff notices: ${D.context.warn.filter((w) => w.company === co).length || "none filed"}</p>`;
 
     // trajectory + model markers
     const hist = d.history;
@@ -500,12 +500,93 @@
     });
   }
 
+  // ---------- story: briefing + company chapters ----------
+  const CONF_ICON = { confirmed: "✓", likely: "◐", watch: "○" };
+  const KIND_LBL = { "data-center site": "data-center site", "regional hub": "regional hub", "sales office": "sales office",
+    "engineering hub": "engineering hub", "mixed team": "mixed team" };
+  function writer(by) {
+    if (!by || by.startsWith("template")) return "Template text from the evidence rules";
+    const model = by.split("/").slice(1).join("/");
+    return `Written by ${esc(model)} (${esc(by.split("/")[0])}) from the evidence below · every number checked against it`;
+  }
+  function renderBriefing() {
+    const S = D.story, el = $("#briefing");
+    if (!S) return;
+    const b = S.brief;
+    const tops = FOCUS.map((co) => [co, (S.chapters[co].claims || [])[0]]).filter((x) => x[1]);
+    el.hidden = false;
+    el.innerHTML = `<div class="section-head"><p class="eyebrow">The briefing · ${dateLong(S.generated_at.slice(0, 10))}</p>
+        <h2 class="story-h">${esc(b.headline)}</h2></div>
+      <p class="story-lede">${esc(b.paragraph)}</p>
+      <div class="brief-grid">${tops.map(([co, c]) => `
+        <a class="brief-card" href="#ch-${co}" style="--c:${color(co)}">
+          <span class="bc-top">${logo(co, 16)}<span>${co}</span><span class="badge b-${c.confidence}">${c.confidence}</span></span>
+          <span class="bc-label">${esc(c.label)}</span>
+          <span class="bc-fact num">${esc(c.key_fact)}</span>
+          ${c.concentrated_in.length ? `<span class="bc-where">📍 ${c.concentrated_in.slice(0, 2).map(esc).join(" · ")}</span>` : ""}
+        </a>`).join("")}</div>
+      <p class="story-note">${writer(b.written_by)}. Postings show intent, not outcomes: read every claim with its confidence label.</p>`;
+  }
+  function chapterCounters(co, f) {
+    const d = D.companies[co];
+    const isRate = d.unit !== "open roles";
+    const items = [[fmt(f.size.value, isRate ? 1 : 0), isRate ? "new reqs / day" : "open roles"]];
+    if (f.change_6m_pct != null) items.push([`${f.change_6m_pct > 0 ? "+" : ""}${f.change_6m_pct}%`, "in 6 months"]);
+    if (f.forecast_next_8_weeks_pct != null) items.push([`${f.forecast_next_8_weeks_pct > 0 ? "+" : ""}${f.forecast_next_8_weeks_pct}%`, "8-week forecast"]);
+    if (f.patents && f.patents.change_pct != null) items.push([`${f.patents.change_pct > 0 ? "+" : ""}${f.patents.change_pct}%`, "patent publications, 4 qtrs"]);
+    else if (f.financials) items.push([`${f.financials.revenue_yoy > 0 ? "+" : ""}${Math.round(f.financials.revenue_yoy * 100)}%`, "revenue YoY (SEC)"]);
+    return `<div class="counters ch-counters">${items.slice(0, 4).map(([v, k]) => `<div class="counter"><div class="v num">${v}</div><div class="k">${k}</div></div>`).join("")}</div>`;
+  }
+  function evidenceCard(c, text) {
+    const t = text || { title: c.label, reading: c.reading };
+    const growth = c.new_13w != null && c.prior_13w != null ? `<span><b>${c.prior_13w} → ${c.new_13w}</b> new / 13 wks</span>` : "";
+    const lift = c.lift_vs_peers != null ? `<span><b>${c.lift_vs_peers.toFixed(1)}×</b> peer share</span>` : "";
+    return `<article class="ev-card">
+      <div class="ev-top"><span class="badge b-${c.confidence}" title="${c.confidence === "confirmed" ? "A headline or event matches" : c.confidence === "likely" ? "Strong posting signal" : "Weak or early signal"}">${CONF_ICON[c.confidence] || ""} ${c.confidence}</span><span class="ev-theme">${esc(c.label)}</span></div>
+      <h3 class="ev-title">${esc(t.title)}</h3>
+      <p class="ev-reading">${esc(t.reading)}</p>
+      <div class="ev-stats num"><span><b>${c.open_roles}</b> open roles</span>${growth}${lift}</div>
+      ${c.cities.length ? `<div class="ev-where">${c.cities.map(([city, n]) => `<span class="pin">📍 ${esc(city)} <i>${n}</i></span>`).join("")}</div>` : ""}
+      <details class="ev-more"><summary>Evidence</summary>
+        <p class="ev-k">Example postings</p><ul>${c.examples.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>
+        <p class="ev-k">Why this reading</p><p>${esc(c.reading)}</p>
+        ${c.corroboration.length ? `<p class="ev-k">Corroboration</p><ul>${c.corroboration.map((h) => `<li><a href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.title)}</a> <span class="mono">${esc(String(h.date).slice(0, 10))}</span></li>`).join("")}</ul>` : `<p class="ev-k">Corroboration</p><p>No matching headline or event yet.</p>`}
+      </details>
+    </article>`;
+  }
+  function renderChapters() {
+    const S = D.story, root = $("#chapters");
+    if (!S) return;
+    root.innerHTML = FOCUS.map((co, i) => {
+      const ch = S.chapters[co], t = ch.text, f = ch.facts;
+      const exps = ch.expansions || [];
+      return `<section class="chapter" id="ch-${co}" style="--c:${color(co)}">
+        <div class="ch-head">
+          <p class="eyebrow ch-eyebrow">${logo(co, 18)}<span>${String(i + 1).padStart(2, "0")} · ${co}</span><span class="ch-seg">${esc(f.segment)}</span></p>
+          <h2 class="ch-h">${esc(t.headline)}</h2>
+          <p class="story-lede">${esc(t.lede)}</p>
+          ${chapterCounters(co, f)}
+          <p class="ch-watch"><span>Watch next</span>${esc(t.watch)}</p>
+        </div>
+        <div class="ev-grid">${ch.claims.map((c) => evidenceCard(c, t.claims[c.id])).join("")}</div>
+        ${exps.length ? `<div class="ch-cities"><p class="ev-k">New cities in 2026 and what the postings there suggest</p>
+          <ul>${exps.map((e) => `<li title="${esc(e.summary)}"><b>${esc(e.city)}</b><span class="kind">${KIND_LBL[e.kind] || esc(e.kind)}</span><span class="badge ${(arcStatus[e.status] || ["b-context"])[0]}">${esc((arcStatus[e.status] || ["", e.status])[1])}</span></li>`).join("")}</ul></div>` : ""}
+        <div class="ch-foot"><span class="story-note">${writer(ch.written_by)}</span>
+          <button type="button" class="more ch-more" data-co="${co}">Full ${co} breakdown →</button></div>
+      </section>`;
+    }).join("");
+    root.addEventListener("click", (e) => {
+      const b = e.target.closest(".ch-more"); if (!b) return;
+      selectTab(b.dataset.co); $("#companies").scrollIntoView({ behavior: "smooth" });
+    });
+  }
+
   // ---------- reveal ----------
   const io = "IntersectionObserver" in window ? new IntersectionObserver((es) => es.forEach((e) => {
     if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
   }), { rootMargin: "0px 0px -8% 0px" }) : null;
   function reveal(root = document) {
-    root.querySelectorAll(".section-head").forEach((el) => {
+    root.querySelectorAll(".section-head, .ch-head, .ev-card").forEach((el) => {
       if (!io || el.classList.contains("in")) return;
       // elements already on screen appear immediately
       const r = el.getBoundingClientRect();
@@ -520,12 +601,14 @@
       const names = ["meta", "companies", "globe", "signals", "news", "tracker", "market", "context"];
       const [vals, land] = await Promise.all([Promise.all(names.map((n) => get(`data/${n}.json`))), get("assets/land.json")]);
       names.forEach((n, i) => (D[n] = vals[i])); D.land = land;
+      D.story = await get("data/story.json").catch(() => null); // optional: page works without the story layer
     } catch (err) {
       $("#status-text").textContent = "Data failed to load";
       $(".dot").style.background = "#f85149";
       console.error(err); return;
     }
     renderStatus(); renderLegend(); renderExpansions();
+    try { renderBriefing(); renderChapters(); } catch (err) { console.error("story", err); }
     renderFilters(); renderFeed(); wireFeed();
     renderPulse(); wireRange();
     renderTabs(); renderDeep();

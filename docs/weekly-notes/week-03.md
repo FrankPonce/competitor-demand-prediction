@@ -54,3 +54,10 @@
 - **AI Hiring Signals** console in `dashboard/`: globe of hubs and new-city arcs, signal feed, pulse with forecast bands, company deep-dives incl. hiring vs SEC financials, prediction tracker, market map. Static, served by Vercel.
 - A new test caught a matcher bug (`opens?` matched inside "OpenAI"); fixed. 77 tests passing.
 - Owner setup left: repository secrets and connecting Vercel to the repo.
+
+## Update — story layer (2026-11-10)
+
+- The console now opens with a briefing and one chapter per company. Rule-based evidence (themes from job titles, growth, lift vs peers, cities, corroborating news) is written up by a free open model (Groq gpt-oss-120b) and every number is checked against the evidence before publishing.
+- EPO patents live: OpenAI +127%, NVIDIA +72%, Google −19% publications over the last 4 quarters.
+- Headline findings: Anthropic government roles 6 → 25 and data-center roles 8 → 26 per 13 weeks (Austin's first posting is a data-center role); Google chip design concentrated in Tel Aviv/Haifa; OpenAI ads/shopping roles at 13× peers.
+- 102 tests passing.

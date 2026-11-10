@@ -5,7 +5,8 @@ Outputs (all in data/context/):
     financials_quarterly.csv  SEC EDGAR XBRL: revenue, R&D, net income, capex (NVIDIA, Alphabet)
     model_releases.csv        Epoch AI "Notable AI Models" (CC BY): release dates by organisation
     news.csv                  headlines + links only, from company RSS feeds and GDELT (accumulates over runs)
-    patents_monthly.csv       EPO Open Patent Services: patent publications per applicant per month (needs key)
+    patents_quarterly.csv     EPO Open Patent Services: patent publications per applicant per quarter (needs key)
+    patents_recent.csv        titles of each company's latest patent publications (topic signal)
     warn_notices.csv          California WARN layoff notices matching tracked companies (accumulates)
 
 Secrets come from environment variables / a gitignored .env file, never from code:
@@ -205,55 +206,98 @@ def news() -> pd.DataFrame:
 
 # ---------------------------------------------------------------- EPO Open Patent Services
 
-OPS_APPLICANTS = {"Anthropic": "anthropic", "OpenAI": "openai", "NVIDIA": "nvidia",
-                  "Google": "google", "xAI": "x.ai", "Databricks": "databricks", "Scale AI": "scale ai"}
+OPS_APPLICANTS = {"Anthropic": "anthropic", "OpenAI": "openai", "NVIDIA": "nvidia", "Google": "google"}
+OPS_SEARCH = "https://ops.epo.org/3.2/rest-services/published-data/search/biblio"
 
 
-def patents(since: str = "2023") -> pd.DataFrame | None:
+def _ops_session():
     key, secret = os.environ.get("EPO_OPS_KEY"), os.environ.get("EPO_OPS_SECRET")
     if not key or not secret:
-        print("Patents: skipped (set EPO_OPS_KEY and EPO_OPS_SECRET; free at developers.epo.org)")
         return None
     tok = requests.post("https://ops.epo.org/3.2/auth/accesstoken", data={"grant_type": "client_credentials"},
                         headers={"Authorization": "Basic " + base64.b64encode(f"{key}:{secret}".encode()).decode(),
-                                 "Content-Type": "application/x-www-form-urlencoded"}, timeout=60).json()["access_token"]
-    s = PoliteSession(delay_seconds=6.5, timeout=90)  # EPO fair use: ≤ 10 searches / minute
-    s.s.headers.update({"Authorization": f"Bearer {tok}", "Accept": "application/json"})
-    rows = []
+                                 "Content-Type": "application/x-www-form-urlencoded"}, timeout=60)
+    tok.raise_for_status()
+    # EPO fair use: the search quota is small (X-Throttling-Control "search=green:5"), so stay well under it.
+    s = PoliteSession(delay_seconds=13, timeout=90)
+    s.s.headers.update({"Authorization": f"Bearer {tok.json()['access_token']}", "Accept": "application/json"})
+    return s
+
+
+def _ops_search(s, q: str, rng: str = "1-1") -> dict | None:
+    try:
+        r = s.get(f"{OPS_SEARCH}?q={quote(q)}", headers={"X-OPS-Range": rng})
+    except requests.HTTPError as e:
+        if e.response is not None and e.response.status_code == 404:  # OPS answers 404 when nothing matches
+            return None
+        raise
+    return r.json()["ops:world-patent-data"]["ops:biblio-search"]
+
+
+def _quarters(since: str, today: datetime) -> list[tuple[str, str, str]]:
+    out, y, q = [], int(since), 1
+    while (y, q) <= (today.year, (today.month - 1) // 3 + 1):
+        m0 = 3 * (q - 1) + 1
+        end = (datetime(y + (m0 + 3 > 12), (m0 + 3 - 1) % 12 + 1, 1) - timedelta(days=1))
+        out.append((f"{y}Q{q}", f"{y}{m0:02d}01", end.strftime("%Y%m%d")))
+        q = q % 4 + 1
+        y += q == 1
+    return out
+
+
+def patents(since: str = "2023") -> pd.DataFrame | None:
+    """Patent publications per applicant per quarter (counts) + titles of the latest publications.
+
+    Counts come from OPS's total-result-count (one tiny request per company-quarter). Finished quarters are cached
+    in patents_quarterly.csv and never re-queried; the last two quarters are refreshed on each run because
+    publications keep arriving for a while.
+    """
+    s = _ops_session()
+    if s is None:
+        print("Patents: skipped (set EPO_OPS_KEY and EPO_OPS_SECRET; free at developers.epo.org)")
+        return None
+    today = datetime.now(timezone.utc)
+    path = OUT / "patents_quarterly.csv"
+    old = pd.read_csv(path, dtype={"quarter": str}) if path.exists() else pd.DataFrame(
+        columns=["company", "quarter", "publications"])
+    qs = _quarters(since, today)
+    fresh = {q for q, _, _ in qs[-2:]}
+    have = {(r.company, r.quarter) for r in old.itertuples() if r.quarter not in fresh}
+    rows = [r._asdict() for r in old.itertuples(index=False) if (r.company, r.quarter) in have]
     for company, name in OPS_APPLICANTS.items():
-        start = 1
-        while start <= 2000:
-            q = f'pa="{name}" and pd>={since}'
-            r = s.get(f"https://ops.epo.org/3.2/rest-services/published-data/search/biblio?q={quote(q)}",
-                      headers={"X-OPS-Range": f"{start}-{start + 99}"})
-            if r.status_code == 404:
-                break
-            data = r.json()["ops:world-patent-data"]["ops:biblio-search"]
-            total = int(data.get("@total-result-count", 0))
-            docs = data.get("ops:search-result", {}).get("exchange-documents", [])
-            docs = docs if isinstance(docs, list) else [docs]
-            for d in docs:
-                ed = d.get("exchange-document", {})
-                bib = ed.get("bibliographic-data", {})
-                pubref = bib.get("publication-reference", {}).get("document-id", [])
-                pubref = pubref if isinstance(pubref, list) else [pubref]
-                date = next((p.get("date", {}).get("$") for p in pubref if p.get("date")), None)
-                titles = bib.get("invention-title", [])
-                titles = titles if isinstance(titles, list) else [titles]
-                title = next((t.get("$") for t in titles if t.get("@lang") == "en"), titles[0].get("$") if titles else "")
-                rows.append({"company": company, "country": ed.get("@country"), "doc_number": ed.get("@doc-number"),
-                             "kind": ed.get("@kind"), "family_id": ed.get("@family-id"),
-                             "pub_date": f"{date[:4]}-{date[4:6]}-{date[6:8]}" if date else None, "title": title})
-            start += 100
-            if start > total:
-                break
-    df = pd.DataFrame(rows).drop_duplicates(["company", "family_id"])  # count inventions, not filings
-    df.to_csv(OUT / "patents.csv", index=False)
-    m = df.assign(month=pd.to_datetime(df.pub_date).dt.to_period("M").astype(str)).groupby(
-        ["company", "month"]).size().rename("patent_families").reset_index()
-    m.to_csv(OUT / "patents_monthly.csv", index=False)
-    print(f"Patents: {len(df)} patent families")
-    return m
+        for q, d0, d1 in qs:
+            if (company, q) in have:
+                continue
+            res = _ops_search(s, f'pa="{name}" and pd within "{d0} {d1}"')
+            rows.append({"company": company, "quarter": q,
+                         "publications": int(res["@total-result-count"]) if res else 0})
+    quarterly = pd.DataFrame(rows).sort_values(["company", "quarter"])
+    quarterly.to_csv(path, index=False)
+
+    # latest titles: what the newest filings are about (last ~6 months)
+    d0 = (today - timedelta(days=183)).strftime("%Y%m%d")
+    titles = []
+    for company, name in OPS_APPLICANTS.items():
+        res = _ops_search(s, f'pa="{name}" and pd>={d0}', "1-50")
+        docs = (res or {}).get("ops:search-result", {}).get("exchange-documents", [])
+        docs = docs if isinstance(docs, list) else [docs]
+        for d in docs:
+            ed = d.get("exchange-document", {})
+            bib = ed.get("bibliographic-data", {})
+            pubref = bib.get("publication-reference", {}).get("document-id", [])
+            pubref = pubref if isinstance(pubref, list) else [pubref]
+            date = next((p.get("date", {}).get("$") for p in pubref if p.get("date")), None)
+            tl = bib.get("invention-title", [])
+            tl = tl if isinstance(tl, list) else [tl]
+            title = next((t.get("$") for t in tl if t.get("@lang") == "en"), None)
+            if title:
+                titles.append({"company": company, "country": ed.get("@country"), "doc_number": ed.get("@doc-number"),
+                               "family_id": ed.get("@family-id"),
+                               "pub_date": f"{date[:4]}-{date[4:6]}-{date[6:8]}" if date else None, "title": title})
+    t = pd.DataFrame(titles, columns=["company", "country", "doc_number", "family_id", "pub_date", "title"])
+    t.drop_duplicates(["company", "family_id"]).to_csv(OUT / "patents_recent.csv", index=False)
+    print(f"Patents: {len(quarterly)} company-quarters, {len(t)} recent titles")
+    return quarterly
 
 
 # ---------------------------------------------------------------- California WARN notices

@@ -33,6 +33,8 @@ jobs:
       SEC_CONTACT_EMAIL: ${{ secrets.SEC_CONTACT_EMAIL }}
       EPO_OPS_KEY: ${{ secrets.EPO_OPS_KEY }}
       EPO_OPS_SECRET: ${{ secrets.EPO_OPS_SECRET }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}             # story narrator (free tier); optional
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }} # narrator fallback; optional
     steps:
       - uses: actions/checkout@v4
 
@@ -98,6 +100,10 @@ jobs:
 
       - name: Export dashboard data
         run: python -m src.dashboard.export
+
+      # Evidence rules + LLM-written prose (falls back to template text if no provider answers)
+      - name: Write the story layer
+        run: python -m src.insights.story || echo "::warning::story layer failed; dashboard keeps the previous story"
 
       - name: Commit refreshed data
         run: |
