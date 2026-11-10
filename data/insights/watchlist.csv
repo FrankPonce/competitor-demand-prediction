@@ -1,0 +1,6 @@
+company,city,country,first_seen,postings_so_far,open_now,days_since_signal,context
+Anthropic,Austin,US,2026-08-20,2,1,82,
+Anthropic,Mumbai,IN,2026-08-20,3,2,82,
+Anthropic,Delhi,IN,2026-08-22,1,0,80,
+OpenAI,Melbourne,AU,2026-10-29,1,1,12,
+OpenAI,Amsterdam,NL,2026-11-08,1,1,2,2026-11-13 First OpenAI Executive School Kickoff in Amsterdam (Benelux)

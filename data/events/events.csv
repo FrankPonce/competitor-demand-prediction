@@ -1,0 +1,14 @@
+company,event_date,event_type,city,description,source_name,source_url,date_precision,notes
+Anthropic,2026-02-16,office_opening,Bangalore,First India office opens in Bengaluru,The National,https://www.thenationalnews.com/business/2026/02/16/ai-firm-anthropic-opens-its-first-office-in-india-to-expand-operations/,day,Announced Oct 2025; existing footprint before Epoch history starts
+Anthropic,2026-02-12,funding,,Series G: $30B at $380B valuation,Crunchbase News,https://news.crunchbase.com/ai/anthropic-raises-30b-second-largest-deal-all-time/,month,Exact close date per secondary reporting
+Anthropic,2026-05-21,office_announcement,Milan,Milan office announced (Reuters),Yahoo Finance / Reuters,https://finance.yahoo.com/sectors/technology/articles/anthropic-open-milan-office-expanding-095020601.html,day,
+Anthropic,2026-05-28,office_opening,Milan,Milan office opens (sixth European office),Anthropic,https://www.anthropic.com/news/milan-office-opening,day,
+Anthropic,2026-05-28,funding,,Series H: $65B at $965B post-money valuation,PYMNTS,https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-becomes-worlds-most-valuable-ai-startup-at-965-billion/,day,
+Anthropic,2026-09-15,office_announcement,Singapore,Singapore office plan announced,Computer Weekly,https://www.computerweekly.com/news/366652182/Anthropic-opens-Singapore-office-signs-AI-safety-pact-with-government,month,Announced September 2026 (day not confirmed)
+Anthropic,2026-10-14,office_opening,Singapore,Singapore office opens; MoU with Singapore government,TNGlobal,https://technode.global/2026/10/14/us-based-anthropic-opens-singapore-office-signs-mou-with-the-singapore-government/,day,
+OpenAI,2025-05-22,infrastructure,Abu Dhabi,Stargate UAE announced (1GW cluster; 200MW in 2026),OpenAI,https://openai.com/index/introducing-stargate-uae/,day,
+OpenAI,2025-12-03,office_opening,Sydney,First Australian office opens in Sydney,B&T,https://www.bandt.com.au/openai-opens-first-australian-office/,day,
+OpenAI,2026-06-11,office_announcement,Madrid,First Spanish office announced (opening H2 2026),Euronews,https://euronews.com/business/2026/06/12/openai-backs-spain-opens-madrid-office-to-speed-up-chatgpt-expansion,day,Coverage dated 11-12 June
+OpenAI,2026-06-18,office_announcement,Stockholm,First Nordic office announced (opening H2 2026),Sweden Herald,https://swedenherald.com/article/openai-to-open-its-first-nordic-office-in-stockholm-in-the-second-half-of-2026,day,
+OpenAI,2026-08-14,office_announcement,Berlin,Second German office announced by Sam Altman (Handelsblatt interview),invest-in.berlin,https://invest-in.berlin/n/openai-picks-berlin-for-its-second-german-office/,day,Date per coverage of the interview
+OpenAI,2026-11-13,event,Amsterdam,First OpenAI Executive School Kickoff in Amsterdam (Benelux),EdTech Innovation Hub,https://www.edtechinnovationhub.com/news/openai-to-host-first-executive-school-kickoff-in-amsterdam,day,No Amsterdam office announced as of 2026-11-10

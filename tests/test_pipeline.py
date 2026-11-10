@@ -288,3 +288,22 @@ def test_similarity_helpers():
 def test_colorize_skips_google_cloud_skill():
     out = colorize_markdown("| Google Cloud | Google |")
     assert "🔵 Google Cloud" not in out and "🔵 Google |" in out
+
+
+# ---------------------------------------------------------------- Sprint 9: events + leading indicators
+
+def test_events_are_cited_and_dated():
+    ev = pd.read_csv("data/events/events.csv", parse_dates=["event_date"])
+    assert ev.source_url.str.startswith("https://").all()
+    assert ev.event_date.notna().all()
+    assert set(ev.event_type) <= {"office_opening", "office_announcement", "funding", "infrastructure", "event"}
+
+
+def test_lead_lag_sign_convention():
+    from pathlib import Path
+    f = Path("data/insights/lead_lag.csv")
+    if not f.exists():
+        pytest.skip("not built")
+    ll = pd.read_csv(f, parse_dates=["signal_date", "event_date"])
+    assert ((ll.event_date - ll.signal_date).dt.days == ll.lead_days).all()
+    assert (ll[ll.lead_days > 14].reading == "hiring led").all()

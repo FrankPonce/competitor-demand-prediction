@@ -4,8 +4,8 @@
 
 <br>
 
-![Status](https://img.shields.io/badge/status-Sprint%209%20·%20Insights%20%26%20Reporting-30363d?style=for-the-badge&labelColor=161b22)
-![Progress](https://img.shields.io/badge/sprints-8%20%2F%2012%20done-b95115?style=for-the-badge&labelColor=161b22)
+![Status](https://img.shields.io/badge/status-Sprint%2010%20·%20Automated%20Pipeline-30363d?style=for-the-badge&labelColor=161b22)
+![Progress](https://img.shields.io/badge/sprints-9%20%2F%2012%20done-b95115?style=for-the-badge&labelColor=161b22)
 ![Python](https://img.shields.io/badge/python-3.12-2d6ac1?style=for-the-badge&logo=python&logoColor=white&labelColor=161b22)
 ![Program](https://img.shields.io/badge/CadetX-Virtual%20Work%20Experience-5ea529?style=for-the-badge&labelColor=161b22)
 
@@ -14,6 +14,8 @@
 </div>
 
 ---
+
+> 📄 **Start here: [Hiring Intelligence Report](reports/insights/insight_report.md)**, with the findings, company profiles and a test of whether job postings predict company moves.
 
 ## 🎯 Overview
 
@@ -74,8 +76,8 @@ Click a sprint to see its goal, deliverables, and results.
 | 06 | [**Competitor Comparison**](docs/sprints/sprint-06-competitor-comparison.md) | Dec 14 | Two-lens framework on full/unbiased data; Anthropic = safety + GTM, OpenAI = APIs/platform, NVIDIA = GPU/HPC/robotics stack, Google = Cloud sales + GenAI + management layer; [summary](reports/comparison/summary.md) | ✅ |
 | 07 | [**Demand Forecasting**](docs/sprints/sprint-07-demand-forecasting.md) | Dec 21 | 16 series, 8-week horizon; rolling backtests (up to +32% vs naive); empirical intervals; forecasts **frozen** and scored weekly; [summary](reports/forecast/summary.md) · [scorecard](reports/forecast/scorecard.md) | ✅ |
 | 08 | [**Similarity Scoring**](docs/sprints/sprint-08-similarity-scoring.md) | Dec 28 | Market map of 17 AI companies (+13 peers via public ATS APIs); 5 measures incl. Sentence-BERT; talent-pool overlap; [summary](reports/similarity/summary.md) | ✅ |
-| 09 | [**Insights & Reporting**](docs/sprints/sprint-09-insights-reporting.md) | Jan 4 | Decision-ready findings per company and across the landscape | 🟡 |
-| 10 | [**Automated Pipeline**](docs/sprints/sprint-10-automated-pipeline.md) <sub>optional</sub> | Jan 11 | One scheduled end-to-end pipeline | ⬜ |
+| 09 | [**Insights & Reporting**](docs/sprints/sprint-09-insights-reporting.md) | Jan 4 | **[Hiring Intelligence Report](reports/insights/insight_report.md)**, company cards, leading-indicator test vs 13 cited events (2 led, 2 simultaneous, 2 lagged) + live watchlist | ✅ |
+| 10 | [**Automated Pipeline**](docs/sprints/sprint-10-automated-pipeline.md) <sub>optional</sub> | Jan 11 | One scheduled end-to-end pipeline | 🟡 |
 | 11 | [**Fine-Tuned Skill Model**](docs/sprints/sprint-11-fine-tuning.md) <sub>optional</sub> | Jan 18 | BERT/RoBERTa token classifier vs. rule-based baseline | ⬜ |
 | 12 | [**Final Presentation**](docs/sprints/sprint-12-final-presentation.md) | Jan 25 | Mentor review, final deck, polished repo | ⬜ |
 
@@ -133,7 +135,9 @@ python -m src.forecast.run_forecast         # backtest + 8-week forecasts (+ fre
 python -m src.forecast.report               # forecast charts + summary
 python -m src.forecast.score_frozen         # score frozen forecasts against new actuals
 python -m src.similarity.build_similarity   # 17-company similarity, embeddings, talent pools
-python -m pytest                             # 62 regression tests
+python -m src.insights.leading_indicators   # hiring signals vs cited public events
+python -m src.insights.company_cards        # one-page company cards
+python -m pytest                             # 64 regression tests
 ```
 
 Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
@@ -158,7 +162,8 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 │   ├── trends/               weekly flows · emerging skills · charts
 │   ├── compare/              two-lens competitor comparison
 │   ├── forecast/             series · models · backtest · frozen forecasts · scorer
-│   └── similarity/           5 similarity measures · Sentence-BERT · talent pools
+│   ├── similarity/           5 similarity measures · Sentence-BERT · talent pools
+│   └── insights/             leading indicators vs events · company cards
 ├── data/
 │   ├── raw/                  weekly snapshot CSVs per company (full text)
 │   ├── external/             Epoch AI download (CC BY)
@@ -168,7 +173,9 @@ Snapshots land in `data/raw/<company>/<date>.*`. Merged per-company datasets
 │   ├── comparison/           company profiles · distinctive skills · mixes
 │   ├── history/              Internet Archive counts · long-run series · NVIDIA requisition rate
 │   ├── forecasts/            backtests · latest forecast · frozen/ (never edited) · scorecard
-│   └── similarity/           17×17 matrices · pairs · talent pools · role clusters
+│   ├── similarity/           17×17 matrices · pairs · talent pools · role clusters
+│   ├── events/               cited public events (offices, funding, infrastructure)
+│   └── insights/             lead-lag · watchlist · funding response
 ├── tests/                    regression tests (compliance rules, parsing, skill matching)
 ├── assets/                   banner and visual identity
 ├── notebooks/                exploration & analysis

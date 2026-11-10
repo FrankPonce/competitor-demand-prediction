@@ -39,3 +39,10 @@
 - Five similarity measures (skills, role mix, TF-IDF, Sentence-BERT embeddings, talent-pool overlap) plus a combined score; heatmap, network graph and talent-pool chart.
 - Findings: Anthropic and OpenAI are near-twins (0.99); an "LLM + go-to-market" bloc (Harvey, Perplexity, Cohere, Baseten); NVIDIA and Google sit apart; enterprise AEs are the most contested talent pool; 53% of xAI's postings are data-center build-out.
 - 62 tests passing.
+
+## Update — Sprint 9 done (2026-11-10)
+
+- Researched 13 dated, cited public events (offices, funding, infrastructure) for Anthropic and OpenAI.
+- Leading-indicator test: hiring led in 2 of 6 expansions (Singapore +154 d, Berlin +52 d), was simultaneous in 2 and lagged in 2; Series H funding was followed by +305 open roles in 26 weeks.
+- Live watchlist of 5 unannounced new-city signals; Hiring Intelligence Report with a shared structure and company cards.
+- 64 tests passing.

@@ -1,0 +1,7 @@
+company,city,signal_date,first_event,event_date,lead_days,reading,event,source
+Anthropic,Singapore,2026-04-14,office_announcement,2026-09-15,154,hiring led,Singapore office plan announced,https://www.computerweekly.com/news/366652182/Anthropic-opens-Singapore-office-signs-AI-safety-pact-with-government
+OpenAI,Berlin,2026-06-23,office_announcement,2026-08-14,52,hiring led,Second German office announced by Sam Altman (Handelsblatt interview),https://invest-in.berlin/n/openai-picks-berlin-for-its-second-german-office/
+OpenAI,Stockholm,2026-06-18,office_announcement,2026-06-18,0,simultaneous,First Nordic office announced (opening H2 2026),https://swedenherald.com/article/openai-to-open-its-first-nordic-office-in-stockholm-in-the-second-half-of-2026
+OpenAI,Madrid,2026-06-11,office_announcement,2026-06-11,0,simultaneous,First Spanish office announced (opening H2 2026),https://euronews.com/business/2026/06/12/openai-backs-spain-opens-madrid-office-to-speed-up-chatgpt-expansion
+Anthropic,Milan,2026-08-27,office_announcement,2026-05-21,-98,hiring lagged,Milan office announced (Reuters),https://finance.yahoo.com/sectors/technology/articles/anthropic-open-milan-office-expanding-095020601.html
+OpenAI,Abu Dhabi,2026-05-13,infrastructure,2025-05-22,-356,hiring lagged,Stargate UAE announced (1GW cluster; 200MW in 2026),https://openai.com/index/introducing-stargate-uae/

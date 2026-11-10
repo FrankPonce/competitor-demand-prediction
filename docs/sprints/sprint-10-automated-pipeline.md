@@ -1,6 +1,6 @@
 # Sprint 10 — Automated Pipeline (optional task)
 
-**Week of:** 2027-01-11 · **CadetX optional task** · **Status:** ⬜ Not started
+**Week of:** 2027-01-11 · **CadetX optional task** · **Status:** 🟡 Next up
 
 ## Goal
 
