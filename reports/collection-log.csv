@@ -22,3 +22,5 @@ run_started_utc,company,source,requests,postings_in_snapshot,postings_total_merg
 2026-11-10T11:11:41+00:00,Sierra,ashby_posting_api,1,214,214,214,0,False,
 2026-11-10T11:11:43+00:00,Decagon,ashby_posting_api,1,130,130,130,0,False,
 2026-11-10T11:11:45+00:00,Figure AI,greenhouse_job_board_api,1,103,103,103,0,False,
+2026-11-12T14:59:42+00:00,NVIDIA,nvidia_workday_board,222,2668,2876,2668,0,False,board=2677; listed=2668; new details=77; carried=2591; errors=0
+2026-11-12T15:08:57+00:00,Google,google_careers_results_unpaginated,132,898,1597,898,0,False,"v2: 130 slices; full-flow coverage weekly 126/130, twice-weekly 126/130; board total=3229"

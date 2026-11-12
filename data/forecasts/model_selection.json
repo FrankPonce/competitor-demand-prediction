@@ -29,16 +29,16 @@
   },
   "google_open": {
     "model": "snaive",
-    "mase": 3.244,
-    "naive_mase": 3.974,
-    "skill_vs_naive": 0.184,
-    "mean_bias_h8": 89.7,
+    "mase": 3.127,
+    "naive_mase": 3.824,
+    "skill_vs_naive": 0.182,
+    "mean_bias_h8": 85.0,
     "arima_order": [
       1,
       1,
       0
     ],
-    "n_weeks": 176,
+    "n_weeks": 177,
     "seasonal": true
   },
   "anthropic_open_gtm": {
@@ -211,16 +211,16 @@
   },
   "nvidia_reqs": {
     "model": "ma4",
-    "mase": 0.37,
-    "naive_mase": 0.537,
-    "skill_vs_naive": 0.31,
-    "mean_bias_h8": 2.2,
+    "mase": 0.487,
+    "naive_mase": 0.649,
+    "skill_vs_naive": 0.249,
+    "mean_bias_h8": -3.2,
     "arima_order": [
       0,
       1,
       2
     ],
-    "n_weeks": 30,
+    "n_weeks": 31,
     "seasonal": false
   }
 }

@@ -20,179 +20,403 @@ Anthropic,Sydney,AU,-33.86785,151.20732,13
 Anthropic,Tokyo,JP,35.6895,139.69171,16
 Anthropic,Washington,US,38.89511,-77.03637,60
 Anthropic,Zürich,CH,47.36667,8.55,5
-Google,Addison,US,41.9317,-87.98896,20
-Google,Amsterdam,NL,52.37403,4.88969,4
-Google,Ann Arbor,US,42.27756,-83.74088,9
+Baseten,London,GB,51.50853,-0.12574,6
+Baseten,Montréal,CA,45.50884,-73.58781,23
+Baseten,New York City,US,40.71427,-74.00597,58
+Baseten,San Francisco,US,37.77493,-122.41942,90
+Baseten,Seattle,US,47.60621,-122.33207,23
+Baseten,Toronto,CA,43.70643,-79.39864,23
+Cohere,Abu Dhabi,AE,24.45118,54.39696,3
+Cohere,Apac,UG,1.97556,32.53861,1
+Cohere,Austin,US,30.26715,-97.74306,4
+Cohere,Berlin,DE,52.52437,13.41053,8
+Cohere,Boston,US,42.35843,-71.05977,4
+Cohere,Brussels,BE,50.85045,4.34878,1
+Cohere,Calgary,CA,51.05011,-114.08529,7
+Cohere,Chicago,US,41.85003,-87.65005,1
+Cohere,Dallas,US,32.78306,-96.80667,1
+Cohere,Denver,US,39.73915,-104.9847,2
+Cohere,Dubai,AE,25.07725,55.30927,6
+Cohere,Edinburgh,GB,55.95206,-3.19648,2
+Cohere,Edmonton,CA,53.55014,-113.46871,3
+Cohere,Frankfurt am Main,DE,50.11552,8.68417,1
+Cohere,Halifax,CA,44.64269,-63.57688,4
+Cohere,Hong Kong,HK,22.27832,114.17469,2
+Cohere,Houston,US,29.76328,-95.36327,1
+Cohere,London,GB,51.50853,-0.12574,36
+Cohere,Los Angeles,US,34.05223,-118.24368,1
+Cohere,Miami,US,25.77427,-80.19366,1
+Cohere,Montréal,CA,45.50884,-73.58781,40
+Cohere,Munich,DE,48.13743,11.57549,1
+Cohere,Nashville,US,36.16589,-86.78444,1
+Cohere,New York City,US,40.71427,-74.00597,51
+Cohere,Ottawa,CA,45.41117,-75.69812,44
+Cohere,Paris,FR,48.85341,2.3488,14
+Cohere,Phoenix,US,33.44838,-112.07404,3
+Cohere,Richmond,US,37.55376,-77.46026,2
+Cohere,Riyadh,SA,24.68773,46.72185,4
+Cohere,San Antonio,US,29.42412,-98.49363,1
+Cohere,San Francisco,US,37.77493,-122.41942,31
+Cohere,Seattle,US,47.60621,-122.33207,11
+Cohere,Seoul,KR,37.566,126.9784,4
+Cohere,Singapore,SG,1.28967,103.85007,3
+Cohere,Stockholm,SE,59.32938,18.06871,2
+Cohere,Tokyo,JP,35.6895,139.69171,4
+Cohere,Toronto,CA,43.70643,-79.39864,69
+Cohere,Vancouver,CA,49.24966,-123.11934,11
+Cohere,Washington,US,38.89511,-77.03637,36
+Cohere,Winnipeg,CA,49.8844,-97.14704,3
+Cursor,Austin,US,30.26715,-97.74306,6
+Cursor,Bengaluru,IN,12.97194,77.59369,4
+Cursor,Berlin,DE,52.52437,13.41053,1
+Cursor,Canberra,AU,-35.28346,149.12807,9
+Cursor,Chicago,US,41.85003,-87.65005,1
+Cursor,Delhi,IN,28.65195,77.23149,5
+Cursor,Jakarta,ID,-6.21462,106.84513,1
+Cursor,London,GB,51.50853,-0.12574,3
+Cursor,Los Angeles,US,34.05223,-118.24368,1
+Cursor,Manila,PH,14.6042,120.9822,1
+Cursor,Mumbai,IN,19.07283,72.88261,5
+Cursor,New York City,US,40.71427,-74.00597,40
+Cursor,Palo Alto,US,37.44188,-122.14302,9
+Cursor,San Francisco,US,37.77493,-122.41942,46
+Cursor,Seattle,US,47.60621,-122.33207,1
+Cursor,Seoul,KR,37.566,126.9784,2
+Cursor,Singapore,SG,1.28967,103.85007,12
+Cursor,Tokyo,JP,35.6895,139.69171,8
+Cursor,Washington,US,38.89511,-77.03637,2
+Databricks,Abu Dhabi,AE,24.45118,54.39696,1
+Databricks,Amsterdam,NL,52.37403,4.88969,33
+Databricks,Arizona,HN,15.63333,-87.31667,1
+Databricks,Auckland,NZ,-36.84853,174.76349,3
+Databricks,Austin,US,30.26715,-97.74306,7
+Databricks,Beijing,CN,39.9075,116.39723,2
+Databricks,Belgrade,RS,44.80401,20.46513,16
+Databricks,Bellevue,US,47.61038,-122.20068,39
+Databricks,Bengaluru,IN,12.97194,77.59369,80
+Databricks,Berkeley,US,37.87159,-122.27275,1
+Databricks,Berlin,DE,52.52437,13.41053,15
+Databricks,Bern,CH,46.94809,7.44744,1
+Databricks,Boston,US,42.35843,-71.05977,10
+Databricks,Brasília,BR,-15.77972,-47.92972,2
+Databricks,Brisbane,AU,-27.46794,153.02809,1
+Databricks,Brussels,BE,50.85045,4.34878,1
+Databricks,Calgary,CA,51.05011,-114.08529,4
+Databricks,Canberra,AU,-35.28346,149.12807,6
+Databricks,Charlotte,US,35.22709,-80.84313,2
+Databricks,Chicago,US,41.85003,-87.65005,23
+Databricks,Columbus,US,39.96118,-82.99879,1
+Databricks,Dallas,US,32.78306,-96.80667,8
+Databricks,Delaware,US,40.29867,-83.06797,2
+Databricks,Delhi,IN,28.65195,77.23149,3
+Databricks,Denver,US,39.73915,-104.9847,11
+Databricks,Dublin,IE,53.33306,-6.24889,2
+Databricks,Floridablanca,CO,7.06222,-73.08644,3
+Databricks,Helsinki,FI,60.16952,24.93545,4
+Databricks,Heredia,CR,9.99872,-84.11587,1
+Databricks,Herzliya,IL,32.16627,34.82536,2
+Databricks,Houston,US,29.76328,-95.36327,1
+Databricks,Jerusalem,IL,31.76904,35.21633,2
+Databricks,Kansas City,US,39.09973,-94.57857,1
+Databricks,London,GB,51.50853,-0.12574,52
+Databricks,Los Angeles,US,34.05223,-118.24368,3
+Databricks,Madrid,ES,40.4165,-3.70256,4
+Databricks,Maryland City,US,39.09205,-76.81775,10
+Databricks,McLean,US,38.93428,-77.17748,6
+Databricks,Melbourne,AU,-37.814,144.96332,6
+Databricks,Mexico City,MX,19.42847,-99.12766,1
+Databricks,Milan,IT,45.46427,9.18951,5
+Databricks,Montréal,CA,45.50884,-73.58781,2
+Databricks,Mountain View,US,37.38605,-122.08385,96
+Databricks,Mumbai,IN,19.07283,72.88261,9
+Databricks,Munich,DE,48.13743,11.57549,20
+Databricks,Nanuque,BR,-17.83917,-40.35389,1
+Databricks,New York City,US,40.71427,-74.00597,37
+Databricks,Oklahoma City,US,35.46756,-97.51643,1
+Databricks,Ottawa,CA,45.41117,-75.69812,5
+Databricks,Paris,FR,48.85341,2.3488,20
+Databricks,Philadelphia,US,39.95238,-75.16362,5
+Databricks,Phoenix,US,33.44838,-112.07404,2
+Databricks,Plano,US,33.01984,-96.69889,3
+Databricks,Portland,US,45.52345,-122.67621,1
+Databricks,Raleigh,US,35.7721,-78.63861,1
+Databricks,San Diego,US,32.71571,-117.16472,2
+Databricks,San Francisco,US,37.77493,-122.41942,136
+Databricks,San José,CR,9.93388,-84.08489,3
+Databricks,Seattle,US,47.60621,-122.33207,52
+Databricks,Seoul,KR,37.566,126.9784,18
+Databricks,Singapore,SG,1.28967,103.85007,36
+Databricks,St. Louis,US,38.62727,-90.19789,1
+Databricks,Stockholm,SE,59.32938,18.06871,14
+Databricks,Sydney,AU,-33.86785,151.20732,12
+Databricks,São Paulo,BR,-23.5475,-46.63611,7
+Databricks,Tbilisi,GE,41.69143,44.83412,14
+Databricks,Tokyo,JP,35.6895,139.69171,32
+Databricks,Toronto,CA,43.70643,-79.39864,12
+Databricks,Vancouver,CA,49.24966,-123.11934,10
+Databricks,Virginia,ZA,-28.10391,26.86593,12
+Databricks,Washington,US,38.89511,-77.03637,108
+Databricks,Zürich,CH,47.36667,8.55,11
+Databricks,Århus,DK,56.15674,10.21076,6
+Decagon,Amsterdam,NL,52.37403,4.88969,2
+Decagon,Atlanta,US,33.749,-84.38798,1
+Decagon,Austin,US,30.26715,-97.74306,2
+Decagon,Berlin,DE,52.52437,13.41053,2
+Decagon,Bern,CH,46.94809,7.44744,2
+Decagon,Boston,US,42.35843,-71.05977,1
+Decagon,Brasília,BR,-15.77972,-47.92972,1
+Decagon,Canberra,AU,-35.28346,149.12807,7
+Decagon,Dallas,US,32.78306,-96.80667,1
+Decagon,London,GB,51.50853,-0.12574,14
+Decagon,Mexico City,MX,19.42847,-99.12766,1
+Decagon,New York City,US,40.71427,-74.00597,48
+Decagon,Paris,FR,48.85341,2.3488,1
+Decagon,San Francisco,US,37.77493,-122.41942,71
+Decagon,Toronto,CA,43.70643,-79.39864,5
+Decagon,Vienna,AT,48.20849,16.37208,2
+Decagon,Washington,US,38.89511,-77.03637,1
+ElevenLabs,Abu Dhabi,AE,24.45118,54.39696,5
+ElevenLabs,Amsterdam,NL,52.37403,4.88969,5
+ElevenLabs,Ankara,TR,39.91987,32.85427,1
+ElevenLabs,Berlin,DE,52.52437,13.41053,11
+ElevenLabs,Bern,CH,46.94809,7.44744,3
+ElevenLabs,Bogotá,CO,4.60971,-74.08175,2
+ElevenLabs,Boston,US,42.35843,-71.05977,6
+ElevenLabs,Brasília,BR,-15.77972,-47.92972,8
+ElevenLabs,Brussels,BE,50.85045,4.34878,3
+ElevenLabs,Budapest,HU,47.49835,19.04045,5
+ElevenLabs,Buenos Aires,AR,-34.61315,-58.37723,5
+ElevenLabs,Canberra,AU,-35.28346,149.12807,3
+ElevenLabs,Copenhagen,DK,55.67594,12.56553,5
+ElevenLabs,Delhi,IN,28.65195,77.23149,8
+ElevenLabs,Dublin,IE,53.33306,-6.24889,14
+ElevenLabs,Lisbon,PT,38.72509,-9.1498,7
+ElevenLabs,London,GB,51.50853,-0.12574,46
+ElevenLabs,Los Angeles,US,34.05223,-118.24368,3
+ElevenLabs,Madrid,ES,40.4165,-3.70256,12
+ElevenLabs,Mexico City,MX,19.42847,-99.12766,8
+ElevenLabs,New York City,US,40.71427,-74.00597,35
+ElevenLabs,Paris,FR,48.85341,2.3488,12
+ElevenLabs,Prague,CZ,50.08804,14.42076,1
+ElevenLabs,Riyadh,SA,24.68773,46.72185,4
+ElevenLabs,Rome,IT,41.89193,12.51133,3
+ElevenLabs,San Francisco,US,37.77493,-122.41942,17
+ElevenLabs,Santiago,CL,-33.45694,-70.64827,3
+ElevenLabs,Seoul,KR,37.566,126.9784,2
+ElevenLabs,Singapore,SG,1.28967,103.85007,5
+ElevenLabs,Sofia,BG,42.69751,23.32415,10
+ElevenLabs,Stockholm,SE,59.32938,18.06871,10
+ElevenLabs,Taipei,TW,25.05306,121.52639,1
+ElevenLabs,Tokyo,JP,35.6895,139.69171,3
+ElevenLabs,Warsaw,PL,52.22977,21.01178,33
+ElevenLabs,Washington,US,38.89511,-77.03637,42
+ElevenLabs,Wellington,NZ,-41.28664,174.77557,1
+ElevenLabs,Zagreb,HR,45.81444,15.97798,3
+ElevenLabs,Zürich,CH,47.36667,8.55,1
+Figure AI,Asia,PH,9.5506,122.5164,1
+Figure AI,Brasília,BR,-15.77972,-47.92972,1
+Figure AI,Fontana,US,34.09223,-117.43505,2
+Figure AI,Los Angeles,US,34.05223,-118.24368,1
+Figure AI,Mexico City,MX,19.42847,-99.12766,5
+Figure AI,Reno,US,39.52963,-119.8138,1
+Figure AI,San Jose,US,37.33939,-121.89496,79
+Figure AI,Santa Clara,US,37.35411,-121.95524,6
+Figure AI,São Paulo,BR,-23.5475,-46.63611,7
+Google,Abu Dhabi,AE,24.45118,54.39696,1
+Google,Addison,US,41.9317,-87.98896,23
+Google,Amsterdam,NL,52.37403,4.88969,3
+Google,Ann Arbor,US,42.27756,-83.74088,12
 Google,Atlanta,US,33.749,-84.38798,66
-Google,Austin,US,30.26715,-97.74306,71
-Google,Bangkok,TH,13.75398,100.50144,1
+Google,Austin,US,30.26715,-97.74306,69
+Google,Bangkok,TH,13.75398,100.50144,2
 Google,Bellevue,US,47.61038,-122.20068,4
-Google,Belo Horizonte,BR,-19.92083,-43.93778,6
-Google,Beloit,US,42.50835,-89.03178,3
+Google,Belo Horizonte,BR,-19.92083,-43.93778,7
+Google,Beloit,US,42.50835,-89.03178,6
 Google,Bengaluru,IN,12.97194,77.59369,58
 Google,Berlin,DE,52.52437,13.41053,11
 Google,Bogotá,CO,4.60971,-74.08175,1
-Google,Boulder,US,40.01499,-105.27055,33
-Google,Bridgeport,US,41.17923,-73.18945,3
-Google,Brussels,BE,50.85045,4.34878,1
+Google,Boulder,US,40.01499,-105.27055,37
+Google,Brasília,BR,-15.77972,-47.92972,1
+Google,Bridgeport,US,41.17923,-73.18945,7
 Google,Buenos Aires,AR,-34.61315,-58.37723,3
 Google,Calgary,CA,51.05011,-114.08529,1
 Google,Cambridge,US,42.3751,-71.10561,39
 Google,Canberra,AU,-35.28346,149.12807,37
 Google,Cedar Rapids,US,42.00833,-91.64407,1
 Google,Chang-hua,TW,24.07327,120.56276,1
-Google,Chicago,US,41.85003,-87.65005,64
+Google,Chicago,US,41.85003,-87.65005,59
 Google,Clarksville,US,36.52977,-87.35945,1
-Google,Columbus,US,39.96118,-82.99879,1
-Google,Council Bluffs,US,41.26194,-95.86083,5
-Google,Dallas,US,32.78306,-96.80667,1
+Google,Columbus,US,39.96118,-82.99879,3
+Google,Council Bluffs,US,41.26194,-95.86083,8
+Google,Dallas,US,32.78306,-96.80667,3
 Google,Delaware,US,40.29867,-83.06797,1
 Google,Delhi,IN,28.65195,77.23149,2
 Google,Des Plaines,US,42.03336,-87.8834,1
-Google,Detroit,US,42.33143,-83.04575,3
-Google,Dublin,IE,53.33306,-6.24889,53
-Google,Durham,US,35.99403,-78.89862,7
+Google,Detroit,US,42.33143,-83.04575,4
+Google,Dublin,IE,53.33306,-6.24889,52
+Google,Durham,US,35.99403,-78.89862,8
 Google,Evanston,US,42.04114,-87.69006,1
-Google,Fort Wayne,US,41.1306,-85.12886,1
+Google,Fort Wayne,US,41.1306,-85.12886,2
 Google,Frankfurt am Main,DE,50.11552,8.68417,12
-Google,Goleta,US,34.43583,-119.82764,6
-Google,Gurugram,IN,28.4601,77.02635,13
-Google,Haifa,IL,32.81303,34.99928,31
-Google,Hamburg,DE,53.55073,9.99302,9
-Google,Helsinki,FI,60.16952,24.93545,1
-Google,Henderson,US,36.0397,-114.98194,1
-Google,Hong Kong,HK,22.27832,114.17469,1
-Google,Houston,US,29.76328,-95.36327,8
+Google,Goleta,US,34.43583,-119.82764,10
+Google,Gurugram,IN,28.4601,77.02635,17
+Google,Haifa,IL,32.81303,34.99928,32
+Google,Hamburg,DE,53.55073,9.99302,8
+Google,Henderson,US,36.0397,-114.98194,5
+Google,Ho Chi Minh City,VN,10.82302,106.62965,1
+Google,Houston,US,29.76328,-95.36327,11
+Google,Hutto,US,30.5427,-97.54667,1
 Google,Hyderabad,IN,17.38405,78.45636,41
-Google,Irvine,US,33.66946,-117.82311,10
+Google,Irvine,US,33.66946,-117.82311,12
 Google,Jakarta,ID,-6.21462,106.84513,1
-Google,Kansas City,US,39.09973,-94.57857,3
+Google,Kansas City,US,39.09973,-94.57857,7
 Google,Karachi,PK,24.8608,67.0104,1
-Google,Kirkland,US,47.68149,-122.20874,49
+Google,Kirkland,US,47.68149,-122.20874,48
 Google,Kraków,PL,50.06143,19.93658,3
-Google,Lancaster,US,34.69804,-118.13674,2
-Google,Leesburg,US,39.11566,-77.5636,3
-Google,Lenoir,US,35.91402,-81.53898,2
-Google,Lincoln,US,40.8,-96.66696,1
+Google,Lancaster,US,34.69804,-118.13674,6
+Google,Leesburg,US,39.11566,-77.5636,4
+Google,Lenoir,US,35.91402,-81.53898,5
+Google,Lincoln,US,40.8,-96.66696,2
 Google,Lithia Springs,US,33.794,-84.66049,1
-Google,London,GB,51.50853,-0.12574,53
-Google,Los Angeles,US,34.05223,-118.24368,46
-Google,Madison,US,43.07305,-89.40123,10
-Google,Madrid,ES,40.4165,-3.70256,2
+Google,London,GB,51.50853,-0.12574,52
+Google,Los Angeles,US,34.05223,-118.24368,48
+Google,Madison,US,43.07305,-89.40123,11
+Google,Madrid,ES,40.4165,-3.70256,1
 Google,Manchester,GB,53.48095,-2.23743,2
 Google,Maryland City,US,39.09205,-76.81775,1
-Google,Mesa,US,33.42227,-111.82264,3
-Google,Mexico City,MX,19.42847,-99.12766,4
-Google,Miami,US,25.77427,-80.19366,6
-Google,Midlothian,US,32.48236,-96.99445,5
+Google,Mesa,US,33.42227,-111.82264,6
+Google,Mexico City,MX,19.42847,-99.12766,5
+Google,Miami,US,25.77427,-80.19366,9
+Google,Midlothian,US,32.48236,-96.99445,7
 Google,Montréal,CA,45.50884,-73.58781,3
-Google,Mountain View,US,37.38605,-122.08385,62
+Google,Mountain View,US,37.38605,-122.08385,63
 Google,Mumbai,IN,19.07283,72.88261,7
-Google,Munich,DE,48.13743,11.57549,28
+Google,Munich,DE,48.13743,11.57549,27
 Google,New Britain,US,41.66121,-72.77954,1
 Google,New Brunswick,US,40.48622,-74.45182,1
-Google,New Taipei City,TW,25.06199,121.45703,1
-Google,New York City,US,40.71427,-74.00597,131
-Google,Omaha,US,41.25626,-95.94043,1
+Google,New Taipei City,TW,25.06199,121.45703,2
+Google,New York City,US,40.71427,-74.00597,115
+Google,Omaha,US,41.25626,-95.94043,2
 Google,Ontario,US,34.06334,-117.65089,2
 Google,Ottawa,CA,45.41117,-75.69812,2
-Google,Palo Alto,US,37.44188,-122.14302,6
+Google,Palo Alto,US,37.44188,-122.14302,7
 Google,Papillion,US,41.15444,-96.04224,3
-Google,Paris,FR,48.85341,2.3488,27
-Google,Pittsburgh,US,40.44062,-79.99589,16
+Google,Paris,FR,48.85341,2.3488,24
+Google,Pittsburgh,US,40.44062,-79.99589,17
 Google,Portland,US,45.52345,-122.67621,8
-Google,Poughkeepsie,US,41.70037,-73.92097,3
-Google,Princeton,US,25.53844,-80.40894,1
-Google,Pune,IN,18.51957,73.85535,2
-Google,Raleigh,US,35.7721,-78.63861,7
+Google,Poughkeepsie,US,41.70037,-73.92097,4
+Google,Princeton,US,25.53844,-80.40894,2
+Google,Pune,IN,18.51957,73.85535,1
+Google,Raleigh,US,35.7721,-78.63861,8
 Google,Redmond,US,47.67399,-122.12151,5
 Google,Redwood City,US,37.48522,-122.23635,4
-Google,Reno,US,39.52963,-119.8138,1
-Google,Reston,US,38.96872,-77.3411,30
-Google,Rome,IT,41.89193,12.51133,1
-Google,Saint George,US,37.10415,-113.58412,1
-Google,San Bruno,US,37.63049,-122.41108,19
-Google,San Diego,US,32.71571,-117.16472,5
-Google,San Francisco,US,37.77493,-122.41942,77
-Google,San Jose,US,37.33939,-121.89496,12
+Google,Reno,US,39.52963,-119.8138,3
+Google,Reston,US,38.96872,-77.3411,32
+Google,Saint George,US,37.10415,-113.58412,2
+Google,San Bruno,US,37.63049,-122.41108,23
+Google,San Diego,US,32.71571,-117.16472,4
+Google,San Francisco,US,37.77493,-122.41942,68
+Google,San Jose,US,37.33939,-121.89496,15
 Google,San Salvador,SV,13.68935,-89.18718,1
 Google,Santa Cruz,US,36.97412,-122.0308,4
 Google,Santiago,CL,-33.45694,-70.64827,1
-Google,Seattle,US,47.60621,-122.33207,46
-Google,Singapore,SG,1.28967,103.85007,67
+Google,Seattle,US,47.60621,-122.33207,49
+Google,Singapore,SG,1.28967,103.85007,69
 Google,Singānallūr,IN,10.99898,77.03238,1
 Google,South San Francisco,US,37.65466,-122.40775,3
-Google,Sparks,US,39.53491,-119.75269,1
-Google,Sterling,US,39.00622,-77.4286,5
-Google,Stockholm,SE,59.32938,18.06871,3
+Google,Sparks,US,39.53491,-119.75269,5
+Google,Sterling,US,39.00622,-77.4286,9
+Google,Stockholm,SE,59.32938,18.06871,1
 Google,Sungai Buloh,MY,3.21,101.561,1
-Google,Sunnyside,US,40.73982,-73.93542,1
-Google,Sunnyvale,US,37.36883,-122.03635,88
-Google,São Paulo,BR,-23.5475,-46.63611,41
+Google,Sunnyvale,US,37.36883,-122.03635,86
+Google,São Paulo,BR,-23.5475,-46.63611,39
 Google,Taguig,PH,14.5243,121.0792,1
-Google,Taipei,TW,25.05306,121.52639,31
+Google,Taipei,TW,25.05306,121.52639,32
 Google,Tel Aviv,IL,32.08088,34.78057,41
-Google,The Dalles,US,45.59456,-121.17868,2
-Google,Thornton,US,39.86804,-104.97192,18
-Google,Tokyo,JP,35.6895,139.69171,48
-Google,Toronto,CA,43.70643,-79.39864,23
+Google,The Dalles,US,45.59456,-121.17868,3
+Google,Thornton,US,39.86804,-104.97192,17
+Google,Tokyo,JP,35.6895,139.69171,50
+Google,Toronto,CA,43.70643,-79.39864,20
 Google,Vancouver,CA,49.24966,-123.11934,1
-Google,Warsaw,PL,52.22977,21.01178,38
-Google,Washington,US,38.89511,-77.03637,44
-Google,Waterloo,CA,43.4668,-80.51639,18
-Google,Wrocław,PL,51.10286,17.03006,6
+Google,Warsaw,PL,52.22977,21.01178,37
+Google,Washington,US,38.89511,-77.03637,48
+Google,Waterloo,CA,43.4668,-80.51639,16
+Google,West Memphis,US,35.14648,-90.18454,1
+Google,Wichita Falls,US,33.91371,-98.49339,1
+Google,Wrocław,PL,51.10286,17.03006,7
 Google,Zhubei,TW,24.83833,121.00778,1
-Google,Zürich,CH,47.36667,8.55,35
-NVIDIA,Austin,US,30.26715,-97.74306,24
+Google,Zürich,CH,47.36667,8.55,37
+Harvey,Bengaluru,IN,12.97194,77.59369,9
+Harvey,Berlin,DE,52.52437,13.41053,3
+Harvey,Boston,US,42.35843,-71.05977,9
+Harvey,Chicago,US,41.85003,-87.65005,17
+Harvey,Dallas,US,32.78306,-96.80667,10
+Harvey,Dublin,IE,53.33306,-6.24889,21
+Harvey,London,GB,51.50853,-0.12574,30
+Harvey,Madrid,ES,40.4165,-3.70256,3
+Harvey,Mexico City,MX,19.42847,-99.12766,4
+Harvey,Milan,IT,45.46427,9.18951,3
+Harvey,Munich,DE,48.13743,11.57549,13
+Harvey,New York City,US,40.71427,-74.00597,101
+Harvey,Paris,FR,48.85341,2.3488,6
+Harvey,Québec,CA,46.81228,-71.21454,1
+Harvey,San Francisco,US,37.77493,-122.41942,119
+Harvey,Seoul,KR,37.566,126.9784,2
+Harvey,Singapore,SG,1.28967,103.85007,3
+Harvey,Stockholm,SE,59.32938,18.06871,2
+Harvey,Sydney,AU,-33.86785,151.20732,14
+Harvey,Tokyo,JP,35.6895,139.69171,1
+Harvey,Toronto,CA,43.70643,-79.39864,12
+Harvey,Washington,US,38.89511,-77.03637,4
+NVIDIA,Austin,US,30.26715,-97.74306,21
 NVIDIA,Beersheba,IL,31.25181,34.7913,5
 NVIDIA,Beijing,CN,39.9075,116.39723,41
-NVIDIA,Belfast,GB,54.59682,-5.92541,1
-NVIDIA,Bengaluru,IN,12.97194,77.59369,180
+NVIDIA,Bengaluru,IN,12.97194,77.59369,174
 NVIDIA,Berlin,DE,52.52437,13.41053,1
-NVIDIA,Bristol,GB,51.45523,-2.59665,2
+NVIDIA,Bristol,GB,51.45523,-2.59665,1
 NVIDIA,Budapest,HU,47.49835,19.04045,1
 NVIDIA,Cambridge,GB,52.2,0.11667,2
 NVIDIA,Champaign,US,40.11642,-88.24338,1
-NVIDIA,Courbevoie,FR,48.89672,2.25666,2
+NVIDIA,Courbevoie,FR,48.89672,2.25666,3
 NVIDIA,Dubai,AE,25.07725,55.30927,2
-NVIDIA,Durham,US,35.99403,-78.89862,11
+NVIDIA,Durham,US,35.99403,-78.89862,8
 NVIDIA,Gothenburg,SE,57.70716,11.96679,2
 NVIDIA,Gurugram,IN,28.4601,77.02635,6
 NVIDIA,Hanoi,VN,21.0245,105.84117,8
-NVIDIA,Helsinki,FI,60.16952,24.93545,1
+NVIDIA,Helsinki,FI,60.16952,24.93545,2
 NVIDIA,Herndon,US,38.96955,-77.3861,1
 NVIDIA,Hillsboro,US,45.52289,-122.98983,8
 NVIDIA,Ho Chi Minh City,VN,10.82302,106.62965,3
-NVIDIA,Hong Kong,HK,22.27832,114.17469,3
-NVIDIA,Hsinchu,TW,24.80361,120.96861,62
+NVIDIA,Hong Kong,HK,22.27832,114.17469,2
+NVIDIA,Hsinchu,TW,24.80361,120.96861,61
 NVIDIA,Hyderabad,IN,17.38405,78.45636,8
-NVIDIA,Jerusalem,IL,31.76904,35.21633,235
+NVIDIA,Jerusalem,IL,31.76904,35.21633,234
 NVIDIA,Kyiv,UA,50.45466,30.5238,6
-NVIDIA,Mumbai,IN,19.07283,72.88261,5
-NVIDIA,Munich,DE,48.13743,11.57549,16
+NVIDIA,Mumbai,IN,19.07283,72.88261,4
+NVIDIA,Munich,DE,48.13743,11.57549,13
 NVIDIA,New York City,US,40.71427,-74.00597,3
 NVIDIA,Palestine,US,31.76212,-95.63079,2
 NVIDIA,Pune,IN,18.51957,73.85535,46
-NVIDIA,Ra'anana,IL,32.1836,34.87386,44
+NVIDIA,Ra'anana,IL,32.1836,34.87386,41
 NVIDIA,Reading,GB,51.45625,-0.97113,3
-NVIDIA,Redmond,US,47.67399,-122.12151,14
+NVIDIA,Redmond,US,47.67399,-122.12151,15
 NVIDIA,Roskilde,DK,55.64152,12.08035,4
-NVIDIA,Santa Clara,US,37.35411,-121.95524,1309
-NVIDIA,Seattle,US,47.60621,-122.33207,13
-NVIDIA,Seoul,KR,37.566,126.9784,13
-NVIDIA,Shanghai,CN,31.22222,121.45806,183
+NVIDIA,Santa Clara,US,37.35411,-121.95524,1232
+NVIDIA,Seattle,US,47.60621,-122.33207,8
+NVIDIA,Seoul,KR,37.566,126.9784,14
+NVIDIA,Shanghai,CN,31.22222,121.45806,174
 NVIDIA,Shenzhen,CN,22.54554,114.0683,21
 NVIDIA,Singapore,SG,1.28967,103.85007,22
 NVIDIA,São Paulo,BR,-23.5475,-46.63611,1
-NVIDIA,Taipei,TW,25.05306,121.52639,81
-NVIDIA,Tel Aviv,IL,32.08088,34.78057,126
-NVIDIA,Tokyo,JP,35.6895,139.69171,22
-NVIDIA,Toronto,CA,43.70643,-79.39864,12
-NVIDIA,Warsaw,PL,52.22977,21.01178,8
+NVIDIA,Taipei,TW,25.05306,121.52639,80
+NVIDIA,Tel Aviv,IL,32.08088,34.78057,119
+NVIDIA,Tokyo,JP,35.6895,139.69171,23
+NVIDIA,Toronto,CA,43.70643,-79.39864,11
+NVIDIA,Warsaw,PL,52.22977,21.01178,9
 NVIDIA,Washington,US,38.89511,-77.03637,1
 NVIDIA,Westford,US,42.57926,-71.43784,15
 NVIDIA,Yerevan,AM,40.17765,44.5126,3
-NVIDIA,Zürich,CH,47.36667,8.55,15
+NVIDIA,Zürich,CH,47.36667,8.55,16
 OpenAI,Abu Dhabi,AE,24.45118,54.39696,3
 OpenAI,Amsterdam,NL,52.37403,4.88969,1
 OpenAI,Berlin,DE,52.52437,13.41053,2
@@ -216,3 +440,69 @@ OpenAI,São Paulo,BR,-23.5475,-46.63611,8
 OpenAI,Tokyo,JP,35.6895,139.69171,30
 OpenAI,Washington,US,38.89511,-77.03637,32
 OpenAI,Zürich,CH,47.36667,8.55,3
+Perplexity,Austin,US,30.26715,-97.74306,7
+Perplexity,Belgrade,RS,44.80401,20.46513,17
+Perplexity,Berlin,DE,52.52437,13.41053,14
+Perplexity,London,GB,51.50853,-0.12574,24
+Perplexity,New York City,US,40.71427,-74.00597,75
+Perplexity,Palo Alto,US,37.44188,-122.14302,14
+Perplexity,San Francisco,US,37.77493,-122.41942,115
+Perplexity,Seattle,US,47.60621,-122.33207,9
+Perplexity,Toronto,CA,43.70643,-79.39864,4
+Perplexity,Washington,US,38.89511,-77.03637,4
+Scale AI,Austin,US,30.26715,-97.74306,2
+Scale AI,Colorado Springs,US,38.83388,-104.82136,4
+Scale AI,Delhi,IN,28.65195,77.23149,1
+Scale AI,Denver,US,39.73915,-104.9847,3
+Scale AI,Doha,QA,25.28545,51.53096,7
+Scale AI,Dubai,AE,25.07725,55.30927,2
+Scale AI,Honolulu,US,21.30694,-157.85833,6
+Scale AI,Kuwait City,KW,29.367,47.97429,6
+Scale AI,London,GB,51.50853,-0.12574,26
+Scale AI,Los Angeles,US,34.05223,-118.24368,1
+Scale AI,Mexico City,MX,19.42847,-99.12766,3
+Scale AI,Miami,US,25.77427,-80.19366,1
+Scale AI,New York City,US,40.71427,-74.00597,60
+Scale AI,Omaha,US,41.25626,-95.94043,4
+Scale AI,Ottawa,CA,45.41117,-75.69812,4
+Scale AI,Riyadh,SA,24.68773,46.72185,4
+Scale AI,San Francisco,US,37.77493,-122.41942,76
+Scale AI,Seattle,US,47.60621,-122.33207,7
+Scale AI,St. Louis,US,38.62727,-90.19789,6
+Scale AI,Washington,US,38.89511,-77.03637,45
+Sierra,Amsterdam,NL,52.37403,4.88969,1
+Sierra,Atlanta,US,33.749,-84.38798,36
+Sierra,London,GB,51.50853,-0.12574,36
+Sierra,Madrid,ES,40.4165,-3.70256,4
+Sierra,Munich,DE,48.13743,11.57549,4
+Sierra,New York City,US,40.71427,-74.00597,72
+Sierra,Paris,FR,48.85341,2.3488,3
+Sierra,San Francisco,US,37.77493,-122.41942,119
+Sierra,Seoul,KR,37.566,126.9784,5
+Sierra,Singapore,SG,1.28967,103.85007,9
+Sierra,Sydney,AU,-33.86785,151.20732,3
+Sierra,Tokyo,JP,35.6895,139.69171,5
+Sierra,Toronto,CA,43.70643,-79.39864,19
+Sierra,Washington,US,38.89511,-77.03637,6
+Together AI,Amsterdam,NL,52.37403,4.88969,9
+Together AI,Bengaluru,IN,12.97194,77.59369,1
+Together AI,Delhi,IN,28.65195,77.23149,4
+Together AI,London,GB,51.50853,-0.12574,3
+Together AI,New York City,US,40.71427,-74.00597,1
+Together AI,San Francisco,US,37.77493,-122.41942,54
+Together AI,Singapore,SG,1.28967,103.85007,1
+xAI,Austin,US,30.26715,-97.74306,20
+xAI,Dubai,AE,25.07725,55.30927,1
+xAI,Dublin,IE,53.33306,-6.24889,5
+xAI,Hillsboro,US,45.52289,-122.98983,1
+xAI,London,GB,51.50853,-0.12574,8
+xAI,Los Angeles,US,34.05223,-118.24368,5
+xAI,Memphis,US,35.14953,-90.04898,166
+xAI,New York City,US,40.71427,-74.00597,32
+xAI,Palo Alto,US,37.44188,-122.14302,84
+xAI,San Francisco,US,37.77493,-122.41942,5
+xAI,Seattle,US,47.60621,-122.33207,10
+xAI,Singapore,SG,1.28967,103.85007,6
+xAI,Southaven,US,34.98898,-90.01259,130
+xAI,Tokyo,JP,35.6895,139.69171,3
+xAI,Washington,US,38.89511,-77.03637,19
