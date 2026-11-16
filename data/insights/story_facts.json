@@ -6,44 +6,44 @@
    "unit": "open roles",
    "size": {
     "metric": "Anthropic open roles",
-    "week": "2026-11-02",
-    "value": 673.0
+    "week": "2026-11-09",
+    "value": 676.0
    },
-   "postings_analysed": 675,
-   "change_6m_pct": 56,
+   "postings_analysed": 661,
+   "change_6m_pct": 62,
    "forecast_next_8_weeks_pct": 0,
    "technical_share_pct": 39,
    "pay_mid_usd": 402500.0,
    "top_roles": [
     [
      "Sales & Go-to-Market",
-     29
-    ],
-    [
-     "Finance, Legal & People",
-     11
+     30
     ],
     [
      "Software Engineering",
+     11
+    ],
+    [
+     "Finance, Legal & People",
      10
     ]
    ],
    "distinctive_skills": [
     [
      "AI Safety",
-     4.7
+     5.0
     ],
     [
      "AWS",
-     3.9
+     3.8
     ],
     [
      "Reinforcement Learning",
-     3.3
+     3.2
     ],
     [
-     "Azure",
-     2.9
+     "Security Compliance (SOC 2, ISO, FedRAMP)",
+     2.8
     ]
    ],
    "top_hubs": [
@@ -62,7 +62,7 @@
    ],
    "nearest_peer": [
     "OpenAI",
-    1.0
+    0.998
    ],
    "recent_models": [
     [
@@ -99,13 +99,13 @@
     {
      "event": "Series H: $65B at $965B post-money valuation",
      "date": "2026-05-28",
-     "open_roles_change_26w_after": 305
+     "open_roles_change_26w_after": 308
     }
    ]
   },
   "claims": [
    {
-    "key_fact": "89 → 195 new roles per 13 weeks (2.2×)",
+    "key_fact": "95 → 197 new roles per 13 weeks (2.1×)",
     "concentrated_in": [
      "San Francisco",
      "New York"
@@ -114,42 +114,42 @@
     "label": "Scaling the sales machine",
     "reading": "A growing sales force means the company is chasing revenue in new segments or regions.",
     "confidence": "likely",
-    "open_roles": 150,
-    "share_of_open": 0.222,
+    "open_roles": 153,
+    "share_of_open": 0.231,
     "lift_vs_peers": 1.43,
-    "new_13w": 195,
-    "prior_13w": 89,
-    "growth": 2.19,
+    "new_13w": 197,
+    "prior_13w": 95,
+    "growth": 2.07,
     "cities": [
      [
       "San Francisco",
-      79
+      83
      ],
      [
       "New York",
-      70
+      76
      ],
      [
       "Seattle",
-      25
+      27
      ]
     ],
     "examples": [
-     "Enterprise Account Executive, System Integrators",
-     "Enterprise Account Executive - Healthcare & Life Science",
+     "Enterprise Account Executive, DoW/IC",
+     "Enterprise Account Executive - DNB",
      "Enterprise Account Executive - Semiconductors",
-     "Enterprise Account Executive, Federal Civilian Sales - Federal Financials"
+     "Enterprise Account Executive"
     ],
     "corroboration": [],
     "signal": [
-     "150 open roles (22% of Anthropic's open postings)",
+     "153 open roles (23% of Anthropic's open postings)",
      "1.4× the share at the other three companies",
-     "195 new in the last 13 weeks vs 89 in the 13 weeks before"
+     "197 new in the last 13 weeks vs 95 in the 13 weeks before"
     ],
-    "strength": 469.62
+    "strength": 452.65
    },
    {
-    "key_fact": "6 → 25 new roles per 13 weeks (4.2×)",
+    "key_fact": "7 → 24 new roles per 13 weeks (3.4×)",
     "concentrated_in": [
      "Washington",
      "San Francisco"
@@ -160,10 +160,10 @@
     "confidence": "likely",
     "open_roles": 26,
     "share_of_open": 0.039,
-    "lift_vs_peers": 3.51,
-    "new_13w": 25,
-    "prior_13w": 6,
-    "growth": 4.17,
+    "lift_vs_peers": 3.54,
+    "new_13w": 24,
+    "prior_13w": 7,
+    "growth": 3.43,
     "cities": [
      [
       "Washington",
@@ -188,12 +188,12 @@
     "signal": [
      "26 open roles (4% of Anthropic's open postings)",
      "3.5× the share at the other three companies",
-     "25 new in the last 13 weeks vs 6 in the 13 weeks before"
+     "24 new in the last 13 weeks vs 7 in the 13 weeks before"
     ],
-    "strength": 438.55
+    "strength": 441.5
    },
    {
-    "key_fact": "41 → 69 new roles per 13 weeks (1.7×)",
+    "key_fact": "46 → 65 new roles per 13 weeks (1.4×)",
     "concentrated_in": [
      "San Francisco",
      "New York",
@@ -203,42 +203,42 @@
     "label": "Investing in safety and policy",
     "reading": "Safety, alignment and policy roles show how much the company invests in governing its models.",
     "confidence": "likely",
-    "open_roles": 64,
-    "share_of_open": 0.095,
-    "lift_vs_peers": 4.32,
-    "new_13w": 69,
-    "prior_13w": 41,
-    "growth": 1.68,
+    "open_roles": 62,
+    "share_of_open": 0.094,
+    "lift_vs_peers": 4.4,
+    "new_13w": 65,
+    "prior_13w": 46,
+    "growth": 1.41,
     "cities": [
      [
       "San Francisco",
-      50
+      48
      ],
      [
       "New York",
-      31
+      30
      ],
      [
       "Washington",
-      19
+      18
      ]
     ],
     "examples": [
      "Staff+ Software Engineer, Safeguards",
      "Staff+ Software Engineer, Account Abuse",
      "Staff+ Software Engineer, Safeguards Infrastructure",
-     "Staff+ Software Engineer, Safeguards Human Review Tooling"
+     "Staff+ Software Engineer, Safeguards Data"
     ],
     "corroboration": [],
     "signal": [
-     "64 open roles (9% of Anthropic's open postings)",
-     "4.3× the share at the other three companies",
-     "69 new in the last 13 weeks vs 41 in the 13 weeks before"
+     "62 open roles (9% of Anthropic's open postings)",
+     "4.4× the share at the other three companies",
+     "65 new in the last 13 weeks vs 46 in the 13 weeks before"
     ],
-    "strength": 430.83
+    "strength": 350.43
    },
    {
-    "key_fact": "8 → 26 new roles per 13 weeks (3.2×)",
+    "key_fact": "5 → 26 new roles per 13 weeks (5.2×)",
     "concentrated_in": [
      "San Francisco",
      "New York"
@@ -248,11 +248,11 @@
     "reading": "Power, cooling, construction and site roles mean the company is building or running its own compute sites instead of only renting cloud capacity.",
     "confidence": "likely",
     "open_roles": 19,
-    "share_of_open": 0.028,
-    "lift_vs_peers": 1.3,
+    "share_of_open": 0.029,
+    "lift_vs_peers": 1.67,
     "new_13w": 26,
-    "prior_13w": 8,
-    "growth": 3.25,
+    "prior_13w": 5,
+    "growth": 5.2,
     "cities": [
      [
       "San Francisco",
@@ -276,10 +276,10 @@
     "corroboration": [],
     "signal": [
      "19 open roles (3% of Anthropic's open postings)",
-     "1.3× the share at the other three companies",
-     "26 new in the last 13 weeks vs 8 in the 13 weeks before"
+     "1.7× the share at the other three companies",
+     "26 new in the last 13 weeks vs 5 in the 13 weeks before"
     ],
-    "strength": 118.71
+    "strength": 151.96
    }
   ],
   "expansions": [
@@ -376,12 +376,12 @@
     ]
    },
    {
-    "summary": "Singapore: looks like a regional hub (24 postings, first 2026-04-14; announced 154 days after the first posting)",
+    "summary": "Singapore: looks like a regional hub (25 postings, first 2026-04-14; announced 154 days after the first posting)",
     "city": "Singapore",
     "country": "SG",
     "first_posting": "2026-04-14",
     "status": "hiring led",
-    "postings": 24,
+    "postings": 25,
     "kind": "regional hub",
     "role_mix": [
      [
@@ -401,9 +401,9 @@
     "event": "Singapore office plan announced",
     "source": "https://www.computerweekly.com/news/366652182/Anthropic-opens-Singapore-office-signs-AI-safety-pact-with-government",
     "examples": [
-     "Enterprise Account Executive - Industries Generalist (ASEAN)",
      "Account Executive - Public Sector (ASEAN)",
-     "Finance & Strategy, Deal Strategy - APAC"
+     "Enterprise Account Executive - Manufacturing Industries, Taiwan",
+     "Enterprise Account Executive - Industries Generalist (ASEAN)"
     ]
    }
   ]
@@ -415,22 +415,22 @@
    "unit": "open roles",
    "size": {
     "metric": "OpenAI open roles",
-    "week": "2026-11-02",
-    "value": 811.0
+    "week": "2026-11-09",
+    "value": 813.0
    },
-   "postings_analysed": 813,
+   "postings_analysed": 839,
    "change_6m_pct": 23,
-   "forecast_next_8_weeks_pct": 6,
-   "technical_share_pct": 50,
-   "pay_mid_usd": 351000.0,
+   "forecast_next_8_weeks_pct": 5,
+   "technical_share_pct": 48,
+   "pay_mid_usd": 355500.0,
    "top_roles": [
     [
      "Sales & Go-to-Market",
-     25
+     27
     ],
     [
      "Software Engineering",
-     20
+     19
     ],
     [
      "ML / AI Engineering",
@@ -440,29 +440,29 @@
    "distinctive_skills": [
     [
      "LLM APIs",
-     4.4
+     4.7
     ],
     [
      "Causal Inference & Experimentation",
-     4.1
+     4.3
     ],
     [
      "Observability",
      2.7
     ],
     [
-     "APIs",
-     2.3
+     "Go-to-Market Strategy",
+     2.5
     ]
    ],
    "top_hubs": [
     [
      "San Francisco",
-     67
+     66
     ],
     [
      "Singapore",
-     5
+     4
     ],
     [
      "New York",
@@ -471,7 +471,7 @@
    ],
    "nearest_peer": [
     "Anthropic",
-    1.0
+    0.998
    ],
    "recent_models": [
     [
@@ -506,50 +506,7 @@
   },
   "claims": [
    {
-    "key_fact": "20 → 34 new roles per 13 weeks (1.7×)",
-    "concentrated_in": [
-     "San Francisco"
-    ],
-    "id": "devices",
-    "label": "Building hardware devices",
-    "reading": "Hardware, manufacturing and supply-chain roles suggest a physical product in development.",
-    "confidence": "likely",
-    "open_roles": 38,
-    "share_of_open": 0.047,
-    "lift_vs_peers": 7.89,
-    "new_13w": 34,
-    "prior_13w": 20,
-    "growth": 1.7,
-    "cities": [
-     [
-      "San Francisco",
-      30
-     ],
-     [
-      "Tokyo",
-      1
-     ],
-     [
-      "Seattle",
-      1
-     ]
-    ],
-    "examples": [
-     "Software Engineer, Private Computing",
-     "Software Engineer, Manufacturing Infrastructure",
-     "Software Engineer, HSM Infrastructure Security, Consumer Devices",
-     "Product Manufacturing Engineer - PCBA"
-    ],
-    "corroboration": [],
-    "signal": [
-     "38 open roles (5% of OpenAI's open postings)",
-     "7.9× the share at the other three companies",
-     "34 new in the last 13 weeks vs 20 in the 13 weeks before"
-    ],
-    "strength": 413.44
-   },
-   {
-    "key_fact": "198 open roles, 1.6× the share at peers",
+    "key_fact": "221 open roles, 1.7× the share at peers",
     "concentrated_in": [
      "San Francisco",
      "New York"
@@ -558,61 +515,61 @@
     "label": "Scaling the sales machine",
     "reading": "A growing sales force means the company is chasing revenue in new segments or regions.",
     "confidence": "confirmed",
-    "open_roles": 198,
-    "share_of_open": 0.244,
-    "lift_vs_peers": 1.63,
-    "new_13w": 210,
-    "prior_13w": 202,
-    "growth": 1.04,
+    "open_roles": 221,
+    "share_of_open": 0.263,
+    "lift_vs_peers": 1.72,
+    "new_13w": 239,
+    "prior_13w": 199,
+    "growth": 1.2,
     "cities": [
      [
       "San Francisco",
-      83
+      100
      ],
      [
       "New York",
-      40
+      54
      ],
      [
       "Tokyo",
-      18
+      19
      ]
     ],
     "examples": [
      "Account Director, Digital Native New Business",
-     "Account Director, Startups | New Business",
-     "Account Director, Financial Services",
-     "Account Director, Large Enterprise"
+     "Account Director, Life Sciences",
+     "Account Director, Large Enterprise (FSI)",
+     "Account Director, Digital Natives"
     ],
     "corroboration": [
      {
-      "date": "2026-11-10",
-      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-      "url": "https://openai.com/index/cogent-security",
+      "date": "2026-11-16",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
       "source": "OpenAI newsroom"
      },
      {
-      "date": "2026-11-09",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "date": "2026-11-16",
+      "title": "The King’s Trust and OpenAI launch £1m partnership",
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
       "source": "OpenAI newsroom"
      },
      {
-      "date": "2026-10-29",
-      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-      "url": "https://openai.com/index/credit-saison",
+      "date": "2026-11-12",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
       "source": "OpenAI newsroom"
      }
     ],
     "signal": [
-     "198 open roles (24% of OpenAI's open postings)",
-     "1.6× the share at the other three companies",
-     "210 new in the last 13 weeks vs 202 in the 13 weeks before"
+     "221 open roles (26% of OpenAI's open postings)",
+     "1.7× the share at the other three companies",
+     "239 new in the last 13 weeks vs 199 in the 13 weeks before"
     ],
-    "strength": 335.87
+    "strength": 456.98
    },
    {
-    "key_fact": "65 open roles, 13.4× the share at peers",
+    "key_fact": "69 open roles, 13.7× the share at peers",
     "concentrated_in": [
      "San Francisco",
      "New York"
@@ -621,16 +578,16 @@
     "label": "Monetising consumers",
     "reading": "Ads, growth and subscription roles mean the company is turning a large user base into revenue.",
     "confidence": "confirmed",
-    "open_roles": 65,
-    "share_of_open": 0.08,
-    "lift_vs_peers": 13.36,
-    "new_13w": 71,
-    "prior_13w": 62,
-    "growth": 1.15,
+    "open_roles": 69,
+    "share_of_open": 0.082,
+    "lift_vs_peers": 13.69,
+    "new_13w": 79,
+    "prior_13w": 59,
+    "growth": 1.34,
     "cities": [
      [
       "San Francisco",
-      52
+      51
      ],
      [
       "New York",
@@ -643,8 +600,8 @@
     ],
     "examples": [
      "Software Engineer, Ad Formats",
-     "Software Engineer, ChatGPT Shopping",
-     "Software Engineer, GTM Growth Engineering",
+     "Software Engineer, Ads Integrity",
+     "Software Engineer, Shop/Feed Ads",
      "Software Engineer, Monetization ML Infrastructure"
     ],
     "corroboration": [
@@ -668,14 +625,57 @@
      }
     ],
     "signal": [
-     "65 open roles (8% of OpenAI's open postings)",
-     "13.4× the share at the other three companies",
-     "71 new in the last 13 weeks vs 62 in the 13 weeks before"
+     "69 open roles (8% of OpenAI's open postings)",
+     "13.7× the share at the other three companies",
+     "79 new in the last 13 weeks vs 59 in the 13 weeks before"
     ],
-    "strength": 297.74
+    "strength": 369.56
    },
    {
-    "key_fact": "60 → 92 new roles per 13 weeks (1.5×)",
+    "key_fact": "21 → 32 new roles per 13 weeks (1.5×)",
+    "concentrated_in": [
+     "San Francisco"
+    ],
+    "id": "devices",
+    "label": "Building hardware devices",
+    "reading": "Hardware, manufacturing and supply-chain roles suggest a physical product in development.",
+    "confidence": "likely",
+    "open_roles": 36,
+    "share_of_open": 0.043,
+    "lift_vs_peers": 5.67,
+    "new_13w": 32,
+    "prior_13w": 21,
+    "growth": 1.52,
+    "cities": [
+     [
+      "San Francisco",
+      28
+     ],
+     [
+      "Tokyo",
+      1
+     ],
+     [
+      "Seattle",
+      1
+     ]
+    ],
+    "examples": [
+     "Software Engineer, Private Computing",
+     "Software Engineer, HSM Infrastructure Security, Consumer Devices",
+     "Software Engineer, Manufacturing Infrastructure",
+     "Firmware Engineer, Robotics"
+    ],
+    "corroboration": [],
+    "signal": [
+     "36 open roles (4% of OpenAI's open postings)",
+     "5.7× the share at the other three companies",
+     "32 new in the last 13 weeks vs 21 in the 13 weeks before"
+    ],
+    "strength": 351.09
+   },
+   {
+    "key_fact": "58 → 99 new roles per 13 weeks (1.7×)",
     "concentrated_in": [
      "San Francisco",
      "New York"
@@ -684,66 +684,87 @@
     "label": "Deploying inside large enterprises",
     "reading": "Engineers who work at customer sites mean the product is being rolled out inside large organisations, not only sold self-serve.",
     "confidence": "confirmed",
-    "open_roles": 99,
-    "share_of_open": 0.122,
-    "lift_vs_peers": 1.56,
-    "new_13w": 92,
-    "prior_13w": 60,
-    "growth": 1.53,
+    "open_roles": 103,
+    "share_of_open": 0.123,
+    "lift_vs_peers": 1.55,
+    "new_13w": 99,
+    "prior_13w": 58,
+    "growth": 1.71,
     "cities": [
      [
       "San Francisco",
-      36
+      37
      ],
      [
       "New York",
-      25
+      24
      ],
      [
-      "Seattle",
-      8
+      "Munich",
+      9
      ]
     ],
     "examples": [
      "Applied AI Engineer, Enterprise",
      "Applied AI Engineer, Codex",
      "Applied AI Engineer",
-     "Applied AI Engineer, Government"
+     "Applied AI Engineer, Enterprise - EDU"
     ],
     "corroboration": [
+     {
+      "date": "2026-11-16",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "source": "OpenAI newsroom"
+     },
+     {
+      "date": "2026-11-16",
+      "title": "The King’s Trust and OpenAI launch £1m partnership",
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
+      "source": "OpenAI newsroom"
+     },
      {
       "date": "2026-11-10",
       "title": "Cogent and OpenAI build cyber defense factories for enterprises",
       "url": "https://openai.com/index/cogent-security",
       "source": "OpenAI newsroom"
-     },
-     {
-      "date": "2026-11-09",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "source": "OpenAI newsroom"
-     },
-     {
-      "date": "2026-10-29",
-      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-      "url": "https://openai.com/index/credit-saison",
-      "source": "OpenAI newsroom"
      }
     ],
     "signal": [
-     "99 open roles (12% of OpenAI's open postings)",
+     "103 open roles (12% of OpenAI's open postings)",
      "1.6× the share at the other three companies",
-     "92 new in the last 13 weeks vs 60 in the 13 weeks before"
+     "99 new in the last 13 weeks vs 58 in the 13 weeks before"
     ],
-    "strength": 236.13
+    "strength": 273.28
    }
   ],
   "expansions": [
    {
-    "summary": "Amsterdam: looks like a sales office (1 postings, first 2026-11-08; no announcement yet)",
+    "summary": "Vancouver: looks like a sales office (1 postings, first 2026-11-16; no announcement yet)",
+    "city": "Vancouver",
+    "country": "CA",
+    "first_posting": "2026-11-16",
+    "status": "watch",
+    "postings": 1,
+    "kind": "sales office",
+    "role_mix": [
+     [
+      "Sales & Go-to-Market",
+      1
+     ]
+    ],
+    "lead_days": null,
+    "event": null,
+    "source": null,
+    "examples": [
+     "Applied AI Architect, Cyber"
+    ]
+   },
+   {
+    "summary": "Amsterdam: looks like a sales office (1 postings, first 2026-11-03; no announcement yet)",
     "city": "Amsterdam",
     "country": "NL",
-    "first_posting": "2026-11-08",
+    "first_posting": "2026-11-03",
     "status": "watch",
     "postings": 1,
     "kind": "sales office",
@@ -782,17 +803,21 @@
     ]
    },
    {
-    "summary": "Berlin: looks like a sales office (2 postings, first 2026-06-23; announced 52 days after the first posting)",
+    "summary": "Berlin: looks like a sales office (3 postings, first 2026-06-23; announced 52 days after the first posting)",
     "city": "Berlin",
     "country": "DE",
     "first_posting": "2026-06-23",
     "status": "hiring led",
-    "postings": 2,
+    "postings": 3,
     "kind": "sales office",
     "role_mix": [
      [
       "Sales & Go-to-Market",
       2
+     ],
+     [
+      "Marketing & Communications",
+      1
      ]
     ],
     "lead_days": 52,
@@ -800,6 +825,7 @@
     "source": "https://invest-in.berlin/n/openai-picks-berlin-for-its-second-german-office/",
     "examples": [
      "Sales and Partnerships",
+     "Head of Community, EMEA",
      "Account Director, Large Enterprise"
     ]
    },
@@ -930,15 +956,15 @@
     ],
     [
      "Networking Hardware (InfiniBand, Ethernet)",
-     6.7
+     7.8
+    ],
+    [
+     "Deep Learning",
+     5.9
     ],
     [
      "Parallel Programming",
-     6.0
-    ],
-    [
-     "Computer Architecture",
-     5.6
+     5.8
     ]
    ],
    "top_hubs": [
@@ -957,7 +983,7 @@
    ],
    "nearest_peer": [
     "OpenAI",
-    0.5954
+    0.5789
    ],
    "recent_models": [
     [
@@ -985,12 +1011,12 @@
     "change_pct": 72,
     "source": "EPO Open Patent Services (publications naming the company as applicant)",
     "recent_patent_titles": [
-     "Neural networks to generate portions of images",
-     "Instruction to check allocation granularity",
-     "Application programming interface to store interpolation algorithms for videos",
-     "Information destruction from decryption attempt",
-     "Inference on memory-constrained systems",
-     "Liquid metal circuit board connectors"
+     "Identity-based speaker targeting for automatic speech translation systems and applications",
+     "Interposer on pcb system assembly",
+     "Compiler-scheduled triangular update neural network",
+     "Method to compensate supply voltage fluctuation in an integrated circuit",
+     "Bi-directional optical interconnect",
+     "3d medical imaging simulation using generative ai"
     ]
    },
    "funding": []
@@ -1007,7 +1033,7 @@
     "confidence": "confirmed",
     "open_roles": 227,
     "share_of_open": 0.085,
-    "lift_vs_peers": 4.51,
+    "lift_vs_peers": 4.34,
     "new_13w": 198,
     "prior_13w": 28,
     "growth": 7.07,
@@ -1047,7 +1073,7 @@
     ],
     "signal": [
      "227 open roles (9% of NVIDIA's open postings)",
-     "4.5× the share at the other three companies",
+     "4.3× the share at the other three companies",
      "198 new in the last 13 weeks vs 28 in the 13 weeks before"
     ],
     "strength": 2724
@@ -1063,7 +1089,7 @@
     "confidence": "likely",
     "open_roles": 111,
     "share_of_open": 0.042,
-    "lift_vs_peers": 9.93,
+    "lift_vs_peers": 9.99,
     "new_13w": 107,
     "prior_13w": 3,
     "growth": 35.67,
@@ -1090,7 +1116,7 @@
     "corroboration": [],
     "signal": [
      "111 open roles (4% of NVIDIA's open postings)",
-     "9.9× the share at the other three companies",
+     "10.0× the share at the other three companies",
      "107 new in the last 13 weeks vs 3 in the 13 weeks before"
     ],
     "strength": 1332
@@ -1106,7 +1132,7 @@
     "confidence": "confirmed",
     "open_roles": 65,
     "share_of_open": 0.024,
-    "lift_vs_peers": 3.88,
+    "lift_vs_peers": 3.65,
     "new_13w": 60,
     "prior_13w": 4,
     "growth": 15.0,
@@ -1146,10 +1172,10 @@
     ],
     "signal": [
      "65 open roles (2% of NVIDIA's open postings)",
-     "3.9× the share at the other three companies",
+     "3.7× the share at the other three companies",
      "60 new in the last 13 weeks vs 4 in the 13 weeks before"
     ],
-    "strength": 1209.1
+    "strength": 1140.18
    },
    {
     "key_fact": "24 → 319 new roles per 13 weeks (13.3×)",
@@ -1162,7 +1188,7 @@
     "confidence": "confirmed",
     "open_roles": 335,
     "share_of_open": 0.126,
-    "lift_vs_peers": 0.6,
+    "lift_vs_peers": 0.57,
     "new_13w": 319,
     "prior_13w": 24,
     "growth": 13.29,
@@ -1199,7 +1225,7 @@
      "0.6× the share at the other three companies",
      "319 new in the last 13 weeks vs 24 in the 13 weeks before"
     ],
-    "strength": 607.04
+    "strength": 568.21
    }
   ],
   "expansions": []
@@ -1211,18 +1237,18 @@
    "unit": "open roles",
    "size": {
     "metric": "Google open roles",
-    "week": "2026-11-09",
-    "value": 3229.0
+    "week": "2026-11-16",
+    "value": 3001.0
    },
-   "postings_analysed": 898,
-   "change_6m_pct": -12,
-   "forecast_next_8_weeks_pct": -15,
-   "technical_share_pct": 41,
+   "postings_analysed": 900,
+   "change_6m_pct": -26,
+   "forecast_next_8_weeks_pct": -1,
+   "technical_share_pct": 40,
    "pay_mid_usd": null,
    "top_roles": [
     [
      "Sales & Go-to-Market",
-     31
+     32
     ],
     [
      "Infrastructure & SRE",
@@ -1230,31 +1256,31 @@
     ],
     [
      "Software Engineering",
-     10
+     8
     ]
    ],
    "distinctive_skills": [
     [
      "Java",
-     5.8
-    ],
-    [
-     "People Management",
-     4.1
-    ],
-    [
-     "Generative AI",
-     3.8
+     5.6
     ],
     [
      "Google Cloud",
-     3.7
+     3.6
+    ],
+    [
+     "People Management",
+     3.6
+    ],
+    [
+     "Generative AI",
+     3.5
     ]
    ],
    "top_hubs": [
     [
      "Singapore",
-     7
+     8
     ],
     [
      "Tokyo",
@@ -1262,20 +1288,20 @@
     ],
     [
      "Bangalore",
-     6
+     5
     ]
    ],
    "nearest_peer": [
     "OpenAI",
-    0.6017
+    0.5912
    ],
    "recent_models": [
     [
-     "2026-10-28",
+     "2026-11-10",
      "Gemini 4 Carbon"
     ],
     [
-     "2026-09-30",
+     "2026-10-13",
      "Gemini 4 Argon"
     ],
     [
@@ -1295,73 +1321,75 @@
     "change_pct": -19,
     "source": "EPO Open Patent Services (publications naming the company as applicant)",
     "recent_patent_titles": [
-     "Transfer learning method for determining heart rate based on radar data",
-     "Xr-specific uci encoding and multiplexing procedures",
-     "Variational quantization models for efficient evaluation and content creation",
-     "Generating hybrid video responses to search queries",
-     "Artificial intelligence satellite module",
-     "Context-aware citation and modification of ai-generated content"
+     "Reduction of image artifacts in virtual and extended reality systems",
+     "Bidirectional image-to-video generation",
+     "Simultaneous translation with dynamic language adaptation during a virtual meeting",
+     "Artificial intelligence satellite module optical communication system",
+     "Synthesized speech for language translation in a virtual meeting",
+     "Machine learning based optimization of search and identification of media effects"
     ]
    },
    "funding": []
   },
   "claims": [
    {
-    "key_fact": "36 open roles, 3.3× the share at peers",
+    "key_fact": "43 open roles, 4.2× the share at peers",
     "concentrated_in": [
      "Tel Aviv",
-     "Haifa"
+     "Haifa",
+     "Bangalore"
     ],
     "id": "chips",
     "label": "Designing its own chips",
     "reading": "Chip-design and verification roles mean in-house silicon, which cuts dependence on GPU suppliers.",
     "confidence": "likely",
-    "open_roles": 36,
-    "share_of_open": 0.04,
-    "lift_vs_peers": 3.31,
+    "open_roles": 43,
+    "share_of_open": 0.048,
+    "lift_vs_peers": 4.22,
     "new_13w": null,
     "prior_13w": null,
     "growth": null,
     "cities": [
      [
       "Tel Aviv",
-      19
+      20
      ],
      [
       "Haifa",
-      19
+      20
      ],
      [
       "Bangalore",
-      7
+      9
      ]
     ],
     "examples": [
-     "Senior Design Verification Engineer, MicroLED/VR",
+     "Physical Design Lead, Static Timing Analysis",
      "Senior Design Verification Engineer, gCPU",
-     "SoC Product Engineer, Google Cloud",
-     "Networking Silicon Architect, Google Cloud"
+     "Physical Design Lead, Google Cloud",
+     "Senior Design Verification Engineer, MicroLED/VR"
     ],
     "corroboration": [],
     "signal": [
-     "36 open roles (4% of Google's open postings)",
-     "3.3× the share at the other three companies"
+     "43 open roles (5% of Google's open postings)",
+     "4.2× the share at the other three companies"
     ],
-    "strength": 190.89
+    "strength": 275.2
    },
    {
-    "key_fact": "26 open roles",
+    "key_fact": "25 open roles, 1.7× the share at peers",
     "concentrated_in": [
      "Sunnyvale",
+     "Reston",
      "Atlanta"
     ],
     "id": "dc_build",
     "label": "Building its own data centers",
     "reading": "Power, cooling, construction and site roles mean the company is building or running its own compute sites instead of only renting cloud capacity.",
     "confidence": "likely",
-    "open_roles": 26,
-    "share_of_open": 0.029,
-    "lift_vs_peers": 1.44,
+    "open_roles": 25,
+    "share_of_open": 0.028,
+    "lift_vs_peers": 1.74,
     "new_13w": null,
     "prior_13w": null,
     "growth": null,
@@ -1371,26 +1399,26 @@
       6
      ],
      [
-      "Atlanta",
+      "Reston",
       6
      ],
      [
-      "Austin",
-      5
+      "Atlanta",
+      6
      ]
     ],
     "examples": [
      "Data Center Operations Manager",
-     "Data Center Technician, Global Data Center Server Operations",
-     "Data Center Operations Manager, Global Server Operations",
-     "Data Center Technician, Global Server Operations"
+     "Data Center Operations Manager, Custom Search Configuration Service Deployments",
+     "Data Center Operations Manager, CSCS Deployments",
+     "Data Center Operations Manager, Global Server Operations"
     ],
     "corroboration": [],
     "signal": [
-     "26 open roles (3% of Google's open postings)",
-     "1.4× the share at the other three companies"
+     "25 open roles (3% of Google's open postings)",
+     "1.7× the share at the other three companies"
     ],
-    "strength": 59.74
+    "strength": 69.44
    },
    {
     "key_fact": "15 open roles",
@@ -1405,36 +1433,36 @@
     "confidence": "watch",
     "open_roles": 15,
     "share_of_open": 0.017,
-    "lift_vs_peers": 1.18,
+    "lift_vs_peers": 1.16,
     "new_13w": null,
     "prior_13w": null,
     "growth": null,
     "cities": [
      [
       "Washington",
-      8
+      7
      ],
      [
       "Reston",
-      6
+      4
      ],
      [
       "New York",
-      4
+      3
      ]
     ],
     "examples": [
+     "Field Sales Representative, South Texas Local, Google Public Sector",
      "Manager, Emerging Market Policy Campaigns, Government Affairs and Public Policy (English, Portuguese)",
      "Manager, Campaigns and Advocacy, Government Affairs and Public Policy",
-     "Field Sales Representative, South Texas Local, Google Public Sector",
-     "Measurement Lead, Consumer Goods, Government and Entertainment"
+     "Field Sales Representative, U.S. Department of Energy, Google Public Sector"
     ],
     "corroboration": [],
     "signal": [
      "15 open roles (2% of Google's open postings)",
      "1.2× the share at the other three companies"
     ],
-    "strength": 28.24
+    "strength": 27.79
    }
   ],
   "expansions": []

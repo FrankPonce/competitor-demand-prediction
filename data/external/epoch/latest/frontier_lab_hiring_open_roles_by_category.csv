@@ -6238,3 +6238,241 @@ date,lab,category,subcategory,open_postings
 2026-11-02,OpenAI,Research,Data,5
 2026-11-02,OpenAI,Research,Research,35
 2026-11-02,OpenAI,Research,Safety & safeguards,58
+2026-11-03,Anthropic,Compute,Datacenters,37
+2026-11-03,Anthropic,Compute,ML infrastructure,38
+2026-11-03,Anthropic,Compute,Silicon,2
+2026-11-03,Anthropic,Corporate,"Finance, people & workplace",97
+2026-11-03,Anthropic,Corporate,Information security,37
+2026-11-03,Anthropic,Corporate,"Policy, legal & comms",55
+2026-11-03,Anthropic,Go-to-market,Customer support,6
+2026-11-03,Anthropic,Go-to-market,Forward deployed,27
+2026-11-03,Anthropic,Go-to-market,Go-to-market,195
+2026-11-03,Anthropic,Other,Other,0
+2026-11-03,Anthropic,Product,Ads,0
+2026-11-03,Anthropic,Product,Consumer devices,0
+2026-11-03,Anthropic,Product,Product & platform,66
+2026-11-03,Anthropic,Product,Robotics,0
+2026-11-03,Anthropic,Research,Data,3
+2026-11-03,Anthropic,Research,Research,58
+2026-11-03,Anthropic,Research,Safety & safeguards,56
+2026-11-03,OpenAI,Compute,Datacenters,52
+2026-11-03,OpenAI,Compute,ML infrastructure,41
+2026-11-03,OpenAI,Compute,Silicon,16
+2026-11-03,OpenAI,Corporate,"Finance, people & workplace",85
+2026-11-03,OpenAI,Corporate,Information security,28
+2026-11-03,OpenAI,Corporate,"Policy, legal & comms",27
+2026-11-03,OpenAI,Go-to-market,Customer support,39
+2026-11-03,OpenAI,Go-to-market,Forward deployed,111
+2026-11-03,OpenAI,Go-to-market,Go-to-market,134
+2026-11-03,OpenAI,Other,Other,0
+2026-11-03,OpenAI,Product,Ads,35
+2026-11-03,OpenAI,Product,Consumer devices,21
+2026-11-03,OpenAI,Product,Product & platform,105
+2026-11-03,OpenAI,Product,Robotics,14
+2026-11-03,OpenAI,Research,Data,5
+2026-11-03,OpenAI,Research,Research,35
+2026-11-03,OpenAI,Research,Safety & safeguards,57
+2026-11-04,Anthropic,Compute,Datacenters,37
+2026-11-04,Anthropic,Compute,ML infrastructure,38
+2026-11-04,Anthropic,Compute,Silicon,1
+2026-11-04,Anthropic,Corporate,"Finance, people & workplace",99
+2026-11-04,Anthropic,Corporate,Information security,37
+2026-11-04,Anthropic,Corporate,"Policy, legal & comms",54
+2026-11-04,Anthropic,Go-to-market,Customer support,6
+2026-11-04,Anthropic,Go-to-market,Forward deployed,30
+2026-11-04,Anthropic,Go-to-market,Go-to-market,195
+2026-11-04,Anthropic,Other,Other,0
+2026-11-04,Anthropic,Product,Ads,0
+2026-11-04,Anthropic,Product,Consumer devices,0
+2026-11-04,Anthropic,Product,Product & platform,66
+2026-11-04,Anthropic,Product,Robotics,0
+2026-11-04,Anthropic,Research,Data,3
+2026-11-04,Anthropic,Research,Research,58
+2026-11-04,Anthropic,Research,Safety & safeguards,56
+2026-11-04,OpenAI,Compute,Datacenters,51
+2026-11-04,OpenAI,Compute,ML infrastructure,42
+2026-11-04,OpenAI,Compute,Silicon,17
+2026-11-04,OpenAI,Corporate,"Finance, people & workplace",87
+2026-11-04,OpenAI,Corporate,Information security,28
+2026-11-04,OpenAI,Corporate,"Policy, legal & comms",28
+2026-11-04,OpenAI,Go-to-market,Customer support,39
+2026-11-04,OpenAI,Go-to-market,Forward deployed,113
+2026-11-04,OpenAI,Go-to-market,Go-to-market,137
+2026-11-04,OpenAI,Other,Other,0
+2026-11-04,OpenAI,Product,Ads,37
+2026-11-04,OpenAI,Product,Consumer devices,21
+2026-11-04,OpenAI,Product,Product & platform,104
+2026-11-04,OpenAI,Product,Robotics,14
+2026-11-04,OpenAI,Research,Data,5
+2026-11-04,OpenAI,Research,Research,35
+2026-11-04,OpenAI,Research,Safety & safeguards,55
+2026-11-05,Anthropic,Compute,Datacenters,38
+2026-11-05,Anthropic,Compute,ML infrastructure,38
+2026-11-05,Anthropic,Compute,Silicon,1
+2026-11-05,Anthropic,Corporate,"Finance, people & workplace",101
+2026-11-05,Anthropic,Corporate,Information security,37
+2026-11-05,Anthropic,Corporate,"Policy, legal & comms",53
+2026-11-05,Anthropic,Go-to-market,Customer support,6
+2026-11-05,Anthropic,Go-to-market,Forward deployed,29
+2026-11-05,Anthropic,Go-to-market,Go-to-market,197
+2026-11-05,Anthropic,Other,Other,0
+2026-11-05,Anthropic,Product,Ads,0
+2026-11-05,Anthropic,Product,Consumer devices,0
+2026-11-05,Anthropic,Product,Product & platform,65
+2026-11-05,Anthropic,Product,Robotics,0
+2026-11-05,Anthropic,Research,Data,3
+2026-11-05,Anthropic,Research,Research,58
+2026-11-05,Anthropic,Research,Safety & safeguards,55
+2026-11-05,OpenAI,Compute,Datacenters,50
+2026-11-05,OpenAI,Compute,ML infrastructure,46
+2026-11-05,OpenAI,Compute,Silicon,18
+2026-11-05,OpenAI,Corporate,"Finance, people & workplace",88
+2026-11-05,OpenAI,Corporate,Information security,28
+2026-11-05,OpenAI,Corporate,"Policy, legal & comms",29
+2026-11-05,OpenAI,Go-to-market,Customer support,39
+2026-11-05,OpenAI,Go-to-market,Forward deployed,117
+2026-11-05,OpenAI,Go-to-market,Go-to-market,135
+2026-11-05,OpenAI,Other,Other,0
+2026-11-05,OpenAI,Product,Ads,35
+2026-11-05,OpenAI,Product,Consumer devices,21
+2026-11-05,OpenAI,Product,Product & platform,101
+2026-11-05,OpenAI,Product,Robotics,13
+2026-11-05,OpenAI,Research,Data,5
+2026-11-05,OpenAI,Research,Research,35
+2026-11-05,OpenAI,Research,Safety & safeguards,53
+2026-11-06,Anthropic,Compute,Datacenters,37
+2026-11-06,Anthropic,Compute,ML infrastructure,33
+2026-11-06,Anthropic,Compute,Silicon,1
+2026-11-06,Anthropic,Corporate,"Finance, people & workplace",101
+2026-11-06,Anthropic,Corporate,Information security,37
+2026-11-06,Anthropic,Corporate,"Policy, legal & comms",55
+2026-11-06,Anthropic,Go-to-market,Customer support,6
+2026-11-06,Anthropic,Go-to-market,Forward deployed,29
+2026-11-06,Anthropic,Go-to-market,Go-to-market,196
+2026-11-06,Anthropic,Other,Other,0
+2026-11-06,Anthropic,Product,Ads,0
+2026-11-06,Anthropic,Product,Consumer devices,0
+2026-11-06,Anthropic,Product,Product & platform,62
+2026-11-06,Anthropic,Product,Robotics,0
+2026-11-06,Anthropic,Research,Data,2
+2026-11-06,Anthropic,Research,Research,60
+2026-11-06,Anthropic,Research,Safety & safeguards,55
+2026-11-06,OpenAI,Compute,Datacenters,48
+2026-11-06,OpenAI,Compute,ML infrastructure,46
+2026-11-06,OpenAI,Compute,Silicon,19
+2026-11-06,OpenAI,Corporate,"Finance, people & workplace",89
+2026-11-06,OpenAI,Corporate,Information security,28
+2026-11-06,OpenAI,Corporate,"Policy, legal & comms",31
+2026-11-06,OpenAI,Go-to-market,Customer support,39
+2026-11-06,OpenAI,Go-to-market,Forward deployed,123
+2026-11-06,OpenAI,Go-to-market,Go-to-market,133
+2026-11-06,OpenAI,Other,Other,0
+2026-11-06,OpenAI,Product,Ads,35
+2026-11-06,OpenAI,Product,Consumer devices,21
+2026-11-06,OpenAI,Product,Product & platform,104
+2026-11-06,OpenAI,Product,Robotics,13
+2026-11-06,OpenAI,Research,Data,5
+2026-11-06,OpenAI,Research,Research,34
+2026-11-06,OpenAI,Research,Safety & safeguards,54
+2026-11-07,Anthropic,Compute,Datacenters,35
+2026-11-07,Anthropic,Compute,ML infrastructure,33
+2026-11-07,Anthropic,Compute,Silicon,1
+2026-11-07,Anthropic,Corporate,"Finance, people & workplace",102
+2026-11-07,Anthropic,Corporate,Information security,38
+2026-11-07,Anthropic,Corporate,"Policy, legal & comms",56
+2026-11-07,Anthropic,Go-to-market,Customer support,5
+2026-11-07,Anthropic,Go-to-market,Forward deployed,29
+2026-11-07,Anthropic,Go-to-market,Go-to-market,195
+2026-11-07,Anthropic,Other,Other,0
+2026-11-07,Anthropic,Product,Ads,0
+2026-11-07,Anthropic,Product,Consumer devices,0
+2026-11-07,Anthropic,Product,Product & platform,66
+2026-11-07,Anthropic,Product,Robotics,0
+2026-11-07,Anthropic,Research,Data,2
+2026-11-07,Anthropic,Research,Research,62
+2026-11-07,Anthropic,Research,Safety & safeguards,51
+2026-11-07,OpenAI,Compute,Datacenters,46
+2026-11-07,OpenAI,Compute,ML infrastructure,46
+2026-11-07,OpenAI,Compute,Silicon,19
+2026-11-07,OpenAI,Corporate,"Finance, people & workplace",87
+2026-11-07,OpenAI,Corporate,Information security,27
+2026-11-07,OpenAI,Corporate,"Policy, legal & comms",30
+2026-11-07,OpenAI,Go-to-market,Customer support,39
+2026-11-07,OpenAI,Go-to-market,Forward deployed,127
+2026-11-07,OpenAI,Go-to-market,Go-to-market,133
+2026-11-07,OpenAI,Other,Other,0
+2026-11-07,OpenAI,Product,Ads,35
+2026-11-07,OpenAI,Product,Consumer devices,21
+2026-11-07,OpenAI,Product,Product & platform,104
+2026-11-07,OpenAI,Product,Robotics,14
+2026-11-07,OpenAI,Research,Data,5
+2026-11-07,OpenAI,Research,Research,33
+2026-11-07,OpenAI,Research,Safety & safeguards,54
+2026-11-08,Anthropic,Compute,Datacenters,35
+2026-11-08,Anthropic,Compute,ML infrastructure,33
+2026-11-08,Anthropic,Compute,Silicon,1
+2026-11-08,Anthropic,Corporate,"Finance, people & workplace",102
+2026-11-08,Anthropic,Corporate,Information security,38
+2026-11-08,Anthropic,Corporate,"Policy, legal & comms",56
+2026-11-08,Anthropic,Go-to-market,Customer support,5
+2026-11-08,Anthropic,Go-to-market,Forward deployed,29
+2026-11-08,Anthropic,Go-to-market,Go-to-market,195
+2026-11-08,Anthropic,Other,Other,0
+2026-11-08,Anthropic,Product,Ads,0
+2026-11-08,Anthropic,Product,Consumer devices,0
+2026-11-08,Anthropic,Product,Product & platform,66
+2026-11-08,Anthropic,Product,Robotics,0
+2026-11-08,Anthropic,Research,Data,2
+2026-11-08,Anthropic,Research,Research,62
+2026-11-08,Anthropic,Research,Safety & safeguards,51
+2026-11-08,OpenAI,Compute,Datacenters,46
+2026-11-08,OpenAI,Compute,ML infrastructure,46
+2026-11-08,OpenAI,Compute,Silicon,19
+2026-11-08,OpenAI,Corporate,"Finance, people & workplace",85
+2026-11-08,OpenAI,Corporate,Information security,27
+2026-11-08,OpenAI,Corporate,"Policy, legal & comms",30
+2026-11-08,OpenAI,Go-to-market,Customer support,39
+2026-11-08,OpenAI,Go-to-market,Forward deployed,127
+2026-11-08,OpenAI,Go-to-market,Go-to-market,133
+2026-11-08,OpenAI,Other,Other,0
+2026-11-08,OpenAI,Product,Ads,35
+2026-11-08,OpenAI,Product,Consumer devices,21
+2026-11-08,OpenAI,Product,Product & platform,104
+2026-11-08,OpenAI,Product,Robotics,14
+2026-11-08,OpenAI,Research,Data,5
+2026-11-08,OpenAI,Research,Research,33
+2026-11-08,OpenAI,Research,Safety & safeguards,54
+2026-11-09,Anthropic,Compute,Datacenters,35
+2026-11-09,Anthropic,Compute,ML infrastructure,33
+2026-11-09,Anthropic,Compute,Silicon,1
+2026-11-09,Anthropic,Corporate,"Finance, people & workplace",102
+2026-11-09,Anthropic,Corporate,Information security,38
+2026-11-09,Anthropic,Corporate,"Policy, legal & comms",57
+2026-11-09,Anthropic,Go-to-market,Customer support,5
+2026-11-09,Anthropic,Go-to-market,Forward deployed,29
+2026-11-09,Anthropic,Go-to-market,Go-to-market,195
+2026-11-09,Anthropic,Other,Other,0
+2026-11-09,Anthropic,Product,Ads,0
+2026-11-09,Anthropic,Product,Consumer devices,0
+2026-11-09,Anthropic,Product,Product & platform,66
+2026-11-09,Anthropic,Product,Robotics,0
+2026-11-09,Anthropic,Research,Data,2
+2026-11-09,Anthropic,Research,Research,62
+2026-11-09,Anthropic,Research,Safety & safeguards,51
+2026-11-09,OpenAI,Compute,Datacenters,44
+2026-11-09,OpenAI,Compute,ML infrastructure,46
+2026-11-09,OpenAI,Compute,Silicon,19
+2026-11-09,OpenAI,Corporate,"Finance, people & workplace",82
+2026-11-09,OpenAI,Corporate,Information security,27
+2026-11-09,OpenAI,Corporate,"Policy, legal & comms",30
+2026-11-09,OpenAI,Go-to-market,Customer support,39
+2026-11-09,OpenAI,Go-to-market,Forward deployed,127
+2026-11-09,OpenAI,Go-to-market,Go-to-market,133
+2026-11-09,OpenAI,Other,Other,0
+2026-11-09,OpenAI,Product,Ads,35
+2026-11-09,OpenAI,Product,Consumer devices,21
+2026-11-09,OpenAI,Product,Product & platform,104
+2026-11-09,OpenAI,Product,Robotics,14
+2026-11-09,OpenAI,Research,Data,5
+2026-11-09,OpenAI,Research,Research,33
+2026-11-09,OpenAI,Research,Safety & safeguards,54

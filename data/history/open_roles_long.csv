@@ -117,6 +117,7 @@ Anthropic,2026-10-19,652.0,Epoch
 Anthropic,2026-10-26,678.0,Epoch
 Anthropic,2026-11-02,678.0,Wayback
 Anthropic,2026-11-02,676.0,Epoch
+Anthropic,2026-11-09,677.0,Epoch
 Google,2023-07-03,1975.0,Wayback
 Google,2023-07-10,1954.0,Wayback
 Google,2023-07-24,2040.0,Wayback
@@ -271,3 +272,4 @@ OpenAI,2026-10-12,817.0,Epoch
 OpenAI,2026-10-19,809.0,Epoch
 OpenAI,2026-10-26,801.0,Epoch
 OpenAI,2026-11-02,809.0,Epoch
+OpenAI,2026-11-09,815.0,Epoch
