@@ -2,7 +2,7 @@ frozen_file,series,company,h,target_week,actual,point,abs_err,naive_abs_err,in_8
 2026-11-10.csv,anthropic_open,Anthropic,1,2026-11-09,676.0,672.6,3.3999999999999773,3.0,True
 2026-11-10.csv,openai_open,OpenAI,1,2026-11-09,813.0,817.0,4.0,2.0,True
 2026-11-10.csv,google_open,Google,1,2026-11-09,3229.0,3121.0,108.0,47.0,True
-2026-11-10.csv,google_open,Google,2,2026-11-16,3001.0,3037.0,36.0,181.0,True
+2026-11-10.csv,google_open,Google,2,2026-11-16,3081.5,3037.0,44.5,100.5,True
 2026-11-10.csv,anthropic_open_gtm,Anthropic,1,2026-11-09,229.0,222.2,6.800000000000011,6.0,True
 2026-11-10.csv,anthropic_open_research,Anthropic,1,2026-11-09,115.0,117.0,2.0,2.0,True
 2026-11-10.csv,anthropic_open_product,Anthropic,1,2026-11-09,66.0,67.0,1.0,0.0,True

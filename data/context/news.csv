@@ -1,10 +1,47 @@
 date,company,title,url,source,kind,topics
+2026-11-19,NVIDIA,Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW,https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/,NVIDIA newsroom,official,
+2026-11-18,OpenAI,The Silent Consensus,https://openai.com/index/the-silent-consensus,OpenAI newsroom,official,
+2026-11-18,OpenAI,Research acceleration: The jagged frontier,https://openai.com/index/research-acceleration-jagged-frontier,OpenAI newsroom,official,
+2026-11-18,OpenAI,How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise,https://openai.com/business/customer-stories/sumitomo-life,OpenAI newsroom,official,
+2026-11-18,OpenAI,Inside the Codex sandbox,https://openai.com/index/inside-the-codex-sandbox,OpenAI newsroom,official,
+2026-11-18,OpenAI,Managing frontier AI risk: From training to deployment,https://openai.com/index/managing-frontier-ai-risk,OpenAI newsroom,official,
+2026-11-18,OpenAI,Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT,https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership,OpenAI newsroom,official,partnership
+2026-11-18,OpenAI,Advancing chip design with OpenAI models,https://openai.com/index/advancing-chip-design-with-our-models,OpenAI newsroom,official,infrastructure
+2026-11-18,Google,The Gemini app is now available on lower-memory Android devices.,https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/,Google newsroom,official,launch
+2026-11-18,NVIDIA,NVIDIA RTX Spark Compact Desktops Out Now,https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/,NVIDIA newsroom,official,
+2026-11-17,OpenAI,Introducing GPT-6.2 Astra and Sol,https://openai.com/index/introducing-gpt-6-2-astra-sol,OpenAI newsroom,official,launch
+2026-11-17,OpenAI,Strengthening NATO and allied cyber defenses with AI,https://openai.com/index/strengthening-nato-allied-cyber-defences-ai,OpenAI newsroom,official,government
+2026-11-17,OpenAI,Introducing ChatGPT for Sales,https://openai.com/index/introducing-chatgpt-for-sales,OpenAI newsroom,official,launch
+2026-11-17,OpenAI,Astra for Law leads in legal intelligence,https://openai.com/index/astra-law-6-2,OpenAI newsroom,official,
+2026-11-17,OpenAI,Introducing OpenAI for Chile,https://openai.com/index/introducing-openai-for-chile,OpenAI newsroom,official,launch
+2026-11-17,Google,Put Gemini to work for you,https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/,Google newsroom,official,launch
+2026-11-17,NVIDIA,NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout,https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout,NVIDIA newsroom,official,expansion;partnership
+2026-11-17,NVIDIA,NVIDIA Announces Financial Results for Third Quarter Fiscal 2027,https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027,NVIDIA newsroom,official,
+2026-11-17,NVIDIA,Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents,https://blogs.nvidia.com/blog/ian-buck-sc26/,NVIDIA newsroom,official,
+2026-11-17,NVIDIA,NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee,https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee,NVIDIA newsroom,official,government
 2026-11-16,OpenAI,LVMH’s Media Division announces strategic partnership with OpenAI,https://openai.com/index/lvmh-media-division-partnership,OpenAI newsroom,official,partnership
 2026-11-16,OpenAI,Advancing computer-use agents for healthcare teams,https://openai.com/index/advancing-computer-use-for-healthcare-teams,OpenAI newsroom,official,infrastructure
 2026-11-16,OpenAI,More ways to move care forward with ChatGPT for Healthcare,https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare,OpenAI newsroom,official,
 2026-11-16,OpenAI,The King’s Trust and OpenAI launch £1m partnership,https://openai.com/index/the-kings-trust-and-openai,OpenAI newsroom,official,launch;partnership
 2026-11-16,Google,New Ask Maps features to help with holiday travel and prep,https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/,Google newsroom,official,
 2026-11-16,NVIDIA,"AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/,NVIDIA newsroom,official,
+2026-11-16,OpenAI,Broadening access to AI for scientists,https://openai.com/index/expanding-chatgpt-for-academic-researchers,OpenAI newsroom,official,
+2026-11-16,OpenAI,Strengthening the fight against online child sexual abuse with new tools and support,https://openai.com/index/strengthening-online-child-safety,OpenAI newsroom,official,
+2026-11-16,OpenAI,Science at the Frontier: How scientists use ChatGPT,https://openai.com/index/science-at-the-frontier,OpenAI newsroom,official,
+2026-11-16,OpenAI,How Revolut raises ambition without lowering the bar,https://openai.com/business/customer-stories/revolut,OpenAI newsroom,official,funding
+2026-11-16,OpenAI,Our first phase of embedded assessments,https://openai.com/index/our-first-phase-of-embedded-assessments,OpenAI newsroom,official,
+2026-11-16,OpenAI,"At Holiday Extras, dots get to work before anyone asks",https://openai.com/business/customer-stories/holiday-extras-dots,OpenAI newsroom,official,
+2026-11-16,NVIDIA,NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab,https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/,NVIDIA newsroom,official,
+2026-11-16,NVIDIA,How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future,https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/,NVIDIA newsroom,official,
+2026-11-16,NVIDIA,Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics,https://blogs.nvidia.com/blog/lambda-photonics/,NVIDIA newsroom,official,
+2026-11-16,NVIDIA,NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing,https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/,NVIDIA newsroom,official,expansion
+2026-11-16,NVIDIA,NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance,https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/,NVIDIA newsroom,official,
+2026-11-16,NVIDIA,NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery,https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/,NVIDIA newsroom,official,
+2026-11-16,NVIDIA,CUDA at 20: How the Platform Transformed Scientific Computing,https://blogs.nvidia.com/blog/20-years-cuda/,NVIDIA newsroom,official,
+2026-11-16,NVIDIA,"NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",https://blogs.nvidia.com/blog/rubin-hpc/,NVIDIA newsroom,official,
+2026-11-16,NVIDIA,"NVIDIA Announces Collaboration With IBM and Fermi National Accelerator Laboratory to Launch Quantum-Classical Codesign Platform, Plus Error-Correction Breakthrough to Advance Practical Quantum Computing",https://nvidianews.nvidia.com/news/nvidia-announces-collaboration-with-ibm-and-fermi-national-accelerator-laboratory-to-launch-quantum-classical-codesign-platform-plus-error-correction-breakthrough-to-advance-practical-quantum-computing,NVIDIA newsroom,official,launch;partnership
+2026-11-16,NVIDIA,NVIDIA Expands Vera CPU Platform to Accelerate Scientific Discovery,https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery,NVIDIA newsroom,official,expansion
+2026-11-16,NVIDIA,NVIDIA Introduces Nemotron for Science to Accelerate Discoveries With Agents,https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents,NVIDIA newsroom,official,launch
 2026-11-15,OpenAI,A step toward defining the Standard Model on a lattice,https://openai.com/index/step-toward-defining-the-standard-model,OpenAI newsroom,official,
 2026-11-15,OpenAI,Our new blog for science,https://openai.com/index/our-new-blog-for-science,OpenAI newsroom,official,
 2026-11-13,OpenAI,Introducing ChatGPT Wallet,https://openai.com/index/introducing-chatgpt-wallet,OpenAI newsroom,official,launch
@@ -18,6 +55,7 @@ date,company,title,url,source,kind,topics
 2026-11-12,OpenAI,How Amplitude ships product improvements in 1–2 days with OpenAI,https://openai.com/business/customer-stories/amplitude,OpenAI newsroom,official,
 2026-11-12,OpenAI,Gondola doubles revenue as its team builds more with Codex,https://openai.com/business/customer-stories/gondola,OpenAI newsroom,official,
 2026-11-12,Google,Google Search gets a major upgrade with Gemini 4 Hydrogen,https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/,Google newsroom,official,launch
+2026-11-12,OpenAI,ChatGPT Ads increases its market presence in 44 countries,https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence,OpenAI newsroom,official,
 2026-11-11,OpenAI,ChatGPT Plus for veterans and servicemembers,https://openai.com/index/chatgpt-plus-for-veterans,OpenAI newsroom,official,
 2026-11-11,OpenAI,JioStar’s chief architect on AI discovery at 500M-user scale,https://openai.com/index/jiostar-vijay-seshadri,OpenAI newsroom,official,
 2026-11-11,Google,"Gemini Decisions API: Fast, calibrated multimodal decisions",https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/,Google newsroom,official,launch
@@ -46,6 +84,7 @@ date,company,title,url,source,kind,topics
 2026-11-09,OpenAI,Control Room: A central system to track and stop model workloads across our research infrastructure,https://openai.com/index/control-room,OpenAI newsroom,official,
 2026-11-09,OpenAI,CodeRabbit scales agentic software development and ships 20x more,https://openai.com/index/coderabbit-codex-daybreak,OpenAI newsroom,official,
 2026-11-09,NVIDIA,"NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion",https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion,NVIDIA newsroom,official,partnership
+2026-11-09,OpenAI,How VistaPrint helps small businesses get the word out,https://openai.com/ads/customers/vistaprint,OpenAI newsroom,official,
 2026-11-08,NVIDIA,Statement From NVIDIA Board of Directors,https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors,NVIDIA newsroom,official,
 2026-11-08,NVIDIA,A Message to Our Company,https://nvidianews.nvidia.com/news/a-message-to-our-company,NVIDIA newsroom,official,
 2026-11-06,OpenAI,Partnering with Hacktron to find vulnerabilities in OpenAI’s systems,https://openai.com/index/partnering-with-hacktron,OpenAI newsroom,official,partnership

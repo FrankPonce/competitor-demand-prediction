@@ -31,19 +31,19 @@
    "distinctive_skills": [
     [
      "AI Safety",
-     5.0
+     4.5
     ],
     [
      "AWS",
-     3.8
-    ],
-    [
-     "Reinforcement Learning",
-     3.2
+     3.7
     ],
     [
      "Security Compliance (SOC 2, ISO, FedRAMP)",
-     2.8
+     3.1
+    ],
+    [
+     "Reinforcement Learning",
+     3.1
     ]
    ],
    "top_hubs": [
@@ -66,16 +66,16 @@
    ],
    "recent_models": [
     [
+     "2026-11-09",
+     "Claude Fable 5.2"
+    ],
+    [
+     "2026-11-09",
+     "Claude Mythos 5.2"
+    ],
+    [
      "2026-09-28",
      "Claude Sonnet 5.5"
-    ],
-    [
-     "2026-09-22",
-     "Claude Opus 5.5"
-    ],
-    [
-     "2026-09-01",
-     "Claude Fable 5.1"
     ]
    ],
    "financials": null,
@@ -146,7 +146,7 @@
      "1.4× the share at the other three companies",
      "197 new in the last 13 weeks vs 95 in the 13 weeks before"
     ],
-    "strength": 452.65
+    "strength": 452.51
    },
    {
     "key_fact": "7 → 24 new roles per 13 weeks (3.4×)",
@@ -160,7 +160,7 @@
     "confidence": "likely",
     "open_roles": 26,
     "share_of_open": 0.039,
-    "lift_vs_peers": 3.54,
+    "lift_vs_peers": 3.41,
     "new_13w": 24,
     "prior_13w": 7,
     "growth": 3.43,
@@ -187,10 +187,10 @@
     "corroboration": [],
     "signal": [
      "26 open roles (4% of Anthropic's open postings)",
-     "3.5× the share at the other three companies",
+     "3.4× the share at the other three companies",
      "24 new in the last 13 weeks vs 7 in the 13 weeks before"
     ],
-    "strength": 441.5
+    "strength": 425.25
    },
    {
     "key_fact": "46 → 65 new roles per 13 weeks (1.4×)",
@@ -205,7 +205,7 @@
     "confidence": "likely",
     "open_roles": 62,
     "share_of_open": 0.094,
-    "lift_vs_peers": 4.4,
+    "lift_vs_peers": 4.36,
     "new_13w": 65,
     "prior_13w": 46,
     "growth": 1.41,
@@ -249,7 +249,7 @@
     "confidence": "likely",
     "open_roles": 19,
     "share_of_open": 0.029,
-    "lift_vs_peers": 1.67,
+    "lift_vs_peers": 1.86,
     "new_13w": 26,
     "prior_13w": 5,
     "growth": 5.2,
@@ -276,10 +276,10 @@
     "corroboration": [],
     "signal": [
      "19 open roles (3% of Anthropic's open postings)",
-     "1.7× the share at the other three companies",
+     "1.9× the share at the other three companies",
      "26 new in the last 13 weeks vs 5 in the 13 weeks before"
     ],
-    "strength": 151.96
+    "strength": 169.91
    }
   ],
   "expansions": [
@@ -444,15 +444,15 @@
     ],
     [
      "Causal Inference & Experimentation",
-     4.3
+     4.2
     ],
     [
      "Observability",
-     2.7
+     2.8
     ],
     [
      "Go-to-Market Strategy",
-     2.5
+     2.6
     ]
    ],
    "top_hubs": [
@@ -484,7 +484,7 @@
     ],
     [
      "2026-09-22",
-     "GPT-6 Luna"
+     "GPT-6 Luna Decisions"
     ]
    ],
    "financials": null,
@@ -494,9 +494,9 @@
     "change_pct": 127,
     "source": "EPO Open Patent Services (publications naming the company as applicant)",
     "recent_patent_titles": [
+     "Assisted debugging with generative response engine",
      "Conditional inference-time policy enforcement system for generative ai models",
      "Detecting vulnerabilities in code commits utilizing generative model agents",
-     "Assisted debugging with generative response engine",
      "Remote control and monitoring of a locally executing generative agent",
      "Obfuscating and mediating sensitive credentials for generative agent environments",
      "Safety engine processing of generative response engine output"
@@ -543,21 +543,21 @@
     ],
     "corroboration": [
      {
+      "date": "2026-11-18",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "source": "OpenAI newsroom"
+     },
+     {
+      "date": "2026-11-17",
+      "title": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "source": "OpenAI newsroom"
+     },
+     {
       "date": "2026-11-16",
       "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
       "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "source": "OpenAI newsroom"
-     },
-     {
-      "date": "2026-11-16",
-      "title": "The King’s Trust and OpenAI launch £1m partnership",
-      "url": "https://openai.com/index/the-kings-trust-and-openai",
-      "source": "OpenAI newsroom"
-     },
-     {
-      "date": "2026-11-12",
-      "title": "Gondola doubles revenue as its team builds more with Codex",
-      "url": "https://openai.com/business/customer-stories/gondola",
       "source": "OpenAI newsroom"
      }
     ],
@@ -566,7 +566,7 @@
      "1.7× the share at the other three companies",
      "239 new in the last 13 weeks vs 199 in the 13 weeks before"
     ],
-    "strength": 456.98
+    "strength": 456.76
    },
    {
     "key_fact": "69 open roles, 13.7× the share at peers",
@@ -606,6 +606,12 @@
     ],
     "corroboration": [
      {
+      "date": "2026-11-12",
+      "title": "ChatGPT Ads increases its market presence in 44 countries",
+      "url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+      "source": "OpenAI newsroom"
+     },
+     {
       "date": "2026-10-28",
       "title": "Evernote turns AI-driven discovery into paid subscriptions",
       "url": "https://openai.com/ads/customers/evernote",
@@ -615,12 +621,6 @@
       "date": "2026-10-21",
       "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "source": "OpenAI newsroom"
-     },
-     {
-      "date": "2026-10-21",
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "source": "OpenAI newsroom"
      }
     ],
@@ -686,7 +686,7 @@
     "confidence": "confirmed",
     "open_roles": 103,
     "share_of_open": 0.123,
-    "lift_vs_peers": 1.55,
+    "lift_vs_peers": 1.58,
     "new_13w": 99,
     "prior_13w": 58,
     "growth": 1.71,
@@ -712,21 +712,21 @@
     ],
     "corroboration": [
      {
+      "date": "2026-11-18",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "source": "OpenAI newsroom"
+     },
+     {
+      "date": "2026-11-18",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "source": "OpenAI newsroom"
+     },
+     {
       "date": "2026-11-16",
       "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
       "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "source": "OpenAI newsroom"
-     },
-     {
-      "date": "2026-11-16",
-      "title": "The King’s Trust and OpenAI launch £1m partnership",
-      "url": "https://openai.com/index/the-kings-trust-and-openai",
-      "source": "OpenAI newsroom"
-     },
-     {
-      "date": "2026-11-10",
-      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-      "url": "https://openai.com/index/cogent-security",
       "source": "OpenAI newsroom"
      }
     ],
@@ -735,7 +735,7 @@
      "1.6× the share at the other three companies",
      "99 new in the last 13 weeks vs 58 in the 13 weeks before"
     ],
-    "strength": 273.28
+    "strength": 277.31
    }
   ],
   "expansions": [
@@ -956,15 +956,15 @@
     ],
     [
      "Networking Hardware (InfiniBand, Ethernet)",
-     7.8
-    ],
-    [
-     "Deep Learning",
-     5.9
+     6.6
     ],
     [
      "Parallel Programming",
-     5.8
+     5.9
+    ],
+    [
+     "Deep Learning",
+     5.7
     ]
    ],
    "top_hubs": [
@@ -983,7 +983,7 @@
    ],
    "nearest_peer": [
     "OpenAI",
-    0.5789
+    0.5751
    ],
    "recent_models": [
     [
@@ -1006,17 +1006,17 @@
     "rnd_usd_b": 7.1
    },
    "patents": {
-    "patent_publications_last_4_quarters": 1799,
+    "patent_publications_last_4_quarters": 1807,
     "patent_publications_4_quarters_before": 1048,
     "change_pct": 72,
     "source": "EPO Open Patent Services (publications naming the company as applicant)",
     "recent_patent_titles": [
+     "Image synthesis using one or more neural networks",
      "Identity-based speaker targeting for automatic speech translation systems and applications",
      "Interposer on pcb system assembly",
      "Compiler-scheduled triangular update neural network",
      "Method to compensate supply voltage fluctuation in an integrated circuit",
-     "Bi-directional optical interconnect",
-     "3d medical imaging simulation using generative ai"
+     "Bi-directional optical interconnect"
     ]
    },
    "funding": []
@@ -1033,7 +1033,7 @@
     "confidence": "confirmed",
     "open_roles": 227,
     "share_of_open": 0.085,
-    "lift_vs_peers": 4.34,
+    "lift_vs_peers": 4.19,
     "new_13w": 198,
     "prior_13w": 28,
     "growth": 7.07,
@@ -1059,6 +1059,12 @@
     ],
     "corroboration": [
      {
+      "date": "2026-11-16",
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "url": "https://blogs.nvidia.com/blog/lambda-photonics/",
+      "source": "NVIDIA newsroom"
+     },
+     {
       "date": "2026-11-09",
       "title": "NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion",
       "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion",
@@ -1073,7 +1079,7 @@
     ],
     "signal": [
      "227 open roles (9% of NVIDIA's open postings)",
-     "4.3× the share at the other three companies",
+     "4.2× the share at the other three companies",
      "198 new in the last 13 weeks vs 28 in the 13 weeks before"
     ],
     "strength": 2724
@@ -1089,7 +1095,7 @@
     "confidence": "likely",
     "open_roles": 111,
     "share_of_open": 0.042,
-    "lift_vs_peers": 9.99,
+    "lift_vs_peers": 7.72,
     "new_13w": 107,
     "prior_13w": 3,
     "growth": 35.67,
@@ -1116,7 +1122,7 @@
     "corroboration": [],
     "signal": [
      "111 open roles (4% of NVIDIA's open postings)",
-     "10.0× the share at the other three companies",
+     "7.7× the share at the other three companies",
      "107 new in the last 13 weeks vs 3 in the 13 weeks before"
     ],
     "strength": 1332
@@ -1132,7 +1138,7 @@
     "confidence": "confirmed",
     "open_roles": 65,
     "share_of_open": 0.024,
-    "lift_vs_peers": 3.65,
+    "lift_vs_peers": 3.92,
     "new_13w": 60,
     "prior_13w": 4,
     "growth": 15.0,
@@ -1172,10 +1178,10 @@
     ],
     "signal": [
      "65 open roles (2% of NVIDIA's open postings)",
-     "3.7× the share at the other three companies",
+     "3.9× the share at the other three companies",
      "60 new in the last 13 weeks vs 4 in the 13 weeks before"
     ],
-    "strength": 1140.18
+    "strength": 1221.77
    },
    {
     "key_fact": "24 → 319 new roles per 13 weeks (13.3×)",
@@ -1225,7 +1231,7 @@
      "0.6× the share at the other three companies",
      "319 new in the last 13 weeks vs 24 in the 13 weeks before"
     ],
-    "strength": 568.21
+    "strength": 568.68
    }
   ],
   "expansions": []
@@ -1238,10 +1244,10 @@
    "size": {
     "metric": "Google open roles",
     "week": "2026-11-16",
-    "value": 3001.0
+    "value": 3081.5
    },
-   "postings_analysed": 900,
-   "change_6m_pct": -26,
+   "postings_analysed": 911,
+   "change_6m_pct": -24,
    "forecast_next_8_weeks_pct": -1,
    "technical_share_pct": 40,
    "pay_mid_usd": null,
@@ -1252,11 +1258,11 @@
     ],
     [
      "Infrastructure & SRE",
-     12
+     13
     ],
     [
      "Software Engineering",
-     8
+     10
     ]
    ],
    "distinctive_skills": [
@@ -1265,22 +1271,22 @@
      5.6
     ],
     [
+     "Generative AI",
+     3.8
+    ],
+    [
      "Google Cloud",
-     3.6
+     3.5
     ],
     [
      "People Management",
-     3.6
-    ],
-    [
-     "Generative AI",
      3.5
     ]
    ],
    "top_hubs": [
     [
      "Singapore",
-     8
+     7
     ],
     [
      "Tokyo",
@@ -1288,12 +1294,12 @@
     ],
     [
      "Bangalore",
-     5
+     6
     ]
    ],
    "nearest_peer": [
     "OpenAI",
-    0.5912
+    0.589
    ],
    "recent_models": [
     [
@@ -1316,153 +1322,149 @@
     "rnd_usd_b": 20.6
    },
    "patents": {
-    "patent_publications_last_4_quarters": 4102,
+    "patent_publications_last_4_quarters": 4145,
     "patent_publications_4_quarters_before": 5049,
-    "change_pct": -19,
+    "change_pct": -18,
     "source": "EPO Open Patent Services (publications naming the company as applicant)",
     "recent_patent_titles": [
-     "Reduction of image artifacts in virtual and extended reality systems",
-     "Bidirectional image-to-video generation",
-     "Simultaneous translation with dynamic language adaptation during a virtual meeting",
-     "Artificial intelligence satellite module optical communication system",
-     "Synthesized speech for language translation in a virtual meeting",
-     "Machine learning based optimization of search and identification of media effects"
+     "Low latency integration of contextually relevant content within artificial intelligence generated responses",
+     "Efficient processing of data requests",
+     "Artificial intelligence (ai) generated answer with an embedded content item",
+     "Next intent content targeting for search artificial intelligence (ai) assistant",
+     "Uniform resource identifier discovery system",
+     "Multi-level redundancy in die-to-die"
     ]
    },
    "funding": []
   },
   "claims": [
    {
-    "key_fact": "43 open roles, 4.2× the share at peers",
+    "key_fact": "32 open roles, 3.1× the share at peers",
     "concentrated_in": [
      "Tel Aviv",
-     "Haifa",
-     "Bangalore"
+     "Haifa"
     ],
     "id": "chips",
     "label": "Designing its own chips",
     "reading": "Chip-design and verification roles mean in-house silicon, which cuts dependence on GPU suppliers.",
     "confidence": "likely",
-    "open_roles": 43,
-    "share_of_open": 0.048,
-    "lift_vs_peers": 4.22,
+    "open_roles": 32,
+    "share_of_open": 0.035,
+    "lift_vs_peers": 3.1,
     "new_13w": null,
     "prior_13w": null,
     "growth": null,
     "cities": [
      [
       "Tel Aviv",
-      20
+      16
      ],
      [
       "Haifa",
-      20
+      16
      ],
      [
       "Bangalore",
-      9
+      6
      ]
     ],
     "examples": [
-     "Physical Design Lead, Static Timing Analysis",
-     "Senior Design Verification Engineer, gCPU",
-     "Physical Design Lead, Google Cloud",
-     "Senior Design Verification Engineer, MicroLED/VR"
+     "Senior Design Verification Engineer, MicroLED/VR",
+     "Senior Design Verification Engineer, Google Cloud",
+     "Silicon Manufacturing Intern, 2027",
+     "Lead CPU Design Verification Engineer, gCPU"
     ],
     "corroboration": [],
     "signal": [
-     "43 open roles (5% of Google's open postings)",
-     "4.2× the share at the other three companies"
+     "32 open roles (4% of Google's open postings)",
+     "3.1× the share at the other three companies"
     ],
-    "strength": 275.2
+    "strength": 158.69
    },
    {
-    "key_fact": "25 open roles, 1.7× the share at peers",
+    "key_fact": "22 open roles, 1.5× the share at peers",
     "concentrated_in": [
-     "Sunnyvale",
-     "Reston",
-     "Atlanta"
+     "Sunnyvale"
     ],
     "id": "dc_build",
     "label": "Building its own data centers",
     "reading": "Power, cooling, construction and site roles mean the company is building or running its own compute sites instead of only renting cloud capacity.",
     "confidence": "likely",
-    "open_roles": 25,
-    "share_of_open": 0.028,
-    "lift_vs_peers": 1.74,
+    "open_roles": 22,
+    "share_of_open": 0.024,
+    "lift_vs_peers": 1.51,
     "new_13w": null,
     "prior_13w": null,
     "growth": null,
     "cities": [
      [
       "Sunnyvale",
-      6
-     ],
-     [
-      "Reston",
-      6
+      5
      ],
      [
       "Atlanta",
-      6
+      4
+     ],
+     [
+      "Reston",
+      4
      ]
     ],
     "examples": [
-     "Data Center Operations Manager",
-     "Data Center Operations Manager, Custom Search Configuration Service Deployments",
-     "Data Center Operations Manager, CSCS Deployments",
-     "Data Center Operations Manager, Global Server Operations"
+     "Technical Program Manager, Data Center Construction/Projects",
+     "Technical Program Manager, Data Center Infrastructure Delivery",
+     "Data Center Electrical Engineer",
+     "Data Center Operations Facilities Manager"
     ],
     "corroboration": [],
     "signal": [
-     "25 open roles (3% of Google's open postings)",
-     "1.7× the share at the other three companies"
+     "22 open roles (2% of Google's open postings)",
+     "1.5× the share at the other three companies"
     ],
-    "strength": 69.44
+    "strength": 53.13
    },
    {
-    "key_fact": "15 open roles",
+    "key_fact": "17 open roles",
     "concentrated_in": [
      "Washington",
-     "Reston",
-     "New York"
+     "Reston"
     ],
     "id": "government",
     "label": "Selling to government and defense",
     "reading": "Security-clearance and public-sector roles point to contracts with government and defense customers, which need cleared staff on site.",
     "confidence": "watch",
-    "open_roles": 15,
-    "share_of_open": 0.017,
-    "lift_vs_peers": 1.16,
+    "open_roles": 17,
+    "share_of_open": 0.019,
+    "lift_vs_peers": 1.3,
     "new_13w": null,
     "prior_13w": null,
     "growth": null,
     "cities": [
      [
       "Washington",
-      7
+      9
      ],
      [
       "Reston",
-      4
+      7
      ],
      [
-      "New York",
+      "Austin",
       3
      ]
     ],
     "examples": [
-     "Field Sales Representative, South Texas Local, Google Public Sector",
-     "Manager, Emerging Market Policy Campaigns, Government Affairs and Public Policy (English, Portuguese)",
-     "Manager, Campaigns and Advocacy, Government Affairs and Public Policy",
-     "Field Sales Representative, U.S. Department of Energy, Google Public Sector"
+     "Customer Engineer, Platform, Public Sector, Google Cloud",
+     "Customer Engineer, Platform, Federal Financials, Google Public Sector",
+     "Customer Engineer, Databases, Google Public Sector",
+     "Manager, Campaigns and Advocacy, Government Affairs and Public Policy"
     ],
     "corroboration": [],
     "signal": [
-     "15 open roles (2% of Google's open postings)",
-     "1.2× the share at the other three companies"
+     "17 open roles (2% of Google's open postings)",
+     "1.3× the share at the other three companies"
     ],
-    "strength": 27.79
+    "strength": 35.26
    }
   ],
   "expansions": []

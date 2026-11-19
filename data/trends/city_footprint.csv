@@ -224,120 +224,125 @@ Figure AI,San Jose,US,37.33939,-121.89496,81
 Figure AI,Santa Clara,US,37.35411,-121.95524,6
 Figure AI,São Paulo,BR,-23.5475,-46.63611,7
 Google,Abu Dhabi,AE,24.45118,54.39696,1
-Google,Addison,US,41.9317,-87.98896,26
+Google,Accra,GH,5.55602,-0.1969,1
+Google,Addison,US,41.9317,-87.98896,27
 Google,Amsterdam,NL,52.37403,4.88969,4
 Google,Ann Arbor,US,42.27756,-83.74088,10
-Google,Atlanta,US,33.749,-84.38798,72
-Google,Austin,US,30.26715,-97.74306,78
-Google,Bangkok,TH,13.75398,100.50144,1
+Google,Atlanta,US,33.749,-84.38798,69
+Google,Austin,US,30.26715,-97.74306,71
 Google,Bellevue,US,47.61038,-122.20068,4
-Google,Belo Horizonte,BR,-19.92083,-43.93778,8
-Google,Beloit,US,42.50835,-89.03178,3
-Google,Bengaluru,IN,12.97194,77.59369,55
-Google,Berlin,DE,52.52437,13.41053,12
+Google,Belo Horizonte,BR,-19.92083,-43.93778,9
+Google,Beloit,US,42.50835,-89.03178,2
+Google,Bengaluru,IN,12.97194,77.59369,58
+Google,Berlin,DE,52.52437,13.41053,15
 Google,Bogotá,CO,4.60971,-74.08175,3
-Google,Boulder,US,40.01499,-105.27055,40
-Google,Bridgeport,US,41.17923,-73.18945,4
-Google,Buenos Aires,AR,-34.61315,-58.37723,3
+Google,Boulder,US,40.01499,-105.27055,37
+Google,Brasília,BR,-15.77972,-47.92972,1
+Google,Bridgeport,US,41.17923,-73.18945,1
+Google,Buenos Aires,AR,-34.61315,-58.37723,4
 Google,Calgary,CA,51.05011,-114.08529,1
 Google,Cambridge,US,42.3751,-71.10561,43
-Google,Canberra,AU,-35.28346,149.12807,37
-Google,Chicago,US,41.85003,-87.65005,64
+Google,Canberra,AU,-35.28346,149.12807,38
+Google,Chang-hua,TW,24.07327,120.56276,1
+Google,Chicago,US,41.85003,-87.65005,70
 Google,Clarksville,US,36.52977,-87.35945,1
-Google,Columbus,US,39.96118,-82.99879,3
-Google,Council Bluffs,US,41.26194,-95.86083,6
-Google,Dallas,US,32.78306,-96.80667,3
+Google,Columbus,US,39.96118,-82.99879,5
+Google,Council Bluffs,US,41.26194,-95.86083,3
+Google,Dallas,US,32.78306,-96.80667,2
+Google,Delhi,IN,28.65195,77.23149,1
 Google,Detroit,US,42.33143,-83.04575,3
-Google,Dublin,IE,53.33306,-6.24889,51
-Google,Durham,US,35.99403,-78.89862,9
+Google,Dublin,IE,53.33306,-6.24889,50
+Google,Durham,US,35.99403,-78.89862,8
 Google,Fort Wayne,US,41.1306,-85.12886,1
-Google,Frankfurt am Main,DE,50.11552,8.68417,12
+Google,Frankfurt am Main,DE,50.11552,8.68417,11
 Google,Fremont,US,37.54827,-121.98857,1
-Google,Goleta,US,34.43583,-119.82764,9
-Google,Gurugram,IN,28.4601,77.02635,16
-Google,Haifa,IL,32.81303,34.99928,34
-Google,Hamburg,DE,53.55073,9.99302,8
-Google,Henderson,US,36.0397,-114.98194,3
+Google,Goleta,US,34.43583,-119.82764,7
+Google,Grenoble,FR,45.17869,5.71479,1
+Google,Gurugram,IN,28.4601,77.02635,14
+Google,Haifa,IL,32.81303,34.99928,31
+Google,Hamburg,DE,53.55073,9.99302,10
+Google,Henderson,US,36.0397,-114.98194,1
 Google,Ho Chi Minh City,VN,10.82302,106.62965,1
-Google,Houston,US,29.76328,-95.36327,10
+Google,Hong Kong,HK,22.27832,114.17469,1
+Google,Houston,US,29.76328,-95.36327,7
 Google,Hutto,US,30.5427,-97.54667,1
-Google,Hyderabad,IN,17.38405,78.45636,42
-Google,Irvine,US,33.66946,-117.82311,15
+Google,Hyderabad,IN,17.38405,78.45636,41
+Google,Inzai,JP,35.83479,140.16361,1
+Google,Irvine,US,33.66946,-117.82311,13
 Google,Jakarta,ID,-6.21462,106.84513,1
-Google,Kansas City,US,39.09973,-94.57857,4
+Google,Kansas City,US,39.09973,-94.57857,2
 Google,Karachi,PK,24.8608,67.0104,1
 Google,Kirkland,US,47.68149,-122.20874,47
-Google,Kraków,PL,50.06143,19.93658,3
-Google,Lancaster,US,34.69804,-118.13674,4
+Google,Kraków,PL,50.06143,19.93658,4
+Google,Lancaster,US,34.69804,-118.13674,1
 Google,Leesburg,US,39.11566,-77.5636,2
-Google,Lenoir,US,35.91402,-81.53898,3
+Google,Lenoir,US,35.91402,-81.53898,1
 Google,Lincoln,US,40.8,-96.66696,1
-Google,Lithia Springs,US,33.794,-84.66049,2
-Google,London,GB,51.50853,-0.12574,54
+Google,London,GB,51.50853,-0.12574,52
 Google,Los Angeles,US,34.05223,-118.24368,50
-Google,Madison,US,43.07305,-89.40123,10
-Google,Madrid,ES,40.4165,-3.70256,1
-Google,Manchester,GB,53.48095,-2.23743,1
-Google,Mesa,US,33.42227,-111.82264,4
-Google,Mexico City,MX,19.42847,-99.12766,6
-Google,Miami,US,25.77427,-80.19366,10
-Google,Midlothian,US,32.48236,-96.99445,6
+Google,Madison,US,43.07305,-89.40123,9
+Google,Madrid,ES,40.4165,-3.70256,2
+Google,Mesa,US,33.42227,-111.82264,1
+Google,Mexico City,MX,19.42847,-99.12766,5
+Google,Miami,US,25.77427,-80.19366,12
+Google,Midlothian,US,32.48236,-96.99445,2
 Google,Montréal,CA,45.50884,-73.58781,3
-Google,Mountain View,US,37.38605,-122.08385,63
+Google,Mountain View,US,37.38605,-122.08385,72
 Google,Mumbai,IN,19.07283,72.88261,8
-Google,Munich,DE,48.13743,11.57549,26
+Google,Munich,DE,48.13743,11.57549,28
 Google,New Britain,US,41.66121,-72.77954,1
 Google,New Brunswick,US,40.48622,-74.45182,1
 Google,New Taipei City,TW,25.06199,121.45703,3
-Google,New York City,US,40.71427,-74.00597,118
+Google,New York City,US,40.71427,-74.00597,116
 Google,Oklahoma City,US,35.46756,-97.51643,1
 Google,Omaha,US,41.25626,-95.94043,1
 Google,Ontario,US,34.06334,-117.65089,2
 Google,Ottawa,CA,45.41117,-75.69812,2
-Google,Palo Alto,US,37.44188,-122.14302,7
-Google,Papillion,US,41.15444,-96.04224,2
+Google,Palo Alto,US,37.44188,-122.14302,6
 Google,Paris,FR,48.85341,2.3488,21
 Google,Pittsburgh,US,40.44062,-79.99589,19
-Google,Portland,US,45.52345,-122.67621,10
-Google,Poughkeepsie,US,41.70037,-73.92097,4
-Google,Princeton,US,25.53844,-80.40894,2
-Google,Raleigh,US,35.7721,-78.63861,9
+Google,Portland,US,45.52345,-122.67621,8
+Google,Poughkeepsie,US,41.70037,-73.92097,1
+Google,Princeton,US,25.53844,-80.40894,1
+Google,Pune,IN,18.51957,73.85535,1
+Google,Raleigh,US,35.7721,-78.63861,8
 Google,Redmond,US,47.67399,-122.12151,4
 Google,Redwood City,US,37.48522,-122.23635,4
-Google,Reno,US,39.52963,-119.8138,2
-Google,Reston,US,38.96872,-77.3411,29
+Google,Reno,US,39.52963,-119.8138,1
+Google,Reston,US,38.96872,-77.3411,32
 Google,Saint George,US,37.10415,-113.58412,1
-Google,San Bruno,US,37.63049,-122.41108,22
+Google,San Bruno,US,37.63049,-122.41108,17
 Google,San Diego,US,32.71571,-117.16472,5
-Google,San Francisco,US,37.77493,-122.41942,67
-Google,San Jose,US,37.33939,-121.89496,16
+Google,San Francisco,US,37.77493,-122.41942,62
+Google,San Jose,US,37.33939,-121.89496,12
 Google,San Salvador,SV,13.68935,-89.18718,1
 Google,Santa Cruz,US,36.97412,-122.0308,4
 Google,Santiago,CL,-33.45694,-70.64827,3
-Google,Seattle,US,47.60621,-122.33207,56
-Google,Singapore,SG,1.28967,103.85007,70
+Google,Seattle,US,47.60621,-122.33207,46
+Google,Singapore,SG,1.28967,103.85007,67
 Google,Singānallūr,IN,10.99898,77.03238,1
 Google,South San Francisco,US,37.65466,-122.40775,3
-Google,Sparks,US,39.53491,-119.75269,3
+Google,Sparks,US,39.53491,-119.75269,1
 Google,Sterling,US,39.00622,-77.4286,7
-Google,Stockholm,SE,59.32938,18.06871,1
-Google,Sunnyvale,US,37.36883,-122.03635,95
-Google,São Paulo,BR,-23.5475,-46.63611,39
+Google,Stockholm,SE,59.32938,18.06871,2
+Google,Sungai Buloh,MY,3.21,101.561,1
+Google,Sunnyvale,US,37.36883,-122.03635,90
+Google,São Paulo,BR,-23.5475,-46.63611,38
 Google,Taguig,PH,14.5243,121.0792,1
-Google,Taipei,TW,25.05306,121.52639,29
-Google,Tel Aviv,IL,32.08088,34.78057,40
-Google,Thornton,US,39.86804,-104.97192,14
+Google,Taipei,TW,25.05306,121.52639,28
+Google,Tel Aviv,IL,32.08088,34.78057,43
+Google,Thornton,US,39.86804,-104.97192,18
 Google,Tokyo,JP,35.6895,139.69171,51
-Google,Toronto,CA,43.70643,-79.39864,19
+Google,Toronto,CA,43.70643,-79.39864,21
 Google,Vancouver,CA,49.24966,-123.11934,1
 Google,Warsaw,PL,52.22977,21.01178,40
-Google,Washington,US,38.89511,-77.03637,45
-Google,Waterloo,CA,43.4668,-80.51639,18
+Google,Washington,US,38.89511,-77.03637,42
+Google,Waterloo,CA,43.4668,-80.51639,21
 Google,West Memphis,US,35.14648,-90.18454,1
-Google,Wrocław,PL,51.10286,17.03006,7
+Google,Wrocław,PL,51.10286,17.03006,6
 Google,Wyoming,US,42.91336,-85.70531,1
 Google,Zhubei,TW,24.83833,121.00778,1
-Google,Zürich,CH,47.36667,8.55,36
+Google,Zürich,CH,47.36667,8.55,40
 Harvey,Bengaluru,IN,12.97194,77.59369,9
 Harvey,Berlin,DE,52.52437,13.41053,3
 Harvey,Boston,US,42.35843,-71.05977,9

@@ -40,3 +40,4 @@ run_started_utc,company,source,requests,postings_in_snapshot,postings_total_merg
 2026-11-16T14:47:42+00:00,Sierra,ashby_posting_api,1,197,218,197,0,False,
 2026-11-16T14:47:43+00:00,Decagon,ashby_posting_api,1,124,133,124,0,False,
 2026-11-16T14:47:43+00:00,Figure AI,greenhouse_job_board_api,1,105,107,105,0,False,
+2026-11-19T15:39:04+00:00,Google,google_careers_results_unpaginated,132,911,2099,911,0,False,"v2: 130 slices; full-flow coverage weekly 123/130, twice-weekly 128/130; board total=3162"

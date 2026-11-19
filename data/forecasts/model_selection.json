@@ -29,10 +29,10 @@
   },
   "google_open": {
     "model": "snaive",
-    "mase": 3.24,
-    "naive_mase": 3.956,
-    "skill_vs_naive": 0.181,
-    "mean_bias_h8": 70.4,
+    "mase": 3.236,
+    "naive_mase": 3.939,
+    "skill_vs_naive": 0.179,
+    "mean_bias_h8": 73.9,
     "arima_order": [
       1,
       1,
